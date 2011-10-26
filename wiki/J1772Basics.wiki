@@ -15,7 +15,7 @@ The J1772 Pilot is a 1khz +12V to -12V square wave, the voltage defines the stat
 || State || Pilot Voltage || EV Resistance || Description || 
 || State A || 12 || N/A || Not Connected || 
 || State B || 9 || 2.74k || Connected || 
-|| State C || 6 || 886 || Charging || 
+|| State C || 6 || 882 || Charging || 
 ||State D || 3 || 246 || Ventilation Required || 
 
 
