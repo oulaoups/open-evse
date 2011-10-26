@@ -1,0 +1,20 @@
+#labels Phase-Requirements
+#Basics of the J1772 Standard.
+
+= Introduction =
+
+Basics of the J1772 standard.
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+
+|| State || Voltage || EV Pilot resistance || Description || 
+|| State A || 12 || N/A || Not Connected || 
+|| State B || 9 || 2.74k || Connected || 
+|| State C || 6 || 886 || Charging || 
+||State D || 3 || 246 || Ventelation Required || 
