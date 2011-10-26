@@ -1,6 +1,4 @@
 #labels Phase-Requirements
-#Basics of the J1772 Standard.
-
 = Introduction =
 
 Basics of the J1772 standard.
