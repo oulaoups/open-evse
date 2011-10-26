@@ -7,7 +7,7 @@ Basics of the J1772 standard.
 
 || || Voltage || Max Current || 
 || Level 1 (L1) || 120VAC || 12A ||
-|| Level 1 (L2) || 208 - 240VAC || 80A ||
+|| Level 2 (L2) || 208 - 240VAC || 80A ||
 
 = Pilot =
 The J1772 Pilot is a 1khz +12V to -12V square wave, the voltage defines the state and the duty cycle defines the current available to the EV. The EVSE sets the duty cycle and the EV adds resistance from the pilot the Ground to vary the voltage. The EVSE reads the voltage and changes state accordingly.
