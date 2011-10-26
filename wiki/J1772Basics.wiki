@@ -17,4 +17,4 @@ Add your content here.  Format your content with:
 || State A || 12 || N/A || Not Connected || 
 || State B || 9 || 2.74k || Connected || 
 || State C || 6 || 886 || Charging || 
-||State D || 3 || 246 || Ventelation Required || 
+||State D || 3 || 246 || Ventilation Required || 
