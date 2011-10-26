@@ -5,16 +5,17 @@
 
 Basics of the J1772 standard.
 
-= Details =
+= Pilot =
+The J1772 Pilot is a 1khz +12V to -12V square wave, the voltage defines the state and the duty cycle defines the current available to the EV. The EVSE sets the duty cycle and the EV adds resistance from the pilot the Ground to vary the voltage. The EVSE reads the voltage and changes state accordingly.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
-
-|| State || Voltage || EV Pilot resistance || Description || 
+|| State || Pilot Voltage || EV Resistance || Description || 
 || State A || 12 || N/A || Not Connected || 
 || State B || 9 || 2.74k || Connected || 
 || State C || 6 || 886 || Charging || 
 ||State D || 3 || 246 || Ventilation Required || 
+
+
+
+*Pilot - State - 24A*
+
+<a href="http://www.flickr.com/photos/60192309@N05/5494981337/" title="24 Amp - Charging by chris1howell, on Flickr"><img src="http://farm6.static.flickr.com/5219/5494981337_cc57267a87.jpg" width="375" height="500"</a>
