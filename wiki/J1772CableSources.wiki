@@ -9,5 +9,5 @@
 || EVC-C-30A-600-20 || ITT || L1/L2 || 30A || Yes || 20' || $260 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-30A-600S-20||
 || EVC-C-75A-600-20 || ITT || L1/L2 || 75A || Yes || 20' || $330 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-75A-600S-20/||
 || Plug alone || Unknown || L1/L2 || 70A || No ||0' || $170 || http://www.tucsonev.com/index.html ||
-|| Plug with Cord || Unknown || L1/L2 || 30A || No || 26' || $230 || http://www.tucsonev.com/index.html ||
+|| Plug with Cord || Unknown || L1/L2 || 30A || No || 20' || $230 || http://www.tucsonev.com/index.html ||
 || Plug with Cord || Unknown || L1/L2 || 70A || No || 26' || $250 || http://www.tucsonev.com/index.html ||
