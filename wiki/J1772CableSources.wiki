@@ -1,6 +1,5 @@
-#summary Cables avalible in low quantity
+#summary Cables available in low quantity
 #labels Featured
-
 #J1772 Cable Sources
 
 = Sources =
