@@ -1,5 +1,5 @@
 #summary GFCI for the EVSE.
-#labels Featured,Phase-Requirements
+#labels Phase-Requirements
 
 = Introduction =
 
