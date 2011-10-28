@@ -1,0 +1,8 @@
+#summary How to load firmware to the Open-EVSE.
+
+= Introduction =
+
+Loading firmware to the Open-EVSE requires an ISP. There are many AVR compatable programers avalible. The USBtinyISP from Adafruit is a good choice, it is inexpensive and open. http://www.ladyada.net/make/usbtinyisp/
+<img src="http://farm2.static.flickr.com/1388/531946274_b6aec192ba.jpg">
+
+= Details =
