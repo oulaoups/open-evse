@@ -6,4 +6,4 @@ Loading firmware to the Open-EVSE requires an ISP. There are many AVR compatable
 <img src="http://farm2.static.flickr.com/1388/531946274_b6aec192ba.jpg">
 
 = Software =
-You will also need software compatible with your ISP such as Avrdude or the Arduino IDE. To set up the ARDUINO IDE for use with an ISP check out lincomatic's blog. http://blog.lincomatic.com/?p=10
+You will also need software compatible with your ISP such as Avrdude or the Arduino IDE. To set up the Arduino IDE for use with an ISP check out lincomatic's blog. http://blog.lincomatic.com/?p=10
