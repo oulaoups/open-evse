@@ -1,3 +1,4 @@
+#summary The Basics of the J1772 pilot protocol
 #labels Phase-Requirements,Featured
 = Introduction =
 
