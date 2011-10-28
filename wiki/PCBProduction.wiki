@@ -1,0 +1,10 @@
+#summary Sites that offer low volume PCB production
+= Introduction =
+So you downloaded a .brd file or created your own... What now?
+
+= Details =
+
+|| Name || Turn around || Made in || Setup Fee || Cost || Shipping || website ||
+|| BatchPCB || 3 - 4 weeks || China || $10 || 2.50sq/in || varies || http://www.batchpcb.com ||
+|| DorkBotPDX || 2 weeks || USA || $0 || $5sq/in for 3 boards || $0 || http://dorkbotpdx.org/wiki/pcb_order ||
+
