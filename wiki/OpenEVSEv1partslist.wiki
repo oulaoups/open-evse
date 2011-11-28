@@ -14,7 +14,7 @@
 || Panasonic || EEA-FC1E100 || Cap (electrolitic) || 10uf ||  || 1 || 0.30 || http://search.digikey.com/us/en/products/EEA-FC1E100/P11212-ND/356116 ||
 || Any || Any || Cap (ceramic) || .1uf ||  || 2 || 0.30 || http://search.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=+399-4266-ND ||
 || Any || Any || Cap (ceramic) || 22pf ||  || 2 || 0.30 || http://search.digikey.com/us/en/products/SR152A220KAR/478-3162-ND/936804 ||
-|| Any || Any || Resistor || 160 ||  || 2 || 0.09 ||
+|| Any || Any || Resistor || 150 ||  || 2 || 0.09 ||
 || Any || Any || Resistor || 180 ||  || 1 || 0.09 || 
 || Any || Any || Resistor || 330 ||  || 2 || 0.09 || 
 || Any || Any || Resistor || 1K 1% ||  || 1 || 0.15 || 
