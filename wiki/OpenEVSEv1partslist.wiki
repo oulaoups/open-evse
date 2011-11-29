@@ -9,7 +9,7 @@
 || Fairchild Semi || KA7805ETU || Vreg || 5V ||  || 1 || 0.65 || http://search.digikey.com/us/en/products/KA7805ETU/KA7805ETU-ND/965381 ||
 || ECS || ECS-160-20-46X || Crystal || 16000 ||  || 1 || 0.46 || http://search.digikey.com/us/en/products/ECS-160-20-46X/XC1759-ND/2676589 ||
 || Fairchild Semi || 1N4148TA || Diode || 1N4148 ||  || 1 || 0.14 || http://search.digikey.com/us/en/products/1N4148TA/1N4148TACT-ND/1532747 ||
-|| Little Fuse || P6KE16CA || TVS Diode || P6KE16CA ||  || 1 || 0.55 || http://search.digikey.com/us/en/products/P6KE16CA/P6KE16CALFCT-ND/407666 ||
+|| Littel Fuse || P6KE16CA || TVS Diode || P6KE16CA ||  || 1 || 0.55 || http://search.digikey.com/us/en/products/P6KE16CA/P6KE16CALFCT-ND/407666 ||
 || Sparkfun || COM-00105 || LED  || RGB CC ||  || 1 || 1.95 || http://www.sparkfun.com/products/105 ||
 || Panasonic || EEA-FC1E100 || Cap (electrolitic) || 10uf ||  || 1 || 0.30 || http://search.digikey.com/us/en/products/EEA-FC1E100/P11212-ND/356116 ||
 || Any || Any || Cap (ceramic) || .1uf ||  || 2 || 0.30 || http://search.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=+399-4266-ND ||
