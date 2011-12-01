@@ -21,6 +21,9 @@ The J1772 Pilot is a 1khz +12V to -12V square wave, the voltage defines the stat
 || State E || 0 || N/A || No power ||
 || State F || -12 || N/A || EVSE Error ||
 
+= Max Current =
+
+
 
 *Pilot - State - 24A*
 
