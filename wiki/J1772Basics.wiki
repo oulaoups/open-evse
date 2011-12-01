@@ -22,6 +22,31 @@ The J1772 Pilot is a 1khz +12V to -12V square wave, the voltage defines the stat
 || State F || -12 || N/A || EVSE Error ||
 
 = Max Current =
+Up to 51A
+Amps = Duty cycle x 0.6
+Duty cycle = Amps / 0.6
+
+51 - 80A
+Amps = (Duty Cycle - 64) * 2.5 
+
+|| Duty Cycle || Max Current ||
+|| < 3% || Error ||
+|| 3% - 7% || Digitial Com Required ||
+|| 10% || 6A ||
+|| 20% || 12A ||
+|| 30% || 18A ||
+|| 40% || 24A ||
+|| 50% || 30A ||
+|| 60% || 36A ||
+|| 70% || 42A ||
+|| 80% || 48A ||
+|| 86% || 55A ||
+|| 88% || 60A ||
+|| 90% || 65A ||
+|| 92% || 70A ||
+|| 94% || 75A ||
+|| 96% || 80A ||
+|| >96 || Error ||
 
 
 
