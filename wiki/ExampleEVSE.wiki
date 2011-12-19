@@ -24,8 +24,8 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 || 12V DC Power Supply || Digikey || $28.00 || 1 || http://search.digikey.com/us/en/products/FSC-S5-12U/102-1573-ND/1699037 ||
 || 30A J1772 cord || see Wiki || $170 - $330 || 1 || http://code.google.com/p/open-evse/wiki/J1772CableSources ||
 || 30A AC Plug L6-30 || StayOnline || $29.00 || 1 || http://www.stayonline.com/detail.aspx?ID=15695 ||
-|| Water proof Enclosure || Home Depot || $6.88 || 1 || http://www.homedepot.com/Cantex/h_d1/N-5yc1vZ591/R-202043434/h_d2/ProductDisplay?langId=-1&storeId=10051&catalogId=10053 ||
-|| Water proof Cable Glands || Poly Case || $3.25 || 2 || http://www.polycase.com/cg-16 ||
+|| NEMA Enclosure || Home Depot || $6.88 || 1 || http://www.homedepot.com/Cantex/h_d1/N-5yc1vZ591/R-202043434/h_d2/ProductDisplay?langId=-1&storeId=10051&catalogId=10053 ||
+|| NEMA Cable Glands || Poly Case || $3.25 || 2 || http://www.polycase.com/cg-16 ||
 
 <a href="http://www.flickr.com/photos/60192309@N05/6140390535/" title="2011-09-09_14-32-39_457 by chris1howell, on Flickr"><img src="http://farm7.static.flickr.com/6178/6140390535_062077ff12.jpg" width="500" height="281"</a>
 
