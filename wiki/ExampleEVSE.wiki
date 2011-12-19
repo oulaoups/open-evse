@@ -4,7 +4,7 @@
 
 This is an example of a 30A EVSE build with the Open EVSE GFCI board. For Open EVSE without GFCI, the Current transformer is not required. 
 
-This should not be attempted with the required skills and knowledge to work with high voltage.
+This should not be attempted by anyone without the required skills and knowledge to work with high voltage.
 
 Open EVSE is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
