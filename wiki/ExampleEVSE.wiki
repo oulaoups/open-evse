@@ -18,7 +18,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 = Parts =
 
 || Part || Source || Cost || Quantity || Link ||
-|| Open EVSE Board || Open EVSE || $60 / $80 || 1 || http://code.google.com/p/open-evse/ ||
+|| Open EVSE Board || Open EVSE || $80 || 1 || http://code.google.com/p/open-evse/ ||
 || 30A Relay || Digikey || $13.00 || 1 || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
 || Current Transformer || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || 12V DC Power Supply || Digikey || $28.00 || 1 || http://search.digikey.com/us/en/products/FSC-S5-12U/102-1573-ND/1699037 ||
