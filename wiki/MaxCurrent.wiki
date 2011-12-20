@@ -1,0 +1,13 @@
+#summary How to change the Max Current.
+
+= Introduction =
+
+There are many ways to change the maximum current offered to the Electric Vehicle, such as serial, USB, Bluetooth, buttons or analog trim pot. This setting is stored in the EVSE as a variable. 
+
+#define MAX_CURRENT_CAPACITY_L2 30
+
+The Max Current setting can be moddified when the firmware is loaded or by  modifing the variable with the FTDI serial port.THe FTDI has access to the microprocessor TTL serial TX and RX. FTDI to USB or FTDI to Bluetooth  are avaliable from Sparkfun.
+
+
+
+= Details =
