@@ -6,8 +6,10 @@ There are many ways to change the maximum current offered to the Electric Vehicl
 
 #define MAX_CURRENT_CAPACITY_L2 30
 
-The Max Current setting can be moddified when the firmware is loaded or by  modifing the variable with the FTDI serial port.THe FTDI has access to the microprocessor TTL serial TX and RX. FTDI to USB or FTDI to Bluetooth  are avaliable from Sparkfun.
+The Max Current setting can be modified when the firmware is loaded or by changing the variable with the FTDI serial port.The FTDI has access to the microprocessor TTL serial TX and RX. FTDI to USB or FTDI to Bluetooth adapters are avaliable from Sparkfun.
 
 
 
-= Details =
+= Examples =
+
+Coming soon
