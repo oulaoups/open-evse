@@ -12,6 +12,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 
 = High Voltage Schematic =
+The Open EVSE relay output is 12VDC. To power the Coil of a high current contactor, one 240V AC relay with a 12VDC coil is used to power the 240V AC coil of the contactor.
 
 <a href="http://www.flickr.com/photos/60192309@N05/6550446647/" title="Untitled by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7165/6550446647_14a4dd680b_z.jpg" width="640" height="289"</a>
 
@@ -24,4 +25,3 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 || Current Transformer || Digikey || $10 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || 12V DC Power Supply || Digikey || $28 || 1 || http://search.digikey.com/us/en/products/FSC-S5-12U/102-1573-ND/1699037 ||
 || 75A J1772 cord || see Wiki || $330 || 1 || http://code.google.com/p/open-evse/wiki/J1772CableSources ||
-
