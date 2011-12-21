@@ -1,0 +1,15 @@
+#summary EVSE Specs.
+
+= Open EVSE =
+Input: 12V DC
+Power: 1.25W Idle (Charging 1.25W + relay load)
+Relay: 12VDC up to 300ma coil > than 50 Ohms
+Pilot output: -12VDC to 12VDC @ 1000hz
+J1772 compatible
+J1772 states supported: ALL (including "Vent Required")
+J1772 diode safety check: YES
+GFCI: 20ma trip
+
+Dimensions: L 55mm (2.25 inch) x 45mm (1.75 inch)
+
+
