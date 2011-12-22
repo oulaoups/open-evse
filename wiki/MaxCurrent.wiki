@@ -11,6 +11,28 @@ The Max Current setting can be modified when the firmware is loaded or by changi
 
 
 = Examples =
+Note: Examples are from older EVSE code, they will need to be updated to work with the curret Open EVSE code.
+
+== Buttons ==
+
+{{{
+#define BTN_amp 3   // button is on digital 3
+int buttonState = LOW;   
+int buttonlastState = LOW;       
+ 
+
+void loop() 
+{
+    buttonState=digitalRead(BTN_amp);   // read button state
+
+
+  if (buttonState==HIGH && buttonlastState==LOW){amp++; // if it was low and now its high add 1 to the current setting
+  }
+if (amp > 7) { //is current setting is higher than 7 go back to 1
+         amp = 1;
+  buttonlastState=buttonState; // save button state as the last state
+  }
+}}}
 
 == Command Line Interface CLI ==
 {{{
