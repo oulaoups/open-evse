@@ -1,4 +1,4 @@
-#summary How to change the Max Current.
+#summary How to change the EVSE Current.
 
 = Introduction =
 
