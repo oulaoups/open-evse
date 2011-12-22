@@ -12,4 +12,143 @@ The Max Current setting can be modified when the firmware is loaded or by changi
 
 = Examples =
 
-Coming soon
+== Command Line Interface CLI ==
+
+int CLIinByte; // CLI byte being read in
+
+char CLIinstr[13]; // CLI byte being read in
+
+int CLIstrCount = 0; //CLI string counter
+
+
+void setup()  {  
+
+Serial.begin(9600);
+
+Serial.println("Open EVSE"); // CLI print prompt when serial is ready
+
+Serial.println("Hardware - Atmel ATMEGA328P-AU"); //CLI Info
+
+Serial.println("Software - Version 1.0"); //CLI info
+
+Serial.println("");
+
+Serial.println("type ? or help for command list");
+
+Serial.print("SimpleEVSE>"); // CLI Prompt
+
+Serial.flush();
+
+} 
+
+void loop()  { 
+
+// Begin CLI
+
+if(Serial.available()) { // if byte(s) are available to be read
+  
+CLIinByte = Serial.read(); // read the byte
+  Serial.print(char(CLIinByte));
+  if(CLIinByte != 13) {
+    CLIinstr[CLIstrCount] = char(CLIinByte);
+    CLIstrCount++;
+  }
+
+  if(CLIinByte == 13) { // if enter was pressed or max chars reached
+    Serial.println(""); // print a newline
+    if (strcmp(CLIinstr, "show") == 0){ //if match SHOW 
+     
+     Serial.println("EVSE Settings");
+
+     Serial.print("MAX current - Amps     = ");
+
+     Serial.println(amp * 4); 
+
+     Serial.println("Sensor Values");
+
+     Serial.print("Pilot High - milivolts = ");
+
+     Serial.println(pilotHigh); // print to the terminal
+
+     Serial.print("Pilot LOW - milivolts  = ");
+
+     Serial.println(pilotLow);
+          
+    } 
+    else if ((strcmp(CLIinstr, "help") == 0) || (strcmp(CLIinstr, "?") == 0)){ // string compare
+     
+Serial.println("Help Commands");
+     
+Serial.println("");
+     Serial.println("help  --   Display commands"); // print to the terminal
+     Serial.println("set   --   Change Settings");
+
+     Serial.println("show  --   Display settings and values");
+
+     Serial.println("save  --   Write settings to memory");
+    } 
+   else if (strcmp(CLIinstr, "set") == 0){ // string compare
+
+    Serial.println("Set Commands - Usage: set current up");
+
+    Serial.println("");
+
+    Serial.println("amp  --  Set the EVSE Max Current"); // print to the terminal
+       } 
+   else if (strcmp(CLIinstr, "set amp") == 0){ // string compare
+
+    Serial.println("WARNING - DO NOT SET CURRENT HIGHER THAN 80% OF YOUR CIRCUIT BREAKER OR"); 
+
+    Serial.println("GREATER THAN THE RATED VALUE OF THE EVSE");
+
+    Serial.println("");
+
+    Serial.println("Usage: set amp up OR set amp down");
+
+    Serial.println("Avaliable settings: 8 12 16 20 24 30");
+   }
+   else if (strcmp(CLIinstr, "set volt") == 0){ // string compare
+    Serial.println("Set Line Voltage for kWh calculation"); // print to the terminal
+   } 
+   else if (strcmp(CLIinstr, "set amp up") == 0){ // string compare
+    amp++;
+    if (amp > 9){
+      amp = 9;
+    }
+    Serial.println("Max Current now: "); // print to the terminal
+
+    Serial.print(amp * 4);
+    Serial.print(" Amps");
+ } 
+   else if (strcmp(CLIinstr, "set amp down") == 0){ // string compare
+    amp--;
+    if (amp < 2){
+      amp = 2;
+    }
+    Serial.println("Max Current now: "); // print to the terminal
+    Serial.print(amp * 4);
+    Serial.print(" Amps");
+   } 
+   else if (strcmp(CLIinstr, "save") == 0){ // string compare
+    Serial.println("Saving Settings"); // print to the terminal
+   } 
+   else { // if the input text doesn't match any defined above
+    Serial.println("Unknown Command -- type ? or help for command list"); // echo back to the terminal
+   } 
+   Serial.println("");
+
+   Serial.println("");
+
+   Serial.print("OpenEVSE>");
+
+   CLIstrCount = 0; // get ready for new input... reset strCount
+   CLIinByte = 0; // reset the inByte variable
+    for(int i = 0; CLIinstr[i] != '\0'; i++) { // while the string does not have null
+    CLIinstr[i] = '\0'; // fill it with null to erase it
+   }
+}
+}
+
+//END CLI
+
+
