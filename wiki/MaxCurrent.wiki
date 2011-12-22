@@ -26,7 +26,7 @@ void loop()
     buttonState=digitalRead(BTN_amp);   // read button state
 
 
-  if (buttonState==HIGH && buttonlastState==LOW){amp++; // if it was low and now its high add 1 to the current setting
+  if (buttonState==HIGH && buttonlastState==LOW){amp++; // if reeding is high add 1 to the current setting
   }
 if (amp > 7) { //is current setting is higher than 7 go back to 1
          amp = 1;
