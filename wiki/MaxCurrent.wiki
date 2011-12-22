@@ -4,6 +4,7 @@
 
 There are many ways to change the maximum current offered to the Electric Vehicle, such as serial, USB, Bluetooth, buttons or analog trim pot. This setting is stored in the EVSE as a variable. 
 
+{{{
 // current capacity in amps  
 #define CURRENT_CAPACITY_L1 12  
 #define CURRENT_CAPACITY_L2 30    
@@ -14,7 +15,7 @@ There are many ways to change the maximum current offered to the Electric Vehicl
 // maximum allowable current in amps  
 #define MAX_CURRENT_CAPACITY_L1 20  
 #define MAX_CURRENT_CAPACITY_L2 30  
-
+}}}
 
 The CURRENT_CAPACITY sets the default current, setting can be modified when the firmware is loaded or by changing the variable with the FTDI serial port. FTDI to USB or FTDI to Bluetooth adapters are avaliable from Sparkfun.
 
