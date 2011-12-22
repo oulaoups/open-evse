@@ -10,7 +10,7 @@ The Max Current setting can be modified when the firmware is loaded or by changi
 
 =Hardware=
 
-Open EVSE supports serial communication via TTL serial and i2c, the board breaks out serial and power in the common "FTDI" format. FTDI devices are compatible with Open EVSE. An example of a Bluetooth and USB device are listed below, both have been successfuly used with Open EVSE.
+Open EVSE supports serial communication via TTL serial and i2c, the board breaks out serial and power in the common "FTDI" format. FTDI devices are compatible with Open EVSE. An example of a Bluetooth and USB device are listed below, both have been successfuly tested with Open EVSE.
 
 http://www.sparkfun.com/products/10393
 
