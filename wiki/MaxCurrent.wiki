@@ -8,6 +8,17 @@ There are many ways to change the maximum current offered to the Electric Vehicl
 
 The Max Current setting can be modified when the firmware is loaded or by changing the variable with the FTDI serial port.The FTDI has access to the microprocessor TTL serial TX and RX. FTDI to USB or FTDI to Bluetooth adapters are avaliable from Sparkfun.
 
+=Hardware=
+
+Open EVSE supports serial communication via TTL serial and i2c, the board breaks out serial and power in the common "FTDI" format. FTDI devices are compatible with Open EVSE. 
+
+http://www.sparkfun.com/products/10393
+
+http://dlnmh9ip6v2uc.cloudfront.net/images/products/10393-01b.jpg
+
+http://www.sparkfun.com/products/9718
+
+http://dlnmh9ip6v2uc.cloudfront.net/images/products/09717-01.jpg
 
 
 = Examples =
