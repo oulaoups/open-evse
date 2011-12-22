@@ -11,7 +11,7 @@ The Max Current setting can be modified when the firmware is loaded or by changi
 
 
 = Examples =
-Note: Examples are from older EVSE code, they will need to be updated to work with the curret Open EVSE code.
+Note: Examples are from older EVSE code, they will need to be updated to work with the current Open EVSE code.
 
 == Buttons ==
 
