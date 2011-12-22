@@ -13,7 +13,7 @@ The Max Current setting can be modified when the firmware is loaded or by changi
 = Examples =
 
 == Command Line Interface CLI ==
-
+{{{
 int CLIinByte; // CLI byte being read in
 
 char CLIinstr[13]; // CLI byte being read in
@@ -151,4 +151,4 @@ Serial.println("");
 
 //END CLI
 
-
+}}}
