@@ -22,7 +22,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 || 30A Relay || Digikey || $13.00 || 1 || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
 || Current Transformer || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || 12V DC Power Supply || Digikey || $28.00 || 1 || http://search.digikey.com/us/en/products/FSC-S5-12U/102-1573-ND/1699037 ||
-|| 30A J1772 cord || see Wiki || $170 - $330 || 1 || http://code.google.com/p/open-evse/wiki/J1772CableSources ||
+|| 30A J1772 cord || see Wiki || $260 || 1 || http://code.google.com/p/open-evse/wiki/J1772CableSources ||
 || 30A AC Plug L6-30 || Stay Online || $29.00 || 1 || http://www.stayonline.com/detail.aspx?ID=15695 ||
 || NEMA Enclosure || Home Depot || $6.88 || 1 || http://www.homedepot.com/Cantex/h_d1/N-5yc1vZ591/R-202043434/h_d2/ProductDisplay?langId=-1&storeId=10051&catalogId=10053 ||
 || NEMA Cable Glands || Poly Case || $3.25 || 2 || http://www.polycase.com/cg-16 ||
