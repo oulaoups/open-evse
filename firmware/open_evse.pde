@@ -33,6 +33,9 @@
 
 //#define SERDBG // debugging states via serial
 //#define WATCHDOG // enable watchdog timer
+//#define GFI
+//#define GFI_TESTING // for stability testing - ready LED stays blinking slowly after a GFI event
+
 
 //-- end features
 
@@ -73,6 +76,20 @@
 // but Leaf sometimes bounces from 3->1 so we will debounce it a little anyway
 #define DELAY_STATE_TRANSITION_A 25
 
+#ifdef GFI
+#define GFIFAULT_PIN 6 // digital GFI Fault input pin
+#define GFIRESET_PIN 7 // digital GFI reset output pin
+
+#ifdef GFI_TESTING
+#define GFI_TIMEOUT (15*1000)
+#define GFI_RETRY_COUNT  255
+#else // !GFI_TESTING
+#define GFI_TIMEOUT (15*60*1000)
+#define GFI_RETRY_COUNT  4
+#endif // GFI_TESTING
+#endif // GFI
+
+
 
 //-- end configuration
 
@@ -87,6 +104,19 @@ public:
   void SetRedLed(uint8_t state);
   void Update();
 };
+
+#ifdef GFI
+class Gfi {
+ uint8_t m_GfiFault;
+public:
+  Gfi() {}
+  void Init();
+  void Update();
+  void Reset();
+  uint8_t Fault() { return m_GfiFault; }
+  
+};
+#endif // GFI
 
 
 typedef enum {
@@ -141,6 +171,12 @@ typedef struct calibdata {
 #define ECF_GFI_TRIPPED        0x80 // gfi has tripped at least once
 class J1772EVSEController {
   J1772Pilot m_Pilot;
+#ifdef GFI
+  Gfi m_Gfi;
+  unsigned long m_GfiTimeout;
+  unsigned long m_GfiRetryCnt;
+  uint8_t m_GfiTripCnt;
+#endif // GFI
   uint8_t m_bFlags; // ECF_xxx
   THRESH_DATA m_ThreshData;
   uint8_t m_EvseState;
@@ -200,14 +236,19 @@ public:
   PTHRESH_DATA GetThreshData() { 
     return &m_ThreshData; 
   }
+#ifdef GFI
+  void SetGfiTripped() { m_bFlags |= ECF_GFI_TRIPPED; }
+  uint8_t GfiTripped() { return m_bFlags & ECF_GFI_TRIPPED; }
+  void ResetGfiTripCnt();
+#endif // GFI
+
 };
 // -- end class definitions
 
 //-- begin global variables
-
+THRESH_DATA g_DefaultThreshData = {876,781,690,0,260};
 J1772EVSEController g_EvseController;
-THRESH_DATA g_DefaultThreshData = {
-  850,765,0,287};
+
 
 OnboardDisplay g_OBD;
 
@@ -271,6 +312,37 @@ void OnboardDisplay::Update()
     }
   }
 }
+
+
+#ifdef GFI
+void Gfi::Init()
+{
+  m_GfiFault = 0;
+
+  pinMode (GFIRESET_PIN, OUTPUT);
+  pinMode (GFIFAULT_PIN, INPUT);
+
+  Reset();
+}
+
+//RESET GFI LOGIC
+void Gfi::Reset()
+{
+  digitalWrite(GFIRESET_PIN, HIGH);
+  delay(100);
+  digitalWrite(GFIRESET_PIN, LOW);
+  delay(100);
+#ifdef WATCHDOG
+  wdt_reset(); // pat the dog
+#endif // WATCHDOG
+}
+
+inline void Gfi::Update()
+{
+  m_GfiFault = (digitalRead(GFIFAULT_PIN) == HIGH) ? 1 : 0;
+}
+#endif // GFI
+
 
 //-- begin J1772Pilot
 
@@ -363,6 +435,11 @@ void J1772EVSEController::LoadThresholds()
 
 void J1772EVSEController::Init()
 {
+#ifdef GFI
+  m_GfiRetryCnt = 0;
+  m_GfiTripCnt = 0;
+#endif // GFI
+
   pinMode(CHARGING_PIN,OUTPUT);
   chargingOff();
 
@@ -393,11 +470,22 @@ void J1772EVSEController::Init()
     }
   }
 
+#ifdef GFI
+  m_GfiTripCnt = EEPROM.read(EOFS_GFCI_TRIPCNT);
+  if (m_GfiTripCnt == 0xff) { // uninitialized EEPROM
+    m_GfiTripCnt = 0;
+  }
+#endif // GFI
+
   LoadThresholds();
 
   SetCurrentCapacity(ampacity);
 
   m_Pilot.Init(); // init the pilot
+#ifdef GFI
+  m_Gfi.Init();
+#endif // GFI
+
 
   g_OBD.SetGreenLed(LOW);
 }
@@ -416,6 +504,48 @@ void J1772EVSEController::Update()
 
   int plow;
   int phigh;
+
+   
+#ifdef GFI
+  m_Gfi.Update();
+  if (m_Gfi.Fault()) {
+    g_EvseController.SetGfiTripped();
+
+    tmpevsestate = EVSE_STATE_GFCI_FAULT;
+    m_EvseState = EVSE_STATE_GFCI_FAULT;
+
+    if (m_GfiRetryCnt < GFI_RETRY_COUNT) {
+      if (prevevsestate != EVSE_STATE_GFCI_FAULT) {
+	if (m_GfiTripCnt < 255) {
+	  m_GfiTripCnt++;
+	  EEPROM.write(EOFS_GFCI_TRIPCNT,m_GfiTripCnt);
+	}
+ 	m_GfiRetryCnt = 0;
+	m_GfiTimeout = millis() + GFI_TIMEOUT;
+      }
+      else if (millis() >= m_GfiTimeout) {
+	m_Gfi.Reset();
+	m_GfiRetryCnt++;
+	m_GfiTimeout = millis() + GFI_TIMEOUT;
+      }
+    }
+  }
+  else {
+    if (prevevsestate == EVSE_STATE_GFCI_FAULT) {
+      // just got out of GFCI fault state - pilot back on
+      m_Pilot.SetState(PILOT_STATE_P12);
+      prevevsestate = EVSE_STATE_UNKNOWN;
+      m_EvseState = EVSE_STATE_UNKNOWN;
+#if (ERROR_LED_PIN == 9)
+      g_OBD.SetReadyLed(ERROR_LED_BLINK_GFCITRIPPED);
+#else
+      g_OBD.SetErrorLed(ERROR_LED_BLINK_GFCITRIPPED);
+#endif // GFI_TESTING
+    }
+#endif // GFI
+
+
+
 
     // Begin Sensor readings
     int reading;
@@ -467,6 +597,10 @@ void J1772EVSEController::Update()
       }
     }
   m_TmpEvseState = tmpevsestate;
+  
+  //////
+ // m_EvseState = EVSE_STATE_C;
+  ///////
 
   // state transition
   if (m_EvseState != prevevsestate) {
