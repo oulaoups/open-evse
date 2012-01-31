@@ -2,7 +2,7 @@
 /*
  * Open EVSE Firmware
  *
- * Copyright (c) 2011 Sam C. Lin <lincomatic@gmail.com> and Chris Howell
+ * Copyright (c) 2011-2012 Sam C. Lin <lincomatic@gmail.com> and Chris Howell
  * Maintainer: SCL
 
  * This file is part of Open EVSE.
