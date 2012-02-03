@@ -26,15 +26,18 @@
 #include <pins_arduino.h>
 #include <Wire.h>
 #include <Time.h>
+#if defined(ARDUINO) && (ARDUINO >= 100)
+#include "Arduino.h"
+#else
 #include "WProgram.h" // shouldn't need this but arduino sometimes messes up and puts inside an #ifdef
-
+#endif // ARDUINO
 
 //-- begin features
 
 //#define SERDBG // debugging states via serial
 //#define WATCHDOG // enable watchdog timer
-//#define GFI
-//#define GFI_TESTING // for stability testing - ready LED stays blinking slowly after a GFI event
+#define GFI
+//#define GFI_TESTING // for stability testing - shorter timeout/higher retry count
 
 
 //-- end features
@@ -77,14 +80,14 @@
 #define DELAY_STATE_TRANSITION_A 25
 
 #ifdef GFI
-#define GFIFAULT_PIN 6 // digital GFI Fault input pin
-#define GFIRESET_PIN 7 // digital GFI reset output pin
+#define GFI_INTERRUPT 0 // interrupt number 0 = D2, 1 = D3
 
 #ifdef GFI_TESTING
-#define GFI_TIMEOUT (15*1000)
+#define GFI_TIMEOUT ((unsigned long)(15*1000))
 #define GFI_RETRY_COUNT  255
 #else // !GFI_TESTING
-#define GFI_TIMEOUT (15*60*1000)
+#define GFI_TIMEOUT ((unsigned long)(15*60000)) // 15*16*1000 doesn't work. go figure
+
 #define GFI_RETRY_COUNT  4
 #endif // GFI_TESTING
 #endif // GFI
@@ -111,8 +114,8 @@ class Gfi {
 public:
   Gfi() {}
   void Init();
-  void Update();
   void Reset();
+  void SetFault() { m_GfiFault = 1; }
   uint8_t Fault() { return m_GfiFault; }
   
 };
@@ -237,9 +240,8 @@ public:
     return &m_ThreshData; 
   }
 #ifdef GFI
-  void SetGfiTripped() { m_bFlags |= ECF_GFI_TRIPPED; }
+  void SetGfiTripped();
   uint8_t GfiTripped() { return m_bFlags & ECF_GFI_TRIPPED; }
-  void ResetGfiTripCnt();
 #endif // GFI
 
 };
@@ -315,12 +317,16 @@ void OnboardDisplay::Update()
 
 
 #ifdef GFI
+
+// interrupt service routing
+void gfi_isr()
+{
+  g_EvseController.SetGfiTripped();
+}
+
 void Gfi::Init()
 {
   m_GfiFault = 0;
-
-  pinMode (GFIRESET_PIN, OUTPUT);
-  pinMode (GFIFAULT_PIN, INPUT);
 
   Reset();
 }
@@ -328,22 +334,14 @@ void Gfi::Init()
 //RESET GFI LOGIC
 void Gfi::Reset()
 {
-  digitalWrite(GFIRESET_PIN, HIGH);
-  delay(100);
-  digitalWrite(GFIRESET_PIN, LOW);
-  delay(100);
 #ifdef WATCHDOG
   wdt_reset(); // pat the dog
 #endif // WATCHDOG
+
+  m_GfiFault = 0;
 }
 
-inline void Gfi::Update()
-{
-  m_GfiFault = (digitalRead(GFIFAULT_PIN) == HIGH) ? 1 : 0;
-}
 #endif // GFI
-
-
 //-- begin J1772Pilot
 
 void J1772Pilot::Init()
@@ -428,6 +426,22 @@ int J1772Pilot::SetPWM(int amps)
 
 //-- begin J1772EVSEController
 
+#ifdef GFI
+inline void J1772EVSEController::SetGfiTripped()
+{
+  m_bFlags |= ECF_GFI_TRIPPED;
+
+  // this is repeated Update(), but we want to keep latency as low as possible
+  // for safety so we do it here first anyway
+  chargingOff(); // turn off charging current
+  // turn off the pilot
+  m_Pilot.SetState(PILOT_STATE_N12);
+
+  m_Gfi.SetFault();
+  // the rest of the logic will be handled in Update()
+}
+#endif // GFI
+
 void J1772EVSEController::LoadThresholds()
 {
     memcpy(&m_ThreshData,&g_DefaultThreshData,sizeof(m_ThreshData));
@@ -470,13 +484,6 @@ void J1772EVSEController::Init()
     }
   }
 
-#ifdef GFI
-  m_GfiTripCnt = EEPROM.read(EOFS_GFCI_TRIPCNT);
-  if (m_GfiTripCnt == 0xff) { // uninitialized EEPROM
-    m_GfiTripCnt = 0;
-  }
-#endif // GFI
-
   LoadThresholds();
 
   SetCurrentCapacity(ampacity);
@@ -507,10 +514,7 @@ void J1772EVSEController::Update()
 
    
 #ifdef GFI
-  m_Gfi.Update();
   if (m_Gfi.Fault()) {
-    g_EvseController.SetGfiTripped();
-
     tmpevsestate = EVSE_STATE_GFCI_FAULT;
     m_EvseState = EVSE_STATE_GFCI_FAULT;
 
@@ -518,7 +522,6 @@ void J1772EVSEController::Update()
       if (prevevsestate != EVSE_STATE_GFCI_FAULT) {
 	if (m_GfiTripCnt < 255) {
 	  m_GfiTripCnt++;
-	  EEPROM.write(EOFS_GFCI_TRIPCNT,m_GfiTripCnt);
 	}
  	m_GfiRetryCnt = 0;
 	m_GfiTimeout = millis() + GFI_TIMEOUT;
@@ -536,16 +539,8 @@ void J1772EVSEController::Update()
       m_Pilot.SetState(PILOT_STATE_P12);
       prevevsestate = EVSE_STATE_UNKNOWN;
       m_EvseState = EVSE_STATE_UNKNOWN;
-#if (ERROR_LED_PIN == 9)
-      g_OBD.SetReadyLed(ERROR_LED_BLINK_GFCITRIPPED);
-#else
-      g_OBD.SetErrorLed(ERROR_LED_BLINK_GFCITRIPPED);
-#endif // GFI_TESTING
     }
 #endif // GFI
-
-
-
 
     // Begin Sensor readings
     int reading;
@@ -596,12 +591,11 @@ void J1772EVSEController::Update()
         m_EvseState = tmpevsestate;
       }
     }
+#ifdef GFI
+  }
+#endif // GFI
   m_TmpEvseState = tmpevsestate;
   
-  //////
- // m_EvseState = EVSE_STATE_C;
-  ///////
-
   // state transition
   if (m_EvseState != prevevsestate) {
     if (m_EvseState == EVSE_STATE_A) { // connected, not ready to charge
@@ -739,6 +733,11 @@ void EvseReset()
 void setup()
 {
   Serial.begin(SERIAL_BAUD);
+
+#ifdef GFI
+  // GFI triggers on rising edge
+  attachInterrupt(GFI_INTERRUPT,gfi_isr,RISING);
+#endif // GFI
 
   EvseReset();
 
