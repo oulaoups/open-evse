@@ -7,7 +7,7 @@ These are my notes on what I needed to get, install, change to be able to upload
 
 = Details =
 
-== What you need == 
+== Preparation ==
 === ISP ===
 Since the board does not have bootloader, you would need an ISP programmer. The one I used is the sparkfun usbtinyisp:
 $15 http://www.sparkfun.com/products/9825
@@ -23,11 +23,11 @@ http://arduino.cc/en/Main/Software
 I downloaded the latest version 1.0.
 
 After download and unpacking I needed to change few things:
-  # 1 Find and download the Time library.
+  #1 Find and download the Time library.
 I downloaded it from here:
 http://www.arduino.cc/playground/uploads/Code/Time.zip and unpack it in the libraries arduino IDE folder - for me (on Windows 7) that was <install dir>\arduino-1.0-windows\arduino-1.0\libraries. The library zip file contained 3 folders - so I got Time, DateTime and a 3rd library.
 
-  # 2 Add definition for the evse board*
+  #2 Add definition for the evse board*
 add to <install dir>\arduino-1.0-windows\arduino-1.0\hardware\arduino\boards.txt the following lines:
 {{{
 ##############################################################
@@ -43,7 +43,16 @@ usbtiny328.build.core=arduino
 usbtiny328.build.variant=standard
 }}}
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  #3 Download and install the usbtinyisp driver
+I downloaded it from here http://www.sparkfun.com/datasheets/Programmers/pocketprog-driver.zip
+
+== Done ==
+You are now ready. 
+#1 Start up the Arduino IDE (in <install dir>\arduino-1.0-windows\arduino-1.0\arduino.exe)
+#2 Open and load the source code for the firmware
+#3 Select the target board from Tools->Board->[usbtinyisp]OPEN EVSE 
+#4 Select programmer from Tools->Programmer->USBTinyISP
+#5 Import Time library from Sketch->Import Library->Time (not sure if this is absolutely needed)
+#6 Connect the usbtinyisp board to your computer with the usb cable, and to the open evse board with the header cable. 
+#7 Test your code with Sketch->Verify/Compile (or Ctrl+R)
+#8 Upload the sketch to the open evse board using File->Upload.
