@@ -15,6 +15,10 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 <a href="http://www.flickr.com/photos/60192309@N05/6539483165/" title="Untitled by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7171/6539483165_6af4f30b8f_z.jpg" width="640" height="281"</a>
 
+= EVSE Ground =
+
+NOTE: The Open EVSE control Board must be grounded to the EV/Earth Ground for the pilot to operate correctly. If using an isolated power supply (PS not grounded) the OPEN EVSE board will need an additional connection to ground.
+
 = Parts =
 
 || Part || Source || Cost || Quantity || Link ||
