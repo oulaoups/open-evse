@@ -20,6 +20,21 @@ There are many ways to change the maximum current offered to the Electric Vehicl
 
 The CURRENT_CAPACITY sets the default current, setting can be modified when the firmware is loaded or by changing the variable with the FTDI serial port. FTDI to USB or FTDI to Bluetooth adapters are avaliable from Sparkfun.
 
+=CLI=
+ Open EVSE Hardware - Atmel ATMEGA328P-AU Software - Open EVSE v0.4.0
+
+Open_EVSE>*set amp*
+
+WARNING - DO NOT SET CURRENT HIGHER THAN 80% OF YOUR CIRCUIT BREAKER OR GREATER THAN THE RATED VALUE OF THE EVSE
+
+Enter amps (6-80) : *16*
+
+Current Capacity now: 16
+
+Open_EVSE>*save*
+ Saving Settings 
+
+
 =Hardware=
 
 Open EVSE supports serial communication via TTL serial and i2c, the board breaks out serial and power in the common "FTDI" format. FTDI devices are compatible with Open EVSE. An example of a Bluetooth and USB device are listed below, both have been successfuly tested with Open EVSE.
