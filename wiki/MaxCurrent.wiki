@@ -24,26 +24,32 @@ The CURRENT_CAPACITY sets the default current, setting can be modified when the 
 The Command line interface uses a standard terminal such as the one included in the Arduino IDE. The baud rate is 38400.
 
 `typed commands in *Bold*`
-CLI Example
-{{{
-Open EVSE 
-Hardware - Atmel ATMEGA328P-AU 
+==CLI Example==
+
+Open EVSE
+
+Hardware - Atmel ATMEGA328P-AU
+
 Software - Open EVSE v0.4.0
+
 
 Open_EVSE>*set amp*
 
-WARNING - DO NOT SET CURRENT HIGHER THAN 80% 
-OF YOUR CIRCUIT BREAKER OR GREATER 
+WARNING - DO NOT SET CURRENT HIGHER THAN 80%
+OF YOUR CIRCUIT BREAKER OR GREATER
 THAN THE RATED VALUE OF THE EVSE
 
 Enter amps (6-80) : *16*
 
 Current Capacity now: 16
-
+ 
+ 
+ 
 
 Open_EVSE>*save*
+
 Saving Settings 
-}}}
+
 
 =Hardware=
 
