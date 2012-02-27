@@ -1,6 +1,7 @@
 #TESTING EVSE.
 
-= Introduction =
+=Open EVSE=
+All the tests below are performed on each Open EVSE board before shipping. Testing should also be performed after building and EVSE before placing the EVSE into service. 
 
 =Recommended Tools=
 EV simulator (diode and resistors)
