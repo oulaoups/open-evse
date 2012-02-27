@@ -1,0 +1,52 @@
+#TESTING EVSE.
+
+= Introduction =
+
+=Recommended Tools=
+EV simulator (diode and resistors)
+Multimeter w/Frequency
+Occiloscope
+
+=EV Simulator=
+An EV simulator can be as simple as a diode in series with the correct resistor. If you plan to test EVSEs regulary you may want to build a Board. 
+
+==Simple==
+<a href="http://www.flickr.com/photos/60192309@N05/6790149512/" title="Untitled by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7060/6790149512_fd64eb3201.jpg" width="500" height="350"</a>
+
+==Board==
+<a href="http://www.flickr.com/photos/60192309@N05/6936255065/" title="Untitled by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7060/6936255065_b6754ae80f_m.jpg" width="240" height="205"</a>
+
+= Pilot =
+The J1772 Pilot is a 1khz +12V to -12V square wave, the voltage defines the state and the duty cycle defines the current available to the EV. The EVSE sets the duty cycle and the EV adds resistance from the pilot the Ground to vary the voltage. The EVSE reads the voltage and changes state accordingly. 
+
+|| State || Pilot Voltage || EV Resistance || Description || 
+|| State A || 12 || N/A || Not Connected || 
+|| State B || 9 || 2.74k || Connected || 
+|| State C || 6 || 882 || Charging || 
+|| State D || 3 || 246 || Ventilation Required || 
+|| State E || 0 || N/A || No power ||
+|| State F || -12 || N/A || EVSE Error ||
+
+==State A==
+To test State A, power up the EVSE. The EVSE should go to the ready state. For Open EVSE, the LED should light Green.
+<a href="http://www.flickr.com/photos/60192309@N05/6898998841/" title="IMG_0194 by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7193/6898998841_ed91d5247a.jpg" width="500" height="375"</a>
+
+==State B==
+To test State B, with the EVSE powered connect the EV Simulator (or diode and resistor) with a resistance of 2.74k Ohms. The EVSE should go to the EV Connected - EVSE ready state. For Open EVSE, the LED should light Yellow.
+<a href="http://www.flickr.com/photos/60192309@N05/6936304585/" title="2012-02-26_21-54-17_105 by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7057/6936304585_fd8386e8ef.jpg" width="500" height="281"</a>
+
+==State C==
+To test State C, with the EVSE powered connect the EV Simulator (or diode and resistor) with a resistance of 882 Ohms. The EVSE should go to the EV Connected - EVSE ready state. For Open EVSE, the LED should light Blue.
+<a href="http://www.flickr.com/photos/60192309@N05/6936306517/" title="2012-02-26_21-54-27_427 by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7184/6936306517_3b31387f2b.jpg" width="500" height="281"</a>
+
+==State D==
+To test State D, with the EVSE powered connect the EV Simulator (or diode and resistor) with a resistance of 246 Ohms. The EVSE should go to the Error Vent required. For Open EVSE, the LED should light Red.
+<a href="http://www.flickr.com/photos/60192309@N05/6936308687/" title="2012-02-26_21-54-35_715 by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7066/6936308687_2888cf31c3.jpg" width="500" height="281"</a>
+
+==State E==
+To test State F, the EVSE should be disconnected from power. The EVSE should turn off. For Open EVSE, the LED should go out.
+<a href="http://www.flickr.com/photos/60192309@N05/6903519199/" title="2012-02-16_08-53-54_262 by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7192/6903519199_8cc5a008a5.jpg" width="500" height="281"</a>
+
+==State F==
+To test State F, with the EVSE powered connect the EV Simulator (just a resistor) with a resistance of 2.74k Ohms. The EVSE should go to the Error Diode Check Failed. For Open EVSE, the LED should light Red.
+<a href="http://www.flickr.com/photos/60192309@N05/6936308687/" title="2012-02-26_21-54-35_715 by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7066/6936308687_2888cf31c3.jpg" width="500" height="281"</a>
