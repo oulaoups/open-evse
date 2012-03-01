@@ -59,6 +59,7 @@ To test State F, with the EVSE powered connect the EV Simulator (just a resistor
 The Pilot should have a frequancy of 1kHz(1000Hz). The acceptible J1772 tolerance is from 980-1020Hz. Test Frequency by attaching the EV simulator in State C "Charging Mode) (or diode and 882 Ohm resistor). Attach a multimeter or occiloscope from pilot to EVSE Ground.  
 <a href="http://www.flickr.com/photos/60192309@N05/6936301695/" title="2012-02-26_21-53-24_202 by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7191/6936301695_b7da995c81.jpg" width="500" height="281"</a>
 
+
 ==Pilot Duty Cycle==
 The Pilot Duty Cycle is dependant on the Max current setting of the EVSE. Test Duty Cycle by attaching the EV simulator in State C "Charging Mode) (or diode and 882 Ohm resistor). Attach an occiloscope from pilot to EVSE Ground. Duty cycle should match the chart below.
 
@@ -90,3 +91,9 @@ Amps = (Duty Cycle - 64) * 2.5
 
 The EVSE in the picture has a 30A max current setting or a 50% duty cycle. (50% on - 50% off)
 <a href="http://www.flickr.com/photos/60192309@N05/6936311363/" title="2012-02-26_21-57-20_482 by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7052/6936311363_08c48f4a52.jpg" width="500" height="281"</a>
+
+=Relay=
+
+To test Relay enter State C, with the EVSE powered connect the EV Simulator (or diode and resistor) with a resistance of 882 Ohms. The EVSE should go to the EV Connected - EVSE ready state and you should be able to hear the relay "click". 
+
+<a href="http://www.flickr.com/photos/60192309@N05/6889916589/" title="2012-02-16_21-12-16_730 by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7192/6889916589_a591e9ef06_z.jpg" width="360" height="640"</a>
