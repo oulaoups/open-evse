@@ -19,9 +19,9 @@ The Open EVSE relay output is 12VDC. To power the Coil of a high current contact
 = Parts =
 
 || Part || Source || Cost || Quantity || Link ||
-|| Open EVSE Board || Open EVSE || $80 || 1 || http://code.google.com/p/open-evse/ ||
+|| Open EVSE Board || Open EVSE || $100 || 1 || http://code.google.com/p/open-evse/ ||
 || 75A Contactor || Newark || $180 || 1 || hhttp://www.newark.com/square-d/8910dpa72v09/definite-purpose-contactor/dp/50F4325 ||
 || Relay (12V coil) || Digikey || $2 || 1 || http://search.digikey.com/us/en/products/G5LA-1A4%20DC12/Z2571-ND/1210589 ||
 || Current Transformer || Digikey || $10 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
-|| 12V DC Power Supply || Digikey || $28 || 1 || http://search.digikey.com/us/en/products/FSC-S5-12U/102-1573-ND/1699037 ||
+|| 12V DC Power Supply || Open EVSE || $40 || 1 || http://code.google.com/p/open-evse ||
 || 75A J1772 cord || see Wiki || $330 || 1 || http://code.google.com/p/open-evse/wiki/J1772CableSources ||
