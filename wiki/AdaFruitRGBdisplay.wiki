@@ -1,14 +1,17 @@
-#Sample photos of the EVSE states displaying on the AdaFruit RGB LCD display
+# Sample photos of the EVSE states displaying on the AdaFruit RGB LCD display #
 = Here are a few sample pictures, showing all of the OpenEVSE States, and what they look like on the display =
 
-I soldered a 6 pin header onto the OpenEVSE PCB, where the pins for "GND 5V A5 A4 A3 A2" are, then I used wire wrap wire to connect the +5 to the +5 on the LCD shield (3rd pin from the right end bottom, when viewed from the bottom), then connect the GND form the OpenEVSE to the GND onthe OpenEVSE (4th pin from the right end bottom), also connect to the GND on the top (4th pin from the right top).
+I soldered a 6 pin header onto the OpenEVSE PCB, where the pins for "GND 5V A5 A4 A3 A2" are, then I used wire wrap wire to connect the +5 to the +5 on the LCD shield (3rd pin from the right end bottom, when viewed from the bottom), then connect the GND form the OpenEVSE to the GND on the OpenEVSE (4th pin from the right end bottom), also connect to the GND on the top (4th pin from the right top).
 
 Then connect A5 on the OpenEVSE to A5 on the shield (leftmost pin on the bottom), and finally connect A4 to A4 on the shield (2nd pin from the left bottom)
 
 See pictures below:
 
 http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/AdaFruitRGBLCDwiring.jpg
-Wiring Connected
+Wiring Connected to AdaFruit RGB LCD Shield PCB
+
+http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/OpenEVSELCDwiring.jpg
+Wiring connected to OpenEVSE PCB
 
 <http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/S1EVSENotConnected.jpg
 S1 EVSE Not Connected
@@ -24,5 +27,3 @@ S4 EVSE Vent Required
 
 http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/S5EVSEDiodeChkFailed.jpg
 S5 EVSE Diode Chk Failed
-
-
