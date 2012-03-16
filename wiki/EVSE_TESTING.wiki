@@ -1,5 +1,5 @@
+#summary How to test an EVSE.
 #labels Featured
-#TESTING EVSE.
 
 =Open EVSE=
 All the tests below are performed on each Open EVSE board before shipping. Testing should also be performed after building an EVSE before placing it into service. 
