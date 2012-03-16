@@ -1,29 +1,153 @@
-# Sample photos of the EVSE states displaying on the AdaFruit RGB LCD display #
-= Here are a few sample pictures, showing all of the OpenEVSE States, and what they look like on the display =
+#summary Sample photos of the EVSE states displaying on the AdaFruit RGB LCD display
 
-I soldered a 6 pin header onto the OpenEVSE PCB, where the pins for "GND 5V A5 A4 A3 A2" are, then I used wire wrap wire to connect the +5 to the +5 on the LCD shield (3rd pin from the right end bottom, when viewed from the bottom), then connect the GND form the OpenEVSE to the GND on the OpenEVSE (4th pin from the right end bottom), also connect to the GND on the top (4th pin from the right top).
+=Adafruit RGB LCD= 
+by [http://code.google.com/u/107919440225333609241/ mwolrich]
+
+Here are a few sample pictures, showing all of the OpenEVSE States, and what they look like on the display 
+
+==Hardware==
+I soldered a 6 pin header onto the OpenEVSE PCB, where the pins for "GND 5V A5 A4 A3 A2" are, then I used wire wrap wire to connect the +5 to the +5 on the LCD shield (3rd pin from the right end bottom, when viewed from the bottom), then connect the GND form the OpenEVSE to the GND onthe OpenEVSE (4th pin from the right end bottom), also connect to the GND on the top (4th pin from the right top).
 
 Then connect A5 on the OpenEVSE to A5 on the shield (leftmost pin on the bottom), and finally connect A4 to A4 on the shield (2nd pin from the left bottom)
 
-See pictures below:
+==Source Code==
+This code (still a work in progress) was added to the current Open EVSE code.
 
+void OnboardDisplay::Update() code was upadted to add the lcd commands.
+
+
+{{{
+#include <Adafruit_MCP23017.h>
+#include <Adafruit_RGBLCDShield.h>
+
+#define RED 0x1
+#define YELLOW 0x3
+#define GREEN 0x2
+#define BLUE 0x6
+
+void OnboardDisplay::Update()
+{
+  uint8_t curstate = g_EvseController.GetState();
+  int i;
+
+  if (g_EvseController.StateTransition()) {
+    switch(curstate) {
+    case EVSE_STATE_A: // not connected
+      SetGreenLed(HIGH);
+      SetRedLed(LOW);
+      lcd.setBacklight(GREEN);
+      lcd.setCursor(0, 0);
+      lcd.print("EVSE Ready  ");
+      lcd.setCursor(13,0);
+      lcd.print((int)g_EvseController.GetCurrentCapacity());
+      lcd.print("A");
+      lcd.setCursor(0, 1);
+      lcd.print("Not Connected  ");
+      // n.b. blue LED is off
+      break;
+    case EVSE_STATE_B: // connected/not charging
+      SetGreenLed(HIGH);
+      SetRedLed(HIGH);
+      lcd.setBacklight(YELLOW);
+      lcd.setCursor(0, 0);
+      lcd.print("EVSE Ready      ");
+      lcd.setCursor(13,0);
+      lcd.print((int)g_EvseController.GetCurrentCapacity());
+      lcd.print("A");
+      lcd.setCursor(0, 1);
+      lcd.print("Waiting for EV   ");
+      // n.b. blue LED is off
+      break;
+    case EVSE_STATE_C: // charging
+      SetGreenLed(LOW);
+      SetRedLed(LOW);
+      lcd.setBacklight(BLUE);
+      lcd.setCursor(0, 0);
+      lcd.print("Charging     ");
+      lcd.print((int)g_EvseController.GetCurrentCapacity());
+      lcd.print ("A");
+      // n.b. blue LED is on
+      break;
+    case EVSE_STATE_D: // vent required
+      SetGreenLed(LOW);
+      SetRedLed(HIGH);
+      lcd.setBacklight(RED);
+      lcd.setCursor(0, 0);
+      lcd.print("EVSE Error      ");
+      lcd.setCursor(0, 1);
+      lcd.print("VENT REQUIRED   ");
+      // n.b. blue LED is off
+      break;
+    case EVSE_STATE_DIODE_CHK_FAILED:
+      SetGreenLed(LOW);
+      SetRedLed(HIGH);
+      lcd.setBacklight(RED);
+      lcd.setCursor(0, 0);
+      lcd.print("EVSE Error      ");
+      lcd.setCursor(0, 1);
+      lcd.print("DIODE CHK FAILED");
+      // n.b. blue LED is off
+      break;
+    case EVSE_STATE_GFCI_FAULT:
+      SetGreenLed(LOW);
+      SetRedLed(HIGH);
+      lcd.setBacklight(RED);
+      lcd.setCursor(0, 0);
+      lcd.print("EVSE Error      ");
+      lcd.setCursor(0, 1);
+      lcd.print("GFCI FAULT      ");
+      // n.b. blue LED is off
+      break;
+    default:
+      SetGreenLed(LOW);
+      SetRedLed(HIGH);
+      // n.b. blue LED is off
+    }
+  }
+if (curstate == EVSE_STATE_C) {
+      lcd.setCursor(0, 1); 
+      elapsedTime = now();     
+      if (hour(elapsedTime) < 10) {
+      lcd.print("0"); 
+      } 
+    lcd.print(hour(elapsedTime));
+    lcd.print(":");
+    if (minute(elapsedTime) < 10) {
+      lcd.print("0"); 
+      } 
+    lcd.print(minute(elapsedTime));
+    lcd.print(":"); 
+    if (second(elapsedTime) < 10) {
+      lcd.print("0"); 
+      }
+    lcd.print(second(elapsedTime));
+    lcd.print("        "); 
+  }
+}
+time_t elapsedTime;
+
+}}}
+
+
+
+
+
+
+
+*Wiring Connected*
 http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/AdaFruitRGBLCDwiring.jpg
-Wiring Connected to AdaFruit RGB LCD Shield PCB
+ 
+*EVSE Not Connected*
+http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/S1EVSENotConnected.jpg
 
-http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/OpenEVSELCDwiring.jpg
-Wiring connected to OpenEVSE PCB
-
-<http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/S1EVSENotConnected.jpg
-S1 EVSE Not Connected
-
+*EVSE Waiting*
 http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/S2EVSEWaiting.jpg
-S2 EVSE Waiting
 
+*EVSE Charging*
 http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/S3EVSECharging.jpg
-S3 EVSE Charging
 
+*EVSE Vent Required*
 http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/S4EVSEVentRequired.jpg
-S4 EVSE Vent Required
 
+*EVSE Diode Chk Failed*
 http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/S5EVSEDiodeChkFailed.jpg
-S5 EVSE Diode Chk Failed
