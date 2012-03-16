@@ -134,8 +134,11 @@ time_t elapsedTime;
 
 
 
-*Wiring Connected*
+*Wiring Connected AdaFruit RGB LCD PCB*
 http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/AdaFruitRGBLCDwiring.jpg
+
+*Wiring Connected OpenEVSE PCB*
+http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/OpenEVSELCDwiring.jpg
  
 *EVSE Not Connected*
 http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/S1EVSENotConnected.jpg
