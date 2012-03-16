@@ -1,8 +1,0 @@
-#summary GFCI for the EVSE.
-#labels Phase-Requirements
-
-= Introduction =
-
-GFCI is an important safety devise for the EVSE. It works by comparing incoming and outgoing current. If there is an imbalance the Current Transformer (CT) trips the circuit.
-
-http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/FISkizze.svg/500px-FISkizze.svg.png
