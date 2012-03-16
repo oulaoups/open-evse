@@ -6,7 +6,7 @@ by [http://code.google.com/u/107919440225333609241/ mwolrich]
 Here are a few sample pictures, showing all of the OpenEVSE States, and what they look like on the display 
 
 ==Hardware==
-I soldered a 6 pin header onto the OpenEVSE PCB, where the pins for "GND 5V A5 A4 A3 A2" are, then I used wire wrap wire to connect the +5 to the +5 on the LCD shield (3rd pin from the right end bottom, when viewed from the bottom), then connect the GND form the OpenEVSE to the GND onthe OpenEVSE (4th pin from the right end bottom), also connect to the GND on the top (4th pin from the right top).
+I soldered a 6 pin header onto the OpenEVSE PCB, where the pins for "GND 5V A5 A4 A3 A2" are, then I used wire wrap wire to connect the +5 to the +5 on the LCD shield (3rd pin from the right end bottom, when viewed from the bottom), then connect the GND from the OpenEVSE to the GND on the OpenEVSE (4th pin from the right end bottom), also connect to the GND on the top (4th pin from the right top, if you don't do this, the display will not light up).
 
 Then connect A5 on the OpenEVSE to A5 on the shield (leftmost pin on the bottom), and finally connect A4 to A4 on the shield (2nd pin from the left bottom)
 
