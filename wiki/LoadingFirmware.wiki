@@ -2,8 +2,44 @@
 
 = Introduction =
 
-Loading firmware to the Open-EVSE requires an ISP. There are many AVR compatable programers avalible. The USBtinyISP from Adafruit is a good choice, it is inexpensive and open. http://www.ladyada.net/make/usbtinyisp/
+Loading firmware to the Open-EVSE requires an ISP. There are many AVR compatible programmers available. The USBtinyISP Kit from Adafruit is a good choice, it is inexpensive and open. http://www.ladyada.net/make/usbtinyisp/
 <img src="http://farm2.static.flickr.com/1388/531946274_b6aec192ba.jpg">
 
 = Software =
 You will also need software compatible with your ISP such as Avrdude or the Arduino IDE. To set up the Arduino IDE for use with an ISP check out lincomatic's blog. http://blog.lincomatic.com/?p=10
+
+== Arduino IDE ==
+If you wish to modify the source code than the Arduino IDE is a good choice. It includes an code editor, serial monitor, and will compile and upload your code to the Open EVSE
+
+To set up the Arduino IDE for use with an ISP check out lincomatic's blog. http://blog.lincomatic.com/?p=10
+== AVRDude ==
+If you want a quick and way to upload unmodified code install AVRDude and download the pre-compiled hex file in the downloads section.
+
+Adafruit has some really good tutorials for installing and running AVRDude...
+
+http://www.ladyada.net/learn/avr/setup-win.html
+
+http://www.ladyada.net/learn/avr/avrdude.html
+
+If you built your own board and your EVSE has never had any version of EVSE firmware or an Arduino boot loader (virgin chip) you will need to set your AVR fuses before loading the OpenEVSE hex file.. Setting fuses only needs to be done once.
+
+Command assumes you are using the USBtiny, if using another programmer substitute the correct programmer after -c
+{{{
+avrdude -c usbtiny -p m328p -U lfuse:w:0xFF:m
+avrdude -c usbtiny -p m328p -U hfuse:w:0xDA:m
+avrdude -c usbtiny -p m328p -U efuse:w:0x05:m
+}}}
+
+Once your board has its fuses set you can load the OpenEVSE firmware.
+
+For windows...
+Create a folder on C:\ called OpenEVSE
+Copy the HEX file to that folder
+run cmd for the command prompt.
+type "C:\OpenEVSE"
+from the C:\OpenEVSE folder run the following command:
+
+Command assumes you are using the USBtiny, if using another programmer substitute the correct programmer after -c
+{{{
+avrdude -c usbtiny -p m328p -U flash:w:open_evse.hex
+}}}
