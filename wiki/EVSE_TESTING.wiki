@@ -48,7 +48,7 @@ To test State D, with the EVSE powered connect the EV Simulator (or diode and re
 <a href="http://www.flickr.com/photos/60192309@N05/6936308687/" title="2012-02-26_21-54-35_715 by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7066/6936308687_2888cf31c3.jpg" width="500" height="281"</a>
 
 ==State E==
-To test State F, the EVSE should be disconnected from power. The EVSE should turn off. For Open EVSE, the LED should go out.
+To test State E, the EVSE should be disconnected from power. The EVSE should turn off. For Open EVSE, the LED should go out.
 <a href="http://www.flickr.com/photos/60192309@N05/6903519199/" title="2012-02-16_08-53-54_262 by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7192/6903519199_8cc5a008a5.jpg" width="500" height="281"</a>
 
 ==State F==
