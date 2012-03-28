@@ -19,6 +19,10 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 NOTE: The Open EVSE control Board must be grounded to the EV/Earth Ground for the pilot to operate correctly. If using an isolated power supply (PS not grounded) the OPEN EVSE board will need an additional connection to ground.
 
+= Circuit =
+
+If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 24A. If hardwired with a 40A breaker the EVSE can be set to a 30A maximum. 
+
 = Parts =
 
 || Part || Source || Cost || Quantity || Link ||
