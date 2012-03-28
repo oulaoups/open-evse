@@ -1,0 +1,19 @@
+#summary Information on Ordering OpenEVSE parts
+#labels Featured
+
+= Parts list =
+
+Prices $USD
+|| *Part* || *Kit* || *Assembled and Tested* || Status ||
+|| OpenEVSE board || NA || $80 || waiting list 2 -4 weeks ||
+|| Basic Power Supply || $35 || $45 || waiting list 2 -4 weeks ||
+|| Advanced Power Supply || $45 || $55 || waiting list 2 -4 weeks ||
+|| EV Simulator || $15 || N/A || avaliable ||
+|| OpenEVSE Arduino Shield || $45 || N/A || waiting list 1- 2 weeks || 
+|| Shipping US || $5 || || ||
+|| Shipping Int. (USPS) || $20 || || ||
+|| Shipping Fedex\UPS\DHL || Cost || || || 
+
+= Ordering =
+
+Online Ordering will be avaliable when the waiting list backlog has been eliminated and parts are in stock. To get on the waiting list please send an E-mail to chris1howell83@gmail.com
