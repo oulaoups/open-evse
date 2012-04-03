@@ -1,0 +1,39 @@
+#summary EVSE Build by thinwing
+
+= Introduction =
+
+Add your content here.
+
+=Parts List=
+
+
+
+= Details =
+*Method / materials*
+
+http://farm8.staticflickr.com/7129/7042258305_44fdc58999_z.jpg
+
+
+*Installed openevse components*
+
+http://farm8.staticflickr.com/7182/6896169610_0e11edae09_z.jpg
+
+
+*Adafruit RGB LCD slot cut*
+
+http://farm8.staticflickr.com/7135/6896174192_83377f72f2_z.jpg
+
+
+*LCD installed/g10 placed*
+
+http://farm8.staticflickr.com/7253/7042274585_f6417477d3_z.jpg
+
+
+*Final assembly*
+
+http://farm8.staticflickr.com/7124/7042276575_28b9f9c34f_z.jpg
+
+
+*OpenEVSE complete*
+
+http://farm8.staticflickr.com/7057/7042278535_d6967e023e_z.jpg
