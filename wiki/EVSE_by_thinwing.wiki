@@ -12,7 +12,7 @@ Following photos illustrate installation of v1 openevse in a high quality altech
 || 12V DC Power Supply ||  ||  || 1 || ||
 || 30A J1772 cord || see Wiki || $260 || 1 || http://code.google.com/p/open-evse/wiki/J1772CableSources ||
 || 30A AC Plug L6-30 || Stay Online || $29.00 || 1 || http://www.stayonline.com/detail.aspx?ID=15695 ||
-|| NEMA Enclosure || || || 1 ||  ||
+||altech al 1616-9 aluminum enclosure|| allied electronics||68.00||1|| http://www.alliedelec.com ||
 || NEMA Cable Glands ||  ||  || 1 ||  ||
 
 
