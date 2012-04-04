@@ -1,7 +1,7 @@
-#summary EVSE Build by thinwing
+#summary 30 amp evse installed in weatherproof Altech chassis
 
 = Introduction =
-
+Following photos illustrate installation of v1 openevse in a high quality altech aluminum enclosure.My primary goal was an installation to commercial standards,offering good weather protection ,and incorporating latest firmware.The adafruit rgb display was utililized as well as a button and remote status led.
 
 =Parts List=
 
