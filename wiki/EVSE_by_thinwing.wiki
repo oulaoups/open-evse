@@ -14,7 +14,7 @@ Following photos illustrate installation of v1 openevse in a high quality altech
 || 30A AC Plug L6-30 || Stay Online || $29.00 || 1 || http://www.stayonline.com/detail.aspx?ID=15695 ||
 ||altech al 1616-9 aluminum enclosure|| allied electronics||68.00||1|| http://www.alliedelec.com ||
 || NEMA 4x gland || allied electronics||3.00 || 1 || http://www.alliedelec.com ||
-|| g-10 fiberglass sheet || 9.00 || 1 || carson aerospace || www.asp-rocketry.com/store/category/.cfm?category=238 ||
+|| g-10 fiberglass sheet || 9.00 || 1 || carson aerospace ||http:// www.asp-rocketry.com/store/category/.cfm?category=238 ||
 
 
 
