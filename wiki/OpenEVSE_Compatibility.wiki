@@ -1,0 +1,14 @@
+#summary OpenEVSE is known to be compatible with:
+#labels Featured
+
+= Introduction =
+OpenEVSE was designed to be fully compliant with the J1772:2010 Standard and should be compatible with J1772 Electric Vehicles.
+
+= Vehicles Tested =
+OpenEVSE has been tested with:
+|| Year || Make || Model || Car Specific Features || Known Issues ||
+|| 2011 - 2012 || Nissan || LEAF || Timers - Supported || None ||
+|| 2011 - 2012 || Chevy || VOLT || Timers - Supported || None ||
+
+= Reports =
+If you have tested OpenEVSE on other vehicles please send a compatibility report to chris1howell83@gmail.com...
