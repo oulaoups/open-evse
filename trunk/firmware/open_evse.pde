@@ -3,7 +3,7 @@
  * Open EVSE Firmware
  *
  * Copyright (c) 2011-2012 Sam C. Lin <lincomatic@gmail.com> and Chris Howell
- * Maintainer: SCL
+ * Maintainers: SCL/CH
 
  * This file is part of Open EVSE.
 
@@ -22,6 +22,7 @@
  * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
  * Boston, MA 02111-1307, USA.
  */
+#include <EEPROM.h>
 #include <avr/wdt.h>
 #include <pins_arduino.h>
 #include <Wire.h>
@@ -32,46 +33,55 @@
 #include "WProgram.h" // shouldn't need this but arduino sometimes messes up and puts inside an #ifdef
 #endif // ARDUINO
 
+#define VERSTR "0.5.0"
+
 //-- begin features
 
 //#define SERDBG // debugging states via serial
 //#define WATCHDOG // enable watchdog timer
 #define GFI
 //#define GFI_TESTING // for stability testing - shorter timeout/higher retry count
-
+#define SERIALCLI // serial port command line
+#define RGBLCD //Adafruit RGBLCD
+//#define I2CLCD // Adafruit LCD backpack in I2C mode
+#define ADVPWR // Advanced Powersupply... Ground check, stuck relay, L1/L2 detection.
 
 //-- end features
 
+#if defined(RGBLCD) || defined(I2CLCD)
+#define LCD16X2
+#endif // RGBLCD || I2CLCD
+
 //-- begin configuration
 
+#define DEFAULT_SERVICE_LEVEL 2 // 1=L1, 2=L2
+
 // current capacity in amps
-#define CURRENT_CAPACITY_L1 12
-#define CURRENT_CAPACITY_L2 30
+#define DEFAULT_CURRENT_CAPACITY_L1 12
+#define DEFAULT_CURRENT_CAPACITY_L2 16
 
 // minimum allowable current in amps
 #define MIN_CURRENT_CAPACITY 6
 
 // maximum allowable current in amps
 #define MAX_CURRENT_CAPACITY_L1 20
-#define MAX_CURRENT_CAPACITY_L2 30
+#define MAX_CURRENT_CAPACITY_L2 80
 
 //J1772EVSEController
-#define VOLT_PIN 1 // analog voltage reading pin
 #define CURRENT_PIN 0 // analog current reading pin
-
-
-#define CHARGING_PIN 8 // digital Charging LED and Relay Trigger pin
-// n.b. PILOT_PIN *MUST* be digial 10 because initWave() assumes it
-#define PILOT_PIN 10
-
-
-
-// onboard display LED's
-//hardware controlled #define BLUE_LED_PIN 8 // Charging LED
-#define GREEN_LED_PIN 13 // Digital pin
+#define VOLT_PIN 1 // analog voltage reading pin
+#define ACLINE1_PIN 3 // TEST PIN 1 for L1/L2, ground and stuck relay
+#define ACLINE2_PIN 4 // TEST PIN 2 for L1/L2, ground and stuck relay
 #define RED_LED_PIN 5 // Digital pin
+#define CHARGING_PIN 8 // digital Charging LED and Relay Trigger pin
+#define PILOT_PIN 10 // n.b. PILOT_PIN *MUST* be digial 10 because initWave() assumes it
+#define GREEN_LED_PIN 13 // Digital pin
 
-#define SERIAL_BAUD 57600
+#define SERIAL_BAUD 38400
+
+// EEPROM offsets for settings
+#define EOFS_CURRENT_CAPACITY_L1 0 // 1 byte
+#define EOFS_CURRENT_CAPACITY_L2 1 // 1 byte
 
 // must stay within thresh for this time in ms before switching states
 #define DELAY_STATE_TRANSITION 250
@@ -87,17 +97,51 @@
 #define GFI_RETRY_COUNT  255
 #else // !GFI_TESTING
 #define GFI_TIMEOUT ((unsigned long)(15*60000)) // 15*16*1000 doesn't work. go figure
-
-#define GFI_RETRY_COUNT  4
+#define GFI_RETRY_COUNT  3
 #endif // GFI_TESTING
 #endif // GFI
 
+#ifdef RGBLCD //Adafruit RGB LCD
+#include <Adafruit_MCP23017.h>
+#include <Adafruit_RGBLCDShield.h>
+#define RED 0x1
+#define YELLOW 0x3
+#define GREEN 0x2
+#define BLUE 0x6
+#endif //Adafruit RGB LCD
 
+#ifdef I2CLCD
+#include <LiquidTWI.h>
+#define LCD_I2C_ADDR 0 // for adafruit LCD backpack
+#endif // I2CLCD
 
 //-- end configuration
 
-
 //-- begin class definitions
+
+#ifdef SERIALCLI
+#define CLI_BUFLEN 13
+class CLI {
+  int m_CLIinByte; // CLI byte being read in
+  char m_CLIinstr[CLI_BUFLEN]; // CLI byte being read in
+  int m_CLIstrCount; //CLI string counter
+
+public:
+  CLI();
+  void Init();
+  void println(char *s) { 
+    Serial.println(s); 
+  }
+  void print(char *s) { 
+    Serial.print(s); 
+  }
+  void flush() { 
+    Serial.flush(); 
+  }
+  void getInput();
+  uint8_t getInt();
+};
+#endif // SERIALCLI
 
 class OnboardDisplay {
 public:
@@ -148,7 +192,8 @@ public:
 #define EVSE_STATE_D       0x04 // vehicle state D 3V - vent required
 #define EVSE_STATE_DIODE_CHK_FAILED 0x05 // diode check failed
 #define EVSE_STATE_GFCI_FAULT 0x06       // GFCI fault
-
+#define EVSE_STATE_NO_GROUND 0x07 //bad ground
+#define EVSE_STATE_STUCK_RELAY 0x08 //stuck relay
 
 typedef struct threshdata {
   uint16_t m_ThreshAB; // state A -> B
@@ -170,7 +215,8 @@ typedef struct calibdata {
 
 
 // J1772EVSEController m_wFlags bits
-#define ECF_L2                 0x01
+#define ECF_L2                 0x01 // service level 2
+#define ECF_CHARGING_ON        0x02 // charging relay is closed
 #define ECF_GFI_TRIPPED        0x80 // gfi has tripped at least once
 class J1772EVSEController {
   J1772Pilot m_Pilot;
@@ -191,12 +237,15 @@ class J1772EVSEController {
   time_t m_ElapsedChargeTime;
   time_t m_ElapsedChargeTimePrev;
 
-  void chargingOn() { 
+  void chargingOn() {  // turn on charging current
     digitalWrite(CHARGING_PIN,HIGH); 
-  } // turn on charging current
-  void chargingOff() { 
+    m_bFlags |= ECF_CHARGING_ON;
+  }
+  void chargingOff() { // turn off charging current
     digitalWrite(CHARGING_PIN,LOW); 
-  } // turn off charging current
+    m_bFlags &= ~ECF_CHARGING_ON;
+  } 
+  uint8_t chargingIsOn() { return m_bFlags & ECF_CHARGING_ON; }
   void setFlags(uint8_t flags) { 
     m_bFlags |= flags; 
   }
@@ -207,7 +256,7 @@ class J1772EVSEController {
 public:
   J1772EVSEController() {
   }
-  void Init();
+  void Init(char svclvl);
   void Update(); // read sensors
   void LoadThresholds();
 
@@ -243,20 +292,165 @@ public:
   void SetGfiTripped();
   uint8_t GfiTripped() { return m_bFlags & ECF_GFI_TRIPPED; }
 #endif // GFI
-
 };
+
 // -- end class definitions
-
 //-- begin global variables
-THRESH_DATA g_DefaultThreshData = {876,781,690,0,260};
+
+THRESH_DATA g_DefaultThreshData = {875,780,690,0,260};
 J1772EVSEController g_EvseController;
-
-
 OnboardDisplay g_OBD;
+
+#ifdef SERIALCLI
+CLI g_CLI;
+#endif // SERIALCLI
+
+#ifdef RGBLCD //Adafruit RGB LCD
+Adafruit_RGBLCDShield g_Lcd;
+#endif //Adafruit RGB LCD
+
+#ifdef I2CLCD
+LiquidTWI g_Lcd(LCD_I2C_ADDR); 
+#endif // I2CLCD
 
 //-- end global variables
 
+#ifdef RGBLCD
+#define lcdSetBacklightColor(c) g_Lcd.setBacklight(c)
+#else
+#define lcdSetBacklightColor(c)
+#endif // RGBLCD
+
 void EvseReset();
+
+void SaveSettings()
+{
+  // n.b. should we add dirty bits so we only write the changed values? or should we just write them on the fly when necessary?
+  EEPROM.write((g_EvseController.GetCurLevel() == 1) ? EOFS_CURRENT_CAPACITY_L1 : EOFS_CURRENT_CAPACITY_L2,(byte)g_EvseController.GetCurrentCapacity());
+}
+
+#ifdef SERIALCLI
+CLI::CLI()
+{
+  m_CLIstrCount = 0; 
+}
+
+void CLI::Init()
+{
+  Serial.println("Open EVSE"); // CLI print prompt when serial is ready
+  Serial.println("Hardware - Atmel ATMEGA328P-AU"); //CLI Info
+  Serial.print("Software - Open EVSE "); //CLI info
+  Serial.println(VERSTR);
+  Serial.println("");
+
+  g_CLI.println("type ? or help for command list");
+  g_CLI.print("Open_EVSE>"); // CLI Prompt
+  g_CLI.flush();
+
+}
+
+uint8_t CLI::getInt()
+{
+  uint8_t c;
+  uint8_t num = 0;
+
+  do {
+    c = Serial.read(); // read the byte
+    if ((c >= '0') && (c <= '9')) {
+      num = (num * 10) + c - '0';
+    }
+  } while (c != 13);
+  return num;
+}
+
+void CLI::getInput()
+{
+  int currentreading;
+  uint8_t amp;
+  if(Serial.available()) { // if byte(s) are available to be read
+    m_CLIinByte = Serial.read(); // read the byte
+    Serial.print(char(m_CLIinByte));
+    if(m_CLIinByte != 13) {
+      m_CLIinstr[m_CLIstrCount] = char(m_CLIinByte);
+      m_CLIstrCount++;
+    }
+
+    if(m_CLIinByte == 13) { // if enter was pressed or max chars reached
+      Serial.println(""); // print a newline
+      if (strcmp(m_CLIinstr, "show") == 0){ //if match SHOW 
+
+        Serial.println("Open EVSE"); // CLI print prompt when serial is ready
+        Serial.println("Hardware - Atmel ATMEGA328P-AU"); //CLI Info
+        Serial.print("Software - Open EVSE ");
+	Serial.println(VERSTR);
+        Serial.println("\nEVSE Settings");
+        Serial.print("EVSE current capacity (Amps) = ");
+        Serial.println((int)g_EvseController.GetCurrentCapacity()); 
+        Serial.print("Min EVSE Current Capacity = ");
+        Serial.println(MIN_CURRENT_CAPACITY);
+        Serial.print("Max EVSE Current Capacity = ");
+        Serial.println(MAX_CURRENT_CAPACITY_L2);
+        char s[80];
+        int i;
+        sscanf(s,"%d",&i);
+           
+      } 
+      else if ((strcmp(m_CLIinstr, "help") == 0) || (strcmp(m_CLIinstr, "?") == 0)){ // string compare
+        Serial.println("Help Commands");
+        Serial.println("");
+        Serial.println("help  --   Display commands"); // print to the terminal
+        Serial.println("set   --   Change Settings");
+        Serial.println("show  --   Display settings and values");
+        Serial.println("save  --   Write settings to EEPROM");
+      } 
+      else if (strcmp(m_CLIinstr, "set") == 0){ // string compare
+        Serial.println("Set Commands - Usage: set amp");
+        Serial.println("");
+        Serial.println("amp  --  Set the EVSE Current Capacity"); // print to the terminal
+       } 
+      else if (strcmp(m_CLIinstr, "set amp") == 0){ // string compare
+        Serial.println("WARNING - DO NOT SET CURRENT HIGHER THAN 80%");
+	Serial.println("OF YOUR CIRCUIT BREAKER OR"); 
+        Serial.println("GREATER THAN THE RATED VALUE OF THE EVSE");
+        Serial.println("");
+        Serial.print("Enter amps (");
+        Serial.print(MIN_CURRENT_CAPACITY);
+        Serial.print("-");
+        Serial.print((g_EvseController.GetCurLevel()  == 1) ? MAX_CURRENT_CAPACITY_L1 : MAX_CURRENT_CAPACITY_L2);
+	Serial.print("): ");
+	amp = getInt();
+	Serial.println((int)amp);
+        if(g_EvseController.SetCurrentCapacity(amp,1)) {
+	  Serial.println("Invalid Current Capacity");
+	}
+
+        Serial.print("\nEVSE Current Capacity now: "); // print to the terminal
+        Serial.print((int)g_EvseController.GetCurrentCapacity());
+        Serial.print(" Amps");
+      } 
+      else if (strcmp(m_CLIinstr, "save") == 0){ // string compare
+        Serial.println("Saving Settings"); // print to the terminal
+        SaveSettings();
+      } 
+      else { // if the input text doesn't match any defined above
+        Serial.println("Unknown Command -- type ? or help for command list"); // echo back to the terminal
+      } 
+      Serial.println("");
+      Serial.println("");
+      Serial.print("Open_EVSE>");
+      g_CLI.flush();
+      m_CLIstrCount = 0; // get ready for new input... reset strCount
+      m_CLIinByte = 0; // reset the inByte variable
+      for(int i = 0; m_CLIinstr[i] != '\0'; i++) { // while the string does not have null
+        m_CLIinstr[i] = '\0'; // fill it with null to erase it
+      }
+    }
+  }
+}
+
+#endif // SERIALCLI
+
+
 
 void OnboardDisplay::Init()
 {
@@ -288,23 +482,103 @@ void OnboardDisplay::Update()
     case EVSE_STATE_A: // not connected
       SetGreenLed(HIGH);
       SetRedLed(LOW);
+      #ifdef LCD16X2 //Adafruit RGB LCD
+      lcdSetBacklightColor(GREEN);
+      g_Lcd.setCursor(0, 0);
+      g_Lcd.print("EVSE Ready   ");
+      g_Lcd.setCursor(13,0);
+      g_Lcd.print((int)g_EvseController.GetCurrentCapacity());
+      g_Lcd.print("A");
+      g_Lcd.setCursor(0, 1);
+      g_Lcd.print("Not Connected  ");
+      #endif //Adafruit RGB LCD
       // n.b. blue LED is off
       break;
     case EVSE_STATE_B: // connected/not charging
       SetGreenLed(HIGH);
       SetRedLed(HIGH);
+      #ifdef LCD16X2 //Adafruit RGB LCD
+      lcdSetBacklightColor(YELLOW);
+      g_Lcd.setCursor(0, 0);
+      g_Lcd.print("EVSE Ready      ");
+      g_Lcd.setCursor(13,0);
+      g_Lcd.print((int)g_EvseController.GetCurrentCapacity());
+      g_Lcd.print("A");
+      g_Lcd.setCursor(0, 1);
+      g_Lcd.print("Waiting for EV   ");
+      #endif //Adafruit RGB LCD
       // n.b. blue LED is off
       break;
     case EVSE_STATE_C: // charging
       SetGreenLed(LOW);
       SetRedLed(LOW);
+      #ifdef LCD16X2 //Adafruit RGB LCD
+      lcdSetBacklightColor(BLUE);
+      g_Lcd.setCursor(0, 0);
+      g_Lcd.print("Charging     ");
+      g_Lcd.print((int)g_EvseController.GetCurrentCapacity());
+      g_Lcd.print ("A");
+      #endif //Adafruit RGB LCD
       // n.b. blue LED is on
       break;
     case EVSE_STATE_D: // vent required
+      SetGreenLed(LOW);
+      SetRedLed(HIGH);
+      #ifdef LCD16X2 //Adafruit RGB LCD
+      lcdSetBacklightColor(RED);
+      g_Lcd.setCursor(0, 0);
+      g_Lcd.print("EVSE ERROR      ");
+      g_Lcd.setCursor(0, 1);
+      g_Lcd.print("VENT REQUIRED   ");
+      #endif //Adafruit RGB LCD
+      // n.b. blue LED is off
+      break;
     case EVSE_STATE_DIODE_CHK_FAILED:
+      SetGreenLed(LOW);
+      SetRedLed(HIGH);
+      #ifdef LCD16X2 //Adafruit RGB LCD
+      lcdSetBacklightColor(RED);
+      g_Lcd.setCursor(0, 0);
+      g_Lcd.print("EVSE ERROR      ");
+      g_Lcd.setCursor(0, 1);
+      g_Lcd.print("DIODE CHK FAILED");
+      #endif //Adafruit RGB LCD
+      // n.b. blue LED is off
+      break;
     case EVSE_STATE_GFCI_FAULT:
       SetGreenLed(LOW);
       SetRedLed(HIGH);
+      #ifdef LCD16X2 //Adafruit RGB LCD
+      lcdSetBacklightColor(RED);
+      g_Lcd.setCursor(0, 0);
+      g_Lcd.print("EVSE ERROR     ");
+      g_Lcd.setCursor(0, 1);
+      g_Lcd.print("GFCI FAULT      ");
+      #endif //Adafruit RGB LCD
+      // n.b. blue LED is off
+      break;
+     case EVSE_STATE_NO_GROUND:
+      SetGreenLed(LOW);
+      SetRedLed(HIGH);
+      #ifdef LCD16X2 //Adafruit RGB LCD
+      lcdSetBacklightColor(RED);
+      g_Lcd.setCursor(0, 0);
+      g_Lcd.print("EVSE ERROR      ");
+      g_Lcd.setCursor(0, 1);
+      g_Lcd.print("NO GROUND       ");
+      #endif //Adafruit RGB LCD
+      // n.b. blue LED is off
+      break;
+     case EVSE_STATE_STUCK_RELAY:
+      SetGreenLed(LOW);
+      SetRedLed(HIGH);
+      #ifdef LCD16X2 //Adafruit RGB LCD
+      lcdSetBacklightColor(RED);
+      g_Lcd.setCursor(0, 0);
+      g_Lcd.print("EVSE ERROR      ");
+      g_Lcd.setCursor(0, 1);
+      g_Lcd.print("STUCK RELAY      ");
+      #endif //Adafruit RGB LCD
       // n.b. blue LED is off
       break;
     default:
@@ -313,6 +587,32 @@ void OnboardDisplay::Update()
       // n.b. blue LED is off
     }
   }
+#ifdef LCD16X2
+  if (curstate == EVSE_STATE_C) {
+    time_t elapsedTime = g_EvseController.GetElapsedChargeTime();
+    if (elapsedTime != g_EvseController.GetElapsedChargeTimePrev()) {
+      g_Lcd.setCursor(0, 1);      
+      int h = hour(elapsedTime);
+      int m = minute(elapsedTime);
+      int s = second(elapsedTime);
+      if (h < 10) {
+	g_Lcd.print("0"); 
+      } 
+      g_Lcd.print(h);
+      g_Lcd.print(":");
+      if (m < 10) {
+	g_Lcd.print("0"); 
+      } 
+      g_Lcd.print(m);
+      g_Lcd.print(":"); 
+      if (s < 10) {
+	g_Lcd.print("0"); 
+      }
+      g_Lcd.print(s);
+      g_Lcd.print("        "); 
+    }
+  }
+#endif
 }
 
 
@@ -447,8 +747,10 @@ void J1772EVSEController::LoadThresholds()
     memcpy(&m_ThreshData,&g_DefaultThreshData,sizeof(m_ThreshData));
 }
 
-void J1772EVSEController::Init()
+void J1772EVSEController::Init(char svclvl)
 {
+  m_bFlags = 0;
+
 #ifdef GFI
   m_GfiRetryCnt = 0;
   m_GfiTripCnt = 0;
@@ -460,13 +762,17 @@ void J1772EVSEController::Init()
   m_EvseState = EVSE_STATE_UNKNOWN;
   m_PrevEvseState = EVSE_STATE_UNKNOWN;
 
-  m_bFlags = 0;
-
-  m_bFlags |= ECF_L2; // set to Level 2
+  if (svclvl == 2) {
+    m_bFlags |= ECF_L2; // set to Level 2
+  }
 
   //n.b. we need to have voltage reading so we can select between L1/L2
   uint8_t curlevel = GetCurLevel();
-  uint8_t ampacity = (curlevel == 1) ? CURRENT_CAPACITY_L1 : CURRENT_CAPACITY_L2;
+  int ampacity =  EEPROM.read((curlevel == 1) ? EOFS_CURRENT_CAPACITY_L1 : EOFS_CURRENT_CAPACITY_L2);
+
+  if ((ampacity == 255) || (ampacity == 0)) {
+    ampacity = (curlevel == 1) ? DEFAULT_CURRENT_CAPACITY_L1 : DEFAULT_CURRENT_CAPACITY_L2;
+  }
   
   if (ampacity < MIN_CURRENT_CAPACITY) {
     ampacity = MIN_CURRENT_CAPACITY;
@@ -508,10 +814,38 @@ void J1772EVSEController::Update()
 {
   uint8_t prevevsestate = m_EvseState;
   uint8_t tmpevsestate = EVSE_STATE_UNKNOWN;
+  uint8_t nofault = 1;
 
   int plow;
   int phigh;
 
+#ifdef ADVPWR
+  int PS1state = digitalRead(ACLINE1_PIN);
+  int PS2state = digitalRead(ACLINE2_PIN);
+
+  if (chargingIsOn()) { // ground check - can only test when relay closed
+    
+    if ((PS1state == HIGH) && (PS2state == HIGH)) {
+      // bad ground
+      
+      tmpevsestate = EVSE_STATE_NO_GROUND;
+      m_EvseState = EVSE_STATE_NO_GROUND;
+      
+      chargingOff(); // open the relay
+      nofault = 0;
+    }
+  }
+  else { // stuck relay check - can test only when relay open
+    if ((PS1state == LOW) || (PS2state == LOW)) {
+      // stuck relay
+      
+      tmpevsestate = EVSE_STATE_STUCK_RELAY;
+      m_EvseState = EVSE_STATE_STUCK_RELAY;
+      
+      nofault = 0;
+    }
+  }
+#endif // ADVPWR
    
 #ifdef GFI
   if (m_Gfi.Fault()) {
@@ -532,16 +866,19 @@ void J1772EVSEController::Update()
 	m_GfiTimeout = millis() + GFI_TIMEOUT;
       }
     }
+
+    nofault = 0;
   }
-  else {
-    if (prevevsestate == EVSE_STATE_GFCI_FAULT) {
+#endif // GFI
+
+  if (nofault) {
+    if ((prevevsestate == EVSE_STATE_GFCI_FAULT) ||
+	(prevevsestate == EVSE_STATE_NO_GROUND)) {
       // just got out of GFCI fault state - pilot back on
       m_Pilot.SetState(PILOT_STATE_P12);
       prevevsestate = EVSE_STATE_UNKNOWN;
       m_EvseState = EVSE_STATE_UNKNOWN;
     }
-#endif // GFI
-
     // Begin Sensor readings
     int reading;
     plow = 1023;
@@ -591,9 +928,8 @@ void J1772EVSEController::Update()
         m_EvseState = tmpevsestate;
       }
     }
-#ifdef GFI
   }
-#endif // GFI
+
   m_TmpEvseState = tmpevsestate;
   
   // state transition
@@ -625,6 +961,16 @@ void J1772EVSEController::Update()
       chargingOff(); // turn off charging current
       // must leave pilot on so we can keep checking
       m_Pilot.SetPWM(m_CurrentCapacity);
+    }
+    else if (m_EvseState == EVSE_STATE_NO_GROUND) {
+      // Ground not detected
+      chargingOff(); // turn off charging current
+      m_Pilot.SetState(PILOT_STATE_N12);
+    }
+    else if (m_EvseState == EVSE_STATE_STUCK_RELAY) {
+      // Stuck relay detected
+      chargingOff(); // turn off charging current
+      m_Pilot.SetState(PILOT_STATE_N12);
     }
     else {
       m_Pilot.SetState(PILOT_STATE_P12);
@@ -722,13 +1068,194 @@ int J1772EVSEController::SetCurrentCapacity(uint8_t amps,uint8_t updatepwm)
 
 //-- end J1772EVSEController
 
+#ifdef LCD16X2 //Adafruit RGB LCD 
+void lcdWelcome()
+{
+  g_Lcd.begin(16, 2);
+  g_Lcd.setCursor(0, 0);
+  g_Lcd.print("Open EVSE       ");
+  delay(500);
+  g_Lcd.setCursor(0, 1);
+  g_Lcd.print("Version ");
+  g_Lcd.print(VERSTR);
+  g_Lcd.print("   ");
+  delay(1500);
+}
+#endif // LCD16X2
+
+#ifdef RGBLCD
+void doRgbLcdBtns()
+{   
+    uint8_t buttons = g_Lcd.readButtons();
+
+  if (buttons) {
+    
+    if (buttons & BUTTON_UP) {
+      
+    }
+    if (buttons & BUTTON_DOWN) {
+      
+    }
+    if (buttons & BUTTON_LEFT) {
+      
+    }
+    if (buttons & BUTTON_RIGHT) {
+      
+    }
+    if (buttons & BUTTON_SELECT) {
+ 
+    }
+  }
+}
+#endif //Adafruit RGB LCD
+
+#ifdef ADVPWR
+char doPost()
+{
+  char svclvl = 0;
+
+  pinMode(RED_LED_PIN, OUTPUT);
+  pinMode(PILOT_PIN, OUTPUT);
+  pinMode(CHARGING_PIN, OUTPUT);
+  pinMode(VOLT_PIN, INPUT);
+
+  digitalWrite(PILOT_PIN, HIGH); //check to see if EV is plugged in write early so it will stabelize before reading.
+  digitalWrite(RED_LED_PIN, HIGH); // Red LED on for ADVPWR
+  #ifdef LCD16X2 //Adafruit RGB LCD
+    g_Lcd.setCursor(0, 0);
+    g_Lcd.print("Power On        ");
+    delay(100);
+    g_Lcd.setCursor(0, 1);
+    g_Lcd.print("Self Test       ");
+    delay(1500);
+  #endif //Adafruit RGB LCD 
+  pinMode(ACLINE1_PIN, INPUT);
+  pinMode(ACLINE2_PIN, INPUT);
+  digitalWrite(ACLINE1_PIN, HIGH);
+  digitalWrite(ACLINE2_PIN, HIGH);
+  int PS1state = HIGH;
+  int PS2state = HIGH;
+    
+  PS1state = digitalRead(ACLINE1_PIN); //STUCK RELAY test read AC voltage with Relay Open 
+  PS2state = digitalRead(ACLINE2_PIN); //STUCK RELAY test read AC voltage with Relay Open
+  if ((PS1state == LOW) || (PS2state == LOW)) {   // If AC voltage is present (LOW) than the relay is stuck
+    //m_EvseState = EVSE_STATE_STUCK_RELAY;
+    digitalWrite(PILOT_PIN, LOW);
+    #ifdef LCD16X2 //Adafruit RGB LCD
+    lcdSetBacklightColor(RED);
+    g_Lcd.setCursor(0, 0);
+    g_Lcd.print("--Stuck Relay-- ");
+    g_Lcd.setCursor(0, 1);
+    g_Lcd.print("Test: Failed    ");
+    #endif  //Adafruit RGB LCD
+  } 
+  else {
+    #ifdef LCD16X2 //Adafruit RGB LCD
+    g_Lcd.setCursor(0, 0);
+    g_Lcd.print("--Stuck Relay-- ");
+    g_Lcd.setCursor(0, 1);
+    g_Lcd.print("Test: Passed    ");
+    delay(1000);
+    #endif //Adafruit RGB LCD
+    int reading = 1;
+    reading = analogRead(VOLT_PIN); //read pilot
+    digitalWrite(PILOT_PIN, LOW);
+    if (reading > 0) {              // IF no EV is plugged in its Okay to open the relay the do the L1/L2 and ground Check
+        digitalWrite(CHARGING_PIN, HIGH);
+        delay(500);
+        PS1state = digitalRead(ACLINE1_PIN);
+        PS2state = digitalRead(ACLINE2_PIN);
+        digitalWrite(CHARGING_PIN, LOW);
+          if ((PS1state == HIGH) && (PS2state == HIGH)) {     
+             // m_EvseState = EVSE_STATE_NO_GROUND;
+               #ifdef LCD16X2 //Adafruit RGB LCD
+                lcdSetBacklightColor(RED); 
+                g_Lcd.setCursor(0, 0);
+                g_Lcd.print("--Earth Ground--");
+                g_Lcd.setCursor(0, 1);
+                g_Lcd.print("Test: Failed    ");
+               #endif  //Adafruit RGB LCD
+          } 
+          else if ((PS1state == LOW) && (PS2state == LOW)) {  //L2   
+              #ifdef LCD16X2 //Adafruit RGB LCD
+                g_Lcd.setCursor(0, 0);
+                g_Lcd.print("--Earth Ground--");
+                g_Lcd.setCursor(0, 1);
+                g_Lcd.print("Test: Passed    ");
+                delay(1000);
+                g_Lcd.setCursor(0, 0);
+                g_Lcd.print("--EVSE Charge-- ");
+                g_Lcd.setCursor(0, 1);
+                g_Lcd.print("Rate: L2        ");
+                delay(1000);
+               #endif //Adafruit RGB LCD
+
+		svclvl = 2; // L2
+          }  
+          else if ((PS1state == LOW) && (PS2state == HIGH)) {  //L1   
+              #ifdef LCD16X2 //Adafruit RGB LCD
+                g_Lcd.setCursor(0, 0);
+                g_Lcd.print("--Earth Ground--");
+                g_Lcd.setCursor(0, 1);
+                g_Lcd.print("Test: Passed    ");
+                delay(1000);
+                g_Lcd.setCursor(0, 0);
+                g_Lcd.print("--EVSE Charge-- ");
+                g_Lcd.setCursor(0, 1);
+                g_Lcd.print("Rate: L1        ");
+                delay(1000);
+               #endif //Adafruit RGB LCD
+          }  
+          else if ((PS1state == HIGH) && (PS2state == LOW)) {  //L1   
+              #ifdef LCD16X2 //Adafruit RGB LCD
+                g_Lcd.setCursor(0, 0);
+                g_Lcd.print("--Earth Ground--");
+                g_Lcd.setCursor(0, 1);
+                g_Lcd.print("Test: Passed    ");
+                delay(1000);
+                g_Lcd.setCursor(0, 0);
+                g_Lcd.print("--EVSE Charge-- ");
+                g_Lcd.setCursor(0, 1);
+                g_Lcd.print("Rate: L1        ");
+                delay(1000);
+               #endif //Adafruit RGB LCD
+
+		svclvl = 1; // L1
+          }   
+     } 
+  }
+  
+  digitalWrite(RED_LED_PIN, LOW); // Red LED off for ADVPWR  
+
+  if (svclvl == 0) {
+    while (1); // error, wait forever
+  }
+
+  return svclvl;
+}
+#endif // ADVPWR
+
 void EvseReset()
 {
-  g_EvseController.Init();
+#ifdef LCD16X2 //Adafruit RGB LCD  
+  lcdWelcome();
+#endif //Adafruit RGB LCD 
+
+  char svclvl = DEFAULT_SERVICE_LEVEL;
+#ifdef ADVPWR  // Power on Self Test for Advanced Power Supply
+  svclvl = doPost();
+#endif // ADVPWR  
+
+  g_EvseController.Init(svclvl);
 
   g_OBD.Init();
-}
 
+
+#ifdef SERIALCLI
+  g_CLI.Init();
+#endif // SERIALCLI
+
+}
 
 void setup()
 {
@@ -755,9 +1282,17 @@ void loop()
   wdt_reset(); // pat the dog
 #endif // WATCHDOG
 
+#ifdef SERIALCLI
+  g_CLI.getInput();
+#endif // SERIALCLI
+
   g_EvseController.Update();
 
   g_OBD.Update();
-}
+  
+#ifdef RGBLCD //Adafruit RGB LCD    
+  doRgbLcdBtns();
+#endif //Adafruit RGB LCD
 
+}
 
