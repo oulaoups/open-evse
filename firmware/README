@@ -1,0 +1,22 @@
+Change Log
+v0.5.0
+Adafruit RGB LCD and LCD backpack support
+Support for Advanced Power Supply
+	
+v0.4.0
+Command Line Interface (CLI)
+Write Current setting to EEPROM
+Serial Baud Rate 38400
+CLI Commands: "show" "set amp" "save" "help"
+
+
+v0.3.0
+GFI code debugged and working.
+Now compiles with Arduino 1.0
+
+v.0.2.0	
+Firmware for use with Arduino-0022. Tested as working.
+
+* Open EVSE is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	
