@@ -37,7 +37,8 @@ If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 2
 || J-1772 cable(EVC-C-30A-600-20 30AJ)  || Avnet || $261 || 1 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-30A-600S-20 ||
 || 30A AC Plug L6-30 || Stay Online || $29.00 || 1 || http://www.stayonline.com/detail.aspx?ID=15695 ||
 || AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || http://adafruit.com/products/714 ||
-|| NEMA Cable Glands || Poly Case || $3.25 || 2 || http://www.polycase.com/cg-16 ||
+|| Strain Relief 3/4" NPT (ArrowHart TC1254) || local electrical supply house || $15.00 || 1 ||
+|| Strain Relief 1" NPT (ArrowHart TC1373) || local electrical supply house || $15.00 || 1 ||
 || Ground Bar Kit || Home Depot || $4.17 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
 
 
