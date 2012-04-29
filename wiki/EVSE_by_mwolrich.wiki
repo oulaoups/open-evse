@@ -35,7 +35,7 @@ If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 2
 || FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND) || Digikey || $4.00 || 2 || http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
 || FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.74 || 2|| http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
 || J-1772 cable(EVC-C-30A-600-20 30AJ)  || Avnet || $261 || 1 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-30A-600S-20 ||
-|| 30A AC Plug L6-30 || Stay Online || $29.00 || 1 || http://www.stayonline.com/detail.aspx?ID=15695 ||
+|| 30A AC Plug L6-30 || Stay Online || $33.00 || 1 || http://www.stayonline.com/detail.aspx?ID=15695 ||
 || AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || http://adafruit.com/products/714 ||
 || Strain Relief 3/4" NPT (Arrow Hart TC1254) || local electrical supply house || $15.00 || 1 ||
 || Strain Relief 1" NPT (Arrow Hart TC1373) || local electrical supply house || $15.00 || 1 ||
