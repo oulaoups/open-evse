@@ -1,0 +1,49 @@
+#summary A portable EVSE built with a Open EVSE board.
+
+= Introduction =
+
+This is an example of a 30A Portable EVSE built with the Open EVSE GFCI board, and Advanced power supply. 
+
+This should not be attempted by anyone without the required skills and knowledge to work with high voltage.
+
+Open EVSE is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+= High Voltage Schematic =
+
+<a href="http://www.flickr.com/photos/60192309@N05/6539483165/" title="Untitled by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7171/6539483165_6af4f30b8f_z.jpg" width="640" height="281"</a>
+
+= EVSE Ground =
+
+NOTE: The Open EVSE control Board must be grounded to the EV/Earth Ground for the pilot to operate correctly. 
+
+= Circuit =
+
+If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 24A. 
+
+= Parts =
+
+|| Part || Source || Cost || Quantity || Link ||
+|| Open EVSE Board || Open EVSE || $85 || 1 || http://code.google.com/p/open-evse/ ||
+|| 12V Advanced Power Supply kit || Open EVSE || $45 || 1 || http://code.google.com/p/open-evse/||
+|| 30A Relay || Digikey || $13.03 || 1 || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
+|| Current Transformer || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
+|| BOX NEMA ECONOMY 5.9X5.9X3.54 (377-1787-ND) || Digikey || $20.62 || 1 || http://search.digikey.com/scripts/DkSearch/dksus.dll?lang=en&site=us&KeyWords=377-1787-ND&x=0&y=0 ||
+|| PANEL INTERNAL 4.9" X 4.9" (377-1939-ND) || Digikey || $4.80 || 1 || http://search.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&site=us&keywords=377-1939-ND&x=0&y=0 ||
+|| FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND) || Digikey || $4.00 || 2 || http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
+|| FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.74 || 2|| http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
+|| J-1772 cable(EVC-C-30A-600-20 30AJ)  || Avnet || $261 || 1 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-30A-600S-20 ||
+|| 30A AC Plug L6-30 || Stay Online || $29.00 || 1 || http://www.stayonline.com/detail.aspx?ID=15695 ||
+|| AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || http://adafruit.com/products/714 ||
+|| NEMA Cable Glands || Poly Case || $3.25 || 2 || http://www.polycase.com/cg-16 ||
+|| Ground Bar Kit || Home Depot || $4.17 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
+
+
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=PhotoApr2894212AM.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/PhotoApr2894212AM.jpg" border="0" alt="Photobucket">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=OpenEVSEassembly11.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/OpenEVSEassembly11.jpg" border="0" alt="OpenEVSE completed, completed with AdaFruit RGB LCD display installed">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=OpenEVSEassembly12.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/OpenEVSEassembly12.jpg" border="0" alt="OpenEVSE completed, completed with cover closed, and J-1772 and L6-30 seen, 120V adapter installed for testing">
