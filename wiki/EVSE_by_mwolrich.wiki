@@ -1,4 +1,4 @@
-#summary A portable EVSE built with a Open EVSE board.
+#summary A portable EVSE built with an Open EVSE board.
 
 = Introduction =
 
