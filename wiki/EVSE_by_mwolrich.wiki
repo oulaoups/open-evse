@@ -13,7 +13,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 = High Voltage Schematic =
 
-<a href="http://www.flickr.com/photos/60192309@N05/6539483165/" title="Untitled by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7171/6539483165_6af4f30b8f_z.jpg" width="640" height="281"</a>
+http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 
 = EVSE Ground =
 
