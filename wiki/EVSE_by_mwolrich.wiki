@@ -26,8 +26,8 @@ If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 2
 = Parts =
 
 || Part || Source || Cost || Quantity || Link ||
-|| Open EVSE Board || Open EVSE || $85 || 1 || http://code.google.com/p/open-evse/ ||
-|| 12V Advanced Power Supply kit || Open EVSE || $45 || 1 || http://code.google.com/p/open-evse/||
+|| Open EVSE Board || Open EVSE || $85 || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
+|| 12V Advanced Power Supply kit || Open EVSE || $45 || 1 ||  http://code.google.com/p/open-evse/wiki/Ordering ||
 || 30A Relay || Digikey || $13.03 || 1 || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
 || Current Transformer || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || BOX NEMA ECONOMY 5.9X5.9X3.54 (377-1787-ND) || Digikey || $20.62 || 1 || http://search.digikey.com/scripts/DkSearch/dksus.dll?lang=en&site=us&KeyWords=377-1787-ND&x=0&y=0 ||
