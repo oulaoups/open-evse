@@ -47,4 +47,8 @@ If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 2
 
 <a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=OpenEVSEassembly11.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/OpenEVSEassembly11.jpg" border="0" alt="OpenEVSE completed, completed with AdaFruit RGB LCD display installed">
 
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=OpenEVSEassembly10.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/OpenEVSEassembly10.jpg" border="0" alt="OpenEVSE, view of components">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=OpenEVSEassembly5.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/OpenEVSEassembly5.jpg" border="0" alt="grounding, grounding conductors from advanced PS, AC power cord, and J-1772 cable">
+
 <a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=OpenEVSEassembly12.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/OpenEVSEassembly12.jpg" border="0" alt="OpenEVSE completed, completed with cover closed, and J-1772 and L6-30 seen, 120V adapter installed for testing">
