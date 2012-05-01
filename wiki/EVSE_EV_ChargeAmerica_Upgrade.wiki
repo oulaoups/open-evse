@@ -1,0 +1,147 @@
+#summary Upgrade of a non-functional EV Charge America EVSE.
+
+= Warning =
+
+There have been many reports of serious problems dealing with EV Charge America from non-delivery of product to poorly or non-working EVSE.  I received a unit to gut and replace the parts with Open EVSE components for the owner. The owner did not want to continue to deal with EVCA for repair.
+
+
+http://www.bbb.org/southern-nevada/business-reviews/electronic-power-supplies/ev-charge-america-in-las-vegas-nv-90006800
+
+http://www.pluginamerica.org/accessories/ev-charge-america-ev2100
+
+http://www.mynissanleaf.com/viewtopic.php?f=26&t=1177
+
+= Details =
+*The good:*
+
+-The case is really nice and well built
+
+-Someone spent A LOT of time building the unit and for the most part did an Okay job
+
+-There is a CT coil so there may be GFCI (could not test unit was non-functioning and smelled very dead)
+
+ 
+ 
+
+*The bad:*
+
+-No fuses...
+
+-Metal shavings and debris everywhere
+
+-High voltage wiring scary (see picture below)
+
+-Solid state relays not the best choice for an EVSE
+
+-way to complex SOOOOO MANY wires (pictures do not do justice there are a lot of wires going everywhere)
+
+-looks like a prototype not something you should pay for
+
+-custom board built on proto board wrapped in electrical tape and velcroed in place
+
+-So much glue, tape and gooey stuff.
+
+= Parts =
+This is a list of parts required to upgrade the EV Charge America EVSE with OpenEVSE components.
+
+|| Part || Source || Cost || Quantity || Link ||
+|| OpenEVSE Board || OpenEVSE || $85 || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
+|| 12V Advanced Power Supply kit || OpenEVSE || $45 || 1 ||  http://code.google.com/p/open-evse/wiki/Ordering ||
+|| 30A Relay || Digikey || $13.03 || 1 || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
+|| Current Transformer || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
+|| FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND) || Digikey || $4.00 || 2 || http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
+|| FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.74 || 2|| http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
+|| AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || http://adafruit.com/products/714 ||
+|| Ground Bar Kit || Home Depot || $4.17 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
+
+|| Total || || $195 ||
+
+
+= Before =
+Wires everywhere, Arduino Mega board and 2 custom boards
+
+http://farm8.staticflickr.com/7192/6957684170_76588b46ea_z.jpg
+
+Custom Board #1
+
+http://farm8.staticflickr.com/7258/6957681936_c615055f25_z.jpg
+
+Arduino Mega covered in glue
+
+
+http://farm8.staticflickr.com/7215/7103748745_9a98b8da55_z.jpg
+
+Custom Board 2 covered in glue and wrapped with electrical tape then velcroed in place
+
+
+http://farm8.staticflickr.com/7191/6957013916_d495cfdefe_z.jpg
+
+Power Supplies and Solid State Relays
+
+
+http://farm8.staticflickr.com/7129/6957691738_b3899e9b61_z.jpg
+
+AC Line with frayed wires
+
+http://farm8.staticflickr.com/7105/7103758817_816a14917d_z.jpg
+
+= The Rebuild =
+
+The first step is to remove all the old components and clean the enclosure of debris.
+
+http://farm9.staticflickr.com/8148/6969859146_186bcf49b8_z.jpg
+
+Enlarge the holes where the buttons were previously to 1/2" to accommodate the 30A fuse holders and fuses.
+
+
+
+http://farm8.staticflickr.com/7139/7121652095_281cb39e25_z.jpg
+
+Mount the Adafruit RBG LCD to the Enclosure. Use nylon spacers and watch for board flex, Do not over tighten. I used male and femain .1" headers so the LCD and control board can be separated. The two can be soldered together after the LCD is mounted, removal later will be a bit more tricky though.
+
+
+http://farm8.staticflickr.com/7060/7121650759_44b63e1722_z.jpg
+http://farm8.staticflickr.com/7108/6975572208_6176bf41e1_z.jpg
+
+
+Mount the OpenEVSE/Power Supply stack and Relay to the metal plate and then to the enclosure support with 1/4" nylon spacers for a slight drop to allow for enough space for the AC wiring. Mount the Ground Bar to the Enclosure support.
+
+
+http://farm8.staticflickr.com/7204/6975568254_71864eced5_z.jpg
+
+Reinstall the assembly into the Enclosure. Cover the LCD wire with Shrink Wrap to prevent the wires from chafing and connect to the OpenEVSE.
+
+
+
+
+http://farm8.staticflickr.com/7219/6975573990_f9ab02aff3_z.jpg
+
+Solder and shrink wrap the AC wires to the center terminals of the fuse holder.
+
+http://farm9.staticflickr.com/8003/7121657159_1fd9ff6299_z.jpg
+
+Solder and shrink wrap wires to the other terminal to go to the relay. You can take 8" or so of wire from the J1772 cable, you already have it, it's the right gauge, flexible and easy to work with.
+
+http://farm8.staticflickr.com/7128/6975625104_3137bdb990_z.jpg
+
+Crimp and shrink wrap a 1/4" lug connector to the wire from the fuse and a wire to power the OpenEVSE power supply (must be rated above 250V @ 1A). 
+
+http://farm8.staticflickr.com/7049/7123438709_1ace97f5f8_z.jpg
+
+Connect Hot, Neutral/Hot and Ground to the OpenEVSE Power Supply. 
+
+http://farm8.staticflickr.com/7240/7124427843_d94d72a564_z.jpg
+
+Install the J1772 cable and slip on the CT coil. Crimp a 1/4" connector to the Hot (black) and Hot/Neutral (White) (ends along with a wire for the Test terminals on the OpenEVSE power supply. Solder the CT leads to the OpenEVSE board. Connect the green wire to the ground block and the pilot wire to the OpenEVSE screw terminal labeled pilot.
+
+
+http://farm9.staticflickr.com/8157/6978341332_c28cab19ed_z.jpg
+
+Test the EVSE before returning to service. http://code.google.com/p/open-evse/wiki/EVSE_TESTING
+
+http://farm9.staticflickr.com/8024/6977361476_7466fb522f_z.jpg
+
+= Charging =
+
+http://farm9.staticflickr.com/8155/6977362196_ce2d855f4f_z.jpg
+http://www.youtube.com/embed/cZbfMcIaFDQ
