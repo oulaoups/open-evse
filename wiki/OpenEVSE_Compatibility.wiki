@@ -10,7 +10,6 @@ OpenEVSE has been tested with:
 || 2011 - 2012 || Nissan || LEAF || Timers - Supported || None ||
 || 2011 - 2012 || Chevy || VOLT || Timers - Supported || None ||
 || 2012        || Toyota|| PiP || Timers - Supported || None ||
-
-
-= Reports =
+|| 2012 || Mitsubishi || i-Mies || || 
+= Reports =None ||
 If you have tested OpenEVSE on other vehicles please send a compatibility report to chris1howell83@gmail.com...
