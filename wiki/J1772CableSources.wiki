@@ -4,11 +4,13 @@
 
 = Sources =
 
-|| Part Number ||Manufacture || Level || Max Current || UL || Length || Price || Link ||
-|| EVC-C-15A-300-20 || ITT || L1 || 15A || Yes || 20' || $220 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-15A-300S-20 ||
-|| EVC-C-15A-600-20 || ITT || L1/L2 || 15A || Yes || 20' || $225 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-15A-600S-20 ||
-|| EVC-C-30A-600-20 || ITT || L1/L2 || 30A || Yes || 20' || $260 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-30A-600S-20||
-|| EVC-C-75A-600-20 || ITT || L1/L2 || 75A || Yes || 20' || $330 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-75A-600S-20/||
-|| Plug alone || Dostar || L1/L2 || 70A || No ||0' || $170 || http://www.tucsonev.com/index.html ||
-|| Plug with Cord || Dostar || L1/L2 || 30A || No || 20' || $230 || http://www.tucsonev.com/index.html ||
-|| Plug with Cord || Dostar || L1/L2 || 70A || No || 26' || $250 || http://www.tucsonev.com/index.html ||
+|| Part Number || Description || Manufacture || Level || Max Current || UL || Length || Price || Link ||
+|| EVC-C-15A-300-20 || || ITT || L1 || 15A || Yes || 20' || $220 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-15A-300S-20 ||
+|| EVC-C-15A-600-20 || || ITT || L1/L2 || 15A || Yes || 20' || $225 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-15A-600S-20 ||
+|| EVC-C-30A-600-20 || || ITT || L1/L2 || 30A || Yes || 20' || $260 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-30A-600S-20||
+|| EVC-C-75A-600-20 || || ITT || L1/L2 || 75A || Yes || 20' || $330 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-75A-600S-20/||
+|| || Plug alone || Dostar || L1/L2 || 70A || No || none || $170 || http://www.tucsonev.com/index.html ||
+|| || Plug with Cord || Dostar || L1/L2 || 30A || No || 20' || $230 || http://www.tucsonev.com/index.html ||
+|| || Plug with Cord || Dostar || L1/L2 || 70A || No || 26' || $250 || http://www.tucsonev.com/index.html ||
+|| 75T6614 || Plug only || Multicomp || L1/L2 || 32A || No || none || $150 || http://www.newark.com/multicomp/dsi-ev32p-nc/plug-ev-j1772-32a/dp/75T6614 ||
+|| 75T6615 ||  Plug and cable || Multicomp || L1/L2 || 32A || No || 3m || $206 || http://www.newark.com/multicomp/dsi-ev32p-3c/plug-ev-j1772-32a-3m-cable/dp/75T6615?Ntt=75T6615 ||
