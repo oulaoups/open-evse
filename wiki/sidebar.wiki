@@ -1,7 +1,7 @@
-#summary Sidebar for Guava Explained.
+#summary Sidebar.
   
   * *OpenEVSE*
-    * [OpenEVSE_boards OpenEVSE]
+    * [OpenEVSE_boards OpenEVSE boards]
     * [OpenEVSE_Compatibility Compatibility]
   * [Open_EVSEs EVSE Examples]
     * [EVSE_by_mwolrich EVSE by mwolrich]
@@ -9,18 +9,16 @@
     * [EVSE_EV_ChargeAmerica_Upgrade Rebuild of broken EVCS EVSE]
     * [ExampleEVSE Basic EVSE by chris1howell]
     * [EVSE_Example75A 75A EVSE by chris1howell]
-  * J1772
+  * SAE J1772 Standard
     * [J1772CableSources Sources for J1772 cables]
     * [J1772Basics Basics of J1772]
   * How to...
-    * [LoadingFirmware Programmers]
-    * [Stepbystepinstructionstouploadcode Loading Firmware]
+    * [LoadingFirmware Loading Firmware]
     * [AdaFruitRGBdisplay Add a display]
     * [MaxCurrent Set Default Current]
   * Do it Yourself
     * [OpenEVSEv1partslist Parts list to DIY]
     * [PCBProduction Have PCB fabricated for you DIY project]
-
   * Ordering
     * [Ordering Order OpenEVSE and kits]
 
