@@ -1,16 +1,10 @@
 #summary Sidebar for Guava Explained.
   
 * [OpenEVSE_boards OpenEVSE]
-  * EVSE Examples
+* EVSE Examples
     * [EVSE_by_mwolrich EVSE by mwolrich]
     * [EVSE_by_thinwing EVSE by thinwing]
     * [ExampleEVSE Basic EVSE by chris1howell]
     * [EVSE_Example75A 75A EVSE by chris1howell]
-  * Testing
-    * [ImmutableCollectionsExplained Immutable collections]
-    * [NewCollectionTypesExplained New collection types]
-      * [NewCollectionTypesExplained#Multiset Multiset]
-      * [NewCollectionTypesExplained#Multimap Multimap]
-      * [NewCollectionTypesExplained#BiMap BiMap]
-      * [NewCollectionTypesExplained#Table Table]
-      * [NewCollectionTypesExplained#ClassToInstanceMap 
+* [EVSE_TESTING Testing your EVSE]
+   
