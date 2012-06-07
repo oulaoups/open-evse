@@ -1,8 +1,7 @@
 #summary Sidebar for Guava Explained.
   
-  * OpenEVSE
+  * *OpenEVSE*
     * [OpenEVSE_boards OpenEVSE]
-    * [Open_EVSE_Specs OpenEVSE specs]
     * [OpenEVSE_Compatibility Compatibility]
   * [Open_EVSEs EVSE Examples]
     * [EVSE_by_mwolrich EVSE by mwolrich]
