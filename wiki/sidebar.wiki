@@ -3,23 +3,24 @@
   * *OpenEVSE*
     * [OpenEVSE_boards OpenEVSE boards]
     * [OpenEVSE_Compatibility Compatibility]
-  * [Open_EVSEs EVSE Examples]
+  * *EVSE Charging Stations*
+    * [Open_EVSEs EVSE Examples]
     * [EVSE_by_mwolrich EVSE by mwolrich]
     * [EVSE_by_thinwing EVSE by thinwing]
-    * [EVSE_EV_ChargeAmerica_Upgrade Rebuild of broken EVCS EVSE]
+    * [EVSE_EV_ChargeAmerica_Upgrade Rebuild of broken EVCA EVSE]
     * [ExampleEVSE Basic EVSE by chris1howell]
     * [EVSE_Example75A 75A EVSE by chris1howell]
-  * SAE J1772 Standard
+  * *SAE J1772 Standard*
     * [J1772CableSources Sources for J1772 cables]
     * [J1772Basics Basics of J1772]
-  * How to...
+  * *How to...*
     * [LoadingFirmware Loading Firmware]
     * [AdaFruitRGBdisplay Add a display]
     * [MaxCurrent Set Default Current]
-  * Do it Yourself
+  * *Do it Yourself*
     * [OpenEVSEv1partslist Parts list to DIY]
     * [PCBProduction Have PCB fabricated for you DIY project]
-  * Ordering
+  * *Ordering*
     * [Ordering Order OpenEVSE and kits]
 
 
