@@ -3,9 +3,11 @@
   * OpenEVSE
     * [OpenEVSE_boards OpenEVSE]
     * [Open_EVSE_Specs OpenEVSE specs]
-  * EVSE Examples
+    * [OpenEVSE_Compatibility Compatibility]
+  * [Open_EVSEs EVSE Examples]
     * [EVSE_by_mwolrich EVSE by mwolrich]
     * [EVSE_by_thinwing EVSE by thinwing]
+    * [EVSE_EV_ChargeAmerica_Upgrade Rebuild of broken EVCS EVSE]
     * [ExampleEVSE Basic EVSE by chris1howell]
     * [EVSE_Example75A 75A EVSE by chris1howell]
   * [EVSE_TESTING Testing your EVSE]
