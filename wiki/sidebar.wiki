@@ -1,7 +1,7 @@
 #summary Sidebar for Guava Explained.
   
 * [OpenEVSE_boards OpenEVSE]
-* EVSE Examples
+  * EVSE Examples
     * [EVSE_by_mwolrich EVSE by mwolrich]
     * [EVSE_by_thinwing EVSE by thinwing]
     * [ExampleEVSE Basic EVSE by chris1howell]
