@@ -6,5 +6,5 @@
     * [EVSE_by_thinwing EVSE by thinwing]
     * [ExampleEVSE Basic EVSE by chris1howell]
     * [EVSE_Example75A 75A EVSE by chris1howell]
-* [EVSE_TESTING Testing your EVSE]
+  * [EVSE_TESTING Testing your EVSE]
    
