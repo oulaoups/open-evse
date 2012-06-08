@@ -7,7 +7,7 @@
 || Firmware || pre-loaded || Requires Arduino UNO || ||
 || GFCI || Yes || Yes || Yes ||
 || Diode Check || Yes || Yes || Yes ||
-|| Ground/Stuck Relay Check || With Advanced Power Supply || With Advanced Power Supply || With Advanced Power Supply ||
+|| Ground/Stuck Relay Check || With Advanced Power Supply || With Advanced Power Supply || With Advanced Power Supply or L1L2Sense Board||
 || Size || 2.2"x 1.75"x 1/2" || 3" x 2" x 1" || 2.5" x 2.39" x 1/2" ||
 || IO pins || most unused accessible || all pins accessible || few pins accessible ||
 || Programmer || ISP or FTDI || ISP or USB/FTDI || ISP or FTDI ||
