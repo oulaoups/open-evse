@@ -15,15 +15,15 @@
 || Murata Power Sol. || NKA1212SC || DC-DC, 12v input || +/- 12v 42ma || DC1 || 1 || $7.61 || http://www.digikey.com/product-detail/en/NKA1212SC ||
 || Crmagnetics || CR8420-1000-G || CT || 1000 || CT1 || 1 || $10.65 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || Bourns Inc. || 8230-72-RC || Inductor || 150uh || L1,L2 || 2 || $2.21 || http://www.digikey.com/product-detail/en/8230-72-RC ||
-|| Any || Any || Resistor || 150 || R18 || 1 || $0.09 ||	
-|| Any || Any || Resistor || 330 || R2,R11,R17 || 3 || $0.09 ||	
-|| Vishay Dale (Any) || CMF501K0000FHEB || Resistor || 1K 1% || R1 || 1 || $0.31 || http://www.digikey.com/product-detail/en/CMF501K0000FHEB ||
-|| Any || Any || Resistor || 1k || R20 || 1 || $0.09 ||	
-|| Any || Any || Resistor || 10k || R10,R19 || 2 || $0.09 ||	
-|| Any || Any || Resistor || 20k || R15 || 1 || $0.09 ||	
-|| Any || Any || Resistor || 56k || R5 || 1 || $0.09 ||	
-|| Any || Any || Resistor || 100k || R6,R8,R9,R14,R16 || 5 || $0.09 ||	
-|| Any || Any || Resistor || 200k || R7 || 1 || $0.09 ||	
+|| Any || Any || Resistor || 150 || {{{R18}}} || 1 || $0.09 ||	
+|| Any || Any || Resistor || 330 || {{{R2,R11,R17}}} || 3 || $0.09 ||	
+|| Vishay Dale (Any) || CMF501K0000FHEB || Resistor || 1K 1% || {{{R1}}} || 1 || $0.31 || http://www.digikey.com/product-detail/en/CMF501K0000FHEB ||
+|| Any || Any || Resistor || 1k || {{{R20}}} || 1 || $0.09 ||	
+|| Any || Any || Resistor || 10k || {{{R10,R19}}} || 2 || $0.09 ||	
+|| Any || Any || Resistor || 20k || {{{R15}}} || 1 || $0.09 ||	
+|| Any || Any || Resistor || 56k || {{{R5}}} || 1 || $0.09 ||	
+|| Any || Any || Resistor || 100k || {{{R6,R8,R9,R14,R16}}} || 5 || $0.09 ||	
+|| Any || Any || Resistor || 200k || {{{R7}}} || 1 || $0.09 ||	
 || Any || Any || Cap (ceramic) || 0.1uf || C3,C4,C8 || 3 || $0.30 || http://search.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=+399-4266-ND ||
 || Any || Any || Cap (ceramic) || 18pf || C1,C2 || 2 || $0.30 || http://www.digikey.com/product-detail/en/SR151A180JAR ||
 || TDK Corp. || FK18X5R1E334K || Cap (ceramic) || 0.33uf low esr || C6,C7 || 2 || $0.49 || http://www.digikey.com/product-detail/en/FK18X5R1E334K ||
