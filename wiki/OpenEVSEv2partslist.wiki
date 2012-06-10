@@ -1,8 +1,8 @@
 #Parts list for through-hole Open EVSE V2.
 
-= Introduction =
+= Open EVSE v2 part list =
 
-Basic EVSE 	Part Number 	Type 	Value 	Name	Qty 	Price 	URL
+||Basic EVSE|| 	Part Number|| 	Type|| 	Value|| 	Name||	Qty|| 	Price|| 	URL
 Atmel 	ATMEGA328P-PU 	Microprocessor 	328p-pu 	IC1	1	$2.50	http://www.mouser.com/ProductDetail/Atmel/ATMEGA328P-PU/?qs=K8BHR703ZXguOQv3sKbWcg%3d%3d
 Fairchild Semi 	LF353N 	Opamp 	LF353 	IC2	1	$0.60	http://search.digikey.com/us/en/products/LF353N/LF353NFS-ND/458668
 Fairchild Semi 	LN358N 	Opamp 	LN358 	IC4	1	$0.46	http://search.digikey.com/us/en/products/LM358N/LM358NFS-ND/458692
