@@ -1,6 +1,6 @@
 #Parts list for through-hole Open EVSE V2.
 
-= Open EVSE v2 part list =
+= Open EVSE V2 parts list =
 
 || Basic EVSE || Part Number ||	Type ||	Value || Name || Qty || Price || URL ||
 || Atmel || ATMEGA328P-PU || Microprocessor || 328p-pu || IC1 || 1 || $2.50 || http://www.mouser.com/ProductDetail/Atmel/ATMEGA328P-PU/?qs=K8BHR703ZXguOQv3sKbWcg%3d%3d ||
