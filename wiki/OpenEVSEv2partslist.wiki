@@ -36,7 +36,15 @@
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+This file is for those who want to source their own PCB and components to build their own OpenEVSE circuit board. This contains most of the features of the pre-built OpenEVSE board.
+
+    * *v2.0* - Added connections for logic level L1/L2 voltage sense board inputs and power. *Changed* DC-DC converter to Murata NKA1212SC with 12Vdc input. Added option for second relay. Added a header for connecting to an Adafruit color LCD shield.
+
+    * *v1.1* - Added MicroPower Direct D107E DC/DC converter.
+Board no longer requires a dual voltage +12V and-12V supply. Board can be powered by a simple single voltage +12V supply.
+
+* Open EVSE is distributed in the hope that it will be useful,*
+* but WITHOUT ANY WARRANTY; without even the implied warranty of*
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.*
+
+This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
