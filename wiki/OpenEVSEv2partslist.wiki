@@ -12,26 +12,26 @@
 || Fairchild Semi || 1N4148TA || Diode || 1N4148 || D1,D2,D3,D4 || 4 || $0.28 || http://search.digikey.com/us/en/products/1N4148TA/1N4148TACT-ND/1532747 ||
 || Vishay || 1N4733A || Diode Zener || 5.1V 1W || D5,D6 || 2 || $0.84 || http://www.digikey.com/product-detail/en/1N4733A-TR ||
 || Littelfuse Inc. || P6KE16CA || TVS Diode 16V || P6KE16CA || TVS || 1 || $0.55 || http://search.digikey.com/us/en/products/P6KE16CA/P6KE16CALFCT-ND/407666 ||
-Murata Power Sol.	NKA1212SC	DC-DC, 12v input	"+/- 12v 42ma	DC1	1	$7.61	http://www.digikey.com/product-detail/en/NKA1212SC
-Crmagnetics 	CR8420-1000-G 	CT 	1000	CT1	1	$10.65	http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174
-Bourns Inc.	8230-72-RC	Inductor	150uh	L1,L2	2	$2.21	http://www.digikey.com/product-detail/en/8230-72-RC
-Any 	Any 	Resistor 	150	R18	1	$0.09	
-Any 	Any 	Resistor 	330	R2,R11,R17	3	$0.09	
-Vishay Dale (Any)	CMF501K0000FHEB	Resistor 	1K 1% 	R1	1	$0.31	http://www.digikey.com/product-detail/en/CMF501K0000FHEB
-Any 	Any 	Resistor 	1k 	R20	1	$0.09	
-Any 	Any 	Resistor 	10k 	R10,R19	2	$0.09	
-Any 	Any 	Resistor 	20k 	R15	1	$0.09	
-Any 	Any 	Resistor 	56k 	R5	1	$0.09	
-Any 	Any 	Resistor 	100k 	R6,R8,R9,R14,R16	5	$0.09	
-Any 	Any 	Resistor 	200k 	R7	1	$0.09	
-Any 	Any 	Cap (ceramic) 	0.1uf 	C3,C4,C8	3	$0.30	http://search.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=+399-4266-ND
-Any 	Any 	Cap (ceramic) 	18pf 	C1,C2	2	$0.30	http://www.digikey.com/product-detail/en/SR151A180JAR
-TDK Corp.	FK18X5R1E334K	Cap (ceramic) 	0.33uf low esr	C6,C7	2	$0.49	http://www.digikey.com/product-detail/en/FK18X5R1E334K
-Panasonic 	EEA-FC1E100 	Cap (electrolitic) 	10uf 	C5,C9	2	$0.30	http://search.digikey.com/us/en/products/EEA-FC1E100/P11212-ND/356116
-Sparkfun	PRT-10877	Header	2x3	ISP1	1	$1.50	http://www.sparkfun.com/products/10877
-Sparkfun	PRT-00116	Header straight	6	FTDI,LCD,CT1	1	$1.50	http://www.sparkfun.com/products/116
-Sparkfun	PRT-08084	Connector	3.5mm 2P	Rly1,Rly2,S1/2,SP	4	$0.95	http://www.sparkfun.com/products/8084
-Sparkfun	PRT-08432	Connector	5.0mm 2P	DCIN,PILOT	2	$0.95	http://www.sparkfun.com/products/8432
+|| Murata Power Sol. || NKA1212SC || DC-DC, 12v input || +/- 12v 42ma || DC1 || 1 || $7.61 || http://www.digikey.com/product-detail/en/NKA1212SC ||
+|| Crmagnetics || CR8420-1000-G || CT || 1000 || CT1 || 1 || $10.65 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
+|| Bourns Inc. || 8230-72-RC || Inductor || 150uh || L1,L2 || 2 || $2.21 || http://www.digikey.com/product-detail/en/8230-72-RC ||
+|| Any || Any || Resistor || 150 || R18 || 1 || $0.09 ||	
+|| Any || Any || Resistor || 330 || R2,R11,R17 || 3 || $0.09 ||	
+|| Vishay Dale (Any) || CMF501K0000FHEB || Resistor || 1K 1% || R1 || 1 || $0.31 || http://www.digikey.com/product-detail/en/CMF501K0000FHEB ||
+|| Any || Any || Resistor || 1k || R20 || 1 || $0.09 ||	
+|| Any || Any || Resistor || 10k || R10,R19 || 2 || $0.09 ||	
+|| Any || Any || Resistor || 20k || R15 || 1 || $0.09 ||	
+|| Any || Any || Resistor || 56k || R5 || 1 || $0.09 ||	
+|| Any || Any || Resistor || 100k || R6,R8,R9,R14,R16 || 5 || $0.09 ||	
+|| Any || Any || Resistor || 200k || R7 || 1 || $0.09 ||	
+|| Any || Any || Cap (ceramic) || 0.1uf || C3,C4,C8 || 3 || $0.30 || http://search.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=+399-4266-ND ||
+|| Any || Any || Cap (ceramic) || 18pf || C1,C2 || 2 || $0.30 || http://www.digikey.com/product-detail/en/SR151A180JAR ||
+|| TDK Corp. || FK18X5R1E334K || Cap (ceramic) || 0.33uf low esr || C6,C7 || 2 || $0.49 || http://www.digikey.com/product-detail/en/FK18X5R1E334K ||
+|| Panasonic || EEA-FC1E100 || Cap (electrolitic) || 10uf || C5,C9 || 2 || $0.30 || http://search.digikey.com/us/en/products/EEA-FC1E100/P11212-ND/356116 ||
+|| Sparkfun || PRT-10877 || Header || 2x3 || ISP1 || 1 || $1.50 || http://www.sparkfun.com/products/10877 ||
+|| Sparkfun || PRT-00116 || Header straight || 6 || FTDI,LCD,CT1 || 1 || $1.50 || http://www.sparkfun.com/products/116 ||
+|| Sparkfun || PRT-08084 || Connector || 3.5mm 2P || Rly1,Rly2,S1/2,SP || 4 || $0.95 || http://www.sparkfun.com/products/8084 ||
+|| Sparkfun || PRT-08432 || Connector || 5.0mm 2P || DCIN,PILOT || 2 || $0.95 || http://www.sparkfun.com/products/8432 ||
 
 
 = Details =
