@@ -2,16 +2,16 @@
 
 = Open EVSE v2 part list =
 
-||Basic EVSE|| 	Part Number|| 	Type|| 	Value|| 	Name||	Qty|| 	Price|| 	URL
-Atmel 	ATMEGA328P-PU 	Microprocessor 	328p-pu 	IC1	1	$2.50	http://www.mouser.com/ProductDetail/Atmel/ATMEGA328P-PU/?qs=K8BHR703ZXguOQv3sKbWcg%3d%3d
-Fairchild Semi 	LF353N 	Opamp 	LF353 	IC2	1	$0.60	http://search.digikey.com/us/en/products/LF353N/LF353NFS-ND/458668
-Fairchild Semi 	LN358N 	Opamp 	LN358 	IC4	1	$0.46	http://search.digikey.com/us/en/products/LM358N/LM358NFS-ND/458692
-STMicroelectronics 	2N2222A 	NPN Transistor 	2n2222 	Q1,Q2	2	$0.96	http://search.digikey.com/us/en/products/2N2222A/497-2598-ND/603623
-Fairchild Semi 	KA7805ETU 	Vreg 	5V 	IC3	1	$0.65	http://search.digikey.com/us/en/products/KA7805ETU/KA7805ETU-ND/965381
-Citizen Finetech	HC49US-16.000MABJ-UB	Crystal 	16000	Y1	1	$0.46	http://www.digikey.com/product-detail/en/HC49US-16.000MABJ-UB/300-8499-ND/862775
-Fairchild Semi 	1N4148TA 	Diode 	1N4148 	D1,D2,D3,D4	3	$0.28	http://search.digikey.com/us/en/products/1N4148TA/1N4148TACT-ND/1532747
-Vishay	1N4733A 	Diode Zener	5.1V 1W	D5,D6	2	$0.84	http://www.digikey.com/product-detail/en/1N4733A-TR
-Littelfuse Inc.	P6KE16CA 	TVS Diode 16V	P6KE16CA 	TVS	1	$0.55	http://search.digikey.com/us/en/products/P6KE16CA/P6KE16CALFCT-ND/407666
+|| Basic EVSE || Part Number ||	Type ||	Value || Name || Qty || Price || URL ||
+|| Atmel || ATMEGA328P-PU || Microprocessor || 328p-pu || IC1 || 1 || $2.50 || http://www.mouser.com/ProductDetail/Atmel/ATMEGA328P-PU/?qs=K8BHR703ZXguOQv3sKbWcg%3d%3d ||
+|| Fairchild Semi || LF353N || Opamp ||	LF353 || IC2 || 1 || $0.60 || http://search.digikey.com/us/en/products/LF353N/LF353NFS-ND/458668 ||
+|| Fairchild Semi || LN358N || Opamp ||	LN358 || IC4 || 1 || $0.46 || http://search.digikey.com/us/en/products/LM358N/LM358NFS-ND/458692 ||
+|| STMicroelectronics || 2N2222A || NPN Transistor || 2n2222 ||	Q1,Q2 || 2 || $0.96 || http://search.digikey.com/us/en/products/2N2222A/497-2598-ND/603623 ||
+|| Fairchild Semi || KA7805ETU || Vreg || 5V || IC3 || 1 || $0.65 || http://search.digikey.com/us/en/products/KA7805ETU/KA7805ETU-ND/965381 ||
+|| Citizen Finetech || HC49US-16.000MABJ-UB ||Crystal || 16000 || Y1 || 1 || $0.46 || http://www.digikey.com/product-detail/en/HC49US-16.000MABJ-UB/300-8499-ND/862775 ||
+|| Fairchild Semi || 1N4148TA || Diode || 1N4148 || D1,D2,D3,D4 || 4 || $0.28 || http://search.digikey.com/us/en/products/1N4148TA/1N4148TACT-ND/1532747 ||
+|| Vishay || 1N4733A || Diode Zener || 5.1V 1W || D5,D6 || 2 || $0.84 || http://www.digikey.com/product-detail/en/1N4733A-TR ||
+|| Littelfuse Inc. || P6KE16CA || TVS Diode 16V || P6KE16CA || TVS || 1 || $0.55 || http://search.digikey.com/us/en/products/P6KE16CA/P6KE16CALFCT-ND/407666 ||
 Murata Power Sol.	NKA1212SC	DC-DC, 12v input	"+/- 12v 42ma	DC1	1	$7.61	http://www.digikey.com/product-detail/en/NKA1212SC
 Crmagnetics 	CR8420-1000-G 	CT 	1000	CT1	1	$10.65	http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174
 Bourns Inc.	8230-72-RC	Inductor	150uh	L1,L2	2	$2.21	http://www.digikey.com/product-detail/en/8230-72-RC
