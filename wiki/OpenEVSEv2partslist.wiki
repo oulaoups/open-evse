@@ -29,9 +29,24 @@
 || TDK Corp. || FK18X5R1E334K || Cap (ceramic) || 0.33uf low esr || C6,C7 || 2 || $0.49 || http://www.digikey.com/product-detail/en/FK18X5R1E334K ||
 || Panasonic || EEA-FC1E100 || Cap (electrolitic) || 10uf || C5,C9 || 2 || $0.30 || http://search.digikey.com/us/en/products/EEA-FC1E100/P11212-ND/356116 ||
 || Sparkfun || PRT-10877 || Header || 2x3 || ISP1 || 1 || $1.50 || http://www.sparkfun.com/products/10877 ||
-|| Sparkfun || PRT-00116 || Header straight || 6 || FTDI,LCD,CT1 || 1 || $1.50 || http://www.sparkfun.com/products/116 ||
+|| Sparkfun || PRT-00116 || Header straight || 0.1" sp || FTDI,LCD,CT1 || 1 || $1.50 || http://www.sparkfun.com/products/116 ||
 || Sparkfun || PRT-08084 || Connector || 3.5mm 2P || Rly1,Rly2,S1/2,SP || 4 || $0.95 || http://www.sparkfun.com/products/8084 ||
 || Sparkfun || PRT-08432 || Connector || 5.0mm 2P || DCIN,PILOT || 2 || $0.95 || http://www.sparkfun.com/products/8432 ||
+|| Circuit board || Open EVSE V2 || Board || Double sided || B1 || 1 || $9.96 || http://oshpark.com ||
+|| Total || $45.09 ||  ||  ||  ||  ||  ||  ||
+|| *External components*||  ||  ||  ||  ||  ||  ||  || 
+|| Crmagnetics  || CR8420-1000-G  || CT  || 1000 || CT1 || 1 || $10.65 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
+|| TE Connectivity || T92S7D22-12 || Relay || DPST 30amp || Rly1,Rly2(opt) || 1 || $13.87 || http://www.digikey.com/product-detail/en/T92S7D22-12 ||
+|| Mean Well || RS-15-12 || Power supply || 15.6W 12V || DC2 || 1 || $16.77 || http://www.alliedelec.com/search/productdetail.aspx?SKU=70069560 ||
+|| Laird || 28B1250-000 || Ferrite core || 31x19x22mm || L3,L4 || 2 || $2.98 || http://www.digikey.com/product-detail/en/28B1250-000 ||
+|| Littelfuse Inc. || 03540902ZXGY || Fuse holder || 20amp 300V || FH || 1 || $3.89 || http://www.digikey.com/product-detail/en/03540902ZXGY ||
+|| Littelfuse Inc. || 0314020.MXP || Fuse || 3AG 20amp F || F1,F2 || 2 || $1.38 || http://www.digikey.com/product-detail/en/0314020.MXP ||
+|| Panduit || LAMA6-14-QY || Ground lug || 6-14 AWG || GND || 1 || $1.50 || http://www.digikey.com/product-detail/en/LAMA6-14-QY ||
+|| Adafruit || 714 || Display || RGB LCD Rev || DSP(opt) || 1 || $24.95 || http://www.adafruit.com/products/714 ||
+|| Any || Any || Enclosure || Case ||  || 1 || varies || Enclosure to fit selected components (~4x4x4 to 6x8x6) ||
+|| Varies || Wire terminals etc. ||  ||  ||  || 1 || $10.00 || Wire terminals fastners standoffs connectors etc. (estimated) ||
+
+|| *System Total* || $135.44 ||
 
 
 = Details =
