@@ -4,6 +4,7 @@
 || || OpenEVSE || Arduino Shield || Through Hole ||
 || Picture ||http://farm9.staticflickr.com/8160/7349066816_a0c3bb7618_n.jpg||http://farm7.staticflickr.com/6222/7003031805_747830f4b7_n.jpg||http://farm8.staticflickr.com/7221/7165161217_9640526ed2_n.jpg||
 || || Prebuilt only || Kit || DIY files only ||
+|| Current HW version || OpenEVSE v6 || OpenEVSE shield v1 || DIY EVSE v2 || 
 || Firmware || pre-loaded || Requires Arduino UNO || ||
 || GFCI || Yes || Yes || Yes ||
 || Diode Check || Yes || Yes || Yes ||
