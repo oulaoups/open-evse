@@ -21,6 +21,9 @@
     * [OpenEVSEv1partslist Parts list to DIY V1]
     * [OpenEVSEv2partslist Parts list for DIY V2]
     * [PCBProduction Have PCB fabricated for you DIY project]
+  * *Testing*
+    * [EVSE_TESTING Testing your EVSE]
+
   * *Ordering*
     * [Ordering Order OpenEVSE and kits]
 
