@@ -11,6 +11,22 @@ Multimeter w/Frequency
 
 Occiloscope
 
+=Advanced Power Supply=
+If Advanced Power Supply (ADVPWR) features are enabled, you must have the AC input leads connected to the Relay input and test leads connected to the Relay output. OpenEVSE will not go to State A if the Advanced Power Supply safety checks do not pass.
+
+Normal operation with ADVPWR enabled:
+Power Applied to OpenEVSE 
+Red LED lights to indicate self test
+Stuck relay check performed
+Blue and Red lights (looks purple-ish) 
+Relay closes
+Ground Checked
+L1/L2 Checked and pilot set
+Blue off
+Red off
+If all tests pass Green light on in State A
+If tests fail LED indicator is off
+
 =EV Simulator=
 An EV simulator can be as simple as a diode in series with the correct resistor. If you plan to test EVSEs regulary you may want to build a Board. 
 
