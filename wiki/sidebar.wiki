@@ -23,7 +23,6 @@
     * [PCBProduction Have PCB fabricated for you DIY project]
   * *Testing*
     * [EVSE_TESTING Testing your EVSE]
-
   * *Ordering*
     * [Ordering Order OpenEVSE and kits]
 
