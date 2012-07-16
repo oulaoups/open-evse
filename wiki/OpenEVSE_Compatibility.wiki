@@ -12,7 +12,8 @@ OpenEVSE has been tested with:
 || 2012 || Toyota|| PiP || Timers - Supported || 2.8kW - 12A @ 240V || None ||
 || 2012 || Mitsubishi || i-MiEV || || 3.3kW - 16A @ 240V || None ||
 || 2012 || Ford || Focus || || 6.6kw - 30A @ 240V || None ||
-|| 2.0 || Tesla || Roadster || with J1772 option || 16.8kW - 70A @ 240V || requires mod to R1 for pre-v7 boards ||
+|| 1.5 || Tesla || Roadster || with J1772 adapter || 16.8kW - 70A @ 240V || requires mod to R1 for pre-v7 boards ||
+|| 2.0 || Tesla || Roadster || with J1772 adapter || 16.8kW - 70A @ 240V || requires mod to R1 for pre-v7 boards ||
 
 
 If you have tested OpenEVSE on other vehicles please send a compatibility report to chris1howell83@gmail.com...
