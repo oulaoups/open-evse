@@ -14,7 +14,7 @@
 || Programmer || ISP or FTDI || ISP or USB/FTDI || ISP or FTDI ||
 || Serial ||  FTDI || USB/FTDI || FTDI || 
 || Suited for || Most EVSEs || Hardware/Software Development || Hardcore DIYers ||
-|| Price || $80 || $45 plus Arduino Uno (~$30) || Board + components ||
+|| Price || $80 || $45 plus Arduino Uno (~$30) || Board $10 + components $35 ||
 
 
 
