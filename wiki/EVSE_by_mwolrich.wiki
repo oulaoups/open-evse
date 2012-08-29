@@ -41,7 +41,7 @@ If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 2
 || Strain Relief 1" NPT (Arrow Hart TC1373) || local electrical supply house || $15.00 || 1 ||
 || Ground Bar Kit || Home Depot || $4.17 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
 
-|| Totals || + shipping, misc connectors & nuts/bolts || $544.64 ||
+|| Totals || + shipping, misc connectors & nuts/bolts || $402.96 ||
 
 <a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=PhotoApr2894212AM.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/PhotoApr2894212AM.jpg" border="0" alt="Photobucket">
 
