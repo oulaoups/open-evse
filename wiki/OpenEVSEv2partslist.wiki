@@ -37,7 +37,7 @@
 || *External components*||  ||  ||  ||  ||  ||  ||  || 
 || Crmagnetics  || CR8420-1000-G  || CT  || 1000 || CT1 || 1 || $10.65 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || TE Connectivity || T92S7D22-12 || Relay || DPST 30amp || Rly1,Rly2(opt) || 1 || $13.87 || http://www.digikey.com/product-detail/en/T92S7D22-12 ||
-|| Mean Well || RS-15-12 || Power supply || 15.6W 12V || DC2 || 1 || $16.77 || http://www.alliedelec.com/search/productdetail.aspx?SKU=70069560 ||
+|| Mean Well || RS-15-12 || Power supply || 15.6W 12V || DC2 || 1 || $11.95 || http://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?storeId=10001&catalogId=10001&pa=1919051&productId=1919051 ||
 || Laird || 28B1250-000 || Ferrite core || 31x19x22mm || L3,L4 || 2 || $2.98 || http://www.digikey.com/product-detail/en/28B1250-000 ||
 || Littelfuse Inc. || 03540902ZXGY || Fuse holder || 20amp 300V || FH || 1 || $3.89 || http://www.digikey.com/product-detail/en/03540902ZXGY ||
 || Littelfuse Inc. || 0314020.MXP || Fuse || 3AG 20amp F || F1,F2 || 2 || $1.38 || http://www.digikey.com/product-detail/en/0314020.MXP ||
