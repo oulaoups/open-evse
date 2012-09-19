@@ -16,6 +16,4 @@
 || Suited for || Most EVSEs || Hardware/Software Development || Hardcore DIYers ||
 || Price || $80 || $45 plus Arduino Uno (~$30) || Board $10 + components $35 ||
 
-
-
- 
+How to use the OpenEVSE board to make a basic EVSE see [ExampleEVSE].
