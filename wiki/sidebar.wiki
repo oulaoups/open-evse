@@ -8,13 +8,11 @@
     * [EVSE_by_mwolrich EVSE by mwolrich]
     * [EVSE_by_thinwing EVSE by thinwing]
     * [EVSE_EV_ChargeAmerica_Upgrade Rebuild of broken EVCA EVSE]
-    * [ExampleEVSE Basic EVSE by chris1howell]
     * [EVSE_Example75A 75A EVSE by chris1howell]
   * *SAE J1772 Standard*
     * [J1772Basics Basics of J1772]
     * [J1772CableSources Sources for J1772 cables]
   * *How to...*
-    * [ExampleEVSE Build a basic EVSE]
     * [LoadingFirmware Load Firmware]
     * [AdaFruitRGBdisplay Add a display]
     * [MaxCurrent Set Default Current]
