@@ -19,6 +19,7 @@
   * *Do it Yourself*
     * [OpenEVSEv1partslist Parts list to DIY V1]
     * [OpenEVSEv2partslist Parts list for DIY V2]
+    * [OpenEVSEv4partslist Parts list for DIY V4]
     * [PCBProduction Have your PCB fabricated]
   * *Testing*
     * [EVSE_TESTING Testing your EVSE]
