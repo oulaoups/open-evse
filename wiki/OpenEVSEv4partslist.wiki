@@ -15,7 +15,7 @@
 || Micro Comm.|| SR202-TP|| Diode Schottky|| 2A 20V DO41|| D7|| 1|| $0.43|| http://www.digikey.com/product-detail/en/SR202-TP || 
 || Littelfuse Inc.|| P6KE16CA || TVS Diode 16V|| P6KE16CA || TVS|| 1|| $0.55|| http://search.digikey.com/us/en/products/P6KE16CA/P6KE16CALFCT-ND/407666 || 
 || Microtron|| TR1/MCRW250MA|| Fuse|| 0.25A 250V|| F1,F2|| 2|| $0.91|| http://www.digikey.com/product-detail/en/TR1%2FMCRW250MA || 
-|| Recom|| RBM-1212D|| "DC-DC||  12v input|| +/- 12v 42ma DC1|| 1|| $8.48|| http://www.digikey.com/product-detail/en/RBM-1212D || 
+|| Recom|| RBM-1212D|| "DC-DC||  12v input|| +/-12v42ma DC1|| 1|| $8.48|| http://www.digikey.com/product-detail/en/RBM-1212D || 
 || Bourns Inc.|| 8230-72-RC|| Inductor|| 150uh|| L1,L2|| 2|| $2.21|| http://www.digikey.com/product-detail/en/8230-72-RC || 
 || Wurth Electronics|| 7447452221|| Inductor|| 220uh 1.2A|| L3|| 1|| $1.47|| http://www.digikey.com/product-detail/en/7447452221 || 
 || Any || Any || Resistor || 100|| R18|| 1|| $0.09 || 
@@ -26,11 +26,11 @@
 || Any || Any || Resistor || 1k || R20|| 1|| $0.09 || 
 || Any || Any || Resistor || 1.2k || R9|| 1|| $0.09 || 
 || Any || Any || Resistor || 2.8k|| R3,R4|| 2|| $0.09|| 
-|| Any || Any || Resistor || 10k || R10,R19,R25,R27,R28,R30|| 6|| $0.09 || 
+|| Any || Any || Resistor || 10k || R10,19,25,27,28,30|| 6|| $0.09 || 
 || Any || Any || Resistor || 20k || R15|| 1|| $0.09 || 
 || Vishay Dale|| RN60D2202FB14|| Resistor HV|| 22k 300v|| R12,R13|| 2|| $0.18|| http://www.alliedelec.com/search/productdetail.aspx?SKU=70200582 || 
 || Any || Any || Resistor || 56k || R5|| 1|| $0.09 || 
-|| Any || Any || Resistor || 100k || R6,R8,R9,R14,R16|| 5|| $0.09 || 
+|| Any || Any || Resistor || 100k || R6,8,9,14,16|| 5|| $0.09 || 
 || Any || Any || Resistor || 200k || R7|| 1|| $0.09 || 
 || Vishay BC|| HVR2500002743FR500|| Resistor|| 274k|| R22|| 1|| $0.53|| http://www.digikey.com/product-detail/en/HVR2500002743FR500 || 
 || Vishay BC|| HVR2500001004FR500|| Resistor|| 1.0M|| R21|| 1|| $0.53 || 
