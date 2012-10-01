@@ -46,8 +46,8 @@
 || Sparkfun|| PRT-08084|| Connector|| 3.5mm 2P|| Rly1,S1/2,SP|| 4|| $0.95|| http://www.sparkfun.com/products/8084 || 
 || Sparkfun|| PRT-08432|| Connector|| 5.0mm 2P|| DCIN,PILOT|| 2|| $0.95|| http://www.sparkfun.com/products/8432 || 
 || Sparkfun|| PRT-08235|| Connector|| 3.5mm 3P|| JP1|| 1|| $0.95|| http://www.sparkfun.com/products/8235|| 
-|| Circuit board|| Open EVSE V4|| Board|| Double sided|| B1|| 1|| $13.22|| http://oshpark.com || 
-|| || || || || || *Total*|| *$70.47*|| 
+|| Circuit board|| Open EVSE V4|| Board|| Double sided|| B1|| 1|| $14.10|| http://oshpark.com || 
+|| || || || || || *Total*|| *$71.35*|| 
 || *External components* || 
 || Crmagnetics || CR8420-1000-G || CT || 1000|| CT1|| 1|| $10.65|| http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 || 
 || TE Connectivity|| T92S7D22-12|| Relay|| DPST 30amp|| Rly1|| 1|| $13.87|| http://www.digikey.com/product-detail/en/T92S7D22-12 || 
@@ -59,7 +59,7 @@
 || Adafruit|| 714|| Display|| RGB LCD Rev|| DSP(opt)|| 1|| $24.95|| http://www.adafruit.com/products/714 || 
 || Any|| Any|| Enclosure|| Case|| || 1|| varies|| Enclosure to fit selected components (~4x4x4" to 6x8x6") || 
 || Varies|| Wire,terminals,etc.|| || || || 1|| $10.00|| Wire,terminals,fastners,standoffs,connectors,etc. (estimated) || 
-|| || || || || *System Total*|| || $160.82 ||
+|| || || || || *System Total*|| || $161.70 ||
 
 = Details =
 
