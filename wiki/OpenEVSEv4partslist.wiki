@@ -8,9 +8,9 @@
 || Fairchild Semi || LN358N || Opamp || LN358 || IC4|| 1|| $0.46|| http://search.digikey.com/us/en/products/LM358N/LM358NFS-ND/458692 || 
 || Fairchild Semi || MID400|| Optocoupler|| 8-dip|| IC5,IC6|| 2|| $4.06|| http://www.digikey.com/product-detail/en/MID400 || 
 || Maxim|| MAX5033BUPA+|| Vreg switching|| 5V || IC7|| 1|| $3.56|| http://www.digikey.com/product-detail/en/MAX5033BUPA%2B || 
-|| STMicroelectronics || 2N2222A || NPN Transistor || 2n2222 || Q1|| 1|| $0.96|| http://search.digikey.com/us/en/products/2N2222A/497-2598-ND/603623 || 
+|| STMicroelectronics || 2N2222A || NPN Transistor || 2n2222 || Q2|| 1|| $0.96|| http://search.digikey.com/us/en/products/2N2222A/497-2598-ND/603623 || 
 || Citizen Finetech|| HC49US-16.000MABJ-UB|| Crystal || 16000|| Y1|| 1|| $0.46|| http://www.digikey.com/product-detail/en/HC49US-16.000MABJ-UB/300-8499-ND/862775 || 
-|| Fairchild Semi || 1N4148TA || Diode || 1N4148 || D1,D2,D3,D4|| 3|| $0.28|| http://search.digikey.com/us/en/products/1N4148TA/1N4148TACT-ND/1532747 || 
+|| Fairchild Semi || 1N4148TA || Diode || 1N4148 || D1,D3,D4|| 3|| $0.28|| http://search.digikey.com/us/en/products/1N4148TA/1N4148TACT-ND/1532747 || 
 || Vishay|| 1N4733A || Diode Zener|| 5.1V 1W|| D5,D6|| 2|| $0.84|| http://www.digikey.com/product-detail/en/1N4733A-TR || 
 || Micro Comm.|| SR202-TP|| Diode Schottky|| 2A 20V DO41|| D7|| 1|| $0.43|| http://www.digikey.com/product-detail/en/SR202-TP || 
 || Littelfuse Inc.|| P6KE16CA || TVS Diode 16V|| P6KE16CA || TVS|| 1|| $0.55|| http://search.digikey.com/us/en/products/P6KE16CA/P6KE16CALFCT-ND/407666 || 
@@ -30,11 +30,11 @@
 || Any || Any || Resistor || 20k || R15|| 1|| $0.09 || 
 || Vishay Dale|| RN60D2202FB14|| Resistor HV|| 22k 300v|| R12,R13|| 2|| $0.18|| http://www.alliedelec.com/search/productdetail.aspx?SKU=70200582 || 
 || Any || Any || Resistor || 56k || R5|| 1|| $0.09 || 
-|| Any || Any || Resistor || 100k || R6,8,9,14,16|| 5|| $0.09 || 
+|| Any || Any || Resistor || 100k || R6,14,16|| 3|| $0.09 || 
 || Any || Any || Resistor || 200k || R7|| 1|| $0.09 || 
 || Vishay BC|| HVR2500002743FR500|| Resistor|| 274k|| R22|| 1|| $0.53|| http://www.digikey.com/product-detail/en/HVR2500002743FR500 || 
 || Vishay BC|| HVR2500001004FR500|| Resistor|| 1.0M|| R21|| 1|| $0.53 || 
-|| Any || Any || Cap (ceramic) || 0.1uf || C3,4,8,10-14|| 8|| $0.30|| http://search.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=+399-4266-ND || 
+|| Any || Any || Cap (ceramic) || 0.1uf || C3,4,10-13,15,20,21|| 9|| $0.30|| http://search.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=+399-4266-ND || 
 || Any || Any || Cap (ceramic) || 18pf || C1,C2|| 2|| $0.30|| http://www.digikey.com/product-detail/en/SR151A180JAR || 
 || TDK Corp.|| FK18X5R1E334K|| Cap (ceramic) || 0.33uf low esr|| C6,C7|| 2|| $0.49|| http://www.digikey.com/product-detail/en/FK18X5R1E334K || 
 || Panasonic|| ECA-1EM100|| Cap (electrolitic) || 4.7uf 25V|| C5|| 1|| $0.30|| http://www.digikey.com/product-detail/en/ECA-1EM100/P5148-ND/245007 || 
