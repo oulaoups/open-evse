@@ -4,7 +4,7 @@
 
 || *Mfg.* || *Part Number* || *Type* || *Value* || *Name* || *Qty* || *Price* || *URL* || 
 || Atmel || ATMEGA328P-PU || Microprocessor || 328p-pu || IC1|| 1|| $2.50|| http://www.mouser.com/ProductDetail/Atmel/ATMEGA328P-PU/?qs=K8BHR703ZXguOQv3sKbWcg%3d%3d || 
-|| Fairchild Semi || LF353N || Opamp || LF353 || IC2|| 1|| $0.60|| http://search.digikey.com/us/en/products/LF353N/LF353NFS-ND/458668 || 
+|| Analog Devices || ADG419BNZ || HS-Switch || SPDT || IC2|| 1|| $3.15|| http://www.digikey.com/product-detail/en/ADG419BNZ/ADG419BNZ-ND/820067 || 
 || Fairchild Semi || LN358N || Opamp || LN358 || IC4|| 1|| $0.46|| http://search.digikey.com/us/en/products/LM358N/LM358NFS-ND/458692 || 
 || Fairchild Semi || MID400|| Optocoupler|| 8-dip|| IC5,IC6|| 2|| $4.06|| http://www.digikey.com/product-detail/en/MID400 || 
 || Maxim|| MAX5033BUPA+|| Vreg switching|| 5V || IC7|| 1|| $3.56|| http://www.digikey.com/product-detail/en/MAX5033BUPA%2B || 
@@ -15,7 +15,7 @@
 || Micro Comm.|| SR202-TP|| Diode Schottky|| 2A 20V DO41|| D7|| 1|| $0.43|| http://www.digikey.com/product-detail/en/SR202-TP || 
 || Littelfuse Inc.|| P6KE16CA || TVS Diode 16V|| P6KE16CA || TVS|| 1|| $0.55|| http://search.digikey.com/us/en/products/P6KE16CA/P6KE16CALFCT-ND/407666 || 
 || Microtron|| TR1/MCRW250MA|| Fuse|| 0.25A 250V|| F1,F2|| 2|| $0.91|| http://www.digikey.com/product-detail/en/TR1%2FMCRW250MA || 
-|| Recom|| RBM-1212D|| "DC-DC||  12v input|| +/-12v42ma DC1|| 1|| $8.48|| http://www.digikey.com/product-detail/en/RBM-1212D || 
+|| Recom|| RBM-1212D|| DC-DC||  12v input|| +/-12v42ma DC1|| 1|| $8.48|| http://www.digikey.com/product-detail/en/RBM-1212D || 
 || Bourns Inc.|| 8230-72-RC|| Inductor|| 150uh|| L1,L2|| 2|| $2.21|| http://www.digikey.com/product-detail/en/8230-72-RC || 
 || Wurth Electronics|| 7447452221|| Inductor|| 220uh 1.2A|| L3|| 1|| $1.47|| http://www.digikey.com/product-detail/en/7447452221 || 
 || Any || Any || Resistor || 100|| R18|| 1|| $0.09 || 
@@ -47,7 +47,7 @@
 || Sparkfun|| PRT-08432|| Connector|| 5.0mm 2P|| DCIN,PILOT|| 2|| $0.95|| http://www.sparkfun.com/products/8432 || 
 || Sparkfun|| PRT-08235|| Connector|| 3.5mm 3P|| JP1|| 1|| $0.95|| http://www.sparkfun.com/products/8235|| 
 || Circuit board|| Open EVSE V4|| Board|| Double sided|| B1|| 1|| $13.22|| http://oshpark.com || 
-|| || || || || || *Total*|| *$70.47* || 
+|| || || || || || *Total*|| *$70.47*|| 
 || *External components* || 
 || Crmagnetics || CR8420-1000-G || CT || 1000|| CT1|| 1|| $10.65|| http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 || 
 || TE Connectivity|| T92S7D22-12|| Relay|| DPST 30amp|| Rly1|| 1|| $13.87|| http://www.digikey.com/product-detail/en/T92S7D22-12 || 
@@ -67,7 +67,7 @@ This file is for those who want to source their own PCB and components to build 
 
 Prices subject to change and do not include taxes or shipping.
 
-    * *V4.0* - Added header for spare/unused I/O pins and for charging LED, additional +/- 12 vdc isolated power supply filtering, Added decoupling capacitors for all IC's, changed from op-amp to high speed digital switch for pilot signal, Power monitor circuitry added Voltage sensing and Current transformer inputs. (software modification required).
+    * *V4.0* - Added header for spare/unused I/O pins and for charging LED, additional +/- 12 vdc isolated power supply filtering, Added decoupling capacitors for all IC's, changed from op-amp to high speed digital switch for pilot signal.<br>Power monitor circuitry added, Voltage sensing and Current transformer inputs. (software modification required).
 
     * *v3.0* - Added onboard L1/L2 sense, removed second relay, changed linear 5Vdc regulator to a high efficiency switching regulator.
 
@@ -80,4 +80,5 @@ Board no longer requires a dual voltage +12V and-12V supply. Board can be powere
 * but WITHOUT ANY WARRANTY; without even the implied warranty of*
 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.*
 
-This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
+This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.<br>
+<g:plusone size="medium"></g:plusone>
