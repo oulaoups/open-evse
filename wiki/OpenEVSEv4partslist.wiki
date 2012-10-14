@@ -34,8 +34,10 @@
 || Any || Any || Resistor 5%|| 200k || R7|| 1|| $0.09 || 
 || Vishay BC|| HVR2500002743FR500|| Resistor|| 274k|| R22|| 1|| $0.53|| http://www.digikey.com/product-detail/en/HVR2500002743FR500 || 
 || Vishay BC|| HVR2500001004FR500|| Resistor|| 1.0M|| R21|| 1|| $0.53 || http://www.digikey.com/product-detail/en/HVR2500001004FR500/PPCQF1.0MCT-ND/719864 ||
-|| Any || Any || Cap (ceramic) || 0.1uf || C3,4,10-13,15,20,21|| 9|| $0.30|| http://search.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=+399-4266-ND || 
-|| Any || Any || Cap (ceramic) || 18pf || C1,C2|| 2|| $0.30|| http://www.digikey.com/product-detail/en/SR151A180JAR || 
+|| Any || Any || Cap (ceramic) || 18pf || C1,C2|| 2|| $0.30|| http://www.digikey.com/product-detail/en/SR151A180JAR ||
+|| Any || Any || Cap (ceramic) || 22pf || C8|| 1|| $0.30|| http://www.digikey.com/product-detail/en/K220J15C0GF5TL2/BC1005CT-ND/286627||
+|| Any || Any || Cap (ceramic) || 0.1uf || C3,4,10-15,20,21|| 10|| $0.30|| http://search.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=+399-4266-ND || 
+|| Any || Any || Cap (ceramic) || 0.3uf || C22|| 1|| $0.30|| ||
 || TDK Corp.|| FK18X5R1E334K|| Cap (ceramic) || 0.33uf low esr|| C6,C7|| 2|| $0.49|| http://www.digikey.com/product-detail/en/FK18X5R1E334K || 
 || Panasonic|| ECA-1EM100|| Cap (electrolitic) || 4.7uf 25V|| C5|| 1|| $0.30|| http://www.digikey.com/product-detail/en/ECA-1EM100/P5148-ND/245007 || 
 || Panasonic || EEA-FC1E100 || Cap (electrolitic) || 10uf 25V|| C9,C19|| 2|| $0.30|| http://search.digikey.com/us/en/products/EEA-FC1E100/P11212-ND/356116 || 
