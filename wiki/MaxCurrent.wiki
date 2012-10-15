@@ -3,7 +3,7 @@
 
 = Introduction =
 
-There are many ways to change the maximum current offered to the Electric Vehicle, such as serial, USB, Bluetooth, buttons or analog trim pot. This setting is stored in the EVSE as a variable. 
+There are many ways to change the maximum current offered to the Electric Vehicle, such as serial, USB, Xbee, Bluetooth, buttons or analog trim pot. This setting is stored in the EVSE as a variable. 
 
 {{{
 // current capacity in amps  
@@ -20,7 +20,24 @@ There are many ways to change the maximum current offered to the Electric Vehicl
 
 The CURRENT_CAPACITY sets the default current, setting can be modified when the firmware is loaded or by changing the variable with the FTDI serial port. FTDI to USB or FTDI to Bluetooth adapters are avaliable from Sparkfun.
 
+=Buttons/LCD=
+Firmware 1.0 and later includes the option to change current with a LCD display and a button. The button can either be connected to A3 => Button switch => 10k resistor => Ground or using the select button on the optional Adafruit RGB LCD display.
+
+http://farm8.staticflickr.com/7113/7835994328_22d61beca6_n.jpg
+
+http://farm8.staticflickr.com/7109/7835992090_20145daafd_n.jpg
+
+The default current can be set for both L1 and L2. The options can be set at time of compile by editing the following code:
+
+{{{
+
+uint8_t g_L1MaxAmps[] = {6,10,12,14,15,16,0};
+uint8_t g_L2MaxAmps[] = {10,16,20,25,30,35,40,45,50,55,60,65,70,75,80,0};
+
+
+}}}
 =CLI=
+
 The Command line interface uses a standard terminal such as the one included in the Arduino IDE. The baud rate is 38400.
 
 `typed commands in *Bold*`
@@ -63,27 +80,3 @@ http://www.sparkfun.com/products/9718
 
 http://dlnmh9ip6v2uc.cloudfront.net/images/products/09717-01.jpg
 
-
-= Examples =
-Note: Examples are from older EVSE code, they will need to be updated to work with the current Open EVSE code.
-
-== Buttons ==
-
-{{{
-#define BTN_amp 3   // button is on digital 3
-int buttonState = LOW;   
-int buttonlastState = LOW;       
- 
-
-void loop() 
-{
-    buttonState=digitalRead(BTN_amp);   // read button state
-
-
-  if (buttonState==HIGH && buttonlastState==LOW){amp++; // if reeding is high add 1 to the current setting
-  }
-if (amp > 7) { //is current setting is higher than 7 go back to 1
-         amp = 1;
-  buttonlastState=buttonState; // save button state as the last state
-  }
-}}}
