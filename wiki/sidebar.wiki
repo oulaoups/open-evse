@@ -4,7 +4,7 @@
     * [OpenEVSE_boards OpenEVSE boards]
     * [OpenEVSE_Compatibility Compatibility]
   * *EVSE Charging Stations*
-    * [Open_EVSEs EVSE Examples]
+    * [Open_EVSEs EVSE Example Pictures]
     * [EVSE_by_mwolrich EVSE by mwolrich]
     * [EVSE_by_thinwing EVSE by thinwing]
     * [EVSE_EV_ChargeAmerica_Upgrade Rebuild of broken EVCA EVSE]
