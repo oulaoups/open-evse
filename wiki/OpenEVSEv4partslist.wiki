@@ -80,7 +80,22 @@ Prices subject to change and do not include taxes or shipping.
     * *v2.0* - Added connections for logic level L1/L2 voltage sense board inputs and power. *Changed* DC-DC converter to _Murata NKA1212SC_ with 12Vdc input. Added option for second relay. Added a header for connecting to an Adafruit color LCD shield.
 
     * *v1.1* - Added MicroPower Direct D107E DC/DC converter.
-Board no longer requires a dual voltage +12V and-12V supply. Board can be powered by a simple single voltage +12V supply.
+Notes:
+The board no longer requires a dual voltage +12V and-12V supply, and can be powered by a single voltage +12V supply.
+The V2,V3,V4 boards require an external 12Vdc power supply of 5 watts or greater depending on displays, relays, and accessories. They can be programmed using the 5V supply on the FTDI or SPI headers, but require the 12V supply to operate the Pilot circuitry.
+On the V4 board pin 5 (reset) is not connected to pin 1 (reset) of the Atmega328, which may be required for some programers (USBTiny ISP).
+
+Optional circuitry on the V4 board:
+
+Power monitor components: C5, C19, R2, R9, R24, R25, R27, R28, R30, and JP2
+To use the power monitoring circuitry on the v4 board requires modification of the V 1.0.0 firmware.
+The power monitor circuit is based on the OpenEnergyMonitor circuitry and software library.
+http://openenergymonitor.org/emon/
+There are many ways to utilize the power monitor circuitry which will require custom software to be written based on the use.
+The board uses ADC0 and ADC2 for the power monitor inputs, and was designed to utilize the Sparkfun SEN-11005 Non-Invasive Current Sensor - 30A, along with a 9 volt output AC to AC transformer for measuring the line voltage.”
+
+L1/L2 Sense components: JP1, IC5, IC6, R12, R13, F1, F2, C10, C11
+Used to monitor for stuck relay and charging level L1/L2.
 
 * Open EVSE is distributed in the hope that it will be useful,*
 * but WITHOUT ANY WARRANTY; without even the implied warranty of*
