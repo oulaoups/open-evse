@@ -15,5 +15,5 @@
 || 75T6614 || Plug only || Multicomp || L1/L2 || 32A || RoHS || none || $156.32 || http://www.newark.com/multicomp/dsi-ev32p-nc/plug-ev-j1772-32a/dp/75T6614 ||
 || 75T6615 ||  Plug and cable || Multicomp || L1/L2 || 32A || RoHS || 3m || $185.39 || http://www.newark.com/multicomp/dsi-ev32p-3c/plug-ev-j1772-32a-3m-cable/dp/75T6615?Ntt=75T6615 ||
 || || Plug alone || Dostar || L1/L2 || 70A || No || none || $170 || http://www.tucsonev.com/index.html ||
-|| || Plug with Cord || Dostar || L1/L2 || 30A || No || 20' || $230 || http://www.tucsonev.com/index.html ||
+|| || Plug with Cord || Dostar || L1/L2 || 45A || No || 20' || $230 || http://www.tucsonev.com/index.html ||
 || || Plug with Cord || Dostar || L1/L2 || 70A || No || 26' || $250 || http://www.tucsonev.com/index.html ||
