@@ -9,7 +9,7 @@
 || EVC-C-15A-300-20 || J1772 || ITT || L1 || 15A || Yes || 20' || $218.06 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-15A-300S-20 ||
 || EVC-C-15A-600-20 || J1772 || ITT || L1/L2 || 15A || Yes || 20' || $223.61 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-15A-600S-20 ||
 || EVC-C-30A-600-20 || J1772 || ITT || L1/L2 || 30A || Yes || 20' || $261.94 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-30A-600S-20||
-|| EVC-C-75A-600-20 || J1772 || ITT || L1/L2 || 75A || Yes || 20' || $330 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-75A-600S-20/||
+|| EVC-C-75A-600-20 || J1772 || ITT || L1/L2 || 75A || Yes || 20' || $328.06 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-75A-600S-20/||
 || bulk cable || EVSE Cord only || HC Sharp || L2 || 80A || UL RoHS || Custom by the ft. || $8.99/ft || http://www.ebay.com/itm/EVSE-charge-cable-80-Amp-600-volt-UL-approved-J-1772-/270966796002?pt=LH_DefaultDomain_0&hash=item3f16e12ee2 ||
 || CONNECTOR || Tesla Roadster Connector || HC Sharp || L2 || 80A || UL: N/A; RoHS: Yes || Connector || $600 (US version) + cable || email henry@hcsharp.com ||
 || 75T6614 || Plug only || Multicomp || L1/L2 || 32A || RoHS || none || $150 || http://www.newark.com/multicomp/dsi-ev32p-nc/plug-ev-j1772-32a/dp/75T6614 ||
