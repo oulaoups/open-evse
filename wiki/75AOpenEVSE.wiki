@@ -31,7 +31,7 @@ http://www.stayonline.com/600-volt-thhn.aspx
 || FUSE BLOCK 3AG 2POS 1/4"QC (F3130-ND) || Digikey || $2.17 || 2 || http://www.digikey.com/product-search/en/circuit-protection/fuseholders/655422?k=F3130-ND ||
 || FUSE 1A 250V FAST GLASS 3AG (507-1630-ND) || Digikey || $.24 || 2|| http://www.digikey.com/product-detail/en/3AG%201-R/507-1630-ND/1009882 ||
 || FUSE SLOW 250VAC 2A 6X32 (507-1528-ND) || Digikey || $.36 || 2 || http://www.digikey.com/product-detail/en/3SB%202-R/507-1528-ND/1009751 ||
-|| 8910DPA73V09 - Definite Purpose Contactor || SuperBreakers || $120.78 || http://www.superbreakers.net/8910dpa73v09.html?gclid=COrCtO_enbMCFUOK4AodbwUANA ||
+|| 8910DPA73V09 - Definite Purpose Contactor || SuperBreakers || $120.78 || 1 || http://www.superbreakers.net/8910dpa73v09.html?gclid=COrCtO_enbMCFUOK4AodbwUANA ||
 || J-1772 cable, 75 amps (EVC-C-75A-600-20) || ITT || $328.06 || 1 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-75A-600S-20/ ||
 || VARISTOR 250V 72J 14MM CRIMPD LA (F5598CT-ND) || DigiKey || $.62 || 1 || http://www.digikey.com/product-detail/en/V250LT20AP/F5598CT-ND/3307079 ||
 || FERRITE TUBULAR BEAD 19.05MM (240-2119-ND) || DigiKey || $1.39 || 4 || http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=240-2119-ND&x=15&y=15&cur=USD ||
