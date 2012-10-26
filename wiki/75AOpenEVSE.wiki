@@ -1,0 +1,61 @@
+#summary A 75A EVSE built with an Open EVSE board.
+
+= Introduction =
+
+This is an example of a 75A EVSE built with the Open EVSE V4.0 DIY PCB (originally built with OpenEVSE Arduino Shield & Arduino). 
+
+This should not be attempted by anyone without the required skills and knowledge to work with high voltage.
+
+Open EVSE is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+= EVSE Ground =
+
+NOTE: The Open EVSE control Board must be grounded to the EV/Earth Ground for the pilot to operate correctly. 
+
+= Circuit =
+
+Note: for full 75A Operation, wire this with #3 AWG Copper wire for the (2) hots (I used Red and Black), and a #6 THHN for Ground (I used Green) to a 100A circuit breaker, a good low cost source for #3 THHN is "StayOnline", see this link:
+http://www.stayonline.com/600-volt-thhn.aspx
+ 
+= Parts =
+
+|| Part || Source || Cost || Quantity || Link ||
+|| Open EVSE Board V4.0 || Open EVSE || ~$73.16 || 1 || http://code.google.com/p/open-evse/wiki/OpenEVSEv4partslist ||
+|| 12V power supply || DigiKey || $27.32 || 1 ||  http://www.digikey.com/product-search/en?lang=en&site=us&KeyWords=102-1573-ND ||
+|| RELAY GEN PURPOSE SPST 30A 12V (Z215-ND) || Digikey || $4.63 || 1 || http://www.digikey.com/product-search/en/relays/power-over-2-amps/1049447?k=Z215-ND ||
+|| Current Transformer (582-1018-ND) || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
+|| BOX NEMA ABS 15.68X11.73X6.3 IN (377-1147-ND) || Digikey || $111.81 || 1 || http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=377-1147-ND&x=0&y=0&cur=USD ||
+|| PANEL PLASTIC 10.4X14.3" FOR NB (377-1675-ND) || Digikey || $17.00 || 1 || http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=377-1675-ND&x=0&y=0&cur=USD ||
+|| FUSE BLOCK 3AG 2POS 1/4"QC (F3130-ND) || Digikey || $2.17 || 2 || http://www.digikey.com/product-search/en/circuit-protection/fuseholders/655422?k=F3130-ND ||
+|| FUSE 1A 250V FAST GLASS 3AG (507-1630-ND) || Digikey || $.24 || 2|| http://www.digikey.com/product-detail/en/3AG%201-R/507-1630-ND/1009882 ||
+|| FUSE SLOW 250VAC 2A 6X32 (507-1528-ND) || Digikey || $.36 || 2 || http://www.digikey.com/product-detail/en/3SB%202-R/507-1528-ND/1009751 ||
+|| 8910DPA73V09 - Definite Purpose Contactor || SuperBreakers || $120.78 || http://www.superbreakers.net/8910dpa73v09.html?gclid=COrCtO_enbMCFUOK4AodbwUANA ||
+|| J-1772 cable, 75 amps (EVC-C-75A-600-20) || ITT || $328.06 || 1 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-75A-600S-20/ ||
+|| VARISTOR 250V 72J 14MM CRIMPD LA (F5598CT-ND) || DigiKey || $.62 || 1 || http://www.digikey.com/product-detail/en/V250LT20AP/F5598CT-ND/3307079 ||
+|| FERRITE TUBULAR BEAD 19.05MM (240-2119-ND) || DigiKey || $1.39 || 4 || http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=240-2119-ND&x=15&y=15&cur=USD ||
+|| Waterproof Metal Pushbutton with Blue LED Ring - 16mm Blue Momentary || AdaFruit || $5.95 || 1 || https://www.adafruit.com/products/481 ||
+|| AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || http://adafruit.com/products/714 ||
+|| Strain Relief .875"-1" to 1" NPT (Hubbel SHC2043CR || StayOnline || $7.00 || 1 || http://www.stayonline.com/detail.aspx?id=17209 ||
+|| Ground Bar Kit || Home Depot || $4.17 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
+
+|| Totals || + shipping, misc connectors & nuts/bolts || $XXX.YY ||
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=75AOpenEVSEinstalled.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/75AOpenEVSEinstalled.jpg" border="0" alt="75A OpenEVSE installed">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=014DD906-AF14-47EE-AB1F-5107EF67BE67-2259-00000143634B3BBD.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/014DD906-AF14-47EE-AB1F-5107EF67BE67-2259-00000143634B3BBD.jpg" border="0" alt="75A OpenEVSE powered up &amp;amp; ready, &amp;quot;select&amp;quot; button with green LED as well, Uploaded from the Photobucket iPhone App">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-2.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-2.jpg" border="0" alt="Inside case of 75A OpenEVSE, Uploaded from the Photobucket iPhone App">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-4.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-4.jpg" border="0" alt="75A OpenEVSE control circuit fusing - left 2 fuses 2A Slow Blow for 240V contactor coil, right 2 1A fastblow for 12VDC OpenEVSE power supply, bottom 12V relay can be seen controlling the 240V contactor coil, Uploaded from the Photobucket iPhone App">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-3.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-3.jpg" border="0" alt="AC input to 75A contactor, temporarily using 10/3 SJO cable until hardwired to 100A circuit breaker, Uploaded from the Photobucket iPhone App">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-5.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-5.jpg" border="0" alt="SquareD 8910DPA73 75A 3 pole 240V coil contactor - kerchunck!, Uploaded from the Photobucket iPhone App">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-6.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-6.jpg" border="0" alt="AdaFruit RGB LCD display and &amp;quot;select&amp;quot; button mounted on internal aluminum cover in NEMA enclosure, space for a 2nd LCD display planned out as well - dual J-1772 possible someday, Uploaded from the Photobucket iPhone App">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-7.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-7.jpg" border="0" alt="Arduino (on bottom) &amp;amp; OpenEVSE shield, GFCI coil on the right, 12VDC power supply above, Uploaded from the Photobucket iPhone App">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-8.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-8.jpg" border="0" alt="AdaFruit RGB LCD display &amp;amp; select button, Uploaded from the Photobucket iPhone App">
