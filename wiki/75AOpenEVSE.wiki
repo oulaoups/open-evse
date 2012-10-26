@@ -32,7 +32,7 @@ http://www.stayonline.com/600-volt-thhn.aspx
 || FUSE 1A 250V FAST GLASS 3AG (507-1630-ND) || Digikey || $.24 || 2|| http://www.digikey.com/product-detail/en/3AG%201-R/507-1630-ND/1009882 ||
 || FUSE SLOW 250VAC 2A 6X32 (507-1528-ND) || Digikey || $.36 || 2 || http://www.digikey.com/product-detail/en/3SB%202-R/507-1528-ND/1009751 ||
 || 8910DPA73V09 - Definite Purpose Contactor || SuperBreakers || $120.78 || 1 || http://www.superbreakers.net/8910dpa73v09.html?gclid=COrCtO_enbMCFUOK4AodbwUANA ||
-|| J-1772 cable, 75 amps (EVC-C-75A-600-20) || AventExpress || $328.06 || 1 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-75A-600S-20/ ||
+|| J-1772 cable, 75 amps (A2055-PEV) || Leviton || $218.69 || 1 || http://store.leviton.com/Electric-Vehicle-Charge-Connector-A2055-PEV/dp/B009UCEXYI#.UIsg1JG9KSM ||
 || VARISTOR 250V 72J 14MM CRIMPD LA (F5598CT-ND) || DigiKey || $.62 || 1 || http://www.digikey.com/product-detail/en/V250LT20AP/F5598CT-ND/3307079 ||
 || FERRITE TUBULAR BEAD 19.05MM (240-2119-ND) || DigiKey || $1.39 || 4 || http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=240-2119-ND&x=15&y=15&cur=USD ||
 || Waterproof Metal Pushbutton with Blue LED Ring - 16mm Blue Momentary || AdaFruit || $5.95 || 1 || https://www.adafruit.com/products/481 ||
