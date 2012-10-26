@@ -23,7 +23,7 @@ http://www.stayonline.com/600-volt-thhn.aspx
 
 || Part || Source || Cost || Quantity || Link ||
 || Open EVSE Board V4.0 || Open EVSE || ~$73.16 || 1 || http://code.google.com/p/open-evse/wiki/OpenEVSEv4partslist ||
-|| 12V power supply || DigiKey || $27.32 || 1 ||  http://www.digikey.com/product-search/en?lang=en&site=us&KeyWords=102-1573-ND ||
+|| 12V power supply (102-1573-ND) || DigiKey || $27.32 || 1 ||  http://www.digikey.com/product-search/en?lang=en&site=us&KeyWords=102-1573-ND ||
 || RELAY GEN PURPOSE SPST 30A 12V (Z215-ND) || Digikey || $4.63 || 1 || http://www.digikey.com/product-search/en/relays/power-over-2-amps/1049447?k=Z215-ND ||
 || Current Transformer (582-1018-ND) || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || BOX NEMA ABS 15.68X11.73X6.3 IN (377-1147-ND) || Digikey || $111.81 || 1 || http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=377-1147-ND&x=0&y=0&cur=USD ||
@@ -32,7 +32,7 @@ http://www.stayonline.com/600-volt-thhn.aspx
 || FUSE 1A 250V FAST GLASS 3AG (507-1630-ND) || Digikey || $.24 || 2|| http://www.digikey.com/product-detail/en/3AG%201-R/507-1630-ND/1009882 ||
 || FUSE SLOW 250VAC 2A 6X32 (507-1528-ND) || Digikey || $.36 || 2 || http://www.digikey.com/product-detail/en/3SB%202-R/507-1528-ND/1009751 ||
 || 8910DPA73V09 - Definite Purpose Contactor || SuperBreakers || $120.78 || 1 || http://www.superbreakers.net/8910dpa73v09.html?gclid=COrCtO_enbMCFUOK4AodbwUANA ||
-|| J-1772 cable, 75 amps (EVC-C-75A-600-20) || ITT || $328.06 || 1 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-75A-600S-20/ ||
+|| J-1772 cable, 75 amps (EVC-C-75A-600-20) || AventExpress || $328.06 || 1 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-75A-600S-20/ ||
 || VARISTOR 250V 72J 14MM CRIMPD LA (F5598CT-ND) || DigiKey || $.62 || 1 || http://www.digikey.com/product-detail/en/V250LT20AP/F5598CT-ND/3307079 ||
 || FERRITE TUBULAR BEAD 19.05MM (240-2119-ND) || DigiKey || $1.39 || 4 || http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=240-2119-ND&x=15&y=15&cur=USD ||
 || Waterproof Metal Pushbutton with Blue LED Ring - 16mm Blue Momentary || AdaFruit || $5.95 || 1 || https://www.adafruit.com/products/481 ||
