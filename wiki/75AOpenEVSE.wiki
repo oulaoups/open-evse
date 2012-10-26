@@ -40,7 +40,7 @@ http://www.stayonline.com/600-volt-thhn.aspx
 || Strain Relief .875"-1" to 1" NPT (Hubbel SHC2043CR || StayOnline || $7.00 || 1 || http://www.stayonline.com/detail.aspx?id=17209 ||
 || Ground Bar Kit || Home Depot || $4.17 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
 
-|| Totals || + shipping, misc connectors & nuts/bolts || $XXX.YY ||
+|| Totals || + shipping, misc connectors & nuts/bolts || $747.20 ||
 
 <a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=75AOpenEVSEinstalled.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/75AOpenEVSEinstalled.jpg" border="0" alt="75A OpenEVSE installed">
 
