@@ -19,7 +19,9 @@ NOTE: The Open EVSE control Board must be grounded to the EV/Earth Ground for th
 Note: for full 75A Operation, wire this with #3 AWG Copper wire for the (2) hots (I used Red and Black), and a #6 THHN for Ground (I used Green) to a 100A circuit breaker, a good low cost source for #3 THHN is "StayOnline", see this link:
 http://www.stayonline.com/600-volt-thhn.aspx
 
-Tee pictures below show the unit using a 14-50 plug on a 10/3 SOOW cable, this was temporary as I tested and debugged the EVSE, I will update the pictures one I have it hard wired to the 100A breaker/wiring.
+The pictures below show the unit using a 14-50 plug on a 10/3 SOOW cable, this was temporary as I tested and debugged the EVSE, I will update the pictures one I have it hard wired to the 100A breaker/wiring.
+
+Also show in the OpenEVSE Arduuino shield & Ardunio, it has since been replaced with the OpenEVSE V4 surface mount PCB, as it has much better noise immunity, I ahve also replaced the wiring between the OpenEVSE and the AdaFruit LCD display with shielded cable, the ground wire has been upsized (from #22 to #16) from teh ground buss to the OpenEVSE module, I have installed ferrit cores and an MOV as well.  All of this was needed to get the EVSE reliable, it will be shown on the updated pictures.
 
  
 = Parts =
