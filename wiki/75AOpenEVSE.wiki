@@ -10,6 +10,11 @@ Open EVSE is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+= High Voltage Schematic =
+The Open EVSE relay output is 12VDC. To power the Coil of a high current contactor, one 240V AC relay with a 12VDC coil is used to power the 240V AC coil of the contactor.
+
+<a href="http://www.flickr.com/photos/60192309@N05/6550446647/" title="Untitled by chris1howell, on Flickr"><img src="http://farm8.staticflickr.com/7165/6550446647_14a4dd680b_z.jpg" width="640" height="289"</a>
+
 = EVSE Ground =
 
 NOTE: The Open EVSE control Board must be grounded to the EV/Earth Ground for the pilot to operate correctly. 
