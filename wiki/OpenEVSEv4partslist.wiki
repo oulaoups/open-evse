@@ -41,7 +41,7 @@ If you'd like to built your own EVSE controller board instead of ordering one, h
 || Any || Any || Cap (ceramic) || 0.1uf || C3,4,10-15,20,21|| 10|| $0.30|| http://search.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=+399-4266-ND || 
 || Any || Any || Cap (ceramic) || 0.33uf || C22|| 1|| $0.47|| http://www.digikey.com/product-detail/en/SR205E334MAR/478-5733-ND/2136293||
 || TDK Corp.|| FK18X5R1E334K|| Cap (ceramic) || 0.33uf low esr|| C6,C7|| 2|| $0.49|| http://www.digikey.com/product-detail/en/FK18X5R1E334K || 
-|| Panasonic|| ECA-1EM100|| Cap (electrolitic) || 4.7uf 25V|| C5|| 1|| $0.30|| http://www.digikey.com/product-detail/en/ECA-1EM100/P5148-ND/245007 || 
+|| Panasonic|| ECE-A1EKS4R7|| Cap (electrolitic) || 4.7uf 25V|| C5|| 1|| $0.26|| http://www.digikey.com/product-detail/en/ECE-A1EKS4R7/P974-ND/160554 || 
 || Panasonic || EEA-FC1E100 || Cap (electrolitic) || 10uf 25V|| C9,C19|| 2|| $0.30|| http://search.digikey.com/us/en/products/EEA-FC1E100/P11212-ND/356116 || 
 || Vishay Sprague|| 199D336X9016D1V1E3|| Cap (tantalum)|| 33uf 16V|| C16|| 1|| $2.07|| http://www.digikey.com/product-detail/en/199D336X9016D1V1E3 || 
 || Panasonic ECG|| EEU-FM1E101|| Cap (electrolitic) || 100uf 25v|| C17|| 1|| $0.32|| http://www.digikey.com/product-detail/en/EEU-FM1E101 || 
