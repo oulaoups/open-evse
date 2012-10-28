@@ -45,11 +45,11 @@ If you'd like to built your own EVSE controller board instead of ordering one, h
 || Panasonic || EEA-FC1E100 || Cap (electrolitic) || 10uf 25V|| C9,C19|| 2|| $0.30|| http://search.digikey.com/us/en/products/EEA-FC1E100/P11212-ND/356116 || 
 || Vishay Sprague|| 199D336X9016D1V1E3|| Cap (tantalum)|| 33uf 16V|| C16|| 1|| $2.07|| http://www.digikey.com/product-detail/en/199D336X9016D1V1E3 || 
 || Panasonic ECG|| EEU-FM1E101|| Cap (electrolitic) || 100uf 25v|| C17|| 1|| $0.32|| http://www.digikey.com/product-detail/en/EEU-FM1E101 || 
-|| Sparkfun|| PRT-10877|| Header|| 2x3|| ISP1|| 1|| $1.50|| http://www.sparkfun.com/products/10877 || 
-|| Sparkfun|| PRT-00116|| Header straight|| 0.1sp.|| FTDI,LCD,CT1,I/O|| 1|| $1.50|| http://www.sparkfun.com/products/116 || 
-|| Sparkfun|| PRT-08084|| Connector|| 3.5mm 2P|| Rly1,S1/2,SP|| 3|| $0.95|| http://www.sparkfun.com/products/8084 || 
-|| Sparkfun|| PRT-08432|| Connector|| 5.0mm 2P|| DCIN,PILOT|| 2|| $0.95|| http://www.sparkfun.com/products/8432 || 
-|| Sparkfun|| PRT-08235|| Connector|| 3.5mm 3P|| JP1|| 1|| $0.95|| http://www.sparkfun.com/products/8235|| 
+|| TE Connectivity|| 103168-1|| Header|| 2x3|| ISP1|| 1|| $1.65|| http://www.digikey.com/product-detail/en/103168-1/A26708-ND/299017 || 
+|| 3M|| 929400-01-36-RK|| Header straight|| 0.1sp.|| FTDI,LCD,CT1,I/O|| 1|| $1.80|| http://www.digikey.com/product-detail/en/929400-01-36-RK/929400E-01-36-ND/1093569 || 
+|| Phoenix Contact|| 1751248|| Connector|| 3.5mm 2P|| Rly1,S1/2,SP|| 3|| $0.97|| http://www.digikey.com/product-detail/en/1751248/277-5719-ND/2511016 || 
+|| Phoenix Contact|| 1729018|| Connector|| 5.0mm 2P|| DCIN,PILOT|| 2|| $0.82|| http://www.digikey.com/product-detail/en/1729018/277-1236-ND/260604 || 
+|| Phoenix Contact|| 1751251|| Connector|| 3.5mm 3P|| JP1|| 1|| $1.47|| http://www.digikey.com/product-detail/en/1751251/277-5749-ND/2511152|| 
 || Circuit board|| Open EVSE V4|| Board|| Double sided|| B1|| 1|| $14.10|| http://oshpark.com ||
 || Optional|| AE10011-ND|| IC socket|| 8 pin|| IC2,4,5,6|| 4|| 0.50|| ||
 || Optional|| ED90054-ND|| IC socket|| 28 pin|| IC1|| 1|| 1.68|| ||
