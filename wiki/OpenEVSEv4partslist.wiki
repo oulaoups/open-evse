@@ -58,7 +58,7 @@ If you'd like to built your own EVSE controller board instead of ordering one, h
 || Crmagnetics || CR8420-1000-G || CT || 1000|| CT1|| 1|| $10.65|| http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 || 
 || TE Connectivity|| T92S7D22-12|| Relay|| DPST 30amp|| Rly1|| 1|| $13.87|| http://www.digikey.com/product-detail/en/T92S7D22-12 || 
 || CUI Inc|| FSC-S5-12U|| Power supply|| 5W 12V|| DC2|| 1|| $27.32|| http://www.digikey.com/product-detail/en/FSC-S5-12U/102-1573-ND/1699037 || 
-ALTERNATE 12V Power Supply (Jameco):
+|| ALTERNATIVE 12V Power Supply below (Jameco) ||
 || MeanWell || RS-15-12 || Power Supply || 15.6W 12V || DC2 || 1 || $11.95 || http://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_1919051_-1?CID=GOAW&gclid=CKPiy5PqprMCFQyk4Aod5EkARQ ||
 || Laird|| 28B1250-000|| Ferrite core|| 31x19x22mm|| L4,L5|| 2|| $2.98|| http://www.digikey.com/product-detail/en/28B1250-000 || 
 || Littelfuse Inc.|| 03540902ZXGY|| Fuse holder|| 20amp 300V|| FH|| 1|| $3.89|| http://www.digikey.com/product-detail/en/03540902ZXGY || 
