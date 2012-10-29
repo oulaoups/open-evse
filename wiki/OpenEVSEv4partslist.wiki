@@ -47,9 +47,9 @@ If you'd like to built your own EVSE controller board instead of ordering one, h
 || Panasonic ECG|| EEU-FM1E101|| Cap (electrolitic) || 100uf 25v|| C17|| 1|| $0.32|| http://www.digikey.com/product-detail/en/EEU-FM1E101 || 
 || FCI || 609-2845-ND|| Header|| 2x3|| ISP1|| 1|| $0.74 || http://www.digikey.com/product-detail/en/75869-131LF/609-2845-ND/1302569 || 
 || 3M|| 929400-01-36-RK|| Header straight|| 0.1sp.|| FTDI,LCD,CT1,I/O|| 1|| $1.80|| http://www.digikey.com/product-detail/en/929400-01-36-RK/929400E-01-36-ND/1093569 || 
-|| Phoenix Contact|| 1751248|| Connector|| 3.5mm 2P|| Rly1,S1/2,SP|| 3|| $0.97|| http://www.digikey.com/product-detail/en/1751248/277-5719-ND/2511016 || 
-|| On Shore Technlogy || ED2609-ND|| Connector|| 5.0mm 2P|| DCIN,PILOT|| 2|| $0.35|| http://www.digikey.com/product-detail/en/OSTTC022162/ED2609-ND/614558 || 
-|| Combicon PT|| 277-1722-ND|| Connector|| 3.5mm 3P|| JP1|| 1 || $0.55 || http://www.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=277-1722 || 
+|| TE Connectivity || A98036-ND || Connector|| 3.5mm 2P|| Rly1,S1/2,SP|| 3 || $0.27|| http://www.digikey.com/product-detail/en/1776275-2/A98036-ND/1826899 || 
+|| On Shore Technlogy || ED2609-ND|| Connector|| 5.0mm 2P|| DCIN,PILOT|| 2 || $0.35|| http://www.digikey.com/product-detail/en/OSTTC022162/ED2609-ND/614558 || 
+|| Combicon PT || 277-1722-ND|| Connector|| 3.5mm 3P|| JP1|| 1 || $0.55 || http://www.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=277-1722 || 
 || Circuit board|| Open EVSE V4|| Board|| Double sided|| B1|| 1|| $14.10|| http://oshpark.com ||
 || Optional|| AE10011-ND|| IC socket|| 8 pin|| IC2,4,5,6|| 4|| 0.50|| ||
 || Optional|| ED90054-ND|| IC socket|| 28 pin|| IC1|| 1|| 1.68|| ||
