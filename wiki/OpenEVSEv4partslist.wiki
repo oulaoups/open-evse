@@ -45,7 +45,7 @@ If you'd like to built your own EVSE controller board instead of ordering one, h
 || Panasonic || EEA-FC1E100 || Cap (electrolitic) || 10uf 25V|| C9,C19|| 2|| $0.30|| http://search.digikey.com/us/en/products/EEA-FC1E100/P11212-ND/356116 || 
 || Vishay Sprague|| 199D336X9016D1V1E3|| Cap (tantalum)|| 33uf 16V|| C16|| 1|| $2.07|| http://www.digikey.com/product-detail/en/199D336X9016D1V1E3 || 
 || Panasonic ECG|| EEU-FM1E101|| Cap (electrolitic) || 100uf 25v|| C17|| 1|| $0.32|| http://www.digikey.com/product-detail/en/EEU-FM1E101 || 
-|| TE Connectivity|| 103168-1|| Header|| 2x3|| ISP1|| 1|| $1.65|| http://www.digikey.com/product-detail/en/103168-1/A26708-ND/299017 || 
+0.74|| FCI|| 609-2845-ND|| Header|| 2x3|| ISP1|| 1|| $-|| http://www.digikey.com/product-detail/en/75869-131LF/609-2845-ND/1302569 || 
 || 3M|| 929400-01-36-RK|| Header straight|| 0.1sp.|| FTDI,LCD,CT1,I/O|| 1|| $1.80|| http://www.digikey.com/product-detail/en/929400-01-36-RK/929400E-01-36-ND/1093569 || 
 || Phoenix Contact|| 1751248|| Connector|| 3.5mm 2P|| Rly1,S1/2,SP|| 3|| $0.97|| http://www.digikey.com/product-detail/en/1751248/277-5719-ND/2511016 || 
 || Phoenix Contact|| 1729018|| Connector|| 5.0mm 2P|| DCIN,PILOT|| 2|| $0.82|| http://www.digikey.com/product-detail/en/1729018/277-1236-ND/260604 || 
