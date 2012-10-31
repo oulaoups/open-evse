@@ -24,7 +24,8 @@ I plan that my EVSE will be of high commercial standards,offering good weather p
 This is still a work in progress so come back often for updates
 
 = Photos =
-
+Starting to build the RGB LCD from Adafruit
+http://www.flickr.com/photos/89462431@N06/8140995544/
 
 = Videos =
 
