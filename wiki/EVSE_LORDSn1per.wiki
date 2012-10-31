@@ -4,7 +4,8 @@
 
 || Part || Source || Cost || Postage || Quantity || Link ||
 || Arduino UNO || eBay|| $35 || $0 || 1 || http://www.ebay.com.au ||
-|| Open EVSE Shield || Open EVSE || $45 || $0 || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
+|| Open EVSE Shield || Open EVSE || $45 || $10 || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
+|| EV Simulator || Open EVSE || $15 || $10 || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
 
 
 = Introduction =
