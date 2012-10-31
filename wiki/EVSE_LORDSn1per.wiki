@@ -25,8 +25,23 @@ This is still a work in progress so come back often for updates
 
 = Photos =
 Starting to build the RGB LCD from Adafruit
+
 http://farm9.staticflickr.com/8186/8140995544_d8bb15ca27.jpg
 
+
+Finished assembling the RGB LCD screen from Adafruit
+
+http://farm9.staticflickr.com/8049/8140962969_f8fce06df9.jpg
+
+
+My first Arduino program to test LCD
+
+http://farm9.staticflickr.com/8196/8140962439_ba0a9c21d0.jpg
+
+
+Modified v1.0.0 to add my name and KW power display next to timer
+
+http://farm9.staticflickr.com/8473/8140962169_ea7fe36a84.jpg
 
 = Videos =
 
