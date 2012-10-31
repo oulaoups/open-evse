@@ -10,6 +10,7 @@
     * [EVSE_EV_ChargeAmerica_Upgrade Rebuild of broken EVCA EVSE]
     * [EVSE_Example75A 75A EVSE by chris1howell]
     * [75AOpenEVSE 75A EVSE by mwolrich]
+    * [EVSE by LORD Sn1per]
   * *SAE J1772 Standard*
     * [J1772Basics Basics of J1772]
     * [J1772CableSources Sources for J1772 cables]
