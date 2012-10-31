@@ -43,9 +43,16 @@ Modified v1.0.0 to add my name and KW power display next to timer
 
 http://farm9.staticflickr.com/8473/8140962169_ea7fe36a84.jpg
 
+
+J-1772 with a 3m cable
+
+http://farm9.staticflickr.com/8331/8140963675_ecd22726b7.jpg[/img][/url
+
+
 = Videos =
 
 First boot up of arduino UNO
+
 http://www.youtube.com/watch?nomobile=1&v=DShKkW-Ruao
 
 Booting up v1.0.2 of my customised evse
