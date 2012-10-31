@@ -6,6 +6,10 @@
 || Arduino UNO || eBay|| $35 || $0 || 1 || http://www.ebay.com.au ||
 || Open EVSE Shield || Open EVSE || $45 || $10 || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
 || EV Simulator || Open EVSE || $15 || $10 || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
+|| 240v 30A Relay with 12v coil || RS Components || $35.31 || $0 || 1 || http://australia.rs-online.com  Part: 235-5469||
+|| RGB LCD Shield 16x2 Positive Display || Adafruit || $23.95 || $45.55 || 1 || http://adafruit.com/products/716 ||
+|| J-1772 with 3m Cable - 30A || EV Power || $161.80 || $23 || 1 || http://ev-power.com.au/webstore/index.php/sae-charging-plugs-sockets/ev-charging-plug-sae-j1772.html ||
+|| CR8420-1000-G Current Transformer || Amazon || $10.67 || $6.12 || 1 || http://www.amazon.com/gp/product/B005CWO4X0/ref=ox_ya_os_product ||
 
 
 = Introduction =
