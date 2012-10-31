@@ -1,0 +1,17 @@
+#summary EVSE by LORD Sn1per in Australia.
+
+= Introduction =
+The Following photos illustrate installation of an Arduino UNO, Arduino Shield, an Adafruit RGB LCD open EVSE.
+
+My primary goal was to build an EVSE for under $1000. Living here in Australia a simple EVSE was $4999 and a CHEAP one was $1899! In Australia our electricity is 240v in either 10A or 15A. The supplied EVSE for my Nissan Leaf was 240v 10A but I'd like to have a permanent EVSE on the wall in my garage that can supply 15A.
+
+I plan that my EVSE will be of high commercial standards,offering good weather protection ,and incorporating latest firmware. The adafruit RGB display was utililised as well as 2 buttons, MENU and RESET 
+
+This is still a work in progress so come back often for updates
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
