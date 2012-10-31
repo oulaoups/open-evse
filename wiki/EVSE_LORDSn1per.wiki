@@ -24,31 +24,21 @@ I plan that my EVSE will be of high commercial standards,offering good weather p
 This is still a work in progress so come back often for updates
 
 = Photos =
-Starting to build the RGB LCD from Adafruit
-
+Starting to build the RGB LCD from Adafruit. 
 http://farm9.staticflickr.com/8186/8140995544_d8bb15ca27_c.jpg
 
 
-Finished assembling the RGB LCD screen from Adafruit
-
-http://farm9.staticflickr.com/8049/8140962969_f8fce06df9.jpg
+Finished assembling the RGB LCD screen from Adafruit. http://farm9.staticflickr.com/8049/8140962969_f8fce06df9_c.jpg
 
 
-My first Arduino program to test LCD
-
-http://farm9.staticflickr.com/8196/8140962439_ba0a9c21d0.jpg
-
-
-Modified v1.0.0 to add my name and KW power display next to timer
-
-http://farm9.staticflickr.com/8473/8140962169_ea7fe36a84.jpg
+My first Arduino program to test LCD. 
+http://farm9.staticflickr.com/8196/8140962439_ba0a9c21d0_c.jpg
 
 
-J-1772 with a 3m cable
-
-http://farm9.staticflickr.com/8331/8140963675_ecd22726b7.jpg
+Modified v1.0.0 to add my name and KW power display next to timer. http://farm9.staticflickr.com/8473/8140962169_ea7fe36a84_c.jpg
 
 
+J-1772 with a 3m cable. 
 http://farm9.staticflickr.com/8331/8140963675_ecd22726b7_c.jpg
 
 
