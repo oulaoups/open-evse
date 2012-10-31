@@ -1,5 +1,11 @@
 #summary EVSE by LORD Sn1per in Australia.
 
+=Parts List=
+
+|| Part || Source || Cost || Postage || Quantity || Link ||
+|| Arduino UNO || eBay|| $35 || $0 || 1 || http://www.ebay.com.au ||
+
+
 = Introduction =
 The Following photos illustrate installation of an Arduino UNO, Arduino Shield, an Adafruit RGB LCD open EVSE.
 
