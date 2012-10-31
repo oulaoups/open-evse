@@ -25,7 +25,6 @@ This is still a work in progress so come back often for updates
 
 = Photos =
 Starting to build the RGB LCD from Adafruit
-
 http://farm9.staticflickr.com/8186/8140995544_d8bb15ca27.jpg
 
 
