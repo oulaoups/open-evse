@@ -23,6 +23,16 @@ I plan that my EVSE will be of high commercial standards,offering good weather p
 
 This is still a work in progress so come back often for updates
 
+= Videos =
+
+First boot up of arduino UNO
+http://www.youtube.com/watch?nomobile=1&v=DShKkW-Ruao
+
+Booting up v1.0.2 of my customised evse
+Includes my name with animation
+Includes KW being drawn next to timer
+http://www.youtube.com/watch?v=jZVIEaFd99M
+
 = Details =
 
 Add your content here.  Format your content with:
