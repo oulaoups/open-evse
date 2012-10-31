@@ -25,6 +25,8 @@ This is still a work in progress so come back often for updates
 
 = Photos =
 Starting to build the RGB LCD from Adafruit
+
+
 <a href="http://www.flickr.com/photos/89462431@N06/8140995544/" title="IMG_2127.JPG by Phillip Carlson, on Flickr"><img src="http://farm9.staticflickr.com/8186/8140995544_d8bb15ca27.jpg" width="500" height="375" alt="IMG_2127.JPG"></a>
 
 = Videos =
