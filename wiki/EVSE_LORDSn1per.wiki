@@ -42,6 +42,9 @@ J-1772 with a 3m cable.
 http://farm9.staticflickr.com/8331/8140963675_ecd22726b7_c.jpg
 
 
+v1.0.3 now displays cost instead of KW. 
+http://farm9.staticflickr.com/8043/8144336351_017ae19ab1_c.jpg
+
 = Videos =
 
 First boot up of arduino UNO
