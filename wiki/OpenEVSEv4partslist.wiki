@@ -49,7 +49,7 @@ If you'd like to built your own EVSE controller board instead of ordering one, h
 || 3M|| 929400-01-36-RK|| Header straight|| 0.1sp.|| FTDI,LCD,CT1,I/O|| 1|| $1.80|| http://www.digikey.com/product-detail/en/929400-01-36-RK/929400E-01-36-ND/1093569 || 
 || TE Connectivity || A98036-ND || Connector|| 3.5mm 2P|| Rly1,S1/2,SP|| 3 || $0.27|| http://www.digikey.com/product-detail/en/1776275-2/A98036-ND/1826899 || 
 || On Shore Technlogy || ED2609-ND|| Connector|| 5.0mm 2P|| DCIN,PILOT|| 2 || $0.35|| http://www.digikey.com/product-detail/en/OSTTC022162/ED2609-ND/614558 || 
-|| Combicon PT || 277-1722-ND|| Connector|| 3.5mm 3P|| JP1|| 1 || $0.55 || http://www.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=277-1722 || 
+|| TE Connectivity || 1776275-3|| Connector|| 3.5mm 3P|| JP1|| 1 || $0.78 || http://www.digikey.com/product-detail/en/1776275-3/A98037-ND/1826900 || 
 || Circuit board|| Open EVSE V4|| Board|| Double sided|| B1|| 1|| $14.10|| http://oshpark.com ||
 || Optional|| AE10011-ND|| IC socket|| 8 pin|| IC2,4,5,6|| 4|| 0.50|| ||
 || Optional|| ED90054-ND|| IC socket|| 28 pin|| IC1|| 1|| 1.68|| ||
@@ -58,9 +58,6 @@ If you'd like to built your own EVSE controller board instead of ordering one, h
 || Crmagnetics || CR8420-1000-G || CT || 1000|| CT1|| 1|| $10.65|| http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 || 
 || TE Connectivity|| T92S7D22-12|| Relay|| DPST 30amp|| Rly1|| 1|| $13.87|| http://www.digikey.com/product-detail/en/T92S7D22-12 ||
 || CUI Inc|| FSC-S5-12U|| Power supply|| 5W 12V|| DC2|| 1|| $27.32|| http://www.digikey.com/product-detail/en/FSC-S5-12U/102-1573-ND/1699037 || 
-|| ALTERNATIVE 12V Power Supply  & ALTERNATIVE 12V 30A DPST relay below (Jameco) ||
-|| MeanWell || RS-15-12 || Power Supply || 15.6W 12V || DC2 || 1 || $11.95 || http://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_1919051_-1?CID=GOAW&gclid=CKPiy5PqprMCFQyk4Aod5EkARQ ||
-|| P&B/Tyco || T92P7D22-12 || Relay || DPST 30amp || Rly1 || 1 || $8.95 ||  https://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_2158346_-1 ||
 || Laird|| 28B1250-000|| Ferrite core|| 31x19x22mm|| L4,L5|| 2|| $2.98|| http://www.digikey.com/product-detail/en/28B1250-000 || 
 || Littelfuse Inc.|| 03540902ZXGY|| Fuse holder|| 20amp 300V|| FH|| 1|| $3.89|| http://www.digikey.com/product-detail/en/03540902ZXGY || 
 || Littelfuse Inc.|| 0314020.MXP|| Fuse|| 3AG 20amp F|| F3,F4|| 2|| $1.38|| http://www.digikey.com/product-detail/en/0314020.MXP || 
@@ -69,6 +66,11 @@ If you'd like to built your own EVSE controller board instead of ordering one, h
 || Any|| Any|| Enclosure|| Case|| || 1|| varies|| Enclosure to fit selected components (~4x4x4" to 6x8x6") || 
 || Varies|| Wire,terminals,etc.|| || || || 1|| $10.00|| Wire,terminals,fastners,standoffs,connectors,etc. (estimated) || 
 || || || || || *System Total*|| || $164.46 ||
+
+ALTERNATIVE 12V Power Supply & ALTERNATIVE 12V 30A relay below (Jameco)
+
+|| MeanWell || RS-15-12  || Power Supply || 15.6W 12V || DC2 || 1 || $11.95 || http://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_1919051_-1?CID=GOAW&gclid=CKPiy5PqprMCFQyk4Aod5EkARQ ||
+|| P&B/Tyco || T92P7D22-12  || Relay || DPST 30amp || Rly1 || 1 || $8.95 ||  https://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_2158346_-1 ||
 
 = Details =
 
