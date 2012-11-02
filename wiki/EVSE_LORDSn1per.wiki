@@ -51,9 +51,9 @@ First boot up of arduino UNO
 
 http://www.youtube.com/watch?nomobile=1&v=DShKkW-Ruao
 
-Booting up v1.0.2 of my customised evse
+Booting up v1.0.3 of my customised evse
 Includes my name with animation
-Includes KW being drawn next to timer
+Includes the price being drawn next to timer. The cents per kwh has to be manually programmed in but I'm working on creating a new menu so you can change it using the button and LCD screen. 
 http://www.youtube.com/watch?v=jZVIEaFd99M
 
 = Details =
