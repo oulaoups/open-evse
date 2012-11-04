@@ -3,16 +3,15 @@
 
 = OpenEVSE boards =
 
-The waiting list for Prebuilt boards is currently frozen for October to catch up on the current backlog. The OpenEVSE Arduino shield kit is in stock for those who would like to build an OpenEVSE without a wait.
+The waiting list for Prebuilt boards is currently frozen for October due to backorderd components and to catch up on the current backlog. Orders should open back up in late November.
 
 = Parts list =
 
 Prices $USD
 || *Part* || *Kit* || *Assembled and Tested* || Status ||
-|| OpenEVSE board || NA ||  ||  ||
-|| Advanced Power Supply || ||  ||  ||
+|| Coming soon... OpenEVSE Plus || NA || $150 || Coming soon ||
 || EV Simulator || $15 || N/A || Available ||
-|| OpenEVSE Arduino Shield || $45 || N/A || Available || 
+|| OpenEVSE Arduino Shield || $45 || N/A || Out of stock || 
 || Shipping US || $5 || || ||
 || Shipping Int. (USPS) || $20 || || ||
 || Shipping Fedex\UPS\DHL || Cost || || || 
