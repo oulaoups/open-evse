@@ -14,7 +14,7 @@
 || bulk cable || EVSE Cord only || HC Sharp || L2 || 80A || UL RoHS || Custom by the ft. || $8.99/ft || http://www.ebay.com/itm/EVSE-charge-cable-80-Amp-600-volt-UL-approved-J-1772-/270966796002?pt=LH_DefaultDomain_0&hash=item3f16e12ee2 ||
 || CONNECTOR || Tesla Roadster Connector || HC Sharp || L2 || 80A || UL: N/A; RoHS: Yes || Connector || $600 (US version) + cable || email henry@hcsharp.com ||
 || 75T6614 || Plug only || Multicomp || L1/L2 || 32A || RoHS || none || $156.32 || http://www.newark.com/multicomp/dsi-ev32p-nc/plug-ev-j1772-32a/dp/75T6614 ||
-|| 75T6615 ||  Plug and cable || Multicomp || L1/L2 || 32A || RoHS || 3m || $185.39 || http://www.newark.com/multicomp/dsi-ev32p-3c/plug-ev-j1772-32a-3m-cable/dp/75T6615?Ntt=75T6615 ||
+|| 75T6615 ||  Plug and cable || Multicomp || L1/L2 || 32A || RoHS || 3m || $205.98 || http://www.newark.com/multicomp/dsi-ev32p-3c/plug-ev-j1772-32a-3m-cable/dp/75T6615?Ntt=75T6615 ||
 || || Plug alone || Dostar || L1/L2 || 70A || No || none || $170 || http://www.tucsonev.com/index.html ||
 || || Plug with Cord || Dostar || L1/L2 || 45A || No || 20' || $230 || http://www.tucsonev.com/index.html ||
 || || Plug with Cord || Dostar || L1/L2 || 70A || No || 26' || $250 || http://www.tucsonev.com/index.html ||
