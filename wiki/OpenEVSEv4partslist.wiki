@@ -88,7 +88,7 @@ Prices subject to change and do not include taxes or shipping.
 Notes:
 The board no longer requires a dual voltage +12V and-12V supply, and can be powered by a single voltage +12V supply.
 The V2,V3,V4 boards require an external 12Vdc power supply of 5 watts or greater depending on displays, relays, and accessories. They can be programmed using the 5V supply on the FTDI or SPI headers, but require the 12V supply to operate the Pilot circuitry.
-On the V4 board pin 5 (reset) is not connected to pin 1 (reset) of the Atmega328, which may be required for some programers (USBTiny ISP).
+On the V4 board SPI header pin 5 (reset) is not connected to pin 1 (reset) of the Atmega328, which may be required for some programers (USBTiny ISP).
 
 Optional circuitry on the V4 board:
 
