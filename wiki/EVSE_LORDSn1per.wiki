@@ -61,6 +61,10 @@ Includes my name with animation
 Includes the price being drawn next to timer. The cents per kwh has to be manually programmed in but I'm working on creating a new menu so you can change it using the button and LCD screen. 
 http://www.youtube.com/watch?v=jZVIEaFd99M
 
+
+Here is a video of me testing the Arduino based open EVSE with a relay connected. 
+http://www.youtube.com/watch?nomobile=1&v=v795UG82kxM
+
 = Details =
 
 Add your content here.  Format your content with:
