@@ -20,8 +20,5 @@ Add your content here.
 || FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.74 || 2|| http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
 || 30A AC Plug L6-30 || Stay Online || $33.00 || 1 || http://www.stayonline.com/detail.aspx?ID=15695 ||
 || AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || http://adafruit.com/products/714 ||
-|| Strain Relief 3/4" NPT (Arrow Hart TC1254) ||  || $15.00 || 1 || Possible replacement: https://www.alliedelec.com/search/productdetail.aspx?SKU=70075265 ||
-|| Strain Relief 1" NPT (Arrow Hart TC1373) || local electrical supply house || $15.00 || 1 || Possible replacement: https://www.alliedelec.com/search/productdetail.aspx?SKU=70075264 ||
-|| Ground Bar Kit || Home Depot || $4.17 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
-
-|| Totals || + shipping, misc connectors & nuts/bolts || $402.96 ||
+|| Strain Relief || Polycase || $7.00 || 2 || http://www.polycase.com/cg-17 ||
+|| Ground Bar Kit || Home Improvement store || $5.00 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
