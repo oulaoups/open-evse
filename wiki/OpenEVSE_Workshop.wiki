@@ -11,7 +11,7 @@ Add your content here.
 
 || Part || Source || Cost || Quantity || Link ||
 || Open EVSE Plus Board || Open EVSE || $135 ($15 discount) || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
-|| J-1772 cable, 30 amps (A3435-PEV)  ([http://code.google.com/p/open-evse/wiki/J1772CableSources other options]) || Leviton || $134.00 || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
+|| J-1772 cable, 30 amps (A3435-PEV) || Leviton || $134.00 || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
 || 30A Relay || Digikey || $13.03 || 1 || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
 || Current Transformer || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || BOX NEMA ECONOMY 5.9X5.9X3.54 (377-1787-ND) || Digikey || $20.62 || 1 || http://search.digikey.com/scripts/DkSearch/dksus.dll?lang=en&site=us&KeyWords=377-1787-ND&x=0&y=0 ||
