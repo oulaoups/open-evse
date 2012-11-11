@@ -24,3 +24,5 @@ Add your content here.
 || Ground Bar Kit || Home Improvement store || $5.00 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
 || Connectors || Anderson Power Products || $8.00 || 1 || http://www.polycase.com/cg-17 ||
 || Reserve for shipping and tax || Misc || $20.00 || 1 || ||
+
+|| *Total* || *$435* ||
