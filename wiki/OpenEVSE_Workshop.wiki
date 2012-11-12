@@ -15,8 +15,11 @@ Topic: Basic Arduino programming
 
 Topic: Loading new OpenEVSE firmware
 
+=Parts=
+Parts will be purchesed as a group buy. Payment will be made via Paypal starting on 11/11/2012. Parts ordering will begin on 11/12/2012. 
 
-= Option 1 - 30A portable EVSE - All parts supplied =
+
+== Option 1 - 30A portable EVSE - All parts supplied ==
 
 || Part || Source || Cost || Quantity || Link ||
 || Open EVSE Plus Board || Open EVSE || $135 ($15 discount) || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
@@ -36,7 +39,7 @@ Topic: Loading new OpenEVSE firmware
 
 || *Total* || *$435* ||
 
-= Option 2 - Build to your spec - Generic parts supplied =
+== Option 2 - Build to your spec - Generic parts supplied ==
 
 || Part || Source || Cost || Quantity || Link ||
 || Open EVSE Plus Board || Open EVSE || $135 ($15 discount) || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
