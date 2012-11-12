@@ -50,6 +50,9 @@ http://farm9.staticflickr.com/8336/8146088094_17ca9c94f7_c.jpg
 Finished building the Open EVSE Arduino Shield. Note I have put R1 in R20. That will be removed and R20 and R1's position by accident. I have now replaced both of them with blue metal film 1Kohm 1% resistors.
 http://farm9.staticflickr.com/8060/8165693419_fbb68782f9_c.jpg
 
+Finally received the CR-8420 current sensor from America. Now I have all the parts to assemble my open EVSE
+http://farm9.staticflickr.com/8199/8177428284_6850886f7c_c.jpg
+
 = Videos =
 
 First boot up of arduino UNO
