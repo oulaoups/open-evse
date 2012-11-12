@@ -58,5 +58,4 @@ Parts will be purchesed as a group buy. Payment will be made via Paypal starting
 
 || *Total* || *$210* ||
 || Add 75A Leviton J1772 || add $220 ||
-|| Add 75A Contactor || add $125
-
+|| Add 75A Contactor || add $125 ||
