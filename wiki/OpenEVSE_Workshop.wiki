@@ -57,4 +57,6 @@ Parts will be purchesed as a group buy. Payment will be made via Paypal starting
 || Reserve for shipping and tax || Misc || $10.00 || 1 || ||
 
 || *Total* || *$210* ||
-|| Add 75A Leviton J1772 || additional $220 ||
+|| Add 75A Leviton J1772 || add $220 ||
+|| Add 75A Contactor || add $125
+
