@@ -55,7 +55,7 @@ Parts will be purchesed as a group buy. Payment will be made via Paypal starting
 || Waterproof Button (Green) || Adafruit || $5.36 || 1 || || || http://www.adafruit.com/products/560 ||
 || Strain Relief || Polycase || $7.00 || 2 || || || http://www.polycase.com/cg-17 ||
 || Ground Bar Kit || Home Improvement store || $5.00 || 1 ||  || || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
-|| Connectors || Anderson Power Products || $8.00 || 1 || Yes || Yes ||http://www.polycase.com/cg-17 ||
+|| Connectors || Anderson Power Products || $8.00 || 1 || Yes || Yes ||http://www.powerwerx.com/anderson-powerpoles/housings-contacts/ ||
 || Reserve for shipping and tax || Misc || $10.00 || 1 || ||
 
 || *Total* || *$210* ||
