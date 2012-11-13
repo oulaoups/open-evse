@@ -42,20 +42,20 @@ Parts will be purchesed as a group buy. Payment will be made via Paypal starting
 
 == Option 2 - Build to your spec - Generic parts supplied ==
 
-|| Part || Source || Cost || Quantity || Link ||
-|| Open EVSE Plus Board || Open EVSE || $135 ($15 discount) || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
-|| J-1772 cable || Builder Supplied ||  || 1 ||  ||
-|| Relay/Contactor || Builder Supplied || || 1 || ||
-|| Current Transformer || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
-|| Enclosure || Builder Supplied || || 1 ||  ||
-|| FUSEHOLDER if not hardwired || ||  || 2 || ||
-|| FUSE 250V if not hardwired || ||  || 2 || ||
-|| AC plug if not hardwired || || || 1 || ||
-|| AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || http://adafruit.com/products/714 ||
-|| Waterproof Button (Green) || Adafruit || $5.36 || 1 || http://www.adafruit.com/products/560 ||
-|| Strain Relief || Polycase || $7.00 || 2 || http://www.polycase.com/cg-17 ||
-|| Ground Bar Kit || Home Improvement store || $5.00 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
-|| Connectors || Anderson Power Products || $8.00 || 1 || http://www.polycase.com/cg-17 ||
+|| Part || Source || Cost || Quantity || Ordered || Arrived || Link ||
+|| Open EVSE Plus Board || Open EVSE || $135 ($15 discount) || 1 || Yes || Built - waiting for power modules || http://code.google.com/p/open-evse/wiki/Ordering ||
+|| J-1772 cable || Builder Supplied ||  || 1 ||  || || ||
+|| Relay/Contactor || Builder Supplied || || 1 || || || ||
+|| Current Transformer || Digikey || $10.65 || 1 || Yes || || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
+|| Enclosure || Builder Supplied || || 1 ||  || || ||
+|| FUSEHOLDER if not hardwired || ||  || 2 || || || ||
+|| FUSE 250V if not hardwired || ||  || 2 || || || ||
+|| AC plug if not hardwired || || || 1 || || || ||
+|| AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || Backordered || || http://adafruit.com/products/714 ||
+|| Waterproof Button (Green) || Adafruit || $5.36 || 1 || || || http://www.adafruit.com/products/560 ||
+|| Strain Relief || Polycase || $7.00 || 2 || || || http://www.polycase.com/cg-17 ||
+|| Ground Bar Kit || Home Improvement store || $5.00 || 1 ||  || || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
+|| Connectors || Anderson Power Products || $8.00 || 1 || Yes || Yes ||http://www.polycase.com/cg-17 ||
 || Reserve for shipping and tax || Misc || $10.00 || 1 || ||
 
 || *Total* || *$210* ||
