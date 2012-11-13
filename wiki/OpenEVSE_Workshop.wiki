@@ -44,8 +44,8 @@ Parts will be purchesed as a group buy. Payment will be made via Paypal starting
 
 || Part || Source || Cost || Quantity || Ordered || Arrived || Link ||
 || Open EVSE Plus Board || Open EVSE || $135 ($15 discount) || 1 || Yes || Built - waiting for power modules || http://code.google.com/p/open-evse/wiki/Ordering ||
-|| J-1772 cable || Builder Supplied ||  || 1 || Yes || Yes || ||
-|| Relay/Contactor || Builder Supplied || || 1 || || || ||
+|| J-1772 cable || Builder Supplied ||  || 1 || Yes ||  || ||
+|| Relay/Contactor || Builder Supplied || || 1 || Yes || || ||
 || Current Transformer || Digikey || $10.65 || 1 || Yes || || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || Enclosure || Builder Supplied || || 1 ||  || || ||
 || FUSEHOLDER if not hardwired || ||  || 2 || || || ||
