@@ -8,7 +8,13 @@ Immediately following the Socal LEAF gathering.
 Space Limited to 8 builders. Helpers, guests and visitors welcome.
 
 = Location =
-Exact location TBD. Near Cerritos, Ca.
+In-Transit Design
+    
+
+11542 Knott St  Suite 6
+ 
+
+Garden Grove, CA 92841
 
 = Mini presentations ==
 Topic: Basic Arduino programming
@@ -21,21 +27,21 @@ Parts will be purchesed as a group buy. Payment will be made via Paypal starting
 
 == Option 1 - 30A portable EVSE - All parts supplied ==
 
-|| Part || Source || Cost || Quantity || Ordered || Arrived || Link ||
+|| Part || Source || Cost || Quantity || Ordered || Status || Link ||
 || Open EVSE Plus Board || Open EVSE || $135 ($15 discount) || 1 || Yes || waiting for power modules to arrive || http://code.google.com/p/open-evse/wiki/Ordering ||
-|| J-1772 cable, 30 amps (A3435-PEV) || Leviton || $134.00 || 1 ||  Yes || ||http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
-|| 30A Relay || Digikey || $13.03 || 1 || Yes || || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
-|| Current Transformer || Digikey || $10.65 || 1 || Yes || ||http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
-|| BOX NEMA ECONOMY 5.9X5.9X3.54 (377-1787-ND) || Digikey || $20.62 || 1 || Yes || ||http://search.digikey.com/scripts/DkSearch/dksus.dll?lang=en&site=us&KeyWords=377-1787-ND&x=0&y=0 ||
-|| PANEL INTERNAL 4.9" X 4.9" (377-1939-ND) || Digikey || $4.80 || 1 || Yes || || http://search.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&site=us&keywords=377-1939-ND&x=0&y=0 ||
-|| FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND) || Digikey || $4.00 || 2 || Yes || ||http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
-|| FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.50 || 2 || Yes || || http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
-|| 30A AC Plug L6-30 || Stay Online || $33.00 || 1 || Yes || || http://www.stayonline.com/detail.aspx?ID=15695 ||
-|| Adafruit RGB LCD Shield kit || Adafruit || $24.95 || 1 || Backordered || || http://adafruit.com/products/714 ||
-|| Waterproof Button (Green) || Adafruit || $5.36 || 1 || || || http://www.adafruit.com/products/560 ||
+|| J-1772 cable, 30 amps (A3435-PEV) || Leviton || $134.00 || 1 ||  Yes || Shipped ||http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
+|| 30A Relay || Digikey || $13.03 || 1 || Yes || Shipped || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
+|| Current Transformer || Digikey || $10.65 || 1 || Yes || Shipped ||http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
+|| BOX NEMA ECONOMY 5.9X5.9X3.54 (377-1787-ND) || Digikey || $20.62 || 1 || Yes || Shipped ||http://search.digikey.com/scripts/DkSearch/dksus.dll?lang=en&site=us&KeyWords=377-1787-ND&x=0&y=0 ||
+|| PANEL INTERNAL 4.9" X 4.9" (377-1939-ND) || Digikey || $4.80 || 1 || Yes || Shipped || http://search.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&site=us&keywords=377-1939-ND&x=0&y=0 ||
+|| FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND) || Digikey || $4.00 || 2 || Yes || Shipped ||http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
+|| FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.50 || 2 || Yes || Shipped || http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
+|| 30A AC Plug L6-30 || Stay Online || $33.00 || 1 || Yes || Shipped || http://www.stayonline.com/detail.aspx?ID=15695 ||
+|| Adafruit RGB LCD Shield kit || Adafruit || $24.95 || 1 || Yes || Shipped || http://adafruit.com/products/714 ||
+|| Waterproof Button (Green) || Adafruit || $5.36 || 1 || Yes || Shipped || http://www.adafruit.com/products/560 ||
 || Strain Relief || Polycase || $7.00 || 2 || || || http://www.polycase.com/cg-17 ||
 || Ground Bar Kit || Home Improvement store || $5.00 || 1 || || || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
-|| Connectors || Anderson Power Products || $8.00 || 1 || Yes || Yes || http://www.powerwerx.com/anderson-powerpoles/housings-contacts/ ||
+|| Connectors || Anderson Power Products || $8.00 || 1 || Yes || Arrived || http://www.powerwerx.com/anderson-powerpoles/housings-contacts/ ||
 || Reserve for shipping and tax || Misc || $20.00 || 1 || ||
 
 || *Total* || *$435* ||
@@ -44,18 +50,18 @@ Parts will be purchesed as a group buy. Payment will be made via Paypal starting
 
 || Part || Source || Cost || Quantity || Ordered || Arrived || Link ||
 || Open EVSE Plus Board || Open EVSE || $135 ($15 discount) || 1 || Yes || Built - waiting for power modules || http://code.google.com/p/open-evse/wiki/Ordering ||
-|| J-1772 cable || Builder Supplied ||  || 1 || Yes ||  || ||
-|| Relay/Contactor || Builder Supplied || || 1 || Yes || || ||
-|| Current Transformer || Digikey || $10.65 || 1 || Yes || || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
+|| J-1772 cable || Builder Supplied / Optional ||  || 1 || Yes || Shipped  || ||
+|| Relay/Contactor || Builder Supplied || || 1 || Yes || Shipped || ||
+|| Current Transformer || Digikey || $10.65 || 1 || Yes || Shipped || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || Enclosure || Builder Supplied || || 1 ||  || || ||
 || FUSEHOLDER if not hardwired || ||  || 2 || || || ||
-|| FUSE 250V if not hardwired || ||  || 2 || || || ||
+|| FUSE 250V or Internal circuit breaker if not hardwired || ||  || 2 || || || ||
 || AC plug if not hardwired || || || 1 || || || ||
-|| AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || Backordered || || http://adafruit.com/products/714 ||
-|| Waterproof Button (Green) || Adafruit || $5.36 || 1 || || || http://www.adafruit.com/products/560 ||
+|| AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || Yes || Shipped || http://adafruit.com/products/714 ||
+|| Waterproof Button (Green) || Adafruit || $5.36 || 1 || Yes  || Shipped || http://www.adafruit.com/products/560 ||
 || Strain Relief || Polycase || $7.00 || 2 || || || http://www.polycase.com/cg-17 ||
 || Ground Bar Kit || Home Improvement store || $5.00 || 1 ||  || || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
-|| Connectors || Anderson Power Products || $8.00 || 1 || Yes || Yes ||http://www.powerwerx.com/anderson-powerpoles/housings-contacts/ ||
+|| Connectors || Anderson Power Products || $8.00 || 1 || Yes || Arrived ||http://www.powerwerx.com/anderson-powerpoles/housings-contacts/ ||
 || Reserve for shipping and tax || Misc || $10.00 || 1 || ||
 
 || *Total* || *$210* ||
