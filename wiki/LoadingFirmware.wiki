@@ -142,3 +142,7 @@ Command assumes you are using the USBtiny, if using another programmer substitut
 {{{
 avrdude -c usbtiny -p m328p -U flash:w:open_evse.hex
 }}}
+
+Alternate command if using serial FTDI with the Arduino bootloader. (Arduino boards or OpenEVSE with Arduio bootloader)
+{{{
+avrdude -c arduino -p m328p -P COMxx -b 115200 -D flash:w:open_evse.hex }}} 
