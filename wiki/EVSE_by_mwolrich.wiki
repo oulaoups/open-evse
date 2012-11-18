@@ -34,11 +34,10 @@ If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 2
 || PANEL INTERNAL 4.9" X 4.9" (377-1939-ND) || Digikey || $4.80 || 1 || http://search.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&site=us&keywords=377-1939-ND&x=0&y=0 ||
 || FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND) || Digikey || $4.00 || 2 || http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
 || FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.74 || 2|| http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
-|| J-1772 cable, 30 amps (A3435-PEV)  ([http://code.google.com/p/open-evse/wiki/J1772CableSources other options]) || Leviton || $133.98 
- || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
+|| J-1772 cable, 30 amps (A3435-PEV) || Leviton ||   $133.98 || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
 || 30A AC Plug L6-30 || Stay Online || $33.00 || 1 || http://www.stayonline.com/detail.aspx?ID=15695 ||
 || AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || http://adafruit.com/products/714 ||
-|| Strain Relief - HUBBELL SHC2041CR 1 Inch Thread Cord Connector ||  || $7.00 || 2 || http://www.stayonline.com/detail.aspx?id=17207 ||
+|| Strain Relief - HUBBELL SHC2041CR 1 Inch Thread Cord Connector || Stayonline || $7.00 || 2 || http://www.stayonline.com/detail.aspx?id=17207 ||
 || Ground Bar Kit || Home Depot || $4.17 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
 
 || Totals || + shipping, misc connectors & nuts/bolts || $402.96 ||
