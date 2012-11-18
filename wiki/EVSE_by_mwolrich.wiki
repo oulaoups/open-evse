@@ -37,9 +37,9 @@ If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 2
 || 30A AC Plug L6-30 || Stay Online || $33.00 || 1 || http://www.stayonline.com/detail.aspx?ID=15695 ||
 || AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || http://adafruit.com/products/714 ||
 || Strain Relief - HUBBELL SHC2041CR 1 Inch Thread Cord Connector || Stayonline || $7.00 || 2 || http://www.stayonline.com/detail.aspx?id=17207 ||
-|| Ground Bar Kit || Home Depot || $4.17 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
+|| Ground Bar Kit || Home Depot || $4.48 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
 
-|| Totals || + shipping $20, misc connectors $5 & nuts/bolts/standoffs $10 || $455.68 ||
+|| Totals || shipping $25, misc connectors $5 & nuts/bolts/standoffs $10 || $460.25 ||
 
 <a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=PhotoApr2894212AM.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/PhotoApr2894212AM.jpg" border="0" alt="Photobucket">
 
