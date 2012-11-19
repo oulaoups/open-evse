@@ -30,7 +30,7 @@ If you'd like to built your own EVSE controller board instead of ordering one, h
 || Any || Any || Resistor 5%|| 2.8k|| R3,R4|| 2|| $0.09|| 
 || Any || Any || Resistor 5%|| 10k || R10,19,25,27,28,30|| 6|| $0.09 || 
 || Any || Any || Resistor 5%|| 20k || R15|| 1|| $0.09 || 
-|| Yaego|| CFR-25JB-52-22K|| Resistor HV|| 22k 300v|| R12,R13|| 2|| $0.06|| http://www.digikey.com/product-detail/en/CFR-25JB-52-22K/22KQBK-ND/1306 || 
+|| Vishay BC|| MRS25000C2802FRP00|| Resistor HV 1%|| 28k 0.6w|| R12,R13|| 2|| $0.22|| http://www.digikey.com/product-detail/en/MRS25000C2802FRP00/PPC28.0KZCT-ND/594989 || 
 || Any || Any || Resistor 5%|| 56k || R5|| 1|| $0.09 || 
 || Any || Any || Resistor 5%|| 100k || R6,14,16|| 3|| $0.09 || 
 || Any || Any || Resistor 5%|| 200k || R7|| 1|| $0.09 || 
