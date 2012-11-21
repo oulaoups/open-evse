@@ -13,8 +13,12 @@
 || 12v DC 400mA power supply || Jaycar || $15.95 || $0 || 1 || http://www.jaycar.com.au/productView.asp?ID=MP3147 ||
 || Chrome push button with Green LED circle || Jaycar || $10.95 || $0 || 1 || http://www.jaycar.com.au/productView.asp?ID=SP0797 ||
 || 8-13mm Cable Gland || TLE Electrical || $2.84 || $0 || 1 || ||
+|| 11-17mm Cable Gland || TLE Electrical || $3.73 || $0 || 1 || ||
+|| 15A power plug || TLE Electrical || $8.00 || $0 || 1 || ||
+|| 1 meter - 4mm power cable || TLE Electrical || $4.21 || $0 || 1 || ||
+|| IP55 150x220x75mm modular box || TLE Electrical || $38.42 || $0 || 1 || ||
 ||  || || || ||  ||  ||
-|| *TOTAL* || || *$353.63*|| *$94.67* ||  || *TOTAL $448.30* ||
+|| *TOTAL* || || *$414.72*|| *$94.67* ||  || *TOTAL $509.39* ||
 
 
 = Introduction =
