@@ -3,7 +3,7 @@
 = Introduction =
 
 OpenEVSE Workshop Saturday December 1, 2012.
-Immediately following the Socal LEAF gathering.
+Immediately following the Socal LEAF gathering. Estimated 1100.
 
 Space Limited to 8 builders. Helpers, guests and visitors welcome.
 
@@ -28,18 +28,18 @@ Parts will be purchesed as a group buy. Payment will be made via Paypal starting
 == Option 1 - 30A portable EVSE - All parts supplied ==
 
 || Part || Source || Cost || Quantity || Ordered || Status || Link ||
-|| Open EVSE Plus Board || Open EVSE || $135 ($15 discount) || 1 || Yes || waiting for power modules to arrive || http://code.google.com/p/open-evse/wiki/Ordering ||
-|| J-1772 cable, 30 amps (A3435-PEV) || Leviton || $134.00 || 1 ||  Yes || 5 of 8 Arrived ||http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
+|| Open EVSE Plus Board || Open EVSE || $135 ($15 discount) || 1 || Yes || 6 of 8 built || http://code.google.com/p/open-evse/wiki/Ordering ||
+|| J-1772 cable, 30 amps (A3435-PEV) || Leviton || $134.00 || 1 ||  Yes || Arrived ||http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
 || 30A Relay || Digikey || $13.03 || 1 || Yes || Arrived || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
 || Current Transformer || Digikey || $10.65 || 1 || Yes || Arrived ||http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || BOX NEMA ECONOMY 5.9X5.9X3.54 (377-1787-ND) || Digikey || $20.62 || 1 || Yes || Arrived ||http://search.digikey.com/scripts/DkSearch/dksus.dll?lang=en&site=us&KeyWords=377-1787-ND&x=0&y=0 ||
 || PANEL INTERNAL 4.9" X 4.9" (377-1939-ND) || Digikey || $4.80 || 1 || Yes || Arrived || http://search.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&site=us&keywords=377-1939-ND&x=0&y=0 ||
 || FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND) || Digikey || $4.00 || 2 || Yes || Arrived ||http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
 || FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.50 || 2 || Yes || Arrived || http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
-|| 30A AC Plug L6-30 || Stay Online || $33.00 || 1 || Yes || Shipped || http://www.stayonline.com/detail.aspx?ID=15695 ||
+|| 30A AC Plug L6-30 || Stay Online || $33.00 || 1 || Yes || Arrived || http://www.stayonline.com/detail.aspx?ID=15695 ||
 || Adafruit RGB LCD Shield kit || Adafruit || $24.95 || 1 || Yes || Shipped || http://adafruit.com/products/714 ||
 || Waterproof Button (Green) || Adafruit || $5.36 || 1 || Yes || Shipped || http://www.adafruit.com/products/560 ||
-|| Strain Relief || Polycase || $7.00 || 2 || Yes || || http://www.polycase.com/cg-17 ||
+|| Strain Relief || Polycase || $7.00 || 2 || Yes || Shipped || http://www.polycase.com/cg-17 ||
 || Ground Bar Kit || Home Improvement store || $5.00 || 1 || Yes || Arrived || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
 || Connectors || Anderson Power Products || $8.00 || 1 || Yes || Arrived || http://www.powerwerx.com/anderson-powerpoles/housings-contacts/ ||
 || Reserve for shipping and tax || Misc || $20.00 || 1 || ||
