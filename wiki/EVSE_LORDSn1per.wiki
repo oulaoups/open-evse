@@ -12,6 +12,7 @@
 || CR8420-1000-G Current Transformer || Amazon || $10.67 || $6.12 || 1 || http://www.amazon.com/gp/product/B005CWO4X0/ref=ox_ya_os_product ||
 || 12v DC 400mA power supply || Jaycar || $15.95 || $0 || 1 || http://www.jaycar.com.au/productView.asp?ID=MP3147 ||
 || Chrome push button with Green LED circle || Jaycar || $10.95 || $0 || 1 || http://www.jaycar.com.au/productView.asp?ID=SP0797 ||
+|| 8-13mm Cable Gland || TLE Electrical || $2.84 || $0 || 1 || ||
 ||  || || || ||  ||  ||
 || *TOTAL* || || *$353.63*|| *$94.67* ||  || *TOTAL $448.30* ||
 
