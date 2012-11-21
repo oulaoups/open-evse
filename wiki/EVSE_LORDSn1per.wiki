@@ -61,20 +61,26 @@ http://farm9.staticflickr.com/8199/8177428284_6850886f7c_c.jpg
 Now I have bought a box
 http://farm9.staticflickr.com/8208/8206294563_2224e84fa3_c.jpg
 
+
 Added the 240v in and J-1772 cord out
 http://farm9.staticflickr.com/8202/8207381450_72c83dc14f_c.jpg
+
 
 Placed the relay and earth terminal block
 http://farm9.staticflickr.com/8479/8206289551_cb9bb83352_c.jpg
 
+
 Placing the Arduino, Open EVSE shield and 12v power pack
 http://farm9.staticflickr.com/8486/8206290453_0b1f7c6b2e_c.jpg
+
 
 Wired up and added the LCD screen too
 http://farm9.staticflickr.com/8064/8206283327_202a3ac8cf_c.jpg
 
+
 Just need to add the J-1772 wires now
 http://farm9.staticflickr.com/8200/8206284923_e72fb25a19_c.jpg
+
 
 
 = Videos =
