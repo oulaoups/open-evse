@@ -30,6 +30,23 @@ I plan that my EVSE will be of high commercial standards,offering good weather p
 
 This is still a work in progress so come back often for updates
 
+= Problems Encountered =
+* No Pilot *
+On the open EVSE Arduino shield the word PILOT is next to the ground pin, not the PILOT pin. There's no information that I could find to tell you this. So use the ROUND pin, not the square one as pictured. This was made difficult because once you solder on the screw terminal, you can't see the word pilot or the tracks. THANKS CHRIS!!
+
+http://farm9.staticflickr.com/8203/8208823787_0de13bd47c.jpg
+
+
+
+* Proximity circuit not working *
+Inside the handle is a microswitch under the button. The proximity circuit should read 150 ohms between ground and blue wire (normally) when the button is NOT pressed, and 480 Ohms when PRESSED. If it reads 480 Ohms the EVSE will NOT start charging. In mu case, my brand new J1772 handle was assembled in a way that kept the switch push ON all the time, reading 480 Ohms. The microswitch in my handle had the metal bent up too high so when the button was installed, it would press the switch, so I had to bend the metal downwards. THANKS CHRIS!!
+
+http://farm9.staticflickr.com/8202/8208836539_ba39eb166b.jpg
+
+* Ground * 
+After fixing the pilot as above, I had to rund the ground wire to EARTH. There was little information showing this, without it, the pilot has no ground reference. THANKS CHRIS!!
+
+
 = Photos =
 Starting to build the RGB LCD from Adafruit. 
 http://farm9.staticflickr.com/8186/8140995544_d8bb15ca27_c.jpg
@@ -91,6 +108,13 @@ http://farm9.staticflickr.com/8059/8207877040_112ef2b3d1_c.jpg
 
 Just a photo to show the inner workings a bit clearer. I still have to clamp down that 12v transformer.
 http://farm9.staticflickr.com/8066/8206793313_fd73ee4832_c.jpg
+
+
+My first CHARGE!!! Charging my nissan Leaf at 10A (2391 watts)
+http://farm9.staticflickr.com/8340/8207136683_43eeff2aa6_c.jpg
+
+Charging in the dark. I am not a fan of the clear lid so I will work on a way to cover that up.
+http://farm9.staticflickr.com/8062/8208812231_71fdd93a39_c.jpg
 
 = Videos =
 
