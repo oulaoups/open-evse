@@ -63,6 +63,7 @@ http://farm9.staticflickr.com/8208/8206294563_2224e84fa3_c.jpg
 
 
 Added the 240v in and J-1772 cord out
+
 http://farm9.staticflickr.com/8202/8207381450_72c83dc14f_c.jpg
 
 
@@ -79,9 +80,17 @@ http://farm9.staticflickr.com/8064/8206283327_202a3ac8cf_c.jpg
 
 
 Just need to add the J-1772 wires now
+
 http://farm9.staticflickr.com/8200/8206284923_e72fb25a19_c.jpg
 
+All wired up now. I have now connected cable to earth.
+http://farm9.staticflickr.com/8484/8206787091_16e6cdf48f_c.jpg
 
+When I plugged into my Leaf it would change to EV CONNECTED but would not start charging. BIG THANKS to Chris Howell for his help. It turned out to be the switch inside the charging connector was stuck DOWN. I pulled apart the handle and fixed the switch. Now it correctly has 150 ohm from blue wire to ground when the button is NOT pressed, and 480 Ohn when the button IS pressed. Now to try it out tonight. If everything works then I can work on cleaning up the wiring and making a label to go on the INSIDE of the lid to hide all the electronics.
+http://farm9.staticflickr.com/8059/8207877040_112ef2b3d1_c.jpg
+
+Just a photo to show the inner workings a bit clearer. I still have to clamp down that 12v transformer.
+http://farm9.staticflickr.com/8066/8206793313_fd73ee4832_c.jpg
 
 = Videos =
 
