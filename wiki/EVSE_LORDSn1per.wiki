@@ -28,23 +28,23 @@ My primary goal was to build an EVSE for under $1000. Living here in Australia a
 
 I plan that my EVSE will be of high commercial standards,offering good weather protection ,and incorporating latest firmware. The adafruit RGB display was utililised as well as a MENU button. 
 
-This is still a work in progress so come back often for updates
+A BIG THANKS must go out to Chris Howell for all his help and email support. What a big help he has been.
 
 = Problems Encountered =
 * No Pilot *
-On the open EVSE Arduino shield the word PILOT is next to the ground pin, not the PILOT pin. There's no information that I could find to tell you this. So use the ROUND pin, not the square one as pictured. This was made difficult because once you solder on the screw terminal, you can't see the word pilot or the tracks. THANKS CHRIS!!
+On the open EVSE Arduino shield the word PILOT is next to the ground pin, not the PILOT pin. There's no information that I could find to tell you this. So use the ROUND pin, not the square one as pictured. This was made difficult because once you solder on the screw terminal, you can't see the word pilot or the tracks. THANKS CHRIS for helping me out with this problem!!
 
 http://farm9.staticflickr.com/8203/8208823787_0de13bd47c.jpg
 
 
 
 * Proximity circuit not working *
-Inside the handle is a microswitch under the button. The proximity circuit should read 150 ohms between ground and blue wire (normally) when the button is NOT pressed, and 480 Ohms when PRESSED. If it reads 480 Ohms the EVSE will NOT start charging. In mu case, my brand new J1772 handle was assembled in a way that kept the switch push ON all the time, reading 480 Ohms. The microswitch in my handle had the metal bent up too high so when the button was installed, it would press the switch, so I had to bend the metal downwards. THANKS CHRIS!!
+Inside the handle is a microswitch under the button. The proximity circuit should read 150 ohms between ground and blue wire (normally) when the button is NOT pressed, and 480 Ohms when PRESSED. If it reads 480 Ohms the EVSE will NOT start charging. In mu case, my brand new J1772 handle was assembled in a way that kept the switch push ON all the time, reading 480 Ohms. The microswitch in my handle had the metal bent up too high so when the button was installed, it would press the switch, so I had to bend the metal downwards. THANKS CHRIS for helping me out with this problem!!
 
 http://farm9.staticflickr.com/8202/8208836539_ba39eb166b.jpg
 
 * Ground * 
-After fixing the pilot as above, I had to rund the ground wire to EARTH. There was little information showing this, without it, the pilot has no ground reference. THANKS CHRIS!!
+After fixing the pilot as above, I had to rund the ground wire to EARTH. There was little information showing this, without it, the pilot has no ground reference. THANKS CHRIS for helping me out with this problem!!!!
 
 
 = Photos =
