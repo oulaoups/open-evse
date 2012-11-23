@@ -64,3 +64,19 @@ If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 2
 16A L2 Pilot signal - charging
 
 <a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=IMAG002.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/IMAG002.jpg" border="0" alt="Photobucket">
+
+Updated pictures using OpenEVSE V4.0 thruhole PCB:
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/?action=view&amp;current=3F2B5998-FC3E-477B-B596-5D10880139BC-5177-000002019DCD5835.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/3F2B5998-FC3E-477B-B596-5D10880139BC-5177-000002019DCD5835.jpg" border="0" alt="Uploaded from the Photobucket iPhone App"></a>
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/?action=view&amp;current=7DB94CB9-8290-476E-B9C3-A093E28F0ADA-5177-000002019A5A9B83.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/7DB94CB9-8290-476E-B9C3-A093E28F0ADA-5177-000002019A5A9B83.jpg" border="0" alt="Uploaded from the Photobucket iPhone App"></a>
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/?action=view&amp;current=099F9571-6A65-44C2-9A1B-2BD704BA8E0E-5177-00000201A1044C2C.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/099F9571-6A65-44C2-9A1B-2BD704BA8E0E-5177-00000201A1044C2C.jpg" border="0" alt="Uploaded from the Photobucket iPhone App"></a>
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/?action=view&amp;current=CF0A37A5-8030-4B2A-9ED9-E955E1ABB32F-5177-00000201A417B752.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/CF0A37A5-8030-4B2A-9ED9-E955E1ABB32F-5177-00000201A417B752.jpg" border="0" alt="Uploaded from the Photobucket iPhone App"></a>
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/?action=view&amp;current=C875C889-0A25-45D1-BC07-E5EDF73B8016-5177-00000201A7BAE9ED.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/C875C889-0A25-45D1-BC07-E5EDF73B8016-5177-00000201A7BAE9ED.jpg" border="0" alt="Uploaded from the Photobucket iPhone App"></a>
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/?action=view&amp;current=3DF25F42-C7B5-447E-9813-A0383A91F469-5177-00000201AB19430E.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/3DF25F42-C7B5-447E-9813-A0383A91F469-5177-00000201AB19430E.jpg" border="0" alt="Uploaded from the Photobucket iPhone App"></a>
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/?action=view&amp;current=EA23209D-03B4-4ED4-A939-587E66D93A51-5177-00000201AE5C679B.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/EA23209D-03B4-4ED4-A939-587E66D93A51-5177-00000201AE5C679B.jpg" border="0" alt="Uploaded from the Photobucket iPhone App"></a>
