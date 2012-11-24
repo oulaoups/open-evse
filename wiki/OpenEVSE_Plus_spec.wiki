@@ -1,0 +1,9 @@
+#summary Specs for OpenEVSE PLUS.
+
+= Introduction =
+The OpenEVSE Plus board contains a J1772 compliant controller board as well as a 4W switch mode power supply.
+
+http://farm9.staticflickr.com/8202/8213353962_08818e80b6.jpg
+
+
+
