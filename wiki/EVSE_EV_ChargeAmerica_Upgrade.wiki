@@ -139,7 +139,7 @@ http://farm9.staticflickr.com/8157/6978341332_c28cab19ed_z.jpg
 
 Test the EVSE before returning to service. http://code.google.com/p/open-evse/wiki/EVSE_TESTING
 
-http://farm9.staticflickr.com/8024/6977361476_7466fb522f_z.jpg
+ http://farm9.staticflickr.com/8200/8215283202_eaf4a0135a_n.jpg
 
 = Charging =
 
