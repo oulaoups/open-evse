@@ -3,6 +3,7 @@
   * *OpenEVSE*
     * [OpenEVSE_boards OpenEVSE boards]
     * [OpenEVSE_Compatibility Compatibility]
+    * [OpenEVSE_Plus_spec OpenEVSE PLUS]
   * *EVSE Charging Stations*
     * [Open_EVSEs EVSE Example Pictures]
     * [EVSE_by_mwolrich 30A portable EVSE by mwolrich]
