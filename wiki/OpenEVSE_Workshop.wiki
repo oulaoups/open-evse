@@ -39,19 +39,20 @@ Topic: Loading new OpenEVSE firmware
 || FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND) || Digikey || $4.00 || 2 || Yes || Arrived ||http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
 || FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.50 || 2 || Yes || Arrived || http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
 || 2" plastic 4-40 M-F standoffs (4813K-ND) || Digikey || $.63 || 4 || Yes || Arrived || http://www.digikey.com/product-detail/en/4813/4813K-ND/255350 ||
-|| VARISTOR 250V 72J 14MM CRIMPD LA (F5598CT-ND) || DigiKey || $.62 || 2 || Yes || Arrived || http://www.digikey.com/product-detail/en/V250LT20AP/F5598CT-ND/3307079 ||
-|| FERRITE TUBULAR BEAD 19.05MM (240-2119-ND) || DigiKey || $1.39 || 2 || Yes || Arrived || http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=240-2119-ND&x=15&y=15&cur=USD ||
+|| VARISTOR 250V 72J 14MM CRIMPD LA (F5598CT-ND) || Digikey || $.62 || 2 || Yes || Arrived || http://www.digikey.com/product-detail/en/V250LT20AP/F5598CT-ND/3307079 ||
+|| FERRITE TUBULAR BEAD 19.05MM (240-2119-ND) || Digikey || $1.39 || 2 || Yes || Arrived || http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=240-2119-ND&x=15&y=15&cur=USD ||
 || Quick Connect 1/4" Piggy back 10AWG || Digikey || $0.57 || 4 || Yes || Arrived || http://www.digikey.com/product-detail/en/19013-0033/WM18717-ND/1642379 ||
 || Quick Connect 1/4" 18 - 22AWG || Digikey || $0.30 || 6 || Yes || Arrived || http://www.digikey.com/product-detail/en/0190030107/WM2928CT-ND/2405590 ||
-|| 1/4" Stand-off || Digikey || $0.14 || 8 || Yes || http://www.digikey.com/product-detail/en/9905-250/492-1104-ND/586424 ||
+|| 1/4" Stand-off || Digikey || $0.14 || 8 || Yes || Arrived || http://www.digikey.com/product-detail/en/9905-250/492-1104-ND/586424 ||
 || 4pin .1" Jumper 12" || Sparkfun || $1.95 || 1 || Yes || Arrived || https://www.sparkfun.com/products/10374 ||
-|| 4/40 Lock Nuts 10 pack || Sparkfun || $1.50 || 1 || Yes || Arrived https://www.sparkfun.com/products/10460 ||
+|| 4/40 Lock Nuts 10 pack || Sparkfun || $1.50 || 1 || Yes || Arrived || https://www.sparkfun.com/products/10460 ||
 || 4/40 Screws 5/8" || Sparkfun || $1.50 || 1 || Yes || Arrived || https://www.sparkfun.com/products/10452 ||
 || 30A AC Plug L6-30 || Stay Online || $33.00 || 1 || Yes || Arrived || http://www.stayonline.com/detail.aspx?ID=15695 ||
 || Adafruit RGB LCD Shield kit || Adafruit || $24.95 || 1 || Yes || Arrived || http://adafruit.com/products/714 ||
 || Waterproof Button (Green) || Adafruit || $5.36 || 1 || Yes || Arrived || http://www.adafruit.com/products/560 ||
 || Strain Relief || Polycase || $7.00 || 2 || Yes || Arrived || http://www.polycase.com/cg-17 ||
 || Ground Bar Kit || Home Improvement store || $5.00 || 1 || Yes || Arrived || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
+|| Hookup wire 20AWG Red, Black, Green || Radio Shack || $8.99 || 1 || Yes || Arrived || http://www.radioshack.com/product/index.jsp?productId=2049743 ||
 || Connectors || Anderson Power Products || $8.00 || 1 || Yes || Arrived || http://www.powerwerx.com/anderson-powerpoles/housings-contacts/ ||
 || Reserve for Ca tax and shipping|| Misc || $40.00 || 1 || ||
 
@@ -72,6 +73,7 @@ Topic: Loading new OpenEVSE firmware
 || Waterproof Button (Green) || Adafruit || $5.36 || 1 || Yes  || Shipped || http://www.adafruit.com/products/560 ||
 || Strain Relief || Polycase || $7.00 || 2 || Yes || Arrived || http://www.polycase.com/cg-17 ||
 || Ground Bar Kit || Home Improvement store || $5.00 || 1 || Yes || Arrived || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
+
 || Connectors || Anderson Power Products || $8.00 || 1 || Yes || Arrived ||http://www.powerwerx.com/anderson-powerpoles/housings-contacts/ ||
 || Reserve for shipping and tax || Misc || $10.00 || 1 || ||
 
