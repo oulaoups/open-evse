@@ -25,13 +25,12 @@ Topic: Basic Arduino programming
 Topic: Loading new OpenEVSE firmware
 
 =Parts=
-Parts will be purchesed as a group buy. Payment will be made via Paypal starting on 11/11/2012. Parts ordering will begin on 11/12/2012. 
 
 
 == Option 1 - 30A portable EVSE - All parts supplied ==
 
 || Part || Source || Cost || Quantity || Ordered || Status || Link ||
-|| Open EVSE Plus Board || Open EVSE || $135 ($15 discount) || 1 || Yes || 6 of 8 built || http://code.google.com/p/open-evse/wiki/Ordering ||
+|| Open EVSE Plus Board || Open EVSE || $135 ($15 discount) || 1 || Yes || Built || http://code.google.com/p/open-evse/wiki/Ordering ||
 || J-1772 cable, 30 amps (A3435-PEV) || Leviton || $134.00 || 1 ||  Yes || Arrived ||http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
 || 30A Relay || Digikey || $13.03 || 1 || Yes || Arrived || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
 || Current Transformer || Digikey || $10.65 || 1 || Yes || Arrived ||http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
@@ -39,10 +38,13 @@ Parts will be purchesed as a group buy. Payment will be made via Paypal starting
 || PANEL INTERNAL 4.9" X 4.9" (377-1939-ND) || Digikey || $4.80 || 1 || Yes || Arrived || http://search.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&site=us&keywords=377-1939-ND&x=0&y=0 ||
 || FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND) || Digikey || $4.00 || 2 || Yes || Arrived ||http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
 || FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.50 || 2 || Yes || Arrived || http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
+|| 2" plastic 4-40 M-F standoffs (4813K-ND) || Digikey || $.63 || 4 || Yes || Arrived || http://www.digikey.com/product-detail/en/4813/4813K-ND/255350 ||
+|| VARISTOR 250V 72J 14MM CRIMPD LA (F5598CT-ND) || DigiKey || $.62 || 2 || Yes || Arrived || http://www.digikey.com/product-detail/en/V250LT20AP/F5598CT-ND/3307079 ||
+|| FERRITE TUBULAR BEAD 19.05MM (240-2119-ND) || DigiKey || $1.39 || 2 || Yes || Arrived || http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=240-2119-ND&x=15&y=15&cur=USD ||
 || 30A AC Plug L6-30 || Stay Online || $33.00 || 1 || Yes || Arrived || http://www.stayonline.com/detail.aspx?ID=15695 ||
-|| Adafruit RGB LCD Shield kit || Adafruit || $24.95 || 1 || Yes || Shipped || http://adafruit.com/products/714 ||
-|| Waterproof Button (Green) || Adafruit || $5.36 || 1 || Yes || Shipped || http://www.adafruit.com/products/560 ||
-|| Strain Relief || Polycase || $7.00 || 2 || Yes || Shipped || http://www.polycase.com/cg-17 ||
+|| Adafruit RGB LCD Shield kit || Adafruit || $24.95 || 1 || Yes || Arrived || http://adafruit.com/products/714 ||
+|| Waterproof Button (Green) || Adafruit || $5.36 || 1 || Yes || Arrived || http://www.adafruit.com/products/560 ||
+|| Strain Relief || Polycase || $7.00 || 2 || Yes || Arrived || http://www.polycase.com/cg-17 ||
 || Ground Bar Kit || Home Improvement store || $5.00 || 1 || Yes || Arrived || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
 || Connectors || Anderson Power Products || $8.00 || 1 || Yes || Arrived || http://www.powerwerx.com/anderson-powerpoles/housings-contacts/ ||
 || Reserve for shipping and tax || Misc || $20.00 || 1 || ||
