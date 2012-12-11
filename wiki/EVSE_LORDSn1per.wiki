@@ -116,6 +116,25 @@ http://farm9.staticflickr.com/8340/8207136683_43eeff2aa6_c.jpg
 Charging in the dark. I am not a fan of the clear lid so I will work on a way to cover that up.
 http://farm9.staticflickr.com/8062/8208812231_71fdd93a39_c.jpg
 
+Today, December 11th 2011 I got the power point installed to my garage. I wasted no time installing the EVSE
+http://farm9.staticflickr.com/8338/8264423430_e6524d748a_c.jpg
+
+Here is the EVSE installed with the charging cable hanging on the wall. 
+http://farm9.staticflickr.com/8224/8263355397_decbdc8ac3_c.jpg
+
+My first charge at 15 Amps!
+http://farm9.staticflickr.com/8217/8264425474_4a269305c8_c.jpg
+
+Charging my car from my garage using open EVSE. 
+http://farm9.staticflickr.com/8203/8264421872_577ba5537f_c.jpg
+
+Car is just about full. There was 37km left in the battery when I started charging. 
+http://farm9.staticflickr.com/8363/8263353547_ef0351a63b_c.jpg
+
+Here is the EVSE mounted again
+http://farm9.staticflickr.com/8072/8263351845_e88bc69e86_c.jpg
+
+
 = Videos =
 
 First boot up of arduino UNO
