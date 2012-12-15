@@ -56,16 +56,16 @@ Also shown is the OpenEVSE Arduino shield & Ardunio, it has since been replaced 
 
 <a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=014DD906-AF14-47EE-AB1F-5107EF67BE67-2259-00000143634B3BBD.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/014DD906-AF14-47EE-AB1F-5107EF67BE67-2259-00000143634B3BBD.jpg" border="0" alt="75A OpenEVSE powered up &amp;amp; ready, &amp;quot;select&amp;quot; button with green LED as well, Uploaded from the Photobucket iPhone App">
 
-<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-2.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-2.jpg" border="0" alt="Inside case of 75A OpenEVSE, Uploaded from the Photobucket iPhone App">
-
 <a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-4.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-4.jpg" border="0" alt="75A OpenEVSE control circuit fusing - left 2 fuses 2A Slow Blow for 240V contactor coil, right 2 1A fastblow for 12VDC OpenEVSE power supply, bottom 12V relay can be seen controlling the 240V contactor coil, Uploaded from the Photobucket iPhone App">
-
-<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-3.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-3.jpg" border="0" alt="AC input to 75A contactor, temporarily using 10/3 SJO cable until hardwired to 100A circuit breaker, Uploaded from the Photobucket iPhone App">
-
-<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-5.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-5.jpg" border="0" alt="SquareD 8910DPA73 75A 3 pole 240V coil contactor - kerchunck!, Uploaded from the Photobucket iPhone App">
 
 <a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-6.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-6.jpg" border="0" alt="AdaFruit RGB LCD display and &amp;quot;select&amp;quot; button mounted on internal aluminum cover in NEMA enclosure, space for a 2nd LCD display planned out as well - dual J-1772 possible someday, Uploaded from the Photobucket iPhone App">
 
-<a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-7.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-7.jpg" border="0" alt="Arduino (on bottom) &amp;amp; OpenEVSE shield, GFCI coil on the right, 12VDC power supply above, Uploaded from the Photobucket iPhone App">
-
 <a href="http://s461.photobucket.com/albums/qq333/mitch672/OpenEVSE/?action=view&amp;current=null-8.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/OpenEVSE/null-8.jpg" border="0" alt="AdaFruit RGB LCD display &amp;amp; select button, Uploaded from the Photobucket iPhone App">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/?action=view&amp;current=26522D07-655F-4C03-87DE-4E36356468F8-11123-00000408D4734485.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/26522D07-655F-4C03-87DE-4E36356468F8-11123-00000408D4734485.jpg" border="0" alt="Uploaded from the Photobucket iPhone App">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/?action=view&amp;current=F7BB4CC4-33C2-455E-AEC2-BB09AE415DE1-11123-00000408D247C7D5.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/F7BB4CC4-33C2-455E-AEC2-BB09AE415DE1-11123-00000408D247C7D5.jpg" border="0" alt="Uploaded from the Photobucket iPhone App">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/?action=view&amp;current=D268F8E7-441F-464C-8A1B-940ADAA73D62-11123-00000408CD725033.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/D268F8E7-441F-464C-8A1B-940ADAA73D62-11123-00000408CD725033.jpg" border="0" alt="Uploaded from the Photobucket iPhone App">
+
+<a href="http://s461.photobucket.com/albums/qq333/mitch672/?action=view&amp;current=7830E66F-515B-4D3C-B5AE-CE2AA9C3672F-11123-00000408CA92DB83.jpg" target="_blank"><img src="http://i461.photobucket.com/albums/qq333/mitch672/7830E66F-515B-4D3C-B5AE-CE2AA9C3672F-11123-00000408CA92DB83.jpg" border="0" alt="Uploaded from the Photobucket iPhone App">
