@@ -26,6 +26,8 @@
     * [PCBProduction Have your PCB fabricated]
   * *Testing*
     * [EVSE_TESTING Testing your EVSE]
+  * *Support*
+    * [Support Need Help?]
   * *Ordering*
     * [Ordering Order OpenEVSE and kits]
 
