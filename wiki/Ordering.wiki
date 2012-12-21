@@ -9,7 +9,8 @@ The waiting list for Prebuilt boards is currently frozen for October due to back
 
 Prices $USD
 || *Part* || *Kit* || *Assembled and Tested* || Status ||
-|| Coming soon... OpenEVSE Plus || NA || $150 || Coming soon ||
+|| OpenEVSE Plus || $135 || $155 || Next Batch - January ||
+|| RGB LCD backpack || $30 || $40 || Coming in January ||
 || EV Simulator || $15 || N/A || Available ||
 || OpenEVSE Arduino Shield || $45 || N/A || Out of stock || 
 || Shipping US || $5 || || ||
@@ -21,4 +22,8 @@ Prices $USD
 
 = Ordering =
 
-Online Ordering will be avaliable when the waiting list backlog has been eliminated and parts are in stock. 
+OpenEVSE boards are hand built in limited quantities and will be sold in batches of 20 boards per month starting January 2013. A Wiki will be posted a several weeks before the start of a month. Payment via paypal will be due 1 week prior to the start of the month to purchase all the required parts for the batch.
+
+January
+February
+March
