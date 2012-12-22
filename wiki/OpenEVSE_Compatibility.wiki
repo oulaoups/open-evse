@@ -16,7 +16,7 @@ OpenEVSE has been tested with:
 || 1.5 || Tesla || Roadster || with J1772 adapter || 16.8kW - 70A @ 240V || requires mod to R1 for pre-v7 boards ||
 || 2.0 || Tesla || Roadster || with J1772 adapter || 16.8kW - 70A @ 240V || requires mod to R1 for pre-v7 boards ||
 || 2.5 || Tesla || Roadster || with J1772 adapter || 16.8kW - 70A @ 240V || requires mod to R1 for pre-v7 boards ||
-||2012|| Tesla || Model S || with J1772 adapter || 20kw - 80A @ 240V|| None ||
+||2012|| Tesla || Model S || with J1772 adapter || 18kW - 75A @ 240V || None ||
 
 
 If you have tested OpenEVSE on other vehicles please send a compatibility report to chris1howell83@gmail.com...
