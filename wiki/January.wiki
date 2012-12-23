@@ -12,7 +12,7 @@ Payment via paypal to chris1howell83@gmail.com
 || Build Status || Payment Due || Parts orders - In progress || 
 
 || Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
-|| 1 || dvester || || || || ||
+|| 1 || dvester || Built and Tester || EV Simulator || Paid || ||
 || 2 || wilsonlee || || || || ||
 || 3 || goldserve || || || || ||
 || 4 || bconner || || || || ||
@@ -34,5 +34,3 @@ Payment via paypal to chris1howell83@gmail.com
 || 20 || Eric Ruhl  || Built and Tested || || Paid || ||
 || || vcrllc || || || || ||
 || || 2johnbooker || || || || ||
-
-
