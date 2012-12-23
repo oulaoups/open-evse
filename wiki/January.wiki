@@ -28,10 +28,8 @@ Payment via paypal to chris1howell83@gmail.com
 || 16 || vcrllc || Built and Tested || || Paid || ||
 || 17 || Adrianrosc || || || || ||
 || 18 || robot256 || || || || ||
-|| 19 || kao.russell || || || || ||
+|| 19 || kao.russell || Built and Tested || RGB Backpack Kit || || ||
 || 20 || Eric Ruhl  || Built and Tested || || Paid || ||
-
-
 
 
 
