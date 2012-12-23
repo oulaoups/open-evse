@@ -9,29 +9,27 @@ Inital spots were assigned based on comments on the ordering page.
 
 Payment via paypal to chris1howell83@gmail.com 
 
-|| Slot || Name || Status || Payment Recieved || Shipped ||
-|| 1 || dvester || planning || || ||
-|| 2 || wilsonlee || planning || || ||
-|| 3 || goldserve || planning || || ||
-|| 4 || bconner || planning || || ||
-|| 5 || richardfstrange || planning || || ||
-|| 6 || pjtiger35 || planning || || ||
-|| 7 || mrpilotron || planning || || ||
-|| 8 || jallison35 || planning || || ||
-|| 9 || alex.PTSbackup || planning || || ||
-|| 10 || Bloomer57 || planning || || ||
-|| 11 || Bela.pkmix || planning || || ||
-|| 12 || mwyatt1604 || planning || || ||
-|| 13 || steven.cox.ee || planning || || ||
-|| 14 || devincarlisto || planning || || ||
-|| 15 || tomofe || planning || || ||
-|| 16 || Dlrood || planning || || ||
-|| 17 || Adrianrosc || planning || || ||
-|| 18 ||  || planning || || ||
-|| 19 ||  || planning || || ||
-|| 20 ||  || planning || || ||
-
-
+|| Slot || Name || OpenEVSE Plus || Payment Recieved || Shipped ||
+|| 1 || dvester || || || ||
+|| 2 || wilsonlee || || || ||
+|| 3 || goldserve || || || ||
+|| 4 || bconner || || || ||
+|| 5 || richardfstrange || || || ||
+|| 6 || pjtiger35 || || || ||
+|| 7 || mrpilotron || || || ||
+|| 8 || jallison35 || || || ||
+|| 9 || alex.PTSbackup || || || ||
+|| 10 || Bloomer57 || || || ||
+|| 11 || bela.okmyx || Built and tested || Paid || ||
+|| 12 || mwyatt1604 || || || ||
+|| 13 || steven.cox.ee || || || ||
+|| 14 || devincarlisto || || || ||
+|| 15 || tomofe || || || ||
+|| 16 || Dlrood || || || ||
+|| 17 || Adrianrosc || || || ||
+|| 18 || robot256 || || || ||
+|| 19 || kao.russell || || || ||
+|| 20 || Eric Ruhl  || Built and Tested || Paid || ||
 
 
 
