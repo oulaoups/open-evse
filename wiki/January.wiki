@@ -5,9 +5,11 @@
 This is to reserve a spot in the January batch of boards.
 Boards are built by hand at an average rate of 5 boards per week.
 
-Inital spots were assigned based on comments on the ordering page.
+Inital spots assigned based on comments on the ordering page. 
 
 Payment via paypal to chris1howell83@gmail.com 
+
+|| Build Status || Payment Due || Parts orders - In progress || 
 
 || Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
 || 1 || dvester || || || || ||
@@ -30,7 +32,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 18 || robot256 || || || || ||
 || 19 || kao.russell || Built and Tested || RGB Backpack Kit || || ||
 || 20 || Eric Ruhl  || Built and Tested || || Paid || ||
-
-
+|| || vcrllc || || || || ||
+|| || 2johnbooker || || || || ||
 
 
