@@ -3,7 +3,7 @@
 
 || || OpenEVSE Plus || Arduino Shield || Through Hole ||
 || Picture ||http://farm8.staticflickr.com/7247/8169379635_84f577e1f3_n.jpg||http://farm7.staticflickr.com/6222/7003031805_747830f4b7_n.jpg||http://farm9.staticflickr.com/8453/8041888276_24c025f0b7.jpg||
-|| || Prebuilt only || Kit || DIY files only ||
+|| || Prebuilt only || Kit || DIY - Files only ||
 || Current HW version || OpenEVSE Plus || OpenEVSE shield v1 || DIY EVSE v4 || 
 || Firmware || pre-loaded || Requires Arduino UNO || ||
 || Power Supply || Integrated 4W || External || External || 
@@ -15,6 +15,6 @@
 || Programmer || ISP or FTDI || ISP or USB/FTDI || ISP or FTDI ||
 || Serial ||  FTDI || USB/FTDI || FTDI || 
 || Suited for || Most EVSEs || Hardware/Software Development || Hardcore DIYers ||
-|| Price || $150 || $45 plus Arduino Uno (~$30) || Board $14 + components $60 ||
+|| Price || $135-155 || $45 plus Arduino Uno (~$30) || Board $14 + components $60 ||
 
 How to use the OpenEVSE board to make a [ExampleEVSE basic EVSE].
