@@ -9,29 +9,27 @@ Inital spots were assigned based on comments on the ordering page.
 
 Payment via paypal to chris1howell83@gmail.com 
 
-|| Slot || Name || OpenEVSE Plus || Payment Recieved || Shipped ||
-|| 1 || dvester || || || ||
-|| 2 || wilsonlee || || || ||
-|| 3 || goldserve || || || ||
-|| 4 || bconner || || || ||
-|| 5 || richardfstrange || || || ||
-|| 6 || pjtiger35 || || || ||
-|| 7 || mrpilotron || || || ||
-|| 8 || jallison35 || || || ||
-|| 9 || alex.PTSbackup || || || ||
-|| 10 || Bloomer57 || || || ||
-|| 11 || bela.okmyx || Built and tested || Paid || ||
-|| 12 || mwyatt1604 || || || ||
-|| 13 || steven.cox.ee || || || ||
-|| 14 || devincarlisto || || || ||
-|| 15 || tomofe || || || ||
-|| 16 || Dlrood || || || ||
-|| 17 || Adrianrosc || || || ||
-|| 18 || robot256 || || || ||
-|| 19 || kao.russell || || || ||
-|| 20 || Eric Ruhl  || Built and Tested || Paid || ||
-
-
+|| Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
+|| 1 || dvester || || || || ||
+|| 2 || wilsonlee || || || || ||
+|| 3 || goldserve || || || || ||
+|| 4 || bconner || || || || ||
+|| 5 || richardfstrange || || || || ||
+|| 6 || pjtiger35 || || || || ||
+|| 7 || mrpilotron || || || || ||
+|| 8 || jallison35 || || || || ||
+|| 9 || alex.PTSbackup || || || || ||
+|| 10 || Bloomer57 || || || || ||
+|| 11 || bela.okmyx || Built and tested || || Paid || ||
+|| 12 || mwyatt1604 || || || || ||
+|| 13 || steven.cox.ee || || || || ||
+|| 14 || devincarlisto || || || || ||
+|| 15 || tomofe || || || || ||
+|| 16 || vcrllc || Built and Tested || || Paid || ||
+|| 17 || Adrianrosc || || || || ||
+|| 18 || robot256 || || || || ||
+|| 19 || kao.russell || || || || ||
+|| 20 || Eric Ruhl  || Built and Tested || || Paid || ||
 
 
 
