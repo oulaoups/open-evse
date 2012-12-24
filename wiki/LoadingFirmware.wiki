@@ -11,7 +11,8 @@ http://www.adafruit.com/products/46
 You will also need software compatible with your ISP such as Avrdude or the Arduino IDE. 
 
 == Arduino IDE ==
-If you wish to modify the source code than the Arduino IDE is a good choice. It includes an code editor, serial monitor, and will compile and upload your code to the Open EVSE
+If you wish to modify the source code than the Arduino IDE is a good choice. It includes an code editor, serial monitor, and will compile and upload your code to the Open EVSE.
+http://arduino.cc/en/Main/Software
 
 To set up the Arduino IDE for use with an ISP check out lincomatic's blog. http://blog.lincomatic.com/?p=10
 
