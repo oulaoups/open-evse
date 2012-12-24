@@ -16,7 +16,8 @@
     * [J1772Basics Basics of J1772]
     * [J1772CableSources Sources for J1772 cables]
   * *How to...*
-    * [LoadingFirmware Load Firmware]
+    * [LoadingFirmware Load Firmware with Arduino IDE]
+    * [AVRDUDE Load Firmware with AVRDude]
     * [AdaFruitRGBdisplay Add a display]
     * [MaxCurrent Set Default Current]
   * *Do it Yourself*
