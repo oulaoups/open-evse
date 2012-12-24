@@ -108,12 +108,7 @@ Some features if enabled will also require a library, a good example is the Adaf
 #endif // I2CLCD
 }}}
 
-The Adafruit RGB LCD libraries Adafruit_MCP23017.h and Adafruit_RGBLCDShield.h can be found here 
-
-http://ladyada.net/make/rgblcdshield/use.html
-
-
-The Adafruit i2c backpack library LiquidTWI2.h can be found here: 
+The Adafruit RGB or i2c backpack LCD library LiquidTWI2.h can be found here: 
 
 https://github.com/lincomatic/LiquidTWI2/downloads 
 
