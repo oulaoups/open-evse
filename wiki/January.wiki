@@ -5,7 +5,7 @@
 This is to reserve a spot in the January batch of boards.
 Boards are built by hand at an average rate of 5 boards per week.
 
-Inital spots assigned based on comments on the ordering page. 
+Inital spots assigned based on comments on the ordering page. Boards will ship in order, as boards ship unpaid orders will be skipped until paid.
 
 Payment via paypal to chris1howell83@gmail.com 
 
@@ -34,3 +34,4 @@ Payment via paypal to chris1howell83@gmail.com
 || 20 || Eric Ruhl  || Built and Tested || || Paid || ||
 || || vcrllc || || || || ||
 || || 2johnbooker || || || || ||
+|| || Sven.Leser || || || || ||
