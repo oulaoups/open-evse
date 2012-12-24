@@ -7,6 +7,11 @@ http://www.adafruit.com/products/46
 
 <img src="http://farm2.static.flickr.com/1388/531946274_b6aec192ba.jpg" />
 
+= Firmware =
+The latest firmware is located on a Github maintained by lincomatic. 
+https://github.com/lincomatic/open_evse 
+
+
 = Software =
 You will also need software compatible with your ISP such as Avrdude or the Arduino IDE. 
 
