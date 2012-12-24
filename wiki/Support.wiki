@@ -1,16 +1,16 @@
 #summary Where to go to get help.
 
 = Introduction =
+OpenEVSE is a community developed project and is also supported by the community. There are a lot of resources available and lots of people ready to lend a helping hand or provide advice.
 
-OpenEVSE is a community devoloped project and is also supported by the community. There are a lot of resources avaliable and lots of people ready to lend a helping hand or provid advice.
+Please use the available resources below before contacting members directly. You will likely get a must faster response from the community.
 
-Please use the avaliable resources below before contacting members directly. You will likely get a must faster responce from the community.
 
 =Wiki=
-This Wiki provides a lot of usefull information. If something is not clear try asking your question on the OpenEVSE Group. When you get the answer please volinteer to clearify the Wiki for the next builder. Editing Wikis is very easy.
+This Wiki provides a lot of useful information. If something is not clear try asking your question on the OpenEVSE Group. When you get the answer please volunteer to clarify the Wiki for the next builder. Editing Wikis is very easy..
 
 = OpenEVSE Group =
-The OpenEVSE group is a great resource to ask questions. It is monotored by all the major contributors of the project and many builders.
+The OpenEVSE group is a great resource to ask questions. It is monitored by all the major contributors of the project and many builders.
 
 https://groups.google.com/forum/?fromgroups#!forum/openevse
 
