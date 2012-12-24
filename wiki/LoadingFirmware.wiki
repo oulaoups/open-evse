@@ -108,9 +108,9 @@ The Adafruit RGB LCD libraries Adafruit_MCP23017.h and Adafruit_RGBLCDShield.h c
 http://ladyada.net/make/rgblcdshield/use.html
 
 
-The Adafruit i2c backpack library LiquidTWI.h can be found here: 
+The Adafruit i2c backpack library LiquidTWI2.h can be found here: 
 
-http://forums.adafruit.com/viewtopic.php?f=19&t=21586&p=113177
+https://github.com/lincomatic/LiquidTWI2/downloads 
 
 == AVRDude ==
 If you want a quick and way to upload unmodified code install AVRDude and download the pre-compiled hex file in the downloads section.
