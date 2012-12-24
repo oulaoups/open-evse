@@ -5,7 +5,8 @@ The OpenEVSE Plus board contains a J1772 compliant controller board as well as a
 
 http://farm9.staticflickr.com/8202/8213353962_08818e80b6.jpg
 
-OpenEVSE Plus Kit
+*OpenEVSE Plus Kit*
+
 http://farm9.staticflickr.com/8498/8302318202_6206087755_z.jpg
 
 http://farm8.staticflickr.com/7279/8169421274_5f5198b3f2_n.jpg http://farm8.staticflickr.com/7247/8169379635_84f577e1f3_n.jpg
