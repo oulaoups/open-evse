@@ -37,3 +37,4 @@ Payment via paypal to chris1howell83@gmail.com
 || || Sven.Leser || || || || ||
 || || ClintonEFisher || || || || ||
 || || barryorlando ||Kit || RGB kit - EV sim || || ||
+|| || serge.bierhuizen || Built and tested || RGB built - EV Sim || Paid || ||
