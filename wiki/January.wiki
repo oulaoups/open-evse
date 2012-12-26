@@ -15,12 +15,12 @@ Payment via paypal to chris1howell83@gmail.com
 || Order parts || In Progress ||
 || Build - SMT || ||
 || Load Firmware || ||
-|| Package OpenEVSE Plus Kits || ||
-|| Ship OpenEVSE Plus Kits || ||
+|| Package OpenEVSE Plus "Kit" || ||
+|| Ship OpenEVSE Plus "Kit" || ||
 || Build - Through hole parts || ||
-|| Test || ||
-|| Package || ||
-|| Ship OpenEVSE "Built and Tested" || ||
+|| Test OpenEVSE "Built and Tested"|| ||
+|| Package OpenEVSE "Built and Tested" || ||
+|| Ship OpenEVSE "Built and Tested"|| ||
 
 || Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
 || 1 || dvester || Built and Tester || EV Simulator || Paid || ||
