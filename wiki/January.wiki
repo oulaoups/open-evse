@@ -15,7 +15,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 1 || dvester || Built and Tester || EV Simulator || Paid || ||
 || 2 || wilsonlee || || || || ||
 || 3 || goldserve || || || || ||
-|| 4 || bconner || || || || ||
+|| 4 || bconner || Built and Tested || RGB built - EV Sim || || ||
 || 5 || richardfstrange || || || || ||
 || 6 || pjtiger35 || || || || ||
 || 7 || mrpilotron || || || || ||
