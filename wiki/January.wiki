@@ -33,7 +33,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 8 || jallison1 || || || || ||
 || 9 || alex.PTSbackup || || || || ||
 || 10 || Bloomer57 || || || || ||
-|| 11 || bela.okmyx || Built and tested || || Paid || ||
+|| 11 || bela.okmyx || Built and tested || RGB LCD built || Paid || ||
 || 12 || mwyatt1604 || || || || ||
 || 13 || steven.cox.ee || || || || ||
 || 14 || devincarlisto || || || || ||
