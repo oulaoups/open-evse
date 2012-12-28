@@ -44,9 +44,9 @@ Payment via paypal to chris1howell83@gmail.com
 || 19 || kao.russell || Built and Tested || RGB Kit || Paid || ||
 || 20 || Eric Ruhl  || Built and Tested || || Paid || ||
 || || vcrllc || || || || ||
-|| || 2johnbooker || || || || ||
+|| || 2johnbooker || Built and Tested || || Paid || ||
 || || Sven.Leser || || || || ||
-|| || ClintonEFisher || Kit || || || ||
+|| || ClintonEFisher || Kit || EV Sim || Paid || ||
 || || barryorlando ||Kit || RGB kit - EV sim || Paid || ||
 || || serge.bierhuizen || Built and tested || RGB built - EV Sim || Paid || ||
 || || rmbertjones || || || || ||
