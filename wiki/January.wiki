@@ -29,7 +29,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 4 || bconner || Built and Tested || RGB built - EV Sim || Paid || ||
 || 5 || richardfstrange || || || || ||
 || 6 || pjtiger35 || || || || ||
-|| 7 || mrpilotron || Kit * || RGB LCD kit || Paid || ||
+|| 7 || mrpilotron || Kit ~ || RGB LCD kit || Paid || ||
 || 8 || jallison1 || || || || ||
 || 9 || alex.PTSbackup || || || || ||
 || 10 || Bloomer57 || || || || ||
