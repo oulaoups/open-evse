@@ -37,8 +37,7 @@ If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 2
 || FUSE BLOCK 3AG 1POS SOLDER (F1497-ND)           || Digikey   ||  $1.13||2f|| http://www.digikey.com/product-detail/en/03540001ZXGY/F1497-ND/553961 ||
 || FUSE 250V SLO-BLO 3AB 30A (F1779-ND)            || Digikey   ||  $1.68||2f|| http://www.digikey.com/product-detail/en/0326030.MXP/F1779-ND/778640    ||
 || CIR BRKR THRM 30A PUSH-RESET (302-1268-ND)      || Digikey   ||  $5.37||2f|| http://www.digikey.com/product-detail/en/1658-G21-01-P10-30A/302-1268-ND/659615 ''Replaces Fuses'' ||
-|| CONN TERMINAL STRIP 4CIRC 10MM (WM15910-ND) 10-18WG||Digikey ||  $1.77||2c || http://www.digikey.com/product-detail/en/39100-1004/WM15910-ND/809417 ||
-|| CONN TERMINAL STRIP 4CIRC 12MM (WM7725-ND) 8-20AWG||Digikey  ||  $1.94||2c || http://www.digikey.com/product-detail/en/39100-1204/WM7725-ND/1280576 ||
+|| CONN TERMINAL STRIP 4CIRC 12MM (WM7725-ND) 8-20AWG||Digikey  ||  $1.94||2  || http://www.digikey.com/product-detail/en/39100-1204/WM7725-ND/1280576 ||
 || STANDOFF M/F HEX 4-40 NYL .250"L (4800K-ND)     || Digikey   || $0.397||8(10) || http://www.digikey.com/product-detail/en/4800/4800K-ND/255337 ||
 || STANDOFF M/F HEX 4-40 NYL .500"L (4802K-ND)     || Digikey   || $0.442||0 || http://www.digikey.com/product-detail/en/4802/4802K-ND/255339 ||
 || STANDOFF M/F HEX 4-40 NYL 1.00"L (4806-ND)      || Digikey   || $0.476||0 || http://www.digikey.com/product-detail/en/4806/4806K-ND/255343 ||
@@ -53,3 +52,8 @@ If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 2
 || Crimp Connectors/PCB connectors                 || various    ||~$10.00||1||  ||
 || Hardware (nuts & bolts)                         || various    || ~$5.00||1||  ||
 || USBtinyISP AVR Programmer Kit-USB SpokePOV Dongle || AdaFruit || $22.00||?|| http://www.adafruit.com/products/46 ''(Optional)'' ||
+
+Items with letters in the quantity field have multiple options:
+   * e = Various enclosures.
+   * f = Various fuse/breaker options
+   * d = Only needed if adding a display
