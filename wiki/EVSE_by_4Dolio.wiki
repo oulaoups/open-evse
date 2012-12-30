@@ -1,0 +1,24 @@
+#summary A portable EVSE built with an Open EVSE board.
+
+= Introcuction =
+This is an example of a 30A Portable EVSE built with the Open EVSE GFCI board, and Advanced power supply. 
+
+This should not be attempted by anyone without the required skills and knowledge to work with high voltage.
+
+Open EVSE is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+= High Voltage Schematic =
+
+http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
+
+= EVSE Ground =
+
+NOTE: The Open EVSE control Board must be grounded to the EV/Earth Ground for the pilot to operate correctly. 
+
+= Circuit =
+
+If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 24A. 
+
+= Parts =
