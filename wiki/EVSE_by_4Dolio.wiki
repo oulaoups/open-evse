@@ -22,3 +22,34 @@ NOTE: The Open EVSE control Board must be grounded to the EV/Earth Ground for th
 If using the L6-30 30A cable/outlet/breaker set the EVSE board to a maximum of 24A. 
 
 = Parts =
+|| Part || Source || Cost || Quantity || Link ||
+|| Open EVSE Plus Board w/ integrated power supply || Open EVSE ||$150.00||1|| http://code.google.com/p/open-evse/wiki/Ordering ||
+|| J-1772 cable, 30 amps (A3435-PEV)               || Leviton   ||$133.98||1|| http://store.leviton.com/b/5742800011 +$12.19 shipping ||
+|| 30A AC Plug L6-30                               ||Stay Online|| $33.00||1|| http://www.stayonline.com/detail.aspx?ID=15695 ''Good for the plug and an adapter cable'' ||
+|| RELAY GEN PURPOSE DPST 30A 12V (PB486-ND)       || Digikey   || $13.03||1|| http://www.digikey.com/product-detail/en/T92P7D22-12/PB486-ND/365921 ||
+|| TRANSFORMER GROUND FAULT WIRE LD (582-1018-ND)  || Digikey   || $10.65||1|| http://www.digikey.com/product-detail/en/CR8420-1000-G/582-1018-ND/1045174 ||
+|| BOX NEMA ECONOMY 5.9X5.9X3.54 (377-1787-ND)     || Digikey   || $20.62||1e|| http://www.digikey.com/product-detail/en/NBF-32210/377-1787-ND/2328559 ||
+|| PANEL INTERNAL 4.9" X 4.9" (377-1939-ND)        || Digikey   ||  $4.80||1e|| http://www.digikey.com/product-detail/en/NBX-10984/377-1939-ND/439528 ||
+|| BOX ABS 7.62X4.47X2.47" TR BL (HM1056-ND)       || Digikey   ||  $9.35||1e|| http://www.digikey.com/product-detail/en/1591XXETBU/HM1056-ND/2094794 ''Alternate Enclosure'' [http://www.digikey.com/product-detail/en/1591XXDTBU/HM1055-ND/2094793 6.0x3.3x2.0 $7.23] [http://www.digikey.com/product-detail/en/1591XXCTBU/HM1053-ND/2094791 4.8x2.6x1.6 $5.40] ||
+|| 2" plastic 4-40 M-F standoffs (4813K-ND)        || Digikey   ||  $0.63||8|| http://www.digikey.com/product-detail/en/4813/4813K-ND/255350 [http://www.digikey.com/product-detail/en/4800/4800K-ND/255337 7/16"] ||
+|| Terminal Blocks - Barrier Blocks                || Digikey   || ~$5.00||2|| '''[http://www.digikey.com/product-detail/en/39100-1004/WM15910-ND/809417 euro 4x 30A 10-18AWG $1.77]''' [http://www.digikey.com/product-detail/en/0391001104/WM5050-ND/2709057 euro 4x 30A 10-18AWG $1.49] [http://www.digikey.com/product-detail/en/0391001003/WM15908-ND/894440 euro 3x 30A 10-18AWG $1.31] <s>[http://www.digikey.com/product-detail/en/38280-0105/WM5818-ND/362427 Barrier Block 5x 50A 6AWG $12.85]</s> ||
+|| FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND)  || Digikey   ||  $3.69||2f|| http://www.digikey.com/product-detail/en/BK%2FHKP-R/283-2850-ND/1024094 ||
+|| FUSE BLOCK 3AG 1POS SOLDER (F1497-ND)           || Digikey   ||  $1.13||2f|| http://www.digikey.com/product-detail/en/03540001ZXGY/F1497-ND/553961 ||
+|| FUSE 250V SLO-BLO 3AB 30A (F1779-ND)            || Digikey   ||  $1.68||2f|| http://www.digikey.com/product-detail/en/0326030.MXP/F1779-ND/778640    ||
+|| CIR BRKR THRM 30A PUSH-RESET (302-1268-ND)      || Digikey   ||  $5.37||2f|| http://www.digikey.com/product-detail/en/1658-G21-01-P10-30A/302-1268-ND/659615 ''Replaces Fuses'' ||
+|| CONN TERMINAL STRIP 4CIRC 10MM (WM15910-ND) 10-18WG||Digikey ||  $1.77||2c || http://www.digikey.com/product-detail/en/39100-1004/WM15910-ND/809417 ||
+|| CONN TERMINAL STRIP 4CIRC 12MM (WM7725-ND) 8-20AWG||Digikey  ||  $1.94||2c || http://www.digikey.com/product-detail/en/39100-1204/WM7725-ND/1280576 ||
+|| STANDOFF M/F HEX 4-40 NYL .250"L (4800K-ND)     || Digikey   || $0.397||8(10) || http://www.digikey.com/product-detail/en/4800/4800K-ND/255337 ||
+|| STANDOFF M/F HEX 4-40 NYL .500"L (4802K-ND)     || Digikey   || $0.442||0 || http://www.digikey.com/product-detail/en/4802/4802K-ND/255339 ||
+|| STANDOFF M/F HEX 4-40 NYL 1.00"L (4806-ND)      || Digikey   || $0.476||0 || http://www.digikey.com/product-detail/en/4806/4806K-ND/255343 ||
+|| STANDOFF M/F HEX 4-40 NYL 2.00"L (4813K-ND)     || Digikey   || $0.528||4(10) || http://www.digikey.com/product-detail/en/4813/4813K-ND/255350 ||
+|| HEX NUT 1/4" 4-40 100/PK (H216-ND)              || Digikey   ||$0.0149||100|| http://www.digikey.com/product-detail/en/HNZ%20440/H216-ND/5738 ||
+|| MACHINE SCREW PAN PHILLIPS 4-40 (H542-ND)       || Digikey   ||$0.0886||100|| http://www.digikey.com/scripts/dksearch/dksus.dll?keywords=NY+PMS+440+0025+PH ||
+|| AdaFruit RGB LCD Shield kit                     || AdaFruit  || $24.95||1d|| http://adafruit.com/products/714 or http://adafruit.com/products/716 ||
+|| Premium Female/Female Jumper Wires - 40 x 6"    || AdaFruit  ||  $6.95||1d|| https://www.adafruit.com/products/266 ''(Handy if adding a display)'' ||
+|| Liquid Tight Strain Relief                      || Alliedelec||  $3.20||2|| '''[http://www.alliedelec.com/search/productdetail.aspx?SKU=70075265 11-21 mm]''' or [http://www.alliedelec.com/search/productdetail.aspx?SKU=70075264 14-25 mm] or [http://www.alliedelec.com/search/productdetail.aspx?SKU=70074437 14-25 mm black] ||
+|| Nut for Strain Reliev                           || Alliedelec||  $0.68||2|| [http://www.alliedelec.com/search/productdetail.aspx?SKU=70075291 PG-29 Nut Grey] or [http://www.alliedelec.com/search/productdetail.aspx?SKU=70074451 PG-29 Nut Black] ||
+|| Shipping costs DigiKey, AdaFruit, StayOnline    ||            ||~$25.00||1||  ||
+|| Crimp Connectors/PCB connectors                 || various    ||~$10.00||1||  ||
+|| Hardware (nuts & bolts)                         || various    || ~$5.00||1||  ||
+|| USBtinyISP AVR Programmer Kit-USB SpokePOV Dongle || AdaFruit || $22.00||?|| http://www.adafruit.com/products/46 ''(Optional)'' ||
