@@ -57,3 +57,142 @@ Items with letters in the quantity field have multiple options:
    * e = Various enclosures.
    * f = Various fuse/breaker options
    * d = Only needed if adding a display
+
+<table class="gallery" cellspacing="0" cellpadding="0" border="1">
+	<tr>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_003836.jpg" title="Image:20121220 003836.jpg"><img src="http://www.seattleeva.org/images/thumb/2/2b/20121220_003836.jpg/120px-20121220_003836.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>Components mounted to internal enclosure plate.
+</p>
+			</div>
+		</div></td>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_005325.jpg" title="Image:20121220 005325.jpg"><img src="http://www.seattleeva.org/images/thumb/b/b2/20121220_005325.jpg/120px-20121220_005325.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>AC Line and AC Test wires soldered to relay
+</p>
+			</div>
+		</div></td>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_005351.jpg" title="Image:20121220 005351.jpg"><img src="http://www.seattleeva.org/images/thumb/0/0d/20121220_005351.jpg/120px-20121220_005351.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>Leads to be soldered on to ground fault coil.
+</p>
+			</div>
+		</div></td>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_013649.jpg" title="Image:20121220 013649.jpg"><img src="http://www.seattleeva.org/images/thumb/9/9a/20121220_013649.jpg/120px-20121220_013649.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>Internal AC connected to terminal blocks.
+</p>
+			</div>
+		</div></td>
+	</tr>
+	<tr>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_013540.jpg" title="Image:20121220 013540.jpg"><img src="http://www.seattleeva.org/images/thumb/2/22/20121220_013540.jpg/120px-20121220_013540.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>Mock up of Open-EVSE board connections.
+</p>
+			</div>
+		</div></td>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_073516.jpg" title="Image:20121220 073516.jpg"><img src="http://www.seattleeva.org/images/thumb/b/b4/20121220_073516.jpg/120px-20121220_073516.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>Internal Plate mounted inside enclosure.
+</p>
+			</div>
+		</div></td>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_074444.jpg" title="Image:20121220 074444.jpg"><img src="http://www.seattleeva.org/images/thumb/0/06/20121220_074444.jpg/120px-20121220_074444.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>Open-EVSE mounted and wired.
+</p>
+			</div>
+		</div></td>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_084752.jpg" title="Image:20121220 084752.jpg"><img src="http://www.seattleeva.org/images/thumb/4/4f/20121220_084752.jpg/120px-20121220_084752.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>Created crimp connectors for use with terminal block.
+</p>
+			</div>
+		</div></td>
+	</tr>
+	<tr>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_090424.jpg" title="Image:20121220 090424.jpg"><img src="http://www.seattleeva.org/images/thumb/5/5b/20121220_090424.jpg/120px-20121220_090424.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>Crimps attached to the J1772 cable for easy installation and removal.
+</p>
+			</div>
+		</div></td>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_092011.jpg" title="Image:20121220 092011.jpg"><img src="http://www.seattleeva.org/images/thumb/0/0e/20121220_092011.jpg/120px-20121220_092011.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>AC input and J1772 output cabled attached.
+</p>
+			</div>
+		</div></td>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_093918.jpg" title="Image:20121220 093918.jpg"><img src="http://www.seattleeva.org/images/thumb/0/08/20121220_093918.jpg/120px-20121220_093918.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>View of stand offs attached to LCD Display
+</p>
+			</div>
+		</div></td>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_093931.jpg" title="Image:20121220 093931.jpg"><img src="http://www.seattleeva.org/images/thumb/1/12/20121220_093931.jpg/120px-20121220_093931.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>LCD Display is attached to a piece of scrap plastic.
+</p>
+			</div>
+		</div></td>
+	</tr>
+	<tr>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_094007.jpg" title="Image:20121220 094007.jpg"><img src="http://www.seattleeva.org/images/thumb/5/5d/20121220_094007.jpg/120px-20121220_094007.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>Closeup of LCD Display standoffs.
+</p>
+			</div>
+		</div></td>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_094353.jpg" title="Image:20121220 094353.jpg"><img src="http://www.seattleeva.org/images/thumb/5/59/20121220_094353.jpg/120px-20121220_094353.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>LCD Display attached to long standoffs and connected to Open-EVSE.
+</p>
+			</div>
+		</div></td>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_094421.jpg" title="Image:20121220 094421.jpg"><img src="http://www.seattleeva.org/images/thumb/9/92/20121220_094421.jpg/120px-20121220_094421.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>L6-30 Extension cable converted into adapter cable and plug for EVSE.
+</p>
+			</div>
+		</div></td>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121220_094550.jpg" title="Image:20121220 094550.jpg"><img src="http://www.seattleeva.org/images/thumb/1/16/20121220_094550.jpg/120px-20121220_094550.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>Powered up and working!!
+</p>
+			</div>
+		</div></td>
+	</tr>
+	<tr>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 13px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121222_034723.jpg" title="Image:20121222 034723.jpg"><img src="http://www.seattleeva.org/images/thumb/b/b3/20121222_034723.jpg/90px-20121222_034723.jpg" width="90" height="120" alt="" /></a></div>
+			<div class="gallerytext">
+<p>220vac 50A plug, plus 220vac L6-30A, plus Xphase 110vac and Yphase 110vac.
+</p>
+			</div>
+		</div></td>
+		<td><div class="gallerybox" style="width: 150px;">
+			<div class="thumb" style="padding: 28px 0; width: 150px;"><a href="http://www.seattleeva.org/wiki/Image:20121222_035812.jpg" title="Image:20121222 035812.jpg"><img src="http://www.seattleeva.org/images/thumb/c/c1/20121222_035812.jpg/120px-20121222_035812.jpg" width="120" height="90" alt="" /></a></div>
+			<div class="gallerytext">
+<p>Creating a face plate for the 2 gang 110vac 20A + L6-30A outlets.
+</p>
+			</div>
+		</div></td>
+	</tr>
+</table>
