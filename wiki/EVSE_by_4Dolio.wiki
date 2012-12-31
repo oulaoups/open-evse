@@ -58,6 +58,7 @@ Items with letters in the quantity field have multiple options:
    * f = Various fuse/breaker options
    * d = Only needed if adding a display
 
+= Build Photos =
 <table class="gallery" cellspacing="0" cellpadding="0" border="1">
 	<tr>
 		<td><div class="gallerybox" style="width: 150px;">
