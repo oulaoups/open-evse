@@ -25,25 +25,24 @@ Payment via paypal to chris1howell83@gmail.com
 || Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
 || 1 || dvester || Built and Tester || EV Simulator || Paid || ||
 || 2 || wilsonlee || || || || ||
-|| 3 || goldserve || || || || ||
-|| 4 || bconner || Built and Tested || RGB built - EV Sim || Paid || ||
-|| 5 || richardfstrange || || || || ||
-|| 6 || pjtiger35 || || || || ||
-|| 7 || mrpilotron || Kit ~ || RGB LCD kit || Paid || ||
-|| 8 || jallison1 || || || || ||
-|| 9 || alex.PTSbackup || || || || ||
-|| 10 || Bloomer57 || || || || ||
-|| 11 || bela.okmyx || Built and tested || RGB LCD built || Paid || ||
-|| 12 || mwyatt1604 || || || || ||
-|| 13 || steven.cox.ee || Kit || RGB kit || Paid || ||
-|| 14 || devincarlisto || || || || ||
-|| 15 || tomofe || || || || ||
-|| 16 || vcrllc || Built and Tested || || Paid || ||
-|| 17 || Adrianrosc || || || || ||
-|| 18 || robot256 || || || || ||
-|| 19 || kao.russell || Built and Tested || RGB Kit || Paid || ||
-|| 20 || Eric Ruhl  || Built and Tested || || Paid || ||
-|| || vcrllc || || || || ||
+|| 3 || bconner || Built and Tested || RGB built - EV Sim || Paid || ||
+|| 4 || richardfstrange || || || || ||
+|| 5 || pjtiger35 || || || || ||
+|| 6 || mrpilotron || Kit ~ || RGB LCD kit || Paid || ||
+|| 7 || jallison1 || || || || ||
+|| 8 || alex.PTSbackup || || || || ||
+|| 9 || Bloomer57 || || || || ||
+|| 10 || bela.okmyx || Built and tested || RGB LCD built || Paid || ||
+|| 11 || mwyatt1604 || || || || ||
+|| 12 || steven.cox.ee || Kit || RGB kit || Paid || ||
+|| 13 || devincarlisto || Built and Tested || RGB LCD built - EV Sim kit || Paid || ||
+|| 14 || tomofe || || || || ||
+|| 15 || vcrllc || Built and Tested || || Paid || ||
+|| 16 || Adrianrosc || || || || ||
+|| 17 || robot256 || || || || ||
+|| 18 || kao.russell || Built and Tested || RGB Kit || Paid || ||
+|| 19 || Eric Ruhl  || Built and Tested || || Paid || ||
+|| 20 || vcrllc || || || || ||
 || || 2johnbooker || Built and Tested || || Paid || ||
 || || Sven.Leser || || || || ||
 || || ClintonEFisher || Kit || EV Sim || Paid || ||
