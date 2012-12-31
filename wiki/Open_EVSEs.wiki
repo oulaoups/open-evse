@@ -80,3 +80,11 @@ http://farm9.staticflickr.com/8203/8264421872_577ba5537f_c.jpg
 http://farm9.staticflickr.com/8363/8263353547_ef0351a63b_c.jpg
 
 http://farm9.staticflickr.com/8072/8263351845_e88bc69e86_c.jpg
+
+= 4Dolio's First Open-EVSE for Leaf & Plug-in-Prius =
+   * Enclosure #1, Development enclosure Built December 2012
+   * Future Development Plans: Add Voltage & Current Measurement.
+   * Future Enclosure #2: Narrow transparent blue enclosure.
+   * Future Enclosure #3: Tiny sealed unit without a Display.
+http://www.seattleeva.org/images/thumb/1/16/20121220_094550.jpg/800px-20121220_094550.jpg
+http://www.seattleeva.org/images/thumb/0/0e/20121220_092011.jpg/800px-20121220_092011.jpg
