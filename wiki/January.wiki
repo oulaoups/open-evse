@@ -54,3 +54,4 @@ Payment via paypal to chris1howell83@gmail.com
 || || flbas1 || Built and tested || RGB LCD || || ||
 || || VintageAirLLC || Built and tested || || || ||
 || || cjswan ||	Kit || || Paid || || 
+|| || maboutte || Kit || RGB LCD kit || Paid || ||
