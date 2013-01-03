@@ -39,7 +39,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 14 || tomofe || || || || ||
 || 15 || vcrllc || Built and Tested || || Paid || ||
 || 16 || Adrianrosc || || || || ||
-|| 17 || robot256 || || || || ||
+|| 17 || robot256 || Kit || Kit || Paid || ||
 || 18 || kao.russell || Built and Tested || RGB Kit || Paid || ||
 || 19 || Eric Ruhl  || Built and Tested || || Paid || ||
 || 20 || vcrllc || || || || ||
