@@ -51,7 +51,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || serge.bierhuizen || Built and tested || RGB built - EV Sim || Paid || ||
 || || rmbertjones || || || || ||
 || || Krull.Justin ||Kit || RGB kit - EV sim kit || Paid || ||
-|| || michaelma8888 || Built and tested || RGB LCD || || ||
+|| || michaelma8888 || Built and tested || RGB LCD || Paid || ||
 || || flbas1 || Built and tested || RGB LCD || || ||
 || || VintageAirLLC || Built and tested || || || ||
 || || cjswan ||	Kit || || Paid || || 
