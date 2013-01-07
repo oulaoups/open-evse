@@ -24,7 +24,7 @@ Payment via paypal to chris1howell83@gmail.com
 
 || Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
 || 1 || dvester || Built and Tester || EV Simulator || Paid || ||
-|| 2 || wilsonlee || || || || ||
+|| 2 || wilsonlee || Built and tested || || Paid || ||
 || 3 || bconner || Built and Tested || RGB built - EV Sim || Paid || ||
 || 4 || richardfstrange || || || || ||
 || 5 || pjtiger35 || || || || ||
