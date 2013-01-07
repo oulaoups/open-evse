@@ -30,7 +30,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 5 || pjtiger35 || || || || ||
 || 6 || mrpilotron ~ || Kit || RGB LCD kit || Paid || ||
 || 7 || jallison1 || || || || ||
-|| 8 || alex.PTSbackup || || || || ||
+|| 8 || alex.PTSbackup || Built and Tested || EVsim || Paid || ||
 || 9 || Bloomer57 || || || || ||
 || 10 || bela.okmyx || Built and tested || RGB LCD built || Paid || ||
 || 11 || mwyatt1604 || || || || ||
@@ -58,4 +58,4 @@ Payment via paypal to chris1howell83@gmail.com
 || || maboutte || Kit || RGB LCD kit || Paid || ||
 || ||  2sign@earthlink.net || Built and Tested || RGB LCD Built - EV SIM || Paid || ||
 || || hexidecimalgadget || || || || || 
-|| || thadthig || || || || ||
+|| || thadthig || Built and Tested || RGB LCD Built || Paid || ||
