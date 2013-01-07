@@ -57,6 +57,8 @@ Payment via paypal to chris1howell83@gmail.com
 || || cjswan ||	Kit || || Paid || || 
 || || maboutte || Kit || RGB LCD kit || Paid || ||
 || ||  2sign@earthlink.net || Built and Tested || RGB LCD Built - EV SIM || Paid || ||
+|| || Mathieu (France) || || || || ||
+|| || skider67 (France) || || || || ||
 || || hexidecimalgadget || || || || || 
 || || thadthig || Built and Tested || RGB LCD Built || Paid || ||
 || || louisfulton || Kit || || Paid || ||
