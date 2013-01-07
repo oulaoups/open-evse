@@ -2,8 +2,8 @@
 
 = Introduction =
 
-This is to reserve a spot in the January batch of boards.
-Boards are built by hand at an average rate of 5 boards per week.
+This is to reserve a spot (20 available) in the January batch of boards.
+Boards are built by hand at an average rate of 5 boards per week. Overflow will wrap to Febraury slots.
 
 Inital spots assigned based on comments on the ordering page. Kits will ship first followed by assembled and tested units. Boards will ship in order, unpaid reservations will be skipped until payment is recieved.
 
@@ -59,3 +59,4 @@ Payment via paypal to chris1howell83@gmail.com
 || ||  2sign@earthlink.net || Built and Tested || RGB LCD Built - EV SIM || Paid || ||
 || || hexidecimalgadget || || || || || 
 || || thadthig || Built and Tested || RGB LCD Built || Paid || ||
+|| || louisfulton || Kit || || Paid || ||
