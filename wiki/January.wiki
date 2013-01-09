@@ -13,12 +13,12 @@ Payment via paypal to chris1howell83@gmail.com
 
 || Planning || Done || 
 || Order parts || In Progress ||
-|| Build - SMT || ||
-|| Load Firmware || ||
+|| Build - SMT || In Progress ||
+|| Load Firmware || In Progress ||
 || Package OpenEVSE Plus "Kit" || ||
 || Ship OpenEVSE Plus "Kit" || ||
-|| Build - Through hole parts || ||
-|| Test OpenEVSE "Built and Tested"|| ||
+|| Build - Through hole parts || In Progress ||
+|| Test OpenEVSE "Built and Tested"|| In Progress ||
 || Package OpenEVSE "Built and Tested" || ||
 || Ship OpenEVSE "Built and Tested"|| ||
 
