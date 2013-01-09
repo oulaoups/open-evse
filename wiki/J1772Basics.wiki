@@ -7,7 +7,7 @@ Basics of the J1772 standard.
 = Charging =
 
 || || Voltage || Max Current || 
-|| Level 1 (L1) || 120VAC || 12A ||
+|| Level 1 (L1) || 120VAC || 16A max per J1772||
 || Level 2 (L2) || 208 - 240VAC || 80A ||
 
 = Pilot =
