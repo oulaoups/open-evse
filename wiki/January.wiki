@@ -63,3 +63,4 @@ Payment via paypal to chris1howell83@gmail.com
 || || thadthig || Built and Tested || RGB LCD Built || Paid || ||
 || || louisfulton || Kit || || Paid || ||
 || ||  gt1485a || Kit || || Paid || ||
+|| || jackncoke72 || Built and Tested || || || ||
