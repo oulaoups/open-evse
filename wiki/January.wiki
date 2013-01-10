@@ -64,4 +64,5 @@ Payment via paypal to chris1howell83@gmail.com
 || || louisfulton || Kit || || Paid || ||
 || ||  gt1485a || Kit || || Paid || ||
 || || jackncoke72 || Built and Tested || || || ||
-|| || 3400broadway || Built and Tested || Built and tested || || ||
+|| || 3400broadway || Built and Tested || LCD Built || || ||
+|| || ellweber || Built and Tested || RGB LCD Built - EV Sim || Paid || ||
