@@ -65,5 +65,6 @@ Payment via paypal to chris1howell83@gmail.com
 || ||  gt1485a || Kit || || Paid || ||
 || || jackncoke72 || Built and Tested || || || ||
 || || 3400broadway || Built and Tested || LCD Built || || ||
+|| ||  bikekite || || || || ||
 || || ellweber || Built and Tested || RGB LCD Built - EV Sim || Paid || ||
 || ||  jpaction1964 || Built and Tested || || Paid || ||
