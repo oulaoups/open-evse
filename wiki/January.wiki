@@ -44,7 +44,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 19 || Eric Ruhl  || Built and Tested || RGB LCD Built|| Paid || ||
 || 20 || vcrllc || || || || ||
 || || 2johnbooker || Built and Tested || || Paid || ||
-|| || Sven.Leser || || || || ||
+|| || Sven.Leser || Built and Tested || RGB LCD Built - Int Ship || Paid || ||
 || || ClintonEFisher || Kit || EV Sim || Paid || ||
 || ||  davemco3 ~ || Built and Tested || RGB LCD Built - EV Sim || Paid || ||
 || || barryorlando ||Kit || RGB kit - EV sim || Paid || ||
