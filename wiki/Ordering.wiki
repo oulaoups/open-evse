@@ -10,9 +10,9 @@ The waiting list for Prebuilt boards is currently frozen for October due to back
 Prices $USD
 || *Part* || *Kit* || *Assembled and Tested* || Status ||
 || OpenEVSE Plus || $135 || $155 || Next Batch - January ||
-|| RGB LCD backpack || $30 || $40 || Coming in January ||
-|| EV Simulator || $15 || N/A || Available ||
-|| OpenEVSE Arduino Shield || $45 || N/A || Out of stock || 
+|| RGB LCD backpack || $30 || $40 ||  ||
+|| RGB LCD backpack with RTC || $40 || $50 || Late January ||
+|| EV Simulator || $15 || N/A || Available || 
 || Shipping US || $5 || || ||
 || Shipping Int. (USPS) || $20 || || ||
 || Shipping Fedex\UPS\DHL || Cost || || || 
