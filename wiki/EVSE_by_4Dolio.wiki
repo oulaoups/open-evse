@@ -35,6 +35,9 @@ Quarks to mention:
    * More to come...
 
 = Parts =
+If the following include gadget does not work, try http://www.seattleeva.org/wiki/User:Rjf/Open-EVSE/Parts_List
+<wiki:gadget url="http://www.seattleeva.org/images/e/ea/Include-gadget.xml" width=100% border="1" up_pref_height=1650 up_pref_url=http://www.seattleeva.org/index.php?title=User:Rjf/Open-EVSE/Parts_List&printable=yes> 
+
 || Part || Source || Cost || Quantity || Link ||
 || Open EVSE Plus Board w/ integrated power supply || Open EVSE ||$150.00||1|| http://code.google.com/p/open-evse/wiki/Ordering ||
 || J-1772 cable, 30 amps (A3435-PEV)               || Leviton   ||$133.98||1|| http://store.leviton.com/b/5742800011 +$12.19 shipping ||
@@ -71,6 +74,9 @@ Items with letters in the quantity field have multiple options:
    * f = Various fuse/breaker options
    * d = Only needed if adding a display
 
+
+
+
 = Build Photos of Enclosure 1 =
 If the following include gadget does not work, try http://www.seattleeva.org/wiki/User:Rjf/Open-EVSE/Build_Photos_1
-<wiki:gadget title="Build Photos 1 from external source via Include Gadget" url="http://www.seattleeva.org/images/e/ea/Include-gadget.xml" width=680 border="1" height="800" up_pref_height=1000 up_pref_url=http://www.seattleeva.org/index.php?title=User:Rjf/Open-EVSE/Build_Photos_1&printable=yes> 
+<wiki:gadget url="http://www.seattleeva.org/images/e/ea/Include-gadget.xml" width=680 border="1" up_pref_height=1000 up_pref_url=http://www.seattleeva.org/index.php?title=User:Rjf/Open-EVSE/Build_Photos_1&printable=yes> 
