@@ -73,4 +73,4 @@ Items with letters in the quantity field have multiple options:
 
 = Build Photos of Enclosure 1 =
 If the following include gadget does not work, try http://www.seattleeva.org/wiki/User:Rjf/Open-EVSE/Build_Photos_1
-<wiki:gadget title="Build Photos 1 from external source via Include Gadget" url="http://www.seattleeva.org/images/e/ea/Include-gadget.xml" width=680 border="1" height="800" up_pref_height=1280 up_pref_url=http://www.seattleeva.org/index.php?title=User:Rjf/Open-EVSE/Build_Photos_1&printable=yes> 
+<wiki:gadget title="Build Photos 1 from external source via Include Gadget" url="http://www.seattleeva.org/images/e/ea/Include-gadget.xml" width=680 border="1" height="800" up_pref_height=1000 up_pref_url=http://www.seattleeva.org/index.php?title=User:Rjf/Open-EVSE/Build_Photos_1&printable=yes> 
