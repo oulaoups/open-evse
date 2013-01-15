@@ -23,50 +23,51 @@ Payment via paypal to chris1howell83@gmail.com
 || Ship OpenEVSE "Built and Tested"|| ||
 
 || Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
-|| 1 || dvester || Built and Tester || EV Simulator || Paid || ||
-|| 2 || wilsonlee || Built and tested || || Paid || ||
-|| 3 || bconner || Built and Tested || RGB built - EV Sim || Paid || ||
+|| 1 || dvester || Built || EV Simulator || Paid || ||
+|| 2 || wilsonlee || Built || || Paid || ||
+|| 3 || bconner || Built || RGB built - EV Sim || Paid || ||
 || 4 || richardfstrange || || || || ||
 || 5 || pjtiger35 || || || || ||
 || 6 || mrpilotron ~ || Kit || RGB LCD kit || Paid || ||
 || 7 || jallison1 || Kit || RGB LCD Kit || Paid || ||
-|| 8 || alex.PTSbackup || Built and Tested || EVsim || Paid || ||
+|| 8 || alex.PTSbackup || Built || EVsim || Paid || ||
 || 9 || Bloomer57 || || || || ||
-|| 10 || bela.okmyx || Built and tested || RGB LCD built || Paid || ||
+|| 10 || bela.okmyx || Built || RGB LCD built || Paid || ||
 || 11 || mwyatt1604 || || || || ||
 || 12 || steven.cox.ee || Kit || RGB kit || Paid || ||
-|| 13 || devincarlisto || Built and Tested || RGB LCD built - EV Sim kit || Paid || ||
+|| 13 || devincarlisto || Built || RGB LCD built - EV Sim kit || Paid || ||
 || 14 || tomofe || || || || ||
-|| 15 || vcrllc || Built and Tested || || Paid || ||
+|| 15 || vcrllc || Built || || Paid || ||
 || 16 || Adrianrosc || || || || ||
 || 17 || robot256 || Kit || Kit || Paid || ||
-|| 18 || kao.russell || Built and Tested || RGB Kit || Paid || ||
-|| 19 || Eric Ruhl  || Built and Tested || RGB LCD Built|| Paid || ||
+|| 18 || kao.russell || Built || RGB Kit || Paid || ||
+|| 19 || Eric Ruhl  || Built || RGB LCD Built|| Paid || ||
 || 20 || vcrllc || || || || ||
-|| || 2johnbooker || Built and Tested || || Paid || ||
-|| || Sven.Leser || Built and Tested || RGB LCD Built - Int Ship || Paid || ||
+|| || 2johnbooker || Built || || Paid || ||
+|| || Sven.Leser || Built || RGB LCD Built - Int Ship || Paid || ||
 || || ClintonEFisher || Kit || EV Sim || Paid || ||
-|| ||  davemco3 ~ || Built and Tested || RGB LCD Built - EV Sim || Paid || ||
+|| ||  davemco3 ~ || Built  || RGB LCD Built - EV Sim || Paid || ||
 || || barryorlando ||Kit || RGB kit - EV sim || Paid || ||
-|| || serge.bierhuizen || Built and tested || RGB built - EV Sim || Paid || ||
+|| || serge.bierhuizen || Built || RGB built - EV Sim || Paid || ||
 || || rmbertjones || || || || ||
 || || Krull.Justin ||Kit || RGB kit - EV sim kit || Paid || ||
-|| || michaelma8888 || Built and tested || RGB LCD || Paid || ||
-|| || flbas1 || Built and tested || RGB LCD || || ||
-|| || VintageAirLLC || Built and tested || || Paid || ||
+|| || michaelma8888 || Built || RGB LCD || Paid || ||
+|| || flbas1 || Built || RGB LCD || || ||
+|| || VintageAirLLC || Built || || Paid || ||
 || || cjswan ||	Kit || || Paid || || 
 || || maboutte || Kit || RGB LCD kit || Paid || ||
-|| ||  2sign@earthlink.net || Built and Tested || RGB LCD Built - EV SIM || Paid || ||
-|| || Mathieu (France) ~2 || Built and tested || RGB LCD Built || Paid || ||
+|| ||  2sign@earthlink.net || Built || RGB LCD Built - EV SIM || Paid || ||
+|| || Mathieu (France) ~2 || Built || RGB LCD Built || Paid || ||
 || || skider67 (France) || Kit || Kit || Paid || ||
-|| || hexidecimalgadget || Built and Tested || RGB LCD Built - EV sim || Paid || || 
-|| || thadthig || Built and Tested || RGB LCD Built || Paid || ||
+|| || hexidecimalgadget || Built || RGB LCD Built - EV sim || Paid || || 
+|| || thadthig || Built || RGB LCD Built || Paid || ||
 || || louisfulton || Kit || || Paid || ||
 || ||  gt1485a || Kit || || Paid || ||
-|| || jackncoke72 || Built and Tested || || || ||
-|| || 3400broadway || Built and Tested || LCD Built || || ||
+|| || jackncoke72 || Built || || || ||
+|| || 3400broadway || Built || LCD Built || || ||
 || ||  bikekite || || || || ||
-|| || ellweber || Built and Tested || RGB LCD RTC Built - EV Sim || Paid || ||
-|| ||  jpaction1964 || Built and Tested || || Paid || ||
-|| || rocketguy || Built and tested || RGB LCD Built || || ||
+|| || ellweber || Built|| RGB LCD RTC Built - EV Sim || Paid || ||
+|| ||  jpaction1964 || Built || || Paid || ||
+|| || rocketguy || Built || RGB LCD Built || || ||
 || || bikekite || Kit || || || ||
+|| || kwokjl@uci.edu || Built || RGB LCD Built || || ||
