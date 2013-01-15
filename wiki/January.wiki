@@ -66,7 +66,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || jackncoke72 || Built and Tested || || || ||
 || || 3400broadway || Built and Tested || LCD Built || || ||
 || ||  bikekite || || || || ||
-|| || ellweber || Built and Tested || RGB LCD Built - EV Sim || Paid || ||
+|| || ellweber || Built and Tested || RGB LCD RTC Built - EV Sim || Paid || ||
 || ||  jpaction1964 || Built and Tested || || Paid || ||
 || || rocketguy || Built and tested || RGB LCD Built || || ||
 || || bikekite || Kit || || || ||
