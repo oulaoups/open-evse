@@ -8,7 +8,7 @@ OpenEVSE was designed to be fully compliant with the J1772:2010 Standard and sho
 OpenEVSE has been tested with:
 || Year || Make || Model || Car Specific Features || Onboard Charger || Known Issues ||
 || 2011 - 2012 || Nissan || LEAF || Timers - Supported || 3.3kW - 16A @ 240V || None ||
-|| 2011 - 2012 || Chevy || VOLT || Timers - Supported || 3.3kW - 16A @ 240V || None ||
+|| 2011 - 2013 || Chevy || VOLT || Timers - Supported || 3.3kW - 16A @ 240V || None ||
 || 2012 || Toyota|| PiP || Timers - Supported || 2.8kW - 12A @ 240V || None ||
 || 2012 || Mitsubishi || i-MiEV || || 3.3kW - 16A @ 240V || None ||
 || 2012 || Ford || Focus || || 6.6kw - 30A @ 240V || None ||
