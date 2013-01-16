@@ -47,7 +47,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || Sven.Leser || Built || RGB LCD Built - Int Ship || Paid || ||
 || || ClintonEFisher || Kit || EV Sim || Paid || ||
 || ||  davemco3 ~ || Built  || RGB LCD Built - EV Sim || Paid || ||
-|| || barryorlando ||Kit || RGB kit - EV sim || Paid || ||
+|| || barryorlando ||Kit || RGB LCD kit (RTC) - EV sim || Paid || ||
 || || serge.bierhuizen || Built || RGB built - EV Sim || Paid || ||
 || || rmbertjones || || || || ||
 || || Krull.Justin ||Kit || RGB kit - EV sim kit || Paid || ||
