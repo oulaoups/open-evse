@@ -56,7 +56,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || VintageAirLLC || Built || || Paid || ||
 || || cjswan ||	Kit || || Paid || || 
 || || maboutte || Kit || RGB LCD kit || Paid || ||
-|| ||  2sign@earthlink.net || Built || RGB LCD Built - EV SIM || Paid || ||
+|| ||  2sign || Built || RGB LCD Built - EV SIM || Paid || ||
 || || Mathieu (France) ~2 || Built || RGB LCD Built || Paid || ||
 || || skider67 (France) || Kit || Kit || Paid || ||
 || || hexidecimalgadget || Built || RGB LCD Built - EV sim || Paid || || 
@@ -72,4 +72,5 @@ Payment via paypal to chris1howell83@gmail.com
 || || bikekite || Kit || || || ||
 || || kwokjl@uci.edu || Built || RGB LCD Built || || ||
 || || propoxyphene12 || Kit || || Paid || ||
-|| || rfulcher@dolio.net || Kit || || || || 
+|| || rfulcher || Kit || || || || 
+|| || Jay || Built || RGB LCD Built - EV Sim || Paid || ||
