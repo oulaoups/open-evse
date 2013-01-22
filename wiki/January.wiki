@@ -9,7 +9,7 @@ Inital spots assigned based on comments on the ordering page. Kits will ship fir
 
 Payment via paypal to chris1howell83@gmail.com 
 
-|| Build Status || Payment Due || Parts orders - In progress || 
+|| Build Status || Payment Due || Shipping || 
 
 || Planning || Done || 
 || Order parts || Done ||
