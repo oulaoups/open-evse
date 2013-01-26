@@ -49,7 +49,7 @@ Payment via paypal to chris1howell83@gmail.com
 || ||  davemco3 ~ || Built  || RGB LCD Built - EV Sim || Paid || ||
 || || barryorlando ||Kit || RGB LCD kit (RTC) - EV sim || Paid || ||
 || || serge.bierhuizen || Built || RGB built - EV Sim || Paid || ||
-|| || rmbertjones || || || || ||
+|| || rmbertjones || Kit || EV Sim Kit || Paid || ||
 || || Krull.Justin ||Kit || RGB kit - EV sim kit || Paid || ||
 || || michaelma8888 || Built || RGB LCD || Paid || ||
 || || flbas1 || Built || RGB LCD || || ||
@@ -63,6 +63,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || thadthig || Built || RGB LCD Built || Paid || ||
 || || louisfulton || Kit || || Paid || ||
 || ||  gt1485a || Kit || || Paid || ||
+|| || wigthft || Built || RGB LCD Built - EV Sim || || ||
 || || jackncoke72 || Built || || || ||
 || || 3400broadway || Built || LCD Built || || ||
 || ||  bikekite || || || || ||
