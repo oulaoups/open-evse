@@ -73,3 +73,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || propoxyphene12 || Kit || || Paid || ||
 || || rfulcher || Kit || || || || 
 || || Jay || Built || RGB LCD Built - EV Sim || Paid || ||
+|| || ales || Built || RGB LCD Built || || ||
+|| || jebork || Built || RGB LCD Built - EV Sim || || ||
+|| || dlrodd || Built|| RGB LCD RTC Built - EV Sim || || ||
+|| || derekdebu || Built || || || ||
