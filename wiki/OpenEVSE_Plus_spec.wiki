@@ -15,4 +15,13 @@ http://farm9.staticflickr.com/8212/8421959660_9e22cc662f_z.jpg
 
 http://farm9.staticflickr.com/8498/8302318202_6206087755_z.jpg
 
+The OpenEVSE Plus J1772 controller board kit comes with all the surface mount parts assembled, firmware loaded and includes the components to finish the controller board. The builder must solder the remaining through hole components.
+
+=Building the Kit=
+
+All through hole parts are places on the opposite side as the surface mount components. The board has markings to identify the parts and correct placement.
+
+http://farm9.staticflickr.com/8192/8421733534_a6e8487ee7_n.jpg
+
+
 http://farm8.staticflickr.com/7279/8169421274_5f5198b3f2_n.jpg http://farm8.staticflickr.com/7247/8169379635_84f577e1f3_n.jpg
