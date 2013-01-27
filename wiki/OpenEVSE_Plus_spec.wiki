@@ -21,7 +21,31 @@ The OpenEVSE Plus J1772 controller board kit comes with all the surface mount pa
 
 All through hole parts are places on the opposite side as the surface mount components. The board has markings to identify the parts and correct placement.
 
+Take care not to touch existing components with the soldering iron. position board so soldering can occur without interference with other parts.
+
 http://farm9.staticflickr.com/8192/8421733534_a6e8487ee7_n.jpg
 
+Start with the smallest components and work up to the larger ones so that when you flip the board over the parts will not fall out.
 
-http://farm8.staticflickr.com/7279/8169421274_5f5198b3f2_n.jpg http://farm8.staticflickr.com/7247/8169379635_84f577e1f3_n.jpg
+First solder the 2 Flame proof resistors (22k for 120v/240v and 47k for 230v)
+
+Next solder the 2 MID400 chips, check markings on chip and board for proper polarity.
+
+http://farm9.staticflickr.com/8358/8420636117_4e5b33ffc4_n.jpg
+
+Next solder the 2 Bel fuses, 2 small 2 pin screw terminals and the 3 pin screw terminal.
+
+http://farm9.staticflickr.com/8079/8420634851_5b998f27ae_n.jpg
+
+Next solder the DC/DC converter and the .1" pins.
+
+Solder the large 2 pin Screw Terminal.
+
+http://farm9.staticflickr.com/8231/8420632091_366b2ccd4f_n.jpg
+
+Finally solder the Power Supply.
+
+http://farm9.staticflickr.com/8333/8421725538_1f0b3685fa_n.jpg
+
+Follow the Test procedure here: 
+
