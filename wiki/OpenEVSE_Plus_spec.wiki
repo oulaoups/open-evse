@@ -47,4 +47,9 @@ Finally solder the Power Supply.
 
 http://farm9.staticflickr.com/8333/8421725538_1f0b3685fa_n.jpg
 
+
+
 Follow the Test procedure here: http://code.google.com/p/open-evse/wiki/EVSE_TESTING
+
+=Connection Diagram=
+http://farm9.staticflickr.com/8213/8421367695_bcc2219886_b.jpg
