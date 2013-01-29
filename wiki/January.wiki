@@ -40,12 +40,12 @@ Payment via paypal to chris1howell83@gmail.com
 || 15 || vcrllc || Built || || Paid || ||
 || 16 || Adrianrosc || || || || ||
 || 17 || robot256 || Kit || Kit || Paid || ||
-|| 18 || kao.russell || Built || RGB Kit || Paid || ||
-|| 19 || Eric Ruhl  || Built || RGB LCD Built|| Paid || ||
-|| 20 || 2johnbooker || Built || || Paid || ||
+|| 18 || kao.russell || Built || RGB Kit || Paid || Shipped 1/28||
+|| 19 || Eric Ruhl  || Built || RGB LCD Built|| Paid ||Shipped 1/28 ||
+|| 20 || 2johnbooker || Built || || Paid || Shipped 1/28 ||
 || || Sven.Leser || Built || RGB LCD Built - Int Ship || Paid || ||
 || || ClintonEFisher || Kit || EV Sim || Paid || Shipped 1/21 ||
-|| ||  davemco3 ~ || Built  || RGB LCD rtc Built - EV Sim || Paid || ||
+|| ||  davemco3 ~ || Built  || RGB LCD rtc Built - EV Sim || Paid || Shipped 1/28 ||
 || || barryorlando ||Kit || RGB LCD kit (RTC) - EV sim || Paid || ||
 || || serge.bierhuizen || Built || RGB built - EV Sim || Paid || ||
 || || rmbertjones || Kit || EV Sim Kit || Paid || ||
