@@ -39,7 +39,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 14 || tomofe || || || || ||
 || 15 || vcrllc || Built || || Paid || ||
 || 16 || Adrianrosc || || || || ||
-|| 17 || robot256 || Kit || Kit || Paid || ||
+|| 17 || robot256 || Kit || Kit || Paid || Shipped 1/28 ||
 || 18 || kao.russell || Built || RGB Kit || Paid || Shipped 1/28||
 || 19 || Eric Ruhl  || Built || RGB LCD Built|| Paid ||Shipped 1/28 ||
 || 20 || 2johnbooker || Built || || Paid || Shipped 1/28 ||
