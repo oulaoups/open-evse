@@ -7,6 +7,7 @@
     * [OpenEVSE_LCD_spec RGB LCD]
   * *EVSE Charging Stations*
     * [Open_EVSEs EVSE Example Pictures]
+    * [OpenEVSE_Workshop OpenEVSE Plus Workshop 30A]
     * [EVSE_by_mwolrich 30A portable EVSE by mwolrich]
     * [EVSE_by_thinwing EVSE by thinwing]
     * [EVSE_EV_ChargeAmerica_Upgrade Rebuild of broken EVCA EVSE]
