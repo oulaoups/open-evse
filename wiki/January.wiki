@@ -37,7 +37,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 12 || steven.cox.ee || Kit || RGB kit || Paid || Shipped 1/21 ||
 || 13 || devincarlisto || Built ||  || Paid || Shipped 1/22 ||
 || 14 || tomofe || || || || ||
-|| 15 || vcrllc || Built || || Paid || ||
+|| 15 || vcrllc || Built || || Paid || Shipped 1/29 ||
 || 16 || Adrianrosc || || || || ||
 || 17 || robot256 || Kit || Kit || Paid || Shipped 1/28 ||
 || 18 || kao.russell || Built || RGB Kit || Paid || Shipped 1/28||
