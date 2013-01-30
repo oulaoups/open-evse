@@ -79,3 +79,6 @@ Payment via paypal to chris1howell83@gmail.com
 || || derekdebu || Built || || || ||
 || ||  llMGAll || Built || RGB LCD RTC Built || Paid || ||
 || ||  troy.varela || Built || RBG LDC RTC Built || || ||
+|| || dcollins7 || || || || ||
+|| || S.Ciesemier || Built || || || ||
+|| || dcpdx65 || Kit || LCD Kit || || ||
