@@ -4,4 +4,6 @@
 
 http://farm9.staticflickr.com/8351/8406326627_f12743981f.jpg
 
-This is the new RGB LCD that ships with the Open EVSE Plus (V2). It is similar to the AdaFruit shield and uses the AdaFruit software to drive it, but the hardware shield is part of the Open EVSE project. 
+This is the new RGB LCD that ships with the Open EVSE Plus (V2). It is similar to the AdaFruit shield and uses the AdaFruit software to drive it, but the hardware shield is part of the Open EVSE project. The .1 inch header pins are soldered to each board in order to connect them. When soldering, be sure to have the included plastic spacers in place to establish the proper spacing. The ribbon cable goes from the 4-wire header to the i2c header on the Open EVSE board. Be sure to pay attention to which side is ground on both ends. The ground pin has a square copper solder pad around it for easy identification.
+
+There are 5 holes labeled S-L-R-D-U. These are for the control button. Solder a wire (not included in kit) to the S hole and another wire to any of the ground holes.
