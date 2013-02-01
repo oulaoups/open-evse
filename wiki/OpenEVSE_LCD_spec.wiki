@@ -3,3 +3,5 @@
 = Introduction =
 
 http://farm9.staticflickr.com/8351/8406326627_f12743981f.jpg
+
+This is the new RGB LCD that ships with the Open EVSE Plus (V2). It is similar to the AdaFruit shield and uses the AdaFruit software to drive it, but the hardware shield is part of the Open EVSE project. 
