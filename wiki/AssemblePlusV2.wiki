@@ -1,0 +1,54 @@
+#summary Step-by-step guide to assembling an Open EVSE Plus V2 kit.
+#labels Phase-Support
+
+= Assembling the Open EVSE Plus (V2) kit =
+
+This guide is intended to show non-EE people what to do after their Open EVSE Plus kit arrives in the mail. It is not intended to be a complete course in how to be an electronics technician, but will show a few tips that will be helpful in developing the minimum skills required for a successful project. Some details may insult your intelligence, but I'd rather do that than leave something out that would have made your project successful if only you had known.
+
+
+= Gather tools =
+
+*This page is a work in progress* _Be patient, I have a real job too!_
+
+*These are the tools I found useful. You may find other tools that work just as well* 
+ * Standard soldering iron
+ * Fine rosin core solder (.020 - .030 diameter)
+ * Needle-nose & standard pliers
+ * #2, #1, #0, #00 phillips screwdrivers
+ * Small flat screwdriver
+ * Cordless drill with standard drill bit set
+ * Utility knife
+ * Wire strippers
+ * High-speed rotary tool such as Dremel
+ * 1/8 inch carbide burr for rotary tool
+ * Small flat file
+
+= Gather Required parts =
+
+*These are the parts I used. You are welcome to customize your own with different parts.*
+ Most of these parts are available at your local Home Depot, Lowes, or auto parts store. See other Open EVSE Wiki pages for some online sources. I noted where I bought mine in parenthesis below.
+
+ * Open EVSE Plus (V2) Kit w/ RGBLCD
+ -- If you order the "Built and Tested" version, you can skip a few assembly steps. You will still need all these additional parts to make it useful!
+ * Insulated 1/4 inch female spade connectors for 10 AWG & 18 AWG (HD)
+ * Assorted heat-shrink tubing (HD)
+ * 30 amp relay w/12V coil (DigiKey)
+ * GFI current coil (DigiKey)
+ * 20-22 AWG wire (Radio Shack)
+ * Suitable enclosure box: 4x4 would work, I used 6x6 and had plenty of space. (HD)
+ * EVSE charging cord (Siemens)
+ * 3-foot 12/3 cord (HD)
+ * 6L-20 plug (HD) NOTE: Choose whatever cord/plug is convenient for your needs.
+ * Grounding block w/ min 3 lugs
+ * #4-40 x 1-inch screws (HD)
+ * #6-32 x 1/2 inch screws (HD)
+ * 
+
+= Assembling the PCB Kit =
+You need some basic soldering skills, but the really touchy stuff is already done for you. If you've never soldered components to a PCB, please take a moment to Google for some tutorials. I'm not going to repeat that valuable data here. 
+
+The PCB through-hole components should be installed over the printed areas outlining each component. It's hard to mess this up, but please refer to the photos for guidance. Remember to install the shortest components first so you can let gravity hold the items in place while you solder the pins that stick through the holes. You will be soldering on the same side of the PCB as the surface-mount components so be very careful not to touch existing components with the soldering iron. Use a pointed iron bit and touch it to both the protruding pin and the copper pad around the hole. Touch the solder to the other side of the pin and wait for the pin to heat up enough that the solder melts into it. DO NOT melt the solder by touching it to the iron. This will result in poor adhesion and possibly failed connections. It is critical that the pin and copper both get hot enough to melt the solder, but don't overdo it or the component being soldered could be damaged. 
+
+
+
+  
