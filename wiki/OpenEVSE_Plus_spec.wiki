@@ -3,23 +3,23 @@
 = Introduction =
 The OpenEVSE Plus board contains a J1772 compliant controller board as well as a 4W switch mode power supply.
 
-OpenEVSE Plus v1 Board connections
+*OpenEVSE Plus v1 Board connections*
 
 http://farm9.staticflickr.com/8202/8213353962_08818e80b6.jpg
 
-OpenEVSE Plus v2 Board connections
+*OpenEVSE Plus v2 Board connections*
 
 http://farm9.staticflickr.com/8212/8421959660_9e22cc662f_z.jpg
 
-*OpenEVSE Plus Kit*
+*OpenEVSE Plus V1 Kit parts*
 
 http://farm9.staticflickr.com/8498/8302318202_6206087755_z.jpg
 
-The OpenEVSE Plus J1772 controller board kit comes with all the surface mount parts assembled, firmware loaded and includes the components to finish the controller board. The builder must solder the remaining through hole components.
+The OpenEVSE Plus J1772 controller board kits come with all the surface mount parts assembled and firmware loaded. The through hole components are included, but not soldered. That work is left for the builder.
 
 =Building the Kit=
 
-All through hole parts are placed on the opposite side as the surface mount components, but soldered on the same side as the surface mounts. The board has markings to identify the parts and correct placement.
+All through hole parts are placed on the opposite side from the surface mount components, but soldered on the same side as the surface mounts. The board has markings to identify the parts and correct placement.
 
 Take care not to touch existing components with the soldering iron. Position board so soldering can occur without interference with other parts.
 
@@ -27,7 +27,7 @@ http://farm9.staticflickr.com/8192/8421733534_a6e8487ee7_n.jpg
 
 Start with the smallest components and work up to the larger ones so that when you flip the board over the parts will not fall out.
 
-First solder the 2 Flame proof resistors (22k for 120v/240v and 47k for 230v)
+First solder the 2 Flame proof resistors (22k for 120v/240v split-phase American systems and 47k for 230v European systems)
 
 Next solder the 2 MID400 chips, check markings on chip and board for proper polarity.
 
@@ -37,7 +37,7 @@ Next solder the 2 Bel fuses, 2 small 2 pin screw terminals and the 3 pin screw t
 
 http://farm9.staticflickr.com/8079/8420634851_5b998f27ae_n.jpg
 
-Next solder the DC/DC converter and the .1" pins.
+Next solder the DC/DC converter and the .1" pin headers.
 
 Solder the large 2 pin Screw Terminal.
 
