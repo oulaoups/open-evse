@@ -43,7 +43,7 @@ http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Tools1
  * Grounding block w/ min 3 lugs
  * #4-40 x 3/4-inch screws (HD)
  * #6-32 x 1/2 inch screws (HD)
- * 
+ * http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Supplies1.jpg
 
 = Assembling the PCB Kit =
 You need some basic soldering skills, but the really touchy stuff is already done for you. If you've never soldered components to a PCB, please take a moment to Google for some tutorials. I'm not going to repeat that valuable data here. 
