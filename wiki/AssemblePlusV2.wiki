@@ -1,5 +1,5 @@
 #summary Step-by-step guide to assembling an Open EVSE Plus V2 kit.
-#labels Phase-Support
+#labels Phase-Support,Featured
 
 = Assembling the Open EVSE Plus (V2) kit =
 
@@ -138,7 +138,5 @@ http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Finish
 When it's all closed up, the button is easily operated and looks nice just below the LCD. 
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/FinishedFace.jpg
-
-
 
 
