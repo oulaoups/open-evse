@@ -43,6 +43,8 @@ http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Tools1
  * Grounding block w/ min 3 lugs
  * #4-40 x 3/4-inch screws (HD)
  * #6-32 x 1/2 inch screws (HD)
+ * 1/4 x 1/4 plastic spacers x4 (HD)
+ * 1/4 x 1/2 plastic spacers x4 (HD)
  * http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Supplies1.jpg
 
 = Assembling the PCB Kit =
@@ -112,11 +114,16 @@ Now it's time to mount the EVSE brain board to the plastic box. Figure out where
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/CaseNuts1.jpg
 
-The #4-40 nuts are just slightly too large to drop into the holes, but a little heat from the soldering iron will melt them right into place and create a solid self-holding nut that appears cast into the case.
-
+The #4-40 nuts are just slightly too large to drop into the holes, but a little heat from the soldering iron will melt them right into place and create a solid self-holding nut that appears cast into the case. 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/CaseNuts2.jpg
 
 Use the same technique with the #6-32 bolts and nuts for the relay, except use a 9/64 bit to enlarge the holes. I ended up having to cut off excess bolt length to prevent protrusion.
+
+http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/FinishedBack.jpg
+
+Mount the brain board using the 1/4 x 1/2 plastic spacers to keep it suspended above the floor of the box.
+
+http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/PCBMounted.jpg
 
 I decided not to utilize a fuse holder in my EVSE because it is connected to a dedicated circuit with a 20 amp circuit breaker. It seems redundant to also put fuses in the EVSE box. If you plan on connecting to unknown circuits of opportunity, please consider added the fuses as shown in some of the other EVSEs featured on this website. I also decided to not piggyback my power and test leads into the big spade terminals as some other builders did. Instead, I bought piggyback (AKA "Cheater") adapters that allow plugging in two female terminals on each male prong of the relay. 
 
