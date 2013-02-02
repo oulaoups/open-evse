@@ -8,7 +8,6 @@ This guide is intended to show non-EE people what to do after their Open EVSE Pl
 
 = Gather tools =
 
-*This page is a work in progress* _Be patient, I have a real job too!_
 
 *These are the tools I found useful. You may find other tools that work just as well* 
  * Standard soldering iron
@@ -138,5 +137,3 @@ http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Finish
 When it's all closed up, the button is easily operated and looks nice just below the LCD. 
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/FinishedFace.jpg
-
-
