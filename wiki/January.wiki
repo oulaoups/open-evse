@@ -80,7 +80,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || derekdebu || Built || || || ||
 || ||  llMGAll || Built || RGB LCD RTC Built || Paid || ||
 || ||  troy.varela || Built || RBG LDC RTC Built || || ||
-|| || dcollins7 || || || || ||
+|| || dcollins7 ||Kit || LCD kit || Paid || ||
 || || S.Ciesemier || Built || || EV SIM || ||
 || || dcpdx65 || Kit || LCD Kit || || ||
 || || evnow || Built || LCD RTC Built -EV sim || || ||
