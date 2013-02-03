@@ -83,3 +83,4 @@ Payment via paypal to chris1howell83@gmail.com
 || || dcollins7 || || || || ||
 || || S.Ciesemier || Built || || || ||
 || || dcpdx65 || Kit || LCD Kit || || ||
+|| || evnow || Built || LCD RTC Built -EV sim || || ||
