@@ -54,7 +54,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || flbas1 || Built || RGB LCD || || ||
 || || VintageAirLLC || Built || || Paid || ||
 || || cjswan ||	Kit || || Paid || || 
-|| || maboutte || Kit || RGB LCD kit || Paid || ||
+|| || maboutte || Kit || RGB LCD RTC kit || Paid || ||
 || ||  2sign || Built || RGB LCD Built - EV SIM || Paid || ||
 || || Mathieu (France) ~2 || Built || RGB LCD Built || Paid || ||
 || || skider67 (France) || Kit || Kit || Paid || ||
