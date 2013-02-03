@@ -75,6 +75,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || Jay || Built || RGB LCD Built - EV Sim || Paid || ||
 || || ales || Built || RGB LCD Built || || ||
 || || jebork || Built || RGB LCD Built - EV Sim || Paid || ||
+|| || nix || Kit || RGB LCD RTC kit EV sim || Paid || ||
 || || dlrodd || Built|| RGB LCD RTC Built - EV Sim || || ||
 || || derekdebu || Built || || || ||
 || ||  llMGAll || Built || RGB LCD RTC Built || Paid || ||
