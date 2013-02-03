@@ -128,11 +128,11 @@ Mount the brain board using the 1/4 x 1/2 plastic spacers to keep it suspended a
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/PCBMounted.jpg
 
-I decided not to utilize a fuse holder in my EVSE because it is connected to a dedicated circuit with a 20 amp circuit breaker. It seems redundant to also put fuses in the EVSE box. If you plan on connecting to unknown circuits of opportunity, please consider added the fuses as shown in some of the other EVSEs featured on this website. I also decided to not piggyback my power and test leads into the big spade terminals as some other builders did. Instead, I bought piggyback (AKA "Cheater") adapters that allow plugging in two female terminals on each male prong of the relay. 
+I decided not to utilize a fuse holder in my EVSE because it is connected to a dedicated circuit with a 20 amp circuit breaker. It seems redundant to also put fuses in the EVSE box. If you plan on connecting to unknown circuits of opportunity, please consider adding the fuses as shown in some of the other EVSEs featured on this website. I also decided to not piggyback my power and test leads into the big spade terminals as some other builders did. Instead, I bought piggyback (AKA "Cheater") adaptors that allow plugging in two female terminals on each male prong of the relay. 
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Relay1.jpg
 
-Once its all assembled, each wire has its own terminal to plug into.
+Once its all assembled, each wire has its own terminal.
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Relay2.jpg
 
