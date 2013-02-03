@@ -3,7 +3,7 @@
 
 = Assembling the Open EVSE Plus (V2) kit =
 
-This guide is intended to show non-EE people what to do after their Open EVSE Plus kit arrives in the mail. It is not intended to be a complete course in how to be an electronics technician, but will show a few tips that will be helpful in developing the minimum skills required for a successful project. Some details may insult your intelligence, but I'd rather do that than leave something out that would have made your project successful if only you had known.
+This guide is intended to show non-EE people what to do after their Open EVSE Plus kit arrives in the mail. It is not intended to be a complete course in how to be an electronics technician, but will show a few tips that will be helpful in completing a successful project.
 
 
 = Gather tools =
@@ -58,9 +58,12 @@ Refer to this page for more details on assembling the PCB parts:
 [http://code.google.com/p/open-evse/wiki/OpenEVSE_Plus_spec]
 
 == A note about electrical connections ==
-I am not a fan of crimp connectors. Unless they are precisely crimped by quality crimping tools, you are likely to get somewhat less than perfect electrical continuity. Considering how easy it is to apply a dab of solder and get outstanding electrical contact with almost no chance of working loose or having a high resistance joint, I HIGHLY recommend leaving the crimper in the tool box. These photos shows a simple technique for connecting wires to crimp terminals with solder. Make a cut around the insulation with a utility knife to weaken the plastic, then twist it off with pliers. Don't try to cut the plastic completely with the knife. Just score it and the break it with the pliers. Notice the little loop that slips inside with a bit of tension to hold it all together until the solder flows in. Be sure to use enough solder to completely fill the inside of the crimp barrel. These connections are then covered in two layers of heat shrink tubing. This is where multiple heat shrink sizes comes in handy. 
+I am not a fan of crimp connectors. Unless they are precisely crimped by quality crimping tools, you are likely to get somewhat less than perfect electrical continuity. Considering how easy it is to apply a dab of solder and get outstanding electrical contact with almost no chance of working loose or having a high resistance joint, I HIGHLY recommend leaving the crimper in the tool box. These photos shows a simple technique for connecting wires to crimp terminals with solder. Make a cut around the insulation with a utility knife to weaken the plastic, then twist it off with pliers. Don't try to cut the plastic completely with the knife. Just score it and then break it with the pliers. Notice the little loop that slips inside with a bit of tension to hold it all together until the solder flows in. Be sure to use enough solder to completely fill the inside of the crimp barrel. 
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Jumpers1.jpg
+
+These connections are then covered in two layers of heat shrink tubing. This is where multiple heat shrink sizes comes in handy. 
+
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Jumpers2.jpg
 
 
