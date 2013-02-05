@@ -4,6 +4,23 @@
 
 http://farm9.staticflickr.com/8351/8406326627_f12743981f.jpg
 
-This is the new RGB LCD with RTC (Real Time Clock) that ships with the Open EVSE Plus (V2). It is similar to the AdaFruit shield and uses the AdaFruit software to drive it, but the hardware shield is part of the Open EVSE project. The .1 inch header pins are soldered to each board in order to connect them. When soldering, be sure to have the included plastic spacers in place to establish the proper spacing. The ribbon cable goes from the 4-wire header to the i2c header on the Open EVSE board. Be sure to pay attention to which side is ground on both ends. The ground pin has a square copper solder pad around it for easy identification.
+LCD Boards are now avaliable designed specificly for OpenEVSE. They were designed to be very compact and easy to interface. The OpenEVSE LCD boards support RGB LCDs and are avaliable with or without a RTC(Real Time Clock) to add timer based functionality. 
 
-There are 5 holes labeled S-R-D-U-L. These are for the control button. Solder a wire (not included in kit) to the S hole and another wire to any of the ground holes.
+The OpenEVSE RGB LCD is based on and compatible with the AdaFruit RGB LCD Arduino shield and for OpenEVSE uses the LiquitTWI2 library by lincomatic. 
+
+The optional RTC is based on the DS3231 ultra-precice temperature compensated RTC. 
+
+The .1 inch header pins are soldered to each board in order to connect them to the i2c pins on the OpenEVSE board.
+
+When soldering, be sure to have the included plastic spacers in place to establish the proper spacing. 
+
+The ribbon cable goes from the 4-wire header to the i2c header on the Open EVSE board. Be sure to pay attention to which side is ground on both ends. The ground pin has a square copper solder pad around it for easy identification.
+
+There are 5 holes labeled S-R-D-U-L. These are for the control button.
+S - Select - Supported by OpenEVSE button Menu
+R - Right - Not currently used
+D - Down - Not currently used
+U - Up - Not currently used
+L - Left - Not currently used 
+
+To enable the button on the LCD solder a wire (not included in kit) to the S - Select hole and another wire to any of the ground holes. Connect to a normaly Open momentary button. A lit button can be connected using Ground, +5v and Select.
