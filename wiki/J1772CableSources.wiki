@@ -6,7 +6,8 @@
 
 || Part Number || Description || Manufacture || Level || Max Current || UL || Length || Price || Link ||
 || A3435-PEV || J1772 || Leviton || L1/L2 || 30A || Yes || 25' || $133.98 || http://store.leviton.com/Compliant-Electric-Vehicle-Connector-A3435-PEV/dp/B00912OT00 <br /> Pictures of: http://pics.256.com/2012/20120908_j1772/ ||
-|| A2055-PEV || J1772 || Leviton || L1/L2 || 75A || Yes || 25' || $218.69 || http://store.leviton.com/Electric-Vehicle-Charge-Connector-A2055-PEV/dp/B009UCEXYI ||
+|| A2056-PEV || J1772 || Leviton || L1/L2 || 75A || Yes || 25' || $218.69 || http://store.leviton.com/Electric-Vehicle-Charge-Connector-A2055-PEV/dp/B009UCEXYI ||
+|| A2055-PEV || J1772 || Leviton || L1/L2 || 15A || Yes || 25' || $145.69 || http://store.leviton.com/Electric-Vehicle-Charge-Connector-A2055-PEV/dp/B009UCE7EE#.URHRL333JgE ||
 || EVC-C-15A-300-20 || J1772 || ITT || L1 || 15A || Yes || 20' || $218.06 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-15A-300S-20 ||
 || EVC-C-15A-600-20 || J1772 || ITT || L1/L2 || 15A || Yes || 20' || $223.61 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-15A-600S-20 ||
 || EVC-C-30A-600-20 || J1772 || ITT || L1/L2 || 30A || Yes || 20' || $261.94 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-30A-600S-20||
