@@ -72,6 +72,7 @@ http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Jumper
 The LCD comes as a small kit containing a shield board, the LCD board, a pin header, 4 plastic spacers, and a jumper wire. The following photos show how to assemble them.
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Shield1JPG.jpg
 Notice that the angled 4-pin header points away from the surface mount component. If you do it the other way, it will interfere. 
+*IMPORTANT NOTE:* Remember the little component labelled "VR-1" in the lower left corner of this picture. You will need to turn that with a tiny screwdriver after the project is complete to set the display brightness the first time you power up your EVSE.
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Shield2.jpg
 
@@ -147,3 +148,10 @@ http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Finish
 When it's all closed up, the button is easily operated and looks nice just below the LCD. 
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/FinishedFace.jpg
+
+==Put it to work==
+*SAFETY NOTE:* Whether you plug it in or hard wire it directly to a junction box, remember is that this box is pulling a lot more power through it than your average toaster. Excellent quality connections are vital. If there is any doubt about the quality of the outlet or the feeder wires, replace them. You could burn down your house by using inadequate or worn components! 
+
+The first time you power on the EVSE, it is likely that the screen will show nothing. This is normal. Open the cover without disconnecting the colorful ribbon cable from the display and find that little component on the back of the display labelled "VR-1". I was able to turn it by simply pressing my finger against it and rotating my hand, but you might need to use a tiny screwdriver. Turn it until the display looks right. This should be a one-time adjustment, but feel free to experiment with different levels if you decide it isn't just right.
+
+The next _gotcha_ that I experienced was no button response. Again, this is normal with firmware 1.0.5 that shipped on my board. This is because Chris disabled the button in order to work around a bug that causes the system to freeze when an LCD is not plugged in. I'm working on figuring out how to have a universal auto-detect in the code, but in the meantime you will need to reload firmware to fix this.
