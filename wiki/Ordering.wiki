@@ -18,6 +18,7 @@ Prices $USD
 || Shipping Fedex\UPS\DHL || At Cost || || Request || 
 
 || *Complete Package:* _OpenEVSE Plus (v2), LCD w/RTC, Assembled & Tested, w/std US shipping_ ||*$210*||
+|| *Complete Package with EV Simulator:* || *$225 ||
 
 
 
