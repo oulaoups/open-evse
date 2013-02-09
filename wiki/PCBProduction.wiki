@@ -11,3 +11,5 @@ If you'd like to built your own EVSE controller board instead of ordering one, h
 || PCBExpress || 2 days ||  USA || $0 || 4 boards up to 9sq/in each $278 || Free || http://www.pcbexpress.com/ ||
 || OSH Park || 2 weeks || USA || $0 || $5.00sq/in for 3 boards || Free || http://oshpark.com/ ||
 || PCB Train || 1 - 10 days || UK || varies || varies || varies || http://www.pcbtrain.co.uk/ ||
+
+NOTE: [http://store.oshpark.com/collections/openevse/products/open-evse-controller OSH Park ] now carries the board as a direct-purchase product. No need to wait for custom fab! 
