@@ -2,3 +2,60 @@
 
 = Introduction =
 
+This is to reserve a spot (20 available) in the February batch of boards.
+Boards are built by hand at an average rate of 5 boards per week. Overflow will wrap to March slots.
+
+Inital spots assigned based on comments on the ordering page. Kits will ship first followed by assembled and tested units. Boards will ship in order, unpaid reservations will be skipped until payment is recieved.
+
+Payment via paypal to chris1howell83@gmail.com 
+
+|| Build Status || Payment Due || Shipping || 
+
+|| Planning || Done || 
+|| Order parts || Done ||
+|| Build - SMT || In Progress ||
+|| Load Firmware ||  ||
+|| Package OpenEVSE Plus "Kit" ||  ||
+|| Ship OpenEVSE Plus "Kit" || ||
+|| Build - Through hole parts || ||
+|| Test OpenEVSE "Built and Tested"|| ||
+|| Package OpenEVSE "Built and Tested" || ||
+|| Ship OpenEVSE "Built and Tested"|| ||
+
+|| Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
+|| 1 || Sven.Leser || Built || RGB LCD Built - Int Ship || Paid || ||
+|| 2 || serge.bierhuizen || Built || RGB RTC built - EV Sim || Paid || ||
+|| 3 || rmbertjones || Kit || EV Sim Kit || Paid || ||
+|| 4 || Krull.Justin ||Kit || RGB kit - EV sim kit || Paid || ||
+|| 5 || michaelma8888 || Built || RGB LCD || Paid || ||
+|| 6 || flbas1 || Built || RGB LCD || || ||
+|| 7 || VintageAirLLC || Built || || Paid || ||
+|| 8 || cjswan ||	Kit || || Paid || || 
+|| 9 || maboutte || Kit || RGB LCD RTC kit || Paid || ||
+|| 10 ||  2sign || Built || RGB LCD Built - EV SIM || Paid || ||
+|| 11 || Mathieu (France) ~2-0-LCD || Built || RGB LCD Built - EV sim || Paid || ||
+|| 12 || skider67 (France) || Kit || Kit || Paid || ||
+|| 13 || hexidecimalgadget || Built || RGB LCD Built - EV sim || Paid || || 
+|| 14 || thadthig || Built || RGB LCD Built || Paid || ||
+|| 15 || louisfulton || Kit || || Paid || ||
+|| 16 ||  gt1485a || Kit || || Paid || ||
+|| 17 || wigthft || Built || RGB LCD Built - EV Sim || || ||
+|| 18 || jackncoke72 || Built || || Paid || ||
+|| 19 || 3400broadway || Built || LCD Built || || ||
+|| 20 ||  bikekite || || || || ||
+|| || ellweber || Built|| RGB LCD RTC Built - EV Sim || Paid || ||
+|| ||  jpaction1964 || Built || || Paid || ||
+|| || rocketguy || Built || RGB LCD Built || || ||
+|| || bikekite || Kit || || || ||
+|| || propoxyphene12 || Kit || || Paid || ||
+|| || rfulcher || Kit || || || || 
+|| || Jay || Built || RGB LCD Built - EV Sim || Paid || ||
+|| || ales || Built || RGB LCD Built || || ||
+|| || jebork || Built || RGB LCD Built - EV Sim || Paid || ||
+|| || dlrodd || Built|| RGB LCD RTC Built - EV Sim || || ||
+|| || derekdebu || Built || || || ||
+|| ||  llMGAll || Built || RGB LCD RTC Built || Paid || ||
+|| ||  troy.varela || Built || RBG LDC RTC Built || || ||
+|| || dcollins7 ||Kit || LCD kit || Paid || ||
+|| || S.Ciesemier || Built || || EV SIM || ||
+|| || evnow || Built || LCD RTC Built -EV sim || || ||
