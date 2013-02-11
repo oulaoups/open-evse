@@ -47,38 +47,3 @@ Payment via paypal to chris1howell83@gmail.com
 || || ClintonEFisher || Kit || EV Sim || Paid || Shipped 1/21 ||
 || ||  davemco3 ~ || Built  || RGB LCD rtc Built - EV Sim || Paid || Shipped 1/28 ||
 || || barryorlando ||Kit || RGB LCD kit (RTC) - EV sim || Paid || Shipped 2/4 ||
-|| || serge.bierhuizen || Built || RGB RTC built - EV Sim || Paid || ||
-|| || rmbertjones || Kit || EV Sim Kit || Paid || ||
-|| || Krull.Justin ||Kit || RGB kit - EV sim kit || Paid || ||
-|| || michaelma8888 || Built || RGB LCD || Paid || ||
-|| || flbas1 || Built || RGB LCD || || ||
-|| || VintageAirLLC || Built || || Paid || ||
-|| || cjswan ||	Kit || || Paid || || 
-|| || maboutte || Kit || RGB LCD RTC kit || Paid || ||
-|| ||  2sign || Built || RGB LCD Built - EV SIM || Paid || ||
-|| || Mathieu (France) ~2-0-LCD || Built || RGB LCD Built - EV sim || Paid || ||
-|| || skider67 (France) || Kit || Kit || Paid || ||
-|| || hexidecimalgadget || Built || RGB LCD Built - EV sim || Paid || || 
-|| || thadthig || Built || RGB LCD Built || Paid || ||
-|| || louisfulton || Kit || || Paid || ||
-|| ||  gt1485a || Kit || || Paid || ||
-|| || wigthft || Built || RGB LCD Built - EV Sim || || ||
-|| || jackncoke72 || Built || || Paid || ||
-|| || 3400broadway || Built || LCD Built || || ||
-|| ||  bikekite || || || || ||
-|| || ellweber || Built|| RGB LCD RTC Built - EV Sim || Paid || ||
-|| ||  jpaction1964 || Built || || Paid || ||
-|| || rocketguy || Built || RGB LCD Built || || ||
-|| || bikekite || Kit || || || ||
-|| || propoxyphene12 || Kit || || Paid || ||
-|| || rfulcher || Kit || || || || 
-|| || Jay || Built || RGB LCD Built - EV Sim || Paid || ||
-|| || ales || Built || RGB LCD Built || || ||
-|| || jebork || Built || RGB LCD Built - EV Sim || Paid || ||
-|| || dlrodd || Built|| RGB LCD RTC Built - EV Sim || || ||
-|| || derekdebu || Built || || || ||
-|| ||  llMGAll || Built || RGB LCD RTC Built || Paid || ||
-|| ||  troy.varela || Built || RBG LDC RTC Built || || ||
-|| || dcollins7 ||Kit || LCD kit || Paid || ||
-|| || S.Ciesemier || Built || || EV SIM || ||
-|| || evnow || Built || LCD RTC Built -EV sim || || ||
