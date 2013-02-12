@@ -3,11 +3,10 @@
 = Open EVSE V4 parts list =
 
 If you'd like to built your own EVSE controller board instead of ordering one, here are the parts that you will need.
-
-DigiKey prices updated 8 Feb 2013.
-
 ===Fast BOM upload: Upload [http://code.google.com/p/open-evse/downloads/detail?name=evse-v4diy-BOM2.csv&can=2&q= this file] to DigiKey for a full pre-built bill of materials.=== 
 Total cost as of 11 Feb 2013 = $119.77
+
+http://farm9.staticflickr.com/8453/8041888276_24c025f0b7.jpg
 
 || *Mfg.* || *Part Number* || *Type* || *Value* || *Name* || *Qty* || *Price* || *URL* || 
 || Atmel || ATMEGA328P-PU || Microprocessor || 328p-pu || IC1|| 1|| $2.88|| http://www.digikey.com/scripts/DkSearch/dksus.dll?vendor=0&keywords=ATMEGA328P-PU-ND || 
@@ -95,8 +94,7 @@ The board no longer requires a dual voltage +12V and-12V supply, and can be powe
 The V2,V3,V4 boards require an external 12Vdc power supply of 5 watts or greater depending on displays, relays, and accessories. They can be programmed using the 5V supply on the FTDI or SPI headers, but require the 12V supply to operate the Pilot circuitry.
 On the V4 board SPI header pin 5 (reset) is not connected to pin 1 (reset) of the Atmega328, which may be required for some programers (USBTiny ISP).
 
-Optional circuitry on the V4 board:
-
+*_Optional_ circuitry on the V4 board:*
 Power monitor components: C5, C19, R2, R9, R24, R25, R27, R28, R30, and JP2
 To use the power monitoring circuitry on the v4 board requires modification of the V 1.0.0 firmware.
 The power monitor circuit is based on the OpenEnergyMonitor circuitry and software library.
@@ -104,7 +102,7 @@ http://openenergymonitor.org/emon/
 There are many ways to utilize the power monitor circuitry which will require custom software to be written based on the use.
 The board uses ADC0 and ADC2 for the power monitor inputs, and was designed to utilize the Sparkfun SEN-11005 Non-Invasive Current Sensor - 30A, along with a 9 volt output AC to AC transformer for measuring the line voltage.”
 
-L1/L2 Sense components: JP1, IC5, IC6, R12, R13, F1, F2, C10, C11
+*L1/L2 Sense components:* JP1, IC5, IC6, R12, R13, F1, F2, C10, C11
 Used to monitor for stuck relay and charging level L1/L2.
 
 * Open EVSE is distributed in the hope that it will be useful,*
