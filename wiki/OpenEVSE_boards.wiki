@@ -15,6 +15,7 @@
 || Programmer || ISP or FTDI || ISP or USB/FTDI || ISP or FTDI ||
 || Serial ||  FTDI || USB/FTDI || FTDI || 
 || Suited for || Most EVSEs || Hardware/Software Development || Hardcore DIYers ||
-|| Price || $135-155 || $45 plus Arduino Uno (~$30) || Board $14 + components $60 ||
+|| Price || $135-155 || $45 plus Arduino Uno (~$30) || Board $14 + comp ~$70  ||
+|| || $210 w/LCD, RTC, & shp || || ~$150 w/ext comp, brd, & shp ||
 
 How to use the OpenEVSE board to make a [ExampleEVSE basic EVSE].
