@@ -6,7 +6,7 @@ If you'd like to built your own EVSE controller board instead of ordering one, h
 
 DigiKey prices updated 8 Feb 2013.
 
-===Fast BOM upload: Upload [http://code.google.com/p/open-evse/downloads/detail?name=evse-v4diy-BOM2.csv&can=2&q= this file] to DigiKey for a full pre-built bill of materials.===
+===Fast BOM upload: Upload [http://code.google.com/p/open-evse/downloads/detail?name=evse-v4diy-BOM2.csv&can=2&q= this file] to DigiKey for a full pre-built bill of materials.=== Total cost as of 11 Feb 2013 = $119.77
 
 || *Mfg.* || *Part Number* || *Type* || *Value* || *Name* || *Qty* || *Price* || *URL* || 
 || Atmel || ATMEGA328P-PU || Microprocessor || 328p-pu || IC1|| 1|| $2.88|| http://www.digikey.com/scripts/DkSearch/dksus.dll?vendor=0&keywords=ATMEGA328P-PU-ND || 
