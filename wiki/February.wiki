@@ -2,6 +2,8 @@
 
 = Introduction =
 
+*Update 2/23* 100 boards are on the way. For the first time they will be mostly built instead of blank boards, when they arrive they will have all SMT parts and most through hole parts already assembled by Gold Pheonix. Kits will be more complete and just require soldering for 2 parts the Power supply and the DC/DC converter.
+
 This is to reserve a spot (20 available) in the February batch of boards.
 Boards are built by hand at an average rate of 5 boards per week. Overflow will wrap to March slots.
 
@@ -13,7 +15,7 @@ Payment via paypal to chris1howell83@gmail.com
 
 || Planning || Done || 
 || Order parts || Done ||
-|| Build - SMT || In Progress ||
+|| Build - SMT || Gold Pheonix - In progress ||
 || Load Firmware ||  ||
 || Package OpenEVSE Plus "Kit" ||  ||
 || Ship OpenEVSE Plus "Kit" || ||
