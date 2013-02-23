@@ -35,7 +35,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 8 || cjswan ||	Kit || || Paid || || 
 || 9 || maboutte || Kit || RGB LCD RTC kit || Paid || ||
 || 10 ||  2sign || Built || RGB LCD Built - EV SIM || Paid || ||
-|| 11 || Mathieu (France) ~2-0-LCD || Built || RGB LCD Built - EV sim || Paid || ||
+|| 11 || Mathieu (France) ~2 || Built || RGB LCD RTC Built - EV sim || Paid || ||
 || 12 || skider67 (France) || Kit || Kit || Paid || ||
 || 13 || hexidecimalgadget || Built || RGB LCD Built - EV sim || Paid || || 
 || 14 || thadthig || Built || RGB LCD Built || Paid || ||
