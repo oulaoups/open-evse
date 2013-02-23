@@ -72,3 +72,4 @@ Payment via paypal to chris1howell83@gmail.com
 || || King || Built || LCD RTC Built || Paid || ||
 || || fiester || Built || LCD RTC Built - EVSIM || Paid || ||
 || || rgjones || Built || LCD RTC Built || Paid || ||
+|| || mc.lacey || Built || LCD RTC Built || Paid || ||
