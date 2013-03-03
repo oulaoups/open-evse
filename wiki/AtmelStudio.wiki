@@ -7,7 +7,7 @@
 *If you just have to be different than the cool kids who use Arduino IDE, you can use Atmel Studio to load your firmware*
 
 == Download and install Atmel Studio ==
-[http://Atmel Studio] is a free development environment for the MS Windows environment. It is built on Visual Studio using .NET framework. So far, nobody has found a way to run it on Linux using wine due to the .NET requirement. If you find a way, you will be a superhero. Or possibly really need to get out of your mothers basement... 
+[http://www.atmel.com/tools/atmelstudio.aspx Atmel Studio] is a free development environment for the MS Windows environment. It is built on Visual Studio using .NET framework. So far, nobody has found a way to run it on Linux using wine due to the .NET requirement. If you find a way, you will be a superhero. Or possibly really need to get out of your mothers basement... 
 
 
 == Set Fuse Bits ==
