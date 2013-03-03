@@ -2,6 +2,9 @@
 
 = Introduction =
 
+*Update 3/1* The first 10 boards arrived, The first one is assembled and going through extensive testing. Test are about %80 done so far everything is perfect. Boards will start shipping this week...
+
+
 *Update 2/23* 100 boards are on the way. For the first time they will be mostly built instead of blank boards, when they arrive they will have all SMT parts and most through hole parts already assembled by Gold Pheonix. Kits will be more complete and just require soldering for 2 parts the Power supply and the DC/DC converter.
 
 This is to reserve a spot (20 available) in the February batch of boards.
