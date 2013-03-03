@@ -2,7 +2,7 @@
 
 = Using Atmel Studio to edit and load firmware =
 
-=== (This page under construction: If you have useful input, please send it to mrpilotron@gmail.com for inclusion. )
+=== (This page under construction: If you have useful input, please send it to mrpilotron@gmail.com for inclusion. ) ===
 
 *If you just have to be different than the cool kids who use Arduino IDE, you can use Atmel Studio to load your firmware*
 
@@ -13,11 +13,11 @@
 == Set Fuse Bits ==
 Setting fuse bits only needs to be done once. Fuse bits have nothing to do with power overload protection; they are the software equivalent of dip switches (if you are old enough to remember those...) and control how the chip operates. The officially supported fuse bit settings for OpenEVSE will be the best settings for most people, but if you want to experiment with different settings, you can calculate fuse settings here: http://www.engbedded.com/fusecalc
 
-To set fuse bits from Atmel Studio, select "Tools -> Device Programming". Select your programmer from the _Tool_ drop down, select "ATmega328" from the _Device_ drop down, and select "ISP" from the Interface drop down. Click the Apply button then click "Fuses" on the left side of the dialog window. From here, you can either click check boxes or go directly to the hex numbers at the bottom. I prefer going directly to the hex numbers since I already know what values to use. Use these settings:
+To set fuse bits from Atmel Studio, select "Tools -> Device Programming". Select your programmer from the _Tool_ drop down, select "ATmega328" from the _Device_ drop down, and select "ISP" from the Interface drop down. Click the Apply button then click "Fuses" on the left side of the dialog window. From here, you can either click check boxes or go directly to the hex numbers at the bottom. I prefer going directly to the hex numbers since I already know what values to use. Use these settings: <br>
 
-Extended: 0xFF
-High: 0xD9
-Low: 0x62
+Extended: 0xFF <br>
+High: 0xD9 <br>
+Low: 0x62 <br>
 
 The appropriate check boxes will automagically update in the top of the window.
 
