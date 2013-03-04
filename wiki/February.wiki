@@ -77,3 +77,8 @@ Payment via paypal to chris1howell83@gmail.com
 || || mc.lacey || Built || LCD RTC Built || Paid || ||
 || ||  odonn19 || Built || LCD RTC Built || Paid || ||
 || || dkatz || Built || LCD RTC Built || Paid || ||
+|| || mlegatt || Built || LCD RTC Built - EV Sim || Paid || ||
+|| || grassshawn || Built || LCD RTC Built - EV Sim || Paid || ||
+|| || SkiSky1 || Kit || EV Sim || Paid || ||
+|| || walter || Built || LCD RTC built -EV Sim || Paid || ||
+|| || mb2452 || Built || || || ||
