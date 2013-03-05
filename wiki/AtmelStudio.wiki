@@ -42,9 +42,11 @@ To send these settings to the chip, click the Program button.
 == Burning a hex file to the chip ==
 Assuming you have successfully programmed the fuse bits and have a stable connection to the chip that enters programming mode when you need it to, start by just burning a pre-compiled HEX file. You can download one from the Downloads area of this project site. Save it to any convenient location. 
 In Atmel Studio, click "Tools -> Device Programming". Follow the same setup process you used to program fuse bits, and then click "Memories" on the left pane. In the "Flash (32KB)" area, keep the default check boxes checked, navigate to the file you downloaded and then click the Program button. Done! You now have a chip that will function in an Open EVSE board. If you get a chip that already has a program on it, you can save the existing program prior to burnig a new one by clicking the "Read..." button and saving the file somewhere you can find. Feel free to open the HEX file in Notepad or Wordpad. You can't read anything useful, but it's kind of cool to see what the chip actually reads to perform the magic.
-= Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== Changing source code ==
+If you've made it this far, Congratulations! You are now ready to start the real work. The entire OpenEVSE firmware source code is built for the Arduino IDE. That means you need to modify the header _#includes_ and go download some external libraries. If you just try opening and compiling the source code, you will get many errors for missing libraries. 
+(TO DO: Show how to download and configure libraries)
+
+(TO DO: Walk through a complete compile/upload of known stable code)
+
+(TO DO: Make modifications and compile/upload them)
