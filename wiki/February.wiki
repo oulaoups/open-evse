@@ -2,6 +2,8 @@
 
 = Introduction =
 
+*Update 3/4* The first test board passed 100% of the tests, the first 10 boards will ship this week. The remaining 90 boards should be here any day now...
+
 *Update 3/1* The first 10 boards arrived, The first one is assembled and going through extensive testing. Test are about 80% done so far everything is perfect. Boards will start shipping this week...
 
 
