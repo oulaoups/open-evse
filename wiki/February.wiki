@@ -48,7 +48,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 16 ||  gt1485a || Kit || || Paid || ||
 || 17 || wigthft || Built || RGB LCD Built - EV Sim || || ||
 || 18 || jackncoke72 || Built || || Paid || ||
-|| 19 || 3400broadway || Built || LCD Built || || ||
+|| 19 || 3400broadway || Built || LCD Built || Paid || ||
 || 20 ||  bikekite || Kit || || Paid || ||
 || || ellweber || Built|| RGB LCD RTC Built - EV Sim || Paid || ||
 || ||  jpaction1964 || Built || || Paid || ||
