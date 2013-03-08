@@ -21,9 +21,9 @@ Payment via paypal to chris1howell83@gmail.com
 || Planning || Done || 
 || Order parts || Done ||
 || Build - SMT || Gold Pheonix - In progress ||
-|| Load Firmware ||  ||
-|| Package OpenEVSE Plus "Kit" ||  ||
-|| Ship OpenEVSE Plus "Kit" || ||
+|| Load Firmware || In Progress ||
+|| Package OpenEVSE Plus "Kit" || In Progress ||
+|| Ship OpenEVSE Plus "Kit" || In Progress ||
 || Build - Through hole parts || ||
 || Test OpenEVSE "Built and Tested"|| ||
 || Package OpenEVSE "Built and Tested" || ||
