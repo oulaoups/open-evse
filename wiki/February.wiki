@@ -1,6 +1,7 @@
 #summary February Batch.
 
 = Introduction =
+*Update 3/11* Boards are in and shipping has started for the kits. Built and tested will follow as fast as I can finish the assembly...
 
 *Update 3/4* The first test board passed 100% of the tests, the first 10 boards will ship this week. The remaining 90 boards should be here any day now...
 
@@ -30,7 +31,7 @@ Payment via paypal to chris1howell83@gmail.com
 || Ship OpenEVSE "Built and Tested"|| ||
 
 || Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
-|| 1 || Sven.Leser || Built || RGB LCD Built - Int Ship || Paid || ||
+|| 1 || Sven.Leser || Built || RGB LCD Built - Int Ship || Paid || Picked up 3/6 ||
 || 2 || serge.bierhuizen || Built || RGB RTC built - EV Sim || Paid || ||
 || 3 || rmbertjones || Kit || EV Sim Kit || Paid || ||
 || 4 || Krull.Justin ||Kit || RGB kit - EV sim kit || Paid || ||
