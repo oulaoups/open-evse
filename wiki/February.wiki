@@ -54,7 +54,6 @@ Payment via paypal to chris1howell83@gmail.com
 || || ellweber || Built|| RGB LCD RTC Built - EV Sim || Paid || ||
 || ||  jpaction1964 || Built || || Paid || ||
 || || rocketguy || Built || RGB LCD Built || || ||
-|| || bikekite || Kit || || || ||
 || || propoxyphene12 || Built || RGB LCD w RTC || Paid || ||
 || || rfulcher || Kit || || || || 
 || || Jay || Built || RGB LCD Built - EV Sim || Paid || ||
