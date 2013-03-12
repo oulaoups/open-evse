@@ -34,19 +34,19 @@ Payment via paypal to chris1howell83@gmail.com
 || 1 || Sven.Leser || Built || RGB LCD Built - Int Ship || Paid || Picked up 3/6 ||
 || 2 || serge.bierhuizen || Built || RGB RTC built - EV Sim || Paid || ||
 || 3 || rmbertjones || Kit || EV Sim Kit || Paid || ||
-|| 4 || Krull.Justin ||Kit || RGB kit - EV sim kit || Paid || ||
+|| 4 || Krull.Justin ||Kit || RGB kit - EV sim kit || Paid || Shipped 3/11 ||
 || 5 || michaelma8888 || Built || RGB LCD || Paid || ||
 || 6 || flbas1 || Built || RGB LCD || || ||
 || 7 || VintageAirLLC || Built || || Paid || ||
-|| 8 || cjswan ||	Kit || || Paid || || 
-|| 9 || maboutte || Kit || RGB LCD RTC kit || Paid || ||
+|| 8 || cjswan ||	Kit || || Paid || Shipped 3/11 || 
+|| 9 || maboutte || Kit || RGB LCD RTC kit || Paid || Shipped 3/11 ||
 || 10 ||  2sign || Built || RGB LCD Built - EV SIM || Paid || ||
 || 11 || Mathieu (France) ~2 || Built || RGB LCD RTC Built - EV sim || Paid || ||
 || 12 || skider67 (France) || Kit || Kit || Paid || ||
 || 13 || hexidecimalgadget || Built || RGB LCD Built - EV sim || Paid || || 
 || 14 || thadthig || Built || RGB LCD Built || Paid || ||
 || 15 || louisfulton || Kit || || Paid || ||
-|| 16 ||  gt1485a || Kit || || Paid || ||
+|| 16 ||  gt1485a || Kit || || Paid || Shipped 3/11||
 || 17 || wigthft || Built || RGB LCD Built - EV Sim || || ||
 || 18 || jackncoke72 || Built || || Paid || ||
 || 19 || 3400broadway || Built || LCD Built || Paid || ||
