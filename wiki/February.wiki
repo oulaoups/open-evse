@@ -84,3 +84,4 @@ Payment via paypal to chris1howell83@gmail.com
 || || SkiSky1 || Kit || EV Sim || Paid || Shipped 3/12 ||
 || || walter || Built || LCD RTC built -EV Sim || Paid || ||
 || || mb2452 || Built || || || ||
+|| || markdinh || Built || LCD RTC built - EVSim || Paid || ||
