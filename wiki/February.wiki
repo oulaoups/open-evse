@@ -86,3 +86,4 @@ Payment via paypal to chris1howell83@gmail.com
 || || mb2452 || Built || || || ||
 || || markdinh || Built || LCD RTC built - EVSim || Paid || ||
 || || Bas || Built INT || LCD RTC built - EVSim || Paid || ||
+|| || jdbui.nmr || Built || LCD RTC built || Paid || ||
