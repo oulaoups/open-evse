@@ -10,6 +10,7 @@ OpenEVSE has been tested with:
 || All || Nissan || LEAF || Timers - Supported || 3.3kW - 16A @ 240V || None ||
 || All || Chevy || VOLT || Timers - Supported || 3.3kW - 16A @ 240V || None ||
 || All || Toyota|| PiP || Timers - Supported || 2.8kW - 12A @ 240V || None ||
+|| All || Toyota || Rav4 EV || || 10kw - 40A @240V || None ||
 || All || Mitsubishi || i-MiEV || || 3.3kW - 16A @ 240V || None ||
 || All || Ford || Focus EV || || 6.6kw - 30A @ 240V || None ||
 || 2013 || Ford || C-Max Energi || Timers - Supported || 3.3kW - 16A @ 240V || None ||
