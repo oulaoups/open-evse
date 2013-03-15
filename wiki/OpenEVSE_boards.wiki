@@ -5,7 +5,7 @@
 || Picture ||http://farm8.staticflickr.com/7247/8169379635_84f577e1f3_n.jpg||http://farm7.staticflickr.com/6222/7003031805_747830f4b7_n.jpg||http://farm9.staticflickr.com/8453/8041888276_24c025f0b7.jpg||
 || || Built and Kit || DIY - Files only  || DIY - Files only ||
 || Current HW version || OpenEVSE Plus v2 || OpenEVSE shield v1 || DIY EVSE v4 || 
-|| Firmware || pre-loaded || Requires Arduino UNO || ||
+|| Firmware || pre-loaded || Requires Arduino UNO || Requires ISP programmer ||
 || Power Supply || Integrated 4W || External || External || 
 || GFCI || Yes || Yes || Yes ||
 || Diode Check || Yes || Yes || Yes ||
