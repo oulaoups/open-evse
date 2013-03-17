@@ -21,6 +21,9 @@ http://arduino.cc/en/Main/Software
 
 To set up the Arduino IDE for use with an ISP check out lincomatic's blog. http://blog.lincomatic.com/?p=10
 
+=== Setting Fuse Bits ===
+If you are burning virgin chips, you must set the fuse bits prior to programming. Fuses only need to be set once and will retain the settings unless reset. Refer to https://code.google.com/p/open-evse/wiki/AVRDUDE for how to accomplish this.
+
 === Enabling features ===
 To enable a feature delete the "//" in front of the #define tag. To disable a feature add "//"...
 
