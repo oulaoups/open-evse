@@ -17,6 +17,8 @@ Command assumes you are using the USBtiny, if using another programmer substitut
 avrdude -c usbtiny -p m328p -U lfuse:w:0xFF:m
 avrdude -c usbtiny -p m328p -U hfuse:w:0xDA:m
 avrdude -c usbtiny -p m328p -U efuse:w:0x05:m
+
+*NOTE:* The extended bits (efuse) setting may get a readback of "FD" rather than "05". This is okay. "FD" is functionally the same as "05" and you can use either value to accomplish the same thing. 
 }}}
 
 Once your board has its fuses set you can load the OpenEVSE firmware.
