@@ -21,14 +21,14 @@ Payment via paypal to chris1howell83@gmail.com
 
 || Planning || Done || 
 || Order parts || Done ||
-|| Build - SMT || Gold Pheonix - In progress ||
+|| Build - SMT || Gold Pheonix - Done ||
 || Load Firmware || In Progress ||
-|| Package OpenEVSE Plus "Kit" || In Progress ||
-|| Ship OpenEVSE Plus "Kit" || In Progress ||
-|| Build - Through hole parts || ||
-|| Test OpenEVSE "Built and Tested"|| ||
-|| Package OpenEVSE "Built and Tested" || ||
-|| Ship OpenEVSE "Built and Tested"|| ||
+|| Package OpenEVSE Plus "Kit" || Done ||
+|| Ship OpenEVSE Plus "Kit" || Done ||
+|| Build - Through hole parts || In Progress||
+|| Test OpenEVSE "Built and Tested"|| In Progress||
+|| Package OpenEVSE "Built and Tested" || In Progress ||
+|| Ship OpenEVSE "Built and Tested"|| In Progress ||
 
 || Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
 || 1 || Sven.Leser || Built || RGB LCD Built - Int Ship || Paid || Picked up 3/6 ||
