@@ -56,6 +56,9 @@ In Atmel Studio, click "Tools -> Device Programming". Follow the same setup proc
 
 == Changing source code ==
 If you've made it this far, Congratulations! You are now ready to start the real work. The entire OpenEVSE firmware source code is built for the Arduino IDE. That means you need to modify the header _#includes_ and go download some external libraries. If you just try opening and compiling the source code, you will get many errors for missing libraries. 
+  # Download the following files and save them to C:\Program Files\Atmel\AVR Tools\AVR Toolchain\avr\
+{{{ http://arduino.googlecode.com/svn/trunk/hardware/arduino/cores/arduino/WProgram.h
+}}}
 (TO DO: Show how to download and configure libraries)
 
 (TO DO: Walk through a complete compile/upload of known stable code)
