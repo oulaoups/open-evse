@@ -36,18 +36,20 @@ Setting fuse bits only *needs* to be done once per chip, but you can go back and
 
 To set fuse bits from Atmel Studio, select "Tools -> Device Programming". Select your programmer from the _Tool_ drop down, select "ATmega328" from the _Device_ drop down, and select "ISP" from the _Interface_ drop down. _*NOTE:* Some people buy the ATMega328P, others buy the ATMega328. The "P" at the end makes a difference for the device signature. Be sure to select the right one for your chip. Also, there is some confusion about the "-PU" at the end of the model number. That is NOT a "P" chip, it designates the caterpillar-like PDIP packaging vs. the surface-mount square chips and both the "P" and "Non-P" ATMega328 chips have this._ Click the Apply button then click "Fuses" on the left side of the dialog window. From here, you can either click check boxes or go directly to the hex numbers at the bottom. I prefer going directly to the hex numbers since I already know what values to use. Use these settings: <br>
 {{{
-Extended: 0x05 <br>
-High: 0xDA <br>
-Low: 0xFF <br>
+Extended: 0x05 
+High: 0xDA 
+Low: 0xFF 
 }}}
 The appropriate check boxes will automagically update in the top of the window.
+*NOTE:* The extended bits (efuse) setting may get a readback of "FD" rather than "05". This is okay. "FD" is functionally the same as "05" and you can use either value to accomplish the same thing. 
+
 
 To send these settings to the chip, click the Program button.
 
 *CAUTION:* Do NOT set the RSTDSBL bit or the DWEN bit. If you do, the chip will no longer accept ISP programming instructions. As mentioned above, you can still save the chip by using high voltage programming in an AVR Dragon or STK600 programmer/debugger board. I can unlock chips for you too if you contact me.
 
 == Burning a hex file to the chip ==
-Assuming you have successfully programmed the fuse bits and have a stable connection to the chip that enters programming mode when you need it to, start by just burning a pre-compiled HEX file. You can download one from the Downloads area of this project site. Save it to any convenient location. 
+Assuming you have successfully programmed the fuse bits and have a stable connection to the chip and it enters programming mode when you need it to, start by just burning a pre-compiled HEX file. You can download one from the Downloads area of this project site. Save it to any convenient location. 
 In Atmel Studio, click "Tools -> Device Programming". Follow the same setup process you used to program fuse bits, and then click "Memories" on the left pane. In the "Flash (32KB)" area, keep the default check boxes checked, navigate to the file you downloaded and then click the Program button. Done! You now have a chip that will function in an Open EVSE board. If you get a chip that already has a program on it, you can save the existing program prior to burning a new one by clicking the "Read..." button and saving the file somewhere you can find. Feel free to open the HEX file in Notepad or Wordpad. You can't read anything useful, but it's kind of cool to see what the chip actually reads to perform the magic.
 
 == Changing source code ==
