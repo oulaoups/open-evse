@@ -1,0 +1,198 @@
+=Guide for Assembling a J1772, 30A OpenEVSE.=
+
+= Introduction =
+
+Add your content here.
+
+
+==Parts list:== 
+http://code.google.com/p/open-evse/wiki/OpenEVSE_Workshop?ts=1352676672&updated=OpenEVSE_Workshop
+
+==Notes:==
+
+Hookup wire- 18AWG, 300V, 80C, stranded.
+
+There are many opinions whether to use the Anderson connectors or not. Learn the pros and cons before deciding.
+
+The strain relief collar for the J1772 cable can be the same size as the one used for the AC Line especially if not using the Anderson connectors.
+
+Changes for assembling the OpenEVSE Plus Version 2- 
+  # Version 2 has three connections for the Relay Coil. This project uses the Relay 1, 12VDC and the Relay Common connections.
+  # The Relay 2, 12VDC connection would be used if your design has two SPST relays instead of one DPST relay. The second relay would be connected to the Relay Common as well.
+  # There are three 0.1” pins in a row next to the connections. The two pins closest to the edge of the board are for the CT Coil. They are not polarized.
+
+==A. Assemble Components on the Mounting Plate==
+
+  # Mark the hole positions on the mounting plate from a template or from your choice of component locations. 
+  # Punch starting holes at those locations. 
+  # Drill holes 1/8". Ground bar hole is larger. 
+  # File the holes smooth on both surfaces. 
+  # Mount the components with the nuts on the back (bottom).
+   # The relay is at the top left corner with the four closely spaced lugs towards the bottom. Use washers on the bolts holding the relay.
+   # The EVSE board is at the top right corner, oriented as shown in Photo 1. Use ¼” stand offs between the EVSE/Power supply board and the mounting plate.
+   # The ground bar is positioned below the EVSE board. 
+   # The four standoffs are set at the places marked by a black dot in Photo 1. Pre-thread the lock-washers on the same size metal bolts before to attaching them to the plastic standoffs. This will avoid stripping the plastic threads.
+  # Check that the mounting plate, with components, fits in the box with no conflicts.
+   * If the nuts or bolts keep the mounting plate from seating, shorten the bolts or file the nub that interferes.
+
+Photo 1
+
+==B. Wiring the Open EVSE Plus Board==
+
+===Version 1===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===Version 2===
+ 
+
+
+  # Cut 18 gauge stranded wire into 6 segments of the desired lengths. This project used:
+   # For AC Line 1and 2- Black 5", Red 4-1/8". 
+   # For AC Test 1 and 2- Black 4-1/4", Red 4-1/16". 
+   # For the Relay Coil 12V- Black 8-5/8", Red 8-3/8" (twisted together). It is better to use colors other than black red, white or green.
+  # Strip one end of each wire 1/4". Crimp a ¼” Quick Connect (red) on that end (#15 crimp).
+  # Strip the other end 3/16” for the blue screw downs.
+  # Insert each wire into its blue screw down on the EVSE board and tighten.
+  # Attach the ¼” Quick Connects 18-22AWG (red) of the Relay Coil 12V wires to the Relay lugs labeled in photo 5. These connections are not polarized. *Version 2-* connect to Relay 1, 12V DC and Relay Common.
+  * If soldering the current sensor directly to the pins, do now before installing the mounting plate in the box (See diagram in the J1772 Plug section).
+   # Strip the end of the wires connected to the Coil. Tin.
+   # Tin the 2 CT Coil pins on the EVSE board.
+   # Put shrink wrap over each wire.
+   # Solder the wires to the pins. These connections are not polarized.
+   # Push the shrink wrap over the exposed metal and heat with a hair dryer.
+
+==C. Project Box==
+
+  # Determine the orientation of the box and the board.
+   * This project: The latches are on the right; AC power enters from top; J1772 wire enters at the center bottom with the fuses at the bottom left. 
+  # Drill a 15/16" hole for the AC power strain relief fitting. 
+   * Drill hole off center so the ferrite core will fit between components.
+  # Drill a 1.5" hole in the center of that side for the J1772 wire strain relief fitting. 
+  # Drill two 1/2" holes for the fuse holders as shown below.
+  # Clean and smooth all of these holes. 
+  # Attach the mounting plate with components to box with two screws.
+   * If the nuts or bolts keep the mounting plate from seating, shorten the bolts or file the nub that interferes.
+  # Install AC cable and J1772 strain relief fittings. The rubber washer is on the outside. 
+  # Install the bottom fuse holder. The rubber washer is on the outside. The upper fuse holder will be installed after soldering the bottom one.
+
+==D. AC Line cable==
+
+  # Cut the AC cable to desired length.
+   * If the EVSE will be plugged in: Maximum length is18 inches per the Electrical Code.
+   * If it will be hard wired: Skip these steps until the unit is installed. Go to *Section E. J1772 Plug*.
+  # Remove the last foot of the jacket (outside insulation) from the AC cable. Be careful not to nick the underlying insulation.
+  # Slide the strain relief nut over the cable. Feed all three wires through the fitting. Be sure the jacket extends into the fitting. Tighten. 
+  # Run the two power lines (black and white) through the ferrite core. 
+  # Cut a segment of the black and the white wire from the AC cable to the length needed to go from the side lug of the fuse assembly to the relay lug. 
+  # Strip 3/8" of one end of these short wires and crimp each to a ¼” Quick Connect 10AWG (yellow) with piggy back (#45 crimp).
+  # Strip the other end of these short wires, 1/4". Tin the ends.
+  # Cut the green wire from the AC cable to the length needed to reach the ground bar. Strip the end 5/16". Insert it into the ground bar and tighten securely. 
+  # The black and the white wires from the AC cable attach to the center lug of their respective fuse holder. Cut each to to length desired and strip each end 1/4". Tin.
+  # Tin both lugs of each fuse holder. 
+  # Slide shrink wrap over each wire. Move it as far away as possible from the soldering point. 
+   * A second shrink tube can be used to cover both of the same colored wires. Slide it over both wires before putting the shrink wrap on the individual wires.
+  # Solder either the black or white wire from the AC cable to the center lug of the bottom fuse holder. 
+  # Solder the short wire of the same color to the small lug of the bottom fuse holder.
+  # Install the upper fuse holder and attach the remaining two wires in the same way.
+  # Position the shrink wrap over the exposed metal. Heat to shrink the tubing. 
+  # Attach the black AC Line Quick Connect (red) to the piggy back of the yellow Quick Connect attached to the black wire. The bulge on the red Quick Connect should face away from the yellow Quick Connect.
+  # Attach the red AC Line Quick Connect (red) to the piggy back of the yellow Quick Connect attached to the white wire. The bulge on the red Quick Connect should face away from the yellow Quick Connect.
+  # Attach these yellow Quick Connects to the relay on AC Line 1 and 2 lugs, with the red Quick Connects facing away from the AC Test 1 & 2 lugs.
+
+==E. J1772 Plug==
+
++*There is disagreement whether to use Anderson Connectors.* 
+
+  # Remove the end 15 inches of the J1772 line jacket (outside insulation). Be careful not to nick the underlying insulation. 
+  # Cut the blue wire short, bend 180º and insulate by covering with electric tape. It is not used. 
+  # Cut the remaining wires, measured from the stripped jacket insulation. This project used-
+   # Orange- 6mm 
+   # Black- 10mm
+   # Red- 13mm (different than pictured)
+   # Green- 15mm. Must be the longest. 
+    * The length is staggered to disconnect the wires in the safest order if the J1772 cable is pulled out of the box.
+  # Strip the ends of the 4 wires from the J1772 plug and one end of each of the four short wires just cut.
+  # Crimp a metal Anderson connector to each of these stripped ends. Eight in total.
+  # Insert the metal connector into the plastic housing of the same color as the wire with the tab and round plastic bump down, opposite the metal plate. It should click and not pull out. 
+  # Slide the strain relief nut over the cable.
+  # Run the 5 wires of the J1772 plug through the strain relief collar in the box with the jacket inserted into the collar. Tighten.
+  # Run the black and red wire through the current sensor. 
+   * If using a connector for the current sensor- 
+    # Strip the end of both wires. Tin.
+    # Crimp each wire to a metal pin.
+    # Insert each pin into the plastic housing until it clicks. 
+    # Attach to the CT Coil pins on the EVSE board. These are not polarized. Version 2- these are the outside two pins labeled GFCI CT.
+  # Cut each short wire segment from the J1772 to the length needed to go from its Anderson connector to its connection point. See photo 10 below.
+   # Green wire- strip the end 5/16" and insert into the ground bar (approximately 6" long).
+   # Orange wire- strip the end and connect to the Pilot screw-down on the EVSE board. (2-3/4" long)
+   # The black and the red wire attach to the lugs on the relay. Strip the ends 3/8", then crimp a yellow Quick Connect on each wire (black 4-3/8"; red 5-3/8" long).
+  # Attach each AC Test red Quick Connect to the yellow Quick Connect of the same color wire. The plastic bulge on the red Quick Connect facing away from the yellow Quick Connect.
+  # Attach the yellow Quick Connects to the AC Test 1 and 2 lugs on the relay with the red Quick Connects facing away from the AC Line lugs. 
+  # Cut the 18 gauge green stranded wire to the length needed to go from the EVSE board to the ground bar.
+  # Strip the ends of this green wire and attach one end to the screw down and the other to the ground bar. Tighten both. 
+  # Install the two fuses.
+  # Test the unit as described at http://code.google.com/p/open-evse/wiki/EVSE_TESTING 
+  # The unit should now be functional unless the firmware on the EVSE board requires a display.
+
+*Completed EVSE Wiring*
+(Note: the ground wire is shown going through the ferrite core.
+While not causing a problem, it should not go through the core.)
+
+==F. Display and Shield: Adafruit display==
+
+  # Assemble the shield and the display using the Adafruit tutorial on the web at http://learn.adafruit.com/rgb-lcd-shield/parts-list.
+   * Except:
+    # Do not install pins on the back of the shield for the Arduino connection. 
+    # Skip Arduino connection instructions.
+    # You may slightly enlarge the holes used to hold the display and shield to better fit the bolts.
+    # Use ¼” spacers and the bolts to hold the display and shield ali gned before soldering the headers to the boards.
+    # Only the select button and potentiometer are being used for the Open EVSE with the current firmware.
+  # Strip the four wires connected to the 4 pin connector 1/16". Be especially careful not to nick the wire. Tin the wire ends.
+  # Attach the wires from the 4 pin connector to the shield at the following holes located between “adafruit!” and “Reset” (looking from above): 
+   # Yellow wire- 3rd hole from the left. 
+   # Green wire- 4th hole from the left.
+   # Connect the 4th hole from the left to the 5th hole from left with a solder bridge or a jumper.
+   # Red wire- 2nd hole from the right.
+   # Orange wire- the far right hole. 
+    * Use one of the following methods: 
+    # Solder the wires directly to the holes in the board, entering from below.
+    # Solder the wires to two headers. 
+     * Looking at the shield from the top:
+      # Solder a 1x3 0.1” header into the 3rd, 4th and 5th hole from the left, with the long pins down.
+      # Solder a 1x2 0.1” header into the two holes on the far right, with the long pins down.
+      # Put shrink wrap over each wire and solder each wire to the correct long pin. 
+      # Create a solder bridge between the short pins (on top) connected to the 4th and 5th hole from the left.
+      # Position the shrink wrap over the exposed metal. Heat to shrink.
+     * Underside of the Shield- Wires Soldered Directly to Headers (gray=yellow/ purple=green/ black=red/ white=orange)
+    # Solder the wires to two connectors that will plug into two headers.
+     # Solder the headers to the shield as described in the previous section.
+     # Crimp a metal pin to each wire.
+     # Orient the pin so the tab is towards the opening on the side of the connector. Insert each metal pin into the plastic housing until it clicks and won’t pull out.
+     # Insert the yellow and green wire into one 2 pin connector.
+     # Insert the red and orange wire into the other 2 pin connector.
+     # Attach the connectors to the pins on the shield so that the correct color wire contacts the correct pin.
+  # Use bolts to connect the display to the standoffs. 
+  # Attach the 4 pin connector to the 4 pins at the bottom right of the EVSE board. Ground is the far right pin, going clockwise around the board.
+  # After powering the EVSE, adjust the potentiometer to get a clear display of the characters.
+  # The information and control available from the display is determined by the firmware version loaded in the EVSE board.
+  * Completed Unit (Note: Ground should not go through the ferrite core. Anderson Connectors are optional.)
+
+ 
