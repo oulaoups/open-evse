@@ -1,9 +1,13 @@
 =Guide for Assembling a J1772, 30A OpenEVSE.=
+  * ====Using OpenEVSE Plus v1 (updated for v2)====
 
-= Introduction =
+= Usual Disclaimers =
 
-Add your content here.
+This project requires the use of tools and methods that can cause injury if not performed correctly. Any electrical work can be dangerous. This EVSE operates on 120 and 240Volts AC at up to 30 Amps. Improper assembly can cause damage to the car, fire, injury and/or death. 
+===*Do not attempt this project unless you are qualified.*===
 
+This guide is based on the workshops held in Cerritos, CA that occured during December, 2012, January and February 2013. This information was gleaned from garygid, chris1howell, glennD and others there. It is written by a novice to help people at a similar level. It assumes that one has the basic skills for soldering, wire work, working with electricity and general understanding of how to assemble things. Think about each step critically before doing it. Get advice from a knowledgeable person if something is not clear or seems questionable.
+===*No warranty, guarantee or assurances are made that this will work, be safe or last. In other words, proceed at your own risk!*===
 
 ==Parts list:== 
 http://code.google.com/p/open-evse/wiki/OpenEVSE_Workshop?ts=1352676672&updated=OpenEVSE_Workshop
