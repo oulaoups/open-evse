@@ -88,8 +88,6 @@ Payment via paypal to chris1howell83@gmail.com
 || || SkiSky1 || Kit || EV Sim || Paid || Shipped 3/12 ||
 || || walter || Built || LCD RTC built -EV Sim || Paid || ||
 || || mb2452 || Built || LCD RTC built - EV Sim || Paid || ||
-|| || eHelmholtz || Built || RTC LCD Built || Paid || ||
 || || markdinh || Built || LCD RTC built - EVSim || Paid || ||
 || || Bas || Built INT || LCD RTC built - EVSim || Paid || ||
-|| || jdbui.nmr || Built || LCD RTC built || Paid || ||
 || || j.scutzlas || Built || LCD RTC built || Paid || ||
