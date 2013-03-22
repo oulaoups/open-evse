@@ -12,7 +12,6 @@
     * [EVSE_by_mwolrich 30A portable EVSE by mwolrich]
     * [EVSE_by_thinwing EVSE by thinwing]
     * [EVSE_EV_ChargeAmerica_Upgrade Rebuild of broken EVCA EVSE]
-    * [EVSE_Example75A 75A EVSE by chris1howell]
     * [75AOpenEVSE 75A EVSE by mwolrich]
     * [EVSE_LORDSn1per EVSE by Phillip Carlson]
     * [EVSE_by_4Dolio 30A portable EVSE by 4Dolio]
