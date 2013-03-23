@@ -77,7 +77,6 @@ Payment via paypal to chris1howell83@gmail.com
 || || devincarlisto || Built || LCD Built || || || 
 || || iainbarnes || Built|| LCD RTC Built - EV sim || Paid || ||
 || || jaquescolin || kit || LCD kit - EV Sim || Paid || Shipped 3/12 ||
-|| || mc.lacey || Built || || || || 
 || || King || Built || LCD RTC Built || Paid || ||
 || || fiester || Built || LCD RTC Built - EVSIM || Paid || ||
 || || mc.lacey || Built || LCD RTC Built || Paid || ||
