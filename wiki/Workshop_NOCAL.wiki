@@ -21,7 +21,7 @@ Space Limited to 8 builders. Helpers, guests and visitors welcome.
 
 || Part || Source || Cost || Quantity || Link ||
 || OpenEVSE Plus Board (Built) || OpenEVSE || $135 ($15 discount) || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
-|| OpenEVSE LCD (Built) || OpenEVSE || $30 ($10 discount) || 1 || ||
+|| OpenEVSE LCD (Built) || OpenEVSE || $30 ($10 discount) || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
 || J-1772 cable, 30 amps (A3435-PEV) || Leviton || $134.00 || 1 ||http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
 || 30A Relay || Digikey || $13.03 || 1 ||  http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
 || Current Transformer || Digikey || $10.65 || 1  ||http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
