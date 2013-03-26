@@ -25,7 +25,7 @@ Space Limited to 8 builders. Helpers, guests and visitors welcome.
 || J-1772 cable, 30 amps (A3435-PEV) || Leviton || $134.00 || 1 ||http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
 || 30A Relay || Digikey || $13.03 || 1 ||  http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
 || Current Transformer || Digikey || $10.65 || 1  ||http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
-|| Enclosure || DS ||  || 1 || ||
+|| Enclosure || Diversified Stage Inc. || 58.00 || 1 || https://ssl.diversifiedstage.com/estore/ ||
 || FUSEHOLDER 30A || Digikey || $4.00 || 1 ||http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
 || FUSE 30A || Digikey || || 2 || ||
 || VARISTOR 250V 72J 14MM CRIMPD LA (F5598CT-ND) || Digikey || $.62 || 2 || http://www.digikey.com/product-detail/en/V250LT20AP/F5598CT-ND/3307079 ||
