@@ -31,7 +31,9 @@ Space Limited to 8 builders. Helpers, guests and visitors welcome.
 || VARISTOR 250V 72J 14MM CRIMPD LA (F5598CT-ND) || Digikey || $.62 || 2 || http://www.digikey.com/product-detail/en/V250LT20AP/F5598CT-ND/3307079 ||
 || FERRITE TUBULAR BEAD 19.05MM (240-2119-ND) || Digikey || $1.39 || 2  || http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=240-2119-ND&x=15&y=15&cur=USD ||
 || Quick Connect 1/4" Piggy back 10AWG || Digikey || $0.57 || 4 || http://www.digikey.com/product-detail/en/19013-0033/WM18717-ND/1642379 ||
-|| Quick Connect 1/4" 18 - 22AWG || Digikey || $0.30 || 6 || http://www.digikey.com/product-detail/en/0190030107/WM2928CT-ND/2405590 ||
+|| Quick Connect 1/4" 10AWG || Digikey || $0.43 || 4 || http://www.digikey.com/product-detail/en/0196060002/WM2980-ND/2405558 ||
+
+|| Quick Connect 1/4" 18 - 22AWG || Digikey || $0.30 || 8 || http://www.digikey.com/product-detail/en/0190030107/WM2928CT-ND/2405590 ||
 || 1/4" Stand-off || Digikey || $0.14 || 8 || http://www.digikey.com/product-detail/en/9905-250/492-1104-ND/586424 ||
 || 30A AC Plug L6-30 || Stay Online || $33.00 || 1  || http://www.stayonline.com/detail.aspx?ID=15695 ||
 || Waterproof Button (Green) || Adafruit || $5.36 || 1 || http://www.adafruit.com/products/560 ||
