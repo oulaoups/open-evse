@@ -1,6 +1,8 @@
 #summary February Batch.
 
 = Introduction =
+*Update 3/26* 50 boards have been kitted/built so far and I am cranking them out. This week I more than doubled my goal of 10 with 23 built...
+
 *Update 3/18* First 10+ Built and tested boards shipped. My goal is to ship at least 10 a week until the backlog is gone...
 
 *Update 3/12* All kits have shipped...
@@ -45,8 +47,8 @@ Payment via paypal to chris1howell83@gmail.com
 || 8 || cjswan ||	Kit || || Paid || Shipped 3/11 || 
 || 9 || maboutte || Kit || RGB LCD RTC kit || Paid || Shipped 3/11 ||
 || 10 ||  2sign || Built || RGB LCD Built - EV SIM || Paid || Shipped 3/18||
-|| 11 || Mathieu (France) ~2 || Built || RGB LCD RTC Built - EV sim || Paid || ||
-|| 12 || skider67 (France) || Kit || Kit || Paid || ||
+|| 11 || Mathieu (France) ~2 || Built || RGB LCD RTC Built - EV sim || Paid || Shipped 3/27 ||
+|| 12 || skider67 (France) || Kit || Kit || Paid || Shipped 3/27 ||
 || 13 || hexidecimalgadget || Built || RGB LCD Built - EV sim || Paid || Shipped 3/18 || 
 || 14 || thadthig || Built || RGB LCD Built || Paid || Shipped 3/18 ||
 || 15 || louisfulton || Kit || || Paid || Shipped 3/12 ||
