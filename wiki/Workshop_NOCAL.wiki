@@ -36,7 +36,7 @@ Space Limited to 8 builders. Helpers, guests and visitors welcome.
 || 30A AC Plug L6-30 || Stay Online || $33.00 || 1  || http://www.stayonline.com/detail.aspx?ID=15695 ||
 || Waterproof Button (Green) || Adafruit || $5.36 || 1 || http://www.adafruit.com/products/560 ||
 || Strain Relief || Polycase || $7.00 || 2 || http://www.polycase.com/cg-17 ||
-|| Ground Bar Kit || Home Improvement store || $5.00 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
+|| EATON GBK5 Ground Bar Kit || Home Improvement store || $3.95 || 1 || http://www.homedepot.com/p/t/100133761?catalogId=10053&langId=-1&keyword=GBK5&storeId=10051&N=5yc1v&R=100133761 ||
 || Hookup wire 20AWG Red, Black, Green || Radio Shack || $8.99 || 1 ||  http://www.radioshack.com/product/index.jsp?productId=2049743 ||
 
 || *Total* || *~$475* ||
