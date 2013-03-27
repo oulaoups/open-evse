@@ -71,9 +71,9 @@ Changes for assembling the OpenEVSE Plus Version 2-
    * This project: The latches are on the right; AC power enters from top; J1772 wire enters at the center bottom with the fuses at the bottom left. 
   # Drill a 15/16" hole for the AC power strain relief fitting. 
    * Drill hole off center so the ferrite core will fit between components.
+   * http://imageshack.us/a/img545/5636/photo2openevse.jpg Photo 2- *AC Line* 
   # Drill a 1.5" hole in the center of that side for the J1772 wire strain relief fitting. 
   # Drill two 1/2" holes for the fuse holders as shown below.
-   * http://imageshack.us/a/img545/5636/photo2openevse.jpg Photo 2- *AC Line* 
    * http://imageshack.us/a/img819/5875/photo3openevse.jpg Photo 3- *Fuse Holders & J1772*
   # Clean and smooth all of these holes. 
   # Attach the mounting plate with components to box with two screws.
