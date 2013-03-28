@@ -27,7 +27,7 @@
     # Solder wires directly to the holes.
     # Solder wires to the pins. (Put shrink wrap over the wires, solder connection then slip shrink wrap over the exposed metal and heat to shrink)
 
-  http://imageshack.us/a/img23/3600/img0483cfa.jpg
+  http://imageshack.us/a/img716/4893/img0483cd.jpg
 
 ==Operation:== 
 Position a jumper across the two pins below each letter to select the test states:
