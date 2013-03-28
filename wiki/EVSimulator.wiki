@@ -11,7 +11,7 @@
   * 2x5 header (male) or two 1x5 pin headers		
   * 1x2 pin male (2)                      
 
-  http://img571.imageshack.us/img571/7719/img0465wk.jpg
+  http://imageshack.us/a/img580/38/img0465jf.jpg
 
 ==Assembly==
 
@@ -27,7 +27,7 @@
     # Solder wires directly to the holes.
     # Solder wires to the pins. (Put shrink wrap over the wires, solder connection then slip shrink wrap over the exposed metal and heat to shrink)
 
-  http://imageshack.us/a/img841/2888/img0483el.jpg
+  http://imageshack.us/a/img23/3600/img0483cfa.jpg
 
 ==Operation:== 
 Position a jumper across the two pins below each letter to select the test states:
@@ -45,6 +45,4 @@ Connect the Pilot and ground to proper pins on the J1772 Plug.
  * Pilot and Scope are the pins next to the edge of the board.
  * Ground is the position next to the 246Ω resistor.
 
-J1772 Plug (photo stolen from wikipedia)
-
-
+  http://img543.imageshack.us/img543/5714/j1772plug.jpg
