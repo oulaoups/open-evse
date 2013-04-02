@@ -9,7 +9,7 @@ The waiting list for Prebuilt boards is currently about 3 weeks. Kits are in sto
 
 Prices $USD
 || *Part* || *Kit* || *Assembled and Tested* || Status ||
-|| OpenEVSE Plus || $135 || $155 || Next Batch - February ||
+|| OpenEVSE Plus || $135 || $155 || Building Now ||
 || RGB LCD backpack || $30 || $40 || Available ||
 || RGB LCD backpack with RTC || $40 || $50 || Available ||
 || EV Simulator || $15 || N/A || Available || 
@@ -21,6 +21,7 @@ Prices $USD
 || *Built Package:* _OpenEVSE Plus (v2), RGB LCD, Assembled & Tested, w/std US shipping_ || *$200* ||
 || *Add EV Simulator:* || add $15 ||
 || *Upgrade LCD with RTC* || add $10 ||
+|| *International Shipping || ad $15 ||
 
 
 
@@ -28,12 +29,9 @@ Prices $USD
 
 *All orders are via paypal.* Send payment to *chris1howell83@gmail.com*
  * Be sure to include a note with payment of what you are ordering.
- * Leaving a note in the comments below is accepted, but not required.
- * Only PAID orders are processed
-OpenEVSE boards are hand built in limited quantities and will be sold in batches of 20 boards per month starting January 2013. A Wiki will be posted a several weeks before the start of a month. Payment via paypal will be due 1 week prior to the start of the month to purchase all the required parts for the batch.
+ * Only PAID orders are processed/shipped
+OpenEVSE boards are available is kit form with all small components pre-soldered or built in limited quantities.
 
 January [http://code.google.com/p/open-evse/wiki/January?ts=1356125971&updated=January Link]
 
-February [http://code.google.com/p/open-evse/wiki/February?ts=1360551823&updated=February Link]
-
-March
+February/March/April [http://code.google.com/p/open-evse/wiki/February?ts=1360551823&updated=February Link]
