@@ -1,7 +1,7 @@
 #summary Frequently Asked Questions.
 #labels Featured
 
-*I bought a board. What else do I need?*
+*If I buy a OpenEVSE board and LCD. What else do I need?*
 You will need J1772 cable, AC cable, enclosure, relay, Current Transformer, connectors and misc hardware. Check the Wiki for example builds most have full parts lists.
 
 *Does the OpenEVSE board come with a LCD?*
