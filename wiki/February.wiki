@@ -61,7 +61,7 @@ Payment via paypal to chris1howell83@gmail.com
 || ||  jpaction1964 || Built || || Paid || Shipped 3/18 ||
 || || rocketguy || Built || RGB LCD Built || Paid || Shipped 3/27 ||
 || || propoxyphene12 || Built || RGB LCD w RTC || Paid || Shipped 3/18 ||
-|| || rfulcher || Kit || || || || 
+|| || rfulcher || Kit || || Paid || Shipped 3/18 || 
 || || Jay || Built || RGB LCD Built - EV Sim || Paid || Shipped 3/27 ||
 || || ales || Built || RGB LCD Built || || ||
 || || jebork || Built || RGB LCD Built - EV Sim || Paid || Shipped 3/27 ||
