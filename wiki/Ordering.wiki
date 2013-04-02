@@ -3,7 +3,7 @@
 
 = OpenEVSE boards =
 
-The waiting list for Prebuilt boards is currently about 3 weeks. Kits are in stock and ship in 1 - 2 buisness days.
+The waiting list for Prebuilt boards is currently about 3 weeks. Kits ship in less than 1 week.
 
 = Parts list =
 
@@ -11,7 +11,7 @@ Prices $USD
 || *Part* || *Kit* || *Assembled and Tested* || Status ||
 || OpenEVSE Plus || $135 || $155 || Building Now ||
 || RGB LCD backpack || $30 || $40 || Available ||
-|| RGB LCD backpack with RTC || $40 || $50 || Available ||
+|| RGB LCD backpack with RTC || $40 || $50 || Building now ||
 || EV Simulator || $15 || N/A || Available || 
 || Shipping US || $5 || || ||
 || Shipping Int. (USPS) || $20 || || ||
