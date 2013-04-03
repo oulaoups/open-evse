@@ -3,7 +3,7 @@
 = Introduction =
 
 OpenEVSE Workshop Saturday May 18, 2013.
-
+Rhythmix Cultural Works, 2513 Blanding Ave, Alameda, CA 94501
 
 Estimated Start 0000.
 
@@ -11,8 +11,9 @@ Space Limited to 8 builders. Helpers, guests and visitors welcome.
 
 = Location =
 
-
-
+Rhythmix Cultural Works
+2513 Blanding Ave
+Alameda, CA 94501
 
 =Parts=
 
