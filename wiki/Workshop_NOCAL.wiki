@@ -27,7 +27,7 @@ Space Limited to 8 builders. Helpers, guests and visitors welcome.
 || 30A Relay || Digikey || $13.03 || 1 ||  http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
 || Current Transformer || Digikey || $10.65 || 1  ||http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || FUSEHOLDER 30A AGU || Digikey || $22.15 || 1 ||http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=283-3382-ND&cur=USD||
-|| FUSE 30A AGU || Misc || $2.95 (5pack) || 1 || http://www.allelectronics.com/make-a-store/item/AGU-30/30-AMP-AGU-FUSES-5-PACK/1.html ||
+|| FUSE 30A 240V AGU || Misc ||  || 2 || ||
 || VARISTOR 250V 72J 14MM CRIMPD LA (F5598CT-ND) || Digikey || $.62 || 2 || http://www.digikey.com/product-detail/en/V250LT20AP/F5598CT-ND/3307079 ||
 || FERRITE TUBULAR BEAD 19.05MM (240-2119-ND) || Digikey || $1.39 || 2  || http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=240-2119-ND&x=15&y=15&cur=USD ||
 || Quick Connect 1/4" Piggy back 10AWG || Digikey || $0.57 || 4 || http://www.digikey.com/product-detail/en/19013-0033/WM18717-ND/1642379 ||
