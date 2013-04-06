@@ -1,3 +1,5 @@
+#summary Assembly and Operation.
+
 =EV Simulator Assembly and Operation=
 
   =!Usual Disclaimers apply. Proceed at your own risk!=
