@@ -39,7 +39,7 @@ Alameda, CA 94501
 || Waterproof Button (Green) || Adafruit || $5.36 || 1 || http://www.adafruit.com/products/560 ||
 || Strain Relief || Polycase || $7.00 || 2 || http://www.polycase.com/cg-17 ||
 || EATON GBK5 Ground Bar Kit || Home Depot || $3.95 || 1 || http://www.homedepot.com/p/t/100133761?catalogId=10053&langId=-1&keyword=GBK5&storeId=10051&N=5yc1v&R=100133761 ||
-|| Cooper BussmannFNM FUSE 30A 250V || Home Depot || $9.95 || 1 (pack of 2) || http://www.homedepot.com/p/t/100210941?catalogId=10053&langId=-1&keyword=fuse+30A&storeId=10051&N=5yc1v&R=100210941#specifications ||
+|| 30A 250V Fuse||  ||  ||  ||  ||
 || Hookup wire 20AWG Red, Black, Green || Radio Shack || $8.99 || 1 ||  http://www.radioshack.com/product/index.jsp?productId=2049743 ||
 
 || *Total* || *~$475* ||
