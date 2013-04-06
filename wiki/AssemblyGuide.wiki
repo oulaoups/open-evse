@@ -1,3 +1,5 @@
+#summary J1772, 30A OpenEVSE Plus v.1 or v.2
+
 =Guide for Assembling a J1772, 30A OpenEVSE.=
   ==Using OpenEVSE Plus v1 (updated for v2)==
 
