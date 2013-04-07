@@ -2,9 +2,9 @@
 #labels Featured
 
 || || OpenEVSE Plus || Arduino Shield || Through Hole ||
-|| Picture ||http://farm8.staticflickr.com/7247/8169379635_84f577e1f3_n.jpg||http://farm7.staticflickr.com/6222/7003031805_747830f4b7_n.jpg||http://farm9.staticflickr.com/8453/8041888276_24c025f0b7.jpg||
+|| Picture ||http://farm8.staticflickr.com/7247/8169379635_84f577e1f3_n.jpg||http://farm7.staticflickr.com/6222/7003031805_747830f4b7_n.jpg||http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg||
 || || Built and Kit || DIY - Files only  || DIY - Files only ||
-|| Current HW version || OpenEVSE Plus v2 || OpenEVSE shield v1 || DIY EVSE v4 || 
+|| Current HW version || OpenEVSE Plus v2 || OpenEVSE shield v1 || DIY EVSE v4.2 || 
 || Firmware || pre-loaded || Requires Arduino UNO || Requires ISP programmer ||
 || Power Supply || Integrated 4W || External || External || 
 || GFCI || Yes || Yes || Yes ||
@@ -15,7 +15,7 @@
 || Programmer || ISP or FTDI || ISP or USB/FTDI || ISP or FTDI ||
 || Serial ||  FTDI || USB/FTDI || FTDI || 
 || Suited for || Most EVSEs || Hardware/Software Development || Hardcore DIYers ||
-|| Price || $135-155 || $45 plus Arduino Uno (~$30) || Board $14 + comp ~$70  ||
+|| Price || $135-155 || $45 plus Arduino Uno (~$30) || Board $15 + comp ~$70  ||
 || || $210 w/LCD, RTC, & shp || || ~$150 w/ext comp, brd, & shp ||
 
 How to use the OpenEVSE board to make a [ExampleEVSE basic EVSE].
