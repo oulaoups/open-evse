@@ -98,9 +98,12 @@ The V2,V3,V4 boards require an external 12Vdc power supply of 5 watts or greater
 On the V4 board SPI header pin 5 (reset) is not connected to pin 1 (reset) of the Atmega328, which may be required for some programers (USBTiny ISP).
 
 *_Optional_ circuitry on the V4.2 board:*
+
 *SPI header*: SPI 1 pin header or 5th pin of display header
 Used for optional SPI connected display such as: http://www.adafruit.com/products/347
+
 *Remote LED header:* RGB-R2 header, R2, R8, R9, R23
+
 *L1/L2 Sense components:* JP1, IC5, IC6, R12, R13, F1, F2, C10, C11
 Used to monitor for stuck relay and charging level L1/L2.
 
