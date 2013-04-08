@@ -12,8 +12,8 @@ http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg
 || Fairchild Semi || LM358N || Opamp || LM358 || IC4|| 1|| $0.46|| http://search.digikey.com/us/en/products/LM358N/LM358NFS-ND/458692 || 
 || Fairchild Semi || MID400|| Optocoupler|| 8-dip|| IC5,IC6|| 2|| $4.06|| http://www.digikey.com/product-detail/en/MID400 || 
 || Maxim|| MAX5033BUPA+|| Vreg switching|| 5V || IC7|| 1|| $3.76|| http://www.digikey.com/product-detail/en/MAX5033BUPA%2B || 
-|| On Semiconductor || MC78L12ABPG|| V Regulator|| +12V || IC3|| 1|| $1.04|| http://www.digikey.com/product-detail/en/MC78L12ABPG/MC78L12ABPGOS-ND/919356 || 
-|| On Semiconductor || MC79L12ACPG|| V Regulator|| -12V || IC8|| 1|| $1.04|| http://www.digikey.com/product-detail/en/MC79L12ACPG/MC79L12ACPGOS-ND/919402 || 
+|| On Semiconductor || MC78L12ABPG|| V Regulator|| +12V || IC3|| 1|| $0.45|| http://www.digikey.com/product-detail/en/MC78L12ABPG/MC78L12ABPGOS-ND/919356 || 
+|| On Semiconductor || MC79L12ACPG|| V Regulator|| -12V || IC8|| 1|| $0.54|| http://www.digikey.com/product-detail/en/MC79L12ACPG/MC79L12ACPGOS-ND/919402 || 
 || STMicroelectronics || 2N2222A || NPN Transistor || 2n2222 || Q2|| 1|| $1.26|| http://search.digikey.com/us/en/products/2N2222A/497-2598-ND/603623 || 
 || Citizen Finetech|| HC49US-16.000MABJ-UB|| Crystal || 16000|| Y1|| 1|| $0.63|| http://www.digikey.com/product-detail/en/HC49US-16.000MABJ-UB/300-8499-ND/862775 || 
 || Fairchild Semi || 1N4148TA || Diode || 1N4148 || D1,D3,D4|| 3|| $0.10|| http://search.digikey.com/us/en/products/1N4148TA/1N4148TACT-ND/1532747 || 
@@ -42,7 +42,7 @@ http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg
 || Vishay BC|| HVR2500001004FR500|| Resistor|| 1.0M|| R21|| 1|| $0.57 || http://www.digikey.com/product-detail/en/HVR2500001004FR500 ||
 || Any || Any || Cap (ceramic) || 18pf || C1,C2|| 2|| $0.44|| http://www.digikey.com/product-detail/en/SR151A180JAR ||
 || Any || Any || Cap (ceramic) || 22pf || C8|| 1|| $0.34|| http://www.digikey.com/product-detail/en/K220J15C0GF5TL2/BC1005CT-ND/286627||
-|| Any || Any || Cap (ceramic) || 0.1uf || C3,4,10-15,18,20,21,23-25|| 10|| $0.20|| http://www.digikey.com/product-detail/en/C320C104M5U5TA || 
+|| Any || Any || Cap (ceramic) || 0.1uf || C3,4,10-15,18,20,21,23-25|| 14|| $0.20|| http://www.digikey.com/product-detail/en/C320C104M5U5TA || 
 || Any || Any || Cap (ceramic) || 0.33uf || C22|| 1|| $0.46|| http://www.digikey.com/product-detail/en/SR205E334MAR/478-5733-ND/2136293||
 || TDK Corp.|| FK18X5R1E334K|| Cap (ceramic) || 0.33uf low esr|| C6,C7|| 2|| $0.34|| http://www.digikey.com/product-detail/en/FK18X5R1E334K || 
 || TDK Corp.|| FK18X7R1E105K|| Cap (ceramic) || 1.0uf 25V|| C5,C6,C7|| 3|| $0.43|| http://www.digikey.com/product-detail/en/FK18X7R1E105K/445-8422-ND/2815352 ||
