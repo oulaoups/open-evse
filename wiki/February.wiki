@@ -100,4 +100,5 @@ Payment via paypal to chris1howell83@gmail.com
 || || Wicker || Built || LCD || Paid || Workshop ||
 || ||  troypearce  || Kit || LCD KIT || Paid || ||
 || || beaver || || RTC LCD kit EV Sim || Paid || ||
+|| || beebe || Built || RTC LCD Built EV Sim || Paid ||
  
