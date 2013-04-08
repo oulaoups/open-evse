@@ -103,5 +103,8 @@ Payment via paypal to chris1howell83@gmail.com
 || || beebe || Built || RTC LCD Built EV Sim || Paid ||
 || || leexx549 || Kit || LCD kit - EVsim || Paid || ||
 || || xistent3 || Built || RTC Built - EVSim || Paid || ||
+|| || milinshah || built || RTC Built - EVSim || Paid || ||
+|| || trottier18 || Kit || || || Paid || ||
+
 
  
