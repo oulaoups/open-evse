@@ -106,6 +106,8 @@ Payment via paypal to chris1howell83@gmail.com
 || || milinshah || built || RTC Built - EVSim || Paid || ||
 || || trottier18 || Kit ||  || Paid || ||
 || || bluesguy_1 || Built || RTC Built - EVsim || Paid || ||
+|| || silva || Built || RTC Built - EVSim || Paid || ||
+
 
 
  
