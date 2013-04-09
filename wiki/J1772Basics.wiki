@@ -23,11 +23,19 @@ The J1772 Pilot is a 1khz +12V to -12V square wave, the voltage defines the stat
 
 = Max Current =
 Up to 51A
+
 Amps = Duty cycle x 0.6
+
 Duty cycle = Amps / 0.6
 
+
 51 - 80A
-Amps = (Duty Cycle - 64) * 2.5 
+
+Amps = (Duty Cycle - 64) * 2.5
+
+Duty cycle = (Amps / 2.5) + 64 
+
+ 
 
 || Duty Cycle || Max Current ||
 || < 3% || Error ||
