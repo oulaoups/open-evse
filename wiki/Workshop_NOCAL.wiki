@@ -22,7 +22,7 @@ Alameda, CA 94501
 == 30A portable EVSE ==
 
 || Part || Source || Cost || Quantity || Link ||
-|| OpenEVSE Plus Board (Built) || OpenEVSE || $135 ($15 discount) || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
+|| OpenEVSE Plus Board (Built) || OpenEVSE || $135 ($20 discount) || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
 || OpenEVSE LCD (Built) || OpenEVSE || $30 ($10 discount) || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
 || J-1772 cable, 30 amps (A3435-PEV) || Leviton || $134.00 code LUVLEVTN || 1 ||http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
 || Enclosure || Diversified Stage Inc. || 58.00 || 1 || https://ssl.diversifiedstage.com/estore/ ||
