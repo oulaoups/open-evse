@@ -19,7 +19,9 @@ Alameda, CA 94501
 =Parts=
 
 
-== 30A portable EVSE ==
+== 30A EVSE ==
+
+These parts are to be used as a baseline. A sample unit will be built with the configuration below. Feel free to substitute components to fit your needs or arrange group purchases to save on shipping fees.
 
 || Part || Source || Cost || Quantity || Link ||
 || OpenEVSE Plus Board (Built) || OpenEVSE || $135 ($20 discount) || 1 || http://code.google.com/p/open-evse/wiki/Ordering ||
@@ -40,5 +42,7 @@ Alameda, CA 94501
 || 30A 250V Fuse || Zoro Tools || 3.09 || 2 || http://www.zorotools.com/g/00010027/k-G1141323/ ||
 || FUSEHOLDER 30A AGU || Zoro Tools || $7.21 || 1 || http://www.zorotools.com/g/Midget%20Fuse%20Block/00010592/||
 || Prepped 18AWG with 1/4" QC || All Electronics || $1.00 (qty 10) || 1 (set of 10) ||  http://www.allelectronics.com/make-a-store/item/PL-6/12-18-awg-SOLID-WIRE-LEAD-PREPPED-W/0.25-QC-FEMALE/1.html ||
+
+Note: I have 100 of the Prepped 18AWG with 1/4" QC from All electronics which will be avaliable on the build day.
 
 || *Total* || *~$475* ||
