@@ -32,7 +32,6 @@ Alameda, CA 94501
 || FERRITE TUBULAR BEAD 19.05MM (240-2119-ND) || Digikey || $1.39 || 2  || http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=240-2119-ND&x=15&y=15&cur=USD ||
 || Quick Connect 1/4" Piggy back 10AWG || Digikey || $0.57 || 4 || http://www.digikey.com/product-detail/en/19013-0033/WM18717-ND/1642379 ||
 || Quick Connect 1/4" 10AWG || Digikey || $0.43 || 4 || http://www.digikey.com/product-detail/en/0196060002/WM2980-ND/2405558 ||
-|| Quick Connect 1/4" 18 - 22AWG || Digikey || $0.30 || 8 || http://www.digikey.com/product-detail/en/0190030107/WM2928CT-ND/2405590 ||
 || 1/4" Stand-off || Digikey || $0.14 || 8 || http://www.digikey.com/product-detail/en/9905-250/492-1104-ND/586424 ||
 || 30A AC Plug L6-30 || Stay Online || $33.00 || 1  || http://www.stayonline.com/detail.aspx?ID=15695 ||
 || Waterproof Button (Green) || Adafruit || $5.36 || 1 || http://www.adafruit.com/products/560 ||
@@ -40,6 +39,6 @@ Alameda, CA 94501
 || EATON GBK5 Ground Bar Kit || Home Depot || $3.95 || 1 || http://www.homedepot.com/p/t/100133761?catalogId=10053&langId=-1&keyword=GBK5&storeId=10051&N=5yc1v&R=100133761 ||
 || 30A 250V Fuse || Zoro Tools || 3.09 || 2 || http://www.zorotools.com/g/00010027/k-G1141323/ ||
 || FUSEHOLDER 30A AGU || Zoro Tools || $7.21 || 1 || http://www.zorotools.com/g/Midget%20Fuse%20Block/00010592/||
-|| Hookup wire 20AWG Red, Black, Green || Radio Shack || $8.99 || 1 ||  http://www.radioshack.com/product/index.jsp?productId=2049743 ||
+|| Prepped 18AWG with 1/4" QC || All Electronics || $1.00 (qty 10) || 1 (set of 10) ||  http://www.allelectronics.com/make-a-store/item/PL-6/12-18-awg-SOLID-WIRE-LEAD-PREPPED-W/0.25-QC-FEMALE/1.html ||
 
 || *Total* || *~$475* ||
