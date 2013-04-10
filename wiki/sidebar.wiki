@@ -27,6 +27,11 @@
     * [OpenEVSE_LCD_spec Add a display]
     * [MaxCurrent Set Default Current]
     * [AssemblePlusV2 Build EVSE Plus V2 kit]
+  * *Workshops*
+    * [OpenEVSE_Workshop Socal OpenEVSE Workshop]
+    * [N_Workshop Northern Ca OpenEVSE Workshop May 18, 2013]
+
+
   * *Do it Yourself*
     * [OpenEVSEv1partslist Parts list to DIY V1]
     * [OpenEVSEv2partslist Parts list for DIY V2]
