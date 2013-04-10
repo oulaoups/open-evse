@@ -18,8 +18,10 @@
   * *SAE J1772 Standard*
     * [J1772Basics Basics of J1772]
     * [J1772CableSources Sources for J1772 cables]
+
   * *Frequently Asked Questions*
     * [FAQ FAQ]
+
   * *How to...*
     * [LoadingFirmware Load Firmware with Arduino IDE]
     * [AVRDUDE Load Firmware with AVRDude]
@@ -29,9 +31,7 @@
     * [AssemblePlusV2 Build EVSE Plus V2 kit]
   * *Workshops*
     * [OpenEVSE_Workshop Socal OpenEVSE Workshop]
-    * [N_Workshop Northern Ca OpenEVSE Workshop May 18, 2013]
-
-
+    * [Workshop_NOCAL Northern Ca OpenEVSE Workshop May 18, 2013]
   * *Do it Yourself*
     * [OpenEVSEv1partslist Parts list to DIY V1]
     * [OpenEVSEv2partslist Parts list for DIY V2]
