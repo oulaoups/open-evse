@@ -28,7 +28,7 @@
     * [MaxCurrent Set Default Current]
     * [AssemblePlusV2 Build EVSE Plus V2 kit]
   * *Workshops*
-    * [OpenEVSE_Workshop Socal OpenEVSE Workshop]
+    * [OpenEVSE_Workshop Socal OpenEVSE Workshop December 1,2012]
     * [Workshop_NOCAL Northern Ca OpenEVSE Workshop May 18, 2013]
   * *Do it Yourself*
     * [OpenEVSEv1partslist Parts list to DIY V1]
