@@ -67,25 +67,25 @@ Payment via paypal to chris1howell83@gmail.com
 || || jebork || Built || RGB LCD Built - EV Sim || Paid || Shipped 3/27 ||
 || || dlrodd || Built|| RGB LCD RTC Built - EV Sim || || ||
 || || derekdebu ~ship add in e-mail|| Built || || Paid || Shipped 3/27 ||
-|| ||  llMGAll || Built || RGB LCD RTC Built || Paid || ||
+|| ||  llMGAll || Built || RGB LCD RTC Built || Paid ||Shipped 4/11 ||
 || ||  troy.varela || Built || RBG LDC RTC Built || || ||
 || || dcollins7 ||Kit || LCD kit || Paid || Shipped 3/12 ||
 || || S.Ciesemier || Built || EV SIM || Paid || Shipped 3/27 ||
 || || evnow || Built || LCD RTC Built -EV sim || || ||
 || || 90410 || Kit || || Paid || Shipped 3/27||
-|| || chrisacone || Built|| LCD RTC Built - EV sim || Paid || ||
+|| || chrisacone || Built|| LCD RTC Built - EV sim || Paid ||Shipped 4/11 ||
 || || mkfiester || Built || LCD RTC Built - EV Sim || || ||
-|| || cathie || Built || LCD RTC Built - EV Sim || Paid || ||
+|| || cathie || Built || LCD RTC Built - EV Sim || Paid || Shipped 4/11 ||
 || || devincarlisto || Built || LCD Built || || || 
-|| || iainbarnes || Built|| LCD RTC Built - EV sim || Paid || ||
+|| || iainbarnes || Built|| LCD RTC Built - EV sim || Paid || Shipped 4/11 ||
 || || jaquescolin || kit || LCD kit - EV Sim || Paid || Shipped 3/12 ||
-|| || King || Built || LCD RTC Built || Paid || ||
-|| || fiester || Built || LCD RTC Built - EVSIM || Paid || ||
-|| || mc.lacey || Built || LCD RTC Built || Paid || ||
-|| ||  odonn19 || Built || LCD RTC Built || Paid || ||
-|| || dkatz || Built || LCD RTC Built || Paid || ||
-|| || mlegatt || Built || LCD RTC Built - EV Sim || Paid || ||
-|| || grassshawn || Built || LCD RTC Built - EV Sim || Paid || ||
+|| || King || Built || LCD RTC Built || Paid || Shipped 4/11 ||
+|| || fiester || Built || LCD RTC Built - EVSIM || Paid || Shipped 4/11 ||
+|| || mc.lacey || Built || LCD RTC Built || Paid ||Shipped 4/11 ||
+|| ||  odonn19 || Built || LCD RTC Built || Paid || Shipped 4/11 ||
+|| || dkatz || Built || LCD RTC Built || Paid || Shipped 4/11 ||
+|| || mlegatt || Built || LCD RTC Built - EV Sim || Paid || Shipped 4/11 ||
+|| || grassshawn || Built || LCD RTC Built - EV Sim || Paid || Shipped 4/11 ||
 || || SkiSky1 || Kit || EV Sim || Paid || Shipped 3/12 ||
 || || walter || Built || LCD RTC built -EV Sim || Paid || ||
 || || mb2452 || Built || LCD RTC built - EV Sim || Paid || ||
@@ -96,16 +96,16 @@ Payment via paypal to chris1howell83@gmail.com
 || || jbesteele || Built || LCD RTC Built || Paid || || 
 || || honks || Built || LCD Built || Paid || ||
 || || waynesb || Built || RTC - EV Sim || Paid || Workshop ||
-|| || karahalios || Kit || || Paid || ||
+|| || karahalios || Kit || || Paid || Shipped 4/11 ||
 || || Keenan || Built || LCD || Paid || Workshop ||
 || || Wicker || Built || LCD || Paid || Workshop ||
-|| ||  troypearce  || Kit || LCD KIT || Paid || ||
+|| ||  troypearce  || Kit || LCD KIT || Paid || Shipped 4/11||
 || || beaver || || RTC LCD kit EV Sim || Paid || ||
 || || beebe || Built || RTC LCD Built EV Sim || Paid ||
-|| || leexx549 || Kit || LCD kit - EVsim || Paid || ||
+|| || leexx549 || Kit || LCD kit - EVsim || Paid || Shipped 4/11 ||
 || || xistent3 || Built || RTC Built - EVSim || Paid || ||
 || || milinshah || built || RTC Built - EVSim || Paid || ||
-|| || trottier18 || Kit ||  || Paid || ||
+|| || trottier18 || Kit ||  || Paid || Shipped 4/11 ||
 || || bluesguy_1 || Built || RTC Built - EVsim || Paid || ||
 || || silva || Built || RTC Built - EVSim || Paid || ||
 
