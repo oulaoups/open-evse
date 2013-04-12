@@ -112,6 +112,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || Vince - INT || Kit || RTC Kit || Paid || ||
 || || jdbui || Built || || Paid || ||
 || || noelingle || Kit || LCD kit - EVSIM || Paid || ||
+|| || mjrdye - INT || kit || LCD kit || Paid || ||
 
 
 
