@@ -111,10 +111,12 @@ Payment via paypal to chris1howell83@gmail.com
 || || silva || Built || RTC Built - EVSim || Paid || ||
 || || Jav || Kit || || Paid || Shipped 4/11|| ||
 || || Vince - INT || Kit || RTC Kit || Paid || ||
+|| || Dan || kit || || || ||
 || || jdbui || Built || || Paid || ||
 || || noelingle || Kit || LCD kit - EVSIM || Paid || ||
 || || mjrdye - INT || kit || LCD kit || Paid || ||
 || || w.decker || || RTC Kit - EVsim || Paid || ||
+|| || woodrell || Built || RTC Built || Paid || ||
 
 
 
