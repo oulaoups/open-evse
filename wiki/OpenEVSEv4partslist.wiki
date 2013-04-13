@@ -1,6 +1,7 @@
+#labels Deprecated
 #Parts list for through-hole Open EVSE V4.
 
-= Open EVSE V4 parts list =
+= Open EVSE V4 parts list --- *DEPRECATED*==
 
 If you'd like to built your own EVSE controller board instead of ordering one, here are the parts that you will need.
 ===Fast BOM upload: Upload [http://code.google.com/p/open-evse/downloads/detail?name=evse-v4diy-BOM2.csv&can=2&q= this file] to DigiKey for a full pre-built bill of materials.=== 
@@ -9,7 +10,7 @@ Total cost as of 11 Feb 2013 = $119.77
 http://farm9.staticflickr.com/8453/8041888276_24c025f0b7.jpg
 
 || *Mfg.* || *Part Number* || *Type* || *Value* || *Name* || *Qty* || *Price* || *URL* || 
-|| Atmel || ATMEGA328P-PU || Microprocessor || 328p-pu || IC1|| 1|| $2.88|| http://www.digikey.com/scripts/DkSearch/dksus.dll?vendor=0&keywords=ATMEGA328P-PU-ND || 
+|| Atmel || ATMEGA328P-PU || Microprocessor || 328p-pu || IC1|| 1|| $3.16|| http://www.digikey.com/product-detail/en/ATMEGA328P-PU || 
 || Analog Devices || ADG419BNZ || HS-Switch || SPDT || IC2|| 1|| $3.15|| http://www.digikey.com/product-detail/en/ADG419BNZ/ADG419BNZ-ND/820067 || 
 || Fairchild Semi || LM358N || Opamp || LM358 || IC4|| 1|| $0.46|| http://search.digikey.com/us/en/products/LM358N/LM358NFS-ND/458692 || 
 || Fairchild Semi || MID400|| Optocoupler|| 8-dip|| IC5,IC6|| 2|| $4.06|| http://www.digikey.com/product-detail/en/MID400 || 
