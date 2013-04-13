@@ -91,6 +91,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || mb2452 || Built || LCD RTC built - EV Sim || Paid || ||
 || || markdinh || Built || LCD RTC built - EVSim || Paid || ||
 || || Bas || Built INT || LCD RTC built - EVSim || Paid || ||
+|| || bitsource || built || lcd built || paid || ||
 || || locman_00 || Built || LCD RTC built - EVSim || Paid || ||
 || || j.scutzlas || Built || LCD RTC built || Paid || ||
 || || jbesteele || Built || LCD RTC Built || Paid || || 
