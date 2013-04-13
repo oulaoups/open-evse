@@ -1,6 +1,7 @@
+#labels Deprecated
 #Parts list for through-hole Open EVSE V2.
 
-= Open EVSE V2 parts list =
+= Open EVSE V2 parts list --- *DEPRECATED*=
 
 If you'd like to built your own EVSE controller board instead of ordering one, here are the parts that you will need.
 
