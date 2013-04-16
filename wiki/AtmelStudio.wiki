@@ -56,11 +56,15 @@ In Atmel Studio, click "Tools -> Device Programming". Follow the same setup proc
 
 == Changing source code ==
 If you've made it this far, Congratulations! You are now ready to start the real work. The entire OpenEVSE firmware source code is built for the Arduino IDE. That means you need to modify the header _#includes_ and go download some external libraries. If you just try opening and compiling the source code, you will get many errors for missing libraries. 
-  * Download the following files and save them to C:\Program Files\Atmel\AVR Tools\AVR Toolchain\avr\
-  # http://arduino.googlecode.com/svn/trunk/hardware/arduino/cores/arduino/WProgram.h
+  * Download the following files and save them to C:\Program Files\Atmel\AVR Tools\AVR Toolchain\avr\. Be sure to create a separate directory for each pair of .h & .cpp files that is named the same as the files. Ex: WProgram.h & WProgram.cpp go in a directory named WProgram.
+  # http://arduino.googlecode.com/svn/trunk/hardware/arduino/cores/arduino/WProgram.h 
+  # http://arduino.googlecode.com/svn/trunk/hardware/arduino/cores/arduino/WProgram.cpp 
   # http://arduino-time.googlecode.com/svn/trunk/Time.h
-  # http://arduino.googlecode.com/svn/trunk/hardware/arduino/cores/arduino/pins_arduino.h
+   # http://arduino-time.googlecode.com/svn/trunk/Time.cpp
+ # http://arduino.googlecode.com/svn/trunk/hardware/arduino/cores/arduino/pins_arduino.h
+ # http://arduino.googlecode.com/svn/trunk/hardware/arduino/cores/arduino/pins_arduino.cpp
   # http://arduino.googlecode.com/svn-history/r1092/trunk/libraries/Wire/Wire.h
+  # http://arduino.googlecode.com/svn-history/r1092/trunk/libraries/Wire/Wire.cpp
   * Edit the source code to include "avr/" in front of the .h files. Example:
 {{{ 
 #include <avr/EEPROM.h>
