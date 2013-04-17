@@ -100,14 +100,14 @@ Payment via paypal to chris1howell83@gmail.com
 || || waynesb || Built || RTC - EV Sim || Paid || Workshop ||
 || || Keenan || Built || LCD || Paid || Workshop ||
 || || Wicker || Built || LCD || Paid || Workshop ||
-|| || sonomadb ~2|| Built || RTC Built || Workshop || 
+|| || sonomadb ~2|| Built || RTC Built || Paid || Workshop || 
 || ||  troypearce  || Kit || LCD KIT || Paid || Shipped 4/11||
 || || beaver || || RTC LCD kit EV Sim || Paid || ||
 || || beebe || Built || RTC LCD Built EV Sim || Paid ||
 || || leexx549 || Kit || LCD kit - EVsim || Paid || Shipped 4/11 ||
 || || xistent3 || Built || RTC Built - EVSim || Paid || ||
 || || milinshah || built || RTC Built - EVSim || Paid || ||
-|| || trottier18 || Kit ||  || Paid || Shipped 4/11 ||
+|| || trottier18 || Kit ||  || Paid || Shipped 4/11 || 
 || || bluesguy_1 || Built || RTC Built - EVsim || Paid || ||
 || || silva || Built || RTC Built - EVSim || Paid || ||
 || || Jav || Kit || || Paid || Shipped 4/11 ||
