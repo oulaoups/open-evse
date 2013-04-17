@@ -102,7 +102,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || Wicker || Built || LCD || Paid || Workshop ||
 || || sonomadb ~2|| Built || RTC Built || Paid || Workshop || 
 || ||  troypearce  || Kit || LCD KIT || Paid || Shipped 4/11||
-|| || beaver || || RTC LCD kit EV Sim || Paid || ||
+|| || beaver || || RTC LCD kit EV Sim || Paid || Shipped 4/16 ||
 || || beebe || Built || RTC LCD Built EV Sim || Paid ||
 || || leexx549 || Kit || LCD kit - EVsim || Paid || Shipped 4/11 ||
 || || xistent3 || Built || RTC Built - EVSim || Paid || ||
