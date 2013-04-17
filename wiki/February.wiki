@@ -87,11 +87,11 @@ Payment via paypal to chris1howell83@gmail.com
 || || mlegatt || Built || LCD RTC Built - EV Sim || Paid || Shipped 4/11 ||
 || || grassshawn || Built || LCD RTC Built - EV Sim || Paid || Shipped 4/11 ||
 || || SkiSky1 || Kit || EV Sim || Paid || Shipped 3/12 ||
-|| || walter || Built || LCD RTC built -EV Sim || Paid || ||
-|| || mb2452 || Built || LCD RTC built - EV Sim || Paid || ||
-|| || markdinh || Built || LCD RTC built - EVSim || Paid || ||
-|| || Bas || Built INT || LCD RTC built - EVSim || Paid || ||
-|| || bitsource || built || lcd built || paid || ||
+|| || walter || Built || LCD RTC built -EV Sim || Paid || Shipped 4/16 ||
+|| || mb2452 || Built || LCD RTC built - EV Sim || Paid || Shipped 4/16 ||
+|| || markdinh || Built || LCD RTC built - EVSim || Paid || Shipped 4/16 ||
+|| || Bas || Built INT || LCD RTC built - EVSim || Paid || Shipped 4/16 ||
+|| || bitsource || built || lcd built || paid || Shipped 4/16 ||
 || || locman_00 || Built || LCD RTC built - EVSim || Paid || ||
 || || j.scutzlas || Built || LCD RTC built || Paid || ||
 || || jbesteele || Built || LCD RTC Built || Paid || || 
@@ -114,9 +114,9 @@ Payment via paypal to chris1howell83@gmail.com
 || || Vince - INT || Kit || RTC Kit || Paid || ||
 || || Dan || kit || || || ||
 || || jdbui || Built || || Paid || ||
-|| || noelingle || Kit || LCD kit - EVSIM || Paid || ||
-|| || mjrdye - INT || kit || LCD kit || Paid || ||
-|| || w.decker || || RTC Kit - EVsim || Paid || ||
+|| || noelingle || Kit || LCD kit - EVSIM || Paid || Shipped 4/16 ||
+|| || mjrdye - INT || kit || LCD kit || Paid || Shipped 4/16||
+|| || w.decker || || RTC Kit - EVsim || Paid || Shipped 4/16 ||
 || || woodrell || Built || RTC Built || Paid || ||
 
 
