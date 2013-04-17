@@ -92,10 +92,10 @@ Payment via paypal to chris1howell83@gmail.com
 || || markdinh || Built || LCD RTC built - EVSim || Paid || Shipped 4/16 ||
 || || Bas || Built INT || LCD RTC built - EVSim || Paid || Shipped 4/16 ||
 || || bitsource || built || lcd built || paid || Shipped 4/16 ||
-|| || locman_00 || Built || LCD RTC built - EVSim || Paid || ||
-|| || j.scutzlas || Built || LCD RTC built || Paid || ||
-|| || jbesteele || Built || LCD RTC Built || Paid || || 
-|| || honks || Built || LCD Built || Paid || ||
+|| || locman_00 || Built || LCD RTC built - EVSim || Paid || Shipped 4/16 ||
+|| || j.scutzlas || Built || LCD RTC built || Paid || Shipped 4/16 ||
+|| || jbesteele || Built || LCD RTC Built || Paid || Shipped 4/16 || 
+|| || honks || Built || LCD Built || Paid || Shipped 4/16 ||
 || || karahalios || Kit || || Paid || Shipped 4/11 ||
 || || waynesb || Built || RTC - EV Sim || Paid || Workshop ||
 || || Keenan || Built || LCD || Paid || Workshop ||
@@ -103,7 +103,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || sonomadb ~2|| Built || RTC Built || Paid || Workshop || 
 || ||  troypearce  || Kit || LCD KIT || Paid || Shipped 4/11||
 || || beaver || || RTC LCD kit EV Sim || Paid || Shipped 4/16 ||
-|| || beebe || Built || RTC LCD Built EV Sim || Paid ||
+|| || beebe || Built || RTC LCD Built EV Sim || Paid || Shipped 4/16 ||
 || || leexx549 || Kit || LCD kit - EVsim || Paid || Shipped 4/11 ||
 || || xistent3 || Built || RTC Built - EVSim || Paid || ||
 || || milinshah || built || RTC Built - EVSim || Paid || ||
