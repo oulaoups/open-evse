@@ -1,5 +1,8 @@
 #summary Spec for OpenEVSE RGB LCD and RGB LCD with RTC.
 
+This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
+
+
 = RGB LCD =
 
 http://farm9.staticflickr.com/8351/8406326627_f12743981f.jpg
@@ -51,3 +54,5 @@ http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Button
 
 http://farm9.staticflickr.com/8189/8420626671_1428cc8f0f_c.jpg
 http://farm9.staticflickr.com/8260/8662590903_afb140270e_c.jpg
+
+This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
