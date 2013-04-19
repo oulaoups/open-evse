@@ -48,3 +48,5 @@ http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Shield
 To add a control button, you need to solder .1" header pins or wires into the shield board. Connect one to any of the 5 ground pads and the other to the "S" pad. If using a lit button solder to GND, +5v and "S"
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Button1.jpg
+
+http://farm9.staticflickr.com/8189/8420626671_1428cc8f0f_c.jpg
