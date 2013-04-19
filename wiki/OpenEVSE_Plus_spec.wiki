@@ -1,5 +1,8 @@
 #summary Specs for OpenEVSE PLUS.
 
+This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
+
+
 = Introduction =
 The OpenEVSE Plus board contains a J1772 compliant controller board as well as a 4W switch mode power supply.
 
@@ -53,3 +56,5 @@ Follow the Test procedure here: http://code.google.com/p/open-evse/wiki/EVSE_TES
 
 =Connection Diagram=
 http://farm9.staticflickr.com/8213/8421367695_bcc2219886_b.jpg
+
+This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
