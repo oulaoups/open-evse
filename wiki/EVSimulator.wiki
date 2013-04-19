@@ -37,13 +37,13 @@ Position a jumper across the two pins below each letter to select the test state
  * B= Plugged into car but not charging.
  * C= Charging.
  * D= Ventilation request.
- * F= No diode. 2 jumpers: one at the F position; the second at the B position.
+ * F= No diode. 2 jumpers: one at the F position; the second at the B or C position.
 
   =!Caution: when the EVSE is powered there can be dangerous levels of electricity present!=
 
-Plug the  EVSE into a 120VAC circuit.
+Power the EVSE with a 120VAC or 240VAC circuit.
 
-Connect the Pilot and ground to proper pins on the J1772 Plug.
+Connect the EV Simulator to the Pilot and Ground screw terminals on the OpenEVSE board.
  * Pilot and Scope are the pins next to the edge of the board.
  * Ground is the position next to the 246Ω resistor.
 
