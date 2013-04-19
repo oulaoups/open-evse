@@ -2,7 +2,9 @@
 
 =EV Simulator Assembly and Operation=
 
-  =!Usual Disclaimers apply. Proceed at your own risk!=
+  =!Usual Disclaimers apply. Proceed at your own risk.!=
+
+This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
 
 ==Parts:==
   * Simulator Board
