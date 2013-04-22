@@ -89,7 +89,6 @@ Payment via paypal to chris1howell83@gmail.com
 || || SkiSky1 || Kit || EV Sim || Paid || Shipped 3/12 ||
 || || walter || Built || LCD RTC built -EV Sim || Paid || Shipped 4/16 ||
 || || mb2452 || Built || LCD RTC built - EV Sim || Paid || Shipped 4/16 ||
-|| || markdinh || Built || LCD RTC built - EVSim || Paid || Shipped 4/16 ||
 || || Bas || Built INT || LCD RTC built - EVSim || Paid || Shipped 4/16 ||
 || || bitsource || built || lcd built || paid || Shipped 4/16 ||
 || || locman_00 || Built || LCD RTC built - EVSim || Paid || Shipped 4/16 ||
@@ -97,6 +96,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || jbesteele || Built || LCD RTC Built || Paid || Shipped 4/16 || 
 || || honks || Built || LCD Built || Paid || Shipped 4/16 ||
 || || karahalios || Kit || || Paid || Shipped 4/11 ||
+|| || markdinh || Built || LCD RTC built - EVSim || Paid || Workshop ||
 || || waynesb || Built || RTC - EV Sim || Paid || Workshop ||
 || || Keenan || Built || LCD || Paid || Workshop ||
 || || Wicker || Built || LCD || Paid || Workshop ||
