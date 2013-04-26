@@ -121,6 +121,8 @@ Payment via paypal to chris1howell83@gmail.com
 || || woodrell || Built || RTC Built || Paid || ||
 || || cstirba || Kit || LCD Kit || Paid || ||
 || || forest.russman || Built || RTC Built - EV Sim || Paid || ||
+|| || phil@asylum || Kit || RTC Kit || Paid || ||
+|| || tedballou || Built || LCD Built || Paid || ||
 
 
 
