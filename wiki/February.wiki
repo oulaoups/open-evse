@@ -125,6 +125,8 @@ Payment via paypal to chris1howell83@gmail.com
 || || phil@asylum || Kit || RTC Kit || Paid || ||
 || || tedballou || Built || LCD Built || Paid || ||
 || || djones INT || Built || LCD Built - EVSIM || Paid || ||
+|| || juanan INT || Built || LCD Built || Paid || ||
+
 
 
 
