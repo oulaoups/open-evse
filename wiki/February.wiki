@@ -127,6 +127,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || djones INT || Built || LCD Built - EVSIM || Paid || ||
 || || juanan INT || Built || LCD Built || Paid || ||
 || || elmore || Built || RTC LCD || Paid || ||
+|| || jamy.25 || Built || RTC LCD - EV Sim || Paid ||
 
 
 
