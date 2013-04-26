@@ -96,6 +96,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || jbesteele || Built || LCD RTC Built || Paid || Shipped 4/16 || 
 || || honks || Built || LCD Built || Paid || Shipped 4/16 ||
 || || karahalios || Kit || || Paid || Shipped 4/11 ||
+|| || palsnshiv || Built || RGB LCD Built || Paid || Workshop ||
 || || markdinh || Built || LCD RTC built - EVSim || Paid || Workshop ||
 || || waynesb || Built || RTC - EV Sim || Paid || Workshop ||
 || || Keenan || Built || LCD || Paid || Workshop ||
@@ -118,6 +119,9 @@ Payment via paypal to chris1howell83@gmail.com
 || || mjrdye - INT || kit || LCD kit || Paid || Shipped 4/16||
 || || w.decker || || RTC Kit - EVsim || Paid || Shipped 4/16 ||
 || || woodrell || Built || RTC Built || Paid || ||
+|| || cstirba || Kit || LCD Kit || Paid || ||
+|| || forest.russman || Built || RTC Built - EV Sim || Paid || ||
+
 
 
 
