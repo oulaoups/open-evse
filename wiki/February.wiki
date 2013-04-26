@@ -97,6 +97,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || honks || Built || LCD Built || Paid || Shipped 4/16 ||
 || || karahalios || Kit || || Paid || Shipped 4/11 ||
 || || palsnshiv || Built || RGB LCD Built || Paid || Workshop ||
+|| || riteshvk || Built || LCD built || Paid || Workshop ||
 || || markdinh || Built || LCD RTC built - EVSim || Paid || Workshop ||
 || || waynesb || Built || RTC - EV Sim || Paid || Workshop ||
 || || Keenan || Built || LCD || Paid || Workshop ||
