@@ -126,6 +126,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || tedballou || Built || LCD Built || Paid || ||
 || || djones INT || Built || LCD Built - EVSIM || Paid || ||
 || || juanan INT || Built || LCD Built || Paid || ||
+|| || elmore || Built || RTC LCD || Paid || ||
 
 
 
