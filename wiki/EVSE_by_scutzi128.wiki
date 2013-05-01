@@ -8,7 +8,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 
 
 = Parts List =
-|| Part || Source            || Cost || Quantity || Link ||
+|| Part || Source || Cost || Quantity || Link ||
 || Open EVSE Plus Board w/ integrated power supply, LCD and RTC (Built) || Open EVSE || $210.00 || 1 || https://code.google.com/p/open-evse/wiki/Ordering||
 || J-1772 cable, 30 amps (A3435-PEV) || Leviton ||   $173.36 + FS || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
 || 30A Relay || Digikey || $13.03 || 1 || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
@@ -17,18 +17,13 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || Leviton 30 Amp 2-Pole Single Outlet|| The Home Depot || $9.49 || 1 || http://www.homedepot.com/p/Leviton-30-Amp-2-Pole-Flush-Mount-Self-Grounding-Single-Outlet-Black-R60-05372-000/202077690#.UYEywaKyD8I ||
 || Leviton 30A Right Angle Plug || The Home Depot || $14.75 || 1 || http://www.homedepot.com/p/Leviton-30-50-Amp-2-Pole-3-Way-Black-Grounded-Angle-Straight-Blade-Plug-R50-00931-000/202077682#.UYEzt6KyD8I ||
 || Ground Bar Kit || The Home Depot || $4.67 || 1 || http://www.homedepot.com/p/Blackburn-Aluminum-Ground-Bar-Only-IBT3AB-B1-10/202786635#.UYEzaaKyD8I ||
+|| OpenEVSE Indoor Enclosure || Diversified Stage, Inc. || $58.00 + 16.85 shipping || 1 || http://ssl.diversifiedstage.com/estore/index.php?main_page=product_info&products_id=3&zenid=l3sdq75duj52lm2gjlfuavdl71 ||
 
 
-|| FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND) || Digikey || $3.69 || 2 || http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
-|| FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.68 || 2 || http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
-|| 2" plastic 4-40 M-F standoffs (4813K-ND) || Digikey || $.63 || 8 || http://www.digikey.com/product-detail/en/4813/4813K-ND/255350 ||
-|| 30A AC Plug L6-30 || Stay Online || $33.00 || 1 || http://www.stayonline.com/detail.aspx?ID=15695 ||
-|| AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || http://adafruit.com/products/714 ||
-|| Strain Relief - HUBBELL SHC2041CR 1 Inch Thread Cord Connector || Stayonline || $7.00 || 2 || http://www.stayonline.com/detail.aspx?id=17207 ||
-|| Ground Bar Kit || Home Depot || $4.48 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
-|| Shipping || DigiKey, AdaFruit, StayOnline || $25 || 1 || ||
-|| Crimp Connectors/PCB connectors || various || $10 || 1 || ||
-|| Hardware (nuts & bolts) || various || $5 || 1 || ||
+
+
+|| Shipping || DigiKey, Ebay || $10 || 1 || ||
+
 
 || Totals || || $477.48 ||
 
