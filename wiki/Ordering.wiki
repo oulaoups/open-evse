@@ -3,7 +3,7 @@
 
 = OpenEVSE boards =
 
-The waiting list for Prebuilt boards is currently about 4 weeks, a new batch has been ordered. Kits ship in less than 1 week.
+The waiting list for Prebuilt boards is currently about 4 weeks, current batch of OpenEVSE PLUS v2 boards are sold out a new batch has been ordered and are expected late May. 
 
 = Parts list =
 
