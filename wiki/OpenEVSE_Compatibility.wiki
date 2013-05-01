@@ -14,6 +14,7 @@ OpenEVSE has been tested with:
 || All || Mitsubishi || i-MiEV || || 3.3kW - 16A @ 240V || None ||
 || All || Ford || Focus EV || || 6.6kw - 30A @ 240V || None ||
 || 2013 || Ford || C-Max Energi || Timers - Supported || 3.3kW - 16A @ 240V || None ||
+|| 2013 || Ford || C-max Hybrid || || || None ||
 || 2011 || TH!NK || City EV || || 3.3kW - 16A @ 240V || None ||
 || 2013 || Honda || Fit || || 6.6kw - 30A @ 240V || None ||
 || All || Tesla || Roadster || with J1772 adapter || 16.8kW - 70A @ 240V || requires mod to R1 for pre-v7 boards ||
