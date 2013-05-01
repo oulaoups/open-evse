@@ -1,6 +1,8 @@
 #summary February Batch.
 
 = Introduction =
+*Update 4/30* There are only about 25 boards left and 25 on this list. A new batch has been ordered so new orders will be on the next batch.
+
 *Update 3/26* 50 boards have been kitted/built so far and I am cranking them out. This week I more than doubled my goal of 10 with 23 built...
 
 *Update 3/18* First 10+ Built and tested boards shipped. My goal is to ship at least 10 a week until the backlog is gone...
