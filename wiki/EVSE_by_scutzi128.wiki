@@ -9,7 +9,10 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 
 = Parts List =
 || Part || Source || Cost || Quantity || Link ||
-|| Open EVSE Plus Board w/ integrated power supply || Open EVSE || $150.00 || 1 || =hyperlink("http://www.homedepot.com/p/Halex-3-4-in-Strain-Relief-Cord-Connectors-with-Gland-Nut-2-Pack-21694/100126837#.UYEwSaKyD8I";"Halex 3/4 in. Strain Relief Cord Connectors with Gland Nut (2-Pack)") ||
+|| Open EVSE Plus Board w/ integrated power supply, LCD and RTC (Built) || Open EVSE || $210.00 || 1 || https://code.google.com/p/open-evse/wiki/Ordering||
+|| J-1772 cable, 30 amps (A3435-PEV) || Leviton ||   $173.36 + FS || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
+
+
 || 30A Relay || Digikey || $13.03 || 1 || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
 || Current Transformer || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || BOX NEMA ECONOMY 5.9X5.9X3.54 (377-1787-ND) || Digikey || $20.62 || 1 || http://search.digikey.com/scripts/DkSearch/dksus.dll?lang=en&site=us&KeyWords=377-1787-ND&x=0&y=0 ||
@@ -17,7 +20,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND) || Digikey || $3.69 || 2 || http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
 || FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.68 || 2 || http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
 || 2" plastic 4-40 M-F standoffs (4813K-ND) || Digikey || $.63 || 8 || http://www.digikey.com/product-detail/en/4813/4813K-ND/255350 ||
-|| J-1772 cable, 30 amps (A3435-PEV) || Leviton ||   $133.98 + $12.19 shipping || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
+
 || 30A AC Plug L6-30 || Stay Online || $33.00 || 1 || http://www.stayonline.com/detail.aspx?ID=15695 ||
 || AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || http://adafruit.com/products/714 ||
 || Strain Relief - HUBBELL SHC2041CR 1 Inch Thread Cord Connector || Stayonline || $7.00 || 2 || http://www.stayonline.com/detail.aspx?id=17207 ||
