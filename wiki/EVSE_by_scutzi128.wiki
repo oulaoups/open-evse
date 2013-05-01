@@ -1,6 +1,9 @@
 #summary OpenEVSE using official OpenEVSE Enclosure and OpenEVSE Plus v2.
 
 = Introduction =
+
+This guide is under construction still.
+
 This guide is to show the assembly of my OpenEVSE charger using the official OpenEVSE Enclosure and OpenEVSE Plus v2 board. The board was purchased assembled by Chris with RTC and LCD. I chose OpenEVSE becuase I like projects and also I think it looks better and is cheaper then most alternatives out there.
 
 = High Voltage Schematic =
