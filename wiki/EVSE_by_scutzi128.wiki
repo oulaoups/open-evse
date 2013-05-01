@@ -32,11 +32,19 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || Totals || || $531.18 ||
 
 
-= Details =
+= Build =
 
-test
+The first step was gathering all the materials. After I completed this I moved onto mounting the components to the back panel of the enclosure. I used 1/2" screws for the relay and 1" screws for the grounding bar. The enclosure includes mounting hardware for the OpenEVSE Plus v2 board.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+http://i144.photobucket.com/albums/r176/scutzi128/IMG_3299_zps3db77fb2.jpg
+
+
+The next thing I did was solder on the spade connectors onto the incoming 220 line and the outgoing J-1772 cable. I put heat shrink over the connections.
+
+http://i144.photobucket.com/albums/r176/scutzi128/IMG_3281_zps3b4bac53.jpg
+
+
+http://i144.photobucket.com/albums/r176/scutzi128/IMG_3284_zps5e2f8b5d.jpg
+
+
+http://i144.photobucket.com/albums/r176/scutzi128/IMG_3286_zpsb4cb2e5b.jpg
