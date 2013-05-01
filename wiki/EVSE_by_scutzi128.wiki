@@ -26,7 +26,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || 12-10 AWG Female Spade Piggyback || Ebay || $4.30 || 1 || http://www.ebay.com/itm/130877054917?ssPageName=STRK:MEWNX:IT&_trksid=p3984.m1439.l2649 ||
 || 22-18 AWG Female Spade || Ebay || $4.20 || 1 || http://www.ebay.com/itm/140941993829?ssPageName=STRK:MEWNX:IT&_trksid=p3984.m1439.l2649 ||
 || Illuminated Momentary Button || Ebay || $8.99 + $4.00 shipping || 1 || http://www.ebay.com/itm/130563267308?ssPageName=STRK:MEWAX:IT&_trksid=p3984.m1423.l2649||
-|| Shipping || Digikey || $5 ||  || ||
+|| Shipping || Digikey || $5 || 1 || ||
 
 
 || Totals || || $531.18 ||
