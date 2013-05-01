@@ -8,7 +8,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 
 
 = Parts List =
-|| Part || Source      || Cost || Quantity || Link ||
+|| Part || Source            || Cost || Quantity || Link ||
 || Open EVSE Plus Board w/ integrated power supply, LCD and RTC (Built) || Open EVSE || $210.00 || 1 || https://code.google.com/p/open-evse/wiki/Ordering||
 || J-1772 cable, 30 amps (A3435-PEV) || Leviton ||   $173.36 + FS || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
 || 30A Relay || Digikey || $13.03 || 1 || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
