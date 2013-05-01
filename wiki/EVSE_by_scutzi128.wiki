@@ -13,9 +13,8 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || J-1772 cable, 30 amps (A3435-PEV) || Leviton ||   $173.36 + FS || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
 || 30A Relay || Digikey || $13.03 || 1 || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
 || Current Transformer || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
+|| Halex 3/4 in. Strain Relief Cord Connectors with Gland Nut (2-Pack) || The Home Depot || $6.28 || 1 || http://www.homedepot.com/p/Halex-3-4-in-Strain-Relief-Cord-Connectors-with-Gland-Nut-2-Pack-21694/100126837#.UYEwSaKyD8I ||
 
-
-|| BOX NEMA ECONOMY 5.9X5.9X3.54 (377-1787-ND) || Digikey || $20.62 || 1 || http://search.digikey.com/scripts/DkSearch/dksus.dll?lang=en&site=us&KeyWords=377-1787-ND&x=0&y=0 ||
 || PANEL INTERNAL 4.9" X 4.9" (377-1939-ND) || Digikey || $4.80 || 1 || http://search.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&site=us&keywords=377-1939-ND&x=0&y=0 ||
 || FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND) || Digikey || $3.69 || 2 || http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
 || FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.68 || 2 || http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
