@@ -8,7 +8,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 
 
 = Parts List =
-https://docs.google.com/spreadsheet/pub?key=0AopSibggesQ5dGgtVkpsLWdFMUFabnowTTlpZXlLOFE&output=html
+<iframe width='500' height='300' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0AopSibggesQ5dGgtVkpsLWdFMUFabnowTTlpZXlLOFE&output=html&widget=true'></iframe>
 
 
 = Details =
