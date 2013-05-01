@@ -13,8 +13,8 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || J-1772 cable, 30 amps (A3435-PEV) || Leviton ||   $173.36 + FS || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
 || 30A Relay || Digikey || $13.03 || 1 || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
 || Current Transformer || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
-|| Halex 3/4 in. Strain Relief Cord Connectors with Gland Nut (2-Pack) || The Home Depot || $6.28 || 1 || http://www.homedepot.com/p/Halex-3-4-in-Strain-Relief-Cord-Connectors-with-Gland-Nut-2-Pack-21694/100126837#.UYEwSaKyD8I ||
-|| Leviton 30 Amp 2-Pole Flush Mount Self-Grounding Single Outlet - Black || The Home Depot || $9.49 || 1 || http://www.homedepot.com/p/Leviton-30-Amp-2-Pole-Flush-Mount-Self-Grounding-Single-Outlet-Black-R60-05372-000/202077690#.UYEywaKyD8I ||
+|| Halex 3/4 in. Strain Relief (2-Pack) || The Home Depot || $6.28 || 1 || http://www.homedepot.com/p/Halex-3-4-in-Strain-Relief-Cord-Connectors-with-Gland-Nut-2-Pack-21694/100126837#.UYEwSaKyD8I ||
+|| Leviton 30 Amp 2-Pole Single Outlet|| The Home Depot || $9.49 || 1 || http://www.homedepot.com/p/Leviton-30-Amp-2-Pole-Flush-Mount-Self-Grounding-Single-Outlet-Black-R60-05372-000/202077690#.UYEywaKyD8I ||
 || Leviton 30A Right Angle Plug || The Home Depot || $14.75 || 1 || http://www.homedepot.com/p/Leviton-30-50-Amp-2-Pole-3-Way-Black-Grounded-Angle-Straight-Blade-Plug-R50-00931-000/202077682#.UYEzt6KyD8I ||
 || Ground Bar Kit || The Home Depot || $4.67 || 1 || http://www.homedepot.com/p/Blackburn-Aluminum-Ground-Bar-Only-IBT3AB-B1-10/202786635#.UYEzaaKyD8I ||
 
