@@ -48,3 +48,29 @@ http://i144.photobucket.com/albums/r176/scutzi128/IMG_3284_zps5e2f8b5d.jpg
 
 
 http://i144.photobucket.com/albums/r176/scutzi128/IMG_3286_zpsb4cb2e5b.jpg
+
+The next step was to mount the LCD and momentary switch. The enclosure comes pre drilled for the switch but the switch I purchased was slightlty bigger then the hole so I had to drill it out slighlty. Once I did that it fit in perfectly. 
+
+The next thing I did was solder the switch connections to the LCD board. I picked up power for the illumination of the switch from the 5v pad on the LCD board. I then wired the normally open contact of the switch between GND and S on the LCD board.
+
+http://i144.photobucket.com/albums/r176/scutzi128/IMG_3296_zps444b3ef9.jpg
+
+http://i144.photobucket.com/albums/r176/scutzi128/IMG_3293_zpsceecbd79.jpg
+
+Once that was completed all the soldering was finished and all that remained was to mount the box and connect everything together. 
+
+This is what the box looks like internally once mounted and everything is connected.
+
+http://i144.photobucket.com/albums/r176/scutzi128/IMG_3334_zps219e3549.jpg
+
+And this is the finished product.
+
+http://i144.photobucket.com/albums/r176/scutzi128/IMG_3313_zps2a4b6a99.jpg
+
+
+http://i144.photobucket.com/albums/r176/scutzi128/IMG_3327_zps1181c39f.jpg
+
+http://i144.photobucket.com/albums/r176/scutzi128/IMG_3316_zpsc73a76ef.jpg
+
+http://i144.photobucket.com/albums/r176/scutzi128/IMG_3319_zpseb9d0840.jpg
+
