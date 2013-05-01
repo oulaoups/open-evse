@@ -26,7 +26,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || Shipping || Digikey || $5 || 1 || ||
 
 
-|| Totals || || $531.18 ||
+|| Total || || $531.18 ||
 
 
 = Build =
