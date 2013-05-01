@@ -23,6 +23,9 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || OpenEVSE Indoor Enclosure || Diversified Stage, Inc. || $58.00 + 16.85 shipping || 1 || http://ssl.diversifiedstage.com/estore/index.php?main_page=product_info&products_id=3&zenid=l3sdq75duj52lm2gjlfuavdl71 ||
 || 1/2" Mounting screws and nuts || The Home Depot|| $1.18 || 1 || http://www.homedepot.com/p/8-32-x-1-2-in-Zinc-Plated-Round-Head-Combo-Drive-Machine-Screw-8-Pieces-27621/202706065#.UYE5CKKyD8I ||
 || 1" Mounting screws and nuts || The Home Depot|| $1.18 || 1 || http://www.homedepot.com/p/8-32-x-1-in-Zinc-Plated-Round-Head-Combo-Drive-Machine-Screw-8-Pieces-27651/202706068?keyword=27651#.UYE486KyD8I ||
+|| 12-10 AWG Female Spade Piggyback || Ebay || $4.30 || 1 || http://www.ebay.com/itm/130877054917?ssPageName=STRK:MEWNX:IT&_trksid=p3984.m1439.l2649 ||
+|| 22-18 AWG Female Spade || Ebay || $4.20 || 1 || http://www.ebay.com/itm/140941993829?ssPageName=STRK:MEWNX:IT&_trksid=p3984.m1439.l2649 ||
+
 
 
 
