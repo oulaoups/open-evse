@@ -1,0 +1,44 @@
+#labels Phase-Implementation
+#Documentation of Firmware
+
+= Introduction =
+
+This page has all current documentaion of the OpenEVSE Firmware and its modules
+<wiki:toc max_depth="3" />
+
+= Classes =
+
+== CLI Class ==
+=== Members ===
+=== Public Methods ===
+
+== OnboardDisplay Class ==
+=== Members ===
+=== Public Methods ===
+
+== Gfi Class ==
+=== Members ===
+=== Public Methods ===
+
+== J1772Pilot Class ==
+=== Members ===
+=== Public Methods ===
+
+== J1772EVSEController Class ==
+=== Members ===
+  * [FirmwareDocumentation#J1772Pilot_Class J1772Pilot] m_Pilot
+  * Gfi m_Gfi;
+  * unsigned long m_GfiTimeout;
+  * unsigned long m_GfiRetryCnt;
+  * uint8_t m_GfiTripCnt;
+  * uint8_t m_bFlags; // ECF_xxx
+  * THRESH_DATA m_ThreshData;
+  * uint8_t m_EvseState;
+  * uint8_t m_PrevEvseState;
+  * uint8_t m_TmpEvseState;
+  * unsigned long m_TmpEvseStateStart;
+  * uint8_t m_CurrentCapacity; // max amps we can output
+  * time_t m_ChargeStartTime;
+  * time_t m_ElapsedChargeTime;
+  * time_t m_ElapsedChargeTimePrev;
+=== Public Methods ===
