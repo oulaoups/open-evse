@@ -4,7 +4,6 @@
 = Introduction =
 
 This page has all current documentaion of the OpenEVSE Firmware and its modules
-<wiki:toc max_depth="3" />
 
 = Classes =
 
