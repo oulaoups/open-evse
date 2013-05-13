@@ -7,15 +7,22 @@ Parts: ~$60
 
 RN-XV WiFly Module - U.FL Connector $34.95
 https://www.sparkfun.com/products/11048
+
 Xbee Explorer Regulated $9.95
 https://www.sparkfun.com/products/11373
+
 2.4GHz Duck Antenna RP-SMA - Large $9.95
 https://www.sparkfun.com/products/558
+
 Interface Cable RP-SMA to U.FL $4.95
 https://www.sparkfun.com/products/662
+
 Jumper wire $1.50
 https://www.sparkfun.com/products/10371
+
+
 Programming Cable for WiFi Module (optional)
+
 3.3v FTDI $17.95
 https://www.sparkfun.com/products/9717
 
