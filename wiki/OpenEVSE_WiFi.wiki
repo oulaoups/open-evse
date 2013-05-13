@@ -3,7 +3,7 @@
 This solution does not require any additional code on the OpenEVSE side. Here is how I did it...
 
  
-Parts: ~$60
+=Parts: ~$60=
 
 RN-XV WiFly Module - U.FL Connector $34.95
 https://www.sparkfun.com/products/11048
@@ -21,18 +21,20 @@ Jumper wire $1.50
 https://www.sparkfun.com/products/10371
 
 
-Programming Cable for WiFi Module (optional)
+=Programming Cable for WiFi Module (optional)=
 
 3.3v FTDI $17.95
 https://www.sparkfun.com/products/9717
 
- 
+=WiFi Module Configuration= 
+
 There are several ways to program the module to connect to your network. The easiest is with a 3.3v FTDI cable with a terminal set to 9600 enter $$$ at the prompt and use this guide for ssid, ip, change uart to 38400 for OpenEVSE, etc.
 
 http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Wireless/WiFi/WiFly-RN-UM.pdf
  
 An alternate is to setup a ad-hoc network with SSID roving1, the module will join. the tricky part is discovering the modules ip address. With the IP address telnet to the IPaddress:2000 and type $$$
 
+=Connect to OpenEVSE via WiFi=
  
 Once configured you can access OpenEVSE SerialCLI using a telnet app (I like PuTTY) via the IPaddress:2000 (example 192.168.1.123:2000).
 
