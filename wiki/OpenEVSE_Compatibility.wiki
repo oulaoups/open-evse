@@ -17,6 +17,7 @@ OpenEVSE Plus has been tested with:
 || 2013 || Ford || C-max Hybrid || || || None ||
 || 2011 || TH!NK || City EV || || 3.3kW - 16A @ 240V || None ||
 || 2013 || Honda || Fit || || 6.6kw - 30A @ 240V || None ||
+|| 2013 || Renault || Zoe || || 
 || All || Tesla || Roadster || with J1772 adapter || 16.8kW - 70A @ 240V || None ||
 || All || Tesla || Model S || with J1772 adapter || 10kW - 40A @ 240V or 20kw - 80A @ 240V || None ||
 
