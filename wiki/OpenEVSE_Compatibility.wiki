@@ -1,11 +1,11 @@
-#summary OpenEVSE is known to be compatible with:
+#summary OpenEVSE is known to be compatible with OpenEVSE Plus:
 #labels Featured
 
 = Introduction =
 OpenEVSE was designed to be fully compliant with the J1772:2010 Standard and should be compatible with J1772 Electric Vehicles.
 
 = Vehicles Tested =
-OpenEVSE has been tested with:
+OpenEVSE Plus has been tested with:
 || Year || Make || Model || Car Specific Features || Onboard Charger || Known Issues ||
 || All || Nissan || LEAF || Timers - Supported || 3.3kW - 16A @ 240V || None ||
 || All || Chevy || VOLT || Timers - Supported || 3.3kW - 16A @ 240V || None ||
@@ -17,8 +17,8 @@ OpenEVSE has been tested with:
 || 2013 || Ford || C-max Hybrid || || || None ||
 || 2011 || TH!NK || City EV || || 3.3kW - 16A @ 240V || None ||
 || 2013 || Honda || Fit || || 6.6kw - 30A @ 240V || None ||
-|| All || Tesla || Roadster || with J1772 adapter || 16.8kW - 70A @ 240V || requires mod to R1 for pre-v7 boards ||
-|| All || Tesla || Model S || with J1772 adapter || 10kW - 40A @ 240V or 20kw - 80A @ 240V || requires mod to R1 for pre-v7 boards ||
+|| All || Tesla || Roadster || with J1772 adapter || 16.8kW - 70A @ 240V || None ||
+|| All || Tesla || Model S || with J1772 adapter || 10kW - 40A @ 240V or 20kw - 80A @ 240V || None ||
 
 
 If you have tested OpenEVSE on other vehicles please send a compatibility report to chris1howell83@gmail.com...
