@@ -1,13 +1,28 @@
-#summary One-sentence summary of this page.
+#summary May/June Batch.
 
 = Introduction =
+*Update 4/30* 100 boards ordered for the next batch
 
-Add your content here.
 
+This is to reserve a spot (100 available) in the May/June batch of boards.
+Boards are built by hand at an average rate of 5-10 boards per week. 
 
-= Details =
+Kits will ship first followed by assembled and tested units. Boards will ship in order, unpaid reservations will be skipped until payment is recieved.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Payment via paypal to chris1howell83@gmail.com 
+
+|| Build Status || Payment Due || Shipping || 
+
+|| Planning || Done || 
+|| Order parts || Done ||
+|| Build - SMT || Gold Pheonix - In Progress ||
+|| Load Firmware ||  ||
+|| Package OpenEVSE Plus "Kit" ||  ||
+|| Ship OpenEVSE Plus "Kit" ||  ||
+|| Build - Through hole parts || ||
+|| Test OpenEVSE "Built and Tested"|| ||
+|| Package OpenEVSE "Built and Tested" || ||
+|| Ship OpenEVSE "Built and Tested"|| ||
+
+|| Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
+|| 1 || bug-ar || Built || RGB LCD Built - Int Ship || Paid ||  ||
