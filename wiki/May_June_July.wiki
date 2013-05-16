@@ -29,3 +29,5 @@ Payment via paypal to chris1howell83@gmail.com
 || 2 || sorphin || Kit || RTC Kit || Paid || ||
 || 3 || andy || Built || LCD Built || || ||
 || 4 || mattgreen || Kit || RTC Kit || Paid || ||
+|| 5 || bpifer || Kit || LCD Kit || Paid || ||
+|| 6 || kris.stew || || || || || 
