@@ -135,6 +135,7 @@ Payment via paypal to chris1howell83@gmail.com
 || || jamy.25 || Built || RTC LCD - EV Sim || Paid ||
 || || jgoyer || Kit || LCD kit || Paid || ||
 || || mathieu_schuller INT || Built || LCD Built CT Relay || Paid || ||
+|| || craig_dawe || Kit || RTC Kit || Paid || ||
 || || michael911e || Kit || RTC Kit - EV Sim || Paid || ||
 || || jablonski || Kit || LCD Kit || Paid || ||
 
