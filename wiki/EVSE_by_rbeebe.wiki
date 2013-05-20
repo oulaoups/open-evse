@@ -67,3 +67,45 @@ http://rick.beebe.org/photo/EVSE/IMG_1900.JPG
 The LCD display and illuminated button mounted. This pic shows off my lousy soldering. I should have put heat shrink on there too. I did protect this before final assembly. I had to enlarge the hole slightly for this particular button. I got the Real-Time Clock (RTC) option so there's a battery that will go in that silver clip to keep the clock running.
 
 http://rick.beebe.org/photo/EVSE/IMG_1902.JPG
+
+The easiest way to get the sense wires and the high voltage wires connected together is to use these "cheaters" on the relay.
+
+http://rick.beebe.org/photo/EVSE/IMG_1903.JPG
+
+This is the wiring that can be done before putting the big cables in. It took a little playing around before I figured out this was the best orientation for the inner panel inside my box. There are two holes in the bottom of the enclosure. If you use the left one for the incoming power you probably want to rotate the backing plate 90 degrees clockwise. In my case it worked better to have the power cord on the right and this orientation worked better.
+
+Note the ground wire connected to the top left corner of the OpenEVSE board. It's on the _second_ screw from the left. The very left screw is for the J-1772 sense wire. I point this out because there's a "GND" printed on the board right next to that sense screw and it confused me as to which was which. The "GND" actually references the header pin and not the screw terminal.
+
+http://rick.beebe.org/photo/EVSE/IMG_1905.JPG
+
+= Power cables =
+
+Strip about 18" from the J-1772 cable so you have plenty to work with inside the box. Red and black are hot. Green is ground. Orange is the sense wire goes to the EVSE board and blue isn't used. I cut it off, folded it over and taped the end.
+
+http://rick.beebe.org/photo/EVSE/IMG_1907.JPG
+
+Connectors crimped on the incoming power cable. I stripped about 12" from this cable then cut the two hots to the proper length leaving the green ground wire long for now.
+
+http://rick.beebe.org/photo/EVSE/IMG_1908.JPG
+
+= Mounting =
+
+The DS box has holes inside it for screwing it to the wall. Unfortunately that means you have to mount it on the wall before you can put the inner panel in and finish wiring it. I decided to drill and tap some holes in the side to use some brackets I had laying around.
+
+http://rick.beebe.org/photo/EVSE/IMG_1909.JPG
+
+The bracket mounted. These were left over from a network switch but could be easily made from steel or aluminum angle.
+
+http://rick.beebe.org/photo/EVSE/IMG_1911.JPG
+
+Mounted and plugged in. I thought of hard wiring it but the twist-lock plug satisfies the local code which requires a local disconnect.
+
+http://rick.beebe.org/photo/EVSE/IMG_1912.JPG
+
+The display is green when ready, blue when charging, and red if there's an error. The lit button--which looks really cool--is used for programming.
+
+http://rick.beebe.org/photo/EVSE/IMG_1914.JPG
+
+The C-Max gets its first taste of 240-volts.
+
+http://rick.beebe.org/photo/EVSE/IMG_1916.JPG
