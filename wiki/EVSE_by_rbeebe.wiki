@@ -17,7 +17,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || Leviton 30 Amp 2-Pole Single Outlet|| The Home Depot || $9.49 || 1 || http://www.homedepot.com/p/Leviton-30-Amp-2-Pole-Flush-Mount-Self-Grounding-Single-Outlet-Black-R60-05372-000/202077690#.UYEywaKyD8I ||
 || Leviton 30A Right Angle Plug || The Home Depot || $14.75 || 1 || http://www.homedepot.com/p/Leviton-30-50-Amp-2-Pole-3-Way-Black-Grounded-Angle-Straight-Blade-Plug-R50-00931-000/202077682#.UYEzt6KyD8I ||
 || Ground Bar Kit || The Home Depot || $4.67 || 1 || http://www.homedepot.com/p/Blackburn-Aluminum-Ground-Bar-Only-IBT3AB-B1-10/202786635#.UYEzaaKyD8I ||
-|| OpenEVSE Indoor Enclosure || Diversified Stage, Inc. || $58.00 + $16.85 shipping || 1 || http://ssl.diversifiedstage.com/estore/index.php?main_page=product_info&products_id=3&zenid=l3sdq75duj52lm2gjlfuavdl71 ||
+|| OpenEVSE Indoor Enclosure || Diversified Stage, Inc. || $58.00 + $16.85 shipping || 1 || http://ssl.diversifiedstage.com/estore/index.php?main_page=product_info&products_id=3 ||
 || 1/2" Mounting screws and nuts || The Home Depot|| $1.18 || 1 || http://www.homedepot.com/p/8-32-x-1-2-in-Zinc-Plated-Round-Head-Combo-Drive-Machine-Screw-8-Pieces-27621/202706065#.UYE5CKKyD8I ||
 || 1" Mounting screws and nuts || The Home Depot|| $1.18 || 1 || http://www.homedepot.com/p/8-32-x-1-in-Zinc-Plated-Round-Head-Combo-Drive-Machine-Screw-8-Pieces-27651/202706068?keyword=27651#.UYE486KyD8I ||
 || 12-10 AWG Female Spade Piggyback || Ebay || $4.30 || 1 || http://www.ebay.com/itm/130877054917?ssPageName=STRK:MEWNX:IT&_trksid=p3984.m1439.l2649 ||
@@ -43,7 +43,15 @@ A lot of people install their EVSE inside a standard NEMA box. I decided to try 
 
 http://rick.beebe.org/photo/EVSE/IMG_1896.JPG
 
-I ordered the box at the same time I ordered all the other parts. After I got it and was examining the backing plate I realized I didn't know what the predrilled holes were for. An email to DS and they sent me the link to a schematic: http://client.diversifiedstage.com/file/evse_indoor_assembly_drawing.pdf (I don't know why they don't put this inside the box when you buy it). It specifies specific relay, fuse holder and grounding bar. I lucked out with the relay I bought, but my fuse holders and ground bar are different. Fortunately it was easy to adapt the plate to what I bought but you may want to go right for the "correct" ones when you're ordering parts.
+I ordered the box at the same time I ordered all the other parts. After I got it and was examining the backing plate I realized I didn't know what the predrilled holes were for. An email to DS and they sent me the link to a schematic: http://client.diversifiedstage.com/files/evse_indoor_assembly_drawing.pdf (I don't know why they don't put this inside the box when you buy it). It specifies specific relay, fuse holder and grounding bar. I lucked out with the relay I bought, but my fuse holders and ground bar are different. Fortunately it was easy to adapt the plate to what I bought but you may want to go right for the "correct" ones when you're ordering parts.
+
+|| Fuse Holder || Bussman || P/N BM6032PQ ||
+|| Grounding Bus || Eaton || P/N GBK5 ||
+|| Relay || Potter & Brumfield || P/N TE92P7D22-12 ||
+
+The Diversified Stage box can be hard to find. For example at the time of this writing it's not on their website but IS on their ebay store. So if the link I provided doesn't work, go to ebay and search for "diversifiedstage" (http://myworld.ebay.com/diversifiedstage?_trksid=p2047675.l2559)
+
+They also make an outdoor rated box in case you want your EVSE out in the rain.
 
 = Assembly =
 
