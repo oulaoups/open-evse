@@ -1,7 +1,7 @@
 #summary OpenEVSE using Diversified Stage OpenEVSE Enclosure and OpenEVSE Plus v2 with LCD and RTC.
 
 = Introduction =
-I bought a Ford C-MAX Energi plug-in hybrid in March. It came with 110v charge cable which worked well for overnight charging, but I wanted the ability to get my range back during quick stops at home during the day. That meant a 240v EVSE. I decided on the OpenEVSE because it was relatively inexpensive and because I enjoy building things. That said, I'm not very confident in my soldering skills so I opted for a fully-built OpenEVSE board with the Real Time Clock (RTC) and LCD display. Most of the builds on this wiki use Nema boxes. I decided to get the Diversified Stage custom box because I liked the look of it and they had already done all the hard work.
+I bought a Ford C-MAX Energi plug-in hybrid in March. It came with 110v charge cable which worked well for overnight charging, but I wanted the ability to get my range back during quick stops at home during the day. That meant a 240v EVSE. I decided on the OpenEVSE because it was relatively inexpensive and because I enjoy building things. That said, I'm not very confident in my soldering skills so I opted for a fully-built OpenEVSE board with the Real Time Clock (RTC) and LCD display. Most of the builds on this wiki use Nema boxes. I decided to get the Diversified Stage custom enclosure because I liked the look of it and they had already done all the hard work.
 
 = High Voltage Schematic =
 http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
@@ -31,7 +31,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 
 = Collect the parts =
 
-The first step was gathering all the materials. A Leviton 30-amp charge cable is on the left. Next to it is a 10-gauge rubber cable from Home Depot that I had left over from a home generator project. Inside that coil are 2 gland nuts, 2 fuse holders and a 30-amp relay. Upper right is a 30-amp twist lock plug and an illuminated button from Adafruit.
+The first step was gathering all the materials. A Leviton 30-amp charge cable is on the left. Next to it is a 10-gauge rubber cable from Home Depot that I had left over from a home generator project. Inside that coil are 2 gland nuts, 2 fuse holders, a current transformer and a 30-amp relay. Upper right is a 30-amp twist lock plug and an illuminated button from Adafruit.
 
 http://rick.beebe.org/photo/EVSE/IMG_1890.JPG
 
@@ -43,7 +43,7 @@ A lot of people install their EVSE inside a standard NEMA box. I decided to try 
 
 http://rick.beebe.org/photo/EVSE/IMG_1896.JPG
 
-I ordered the box at the same time I ordered all the other parts. After I got it and was examining the backing plate I realized I didn't know what the predrilled holes were for. An email to DS and they sent me the link to a schematic: https://code.google.com/p/open-evse/downloads/detail?name=evse_indoor_assembly_drawing.pdf&can=2&q= (original source:  http://client.diversifiedstage.com/files/evse_indoor_assembly_drawing.pdf) (I don't know why they don't put this inside the box when you buy it). It specifies specific relay, fuse holder and grounding bar. I lucked out with the relay I bought, but my fuse holders and ground bar are different. Fortunately it was easy to adapt the plate to what I bought but you may want to go right for the "correct" ones when you're ordering parts:
+I ordered the box at the same time I ordered all the other parts. After I got it and was examining the backing plate I realized I didn't know what the predrilled holes were for. An email to DS and they sent me the link to a schematic: https://code.google.com/p/open-evse/downloads/detail?name=evse_indoor_assembly_drawing.pdf&can=2&q= (original source:  http://client.diversifiedstage.com/files/evse_indoor_assembly_drawing.pdf) (I don't know why they don't put this inside the box when you buy it). The holes are for a specific relay, fuse holder and grounding bar. I lucked out with the relay I bought, but my fuse holders and ground bar are different. Fortunately it was easy to adapt the plate to what I bought but you may want to go right for the "correct" ones when you're ordering parts:
 
 || *Part* || *Manufacturer* || *Part number* ||
 || Fuse Holder || Bussman || BM6032PQ ||
@@ -52,7 +52,7 @@ I ordered the box at the same time I ordered all the other parts. After I got it
 
 The Diversified Stage box can be hard to find. For example at the time of this writing it's not on their website but IS on their ebay store. So if the link I provided doesn't work, go to ebay and search for "diversifiedstage" (http://myworld.ebay.com/diversifiedstage?_trksid=p2047675.l2559)
 
-They also make an outdoor rated box in case you want your EVSE out in the rain.
+They also make an outdoor rated box in case you want your EVSE out in the rain. Right now, that one _is_ on their website.
 
 = Assembly =
 
@@ -74,19 +74,21 @@ http://rick.beebe.org/photo/EVSE/IMG_1903.JPG
 
 This is the wiring that can be done before putting the big cables in. It took a little playing around before I figured out this was the best orientation for the inner panel inside my box. There are two holes in the bottom of the enclosure. If you use the left one for the incoming power you probably want to rotate the backing plate 90 degrees clockwise. In my case it worked better to have the power cord on the right and this orientation worked better.
 
-Note the ground wire connected to the top left corner of the OpenEVSE board. It's on the _second_ screw from the left. The very left screw is for the J-1772 sense wire. I point this out because there's a "GND" printed on the board right next to that sense screw and it confused me as to which was which. The "GND" actually references the header pin and not the screw terminal.
+Note the ground wire connected to the top left corner of the OpenEVSE board. It's on the _second_ screw from the left. The very left screw is for the J-1772 copilot wire. I point this out because there's a "GND" printed on the board right next to that copilot screw and it confused me as to which was which. The "GND" actually references the nearby header pin and not the screw terminal.
 
 http://rick.beebe.org/photo/EVSE/IMG_1905.JPG
 
 = Power cables =
 
-Strip about 18" from the J-1772 cable so you have plenty to work with inside the box. Red and black are hot. Green is ground. Orange is the sense wire goes to the EVSE board and blue isn't used. I cut it off, folded it over and taped the end.
+Strip about 18" from the J-1772 cable so you have plenty to work with inside the box. Red and black are hot. Green is ground. Orange is the copilot wire that goes to the EVSE board and blue is the proximity sensor which isn't used. I cut it off, folded it over and taped the end. Not all J-1772 cables include the blue wire.
 
 http://rick.beebe.org/photo/EVSE/IMG_1907.JPG
 
 Connectors crimped on the incoming power cable. I stripped about 12" from this cable then cut the two hots to the proper length leaving the green ground wire long for now.
 
 http://rick.beebe.org/photo/EVSE/IMG_1908.JPG
+
+Ideally you want to leave extra slack in the ground wires. If something should happen and the power cables get yanked out of the EVSE you'd like the copilot wire to unplug first, followed by the two hots and the ground last.
 
 = Mounting =
 
