@@ -1,0 +1,41 @@
+#summary OpenEVSE using Diversified Stage OpenEVSE Enclosure and OpenEVSE Plus v2 with LCD and RTC.
+
+= Introduction =
+I bought a Ford C-MAX Energi plug-in hybrid in March. It came with 110v charge cable which worked well for overnight charging, but I wanted the ability to get my range back during quick stops at home during the day. That meant a 240v EVSE. I decided on the OpenEVSE because it was relatively inexpensive and because I enjoy building things. That said, I'm not very confident in my soldering skills so I opted for a fully-built OpenEVSE board with the Real Time Clock (RTC) and LCD display. Most of the builds on this wiki use Nema boxes. I decided to get the Diversified Stage custom box because I liked the look of it and they had already done all the hard work.
+
+= High Voltage Schematic =
+http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
+
+
+= Parts List =
+|| Part || Source || Cost || Quantity || Link ||
+|| Open EVSE Plus Board w/ integrated power supply, LCD and RTC (Built) || Open EVSE || $210.00 || 1 || https://code.google.com/p/open-evse/wiki/Ordering||
+|| J-1772 cable, 30 amps (A3435-PEV) || Leviton ||   $173.36 + FS || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
+|| 30A Relay || Digikey || $13.03 || 1 || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
+|| Current Transformer || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
+|| Halex 3/4 in. Strain Relief (2-Pack) || The Home Depot || $6.28 || 1 || http://www.homedepot.com/p/Halex-3-4-in-Strain-Relief-Cord-Connectors-with-Gland-Nut-2-Pack-21694/100126837#.UYEwSaKyD8I ||
+|| Leviton 30 Amp 2-Pole Single Outlet|| The Home Depot || $9.49 || 1 || http://www.homedepot.com/p/Leviton-30-Amp-2-Pole-Flush-Mount-Self-Grounding-Single-Outlet-Black-R60-05372-000/202077690#.UYEywaKyD8I ||
+|| Leviton 30A Right Angle Plug || The Home Depot || $14.75 || 1 || http://www.homedepot.com/p/Leviton-30-50-Amp-2-Pole-3-Way-Black-Grounded-Angle-Straight-Blade-Plug-R50-00931-000/202077682#.UYEzt6KyD8I ||
+|| Ground Bar Kit || The Home Depot || $4.67 || 1 || http://www.homedepot.com/p/Blackburn-Aluminum-Ground-Bar-Only-IBT3AB-B1-10/202786635#.UYEzaaKyD8I ||
+|| OpenEVSE Indoor Enclosure || Diversified Stage, Inc. || $58.00 + $16.85 shipping || 1 || http://ssl.diversifiedstage.com/estore/index.php?main_page=product_info&products_id=3&zenid=l3sdq75duj52lm2gjlfuavdl71 ||
+|| 1/2" Mounting screws and nuts || The Home Depot|| $1.18 || 1 || http://www.homedepot.com/p/8-32-x-1-2-in-Zinc-Plated-Round-Head-Combo-Drive-Machine-Screw-8-Pieces-27621/202706065#.UYE5CKKyD8I ||
+|| 1" Mounting screws and nuts || The Home Depot|| $1.18 || 1 || http://www.homedepot.com/p/8-32-x-1-in-Zinc-Plated-Round-Head-Combo-Drive-Machine-Screw-8-Pieces-27651/202706068?keyword=27651#.UYE486KyD8I ||
+|| 12-10 AWG Female Spade Piggyback || Ebay || $4.30 || 1 || http://www.ebay.com/itm/130877054917?ssPageName=STRK:MEWNX:IT&_trksid=p3984.m1439.l2649 ||
+|| 22-18 AWG Female Spade || Ebay || $4.20 || 1 || http://www.ebay.com/itm/140941993829?ssPageName=STRK:MEWNX:IT&_trksid=p3984.m1439.l2649 ||
+|| Illuminated Momentary Button || Ebay || $8.99 + $4.00 shipping || 1 || http://www.ebay.com/itm/130563267308?ssPageName=STRK:MEWAX:IT&_trksid=p3984.m1423.l2649||
+|| Shipping || Digikey || $5 || 1 || ||
+
+
+|| Total || || $531.18 ||
+
+
+= Build =
+
+The first step was gathering all the materials. A Leviton 30-amp charge cable is on the left. Next to it is a 10-gauge rubber cable from Home Depot that I had left over from a home generator project. Inside that coil are 2 gland nuts, 2 fuse holders and a 30-amp relay. Upper right is a 30-amp twist lock plug and an illuminated button from Adafruit.
+
+http://rick.beebe.org//photo/EVSE/IMG_1890.JPG
+
+
+
+
+http://client.diversifiedstage.com/file/evse_indoor_assembly_drawing.pdf
