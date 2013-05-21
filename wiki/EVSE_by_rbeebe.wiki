@@ -17,7 +17,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || Fuse Block || Digikey || 1.13 || 2 || http://www.digikey.com/product-search/en/circuit-protection/fuseholders/655422?k=F1497-ND <br />* see note below ||
 || Fuse 30A || Digikey || 1.68 || 2 || http://www.digikey.com/product-detail/en/0326030.MXP/F1779-ND/778640 ||
 || Gland Nut || Digikey || 3.20 || 2 || http://www.digikey.com/product-detail/en/NG-9513/377-1923-ND/439541 ||
-|| Leviton 30 Amp 2-Pole Single Outlet|| The Home Depot || $9.49 || 1 || http://www.homedepot.com/p/Leviton-30-Amp-2-Pole-Flush-Mount-Self-Grounding-Single-Outlet-Black-R60-05372-000/202077690#.UYEywaKyD8I ||
+|| 10-3 rubber cord || The Home Depot || $4.29 || 3 || http://www.homedepot.com/p/t/202316422?productId=202316422&storeId=10051&langId=-1&catalogId=10053&MERCH=REC-_-SearchPLPHorizontal1-3-_-NA-_-202316422-_-N <br /> *price per foot ||
 || 30A Twist-Lock Plug || The Home Depot || $18.97 || 1 || http://www.homedepot.com/p/Pass-Seymour-30-Amp-125-Volt-Locking-Plug-L530PCCV3/100166915 ||
 || Ground Bar Kit || The Home Depot || $4.48 || 1 || http://www.homedepot.com/p/Square-D-by-Schneider-Electric-4-Terminal-Ground-Bar-Kit-PK4GTACP/100207842?N=arcd <br />*see note below* ||
 || 12-10 AWG Female Spade || The Home Depot || $2.99 || 1 || http://www.homedepot.com/p/Tyco-Electronics-Female-Disconnect-Fully-Insulated-Nylon-12-10-AWG-250-Series-10-Clam-CPGI-4-520448-2-10/202204296 ||
@@ -25,7 +25,13 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || Quick-Disconnect Adapter Set || Radio Shack || 2.49 || 2 || http://www.radioshack.com/product/index.jsp?productId=2103503&filterName=Cable+type&filterValue=Quick+disconnects ||
 || Illuminated Momentary Button || Adafruit || $5.95 || 1 || http://www.adafruit.com/products/481||
 
-|| Total || || $540.32 || (approximate. I haven't added in some tax and shipping) ||
+|| Total || || $540.32 ||
+
+_Notes:_
+
+  * The total is approximate. I haven't added in some tax and shipping. 
+  * I didn't buy any nuts, bolts, screws, small wire, or the brackets I used on the enclosure. I my shop is pretty well stocked.
+  * Note that the fuse holder and ground bar I bought are not the ones the DS enclosure is designed for. See below for the correct part numbers.
 
 
 = Collect the parts =
