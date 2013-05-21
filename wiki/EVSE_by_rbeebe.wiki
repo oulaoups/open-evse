@@ -22,7 +22,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || Ground Bar Kit || The Home Depot || $4.48 || 1 || http://www.homedepot.com/p/Square-D-by-Schneider-Electric-4-Terminal-Ground-Bar-Kit-PK4GTACP/100207842?N=arcd <br />*see note below* ||
 || 12-10 AWG Female Spade || The Home Depot || $2.99 || 1 || http://www.homedepot.com/p/Tyco-Electronics-Female-Disconnect-Fully-Insulated-Nylon-12-10-AWG-250-Series-10-Clam-CPGI-4-520448-2-10/202204296 ||
 || 22-18 AWG Female Spade || The Home Depot || $2.99 || 1 || http://www.homedepot.com/p/Tyco-Electronics-Female-Disconnect-Fully-Insulated-Nylon-22-18-AWG-250-Series-10-Clam-CPGI-2-520264-2-10/202204294?keyword=22-18+female+disconnect ||
-|| Quick-Disconnect Adapter Set || Radio Shack || 2.49 || 2 || http://www.radioshack.com/product/index.jsp?productId=2103503&filterName=Cable+type&filterValue=Quick+disconnects ||
+|| Quick-Disconnect Adapter Set "cheaters" || Radio Shack || 2.49 || 2 || http://www.radioshack.com/product/index.jsp?productId=2103503&filterName=Cable+type&filterValue=Quick+disconnects ||
 || Illuminated Momentary Button || Adafruit || $5.95 || 1 || http://www.adafruit.com/products/481||
 
 || Total || || $540.32 ||
@@ -32,7 +32,7 @@ _Notes:_
   * The total is approximate. I haven't added in some tax and shipping. 
   * I didn't buy any nuts, bolts, screws, small wire, or the brackets I used on the enclosure. I my shop is pretty well stocked.
   * Note that the fuse holder and ground bar I bought are not the ones the DS enclosure is designed for. See below for the correct part numbers.
-
+  * I did not include the roughly $120 in materials to install the outlet in the garage.
 
 = Collect the parts =
 
