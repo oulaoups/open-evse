@@ -11,13 +11,18 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || *Part* || *Source* || *Cost* || *Quantity* || *Link* ||
 || Open EVSE Plus Board w/ integrated power supply, LCD and RTC (Built) || Open EVSE || $225.00 || 1 || https://code.google.com/p/open-evse/wiki/Ordering||
 || J-1772 cable, 30 amps (A3435-PEV) || Leviton ||   $184.37 || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
+|| OpenEVSE Indoor Enclosure || Diversified Stage, Inc. || $85 || 1 || http://ssl.diversifiedstage.com/estore/index.php?main_page=product_info&products_id=3 ||
 || 30A Relay || Digikey || $13.03 || 1 || http://search.digikey.com/us/en/products/T92P7D22-12/PB486-ND/365921 ||
 || Current Transformer || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
+|| Fuse Block || Digikey || 1.13 || 2 || http://www.digikey.com/product-search/en/circuit-protection/fuseholders/655422?k=F1497-ND <br />* see note below ||
+|| Fuse 30A || Digikey || 1.68 || 2 || http://www.digikey.com/product-detail/en/0326030.MXP/F1779-ND/778640 ||
+|| Gland Nut || Digikey || 3.20 || 2 || http://www.digikey.com/product-detail/en/NG-9513/377-1923-ND/439541 ||
+
+
 || Halex 3/4 in. Strain Relief (2-Pack) || The Home Depot || $6.28 || 1 || http://www.homedepot.com/p/Halex-3-4-in-Strain-Relief-Cord-Connectors-with-Gland-Nut-2-Pack-21694/100126837#.UYEwSaKyD8I ||
 || Leviton 30 Amp 2-Pole Single Outlet|| The Home Depot || $9.49 || 1 || http://www.homedepot.com/p/Leviton-30-Amp-2-Pole-Flush-Mount-Self-Grounding-Single-Outlet-Black-R60-05372-000/202077690#.UYEywaKyD8I ||
 || Leviton 30A Right Angle Plug || The Home Depot || $14.75 || 1 || http://www.homedepot.com/p/Leviton-30-50-Amp-2-Pole-3-Way-Black-Grounded-Angle-Straight-Blade-Plug-R50-00931-000/202077682#.UYEzt6KyD8I ||
 || Ground Bar Kit || The Home Depot || $4.67 || 1 || http://www.homedepot.com/p/Blackburn-Aluminum-Ground-Bar-Only-IBT3AB-B1-10/202786635#.UYEzaaKyD8I ||
-|| OpenEVSE Indoor Enclosure || Diversified Stage, Inc. || $58.00 + $16.85 shipping || 1 || http://ssl.diversifiedstage.com/estore/index.php?main_page=product_info&products_id=3 ||
 || 1/2" Mounting screws and nuts || The Home Depot|| $1.18 || 1 || http://www.homedepot.com/p/8-32-x-1-2-in-Zinc-Plated-Round-Head-Combo-Drive-Machine-Screw-8-Pieces-27621/202706065#.UYE5CKKyD8I ||
 || 1" Mounting screws and nuts || The Home Depot|| $1.18 || 1 || http://www.homedepot.com/p/8-32-x-1-in-Zinc-Plated-Round-Head-Combo-Drive-Machine-Screw-8-Pieces-27651/202706068?keyword=27651#.UYE486KyD8I ||
 || 12-10 AWG Female Spade Piggyback || Ebay || $4.30 || 1 || http://www.ebay.com/itm/130877054917?ssPageName=STRK:MEWNX:IT&_trksid=p3984.m1439.l2649 ||
