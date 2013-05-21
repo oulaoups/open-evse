@@ -30,7 +30,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 _Notes:_
 
   * The total is approximate. I haven't added in some tax and shipping. 
-  * I didn't buy any nuts, bolts, screws, small wire, or the brackets I used on the enclosure. I my shop is pretty well stocked.
+  * I didn't buy any nuts, bolts, screws, small wire, or the brackets I used on the enclosure. My shop is pretty well stocked.
   * Note that the fuse holder and ground bar I bought are not the ones the DS enclosure is designed for. See below for the correct part numbers.
   * I did not include the roughly $120 in materials to install the outlet in the garage.
 
@@ -44,7 +44,7 @@ On the left is a ground bus bar sold for home circuit breaker panels. The two ci
 
 http://rick.beebe.org/photo/EVSE/IMG_1895.JPG
 
-A lot of people install their EVSE inside a standard NEMA box. I decided to try out this new ready-built case from Diversified Stage. It's a bit large but it's very heavy duty and all the holes are already cut.
+A lot of people install their EVSE inside a standard NEMA box. I decided to try out this new ready-built case from Diversified Stage. It's a bit large but it's very heavy duty and all the holes are already cut. Plus it has that cool OpenEVSE logo silk screened on it. Very official!
 
 http://rick.beebe.org/photo/EVSE/IMG_1896.JPG
 
@@ -69,7 +69,7 @@ The OpenEVSE board mounted on its standoffs. There are fiber washers under the s
 
 http://rick.beebe.org/photo/EVSE/IMG_1900.JPG
 
-The LCD display and illuminated button mounted. This pic shows off my lousy soldering. I should have put heat shrink on there too. I did protect this before final assembly. I had to enlarge the hole slightly for this particular button. I got the Real-Time Clock (RTC) option so there's a battery that will go in that silver clip to keep the clock running.
+The LCD display and illuminated button mounted (this is the back of the front cover). This pic shows off my lousy soldering. I should have put heat shrink on there too. I did protect this before final assembly. I had to enlarge the hole slightly for this particular button. I got the Real-Time Clock (RTC) option so there's a battery that will go in that silver clip to keep the clock running.
 
 http://rick.beebe.org/photo/EVSE/IMG_1902.JPG
 
@@ -85,7 +85,7 @@ http://rick.beebe.org/photo/EVSE/IMG_1905.JPG
 
 = Power cables =
 
-Strip about 18" from the J-1772 cable so you have plenty to work with inside the box. Red and black are hot. Green is ground. Orange is the copilot wire that goes to the EVSE board and blue is the proximity sensor which isn't used. I cut it off, folded it over and taped the end. Not all J-1772 cables include the blue wire.
+Strip about 18" from the J-1772 cable so you have plenty to work with inside the box. Red and black are hot. Green is ground. Orange is the copilot wire that goes to the OpenEVSE board and blue is the proximity sensor which isn't used. I cut it off, folded it over and taped the end. Not all J-1772 cables include the blue wire.
 
 http://rick.beebe.org/photo/EVSE/IMG_1907.JPG
 
