@@ -90,7 +90,15 @@ http://www.seattleeva.org/images/thumb/1/16/20121220_094550.jpg/800px-20121220_0
 http://www.seattleeva.org/images/thumb/0/0e/20121220_092011.jpg/800px-20121220_092011.jpg
 
 = Jacob Scutzlas's L2 Open-EVSE for Chevy Volt =
-   -Using Diversified Stage, Inc Enclosure and OpenEVSE Plus v2 
+  * Using Diversified Stage, Inc Enclosure and OpenEVSE Plus v2 
 http://i144.photobucket.com/albums/r176/scutzi128/IMG_3313_zps2a4b6a99.jpg
 http://i144.photobucket.com/albums/r176/scutzi128/IMG_3316_zpsc73a76ef.jpg
 http://i144.photobucket.com/albums/r176/scutzi128/IMG_3319_zpseb9d0840.jpg
+
+= Rick Beebe's 30amp OpenEVSE for Ford C-Max Energi =
+  * OpenEVSE v2 with LCD and RTC
+  * Diversified Stage indoor enclosure
+  * Leviton 30amp J1772 cable
+  * Built May, 2013
+http://rick.beebe.org/photo/EVSE/IMG_1914.JPG
+http://rick.beebe.org/photo/EVSE/IMG_1916.JPG
