@@ -1,4 +1,4 @@
-For this project the latches are on the right; AC power enters from the top  left side; J1772 wire enters at the center bottom. #summary Guide for Assembling a J1772, 75A OpenEVSE Plus v2.
+#summary Guide for Assembling a J1772, 75A OpenEVSE Plus v2.
 =IN PROGRESS/ NOT PROOFED/ PHOTOS TO FOLLOW=
 = Introduction =
 
