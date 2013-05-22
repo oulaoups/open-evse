@@ -1,4 +1,4 @@
-#summary Guide for Assembling a J1772, 75A OpenEVSE Plus v2.
+For this project the latches are on the right; AC power enters from the top  left side; J1772 wire enters at the center bottom. #summary Guide for Assembling a J1772, 75A OpenEVSE Plus v2.
 =IN PROGRESS/ NOT PROOFED/ PHOTOS TO FOLLOW=
 = Introduction =
 
@@ -79,10 +79,10 @@ Version 2
 
 === Relay Coil: ===
  #  Cut a 5-1/2" length, each, of the Gray and the Violet wire. Any color other than black red, white or green is fine.
- #  Strip one end of each wire 1/4”; the other end 1/8”
+ #  Strip one end of each wire 1/4”; the other end 3/32”
  #  Crimp a .187” Quick Connect (red) on the end of each wire that was stripped 1/4”.
  #  Twist the wires together if desired. Be sure to leave enough free length at each to reach the connection points.
- #  Connect the ?” stripped end of one wire to “Relay 1, 12V DC” and the stripped end of the other wire to “Relay Common” on the EVSE Plus v2 board. These connections are not polarized.
+ #  Connect the 3/32” stripped end of one wire to “Relay 1, 12V DC” and the stripped end of the other wire to “Relay Common” on the EVSE Plus v2 board. These connections are not polarized.
  #  Attach the .187” Quick Connects (red) of the Relay Coil 12V wires to the Relay coil lugs (photo ?). These connections are not polarized.
 === AC Line 2 to Relay and Contactor Coil ===
  
@@ -109,8 +109,8 @@ Version 2
  #  Connect the stripped end of the Red wire to the blue screw down for AC Line 2. Tighten securely.
  #  Attach the Quick Connect of the Black wire to a lug of 1L1 on the Contactor.
  #  Attach the Quick Connect of the Red wire to a lug of 5L3 on the Contactor.
+
 === AC Test 1 and 2 ===
- 
  #  Cut a 5-3/8" length of the Black wire and a 7-3/8” length of the Red wire.
  #  Strip one end of each 3/8”.
  #  Crimp a .250” Quick Connect (red) on those ends.
@@ -140,3 +140,25 @@ Version 2
  #  Clean and smooth the hole.
  #  Install J1772 strain relief fitting through the hole. The rubber washer is on the outside. Secure with the lock nut on the inside of the box. Tighten securely.
  #  Install the mounting plate with components in the box with the four screws provided. If the nuts or bolts keep the mounting plate from seating, shorten the bolts or file the nub that interferes.
+
+= D. J1772 Cable =
+ #  Remove the end 6 inches of the J1772 line jacket (outside insulation). Be very careful not to nick the underlying insulation. 
+ #  Slide the strain relief nut over the cable (facing the correct way!). 
+ #  Bend the blue wire 180º and insulate by covering with electric tape. It is not used.
+ #  Shorten each Black and Red wire 3/4”.
+ #  Strip the ends of the Black and Red wires from the J1772 plug 5/8”. 
+ #  Strip the Ground (green) wire 1/4”. 
+ #  Run the 5 wires of the J1772 plug through the strain relief fitting with the jacket inserted all the way into the collar. Tighten securely.
+ #  Shorten the Pilot (orange) wire 3” so there is minimal extra length to its connection.
+ #  Strip the Pilot (orange) wire 1/8”.
+ #  Connect to the blue screw down marked “J1772 Pilot”.
+ #  Connect the Ground (green) wire to the ground bar. Tighten securely.
+ #  Feed the black and red wires through the Ferrite Core.
+ #  Feed the black and red wires through the Current Transformer.
+  *  If using the smaller diameter Current Transformer, the wires need to be squeezed into an oblong shape using smooth jaw pliers. Be careful not to damage the insulation when using the pliers or sliding the Current Transformer over the wires.
+ #  Insert the Black AC power wire into the screw down of 2T1 on the Contactor and clamp down tightly. Be sure there are no stray wire strands outside the hole.
+ #  Insert the White AC power wire into the screw down of 6T3 on the Contactor and clamp down tightly. Be sure there are no stray wire strands outside the hole.
+
+If powered at 240V, the unit should now be functional unless the firmware on the EVSE board requires a display.
+
+Test the unit as described at http://code.google.com/p/open-evse/wiki/EVSE_TESTING
