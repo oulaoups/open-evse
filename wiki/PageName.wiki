@@ -1,7 +1,7 @@
 #summary Guide for Assembling a J1772, 75A OpenEVSE Plus v2.
-
+=IN PROGRESS=
 = Introduction =
-
+ 
 This an open source design for Electric Vehicle Supply Equipment. More information is posted at http://code.google.com/p/open-evse/
 
 *This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.*
