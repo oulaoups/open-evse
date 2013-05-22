@@ -91,7 +91,7 @@ Connectors crimped on the incoming power cable. I stripped about 12" from this c
 
 http://rick.beebe.org/photo/EVSE/IMG_1908.JPG
 
-Final wiring after the power cables are put in. Ideally you want to leave extra slack in the ground wires. If something should happen and the power cables get yanked out of the EVSE you'd like the copilot wire to unplug first, followed by the two hots and the ground last.
+Final wiring after the power cables are put in. Ideally you want to leave extra slack in the ground wires. If something should happen and the power cables get yanked out of the EVSE you'd like the copilot wire to unplug first, followed by the two hots and the ground last. It doesn't look it from this angle but my copilot wire is 1" shorter than the power cables.
 
 http://rick.beebe.home/photo/EVSE/2013-05-21%2008.30.13.jpg
 
