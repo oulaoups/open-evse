@@ -1,5 +1,5 @@
 #summary Guide for Assembling a J1772, 75A OpenEVSE Plus v2.
-=IN PROGRESS=
+=IN PROGRESS/ Not Proofed=
 = Introduction =
  
 This an open source design for Electric Vehicle Supply Equipment. More information is posted at http://code.google.com/p/open-evse/
@@ -19,18 +19,18 @@ This guide is based on information gleaned from garygid, chris1howell, glennD an
 Parts list and information: 
 http://code.google.com/p/open-evse/wiki/75AOpenEVSE
 
-Leviton 75A J1772 (discontinued) ) http://store.leviton.com/Electric-Vehicle-Charge-Connector-A2055-PEV/dp/B009UCEXYI#.UPj3weicxgI
-Project box- http://www.digikey.com/product-detail/e ... -ND/387065
-Metal mounting plate- http://www.digikey.com/product-detail/en/NBX-10985/NBX-10985-ND/439529
-(4) Bolts/lock nuts- #10, ¾” long
-(2) Bolts/lock nuts/washers- #4, ½” long
-(4) Bolts/lock nuts- #4, 5/8” long
-(4) Bolts/plastic nuts- #4, 1-1/4” long
-Hookup wire- 18AWG, 300V, 90C, stranded (largest gauge that fits in the small screw downs).
-Strain Relief- http://www.grainger.com/Grainger/HUBBELL-WIRING-DEVICEKELLEMS-Cord-Connector-2DPD9?Pid=search 
+ * Leviton 75A J1772 (discontinued) http://store.leviton.com/Electric-Vehicle-Charge-Connector-A2055-PEV/dp/B009UCEXYI#.UPj3weicxgI
+ * Project box- http://www.digikey.com/product-detail/e ... -ND/387065
+ * Metal mounting plate- http://www.digikey.com/product-detail/en/NBX-10985/NBX-10985-ND/439529
+ * (4) Bolts/lock nuts- #10, ¾” long
+ * (2) Bolts/lock nuts/washers- #4, ½” long
+ * (4) Bolts/lock nuts- #4, 5/8” long
+ * (4) Bolts/plastic nuts- #4, 1-1/4” long
+ * Hookup wire- 18AWG, 300V, 90C, stranded (largest gauge that fits in the small screw downs).
+ * Strain Relief- http://www.grainger.com/Grainger/HUBBELL-WIRING-DEVICEKELLEMS-Cord-Connector-2DPD9?Pid=search 
 
 
-= Notes: =
+=  Notes  =
 
 Current Transformer- Component listed is too small. Needed to squeeze the 6AWG wires into oblong shape to fit them through but it is very tight fit. A 11/16” hole diameter or larger is required. 
 
