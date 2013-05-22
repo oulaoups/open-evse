@@ -4,6 +4,7 @@
   ==Using OpenEVSE Plus v1 (updated for v2)==
 
 = Usual Disclaimers =
+This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use. 
 
 This project requires the use of tools and methods that can cause injury if not performed correctly. Any electrical work can be dangerous. This EVSE operates on 120 and 240Volts AC at up to 30 Amps. Improper assembly can cause damage to the car, fire, injury and/or death. 
 ===*Do not attempt this project unless you are qualified.*===
