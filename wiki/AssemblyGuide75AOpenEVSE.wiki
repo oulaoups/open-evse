@@ -39,13 +39,16 @@ This project used-
  # There is a row of three 0.1” pins next to the Relay connections. The two pins closest to the edge of the board are for the CT Coil. They are not polarized.
 
 =  A. Assemble Components on the Mounting Plate  =
- # Mark the hole positions on the mounting plate from a template or from your choice of component locations. 
+ # Mark the hole positions on the mounting plate from a template or from your choice of component locations.
+  *  http://imageshack.us/a/img443/4143/mountingplateimg0538.jpg
  # Punch starting holes at those locations. 
  # Drill holes: 1/8” for the #4 bolts; 3/16” for the #10 bolts; 11/64” for the #8 bolt that came with the Ground bar.
- # File the holes smooth on both surfaces. 
+ # File the holes smooth on both surfaces.
+  *  http://imageshack.us/a/img841/607/componentplacementimg06.jpg 
  # Mount the components with the lock nuts on the back (bottom).
   * The Contactor was centered horizontally, 2 ½” below top ot the box. Use four  3/4”,  #10 bolts.
   * The Relay was placed at the bottom right corner with the two coil lugs towards the EVSE Plus board. Use two 1/2”, #4 bolts with washers.
+  *  http://imageshack.us/a/img24/2530/componentmountingimg060.jpg
   * The EVSE board was placed at the bottom right corner, oriented as shown in Photo 1. Insert 1/4” stand offs between the EVSE/Power supply board and the mounting plate. Use four 5/8”, #4 bolts.
   * The ground bar was positioned between the Relay and the Contactor. Use the #8 bolt provided and a lock nut.
  # Check that the mounting plate, with components, fits in the box with no conflicts. If the nuts or bolts keep the mounting plate from seating, shorten the bolts or file the nub that interferes.
@@ -53,7 +56,11 @@ This project used-
 
 Version 1
 
+http://imageshack.us/a/img40/5868/openevseplus.jpg
+
 Version 2
+
+http://imageshack.us/a/img109/9415/openevseplusv2.jpg
 
 == Notes: ==
  #  The following measurements are those used for this project. Depending on the components and design, your measurements may be very different. 
@@ -73,20 +80,23 @@ Version 2
  #  Place the shrink wrap over the exposed metal and heat with a hair dryer.]
 
 === EVSE Ground: ===
+http://imageshack.us/a/img690/8085/openevsegroundimg0613.jpg
  #  Cut a 3-1/4” length of the green wire.
  #  Strip one end 1/4”; the other end 1/8”.
  #  Connect the 1/8” end to the blue screw down marked “ground” (photo ?). Tighten securely.
  #  Connect the 1/4” end to the ground bar. Tighten securely.
 
 === Relay Coil: ===
+http://imageshack.us/a/img9/6096/relaycoilwiresimg0542.jpg
  #  Cut a 5-1/2" length, each, of the Gray and the Violet wire. Any color other than black red, white or green is fine.
  #  Strip one end of each wire 1/4”; the other end 3/32”
  #  Crimp a .187” Quick Connect (red) on the end of each wire that was stripped 1/4”.
  #  Twist the wires together if desired. Be sure to leave enough free length at each to reach the connection points.
+  *  http://imageshack.us/a/img543/5391/relaywiredimg0620.jpg
  #  Connect the 3/32” stripped end of one wire to “Relay 1, 12V DC” and the stripped end of the other wire to “Relay Common” on the EVSE Plus v2 board. These connections are not polarized.
  #  Attach the .187” Quick Connects (red) of the Relay Coil 12V wires to the Relay coil lugs (photo ?). These connections are not polarized.
 === AC Line 2 to Relay and Contactor Coil ===
- 
+http://imageshack.us/a/img42/3718/contactorrelaycoilredim.jpg 
  #  Cut two 13” lengths of the Red wire.
  #  Strip both ends of each 3/8”.
  #  Crimp a .250” Quick Connect (red) on all four ends.
@@ -95,12 +105,14 @@ Version 2
  #  Attach the other wire to the output lug on the Relay. The other end attaches to the Coil lug underneath 5L3 on the Contactor.
  
 === AC Line 1 Contactor Coil ===
+http://imageshack.us/a/img716/8922/contactortocoilblackimg.jpg
  #  Cut a 3-3/4” length of the Black wire. 
  #  Strip both ends of 3/8”.
  #  Crimp a .250” Quick Connect (red) on both ends. 
  #  Attach one end to a lug of 1L1 on the Contactor. 
  #  The other end attaches to the Coil lug underneath 1L1 on the Contactor.
 === AC Line 1 and 2 ===
+http://imageshack.us/a/img856/6268/contactortoopenevseimg0.jpg
  #  Cut a 12" length of the Black wire and a 13-1/2” length of the Red wire.
  #  Strip one end of each 3/8”.
  #  Crimp a .250” Quick Connect (red) on those ends.
@@ -110,8 +122,9 @@ Version 2
  #  Connect the stripped end of the Red wire to the blue screw down for AC Line 2. Tighten securely.
  #  Attach the Quick Connect of the Black wire to a lug of 1L1 on the Contactor.
  #  Attach the Quick Connect of the Red wire to a lug of 5L3 on the Contactor.
-
+http://imageshack.us/a/img812/3865/contactorinputwiringimg.jpg
 === AC Test 1 and 2 ===
+http://imageshack.us/a/img819/436/contactoropenevserelayo.jpg
  #  Cut a 5-3/8" length of the Black wire and a 7-3/8” length of the Red wire.
  #  Strip one end of each 3/8”.
  #  Crimp a .250” Quick Connect (red) on those ends.
@@ -121,42 +134,56 @@ Version 2
  #  Connect the stripped end of the Red wire to the blue screw down for AC Test 2. Tighten securely.
  #  Attach the Quick Connect of the Black wire to a lug of 2T1 on the Contactor.
  #  Attach the Quick Connect of the Red wire to a lug of 6T3 on the Contactor.
+  *  http://imageshack.us/a/img19/954/outputimg0659.jpg
+  *  http://imageshack.us/a/img593/6710/completecomponentwiring.jpg
  #  Install connector to the Current Transformer wires or solder directly to the 0.1" pins on the OpenEVSE Board.
   *  *If using a 0.1” pin female connector for the Current Transformer-*
    *  a.	Strip the end of both wires. 
    *  b.	Crimp each wire to a female metal pin.
    *  c.	Insert each female pin into the plastic housing until it clicks.
+   *  http://imageshack.us/a/img845/1941/ctwireassemblyimg0668.jpg
   *  *If the wire of the Current Transformer is too large for the 0.1” pin connector:*
    *  a.	Strip the end of both wires. Tin.
    *  b.	Strip the end of two smaller wires with the 0.1” female metal pins on the other end. Tin.
    *  c.	Solder each wire of the Current Transformer to a smaller wire. 
    *  d.	Slip shrink wrap over the exposed metal and heat with a hair dryer.
    *  e.	Insert each female pin into the plastic housing until it clicks.
+   *  http://imageshack.us/a/img515/8230/ctconnectionimg0679.jpg
  #  Attach the Connector to the CT Coil pins on the EVSE board. These are not polarized. They are the two pins towards the outside edge of the EVSE Board labeled GFCI CT.
 
 = C. Project Box =
+http://imageshack.us/a/img692/2586/projectboximg0548y.jpg
  #  Determine the orientation of the box and the board. For this project the latches are on the right; AC power enters from the top  left side; J1772 wire enters at the center bottom. 
  #  Hole size for the AC power is dependant on the size of conduit used. 
  #  Drill a 1-1/2" hole in the bottom for the J1772 wire strain relief fitting. This project positioned it centered horizontally (3-1/16” from the side); 1-7/16” from the bottom.
  #  Clean and smooth the hole.
+  *  http://imageshack.us/a/img838/2281/j1772holestrainreliefim.jpg
  #  Install J1772 strain relief fitting through the hole. The rubber washer is on the outside. Secure with the lock nut on the inside of the box. Tighten securely.
+  *  http://imageshack.us/a/img841/2351/strainreliefinstalledim.jpg
  #  Install the mounting plate with components in the box with the four screws provided. If the nuts or bolts keep the mounting plate from seating, shorten the bolts or file the nub that interferes.
 
 = D. J1772 Cable =
- #  Remove the end 6 inches of the J1772 line jacket (outside insulation). Be very careful not to nick the underlying insulation. 
- #  Slide the strain relief nut over the cable (facing the correct way!). 
+  *  http://imageshack.us/a/img855/5251/80acableimg0707.jpg
+ #  Remove the end 6 inches of the J1772 line jacket (outside insulation). Be very careful not to nick the underlying insulation.
+  *  http://imageshack.us/a/img580/482/80acablewiresimg0716.jpg 
+ #  Slide the strain relief nut over the cable (facing the correct way!).
  #  Bend the blue wire 180º and insulate by covering with electric tape. It is not used.
  #  Shorten each Black and Red wire 3/4”.
  #  Strip the ends of the Black and Red wires from the J1772 plug 5/8”. 
- #  Strip the Ground (green) wire 1/4”. 
+ #  Strip the Ground (green) wire 1/4”.
+  *  http://imageshack.us/a/img560/2968/j1772cableinstallingimg.jpg
  #  Run the 5 wires of the J1772 plug through the strain relief fitting with the jacket inserted all the way into the collar. Tighten securely.
+  *  http://imageshack.us/a/img405/9821/j1772cableinstalledimg0.jpg
  #  Shorten the Pilot (orange) wire 3” so there is minimal extra length to its connection.
  #  Strip the Pilot (orange) wire 1/8”.
  #  Connect to the blue screw down marked “J1772 Pilot”.
+  *  http://imageshack.us/a/img812/3623/pilotconnectionimg0729.jpg
  #  Connect the Ground (green) wire to the ground bar. Tighten securely.
+  *  http://imageshack.us/a/img594/2839/j1772groundimg0723.jpg
  #  Feed the black and red wires through the Ferrite Core.
  #  Feed the black and red wires through the Current Transformer.
   *  If using the smaller diameter Current Transformer, the wires need to be squeezed into an oblong shape using smooth jaw pliers. Be careful not to damage the insulation when using the pliers or sliding the Current Transformer over the wires.
+  *  http://imageshack.us/a/img198/1633/poweroutctferriteimg072.jpg
  #  Insert the Black AC power wire into the screw down of 2T1 on the Contactor and clamp down tightly. Be sure there are no stray wire strands outside the hole.
  #  Insert the White AC power wire into the screw down of 6T3 on the Contactor and clamp down tightly. Be sure there are no stray wire strands outside the hole.
 
@@ -165,10 +192,12 @@ If powered on 240V, the unit should now be functional unless the firmware on the
 Test the unit as described at http://code.google.com/p/open-evse/wiki/EVSE_TESTING
 
 = E. Metal Partition =
+  *  http://imageshack.us/a/img9/7474/metalpartitionimg0553.jpg
  #  If using the small box with the metal partition, it is necessary to cut out a hole for the Contactor to fit through as well as the holes to mount the display and button.
  #  Measure the shape and size of the top of the Contactor. Allow room to avoid any electrical connections! Best to insulate the edges of this hole.
  #  Transfer these measurements to the metal partition plate.
  #  Be sure there is no possiblity of electrical contact with power connections on the Contactor!
+  *  http://imageshack.us/a/img819/7505/faceplatecutoutimg0756.jpg
  #  Cut the hole for Contactor.
  #  Check for proper fit.
  #  Decide where the display will be placed.
@@ -176,6 +205,7 @@ Test the unit as described at http://code.google.com/p/open-evse/wiki/EVSE_TESTI
  #  Transfer these measurements to the metal partition plate.
  #  Cut hole for LCD display.
  #  Mark the positions of the four holes in the corners of the LCD display board.
+  *  http://imageshack.us/a/img837/4374/faceplatecutoutbuttonim.jpg
  #  Drill four 1/8” holes for mounting the display. 
  #  Decide on the location of the button.
  #  Mark and drill a 5/8” hole there.
@@ -191,6 +221,7 @@ Test the unit as described at http://code.google.com/p/open-evse/wiki/EVSE_TESTI
  #  Connect wires as described in Adafruit Section.
 
 === Select Button ===
+  *  http://imageshack.us/a/img203/3779/buttonbackimg0010.jpg
  #  Unscrew the nut on the button.
  #  Position the rubber gasket on the underside of the button. 
  #  Insert the button and gasket through the prepared hole from the top.
@@ -199,12 +230,13 @@ Test the unit as described at http://code.google.com/p/open-evse/wiki/EVSE_TESTI
  #  Strip one end of each wire 1/4” the other end ?”.
  #  Tin the stripped end of each wire.
  #  Tin the LED+, LED-. C1 and NO1 lugs on the button.
+  *  http://imageshack.us/a/img51/4890/buttonbackwiredimg0020.jpg
  #  Solder the green wire to the two lugs on the button marked LED- and C1 (common).
  #  Solder the gray wire to the lug on the button marked NO1(normally open).
  #  Solder the violet wire to the lug on the button marked LED+.
+  *  http://imageshack.us/a/img194/5895/buttonbackwiredshrinkim.jpg
  #  Cover exposed metal on each wire with shrink wrap and heat with a hair dryer.
  #  Strip the free end of each wire ?”.
-
  #  Solder the green wire to ground on the shield.
  #  Solder the gray wire to “select” position on the shield.
  #  Solder the violet wire to the +5V position on the shield.
@@ -225,6 +257,7 @@ Wire managment clips may be used as desired.
    *  d.	Skip Arduino connection instructions.
    *  e.	You may slightly enlarge the holes used to hold the di splay and shield to better fit the bolts.
    *  f.	Use 1/4” spacers and the bolts to hold the display and shield aligned before soldering the headers to the boards. Alternatively: 3/8” or 1/2” spacers if using a male and female header.
+   *  http://imageshack.us/a/img841/7711/shielddisplaypinsolderi.jpg
  #  Strip the four wires connected to the 4 pin connector 1/16". Be especially careful not to nick the wire. Tin the wire ends.
  #  Attach the wires from the 4 pin connector to the shield at the following holes located between “adafruit!” and “Reset” (looking from above):
   *  a.	Yellow wire- 3rd hole from the left.
