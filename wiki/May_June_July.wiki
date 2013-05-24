@@ -33,4 +33,4 @@ Payment via paypal to chris1howell83@gmail.com
 || 6 || kris.stew || || || || || 
 || 7 || noelingle || Kit || LCD Kit || Paid || ||
 || 8 || b.otterson || Kit || RTC Kit EV Sim || Paid || ||
-|| 9 || polders || || || || ||
+|| 9 || polders - INT || kit || RTC kit - EV Sim || Paid || ||
