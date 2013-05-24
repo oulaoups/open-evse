@@ -128,20 +128,19 @@ Payment via paypal to chris1howell83@gmail.com
 || || mjrdye - INT || kit || LCD kit || Paid || Shipped 4/16||
 || || w.decker || || RTC Kit - EVsim || Paid || Shipped 4/16 ||
 || || woodrell || Built || RTC Built - EVSIM || Paid || ||
-|| || cstirba || Kit || LCD Kit || Paid || ||
+|| || cstirba || Kit || LCD Kit || Paid || Shipped 5/23 ||
 || || forest.russman || Built || RTC Built - EV Sim || Paid || ||
-|| || phil@asylum || Kit || RTC Kit || Paid || ||
+|| || phil@asylum || Kit || RTC Kit || Paid || Shipped 5/23 ||
 || || tedballou || Built || LCD Built || Paid || ||
 || || djones INT || Built || LCD Built - EVSIM || Paid || ||
-|| || drrubin || Kit || RTC Kit - EVSIM || Paid || ||
+|| || drrubin || Kit || RTC Kit - EVSIM || Paid || Shipped 5/23 ||
 || || juanan INT || Built || LCD Built || Paid || ||
-|| || elmore || Built || RTC LCD || Paid || ||
 || || jamy.25 || Built || RTC LCD - EV Sim || Paid ||
-|| || jgoyer || Kit || LCD kit || Paid || ||
+|| || jgoyer || Kit || LCD kit || Paid || Shipped 5/23 ||
 || || mathieu_schuller INT || Built || LCD Built CT Relay || Paid || ||
-|| || craig_dawe || Kit || RTC Kit || Paid || ||
-|| || michael911e || Kit || RTC Kit - EV Sim || Paid || ||
-|| || jablonski || Kit || LCD Kit || Paid || ||
+|| || craig_dawe || Kit || RTC Kit || Paid || Shipped 5/23 ||
+|| || michael911e || Kit || RTC Kit - EV Sim || Paid || Shipped 5/23 ||
+|| || jablonski || Kit || LCD Kit || Paid || Shipped 5/23 ||
 
  
 
