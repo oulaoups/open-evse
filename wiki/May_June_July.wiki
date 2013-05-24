@@ -36,3 +36,4 @@ Payment via paypal to chris1howell83@gmail.com
 || 9 || polders - INT || kit || RTC kit - EV Sim || Paid || ||
 || 10 || jimdarnauer || Built || LCD Built - EV Sim || Paid || ||
 || 11 || mictronics - INT || kit || RTC Built || Paid || ||
+|| 12 || eos.it INT || Kit || RTC Kit || Paid || ||
