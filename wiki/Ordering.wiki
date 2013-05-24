@@ -30,6 +30,8 @@ Prices $USD
 *All orders are via paypal.* Send payment to *chris1howell83@gmail.com*
  * Be sure to include a note with payment of what you are ordering.
  * Orders must be paid before they are processed/shipped
+ * Payment fully refundable up until parts ship
+ 
 OpenEVSE boards are available is kit form with all small components pre-soldered or built in limited quantities.
 
 January [http://code.google.com/p/open-evse/wiki/January?ts=1356125971&updated=January Link]
