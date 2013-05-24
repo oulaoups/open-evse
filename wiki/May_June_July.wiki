@@ -26,7 +26,7 @@ Payment via paypal to chris1howell83@gmail.com
 
 || Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
 || 1 || bug-ar || Built || RGB LCD Built - Int Ship || Paid ||  ||
-|| 2 || sorphin || Kit || RTC Kit || Paid || ||
+|| 2 || sorphin || Kit || LCD Kit || Paid || ||
 || 3 || andy || Built || LCD Built || || ||
 || 4 || mattgreen || Kit || RTC Kit || Paid || ||
 || 5 || bpifer || Kit || LCD Kit || Paid || ||
