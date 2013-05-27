@@ -221,7 +221,7 @@ Test the unit as described at http://code.google.com/p/open-evse/wiki/EVSE_TESTI
  #  Connect wires as described in Adafruit Section.
 
 === Select Button ===
-  *  http://imageshack.us/a/img38/5459/31buttonbackimg0010.jpg
+  *  http://imageshack.us/a/img534/5459/31buttonbackimg0010.jpg
  #  Unscrew the nut on the button.
  #  Position the rubber gasket on the underside of the button. 
  #  Insert the button and gasket through the prepared hole from the top.
