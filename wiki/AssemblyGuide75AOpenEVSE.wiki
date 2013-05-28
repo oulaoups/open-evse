@@ -240,7 +240,8 @@ Test the unit as described at http://code.google.com/p/open-evse/wiki/EVSE_TESTI
  #  Solder the green wire to ground on the shield.
  #  Solder the gray wire to “select” position on the shield.
  #  Solder the violet wire to the +5V position on the shield.
-  *  Alternative: 	
+   *  http://imageshack.us/a/img197/4748/35buttonsolderpointsimg.jpg
+  *  Alternative (Used for this project): 	
     #  solder these three wires to individual 0.1” pin connectors. 
     #  solder 0.1” pins to the three locations listed above.
 
@@ -260,14 +261,15 @@ Wire managment clips may be used as desired.
    *  http://imageshack.us/a/img208/9277/34shielddisplaypinsolde.jpg
  #  Strip the four wires connected to the 4 pin connector 1/16". Be especially careful not to nick the wire. Tin the wire ends.
  #  Attach the wires from the 4 pin connector to the shield at the following holes located between “adafruit!” and “Reset” (looking from above):
-  *  a.	Yellow wire- 3rd hole from the left.
+  *  a.	Yellow wire- 3rd hole from the left. This project used violet.
   *  b.	Green wire- 4th hole from the left.
   *  c.	Connect the 4th hole from the left to the 5th hole from left with a solder bridge or a jumper.
   *  d.	Red wire- 2nd hole from the right.
-  *  e.	Orange wire- the far right hole.
+  *  e.	Orange wire- the far right hole. This project used gray.
+   *  http://imageshack.us/a/img62/5615/36shieldsolderpointsimg.jpg
  #  Use one of the following methods:
   *  a.	Solder the wires directly to the holes in the board, entering from below.
-  *  b.	Solder the wires to two headers.
+  *  b.	Solder the wires to two headers. (Used for this project)
    *  Looking at the shield from the top:
     *  i.	Solder a 1x3 0.1” header into the 3rd, 4th and 5th hole from the left, with the long pins down.
     *  ii.	Solder a 1x2 0.1” header into the two holes on the far right, with the long pins down.
