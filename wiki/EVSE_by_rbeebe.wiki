@@ -18,7 +18,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || Fuse 30A || Digikey || 1.68 || 2 || http://www.digikey.com/product-detail/en/0326030.MXP/F1779-ND/778640 ||
 || Gland Nut || Digikey || 3.20 || 2 || http://www.digikey.com/product-detail/en/NG-9513/377-1923-ND/439541 ||
 || 10-3 rubber cord || The Home Depot || $4.29 || 3 || http://www.homedepot.com/p/t/202316422?productId=202316422&storeId=10051&langId=-1&catalogId=10053&MERCH=REC-_-SearchPLPHorizontal1-3-_-NA-_-202316422-_-N <br /> *price per foot ||
-|| 30A Twist-Lock Plug || The Home Depot || $18.97 || 1 || http://www.homedepot.com/p/Pass-Seymour-30-Amp-125-Volt-Locking-Plug-L530PCCV3/100166915 ||
+|| 30A Twist-Lock Plug || The Home Depot || $19.97 || 1 || http://www.homedepot.com/p/Pass-Seymour-30-Amp-250-Volt-Locking-Plug-L630PCCV3/100114938 ||
 || Ground Bar Kit || The Home Depot || $4.48 || 1 || http://www.homedepot.com/p/Square-D-by-Schneider-Electric-4-Terminal-Ground-Bar-Kit-PK4GTACP/100207842?N=arcd <br />*see note below* ||
 || 12-10 AWG Female Spade || The Home Depot || $2.99 || 1 || http://www.homedepot.com/p/Tyco-Electronics-Female-Disconnect-Fully-Insulated-Nylon-12-10-AWG-250-Series-10-Clam-CPGI-4-520448-2-10/202204296 ||
 || 22-18 AWG Female Spade || The Home Depot || $2.99 || 1 || http://www.homedepot.com/p/Tyco-Electronics-Female-Disconnect-Fully-Insulated-Nylon-22-18-AWG-250-Series-10-Clam-CPGI-2-520264-2-10/202204294?keyword=22-18+female+disconnect ||
