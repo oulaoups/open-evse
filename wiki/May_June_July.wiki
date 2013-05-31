@@ -30,7 +30,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 3 || andy || Built || LCD Built || || ||
 || 4 || mattgreen || Kit || RTC Kit || Paid || ||
 || 5 || bpifer || Kit || LCD Kit || Paid || ||
-|| 6 || kris.stew || || || || || 
+|| 6 || kris.stew || Kit || RTC || Paid || || 
 || 7 || noelingle || Kit || LCD Kit || Paid || ||
 || 8 || b.otterson || Kit || RTC Kit EV Sim || Paid || ||
 || 9 || polders - INT || kit || RTC kit - EV Sim || Paid || ||
@@ -41,6 +41,5 @@ Payment via paypal to chris1howell83@gmail.com
 || 14 || fredouille INT || Built || RTC Built - EVsim || Paid || ||
 || 15 || cyril INT || Kit || RTC - EVSim || Paid || ||
 || 16 || guy.german - INT || Built || LCD - EV Sim || || ||
-|| 17 ||  kris.stew || kit || RTC || Paid || ||
 || 18 || j.e.best || Built || RTC || Paid || ||
 || 19 || Sapounas - INT || Built || RTC - EVSIM || Paid || ||
