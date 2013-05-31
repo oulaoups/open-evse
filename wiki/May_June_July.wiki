@@ -15,7 +15,7 @@ Payment via paypal to chris1howell83@gmail.com
 
 || Planning || Done || 
 || Order parts || Done ||
-|| Build - SMT || Gold Pheonix - In Progress ||
+|| Build - SMT || Gold Pheonix - Complete -Waiting to ship ||
 || Load Firmware ||  ||
 || Package OpenEVSE Plus "Kit" ||  ||
 || Ship OpenEVSE Plus "Kit" ||  ||
@@ -42,3 +42,4 @@ Payment via paypal to chris1howell83@gmail.com
 || 15 || cyril INT || Kit || RTC - EVSim || Paid || ||
 || 16 || guy.german - INT || Built || LCD - EV Sim || || ||
 || 17 ||  kris.stew || kit || RTC || Paid || ||
+|| 18 || j.e.best || Built || RTC || Paid || ||
