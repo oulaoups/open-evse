@@ -41,3 +41,4 @@ Payment via paypal to chris1howell83@gmail.com
 || 14 || fredouille INT || Built || RTC Built - EVsim || Paid || ||
 || 15 || cyril INT || Kit || RTC - EVSim || Paid || ||
 || 16 || guy.german - INT || Built || LCD - EV Sim || || ||
+|| 17 ||  kris.stew || kit || RTC || Paid || ||
