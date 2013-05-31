@@ -39,3 +39,4 @@ Payment via paypal to chris1howell83@gmail.com
 || 12 || eos.it INT || Kit || RTC Kit || Paid || ||
 || 13 || beazley || Built || RTC Built - EV Sim || Paid || ||
 || 14 || fredouille INT || Built || RTC Built - EVsim || Paid || ||
+|| 15 || cyril INT || Kit || RTC - EVSim || Paid || ||
