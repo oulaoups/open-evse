@@ -110,24 +110,23 @@ Payment via paypal to chris1howell83@gmail.com
 || || Wicker || Built || LCD || Paid || Workshop ||
 || || sonomadb ~2|| Built || RTC Built || Paid || Workshop ||
 || || Chris || Built || RTC - EV Sim || Paid || Workshop || 
-|| || mike.scott || Kit || LCD Kit -2 || Paid || Workshop - Guest ||
+|| || mike.scott || Kit || LCD Kit -2 || Paid || Shipped 6/1 ||
 || ||  troypearce  || Kit || LCD KIT || Paid || Shipped 4/11||
 || || beaver || || RTC LCD kit EV Sim || Paid || Shipped 4/16 ||
 || || beebe || Built || RTC LCD Built EV Sim || Paid || Shipped 4/16 ||
 || || leexx549 || Kit || LCD kit - EVsim || Paid || Shipped 4/11 ||
-|| || xistent3 || Built || RTC Built - EVSim || Paid || ||
-|| || milinshah || built || RTC Built - EVSim || Paid || ||
+|| || xistent3 || Built || RTC Built - EVSim || Paid || Shipped 6/1||
+|| || milinshah || built || RTC Built - EVSim || Paid || Shipped 6/1 ||
 || || trottier18 || Kit ||  || Paid || Shipped 4/11 || 
-|| || bluesguy_1 || Built || RTC Built - EVsim || Paid || ||
-|| || silva || Built || RTC Built - EVSim || Paid || ||
+|| || bluesguy_1 || Built || RTC Built - EVsim || Paid || Shipped 6/1 ||
+|| || silva || Built || RTC Built - EVSim || Paid || Shipped 6/1 ||
 || || Jav || Kit || || Paid || Shipped 4/11 ||
 || || Vince - INT || Kit || RTC Kit || Paid || Shipped 4/16  ||
-|| || Dan || kit || || || ||
 || || jdbui || Built || || Paid || Shipped 4/8||
 || || noelingle || Kit || LCD kit - EVSIM || Paid || Shipped 4/16 ||
 || || mjrdye - INT || kit || LCD kit || Paid || Shipped 4/16||
 || || w.decker || || RTC Kit - EVsim || Paid || Shipped 4/16 ||
-|| || woodrell || Built || RTC Built - EVSIM || Paid || ||
+|| || woodrell || Built || RTC Built - EVSIM || Paid || Shipped 6/1 ||
 || || cstirba || Kit || LCD Kit || Paid || Shipped 5/23 ||
 || || forest.russman || Built || RTC Built - EV Sim || Paid || ||
 || || phil@asylum || Kit || RTC Kit || Paid || Shipped 5/23 ||
