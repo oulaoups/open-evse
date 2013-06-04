@@ -43,5 +43,6 @@ Payment via paypal to chris1howell83@gmail.com
 || 16 || guy.german - INT || Built || LCD - EV Sim || || ||
 || 18 || j.e.best || Built || RTC || Paid || ||
 || 19 || Sapounas - INT || Built || RTC - EVSIM || Paid || ||
-|| 20 || Jason || Built || RTC || Paid || ||
-|| 21 || amb INT || Kit || RTC - EVSIM || Paid || ||
+|| 20 || gnb || Kit || RTC || Paid || ||
+|| 21 || Jason || Built || RTC || Paid || ||
+|| 22 || amb INT || Kit || RTC - EVSIM || Paid || ||
