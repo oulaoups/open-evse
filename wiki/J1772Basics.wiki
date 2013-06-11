@@ -44,6 +44,8 @@ http://farm6.staticflickr.com/5453/9018558031_dc6f8d9c8c_b.jpg
 
 <a href="http://www.flickr.com/photos/60192309@N05/5494981337/" title="24 Amp - Charging by chris1howell, on Flickr"><img src="http://farm6.static.flickr.com/5219/5494981337_cc57267a87.jpg" width="375" height="500"</a>
 
+=Pilot States=
+http://farm6.staticflickr.com/5454/9020798724_df0ed0ebd4_b.jpg
 =Proximity=
 The proximity runs between the EV and the J1772 handle, some J1772 cordsets include 4 wires (AC Hot 1, AC Hot 2, Ground, Pilot) and some have 5 wires an additional to access the proximity circuit. 
 
