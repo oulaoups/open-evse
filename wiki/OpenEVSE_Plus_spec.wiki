@@ -4,7 +4,19 @@ This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMON
 
 
 = Introduction =
-The OpenEVSE Plus board contains a J1772 compliant controller board as well as a 4W switch mode power supply.
+
+OpenEVSE is a Open Source Electric Vehicle J1772 Charging Station Controller
+*
+  * Both Hardware and Firmware Open Source
+  * Fully supports SAE J1772 Recommended Practice
+  * Software adjustable pilot (6A – 80A)
+  * 4W switch mode power supply 
+  * Built in GFCI with 20ma trip point
+  * Supports all J1772 states including “ventilation required”
+  * Supports Diode check
+  * AC L1 – L2 auto detect Current setting for each
+  * Ground verification and Stuck Relay detection*
+
 
 *OpenEVSE Plus v1 Board connections*
 
