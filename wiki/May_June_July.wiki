@@ -25,6 +25,7 @@ Payment via paypal to chris1howell83@gmail.com
 || Ship OpenEVSE "Built and Tested"|| ||
 
 || Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
+||   || Ryan ~2 || Kit || RGB LCD || Paid || ||
 || 1 || bug-ar || Built || RGB LCD Built - Int Ship || Paid ||  ||
 || 2 || sorphin || Kit || LCD Kit || Paid || ||
 || 3 || andy || Built || LCD Built || || ||
