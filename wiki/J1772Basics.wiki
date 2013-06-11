@@ -39,4 +39,3 @@ The proximity runs between the EV and the J1772 handle, some J1772 cordsets incl
 The proximity circuit should read about 150 ohms when measured from proximity to ground. When the button is pressed the reading should increase to about 480 ohms. The change in resistance signals the EV to stop pulling current. The relay in the EVSE will stay closed until the pilot is dropped however J1772 compliant EVs will stop pulling significant current.
 
 *Note*- There have been many reports of missing proximity components or binding in the switch of inexpensive J1772 cables from China. Before using on of these cables measure resistance in the proximity circuit and ensure the resistance drops as expected when the button is pressed.
-http://upload.wikimedia.org/wikipedia/commons/b/b6/J1772_signaling_circuit.gif
