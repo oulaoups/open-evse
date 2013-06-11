@@ -10,12 +10,18 @@ OpenEVSE is a Open Source Electric Vehicle J1772 Charging Station Controller
   * Both Hardware and Firmware Open Source
   * Fully supports SAE J1772 Recommended Practice
   * Software adjustable pilot (6A – 80A)
-  * 4W switch mode power supply 
+  * 4W Switch Mode Power Supply Integrated
   * Built in GFCI with 20ma trip point
   * Supports all J1772 states including “ventilation required”
   * Supports Diode check
   * AC L1 – L2 auto detect Current setting for each
-  * Ground verification and Stuck Relay detection*
+  * Ground verification and Stuck Relay detection
+  * Available built in limited quantities  as Kit or Built
+  * All surface mount component work complete
+  * Firmware pre-loaded
+  * Board and Schematic Files Available
+  * Tiny 2.2 x 1.75 x 1
+*
 
 
 *OpenEVSE Plus v1 Board connections*
