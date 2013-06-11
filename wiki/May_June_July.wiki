@@ -48,3 +48,4 @@ Payment via paypal to chris1howell83@gmail.com
 || 21 || Jason || Built || RTC || Paid || ||
 || 22 || amb INT || Kit || RTC - EVSIM || Paid || ||
 || 23 || kinhood || Built || RTC - EVSIM || Paid || ||
+|| 24 || nsayer || Kit || LCD || Paid || ||
