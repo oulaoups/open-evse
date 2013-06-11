@@ -21,20 +21,7 @@ http://farm9.staticflickr.com/8398/9020779024_283cdd58f8_b.jpg
 || Duty Cycle || Max Current ||
 || < 3% || Error ||
 || 3% - 7% || Digitial Com Required ||
-|| 10% || 6A ||
-|| 20% || 12A ||
-|| 30% || 18A ||
-|| 40% || 24A ||
-|| 50% || 30A ||
-|| 60% || 36A ||
-|| 70% || 42A ||
-|| 80% || 48A ||
-|| 86% || 55A ||
-|| 88% || 60A ||
-|| 90% || 65A ||
-|| 92% || 70A ||
-|| 94% || 75A ||
-|| 96% || 80A ||
+|| 10% - 96% || 6A - 80A ||
 || >96 || Error ||
 
 http://farm6.staticflickr.com/5453/9018558031_dc6f8d9c8c_b.jpg
