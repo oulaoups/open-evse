@@ -11,31 +11,12 @@ Basics of the J1772 standard.
 || Level 2 (L2) || 208 - 240VAC || 80A ||
 
 = Pilot =
-The J1772 Pilot is a 1khz +12V to -12V square wave, the voltage defines the state and the duty cycle defines the current available to the EV. The EVSE sets the duty cycle and the EV adds resistance from the pilot the Ground to vary the voltage. The EVSE reads the voltage and changes state accordingly. 
 
-|| State || Pilot Voltage High || Pilot Voltage Low || EV Resistance || Description || PWM ||
-|| State A || +12v || N/A || N/A || Not Connected || DC ||
-|| State B || +9v || -12v || 2.74k || Connected || 1000 Hz ||
-|| State C || +6v || -12v || 882 || Charging || 1000 Hz ||
-|| State D || +3v || -12v || 246 || Ventilation Required || 1000 Hz ||
-|| State E || 0 || 0 || N/A || No power || N/A ||
-|| State F || N/A || -12v || N/A || EVSE Error || DC ||
+http://farm9.staticflickr.com/8398/9020779024_283cdd58f8_b.jpg
+
 
 = Max Current =
-Up to 51A
 
-Amps = Duty cycle x 0.6
-
-Duty cycle = Amps / 0.6
-
-
-51 - 80A
-
-Amps = (Duty Cycle - 64) * 2.5
-
-Duty cycle = (Amps / 2.5) + 64 
-
- 
 
 || Duty Cycle || Max Current ||
 || < 3% || Error ||
@@ -56,6 +37,7 @@ Duty cycle = (Amps / 2.5) + 64
 || 96% || 80A ||
 || >96 || Error ||
 
+http://farm6.staticflickr.com/5453/9018558031_dc6f8d9c8c_b.jpg
 
 
 *Pilot - State - 24A*
