@@ -21,7 +21,7 @@ Prices $USD
 || *Built Package:* _OpenEVSE Plus (v2), RGB LCD, Assembled & Tested, w/std US shipping_ || *$200* ||
 || *Add EV Simulator:* || add $15 ||
 || *Upgrade LCD with RTC* || add $10 ||
-|| *International Shipping || add $15 ||
+|| *International Shipping || add $25 ||
 
 
 
