@@ -51,7 +51,6 @@ This is a list of parts required to upgrade the EV Charge America EVSE with Open
 || Current Transformer || Digikey || $10.65 || 1 || http://search.digikey.com/us/en/products/CR8420-1000-G/582-1018-ND/1045174 ||
 || PANEL INTERNAL 4.9" X 4.9" (377-1939-ND) || Digikey || $4.80 || 1 || http://search.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&site=us&keywords=377-1939-ND&x=0&y=0 ||
 || FUSEHOLDER 1/4" 30A 250V PNL MNT (283-2850-ND) || Digikey || $4.00 || 2 || http://search.digikey.com/us/en/products/BK%2FHKP-R/283-2850-ND/1024094 ||
-|| FUSE 250V SLO-BLO 3AB 30A (F1779-ND) || Digikey || $1.74 || 2|| http://search.digikey.com/us/en/products/0326030.MXP/F1779-ND/778640 ||
 || AdaFruit RGB LCD Shield kit || AdaFruit || $24.95 || 1 || http://adafruit.com/products/714 ||
 || Ground Bar Kit || Home Depot || $4.17 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
 || *Total* || || *$185* || ||  ||
