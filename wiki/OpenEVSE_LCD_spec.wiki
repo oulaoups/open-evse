@@ -52,7 +52,8 @@ To add a control button, you need to solder .1" header pins or wires into the sh
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Button1.jpg
 
-If using the Adafruit Water resistant push button, connect the 5v to the + terminal, GND to - and Com and the Select button to NO.
+=Adafruit Lit Button=
+If using the Adafruit Lit Water resistant push button, connect the 5v to the + terminal, GND to - and C1 and the Select button to NO1.
 http://farm9.staticflickr.com/8189/8420626671_1428cc8f0f_c.jpg
 http://www.adafruit.com/datasheets/metal16mmbuttons.jpg
 http://farm9.staticflickr.com/8260/8662590903_afb140270e_c.jpg
