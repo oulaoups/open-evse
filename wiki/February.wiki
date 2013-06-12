@@ -134,7 +134,6 @@ Payment via paypal to chris1howell83@gmail.com
 || || djones INT || Built || LCD Built - EVSIM || Paid || ||
 || || drrubin || Kit || RTC Kit - EVSIM || Paid || Shipped 5/23 ||
 || || juanan INT || Built || LCD Built || Paid || ||
-|| || jamy.25 || Built || RTC LCD - EV Sim || Paid ||
 || || jgoyer || Kit || LCD kit || Paid || Shipped 5/23 ||
 || || mathieu_schuller INT || Built || RTC LCD Built CT Relay || Paid || ||
 || || craig_dawe || Kit || RTC Kit || Paid || Shipped 5/23 ||
