@@ -46,6 +46,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 19 || Sapounas - INT || Built || RTC - EVSIM || Paid || ||
 || 20 || gnb || Kit || RTC || Paid || ||
 || 21 || Jason || Built || RTC || Paid || ||
-|| 22 || amb INT || Kit || RTC - EVSIM || Paid || ||
+|| 22 || amb INT || Kit || RTC - EVSIM ||  Paid || ||
 || 23 || kinhood || Built || RTC - EVSIM || Paid || ||
 || 24 || nsayer || Kit || LCD || Paid || ||
+|| 25 || rickpark || Kit || RTC || Paid || ||
