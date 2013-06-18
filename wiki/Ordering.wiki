@@ -3,25 +3,23 @@
 
 = OpenEVSE boards =
 
-The waiting list for Prebuilt boards is currently about 4 weeks, current batch of OpenEVSE PLUS v2 boards are sold out a new batch has been ordered and are expected late May. 
+The waiting list for Prebuilt boards is currently about 4 weeks, current batch of OpenEVSE PLUS v2 boards are sold out a new batch has been ordered and are expected Mid June. 
 
 = Parts list =
 
 Prices $USD
-|| *Part* || *Kit* || *Assembled and Tested* || Status ||
-|| OpenEVSE Plus || $135 || $155 || Out of Stock - New batch ordered ||
+|| *Part* || *Kit* || *Built* || Status ||
+|| OpenEVSE Plus || $135 || $155 || Out of Stock - May/June Batch ||
 || RGB LCD backpack || $30 || $40 || Available ||
 || RGB LCD backpack with RTC || $40 || $50 || Available ||
-|| EV Simulator || $15 || N/A || Available || 
+|| EV Simulator || $15 || || Available || 
 || Shipping US || $5 || || ||
-|| Shipping Int. (USPS) || $20 || || ||
-|| Shipping Fedex\UPS\DHL || At Cost || || Request || 
-
-|| *Kit Package:* _OpenEVSE Plus (v2), RGB LCD, w/std US shipping_ || *$165* ||
-|| *Built Package:* _OpenEVSE Plus (v2), RGB LCD, Assembled & Tested, w/std US shipping_ || *$200* ||
-|| *Add EV Simulator:* || add $15 ||
-|| *Upgrade LCD with RTC* || add $10 ||
-|| *International Shipping || add $25 ||
+|| Shipping Fedex\UPS\DHL || At Cost || || Request ||
+|| || || || ||
+|| *Kit Package:* _OpenEVSE Plus (v2), RGB LCD, w/std US shipping_ || *$165* || || Out of Stock - May/June Batch ||
+|| *Built Package:* _OpenEVSE Plus (v2), RGB LCD, Assembled & Tested, w/std US shipping_ ||  || *$200* || Out of Stock - May/June Batch ||
+|| *Upgrade LCD with RTC* || add $10 || || ||
+|| *International Shipping || add $25 || || ||
 
 
 
