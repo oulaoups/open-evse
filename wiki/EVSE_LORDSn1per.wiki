@@ -134,6 +134,9 @@ http://farm9.staticflickr.com/8363/8263353547_ef0351a63b_c.jpg
 Here is the EVSE mounted again
 http://farm9.staticflickr.com/8072/8263351845_e88bc69e86_c.jpg
 
+Here is the little power sensing board I made to measure REAL current being drawn from the power point.
+http://farm3.staticflickr.com/2870/9071516117_4c9278b089_c.jpg
+
 
 = Videos =
 
