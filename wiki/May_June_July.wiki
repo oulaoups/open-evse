@@ -2,6 +2,10 @@
 
 = Introduction =
 
+*Update 6/25* Gold Phoenix will ship boards this week, they were delaying production due to a back ordered part. I have plenty so I will add the part on my end. 
+
+Their automated system was incorrectly showing 100% complete beacuse they exceeded their 14 day production quote by way too many days...
+
 *Update 6/20* Boards have not arrived yet but should be in any day now... 
 
 *Update 5/20* Boards are in production
@@ -20,7 +24,7 @@ Payment via paypal to chris1howell83@gmail.com
 
 || Planning || Done || 
 || Order parts || Done ||
-|| Build - SMT || Gold Pheonix - Complete -Waiting to ship ||
+|| Build - SMT || Gold Pheonix - Delayed - In Production ||
 || Load Firmware ||  ||
 || Package OpenEVSE Plus "Kit" ||  ||
 || Ship OpenEVSE Plus "Kit" ||  ||
