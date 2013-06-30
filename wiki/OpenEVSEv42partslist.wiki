@@ -44,7 +44,6 @@ http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg
 || Any || Any || Cap (ceramic) || 22pf || C8|| 1|| $0.34|| http://www.digikey.com/product-detail/en/K220J15C0GF5TL2/BC1005CT-ND/286627||
 || Any || Any || Cap (ceramic) || 0.1uf || C3,4,10-15,18,20,21,23-25|| 14|| $0.20|| http://www.digikey.com/product-detail/en/C320C104M5U5TA || 
 || Any || Any || Cap (ceramic) || 0.33uf || C22|| 1|| $0.46|| http://www.digikey.com/product-detail/en/SR205E334MAR/478-5733-ND/2136293||
-|| TDK Corp.|| FK18X5R1E334K|| Cap (ceramic) || 0.33uf low esr|| C6,C7|| 2|| $0.34|| http://www.digikey.com/product-detail/en/FK18X5R1E334K || 
 || TDK Corp.|| FK18X7R1E105K|| Cap (ceramic) || 1.0uf 25V|| C5,C6,C7|| 3|| $0.43|| http://www.digikey.com/product-detail/en/FK18X7R1E105K/445-8422-ND/2815352 ||
 || TDK Corp.|| FK14X5R1E225K|| Cap (ceramic) || 2.2uf 25V|| C19,C26|| 2|| $0.46|| http://www.digikey.com/product-detail/en/FK14X5R1E225K/445-8298-ND/2815228 || 
 || Panasonic || EEA-FC1E100 || Cap (electrolitic) || 10uf 25V|| C9 || 1|| $0.30|| http://search.digikey.com/us/en/products/EEA-FC1E100/P11212-ND/356116 || 
