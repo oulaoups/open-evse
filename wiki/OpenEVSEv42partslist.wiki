@@ -20,7 +20,7 @@ http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg
 || Vishay|| 1N4733A || Diode Zener|| 5.1V 1W|| D5,D6|| 2|| $0.23|| http://www.digikey.com/product-detail/en/1N4733A-TR || 
 || Micro Comm.|| SR202-TP|| Diode Schottky|| 2A 20V DO41|| D7|| 1|| $0.43|| http://www.digikey.com/product-detail/en/SR202-TP || 
 || Littelfuse Inc.|| P6KE16CA || TVS Diode 16V|| P6KE16CA || TVS|| 1|| $0.50|| http://search.digikey.com/us/en/products/P6KE16CA/P6KE16CALFCT-ND/407666 || 
-|| Microtron|| TR1/MCRW250MA|| Fuse|| 0.25A 250V|| F1,F2|| 2|| $0.85|| http://www.digikey.com/product-detail/en/TR1%2FMCRW250MA || 
+|| Littelfuse Inc.|| 0251.250NAT1L|| Fuse|| 0.25A 125V|| F1,F2|| 2|| $1.00|| http://www.digikey.com/product-detail/en/0251.250NAT1L/F5519CT-ND || 
 || Murata|| MEV1D1215SC|| DC-DC||  12v input|| +/-15v33ma DC1|| 1|| $8.76|| http://www.digikey.com/product-detail/en/MEV1D1215SC || 
 || Bourns Inc.|| 9230-60-RC|| Inductor|| 47uh|| L1,L2|| 2|| $1.05|| http://www.digikey.com/product-detail/en/9230-60-RC || 
 || Wurth Electronics|| 7447452221|| Inductor|| 220uh 1.2A|| L3|| 1|| $1.47|| http://www.digikey.com/product-detail/en/7447452221 || 
