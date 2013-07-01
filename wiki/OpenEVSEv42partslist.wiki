@@ -25,13 +25,11 @@ http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg
 || Bourns Inc.|| 9230-60-RC|| Inductor|| 47uh|| L1,L2|| 2|| $1.05|| http://www.digikey.com/product-detail/en/9230-60-RC || 
 || Wurth Electronics|| 7447452221|| Inductor|| 220uh 1.2A|| L3|| 1|| $1.47|| http://www.digikey.com/product-detail/en/7447452221 || 
 || Any || Any || Resistor 5%|| 100|| R18|| 1|| $0.09 || 
-|| Any || Any || Resistor 5%|| 110|| R24|| 1|| $0.09 || 
-|| Any || Any || Resistor 5%|| 320|| R2|| 1|| $0.09 || 
-|| Any || Any || Resistor 5%|| 330|| R11,R17,R23|| 3|| $0.09 || 
+|| Any || Any || Resistor 5%|| 330|| R11,R17,R9|| 3|| $0.09 || 
+|| Any || Any || Resistor 5%|| 470|| R2, R8, R23|| 3|| $0.09 || 
 || Vishay Dale (Any)|| CMF501K0000FHEB|| Resistor 1%|| 1K 1% || R1|| 1|| $1.04|| http://www.digikey.com/product-detail/en/CMF501K0000FHEB || 
 || Any || Any || Resistor 5%|| 1k || R20|| 1|| $0.09 || 
-|| Any || Any || Resistor 5%|| 1.2k || R9|| 1|| $0.09 || 
-|| Any || Any || Resistor 5%|| 2.8k|| R3,R4|| 2|| $0.09|| 
+|| Any || Any || Resistor 5%|| 3.74k|| R3,R4|| 2|| $0.09|| 
 || Any || Any || Resistor 5%|| 10k || R10,19,25,27,28,30|| 6|| $0.09 || 
 || Any || Any || Resistor 5%|| 20k || R15|| 1|| $0.09 || 
 || Vishay BC|| MRS25000C2802FRP00|| Resistor HV 1%|| 28k 0.6w|| R12,R13|| 2|| $0.36|| http://www.digikey.com/product-detail/en/MRS25000C2802FRP00 || 
