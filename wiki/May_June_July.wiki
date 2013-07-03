@@ -47,7 +47,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 9 || polders - INT || kit || RTC kit - EV Sim || Paid || ||
 || 10 || jimdarnauer || Built || LCD Built - EV Sim || Paid || ||
 || 11 || mictronics - INT || kit || RTC Built || Paid || ||
-|| 12 || eos.it INT || Kit || RTC Kit || Paid || ||
+|| 12 || eos.it INT || Kit || RTC Kit x 2 || Paid || ||
 || 13 || beazley || Built || RTC Built - EV Sim || Paid || ||
 || 14 || fredouille INT || Built || RTC Built - EVsim || Paid || ||
 || 15 || cyril INT || Kit || RTC - EVSim || Paid || ||
@@ -69,3 +69,5 @@ Payment via paypal to chris1howell83@gmail.com
 || 32 || gigi || kit || RTC || Paid || ||
 || 33 || awong22828 || built || RTC - EVsim || Paid || ||
 || 34 || awong22828 || built || RTC || Paid || ||
+|| 35 || Olivier INT || Built || RTC built || || ||
+|| 36 || emf-power || kit || RTC kit || Paid || ||
