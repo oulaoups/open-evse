@@ -17,15 +17,23 @@ Since this is a portable EVSE, I placed the two cables on opposite sides of the 
 
 Here's the box as it is so far. The AC cable gland has been removed, as the component plate cannot be installed with both cable glands in place. The AC cable will need to be installed as the last step of construction.
 
+The ground bus is going to be on the AC input side of the box. If one were to yank on the AC cable, it would rip the conductors off of the fuse holders first, then rip the ground out of the ground bus. The J1772 cable has had its inner conductors trimmed so that the pilot pin should have very little slack compared to the other conductors. As a result, if the J1772 cable is yanked out of the box, it will break the pilot lead first, which should turn off the system. The current conductors would be yanked off the relay second, and finally the ground would be last.
+
+Note that the ground bus is mounted slightly off-center. This is a result of a discovery that I made. The plate can be mounted in either orientation in the bottom of the box. What this means is that if you imagine turning the plate 90 degrees from where the mounting holes are, there will be two spots that are unusable for mounting anything, as any hardware under the plate will collide with the case. I made this discovery the hard way and was forced to move the ground bar about a half inch to one side to insure the mounting plate would sit correctly in the case when the project was finished.
+
+Note also that the logic board is mounted out-of-the-way of the mounting holes so that it can be attached while still outside of the case. The LCD board is mounted much closer to the edge of the plate because it is intended to be mounted to the standoffs after the rest of the assembly has been put in the box.
+
+The logic board will be mounted "upside down" - that is, with the AC input and test terminals to the right and the I2C and SPI connectors towards the center of the mounting plate. The purpose of that will be to facilitate connecting the SPI or FTDI cable without having to remove the LCD.
+
 http://www.kfu.com/~nsayer/evse/photo%202.JPG
 
 In order to preserve the water resistance of the case, no holes were drilled in the box for component mounting. Instead, I bought a component mounting plate designed to be attached to the bottom of the box. I can drill as many holes as is necessary to mount components.
 
-I decided to mount the LCD above the logic board on longer standoffs. One gotcha I ran into was that the hole for the bottom left corner of the logic board wound up too close to the relay. I've decided to simply dispense with that hole and use the remaining three only.
+I decided to mount the LCD above the logic board on longer standoffs. One gotcha I ran into was that the hole for the bottom left corner of the logic board wound up too close to the relay. I've decided to simply dispense with that hole and use the remaining three only. An alternative would be to mount the relay in the opposite orientation. You may wind up struggling to find a spot for the fuse holders... I'm not sure.
 
 The Adafruit button is mounted dead center in the top of the box. The way the LCD standoffs are positioned, it should wind up directly under the LCD. The LCD will be oriented so that the two cables will exit from the right and left side of the box.
 
-Again, in order to preserve the watertight rating of the box, the fuse holders I chose were panel mount ones that will be mounted internally.
+Again, in order to preserve the watertight rating of the box, the fuse holders I chose were panel mount ones that will be mounted internally. Note that in the picture the fuse holders are the wrong type - they have ends configured for soldering, not for quick-connects. The quick-connects... sort of fit, but they're loose, and that makes me nervous enough that I've ordered replacements.
 
 http://www.kfu.com/~nsayer/evse/photo%201.JPG
 
