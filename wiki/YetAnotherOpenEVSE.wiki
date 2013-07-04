@@ -28,3 +28,16 @@ The Adafruit button is mounted dead center in the top of the box. The way the LC
 Again, in order to preserve the watertight rating of the box, the fuse holders I chose were panel mount ones that will be mounted internally.
 
 http://www.kfu.com/~nsayer/evse/photo%201.JPG
+
+The remaining steps:
+
+  # Assemble the two boards.
+  # Mount the logic board on the three bolts.
+  # Attach the AC supply, test, relay and ground leads to the logic board.
+  # Install the component board in the bottom of the case.
+  # Install the AC supply cable.
+  # Attach the J1772 and AC supply cables and grounds.
+  # Attach the I2C cable and button cable to the LCD board.
+  # Install the LCD board on the tall standoffs.
+  # Close the box.
+  # Have a Fresca.
