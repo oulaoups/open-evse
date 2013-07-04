@@ -1,0 +1,30 @@
+#summary Nick builds a portable EVSE
+
+= Introduction =
+
+My principle motivation started as an effort to make a portable L2 EVSE, but I suspect as I go that this will become a platform for personal experimentation.
+
+Since I was going for a portable unit, I decided, whenever a choice presented itself, to attempt to make a waterproof (or at least water resistant) design.
+
+
+= Details =
+
+I am waiting for the two boards from Chris (an OpenEVSE Plus and an LCD).
+
+I am using the waterproof 6x6x4 box with a clear lid. I bought the Adafruit waterproof lit button and am using a pair of CG-16 cable glands. The AC supply cable is 10W3 cable from Home Depot terminated in an L6-30. I also built a couple of adapters for other socket types: an L1 adapter that goes from a normal grounded 120V plug to an L6-30 (this is, of course, normally out of spec, but I've labeled the socket with warnings that it's only 120V), a NEMA 6-50 to L6-30 adapter and a special NEMA 14-x0 adapter. That one is a NEMA 14-50 plug with the neutral conductor removed. Configured that way the plug will fit in a 14-20, 14-50 or 14-60 socket. And it will work without difficulty because the neutral is not used.
+
+Since this is a portable EVSE, I placed the two cables on opposite sides of the box - the "pregnant snake" design.
+
+Here's the box as it is so far. The AC cable gland has been removed, as the component plate cannot be installed with both cable glands in place. The AC cable will need to be installed as the last step of construction.
+
+http://www.kfu.com/~nsayer/evse/photo%202.JPG
+
+In order to preserve the water resistance of the case, no holes were drilled in the box for component mounting. Instead, I bought a component mounting plate designed to be attached to the bottom of the box. I can drill as many holes as is necessary to mount components.
+
+I decided to mount the LCD above the logic board on longer standoffs. One gotcha I ran into was that the hole for the bottom left corner of the logic board wound up too close to the relay. I've decided to simply dispense with that hole and use the remaining three only.
+
+The Adafruit button is mounted dead center in the top of the box. The way the LCD standoffs are positioned, it should wind up directly under the LCD. The LCD will be oriented so that the two cables will exit from the right and left side of the box.
+
+Again, in order to preserve the watertight rating of the box, the fuse holders I chose were panel mount ones that will be mounted internally.
+
+http://www.kfu.com/~nsayer/evse/photo%201.JPG
