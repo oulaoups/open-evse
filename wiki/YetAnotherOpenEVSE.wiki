@@ -69,5 +69,5 @@ The remaining steps:
 || Halted Spec. || n/a || 2 || 1." header crimp-on connector (1x 2 pos, 1x 3 pos) ||
 || AdaFruit || 560 || 1 || Waterproof metal lit pushbutton (green) ||
 || SparkFun || ? || 1 || 4 pin, 12" jumper wire ||
-|| SparkFun || ? || Pocket AVR Programmer ||
-|| SparkFun || ? || FTDI Cable 5V ||
+|| SparkFun || ? || 1 || Pocket AVR Programmer ||
+|| SparkFun || ? || 1 || FTDI Cable 5V ||
