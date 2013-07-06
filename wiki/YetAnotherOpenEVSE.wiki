@@ -33,7 +33,7 @@ I decided to mount the LCD above the logic board on longer standoffs. One gotcha
 
 The Adafruit button is mounted dead center in the top of the box. The way the LCD standoffs are positioned, it should wind up directly under the LCD. The LCD will be oriented so that the two cables will exit from the right and left side of the box.
 
-Again, in order to preserve the watertight rating of the box, the fuse holders I chose were panel mount ones that will be mounted internally. Note that in the picture the fuse holders are the wrong type - they have ends configured for soldering, not for quick-connects. The quick-connects... sort of fit, but they're loose, and that makes me nervous enough that I've ordered replacements.
+Again, in order to preserve the watertight rating of the box, the fuse holders I chose were chassis mount ones that will be mounted internally. Note that in the picture the fuse holders are the wrong type - they have ends configured for soldering, not for quick-connects. The quick-connects... sort of fit, but they're loose, and that makes me nervous enough that I've ordered replacements.
 
 http://www.kfu.com/~nsayer/evse/photo%201.JPG
 
@@ -49,3 +49,25 @@ The remaining steps:
   # Install the LCD board on the tall standoffs.
   # Close the box.
   # Have a Fresca.
+
+= Parts =
+
+|| Source || Part # || Quantity || Description || 
+|| Polycase || CG-16 || 2 || Cable gland || 
+|| DigiKey || 377-1787-ND || 1 || 6x6x4 box, transparent top, NEMA 4 || 
+|| DigiKey || 582-1018-ND || 1 || Current Transformer || 
+|| DigiKey || PB486-ND || 1 || 30A 12V DPST relay || 
+|| DigiKey || 377-1939-ND || 1 || 5" square internal panel || 
+|| DigiKey || 4813K-ND || 4 || 4-40 nylon 2" M-F standoff || 
+|| DigiKey || F1779-ND || 2 || 3AG 30A slo-blo fuse || 
+|| DigiKey || WM7273-ND || 4 || Quick-connect M-M-F adapter || 
+|| DigiKey || F1500-ND || 2 || 3AG fuse block Quick-connect || 
+|| Leviton || ? || 1 || J1772 plug, 30A, 25' cable ||
+|| Home Depot || ? || 10' || 10W3 cable ||
+|| Home Depot || ? || 1 || L6-30 plug ||
+|| Home Depot || ? || 1 || 4 position ground bus ||
+|| Halted Spec. || n/a || 2 || 1." header crimp-on connector (1x 2 pos, 1x 3 pos) ||
+|| AdaFruit || 560 || 1 || Waterproof metal lit pushbutton (green) ||
+|| SparkFun || ? || 1 || 4 pin, 12" jumper wire ||
+|| SparkFun || ? || Pocket AVR Programmer ||
+|| SparkFun || ? || FTDI Cable 5V ||
