@@ -67,6 +67,9 @@ The remaining steps:
 || Home Depot || ? || 1 || L6-30 plug ||
 || Home Depot || ? || 1 || 4 position ground bus ||
 || Home Depot || ? || misc || 4-40 hardware - nuts, 1/4" & 1/2" bolts ||
+|| Home Depot || ? || 8 || 10 gauge quick-connect crimp connectors ||
+|| Home Depot || ? || 6 || 22 gauge quick-connect crimp connectors ||
+|| Halted Spec. || n/a || misc || 22 gauge stranded wire ||
 || Halted Spec. || n/a || 2 || 1." header crimp-on connector (1x 2 pos, 1x 3 pos) ||
 || AdaFruit || 560 || 1 || Waterproof metal lit pushbutton (green) ||
 || SparkFun || ? || 1 || 4 pin, 12" jumper wire ||
