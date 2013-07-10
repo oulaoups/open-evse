@@ -37,14 +37,17 @@ Again, in order to preserve the watertight rating of the box, the fuse holders I
 
 http://www.kfu.com/~nsayer/evse/photo%201.JPG
 
+I got the new fuse holders today and decided to change the order of operations around. I've installed and wired everything except for the logic boards (still waiting for them). My leads are long enough that I hope to be able to install everything and shoehorn it into place.
+
+Everything is a tight fit in the bottom half of the box, but it _does_ fit.
+
+http://www.kfu.com/~nsayer/evse/photo%203.JPG
+
 The remaining steps:
 
   # Assemble the two boards.
-  # Mount the logic board on the three bolts.
-  # Attach the AC supply, test, relay and ground leads to the logic board.
-  # Install the component board in the bottom of the case.
-  # Install the AC supply cable.
-  # Attach the J1772 and AC supply cables and grounds.
+  # Attach the AC supply, test, relay, pilot, CT and ground leads to the logic board.
+  # Install the logic board to the short standoffs.
   # Attach the I2C cable and button cable to the LCD board.
   # Install the LCD board on the tall standoffs.
   # Close the box.
