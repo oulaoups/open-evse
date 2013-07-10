@@ -2,7 +2,7 @@
 
 = Introduction =
 
-*Update 7/10* Things are finally moving, after every possible delay you could think of gold phoenix has commuted to shipping the first 10 tomorrow via fedex and the second 90 once I approve. The test bath. I guess they were a bit off when they quoted 19 days (5 for PCBs production and 14 for assembly) way back on 4/30
+*Update 7/10* Things are finally moving, after every possible delay you could think of gold phoenix has commuted to shipping the first 10 tomorrow via fedex and the second 90 once I approve the test batch. I guess they were a bit off when they quoted 19 days (5 for PCBs production and 14 for assembly) way back on 4/30
 
 *Update 6/25* Gold Phoenix will ship boards this week, they were delaying production due to a back ordered part. I have plenty so I will add the part on my end. 
 
