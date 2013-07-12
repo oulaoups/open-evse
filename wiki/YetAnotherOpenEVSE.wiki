@@ -53,6 +53,16 @@ The remaining steps:
   # Close the box.
   # Have a Fresca.
 
+= Meanwhile... =
+
+I also separately ordered a DIY v4.2 board and the BOM of parts from DigiKey. It's a race now to see whether the board from OSHPark comes or the PLUS board kit from Chris. :)
+
+Of course, it was challenge enough fitting everything required for the OpenEVSE Plus onto the 5x5 panel for the 6x6x4 box. The OpenEVSE DIY board makes things much, much worse. Not only is the board physically larger, but it requires an external power supply.
+
+I decided to go with a chassis mounted power supply module. The one listed in the BOM is said to be deprecated, so instead I bought DigiKey's 102-2664-ND. It's a 900 mA 12V supply, but fits in the same physical space.
+
+My thought at the moment is to mount the logic board on a right angle against the side of the box. Hopefully I can find two angle brackets to screw into the panel and into one side of the board and that it will be stiff enough. The display will be mounted on tall standoffs above the power supply.
+
 = Parts =
 
 || Source || Part # || Quantity || Description || 
