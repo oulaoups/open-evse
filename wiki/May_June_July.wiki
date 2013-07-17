@@ -1,6 +1,8 @@
 #summary May/June Batch.
 
 = Introduction =
+*Update 7/16* Tracking Estimated Delivery Fri 7/19/2013 10:30 am
+
 *Update 7/16* Finally -  Shipped 2013-07-16 09:17:35
 
 *Update 7/11* Approved test boards via photo, approved the whole batch for shipping. The long wait is just about over. Thanks everyone for hanging in there...
@@ -11,7 +13,7 @@
 
 *Update 6/25* Gold Phoenix will ship boards this week, they were delaying production due to a back ordered part. I have plenty so I will add the part on my end. 
 
-Their automated system was incorrectly showing 100% complete beacuse they exceeded their 14 day production quote by way too many days...
+Their automated system was incorrectly showing 100% complete because they exceeded their 14 day production quote by way too many days...
 
 *Update 6/20* Boards have not arrived yet but should be in any day now... 
 
@@ -23,15 +25,15 @@ Their automated system was incorrectly showing 100% complete beacuse they exceed
 This is to reserve a spot (100 available) in the May/June batch of boards.
 Boards are built by hand at an average rate of 5-10 boards per week. 
 
-Kits will ship first followed by assembled and tested units. Boards will ship in order, unpaid reservations will be skipped until payment is recieved.
+Kits will ship first followed by assembled and tested units. Boards will ship in order, unpaid reservations will be skipped until payment is received.
 
 Payment via paypal to chris1howell83@gmail.com 
 
 || Build Status || Payment Due || Shipping || 
 
 || Planning || Done || 
-|| Order parts || Done ||
-|| Build - SMT || Gold Pheonix - Delayed - In Production ||
+|| Order parts || Done 4/30 ||
+|| Build - SMT || Gold Pheonix - Shipped 7/16 ||
 || Load Firmware ||  ||
 || Package OpenEVSE Plus "Kit" ||  ||
 || Ship OpenEVSE Plus "Kit" ||  ||
