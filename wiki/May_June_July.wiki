@@ -82,3 +82,4 @@ Payment via paypal to chris1howell83@gmail.com
 || 36 || emf-power || kit || RTC kit || Paid || ||
 || 37 || thilo.graupner INT || kit || RTC || Paid ||
 || 38 || lemans4 INT || kit || RTC || paid ||
+|| 39 || nikolay || built || RTC - EVsim || Paid || ||
