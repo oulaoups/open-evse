@@ -81,5 +81,8 @@ Payment via paypal to chris1howell83@gmail.com
 || 35 || Olivier INT || Built || RTC built || || ||
 || 36 || emf-power || kit || RTC kit || Paid || ||
 || 37 || thilo.graupner INT || kit || RTC || Paid ||
-|| 38 || lemans4 INT || kit || RTC || paid ||
-|| 39 || nikolay || built || RTC - EVsim || Paid || ||
+|| 38 || maxxiss8 INT || Built || || Paid || ||
+|| 39 || maxxiss8 INT || Built || || Paid || ||
+|| 40 || maxxiss8 INT || Built || || Paid || ||
+|| 41 || lemans4 INT || kit || RTC || paid ||
+|| 42 || nikolay || built || RTC - EVsim || Paid || ||
