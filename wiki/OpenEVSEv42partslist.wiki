@@ -48,7 +48,7 @@ http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg
 || Panasonic ECG|| EEU-FM1E101|| Cap (electrolitic) || 100uf 25v|| C17|| 1|| $0.32|| http://www.digikey.com/product-detail/en/EEU-FM1E101 || 
 || FCI || 609-2845-ND|| Header|| 2x3|| ISP1|| 1|| $0.74 || http://www.digikey.com/product-detail/en/75869-131LF/609-2845-ND/1302569 || 
 || 3M|| 929400-01-36-RK|| Header straight|| 0.1sp.|| FTDI,LCD,CT1,I/O|| 1|| $1.80|| http://www.digikey.com/product-detail/en/929400-01-36-RK/929400E-01-36-ND/1093569 || 
-|| TE Connectivity || A98036-ND || Connector|| 3.5mm 2P|| Rly1,S1/2,SP|| 3 || $0.27|| http://www.digikey.com/product-detail/en/1776275-2/A98036-ND/1826899 || 
+|| TE Connectivity || A98036-ND || Connector|| 3.5mm 2P|| Rly1,CT1 || 2 || $0.27|| http://www.digikey.com/product-detail/en/1776275-2/A98036-ND/1826899 || 
 || On Shore Technlogy || ED2609-ND|| Connector|| 5.0mm 2P|| DCIN,PILOT|| 2 || $0.35|| http://www.digikey.com/product-detail/en/OSTTC022162/ED2609-ND/614558 || 
 || TE Connectivity || 1776275-3|| Connector|| 3.5mm 3P|| JP1|| 1 || $0.78 || http://www.digikey.com/product-detail/en/1776275-3/A98037-ND/1826900 || 
 || Circuit board|| Open EVSE V4.2|| Board|| Double sided|| B1|| 1|| $14.10|| http://oshpark.com ||
