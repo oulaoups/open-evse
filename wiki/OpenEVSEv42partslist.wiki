@@ -16,7 +16,7 @@ http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg
 || On Semiconductor || MC79L12ACPG|| V Regulator|| -12V || IC8|| 1|| $0.54|| http://www.digikey.com/product-detail/en/MC79L12ACPG/MC79L12ACPGOS-ND/919402 || 
 || STMicroelectronics || 2N2222A || NPN Transistor || 2n2222 || Q2|| 1|| $1.26|| http://search.digikey.com/us/en/products/2N2222A/497-2598-ND/603623 || 
 || Citizen Finetech|| HC49US-16.000MABJ-UB|| Crystal || 16000|| Y1|| 1|| $0.63|| http://www.digikey.com/product-detail/en/HC49US-16.000MABJ-UB/300-8499-ND/862775 || 
-|| Fairchild Semi || 1N4148TA || Diode || 1N4148 || D1,D3,D4|| 3|| $0.10|| http://search.digikey.com/us/en/products/1N4148TA/1N4148TACT-ND/1532747 || 
+|| Fairchild Semi || 1N4148TA || Diode || 1N4148 || D1,D2,D3,D4|| 4|| $0.10|| http://search.digikey.com/us/en/products/1N4148TA/1N4148TACT-ND/1532747 || 
 || Vishay|| 1N4733A || Diode Zener|| 5.1V 1W|| D5,D6|| 2|| $0.23|| http://www.digikey.com/product-detail/en/1N4733A-TR || 
 || Micro Comm.|| SR202-TP|| Diode Schottky|| 2A 20V DO41|| D7|| 1|| $0.43|| http://www.digikey.com/product-detail/en/SR202-TP || 
 || Littelfuse Inc.|| P6KE16CA || TVS Diode 16V|| P6KE16CA || TVS|| 1|| $0.50|| http://search.digikey.com/us/en/products/P6KE16CA/P6KE16CALFCT-ND/407666 || 
@@ -38,10 +38,10 @@ http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg
 || Any || Any || Resistor 5%|| 200k || R7|| 1|| $0.09 || 
 || Vishay BC|| HVR2500002743FR500|| Resistor|| 274k|| R22|| 1|| $0.57|| http://www.digikey.com/product-detail/en/HVR2500002743FR500 || 
 || Vishay BC|| HVR2500001004FR500|| Resistor|| 1.0M|| R21|| 1|| $0.57 || http://www.digikey.com/product-detail/en/HVR2500001004FR500 ||
-|| Any || Any || Cap (ceramic) || 18pf || C1,C2|| 2|| $0.44|| http://www.digikey.com/product-detail/en/SR151A180JAR ||
-|| Any || Any || Cap (ceramic) || 0.1uf || C3,4,8,10-15,18,20,21,23-25|| 14|| $0.20|| http://www.digikey.com/product-detail/en/C320C104M5U5TA || 
+|| Any || Any || Cap (ceramic) || 22pf || C1,C2|| 2|| $0.44|| http://www.digikey.com/product-detail/en/SR151A180JAR ||
+|| Any || Any || Cap (ceramic) || 0.1uf || C3,4,8,10-15,18,20,21,23-25|| 15 || $0.20|| http://www.digikey.com/product-detail/en/C320C104M5U5TA || 
 || Any || Any || Cap (ceramic) || 0.33uf || C22|| 1|| $0.46|| http://www.digikey.com/product-detail/en/SR205E334MAR/478-5733-ND/2136293||
-|| TDK Corp.|| FK18X7R1E105K|| Cap (ceramic) || 1.0uf 25V|| C5,C6,C7|| 3|| $0.43|| http://www.digikey.com/product-detail/en/FK18X7R1E105K/445-8422-ND/2815352 ||
+|| TDK Corp.|| FK18X7R1E105K|| Cap (electrolytic) || 1.0uf 25V|| C5,C6,C7|| 3|| $0.43|| http://www.digikey.com/product-detail/en/FK18X7R1E105K/445-8422-ND/2815352 ||
 || TDK Corp.|| FK14X5R1E225K|| Cap (ceramic) || 2.2uf 25V|| C19,C26|| 2|| $0.46|| http://www.digikey.com/product-detail/en/FK14X5R1E225K/445-8298-ND/2815228 || 
 || Panasonic || EEA-FC1E100 || Cap (electrolitic) || 10uf 25V|| C9 || 1|| $0.30|| http://search.digikey.com/us/en/products/EEA-FC1E100/P11212-ND/356116 || 
 || Vishay Sprague|| 199D336X9016D1V1E3|| Cap (tantalum)|| 33uf 16V|| C16|| 1|| $2.07|| http://www.digikey.com/product-detail/en/199D336X9016D1V1E3 || 
