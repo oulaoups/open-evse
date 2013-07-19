@@ -30,7 +30,7 @@ http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg
 || Vishay Dale (Any)|| CMF501K0000FHEB|| Resistor 1%|| 1K 1% || R1|| 1|| $1.04|| http://www.digikey.com/product-detail/en/CMF501K0000FHEB || 
 || Any || Any || Resistor 5%|| 1k || R20|| 1|| $0.09 || 
 || Any || Any || Resistor 5%|| 3.74k|| R3,R4|| 2|| $0.09|| 
-|| Any || Any || Resistor 5%|| 10k || R10,19,25,27,28,30|| 6|| $0.09 || 
+|| Any || Any || Resistor 5%|| 10k || R10,19|| 4|| $0.09 || 
 || Any || Any || Resistor 5%|| 20k || R15|| 1|| $0.09 || 
 || Vishay BC|| MRS25000C2802FRP00|| Resistor HV 1%|| 28k 0.6w|| R12,R13|| 2|| $0.36|| http://www.digikey.com/product-detail/en/MRS25000C2802FRP00 || 
 || Any || Any || Resistor 5%|| 56k || R5|| 1|| $0.09 || 
