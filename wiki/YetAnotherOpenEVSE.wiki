@@ -63,6 +63,34 @@ I decided to go with a chassis mounted power supply module. The one listed in th
 
 My thought at the moment is to mount the logic board on a right angle against the side of the box. Hopefully I can find two angle brackets to screw into the panel and into one side of the board and that it will be stiff enough. The display will be mounted on tall standoffs above the power supply.
 
+=== Some days later... ===
+
+Well, the DIY board won the race, so I completed that first.
+
+Assembly was, more or less, straightforward. There were some errors on the BOM, which I fixed.
+
+Here it is on the bench: http://www.kfu.com/~nsayer/evse/photo%204.JPG
+
+I discovered the happy coincidence that the DIY board's hole spacing is more or less the same as the hole spacing of the RGB LCD display. I've decided to mount the DIY board on standoffs above the power supply, then cantilever the display off two standoffs above the main board.
+
+In this picture, you can see the standoffs at the top that will later accept the display: http://www.kfu.com/~nsayer/evse/photo%208.JPG
+
+The power supply is mounted below the board, so it's not visible. If you peer through the lid at just the right angle, you can see its LED light up when it gets power.
+
+At the moment, I'm temporarily wiring an LCD shield up as the display.
+
+http://www.kfu.com/~nsayer/evse/photo%207.JPG
+http://www.kfu.com/~nsayer/evse/photo%206.JPG
+
+And here's the target:
+
+http://www.kfu.com/~nsayer/evse/photo%209.JPG
+
+... and here's his opinion:
+
+http://www.kfu.com/~nsayer/evse/photo%2010.PNG
+
+
 = Parts =
 
 || Source || Part # || Quantity || Description || 
