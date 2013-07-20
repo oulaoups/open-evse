@@ -71,7 +71,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 22 || Jason || Built || RTC || Paid || ||
 || 23 || amb INT || Kit || RTC - EVSIM ||  Paid || ||
 || 24 || kinhood || Built || RTC - EVSIM || Paid || ||
-|| 25 || nsayer || Kit || LCD || Paid || ||
+|| 25 || nsayer || Kit || LCD x 2 || Paid || ||
 || 26 || rickpark || Kit || RTC || Paid || ||
 || 27 || travis || Kit || RTC - EVSim || || ||
 || 28 || paulito || Built || RTC - EVsim || Paid || ||
