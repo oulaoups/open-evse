@@ -1,6 +1,9 @@
 #summary May/June Batch.
 
 = Introduction =
+
+*Update 7/19* First 10 came in and the first 10 shipped out...I was hoping to get all 100 at once. I'll update when I get tracking info the the other 90.
+
 *Update 7/16* Tracking Estimated Delivery Fri 7/19/2013 10:30 am
 
 *Update 7/16* Finally -  Shipped 2013-07-16 09:17:35
@@ -43,20 +46,20 @@ Payment via paypal to chris1howell83@gmail.com
 || Ship OpenEVSE "Built and Tested"|| ||
 
 || Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
-||   || Ryan ~2 || Kit || RGB LCD || Paid || ||
-||   || bitsource || Kit || LCD board only || paid || ||
+||   || Ryan ~2 || Kit || RGB LCD || Paid || Shipped 7/19 ||
+||   || bitsource || Kit || LCD board only || paid || Shipped 7/19 ||
 || 1 || bug-ar || Built || RGB LCD Built - Int Ship || Paid ||  ||
-|| 2 || sorphin || Kit || LCD Kit || Paid || ||
+|| 2 || sorphin || Kit || LCD Kit || Paid || Shipped 7/19 ||
 || 3 || andy || Built || LCD Built || Paid || ||
-|| 4 || mattgreen || Kit || RTC Kit || Paid || ||
-|| 5 || bpifer || Kit || LCD Kit || Paid || ||
+|| 4 || mattgreen || Kit || RTC Kit || Paid || Shipped 7/19 ||
+|| 5 || bpifer || Kit || LCD Kit || Paid || Shipped 7/19 ||
 || 6 || kris.stew || Kit || RTC || Paid || || 
 || 7 || noelingle || Kit || LCD Kit || Paid || ||
 || 8 || b.otterson || Kit || RTC Kit EV Sim || Paid || ||
-|| 9 || polders - INT || kit || RTC kit - EV Sim || Paid || ||
+|| 9 || polders - INT || kit || RTC kit - EV Sim || Paid || Shipped 7/19 ||
 || 10 || jimdarnauer || Built || LCD Built - EV Sim || Paid || ||
-|| 11 || mictronics - INT || kit || RTC Built || Paid || ||
-|| 12 || eos.it INT || Kit || RTC Kit x 2 || Paid || ||
+|| 11 || mictronics - INT || kit || RTC Built || Paid || Shipped 7/19||
+|| 12 || eos.it INT || Kit || RTC Kit x 2 || Paid || Shipped 7/19 ||
 || 13 || beazley || Built || RTC Built - EV Sim || Paid || ||
 || 14 || fredouille INT || Built || RTC Built - EVsim || Paid || ||
 || 15 || cyril INT || Kit || RTC - EVSim || Paid || ||
