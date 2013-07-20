@@ -73,6 +73,16 @@ Here it is on the bench: http://www.kfu.com/~nsayer/evse/photo%204.JPG
 
 I discovered the happy coincidence that the DIY board's hole spacing is more or less the same as the hole spacing of the RGB LCD display. I've decided to mount the DIY board on standoffs above the power supply, then cantilever the display off two standoffs above the main board.
 
+So to make it all happen...
+
+Almost all of the hardware holding the components to the backplane is 4-40. The exceptions are the relay, which is held with 6-32 hardware and the ground bus, which came with its own self-tapping screw.
+
+I was able to use a fine point marker and hold most of the components on the plate and mark the spots to drill. 4-40 hardware needs a 1/8" drill bit. The 6-32 holes and the ground bus use 9/16".
+
+The least forgiving component for mounting is the power supply. It's also more difficult because the holes are too small and too thick to fit a pen in. I put a 1/16" drill bit in the drill and used the drill to make a "divot." That gave me an opportunity to visually insure that the holes will be in the right place (I wound up having to redo one). The divot also keeps the bit from wandering before the hole gets started.
+
+The power supply needs 2 5/8" 4-40 bolts to hold it in place. The two fuse holders need 3/8" 4-40 bolts. The relay needs two 3/8" 6-32 bolts. The main board was put in place with two 1 1/4" 4-40 M-F standoffs. The male end was bolted to the mounting plate and the female end accepts the circuit board. The bottom two board holes got 1/4" 4-40 bolts and the top two got two more 1 1/4" standoffs. The LCD will eventually be mounted to the top standoffs with 1/2" 4-40 bolts.
+
 In this picture, you can see the standoffs at the top that will later accept the display: http://www.kfu.com/~nsayer/evse/photo%208.JPG
 
 The power supply is mounted below the board, so it's not visible. If you peer through the lid at just the right angle, you can see its LED light up when it gets power.
@@ -82,6 +92,13 @@ At the moment, I'm temporarily wiring an LCD shield up as the display.
 http://www.kfu.com/~nsayer/evse/photo%207.JPG
 http://www.kfu.com/~nsayer/evse/photo%206.JPG
 
+Some lessons learned:
+
+  # The button extends down into the case quite far. As it is, it comes close to hitting a couple of components on the motherboard. But moving it downwards would risk coming too close to the HV wiring on the relay.
+  # The cable glands with the cables coming in are a challenge to put into place given how the board is mounted.
+  # The quick connects on the fuse holders are at an awkward angle. I had to carefully bend them upwards to get everything to fit. Changing the fuses, if that's ever going to be necessary, will be a pain.
+  # The ground bus isn't designed to take in small gauge wires. Getting the screw to find and bite them is difficult, particularly when the bus is mounted.
+
 And here's the target:
 
 http://www.kfu.com/~nsayer/evse/photo%209.JPG
@@ -90,6 +107,9 @@ http://www.kfu.com/~nsayer/evse/photo%209.JPG
 
 http://www.kfu.com/~nsayer/evse/photo%2010.PNG
 
+== Future directions ==
+
+I definitely want to get another current transformer and connect it to the A3 input and add some software to work as an ammeter to display the current draw.
 
 = Parts =
 
