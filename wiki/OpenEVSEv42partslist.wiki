@@ -2,7 +2,7 @@
 
 = Open EVSE V4.2 parts list =
 
-If you'd like to built your own EVSE controller board instead of ordering one, here are the parts that you will need.
+If you'd like to build your own EVSE controller board instead of ordering one, here are the parts that you will need.
 
 http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg
 
@@ -30,7 +30,7 @@ http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg
 || Vishay Dale (Any)|| CMF501K0000FHEB|| Resistor 1%|| 1K 1% || R1|| 1|| $1.04|| http://www.digikey.com/product-detail/en/CMF501K0000FHEB || 
 || Any || Any || Resistor 5%|| 1k || R20|| 1|| $0.09 || 
 || Any || Any || Resistor 5%|| 3.74k|| R3,R4|| 2|| $0.09|| 
-|| Any || Any || Resistor 5%|| 10k || R10,19|| 4|| $0.09 || 
+|| Any || Any || Resistor 5%|| 10k || R10,19|| 2|| $0.09 || 
 || Any || Any || Resistor 5%|| 20k || R15|| 1|| $0.09 || 
 || Vishay BC|| MRS25000C2802FRP00|| Resistor HV 1%|| 28k 0.6w|| R12,R13|| 2|| $0.36|| http://www.digikey.com/product-detail/en/MRS25000C2802FRP00 || 
 || Any || Any || Resistor 5%|| 56k || R5|| 1|| $0.09 || 
@@ -41,16 +41,17 @@ http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg
 || Any || Any || Cap (ceramic) || 22pf || C1,C2|| 2|| $0.44|| http://www.digikey.com/product-detail/en/SR151A180JAR ||
 || Any || Any || Cap (ceramic) || 0.1uf || C3,4,8,10-15,18,20,21,23-25|| 15 || $0.20|| http://www.digikey.com/product-detail/en/C320C104M5U5TA || 
 || Any || Any || Cap (ceramic) || 0.33uf || C22|| 1|| $0.46|| http://www.digikey.com/product-detail/en/SR205E334MAR/478-5733-ND/2136293||
-|| Panasonic || EEA-GA1H1R0|| Cap (electrolytic) || 1.0uf 50V|| C5,C6,C7|| 3|| $0.43|| http://www.digikey.com/product-detail/en/EEA-GA1H1R0/P14504-ND/2504593 ||
+|| TDK Corp.|| FK18X7R1E105K|| Cap (ceramic) || 1.0uf 25V|| C5,C6,C7|| 3|| $0.43|| http://www.digikey.com/product-detail/en/FK18X7R1E105K/445-8422-ND/2815352 ||
 || TDK Corp.|| FK14X5R1E225K|| Cap (ceramic) || 2.2uf 25V|| C19,C26|| 2|| $0.46|| http://www.digikey.com/product-detail/en/FK14X5R1E225K/445-8298-ND/2815228 || 
 || Panasonic || EEA-FC1E100 || Cap (electrolitic) || 10uf 25V|| C9 || 1|| $0.30|| http://search.digikey.com/us/en/products/EEA-FC1E100/P11212-ND/356116 || 
 || Vishay Sprague|| 199D336X9016D1V1E3|| Cap (tantalum)|| 33uf 16V|| C16|| 1|| $2.07|| http://www.digikey.com/product-detail/en/199D336X9016D1V1E3 || 
 || Panasonic ECG|| EEU-FM1E101|| Cap (electrolitic) || 100uf 25v|| C17|| 1|| $0.32|| http://www.digikey.com/product-detail/en/EEU-FM1E101 || 
 || FCI || 609-2845-ND|| Header|| 2x3|| ISP1|| 1|| $0.74 || http://www.digikey.com/product-detail/en/75869-131LF/609-2845-ND/1302569 || 
 || 3M|| 929400-01-36-RK|| Header straight|| 0.1sp.|| FTDI,LCD,CT1,I/O|| 1|| $1.80|| http://www.digikey.com/product-detail/en/929400-01-36-RK/929400E-01-36-ND/1093569 || 
-|| TE Connectivity || A98036-ND || Connector|| 3.5mm 2P|| Rly1,CT1 || 2 || $0.27|| http://www.digikey.com/product-detail/en/1776275-2/A98036-ND/1826899 || 
+|| TE Connectivity || A98036-ND || Connector|| 3.5mm 2P|| Rly1 || 1 || $0.27|| http://www.digikey.com/product-detail/en/1776275-2/A98036-ND/1826899 || 
 || On Shore Technlogy || ED2609-ND|| Connector|| 5.0mm 2P|| DCIN,PILOT|| 2 || $0.35|| http://www.digikey.com/product-detail/en/OSTTC022162/ED2609-ND/614558 || 
-|| TE Connectivity || 1776275-3|| Connector|| 3.5mm 3P|| JP1|| 1 || $0.78 || http://www.digikey.com/product-detail/en/1776275-3/A98037-ND/1826900 || 
+|| TE Connectivity || 1776275-3|| Connector|| 3.5mm 3P|| L1/L2 sense|| 1 || $0.78 || http://www.digikey.com/product-detail/en/1776275-3/A98037-ND/1826900 ||
+|| TE Connectivity || 103638-1|| Connector|| Header .100 2P L|| CT1|| 1 || $0.85 || http://www.digikey.com/product-detail/en/103638-1/A28524-ND/298715 ||
 || Circuit board|| Open EVSE V4.2|| Board|| Double sided|| B1|| 1|| $14.10|| http://oshpark.com ||
 || Optional|| AE10011-ND|| IC socket|| 8 pin|| IC2,4,5,6|| 4|| 0.50|| ||
 || Optional|| ED90054-ND|| IC socket|| 28 pin|| IC1|| 1|| 1.68|| ||
