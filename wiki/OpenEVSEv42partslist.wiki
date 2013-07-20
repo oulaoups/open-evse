@@ -52,7 +52,7 @@ http://farm9.staticflickr.com/8370/8437977311_28677cea78_n.jpg
 || On Shore Technlogy || ED2609-ND|| Connector|| 5.0mm 2P|| DCIN,PILOT|| 2 || $0.35|| http://www.digikey.com/product-detail/en/OSTTC022162/ED2609-ND/614558 || 
 || TE Connectivity || 1776275-3|| Connector|| 3.5mm 3P|| L1/L2 sense|| 1 || $0.78 || http://www.digikey.com/product-detail/en/1776275-3/A98037-ND/1826900 ||
 || TE Connectivity || 103638-1|| Connector|| Header .100 2P L|| CT1|| 1 || $0.85 || http://www.digikey.com/product-detail/en/103638-1/A28524-ND/298715 ||
-|| Circuit board|| Open EVSE V4.2|| Board|| Double sided|| B1|| 1|| $14.10|| http://oshpark.com ||
+|| Circuit board|| Open EVSE V4.2|| Board|| Double sided|| B1|| 1|| $14.00|| http://store.oshpark.com/collections/openevse/products/open-evse-controller ||
 || Optional|| AE10011-ND|| IC socket|| 8 pin|| IC2,4,5,6|| 4|| 0.50|| ||
 || Optional|| ED90054-ND|| IC socket|| 28 pin|| IC1|| 1|| 1.68|| ||
 || || || || || || *Total*|| *$75.00*|| 
