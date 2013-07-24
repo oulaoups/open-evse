@@ -1,4 +1,4 @@
-#The J1772 "Hydra" - Charge 2 EVs from one EVSE.
+#summary The J1772 "Hydra" - Charge 2 EVs from one EVSE.
 
 = The Hydra =
 
