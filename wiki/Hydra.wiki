@@ -51,7 +51,7 @@ The board has the following interface points:
 There are 4 things on the board that require some attention:
   * The four zener diodes listed in the schematic are wrong. Eagle didn't come with a 5 volt zener diode, so I picked a close one. The diodes in the BOM are correct.
   * R8 is a 2.7k resistor that runs between proximity and ground. Some (most? all?) J1772 inlets come with a 2.7k resistor installed between proximity and ground. If yours does, then do not install R8.
-  * Rx and Ry are burden resistors for the CT coils. These need to be chosen based on the CT you're going to use and the maximum outlet current rating for your Hydra. For my prototype, the CTs I've selected have a Te of 1018 and the design current for the Hydra will be 30A. For that configuration, a 56 ohm resistor is appropriate. You'll also find a #define in the source code for the Hydra that you will need to adjust in concert with this. Customizing the burden resistor allows you to maximize the accuracy of the ammeter readings for each car.
+  * R14 and R17 are burden resistors for the CT coils. These need to be chosen based on the CT you're going to use and the maximum outlet current rating for your Hydra. For my prototype, the CTs I've selected have a Te of 1018 and the design current for the Hydra will be 30A. For that configuration, a 56 ohm resistor is appropriate. You'll also find a #define in the source code for the Hydra that you will need to adjust in concert with this. Customizing the burden resistor allows you to maximize the accuracy of the ammeter readings for each car.
 
 The software is hosted on GitHub at https://github.com/nsayer/hydra
 
@@ -87,4 +87,4 @@ Lastly, connect the LCD up via the I2C cable. Unlike OpenEVSE, there is no suppo
 
 First, I am going to complete the prototype and debug it. Once the design is field-proven, I will either get OSHPark to add the board to their single-unit-quantity store or I will sell boards for $20 each plus shipping (that's about my cost).
 
-The circuit board BOM from DigiKey is around $45 + tax and shipping. The chassis BOM is around $85 + tax and shipping. A J1772 inlet is $120 from Modular EV Power and J1772 cables are $150 each from Leviton. A box and two cable glands are around $50 from Polycase. So just in parts alone, a Hydra costs close to $700.
+The circuit board BOM from DigiKey is around $45 + tax and shipping. The chassis BOM (2 relays, 2 CTs, a pair of M-M-F quick connect adapters and a 12vdc power supply) is around $85 + tax and shipping. A J1772 inlet is $120 from Modular EV Power and J1772 cables are $150 each from Leviton. A box and two cable glands are around $50 from Polycase. So just in parts alone, a Hydra costs close to $700.
