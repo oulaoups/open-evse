@@ -1,0 +1,54 @@
+#The J1772 "Hydra" - Charge 2 EVs from one EVSE.
+
+= The Hydra =
+
+We have 6 L2 J1772 chargers and a ChaDEmo at work. For various reasons, my colleagues are more politically attuned to EV ownership than the general population, even here in the SF Bay area. So those chargers are oversubscribed. What makes it worse is that most of those cars are Leafs, which only charge from those L2 chargers at 15A. Since the chargers are 30A, half the potential is being wasted. Why they don't just use the ChaDEmo is beyond me.
+
+It would be easy to make a box with a square wave generator to dummy up a pilot to feed two cars from a J1772 inlet, but that would neither be spec compliant, nor safe. No, the correct thing to do is to intelligently allocate the incoming power to the two cars as needed.
+
+And thus, the Hydra was born.
+
+= Details =
+
+The Hydra owes much of its existence to OpenEVSE. Some of its circuitry was cribbed from the OpenEVSE Plus. The Hydra has the same 16 MHz ATMega controller as the OpenEVSE and Arduino Uno. Connected to that are the following subsystems:
+
+  * A comparator to convert the incoming pilot signal into a TTL compatible square wave so that the controller can determine the duty cycle, and thus, the ampacity of the host EVSE.
+  * A comparator to watch for transitions on the incoming proximity pin. The controller will gracefully shut down both cars if the proximity resistance rises above 300 ohms (or so).
+  * Two pilot signal generators. OP Amps are used to convert digital outputs from the controller into + or - 12 volt outputs. The PWM timer systems of the controller will be used to generate the varying duty cycles.
+  * Resistor networks feed the outgoing pilots back into the controller on two analog pins so that state changes and diode failures on each car can be detected.
+  * Each car will have a current transformer on one of its hot leads so that the car's current draw can be monitored. If a car exceeds its allocated current, it will be shut down.
+  * The Hydra will have an RGB LCD display to show status information.
+
+The software in the Hydra has the following rules:
+
+  * If no car is charging, both cars get 100% of the incoming pilot.
+  * If one car is charging, it gets 100% and the other car gets 50%.
+  * If both cars are charging, both cars get 50%.
+  * If both cars are charging and one stops, the other pilot is immediately raised to 100%. The car that stopped continues to get 50% in accordance with the above rules.
+  * If only one car is charging, and the other enters state C, it will be given a 10 second delay. During that delay, the other car's pilot will be reduced to 50% and it will have 5 seconds to respond and reduce its draw. After the delay, the second car's power will be turned on.
+  * If any car exceeds its current allowance for 5 seconds, it is errored out.
+  * If any car fails a diode check at any time, it is errored out.
+  * If any car enters an invalid state (7.5 volts, for instance - between B and C), it is errored out.
+  * If the incoming pilot drops below the 12A minimum (because that's the smallest that can legally be split in half) or stops being a valid pilot, both cars are errored out.
+  * If the proximity is pushed on the inlet, both cars are errored out.
+  * If a car is errored out, its plug must return to state A to clear the error (so pull the plug out and reinsert it).
+
+The Hydra does not attempt to detect L1 vs L2 - it only cares about amps. It also doesn't attempt to detect ground faults - the source EVSE is assumed to have its own GFCI. Also, my prototype does not include fuses or breakers - again, the source EVSE is assumed to have over-current protection.
+
+A this point, there are Eagle files with a schematic and board layout. The prototype boards have been ordered from OSHPark and two DigiKey BOMs have been created - one for the board parts, one for the chassis components. Apart from that one would need to buy an RGB LCD (either Chris' OpenEVSE display or an AdaFruit RGB LCD shield), two J1772 cable/plug assemblies, a J1772 inlet and a chassis/cabinet/box in which to install it all.
+
+The board has the following interface points:
+
+  * 2 two pin terminals for the coils for two power relays for car A & B
+  * 2 two pin terminals for the current transformers for car A & B
+  * 1 three pin terminal that has the two outgoing pilot signals, plus a ground connection
+  * 1 three pin terminal that comes from the inlet, with ground, pilot and proximity
+  * 1 two pin terminal that brings 12 VDC from an external power supply
+  * 1 two pin terminal that connects to an external power switch. This switch switches the inlet pilot resistance from state B to state C when closed. Optionally, you can simply jumper the terminal if you would rather.
+  * 1 4 pin I2C header for the LCD
+  * 1 6 pin ISP socket for programming
+
+There are 4 things on the board that require some attention:
+  * The four zener diodes listed in the schematic are wrong. Eagle didn't come with a 5 volt zener diode, so I picked a close one. The diodes in the BOM are correct.
+  * R8 is a 2.7k resistor that runs between proximity and ground. Some (most? all?) J1772 inlets come with a 2.7k resistor installed between proximity and ground. If yours does, then do not install R8.
+  * Rx and Ry are burden resistors for the CT coils. These need to be chosen based on the CT you're going to use and the maximum outlet current rating for your Hydra. For my prototype, the CTs I've selected have a Te of 1018 and the design current for the Hydra will be 30A. For that configuration, a 56 ohm resistor is appropriate. You'll also find a #define in the source code for the Hydra that you will need to adjust in concert with this. Customizing the burden resistor allows you to maximize the accuracy of the ammeter readings for each car.
