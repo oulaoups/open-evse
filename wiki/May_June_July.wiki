@@ -50,6 +50,7 @@ Payment via paypal to chris1howell83@gmail.com
 || Ship OpenEVSE "Built and Tested"|| ||
 
 || Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
+||   || markdinh || Built || RTC EV Sim || Paid || Workshop ||
 ||   || Ryan ~2 || Kit || RGB LCD || Paid || Shipped 7/19 ||
 ||   || bitsource || Kit || LCD board only || paid || Shipped 7/19 ||
 || 1 || bug-ar || Built || RGB LCD Built - Int Ship || Paid ||  ||
