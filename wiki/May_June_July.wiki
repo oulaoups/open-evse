@@ -75,7 +75,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 20 || AllieCatSD || Kit || RTC || Paid || Shipped 7/29 ||
 || 21 || gnb || Kit || RTC || Paid || Shipped 7/29 ||
 || 22 || Jason || Built || RTC || Paid || ||
-|| 23 || amb INT || Kit || RTC - EVSIM ||  Paid || ||
+|| 23 || amb INT || Kit || RTC - EVSIM ||  Paid || Shipped 7/29 ||
 || 24 || kinhood || Built || RTC - EVSIM || Paid || ||
 || 25 || nsayer || Kit || LCD x 2 || Paid || Shipped 7/29 ||
 || 26 || rickpark || Kit || RTC || Paid || Shipped 7/29 ||
