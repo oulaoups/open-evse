@@ -41,14 +41,14 @@ Payment via paypal to chris1howell83@gmail.com
 
 || Planning || Done || 
 || Order parts || Done 4/30 ||
-|| Build - SMT || Gold Pheonix - Shipped 7/16 ||
-|| Load Firmware ||  ||
-|| Package OpenEVSE Plus "Kit" ||  ||
-|| Ship OpenEVSE Plus "Kit" ||  ||
-|| Build - Through hole parts || ||
-|| Test OpenEVSE "Built and Tested"|| ||
-|| Package OpenEVSE "Built and Tested" || ||
-|| Ship OpenEVSE "Built and Tested"|| ||
+|| Build - SMT || Arrived 7/26 ||
+|| Load Firmware || In progress  ||
+|| Package OpenEVSE Plus "Kit" || In Progress ||
+|| Ship OpenEVSE Plus "Kit" || In progress  ||
+|| Build - Through hole parts || In Progress||
+|| Test OpenEVSE "Built and Tested"|| In Progress ||
+|| Package OpenEVSE "Built and Tested" || In Progress ||
+|| Ship OpenEVSE "Built and Tested"|| In progress ||
 
 || Slot || Name || OpenEVSE Plus || Extras || Payment Recieved || Shipped ||
 ||   || markdinh || Built || RTC EV Sim || Paid || Shipped 7/29 ||
