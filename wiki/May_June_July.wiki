@@ -100,4 +100,4 @@ Payment via paypal to chris1howell83@gmail.com
 || 45 || schuck-electronics || kit || RTC || Paid || ||
 || 46 || cyrille.coudyser || built || RTC || Paid || ||
 || 47 || cyrille.coudyser || built || RTC || Paid || ||
-|| 48 || 
+|| 48 || charliebarrett || built || RTC - EVsim || Paid || ||
