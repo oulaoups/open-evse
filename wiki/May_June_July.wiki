@@ -56,7 +56,7 @@ Payment via paypal to chris1howell83@gmail.com
 ||   || bitsource || Kit || LCD board only || paid || Shipped 7/19 ||
 || 1 || bug-ar || Built || RGB LCD Built - Int Ship || Paid ||  ||
 || 2 || sorphin || Kit || LCD Kit || Paid || Shipped 7/19 ||
-|| 3 || andy || Built || LCD Built || Paid || ||
+|| 3 || andy || Built || LCD Built || Paid || Shipped 7/29 ||
 || 4 || mattgreen || Kit || RTC Kit || Paid || Shipped 7/19 ||
 || 5 || bpifer || Kit || LCD Kit || Paid || Shipped 7/19 ||
 || 6 || kris.stew || Kit || RTC || Paid || Shipped 7/29 || 
@@ -73,22 +73,22 @@ Payment via paypal to chris1howell83@gmail.com
 || 18 || j.e.best || Built || RTC || Paid || ||
 || 19 || Sapounas - INT || Built || RTC - EVSIM || Paid || ||
 || 20 || AllieCatSD || Kit || RTC || Paid || Shipped 7/29 ||
-|| 21 || gnb || Kit || RTC || Paid || ||
+|| 21 || gnb || Kit || RTC || Paid || Shipped 7/29 ||
 || 22 || Jason || Built || RTC || Paid || ||
 || 23 || amb INT || Kit || RTC - EVSIM ||  Paid || ||
 || 24 || kinhood || Built || RTC - EVSIM || Paid || ||
-|| 25 || nsayer || Kit || LCD x 2 || Paid || ||
-|| 26 || rickpark || Kit || RTC || Paid || ||
+|| 25 || nsayer || Kit || LCD x 2 || Paid || Shipped 7/29 ||
+|| 26 || rickpark || Kit || RTC || Paid || Shipped 7/29 ||
 || 27 || travis || Kit || RTC - EVSim || || ||
 || 28 || paulito || Built || RTC - EVsim || Paid || ||
 || 29 || jacques - INT || Built || RTC - EVsim || Paid || ||
 || 30 || thilo.graupner - INT || Built || RTC || || ||
 || 31 || CHolman2 || Built || RTC || Paid || ||
-|| 32 || gigi || kit || RTC || Paid || ||
+|| 32 || gigi || kit || RTC || Paid || Shipped 7/29 ||
 || 33 || awong22828 || built || RTC - EVsim || Paid || ||
 || 34 || awong22828 || built || RTC || Paid || ||
 || 35 || Olivier INT || Built || RTC built || || ||
-|| 36 || emf-power || kit || RTC kit || Paid || ||
+|| 36 || emf-power || kit || RTC kit || Paid || Shipped 7/29 ||
 || 37 || thilo.graupner INT || kit || RTC || Paid ||
 || 38 || maxxiss8 INT || Built || || Paid || ||
 || 39 || maxxiss8 INT || Built || || Paid || ||
