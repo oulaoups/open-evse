@@ -5,9 +5,9 @@
 = Sources =
 
 || Part Number || Description || Manufacture || Level || Max Current || UL || Length || Price || Link ||
-|| A3435-PEV || J1772 || Leviton || L1/L2 || 30A || Yes || 25' || $173.36 || http://store.leviton.com/Compliant-Electric-Vehicle-Connector-A3435-PEV/dp/B00912OT00 <br /> Pictures of: http://pics.256.com/2012/20120908_j1772/ ||
+|| A3435-PEV || J1772 || Leviton || L1/L2 || 30A || Yes || 25' || $173.36 + free shipping || http://store.leviton.com/Compliant-Electric-Vehicle-Connector-A3435-PEV/dp/B00912OT00 <br /> Pictures of: http://pics.256.com/2012/20120908_j1772/ ||
 || A2056-PEV (no longer availble) || J1772 || Leviton || L1/L2 || 75A || Yes || 25' || $218.69 || http://store.leviton.com/Electric-Vehicle-Charge-Connector-A2055-PEV/dp/B009UCEXYI ||
-|| A2055-PEV || J1772 || Leviton || L1/L2 || 15A || Yes || 25' || $134.14 || http://store.leviton.com/Electric-Vehicle-Charge-Connector-A2055-PEV/dp/B009UCE7EE#.URHRL333JgE ||
+|| A2055-PEV || J1772 || Leviton || L1/L2 || 15A || Yes || 25' || $134.14 || http://store.leviton.com/Electric-Vehicle-Charge-Connector-A2055-PEV/dp/B009UCE7EE#.URHRL333JgE ||*
 || EVC-C-15A-300-20 || J1772 || ITT || L1 || 15A || Yes || 20' || $181.43 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-15A-300S-20 ||
 || EVC-C-15A-600-20 || J1772 || ITT || L1/L2 || 15A || Yes || 20' || $191.95 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-15A-600S-20 ||
 || EVC-C-30A-600-20 || J1772 || ITT || L1/L2 || 30A || Yes || 20' || $222.99 || https://avnetexpress.avnet.com/store/em/EMController?action=products&N=0&langId=-1&storeId=500201&catalogId=500201&term=EVC-C-30A-600S-20||
@@ -16,7 +16,7 @@
 || CONNECTOR || Tesla Roadster Connector || HC Sharp || L2 || 80A || UL: N/A; RoHS: Yes || Connector || $600 (US version) + cable || email henry@hcsharp.com ||
 || 75T6614 || Plug only || Multicomp || L1/L2 || 32A || RoHS || none || $156.32 || http://www.newark.com/multicomp/dsi-ev32p-nc/plug-ev-j1772-32a/dp/75T6614 ||
 || 75T6615 ||  Plug and cable || Multicomp || L1/L2 || 32A || RoHS || 3m || $205.98 || http://www.newark.com/multicomp/dsi-ev32p-3c/plug-ev-j1772-32a-3m-cable/dp/75T6615?Ntt=75T6615 ||
-|| || Plug with 8m Cord || Dostar || L1/L2 || 32A || No || 8m (26 feet) || $149 || http://www.emotorwerks.com/products/online-store/product/show/38-j1772-plug-32a-wire-8-meters ||
+|| || Plug with 8m Cord || Dostar || L1/L2 || 32A || No || 8m (26 feet) || $149 + ~$40 shipping || http://www.emotorwerks.com/products/online-store/product/show/38-j1772-plug-32a-wire-8-meters ||
 || || Plug alone || Dostar || L1/L2 || 70A || No || none || $155 || http://www.tucsonev.com/index.html ||
 || || Plug with Cord || Dostar || L1/L2 || 45A || No || 20' || $200 || http://www.tucsonev.com/index.html ||
 || || Plug with Cord || Dostar || L1/L2 || 70A || No || 26' || $225 || http://www.tucsonev.com/index.html ||
