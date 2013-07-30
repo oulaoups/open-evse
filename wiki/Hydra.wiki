@@ -90,3 +90,8 @@ Lastly, connect the LCD up via the I2C cable. Unlike OpenEVSE, there is no suppo
 First, I am going to complete the prototype and debug it. Once the design is field-proven, I will either get OSHPark to add the board to their single-unit-quantity store or I will sell boards for $20 each plus shipping (that's about my cost).
 
 The circuit board BOM from DigiKey is around $45 + tax and shipping. The chassis BOM (2 relays, 2 CTs, a pair of M-M-F quick connect adapters and a 12vdc power supply) is around $85 + tax and shipping. A J1772 inlet is $120 from Modular EV Power and J1772 cables are $150 each from Leviton. A box and two cable glands are around $50 from Polycase. So just in parts alone, a Hydra costs close to $700.
+
+= Resources =
+
+  * [http://github.com/nsayer/hydra Software repository for the Hydra]
+  * [http://oshpark.com/profile/nsayer OSHPark store for Hydra boards]
