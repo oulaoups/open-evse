@@ -94,4 +94,4 @@ The circuit board BOM from DigiKey is around $45 + tax and shipping. The chassis
 = Resources =
 
   * [http://github.com/nsayer/hydra Software repository for the Hydra]
-  * [http://oshpark.com/profile/nsayer OSHPark store for Hydra boards]
+  * [http://oshpark.com/profiles/nsayer OSHPark store for Hydra boards]
