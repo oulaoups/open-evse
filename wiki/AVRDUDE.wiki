@@ -12,11 +12,11 @@ http://www.ladyada.net/learn/avr/avrdude.html
 
 If you built your own board and your EVSE has never had any version of EVSE firmware or an Arduino boot loader (virgin chip) you will need to set your AVR fuses before loading the OpenEVSE hex file.. Setting fuses only needs to be done once.
 
-Command assumes you are using the USBtiny, if using another programmer substitute the correct programmer after -c
+Command assumes you are using the OpenEVSE USBasp, if using another programmer substitute the correct programmer after -c
 {{{
-avrdude -c usbtiny -p m328p -U lfuse:w:0xFF:m
-avrdude -c usbtiny -p m328p -U hfuse:w:0xDA:m
-avrdude -c usbtiny -p m328p -U efuse:w:0x05:m
+avrdude -c USBasp -p m328p -U lfuse:w:0xFF:m
+avrdude -c USBasp -p m328p -U hfuse:w:0xDA:m
+avrdude -c USBasp -p m328p -U efuse:w:0x05:m
 
 *NOTE:* The extended bits (efuse) setting may get a readback of "FD" rather than "05". This is okay. "FD" is functionally the same as "05" and you can use either value to accomplish the same thing. 
 }}}
@@ -30,9 +30,9 @@ run cmd for the command prompt.
 type "C:\OpenEVSE"
 from the C:\OpenEVSE folder run the following command:
 
-Command assumes you are using the USBtiny, if using another programmer substitute the correct programmer after -c
+Command assumes you are using the OpenEVSE USBasp programmer, if using another programmer substitute the correct programmer after -c
 {{{
-avrdude -c usbtiny -p m328p -U flash:w:open_evse.hex
+avrdude -c USBasp -p m328p -U flash:w:open_evse.hex
 }}}
 
 Alternate command if using serial FTDI with the Arduino bootloader. (Arduino boards or OpenEVSE with Arduio bootloader)
