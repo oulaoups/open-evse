@@ -107,6 +107,10 @@ http://www.kfu.com/~nsayer/evse/photo%209.JPG
 
 http://www.kfu.com/~nsayer/evse/photo%2010.PNG
 
+My order from Chris came today. I didn't get the Plus completed, but I did manage to add a display to the DIY and finally, for the first time, close the lid all the way.
+
+http://www.kfu.com/~nsayer/evse/photo%2011.JPG
+
 == Future directions ==
 
 I definitely want to get another current transformer and connect it to the A3 input and add some software to work as an ammeter to display the current draw.
