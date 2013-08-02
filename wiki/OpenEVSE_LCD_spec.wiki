@@ -7,13 +7,15 @@ This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMON
 
 http://farm9.staticflickr.com/8351/8406326627_f12743981f.jpg
 
-LCD Boards are now avaliable designed specificly for OpenEVSE. They were designed to be very compact and easy to interface. The OpenEVSE LCD boards support RGB LCDs and are avaliable with or without a RTC(Real Time Clock) to add timer based functionality. 
+LCD Boards are now avaliable designed specificly for OpenEVSE Plus. They were designed to be very compact and easy to interface. The OpenEVSE LCD boards support RGB LCDs and are avaliable with or without a RTC(Real Time Clock) to add timer based functionality. 
 
 The OpenEVSE RGB LCD is based on and compatible with the Adafruit RGB LCD Arduino shield and for OpenEVSE uses the LiquitTWI2 library by lincomatic. 
 
 The optional RTC is based on the DS3231 ultra-precice temperature compensated RTC. 
 
 The .1 inch header pins are soldered to each board in order to connect them to the i2c pins on the OpenEVSE board.
+
+Note that the i2c pins on the OpenEVSE Plus and the DIY v4.2 boards are reversed. If you want to connect the RGB LCD board to a DIY, you must reverse those two pins for it to work. DO NOT REVERSE THE +5/GND PINS! DO NOT SIMPLY PUT THE CABLE ON BACKWARDS. You must connect pins 1 and 1, 2 and 2, 3 and 4 and 4 and 3.
 
 When soldering, be sure to have the included plastic spacers in place to establish the proper spacing. 
 
