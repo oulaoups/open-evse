@@ -98,6 +98,7 @@ Some lessons learned:
   # The cable glands with the cables coming in are a challenge to put into place given how the board is mounted.
   # The quick connects on the fuse holders are at an awkward angle. I had to carefully bend them upwards to get everything to fit. Changing the fuses, if that's ever going to be necessary, will be a pain.
   # The ground bus isn't designed to take in small gauge wires. Getting the screw to find and bite them is difficult, particularly when the bus is mounted.
+  # slo-blo fuses heat up when they're run at their rated capacity. I switched from 3AB 30A slo-blo to 3AG 35A quick and the overheating issue went away. If I had to do it over, I would strongly consider using 40A breakers. 3AG fuses aren't really correct for this application, but a more applicable fuse would be difficult to fit in that box. Also, a ganged breaker would shut off both phase lines instead of one, which would be safer. Panel-mount breakers can be had, but you sacrifice the NEMA 4 rating by drilling the holes in the box for them to fit. 
 
 And here's the target:
 
