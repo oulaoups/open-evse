@@ -71,19 +71,19 @@ Payment via paypal to chris1howell83@gmail.com
 || 15 || cyril INT || Kit || RTC - EVSim || Paid || Shipped 7/29 ||
 || 16 || guy.german - INT || Built || LCD - EV Sim || Paid || Shipped 7/29 ||
 || 18 || j.e.best || Built || RTC || Paid || Shipped 7/29 ||
-|| 19 || Sapounas - INT || Built || RTC - EVSIM || Paid || ||
+|| 19 || Sapounas - INT || Built || RTC - EVSIM || Paid || Shipped 8/4 ||
 || 20 || AllieCatSD || Kit || RTC || Paid || Shipped 7/29 ||
 || 21 || gnb || Kit || RTC || Paid || Shipped 7/29 ||
-|| 22 || Jason || Built || RTC || Paid || ||
+|| 22 || Jason || Built || RTC || Paid || Shipped 8/4 ||
 || 23 || amb INT || Kit || RTC - EVSIM ||  Paid || Shipped 7/29 ||
-|| 24 || kinhood || Built || RTC - EVSIM || Paid || ||
+|| 24 || kinhood || Built || RTC - EVSIM || Paid || Shipped 8/4 ||
 || 25 || nsayer || Kit || LCD x 2 || Paid || Shipped 7/29 ||
 || 26 || rickpark || Kit || RTC || Paid || Shipped 7/29 ||
 || 27 || travis || Kit || RTC - EVSim || || ||
-|| 28 || paulito || Built || RTC - EVsim || Paid || ||
-|| 29 || jacques - INT || Built || RTC - EVsim || Paid || ||
+|| 28 || paulito || Built || RTC - EVsim || Paid || Shipped 8/4 ||
+|| 29 || jacques - INT || Built || RTC - EVsim || Paid || Shipped 8/4||
 || 30 || thilo.graupner - INT || Built || RTC || || ||
-|| 31 || CHolman2 || Built || RTC || Paid || ||
+|| 31 || CHolman2 || Built || RTC || Paid || Shipped 8/4 ||
 || 32 || gigi || kit || RTC || Paid || Shipped 7/29 ||
 || 33 || awong22828 || built || RTC - EVsim || Paid || ||
 || 34 || awong22828 || built || RTC || Paid || ||
