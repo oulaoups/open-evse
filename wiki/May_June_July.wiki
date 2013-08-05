@@ -98,6 +98,6 @@ Payment via paypal to chris1howell83@gmail.com
 || 43 || f4aii INT || kit || RTC || Paid || ||
 || 44 || markus.fuchs-winkler || kit || LCD || Paid || ||
 || 45 || schuck-electronics || kit || RTC || Paid || ||
-|| 46 || cyrille.coudyser || built || RTC || Paid || ||
+|| 46 || cyrille.coudyser || built || RTC - EVSim || Paid || ||
 || 47 || cyrille.coudyser || built || RTC || Paid || ||
 || 48 || charliebarrett || built || RTC - EVsim || Paid || ||
