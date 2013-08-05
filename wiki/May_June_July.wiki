@@ -104,3 +104,4 @@ Payment via paypal to chris1howell83@gmail.com
 || 46 || cyrille.coudyser || built || RTC - EVSim || Paid || Packaging ||
 || 47 || cyrille.coudyser || built || RTC || Paid || Packaging ||
 || 48 || charliebarrett || built || RTC - EVsim || Paid || Packaging ||
+|| 49 || c_brenny || kit || RTC kit - EV sim || Paid || Packaging ||
