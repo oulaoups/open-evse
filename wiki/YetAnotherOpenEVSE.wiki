@@ -112,6 +112,8 @@ My order from Chris came today. I didn't get the Plus completed, but I did manag
 
 http://www.kfu.com/~nsayer/evse/photo%2011.JPG
 
+This weekend I decided to swap the DIY for the Plus board. The benefits to going that way are that the LCD is held to standoffs on each corner rather than being cantilevered, and it's lighter weight. I didn't take a picture, but it doesn't look too different from the DIY. I'll take a picture when I have it up on the wall.
+
 == Future directions ==
 
 I definitely want to get another current transformer and connect it to the A3 input and add some software to work as an ammeter to display the current draw.
