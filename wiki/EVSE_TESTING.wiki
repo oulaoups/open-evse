@@ -2,14 +2,14 @@
 #labels Featured
 
 =Open EVSE=
-All the tests below are performed on each Open EVSE board before shipping. Testing should also be performed after building an EVSE before placing it into service. 
+Testing should be performed after building an EVSE before placing it into service. 
 
 =Recommended Tools=
 EV simulator (diode and resistors)
 
-Multimeter w/Frequency
+Multimeter w/Frequency (optional)
 
-Occiloscope
+Occiloscope (optional)
 
 =Advanced Power Supply=
 If Advanced Power Supply (ADVPWR) features are enabled, you must have the AC input leads connected to the Relay input and test leads connected to the Relay output. OpenEVSE will not go to State A if the Advanced Power Supply safety checks do not pass.
