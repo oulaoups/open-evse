@@ -85,6 +85,20 @@ If desired, connect a SPST switch up to the POWER_SW terminals on the board. If 
 
 Lastly, connect the LCD up via the I2C cable. Unlike OpenEVSE, there is no support for the buttons.
 
+= First prototype report =
+
+I got the first boards back from OSH Park over the last weekend (8/3/13) and assembled it. In the process, I made some discoveries that I will need to fix before I can recommend the boards to anyone else:
+
+1. The DC-DC converters are 7 pin SIP devices and the board layout part I used is a 6 pin one. The pinouts are correct, but you must bend the pins awkwardly to get them to go and it's not mechanically very sound.
+
+2. Most of the capacitor layouts are too narrow. You must awkwardly bend the pins to get them to fit.
+
+3. The resistor pads are the correct distance apart, and the layout grid is fine, but the solder pads are far too small.
+
+Apart from that, the prototype proved the basic design on the bench and the software has progressed from alpha to beta. When I have made the proposed changes, I will release the Eagle board and schematic files as hardware version 1.0.
+
+Meanwhile, I am going to finish the mechanical assembly of the prototype this evening (8/6/13) and bring it to work tomorrow.
+
 = Future plans =
 
 First, I am going to complete the prototype and debug it. Once the design is field-proven, I will either get OSHPark to add the board to their single-unit-quantity store or I will sell boards for $20 each plus shipping (that's about my cost).
