@@ -13,12 +13,15 @@
     * [OpenEVSE_DIY_Plus_spec DIY Kit - OpenEVSE PLUS]
     * [OpenEVSE_DIY_LCD_spec DIY Kit - OpenEVSE LCD]
     * [EVSimulator - OpenEVSE EV Simulator]
-  * *Frequently Asked Questions*
-    * [FAQ FAQ]
-  * *How to...*
+  * *Firmware*
+    * [https://github.com/lincomatic/open_evse Stable Firmware]
+    * [https://github.com/lincomatic/open_evse/tree/development BETA Firmware]
     * [LoadingFirmware Load Firmware with Arduino IDE]
     * [AVRDUDE Load Firmware with AVRDude]
     * [AtmelStudio Load Firmware with Atmel Studio]
+  * *Frequently Asked Questions*
+    * [FAQ FAQ]
+  * *How to...*
     * [MaxCurrent Set Default Current]
     * [OpenEVSE_WiFi Add WiFi to OpenEVSE]   
     * [AssemblePlusV2 Build EVSE Plus V2 kit]
