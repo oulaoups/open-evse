@@ -2,11 +2,9 @@
 
 =EV Simulator Assembly and Operation=
 
-  =!Usual Disclaimers apply. Proceed at your own risk.!=
 
-This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
 
-==Parts:==
+==Kit Contents:==
   * Simulator Board
   * 1N4148 diode
   * 246Ω resistor
@@ -50,3 +48,5 @@ Connect the EV Simulator to the Pilot and Ground screw terminals on the OpenEVSE
  * Ground is the position next to the 246Ω resistor.
 
   http://img543.imageshack.us/img543/5714/j1772plug.jpg
+
+This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
