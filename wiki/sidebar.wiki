@@ -4,15 +4,15 @@
     * [OpenEVSE_boards OpenEVSE boards]
     * [OpenEVSE_Compatibility Compatibility]
     * [theory_of_operation Theory of Operation]
+  * *SAE J1772 Standard*
+    * [J1772Basics Basics of J1772] 
+    * [J1772CableSources Sources for J1772 cables]
   * *Product Information - Build Guides*
     * [OpenEVSE_Plus_spec Quick Kit - OpenEVSE PLUS]
     * [OpenEVSE_LCD_spec Quick Kit - OpenEVSE LCD]
     * [OpenEVSE_DIY_Plus_spec DIY Kit - OpenEVSE PLUS]
     * [OpenEVSE_DIY_LCD_spec DIY Kit - OpenEVSE LCD]
     * [EVSimulator - OpenEVSE EV Simulator]
-  * *SAE J1772 Standard*
-    * [J1772Basics Basics of J1772] 
-    * [J1772CableSources Sources for J1772 cables]
   * *Frequently Asked Questions*
     * [FAQ FAQ]
   * *How to...*
