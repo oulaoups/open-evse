@@ -1,61 +1,59 @@
 #summary Spec for OpenEVSE RGB LCD and RGB LCD with RTC.
 
-This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
+=OpenEVSE LCD - Quick Kit=
+http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7679_1024x1024.jpg?187
 
+OpenEVSE i2c LCD Boards are now available designed specifically for OpenEVSE Charging Stations. They are very compact and easy to interface. The OpenEVSE LCD boards support RGB LCDs and are available with or without a RTC(Real Time Clock)to add EVSE Based timer based functionality. Vehicle based timers work with or without RTC.
 
-= RGB LCD =
+The OpenEVSE RGB LCD uses the [https://github.com/lincomatic/LiquidTWI2 LiquitTWI2] library written by OpenEVSE firmware guru Lincomatic. 
 
-http://farm9.staticflickr.com/8351/8406326627_f12743981f.jpg
+The optional RTC utilizes the DS3231 ultra-precice temperature compensated RTC. A CR1220 or CR1225 is required but not included due to shipping retrictions.
 
-LCD Boards are now avaliable designed specificly for OpenEVSE Plus. They were designed to be very compact and easy to interface. The OpenEVSE LCD boards support RGB LCDs and are avaliable with or without a RTC(Real Time Clock) to add timer based functionality. 
+Contents:
 
-The OpenEVSE RGB LCD is based on and compatible with the Adafruit RGB LCD Arduino shield and for OpenEVSE uses the LiquitTWI2 library by lincomatic. 
+1 x Logic Board
 
-The optional RTC is based on the DS3231 ultra-precice temperature compensated RTC. 
+1 x LCD Display
 
-The .1 inch header pins are soldered to each board in order to connect them to the i2c pins on the OpenEVSE board.
+1 x 4-pin cable
 
-Note that the i2c pins on the OpenEVSE Plus and the DIY v4.2 boards are reversed. If you want to connect the RGB LCD board to a DIY, you must reverse those two pins for it to work. DO NOT REVERSE THE +5/GND PINS! DO NOT SIMPLY PUT THE CABLE ON BACKWARDS. You must connect pins 1 and 1, 2 and 2, 3 and 4 and 4 and 3.
+4 x .25" spacers
 
-When soldering, be sure to have the included plastic spacers in place to establish the proper spacing. 
-
-The ribbon cable goes from the 4-wire header to the i2c header on the Open EVSE board. Be sure to pay attention to which side is ground on both ends. The ground pin has a square copper solder pad around it for easy identification.
-
-There are 5 holes labeled S-R-D-U-L. These are for the control button.
-
-S - Select - Supported by OpenEVSE button Menu
-
-R - Right - Not currently used
-
-D - Down - Not currently used
-
-U - Up - Not currently used
-
-L - Left - Not currently used
+.1" header pins
  
 
-To enable the button on the LCD solder a wire (not included in kit) to the S - Select hole and another wire to any of the ground holes. Connect to a normaly Open momentary button. A lit button can be connected using Ground, +5v and Select.
 
-== Assemble the RGB LCD and shield ==
 
-The LCD comes as a small kit containing a shield board, the LCD board, a pin header, 4 plastic spacers, and a jumper wire. The following photos show how to assemble them.
-http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Shield1JPG.jpg
-Notice that the angled 4-pin header points away from the surface mount component. If you do it the other way, it will interfere. 
-*IMPORTANT NOTE:* Remember the little component labelled "VR-1" in the lower left corner of this picture. You will need to turn that with a tiny screwdriver after the project is complete to set the display brightness the first time you power up your EVSE.
+http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7682_medium.jpg?187
+
+Note - A CR1220 or CR1225 lithium coin cell is required for boards with the RTC Option
+
+
+
+
+
+
+= Assembly =
+
+First start with the OpenEVSE LCD logic board. Solder the .1" 4-pin header to the i2c connector (If your board has two use the connector on the left).
+
+Optional - Solder a 3 pin header on the S - Row for use with a button switch.
+
+If using right angled header pins ensure the pins are pointed down.
+
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Shield2.jpg
 
-Solder the .1" header pins to the controller board.  
-Once the headers are soldered to the shield board, place the LCD board over the header row as shown below. Be sure to place the 4 plastic spacers at each corner prior to soldering the pins!
+Solder the 18 pin .1" header to the OpenEVSE logic board.  
+
+Once the headers are soldered to the logic board, place the LCD board on top of the LCD module. Be sure to place the 4 plastic spacers at each corner prior to soldering the pins to ensure proper spacing.
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Shield3.jpg
 
-To add a control button, you need to solder .1" header pins or wires into the shield board. Connect one to any of the 5 ground pads and the other to the "S" pad. If using a lit button solder to GND, +5v and "S"
-
-http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Button1.jpg
+Finally - Power up your board connected to an OpenEVSE J1772 Controller and adjust the contrast with a small screw driver until the lettering is bright but the background is still dark.
 
 =Adafruit Lit Button=
-If using the Adafruit Lit Water resistant push button, connect the 5v to the + terminal, GND to - and C1 and the Select button to NO1.
+If using the Lit Water resistant push button, connect the 5v to the + terminal, GND to - and C1 and the Select button to NO1.
 http://farm9.staticflickr.com/8189/8420626671_1428cc8f0f_c.jpg
 http://www.adafruit.com/datasheets/metal16mmbuttons.jpg
 http://farm9.staticflickr.com/8260/8662590903_afb140270e_c.jpg
