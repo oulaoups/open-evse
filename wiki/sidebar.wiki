@@ -12,7 +12,7 @@
     * [OpenEVSE_LCD_spec Quick Kit - OpenEVSE LCD]
     * [OpenEVSE_DIY_Plus_spec DIY Kit - OpenEVSE PLUS]
     * [OpenEVSE_DIY_LCD_spec DIY Kit - OpenEVSE LCD]
-    * [EVSimulator - OpenEVSE EV Simulator]
+    * [EVSimulator DIY Kit - OpenEVSE EV Simulator]
   * *Firmware*
     * [https://github.com/lincomatic/open_evse Stable Firmware]
     * [https://github.com/lincomatic/open_evse/tree/development BETA Firmware]
