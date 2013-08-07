@@ -1,12 +1,14 @@
 #summary Specs for OpenEVSE PLUS.
 
-This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
+
+= OpenEVSE Plus - Quick Kit =
 
 
-= Introduction =
+http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7674_1024x1024.jpg?187
 
-OpenEVSE is a Open Source Electric Vehicle J1772 Charging Station Controller
-*
+
+Specifications:
+
   * Both Hardware and Firmware Open Source
   * Fully supports SAE J1772 Recommended Practice
   * Software adjustable pilot (6A – 80A)
@@ -16,27 +18,29 @@ OpenEVSE is a Open Source Electric Vehicle J1772 Charging Station Controller
   * Supports Diode check
   * AC L1 – L2 auto detect Current setting for each
   * Ground verification and Stuck Relay detection
-  * Available built in limited quantities  as Kit or Built
   * All surface mount component work complete
   * Firmware pre-loaded
   * Board and Schematic Files Available
   * Tiny 2.2 x 1.75 x 1
-*
+
+=Kit Contents=
+The OpenEVSE Quick kit is designed for quick assembly. All the hard work is done for you. All that is left is soldering a few large parts and Header pins.
+
+1 x OpenEVSE Plus logic Board
+
+1 x 4W Universal Switch-mode Power supply MPM-04D-1205E
+
+1 x DC/DC Converter (-12V and +12V Output) MPM D117E
+
+2 x 47k Ohm 1 watt flame proof resistor
+
+2 x Bel 1A fuses
 
 
-*OpenEVSE Plus v1 Board connections*
-
-http://farm9.staticflickr.com/8202/8213353962_08818e80b6.jpg
 
 *OpenEVSE Plus v2 Board connections*
 
 http://farm9.staticflickr.com/8212/8421959660_9e22cc662f_z.jpg
-
-*OpenEVSE Plus V1 Kit parts*
-
-http://farm9.staticflickr.com/8498/8302318202_6206087755_z.jpg
-
-The OpenEVSE Plus J1772 controller board kits come with all the surface mount parts assembled and firmware loaded. The through hole components are included, but not soldered. That work is left for the builder.
 
 =Building the Kit=
 
@@ -48,13 +52,9 @@ http://farm9.staticflickr.com/8192/8421733534_a6e8487ee7_n.jpg
 
 Start with the smallest components and work up to the larger ones so that when you flip the board over the parts will not fall out.
 
-First solder the 2 Flame proof resistors (22k for 120v/240v split-phase American systems and 47k for 230v European systems)
+First solder the 2 Flame proof resistors (47k for 120v/240v split-phase American and 230v European systems)
 
-Next solder the 2 MID400 chips, check markings on chip and board for proper polarity.
-
-http://farm9.staticflickr.com/8358/8420636117_4e5b33ffc4_n.jpg
-
-Next solder the 2 Bel fuses, 2 small 2 pin screw terminals and the 3 pin screw terminal.
+Next solder the 2 Bel fuses.
 
 http://farm9.staticflickr.com/8079/8420634851_5b998f27ae_n.jpg
 
@@ -72,7 +72,5 @@ http://farm9.staticflickr.com/8333/8421725538_1f0b3685fa_n.jpg
 
 Follow the Test procedure here: http://code.google.com/p/open-evse/wiki/EVSE_TESTING
 
-=Connection Diagram=
-http://farm9.staticflickr.com/8213/8421367695_bcc2219886_b.jpg
 
 This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
