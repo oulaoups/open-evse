@@ -19,7 +19,6 @@
     * [LoadingFirmware Load Firmware with Arduino IDE]
     * [AVRDUDE Load Firmware with AVRDude]
     * [AtmelStudio Load Firmware with Atmel Studio]
-    * [OpenEVSE_LCD_spec Add a display]
     * [MaxCurrent Set Default Current]
     * [OpenEVSE_WiFi Add WiFi to OpenEVSE]   
     * [AssemblePlusV2 Build EVSE Plus V2 kit]
