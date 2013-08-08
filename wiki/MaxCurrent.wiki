@@ -1,5 +1,4 @@
 #summary How to change the EVSE Current.
-#labels Featured
 
 = Introduction =
 
@@ -79,4 +78,3 @@ http://dlnmh9ip6v2uc.cloudfront.net/images/products/10393-01b.jpg
 http://www.sparkfun.com/products/9718
 
 http://dlnmh9ip6v2uc.cloudfront.net/images/products/09717-01.jpg
-
