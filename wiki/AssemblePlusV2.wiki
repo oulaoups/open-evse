@@ -1,5 +1,5 @@
 #summary Step-by-step guide to assembling an Open EVSE Plus V2 kit.
-#labels Phase-Support,Featured
+#labels Phase-Support
 
 = Assembling the Open EVSE Plus (V2) kit =
 
