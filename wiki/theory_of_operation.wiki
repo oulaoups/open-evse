@@ -1,4 +1,5 @@
 #summary Theory of Operation
+#labels Featured
 
 =CPU=
 
