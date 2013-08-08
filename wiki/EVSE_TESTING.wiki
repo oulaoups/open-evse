@@ -1,5 +1,4 @@
 #summary How to test an EVSE.
-#labels Featured
 
 =Open EVSE=
 Testing should be performed after building an EVSE before placing it into service. 
