@@ -1,5 +1,4 @@
 #summary EVSEs built with Open EVSE boards.
-#labels Featured
 
 = chris1howell Leaf =
 Built June 2011 - Upgraded February 2012
