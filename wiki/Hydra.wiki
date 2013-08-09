@@ -104,7 +104,22 @@ I have made the changes to the Eagle files and added them to the downloads. The 
 
 First, I am going to complete the second prototype and debug it. Once the v0.9 design is field-proven, I will either get OSHPark to add the board to their single-unit-quantity store or I will sell boards for $16 each plus shipping (that's about my cost).
 
+= How to =
+
+You will need:
+
+  # A circuit board from OSHPark. Currently, the 0.9 version board is recommended.
+  # An OpenEVSE RGB LCD backpack from the OpenEVSE store
+  # The contents of the PCB BOM from DigiKey
+  # The contents of the chassis BOM from DigiKey
+  # A J1772 inlet
+  # 2 J1772 cable/plug assemblies
+  # A case and 2 cable glands. I recommend a Polycase WC-40, a WX-42 internal mounting panel and 2 CG-16 cable glands.
+  # If you don't have one, you'll need an AVR ISP programmer of some sort.
+
 The circuit board BOM from DigiKey is around $45 + tax and shipping. The chassis BOM (2 relays, 2 CTs, a pair of M-M-F quick connect adapters and a 12vdc power supply) is around $85 + tax and shipping. A J1772 inlet is $120 from Modular EV Power and J1772 cables are $150 each from Leviton. A box and two cable glands are around $50 from Polycase. So just in parts alone, a Hydra costs close to $700.
+
+Note that the circuit board BOM includes R8. Do not populate R8 if your inlet has a 2.7K resistor installed between proximity and ground. Also, note that R14 and R17 have been chosen with the presumption that your outgoing current limit is 30A and you're using the CTs on the chassis BOM.
 
 = Resources =
 
