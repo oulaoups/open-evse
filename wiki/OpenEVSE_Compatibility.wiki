@@ -11,7 +11,7 @@ OpenEVSE Plus has been tested with:
 || Year || Make || Model || Car Specific Features || Onboard Charger || Known Issues ||
 || All || Nissan || LEAF || Timers - Supported || 6.6kW - 32A @ 240V || None ||
 || All || Chevy || VOLT || Timers - Supported || 3.3kW - 16A @ 240V || None ||
-||2013|| Chevy||Spark ||Timers - Supported || 3.3kW - 16A @240V ||None||
+||2014|| Chevy || Spark ||Timers - Supported || 3.3kW - 16A @240V ||None||
 || All || Toyota|| PiP || Timers - Supported || 2.8kW - 12A @ 240V || None ||
 || All || Toyota || Rav4 EV || || 10kw - 40A @240V || None ||
 || All || Mitsubishi || i-MiEV || || 3.3kW - 16A @ 240V || None ||
