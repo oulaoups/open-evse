@@ -92,7 +92,7 @@ Payment via paypal to chris1howell83@gmail.com
 || 34 || awong22828 || built || RTC || Paid || Packaging||
 || 35 || Olivier INT || Built || RTC built || || Canceled ||
 || 36 || emf-power || kit || RTC kit || Paid || Shipped 7/29 ||
-|| 37 || thilo.graupner INT || kit || RTC || Paid || Packaging ||
+|| 37 || thilo.graupner INT || kit || RTC || Paid || Shipped 8/12 ||
 || 38 || maxxiss8 INT || Built || || Paid || Packaging ||
 || 39 || maxxiss8 INT || Built || || Paid || Packaging ||
 || 40 || maxxiss8 INT || Built || || Paid || Packaging ||
