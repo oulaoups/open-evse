@@ -96,11 +96,11 @@ Payment via paypal to chris1howell83@gmail.com
 || 38 || maxxiss8 INT || Built || || Paid || Packaging ||
 || 39 || maxxiss8 INT || Built || || Paid || Packaging ||
 || 40 || maxxiss8 INT || Built || || Paid || Packaging ||
-|| 41 || lemans4 INT || kit || RTC || paid || Packaging ||
+|| 41 || lemans4 INT || kit || RTC || paid || Shipped 8/12 ||
 || 42 || nikolay || built || RTC - EVsim || Paid || Packaging ||
 || 43 || f4aii INT || kit || RTC || Paid || Packaging ||
-|| 44 || markus.fuchs-winkler || kit || LCD || Paid || Packaging ||
-|| 45 || schuck-electronics || kit || RTC || Paid || Packaging ||
+|| 44 || markus.fuchs-winkler || kit || LCD || Paid || Shipped 8/12 ||
+|| 45 || schuck-electronics || kit || RTC || Paid || Shipped 7/29 ||
 || 46 || cyrille.coudyser || built || RTC - EVSim || Paid || Packaging ||
 || 47 || cyrille.coudyser || built || RTC || Paid || Packaging ||
 || 48 || charliebarrett || built || RTC - EVsim || Paid || Packaging ||
