@@ -124,7 +124,7 @@ Note that the circuit board BOM includes R8. Do not populate R8 if your inlet ha
 
 R14 and R17 must be matched to both your CT and your maximum expected outlet current. The reference design has a 30A maximum outlet current and the CT has a Te rating of 1018.
 
-You must select the largest Rb value you can such that the maximum peak-to-peak voltage does not exceed 5 volts. Take the maximum current and divide it by Te. The maximum current is an RMS value, however, so to convert it to peak-to-peak, multiply by 2 * sqrt(2). Divide 5 by the result and select the next smaller standard resistor value. That's the value to use for R14 and R17. Be sure to buy precision resistors. The BOM specs 1%.
+You must select the largest Rb value you can such that the maximum peak-to-peak voltage does not exceed 5 volts. Take the maximum current and divide it by Te. The maximum current is an RMS value, however, so to convert it to peak-to-peak, multiply by 2 `*` sqrt(2). Divide 5 by the result and select the next smaller standard resistor value. That's the value to use for R14 and R17. Be sure to buy precision resistors. The BOM specs 1%.
 
 If you change the values of R14 or R17 and/or the CT, then you must change the CURRENT_SCALE_FACTOR constant in the code to match.
 
