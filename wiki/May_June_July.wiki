@@ -88,20 +88,20 @@ Payment via paypal to chris1howell83@gmail.com
 || 30 || thilo.graupner - INT || Built || RTC || || ||
 || 31 || CHolman2 || Built || RTC || Paid || Shipped 8/4 ||
 || 32 || gigi || kit || RTC || Paid || Shipped 7/29 ||
-|| 33 || awong22828 || built || RTC - EVsim || Paid || Packaging ||
-|| 34 || awong22828 || built || RTC || Paid || Packaging||
+|| 33 || awong22828 || built || RTC - EVsim || Paid || Shipped 8/12 ||
+|| 34 || awong22828 || built || RTC || Paid || Shipped 8/12||
 || 35 || Olivier INT || Built || RTC built || || Canceled ||
 || 36 || emf-power || kit || RTC kit || Paid || Shipped 7/29 ||
 || 37 || thilo.graupner INT || kit || RTC || Paid || Shipped 8/12 ||
-|| 38 || maxxiss8 INT || Built || || Paid || Packaging ||
-|| 39 || maxxiss8 INT || Built || || Paid || Packaging ||
-|| 40 || maxxiss8 INT || Built || || Paid || Packaging ||
+|| 38 || maxxiss8 INT || Built || || Paid || Shipped 8/12 ||
+|| 39 || maxxiss8 INT || Built || || Paid || Shipped 8/12 ||
+|| 40 || maxxiss8 INT || Built || || Paid || Shipped 8/12 ||
 || 41 || lemans4 INT || kit || RTC || paid || Shipped 8/12 ||
 || 42 || nikolay || built || RTC - EVsim || Paid || Packaging ||
 || 43 || f4aii INT || kit || RTC || Paid || Shipped 8/12 ||
 || 44 || markus.fuchs-winkler || kit || LCD || Paid || Shipped 8/12 ||
 || 45 || schuck-electronics || kit || RTC || Paid || Shipped 7/29 ||
-|| 46 || cyrille.coudyser || built || RTC - EVSim || Paid || Packaging ||
-|| 47 || cyrille.coudyser || built || RTC || Paid || Packaging ||
-|| 48 || charliebarrett || built || RTC - EVsim || Paid || Packaging ||
+|| 46 || cyrille.coudyser || built || RTC - EVSim || Paid || Shipped 8/12 ||
+|| 47 || cyrille.coudyser || built || RTC || Paid || Shipped 8/12 ||
+|| 48 || charliebarrett || built || RTC - EVsim || Paid || Shipped 8/12 ||
 || 49 || c_brenny || kit || RTC kit - EV sim || Paid || Shipped 8/12 ||
