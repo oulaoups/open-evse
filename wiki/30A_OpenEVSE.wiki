@@ -28,8 +28,8 @@
   * 30A Leviton J1772 cordset/handle 
   
 <b><font color=blue>Optional Parts:</font></b>
-  * OpenEVSE EV Simulator
-  * OpenEVSE Programmer
+  * EV Simulator
+  * ISP Programmer
   * Noise/Surge Kit
 
 =Internal Mounting Plate=
