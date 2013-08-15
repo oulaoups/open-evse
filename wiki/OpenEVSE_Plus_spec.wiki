@@ -26,15 +26,11 @@ Specifications:
 =Kit Contents=
 The OpenEVSE Quick kit is designed for quick assembly. All the hard work is done for you. All that is left is soldering a few large parts and Header pins.
 
-1 x OpenEVSE Plus logic Board
-
-1 x 4W Universal Switch-mode Power supply MPM-04D-1205E
-
-1 x DC/DC Converter (-12V and +12V Output) MPM D117E
-
-2 x 47k Ohm 1 watt flame proof resistor
-
-2 x Bel 1A fuses
+  * OpenEVSE Plus logic Board
+  * 4W Universal Switch-mode Power supply MPM-04D-1205E
+  * DC/DC Converter (-12V and +12V Output) MPM D117E
+  * 2 x 47k Ohm 1 watt flame proof resistor
+  * 2 x Bel 1A fuses
 
 
 
