@@ -1,5 +1,22 @@
 #summary Build guide for example 30A EVSE
 
+*Required Parts*
+
+The following parts are available in the OpenEVSE Store
+  * OpenEVSE Plus
+  * OpenEVSE LCD
+  * Relay 1 x DPST or 2 x SPST
+  * CR 8420-1000-G GFCI coil
+  * 30A Fuse Block
+  * 2 x 30A Fuses
+  * Ground Block
+  * 16mm momentary push button
+  * AC cord
+  * Enclosure
+
+Avaliable in the Leviton Store:
+  * 30A Leviton J1772 cordset/handle 
+  
 
 =Internal Mounting Plate=
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8204_1024x1024.jpg
