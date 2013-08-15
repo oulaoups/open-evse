@@ -1,7 +1,7 @@
 #summary Build guide for example 30A EVSE
 
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8204_1024x1024.jpg
-http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8205_medium.jpg
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8205_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8205_medium.jpg]
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8207_medium.jpg
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8208_medium.jpg
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8209_medium.jpg
