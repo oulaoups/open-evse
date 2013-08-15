@@ -1,6 +1,6 @@
 #summary Build guide for example 30A EVSE
 
-*Required Parts*
+=Required Parts=
 
 The following parts are available in the [http://openevse-store.myshopify.com/ OpenEVSE Store] 
   * OpenEVSE Plus
@@ -12,6 +12,7 @@ The following parts are available in the [http://openevse-store.myshopify.com/ O
   * Ground Block
   * 16mm momentary push button
   * AC cord
+  * Cable Glands
   * Enclosure
 
 Avaliable in the [http://store.leviton.com/Electric-Vehicle-Charge-Connector-A3435-PEV/dp/B00912OT00?field_availability=-1&field_browse=5742800011&field_product_site_launch_date_utc=-1y&id=Electric+Vehicle+Charge+Connector+A3435-PEV&ie=UTF8&refinementHistory=brandtextbin%2Csubjectbin%2Ccolor_map%2Cprice%2Csize_name&searchNodeID=5742800011&searchPage=1&searchRank=salesrank&searchSize=12 Leviton Store]:
