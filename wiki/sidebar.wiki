@@ -13,7 +13,7 @@
     * [OpenEVSE_DIY_Plus_spec DIY Kit - OpenEVSE PLUS]
     * [OpenEVSE_DIY_LCD_spec DIY Kit - OpenEVSE LCD]
     * [EVSimulator DIY Kit - OpenEVSE EV Simulator]
-    * [30A_OpenEVSE Combo 30A OpenEVSE]
+    * [30A_OpenEVSE Combo - 30A OpenEVSE]
   * *Firmware*
     * [https://github.com/lincomatic/open_evse Stable Firmware]
     * [https://github.com/lincomatic/open_evse/tree/development BETA Firmware]
