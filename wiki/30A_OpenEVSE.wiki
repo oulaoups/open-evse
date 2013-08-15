@@ -2,7 +2,7 @@
 
 *Required Parts*
 
-The following parts are available in the OpenEVSE Store
+The following parts are available in the [http://openevse-store.myshopify.com/ OpenEVSE Store] 
   * OpenEVSE Plus
   * OpenEVSE LCD
   * Relay 1 x DPST or 2 x SPST
@@ -14,7 +14,7 @@ The following parts are available in the OpenEVSE Store
   * AC cord
   * Enclosure
 
-Avaliable in the Leviton Store:
+Avaliable in the [http://store.leviton.com/Electric-Vehicle-Charge-Connector-A3435-PEV/dp/B00912OT00?field_availability=-1&field_browse=5742800011&field_product_site_launch_date_utc=-1y&id=Electric+Vehicle+Charge+Connector+A3435-PEV&ie=UTF8&refinementHistory=brandtextbin%2Csubjectbin%2Ccolor_map%2Cprice%2Csize_name&searchNodeID=5742800011&searchPage=1&searchRank=salesrank&searchSize=12 Leviton Store]:
   * 30A Leviton J1772 cordset/handle 
   
 
