@@ -1,11 +1,13 @@
 #summary Build guide for example 30A EVSE
 
-<span style="color:#0f0">green writing</span> 
+ 
 =Required Parts=
 
-The following parts are available in the [http://openevse-store.myshopify.com/ OpenEVSE Store] 
-  * OpenEVSE Plus
-  * OpenEVSE LCD
+<b><font color=red>Time Saver</font></b> - The 30A Charge Station Combo avaliable in the [http://openevse-store.myshopify.com/ OpenEVSE Store] contains the parts to build this 30A Charge Station with the exception of the J1772 cable.
+
+*The following parts are available in the [http://openevse-store.myshopify.com/ OpenEVSE Store] *
+  * OpenEVSE Plus (Built or Quick Kit)
+  * OpenEVSE LCD (Built or Quick Kit)
   * Relay 1 x DPST or 2 x SPST
   * CR 8420-1000-G GFCI coil
   * 30A Fuse Block
@@ -16,9 +18,17 @@ The following parts are available in the [http://openevse-store.myshopify.com/ O
   * Cable Glands
   * Enclosure
 
-Avaliable in the [http://store.leviton.com/Electric-Vehicle-Charge-Connector-A3435-PEV/dp/B00912OT00?field_availability=-1&field_browse=5742800011&field_product_site_launch_date_utc=-1y&id=Electric+Vehicle+Charge+Connector+A3435-PEV&ie=UTF8&refinementHistory=brandtextbin%2Csubjectbin%2Ccolor_map%2Cprice%2Csize_name&searchNodeID=5742800011&searchPage=1&searchRank=salesrank&searchSize=12 Leviton Store]:
+<b><font color=red>Time Saver</font></b> - Pre-built OpenEVSE Plus boards are avaliable in the [http://openevse-store.myshopify.com/ OpenEVSE Store].
+
+<b><font color=red>Time Saver</font></b> - Pre-Built OpenEVSE LCDs are avaliable in the [http://openevse-store.myshopify.com/ OpenEVSE Store].
+
+*Avaliable in the [http://store.leviton.com/Electric-Vehicle-Charge-Connector-A3435-PEV/dp/B00912OT00?field_availability=-1&field_browse=5742800011&field_product_site_launch_date_utc=-1y&id=Electric+Vehicle+Charge+Connector+A3435-PEV&ie=UTF8&refinementHistory=brandtextbin%2Csubjectbin%2Ccolor_map%2Cprice%2Csize_name&searchNodeID=5742800011&searchPage=1&searchRank=salesrank&searchSize=12 Leviton Store]:*
   * 30A Leviton J1772 cordset/handle 
   
+<b><font color=blue>Optional Parts:</font></b>
+  * OpenEVSE EV Simulator
+  * OpenEVSE Programmer
+  * Noise/Surge Kit
 
 =Internal Mounting Plate=
 In this step we will mount the Main EVSE components to the Internal Mounting plate of the Enclosure.
@@ -35,6 +45,10 @@ You will need:
   * 4 - 1/4" Quick Connect terminals
   * 4 - 1/4" Nylon Spacers
   * 18AWG - 20AWG wire 300V+
+
+<b><font color=red>Time Saver</font></b> - Pre-crimped Quick Connect terminals are avaliable in the [http://openevse-store.myshopify.com/ OpenEVSE Store].
+
+
  
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8204_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8205_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8205_medium.jpg]
@@ -61,7 +75,7 @@ You will need:
   * 3 pin connector
   * Mounting plate
 
-
+<b><font color=red>Time Saver</font></b> - A lit push button with pre-soldered 3-pin Connector is avaliable in the [http://openevse-store.myshopify.com/ OpenEVSE Store].
 
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8219_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8220_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8220_medium.jpg]
