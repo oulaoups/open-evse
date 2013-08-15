@@ -46,6 +46,21 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8204_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8216_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8216_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8217_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8217_medium.jpg]
 =Cover / LCD=
+
+Next we will mount the LCD and buttonon the Front Plate.
+
+You will need:
+
+  * OpenEVSE LCD - If you have not Assembled it yet please refer to this [ Assembly Guide]
+  * 4 - 1/4" Nylon Spacers (included in LCD kit)
+  * 4 pin connector (included in LCD kit)
+  * 4 - 5/8# 4-40 screws
+  * 16mm push button
+  * 3 pin connector
+  * Mounting plate
+
+
+
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8219_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8220_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8220_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8221_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8221_medium.jpg]
@@ -54,7 +69,6 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8219_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8225_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8225_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8226_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8226_medium.jpg]
 = Enclosure Box =
-
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8228_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8229_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8229_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8230_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8230_medium.jpg]
