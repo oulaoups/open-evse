@@ -24,7 +24,7 @@ In this step we will mount the Main EVSE components to the Internal Mounting pla
 You will need:
 
   * OpenEVSE Plus - If you have not Assembled it yet please refer to this [OpenEVSE_Plus_spec Assembly Guide]
-  * Relay
+  * Relay(s)
   * 30A Fuse Block
   * Ground Block
   * Internal Mounting plate
