@@ -22,7 +22,17 @@ Avaliable in the [http://store.leviton.com/Electric-Vehicle-Charge-Connector-A34
 In this step we will mount the Main EVSE components to the Internal Mounting plate of the Enclosure.
 
 You will need:
-OpenEVSE Plus - If you have not Assembled it yet please refer to this [OpenEVSE_Plus_spec Assembly Guide] 
+
+  * OpenEVSE Plus - If you have not Assembled it yet please refer to this [OpenEVSE_Plus_spec Assembly Guide]
+  * Relay
+  * 30A Fuse Block
+  * Ground Block
+  * Internal Mounting plate
+  * 10 - 5/8# 4-40 screws
+  * 4 - 4/40 locking nuts
+  * 4 - 1/4" Quick Connect terminals
+  * 18AWG - 20AWG wire 300V+
+ 
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8204_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8205_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8205_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8207_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8207_medium.jpg]
