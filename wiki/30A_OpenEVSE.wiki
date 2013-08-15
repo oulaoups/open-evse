@@ -51,7 +51,7 @@ Next we will mount the LCD and buttonon the Front Plate.
 
 You will need:
 
-  * OpenEVSE LCD - If you have not Assembled it yet please refer to this [ Assembly Guide]
+  * OpenEVSE LCD - If you have not Assembled it yet please refer to this [OpenEVSE_LCD_spec Assembly Guide]
   * 4 - 1/4" Nylon Spacers (included in LCD kit)
   * 4 pin connector (included in LCD kit)
   * 4 - 5/8# 4-40 screws
