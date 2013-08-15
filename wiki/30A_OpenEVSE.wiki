@@ -1,5 +1,7 @@
 #summary Build guide for example 30A EVSE
 
+
+=Internal Mounting Plate=
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8204_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8205_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8205_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8207_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8207_medium.jpg]
@@ -11,14 +13,17 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8204_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8215_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8215_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8216_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8216_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8217_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8217_medium.jpg]
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8219_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8219_medium.jpg]
+=Cover / LCD=
+http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8219_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8220_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8220_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8221_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8221_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8222_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8222_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8223_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8223_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8225_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8225_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8226_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8226_medium.jpg]
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8228_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8228_medium.jpg]
+= Enclosure Box =
+
+http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8228_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8229_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8229_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8230_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8230_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8231_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8231_medium.jpg]
