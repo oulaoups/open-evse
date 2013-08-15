@@ -1,5 +1,6 @@
 #summary Build guide for example 30A EVSE
 
+<span style="color:#0f0">green writing</span> 
 =Required Parts=
 
 The following parts are available in the [http://openevse-store.myshopify.com/ OpenEVSE Store] 
