@@ -19,6 +19,10 @@ Avaliable in the [http://store.leviton.com/Electric-Vehicle-Charge-Connector-A34
   
 
 =Internal Mounting Plate=
+In this step we will mount the Main EVSE components to the Internal Mounting plate of the Enclosure.
+
+You will need:
+OpenEVSE Plus - If you have not Assembled it yet please refer to this [OpenEVSE_Plus_spec Assembly Guide] 
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8204_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8205_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8205_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8207_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8207_medium.jpg]
