@@ -6,7 +6,7 @@
 
 *The following parts are available in the [http://openevse-store.myshopify.com/ OpenEVSE Store] *
 
-<b><font color=red>Time Saver</font></b> - The 30A Charge Station Combo avaliable in the [http://openevse-store.myshopify.com/ OpenEVSE Store] contains the parts to build this 30A Charge Station with the exception of the J1772 cable.
+<b><font color=red>Time Saver</font></b> - The [http://openevse-store.myshopify.com/collections/frontpage/products/openevse-30a-charge-station-combo 30A Charge Station Combo] avaliable in the [http://openevse-store.myshopify.com/ OpenEVSE Store] contains the parts to build this 30A Charge Station with the exception of the J1772 cable.
 
   * OpenEVSE Plus (Built or Quick Kit)
   * OpenEVSE LCD (Built or Quick Kit)
