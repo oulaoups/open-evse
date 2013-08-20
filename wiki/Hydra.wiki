@@ -99,15 +99,15 @@ Meanwhile, the prototype design has been used at our office for a week now and h
 
 I have made the changes to the Eagle files and added them to the downloads. The hardware is officially v0.9. I am going to build a 0.9 board for the prototype and to validate the 0.9 design. If it has no errors, I'll re-label it as 1.0.
 
-= Future plans =
+= Second prototype report =
 
-First, I am going to complete the second prototype and debug it. Once the v0.9 design is field-proven, I will either get OSHPark to add the board to their single-unit-quantity store or I will sell boards for $16 each plus shipping (that's about my cost).
+The second prototype (hardware v0.9) still didn't have the DC-DC converter spacing perfect, so there have been a couple of changes to the v1.0 board. But I am confident now that the 1.0 design is ready for release. You can find a zip file in the project downloads with the 1.0 .BRD and .SCH files for Eagle, along with a PDF schematic and the two DigiKey BOM files for ordering the parts.
 
 = How to =
 
 You will need:
 
-  # A circuit board from OSHPark. Currently, the 0.9 version board is recommended.
+  # A circuit board from OSHPark. Currently, the 1.0 version board is recommended.
   # An OpenEVSE RGB LCD backpack from the OpenEVSE store
   # The contents of the PCB BOM from DigiKey
   # The contents of the chassis BOM from DigiKey
