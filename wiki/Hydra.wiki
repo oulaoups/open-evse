@@ -55,6 +55,12 @@ The software is hosted on GitHub at https://github.com/nsayer/hydra
 
 You program the controller the same way as OpenEVSE boards. You'll need an ISP programmer. Be sure to set the fuses first as described [AVRDUDE here]
 
+= Future additions =
+
+Chris has said that he believes the proximity wires from the car plugs should be used to signal an inlet proximity transition in order to obtain a faster response. The mechanism to do so would be to wire another 2N2222 transistor as an open collector with the collector connected to a 180 ohm resistor to +5v. The emitter would be connected to the anodes of two 1N4148 diodes, and the cathodes of each would go to the outlet proximity lines. The base of the transistor would go through a 330 ohm resistor to either an unused digital pin of the controller (if you wanted software control) or directly to the INLET_PROXIMITY line (for direct hardware linkage).
+
+I am strongly considering taking his advice, but I am concerned that it may not be sufficiently reliable - I'm not 100% sure that all cars will implement the proximity check circuit the same way, and a 180 ohm resistor to +5 may not work correctly in all cases. And then there's the possibility that not all J1772 plug/cable combinations will bring the proximity signal back to the EVSE end. Further experimentation and deliberation is called for.
+
 = Wiring =
 
 The two car relays are DPST relays with 12vdc coils rated for whatever your outlet current is. They're the same kind as used for OpenEVSE.
