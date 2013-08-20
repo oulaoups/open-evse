@@ -30,6 +30,8 @@
     * [30A_OpenEVSE 30A OpenEVSE Plus]  
   * *Testing*
     * [EVSE_TESTING Testing your EVSE]
+  * *Discussion - Forum*
+    * [http://groups.google.com/group/OpenEVSE OpenEVSE Forum]
   * *Support*
     * [Support Need Help?]
   * *Ordering*
