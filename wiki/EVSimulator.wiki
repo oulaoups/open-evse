@@ -6,8 +6,7 @@
 == Schematic, Board files, Gerber files =
 It is a good idea to print the schematic for referance.
 
-http://www.flickr.com/photos/60192309@N05/6936255065/
-
+http://farm8.staticflickr.com/7060/6936255065_b6754ae80f_z.jpg
 
 
 
