@@ -3,6 +3,22 @@
 =OpenEVSE PLUS - DIY Kit=
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8024_1024x1024.jpg?187
 
+=Reference=
+||<b>Color</b>||<b>Digit</b>||<b>Multiplier</b>||
+||<b><font color=black>Black</font></b>|| 0 || 1 ||
+||<b><font color=brown>Brown</font></b>|| 1 || 10 ||
+||<b><font color=red>Red</font></b>|| 2 || 100 ||
+||<b><font color=orange>Orange</font></b>|| 3 || 1000 ||
+||<b><font color=yellow>Yellow</font></b>|| 4 || 10k ||
+||<b><font color=green>Green</font></b>|| 5 || 100k ||
+||<b><font color=blue>Blue</font></b>|| 6 || 1M ||
+||<b><font color=violet>Violet</font></b>|| 7 || 10M ||
+||<b><font color=gray>Gray</font></b>|| 8 || 100M ||
+||<b><font color=black>White</font></b>|| 9 || 1G ||
+
+
+
+
 = BOM =
 ||Part||Value||	Type||	Quantity||	Manufacture||	Part Number||
 ||Board||	||	Board||	1||	GoldPheonix||	Board||
