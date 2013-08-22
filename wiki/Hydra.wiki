@@ -140,6 +140,10 @@ Divide Rb by Te to get volts per amp. Divide that value by (5/1024) to get units
 
 The firmware depends on the LiquidTWI2 library to drive the LCD, and the PWM library to support altering the PWM frequency on the digital pins so that they can be used to drive the pilot outputs.
 
+= Images =
+
+[http://www.kfu.com/~nsayer/evse/photo%2012.JPG]
+The 0.9 board fully assembled.
 
 = Resources =
 
