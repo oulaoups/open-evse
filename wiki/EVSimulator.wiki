@@ -3,6 +3,17 @@
 =EV Simulator Assembly and Operation=
 
 =Reference=
+== Schematic, Board files, Gerber files =
+It is a good idea to print the schematic for referance.
+
+http://www.flickr.com/photos/60192309@N05/6936255065/
+
+
+
+
+== BOM ==
+||Part||Value||	Type||	Quantity||	Manufacture||	Part Number||
+||Board||	||	Board||	1||	GoldPheonix||	Board||
 
 ==Resistor Code==
 http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/4-Band_Resistor.svg/200px-4-Band_Resistor.svg.png
