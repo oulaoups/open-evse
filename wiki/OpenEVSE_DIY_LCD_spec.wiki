@@ -5,6 +5,18 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7664_1024x1024.jpg?187
 
 =Reference=
 
+== Schematic, Board files, Gerber files =
+It is a good idea to print the schematic for referance.
+The schematic is located here:
+
+http://open-evse.googlecode.com/files/RGB_i2c_v1plusRTC_TH.zip
+
+
+
+== BOM ==
+||Part||Value||	Type||	Quantity||	Manufacture||	Part Number||
+||Board||	||	Board||	1||	GoldPheonix||	Board||
+
 
 ==Resistor Code==
 http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/4-Band_Resistor.svg/200px-4-Band_Resistor.svg.png
