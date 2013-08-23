@@ -16,40 +16,40 @@ http://open-evse.googlecode.com/files/DIY_OpenEVSE_PLUS.zip
 
 
 == BOM ==
-||Part||Value||	Type||	Quantity||	Manufacture||	Part Number||
-||Board||	||	Board||	1||	GoldPheonix||	Board||
-||Power	12V||	||PS||	1||	MicroPowerDirect||	MPM-04E-1205||
-||DCDC||	D107E||	DC/DC converter||	1||	MicroPowerDirect||	D107E||
-||Fuse||	1A||	Fuse||	2||	Bel||	RST 1||
-||IC1||	328p||	Processor||	1||	Atmel||	ATMEGA328P-PU-ND||
-||IC3, IC5||	MID400||	AC detect||	2 ||	Fairchild Semi	Mid400|| ||
-||IC2||	LF353||	Opamp||	1||	Fairchild Semi||	LF353NFS-ND||
+||Part||Value||	Type||	Quantity||	Manufacture||	Part Number|| Marking ||
+||Board||	||	Board||	1||	GoldPheonix||	Board|| ||
+||Power	12V||	||PS||	1||	MicroPowerDirect||	MPM-04E-1205|| ||
+||DCDC||	D107E||	DC/DC converter||	1||	MicroPowerDirect||	D107E|| ||
+||Fuse||	1A||	Fuse||	2||	Bel||	RST 1|| ||
+||IC1||	328p||	Processor||	1||	Atmel||	ATMEGA328P-PU-ND|| ||
+||IC3, IC5||	MID400||	AC detect||	2 ||	Fairchild Semi	Mid400|| || ||
+||IC2||	LF353||	Opamp||	1||	Fairchild Semi||	LF353NFS-ND|| ||
 ||IC4||	Lm358||	Opamp||	1||	TI||	296-1395-5-ND||
-||y1||	16000||	xtal||	1||	||887-1019-ND||
-||C1, C2||	22pf||	Capacitor||	2||	Kemet||	399-9721-ND||
-||C3, C5||	1uf||	Capacitor||	2||	TDK||	445-8607-ND||
-||C4, C8||	.1uf||	Capacitor||	2||	Kemet||	399-9872-1-ND||
-||C6||	2.2uf||	Capacitor||	1||	TDK||	445-8514-ND||
-||C9||	10UF||	Capacitor||	1||	Panasonic||	P5148-ND||
-||TVS||	P6KE16CA||	TVS Diode||	1||	Littelfuse Inc||	P6KE16CA||
-||D1, D2, D3, D4||	1N4148||	Diode||	4||	Diodes Inc||	1N4148DICT-ND||
-||D5,D6	||1N5231 ||Diode||	2||	||	1N5231BVSCT-ND||
-||Q1,Q2	||2n2222||	NPN Transistor||	2||	STMicroelectronics||	497-2598-ND||
-||R1||	649||	Resistor||	1||	vishay||	PPC649YCT-ND||
-||R2, R3||	2.4k||	Resistor||	2||	Panasonic	||CF14JT2K40CT-ND||
-||R4, R11, R12, R17||	330||	Resistor||	4||	Panasonic||	CF14JT330RCT-ND||
-||R5||	56k||	Resistor	||1	||Panasonic||	CF14JT56K0CT-ND||
-||R6, R8, R9, R14, R16||	100k||	Resistor||	5||	Panasonic||	CF14JT100K0CT-ND||
-||R7||	200k||	Resistor||	1||	Panasonic||	CF14JT200K0CT-ND||
-||R10, R19||	10k||	Resistor||	2||	Panasonic||	CF14JT10K0CT-ND||
-||R15||	20k||	Resistor||	1||	Panasonic||	CF14JT20K0CT-ND||
-||R18||	150||	Resistor||	1||	Panasonic||	CF14JT150RCT-ND||
-||R20	||1k||	Resistor||	1||	Panasonic||	CF14JT1K00CT-ND||
-||R21, R22||	47k 1w flame||	resistor||	2||	Panasonic||	P47KW-1BK-ND||
-||AC_line, AC_test||	2 Pos||	Term Block||	2||	TE Connectivity	||1776275-2||
-||PILOT ||2Pos||	Term Block||	1||	TE Connectivity||	1776244-2||
-||Relay	||3Pos||	Term Block||	1||	TE Connectivity	||1776275-3||
-||.1" ||Headers	||		1||	Misc||	||||
+||y1||	16000||	xtal||	1||	||887-1019-ND|| ||
+||C1, C2||	22pf||	Capacitor||	2||	Kemet||	399-9721-ND|| ||
+||C3, C5||	1uf||	Capacitor||	2||	TDK||	445-8607-ND|| ||
+||C4, C8||	.1uf||	Capacitor||	2||	Kemet||	399-9872-1-ND|| ||
+||C6||	2.2uf||	Capacitor||	1||	TDK||	445-8514-ND|| ||
+||C9||	10UF||	Capacitor||	1||	Panasonic||	P5148-ND|| ||
+||TVS||	P6KE16CA||	TVS Diode||	1||	Littelfuse Inc|| 	P6KE16CA|| ||
+||D1, D2, D3, D4||	1N4148||	Diode||	4||	Diodes Inc||	1N4148DICT-ND|| ||
+||D5,D6	||1N5231 ||Diode||	2||	||	1N5231BVSCT-ND|| ||
+||Q1,Q2	||2n2222||	NPN Transistor||	2||	STMicroelectronics||	497-2598-ND|| ||
+||R1||	649||	Resistor||	1||	vishay||	PPC649YCT-ND|| Blue - Yellow - White - Black||
+||R2, R3||	2.4k||	Resistor||	2||	Panasonic	||CF14JT2K40CT-ND|| ||
+||R4, R11, R12, R17||	330||	Resistor||	4||	Panasonic||	CF14JT330RCT-ND|| ||
+||R5||	56k||	Resistor	||1	||Panasonic||	CF14JT56K0CT-ND|| ||
+||R6, R8, R9, R14, R16||	100k||	Resistor||	5||	Panasonic||	CF14JT100K0CT-ND|| ||
+||R7||	200k||	Resistor||	1||	Panasonic||	CF14JT200K0CT-ND|| ||
+||R10, R19||	10k||	Resistor||	2||	Panasonic||	CF14JT10K0CT-ND|| ||
+||R15||	20k||	Resistor||	1||	Panasonic||	CF14JT20K0CT-ND|| ||
+||R18||	150||	Resistor||	1||	Panasonic||	CF14JT150RCT-ND|| ||
+||R20	||1k||	Resistor||	1||	Panasonic||	CF14JT1K00CT-ND|| ||
+||R21, R22||	47k 1w flame||	resistor||	2||	Panasonic||	P47KW-1BK-ND|| ||
+||AC_line, AC_test||	2 Pos||	Term Block||	2||	TE Connectivity	||1776275-2|| ||
+||PILOT ||2Pos||	Term Block||	1||	TE Connectivity||	1776244-2|| ||
+||Relay	||3Pos||	Term Block||	1||	TE Connectivity	||1776275-3|| ||
+||.1" ||Headers	||		1||	Misc||	|| || ||
 
 == Soldering ==
 
