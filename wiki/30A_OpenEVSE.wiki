@@ -32,6 +32,9 @@
   * ISP Programmer
   * Noise/Surge Kit
 
+=References=
+http://farm9.staticflickr.com/8212/8421959660_9e22cc662f_z.jpg
+
 =Internal Mounting Plate=
 In this step we will mount the Main EVSE components to the Internal Mounting plate of the Enclosure.
 
