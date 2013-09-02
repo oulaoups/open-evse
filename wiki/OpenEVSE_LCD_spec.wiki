@@ -7,7 +7,7 @@ OpenEVSE i2c LCD Boards are now available designed specifically for OpenEVSE Cha
 
 The OpenEVSE RGB LCD uses the [https://github.com/lincomatic/LiquidTWI2 LiquitTWI2] library written by OpenEVSE firmware guru Lincomatic. 
 
-The optional RTC utilizes the DS3231 ultra-precice temperature compensated RTC. A CR1220 or CR1225 is required but not included due to shipping retrictions.
+The optional RTC utilizes the DS3231 ultra-precice temperature compensated RTC. A CR1220 or CR1225 lithium battery is required but not included due to shipping restrictions.
 
 =Reference=
 
