@@ -35,17 +35,7 @@ https://open-evse.googlecode.com/files/RGB_i2c_v1plusRTC.zip
 [http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf http://mightyohm.com/blog/wp-content/uploads/2011/04/FullSolderComic_EN_Page_1_resized.png]
 
 
-
-
-
-
-http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7682_medium.jpg?187
-
 Note - A CR1220 or CR1225 lithium coin cell is required for boards with the RTC Option
-
-
-
-
 
 
 = Assembly =
