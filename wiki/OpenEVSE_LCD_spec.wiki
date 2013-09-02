@@ -9,18 +9,33 @@ The OpenEVSE RGB LCD uses the [https://github.com/lincomatic/LiquidTWI2 LiquitTW
 
 The optional RTC utilizes the DS3231 ultra-precice temperature compensated RTC. A CR1220 or CR1225 is required but not included due to shipping retrictions.
 
-Contents:
+=Reference=
 
-1 x Logic Board
+== Schematic, Board files, Gerber files =
+It is a good idea to print the schematic for referance.
+The schematic is located here:
 
-1 x LCD Display
+http://open-evse.googlecode.com/files/RGB_i2c_v1plusRTC_TH.zip
 
-1 x 4-pin cable
 
-4 x .25" spacers
 
-.1" header pins
- 
+== BOM ==
+||Part||Value||	Quantity||	Manufacture||	Part Number||
+||Logic Board||	||1||	GoldPheonix||	Board||
+||RGB LCD dicplay || || 1 || || ||
+||4 pin cable || || 1 || Pololu || ||
+||Nylon Spacer || ||4|| || ||
+||.1" Header pins || || 18 || || ||
+||.1" Right angle pins || ||7|| || ||
+
+
+
+== Soldering ==
+
+[http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf http://mightyohm.com/blog/wp-content/uploads/2011/04/FullSolderComic_EN_Page_1_resized.png]
+
+
+
 
 
 
