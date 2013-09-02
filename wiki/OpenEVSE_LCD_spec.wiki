@@ -12,17 +12,17 @@ The optional RTC utilizes the DS3231 ultra-precice temperature compensated RTC. 
 =Reference=
 
 == Schematic, Board files, Gerber files =
-It is a good idea to print the schematic for referance.
+It is a good idea to have the schematic close by for reference.
 The schematic is located here:
 
-http://open-evse.googlecode.com/files/RGB_i2c_v1plusRTC_TH.zip
+https://open-evse.googlecode.com/files/RGB_i2c_v1plusRTC.zip
 
 
 
 == BOM ==
 ||Part||	Quantity||	Manufacture||	Part Number||
 ||Logic Board||1||	GoldPheonix||	Board||
-||RGB LCD dicplay || 1 || || ||
+||RGB LCD display || 1 || || ||
 ||4 pin cable || 1 || Pololu || ||
 ||Nylon Spacer || 4|| || ||
 ||.1" Header pins || 18 || || ||
