@@ -20,13 +20,13 @@ http://open-evse.googlecode.com/files/RGB_i2c_v1plusRTC_TH.zip
 
 
 == BOM ==
-||Part||Value||	Quantity||	Manufacture||	Part Number||
-||Logic Board||	||1||	GoldPheonix||	Board||
-||RGB LCD dicplay || || 1 || || ||
-||4 pin cable || || 1 || Pololu || ||
-||Nylon Spacer || ||4|| || ||
-||.1" Header pins || || 18 || || ||
-||.1" Right angle pins || ||7|| || ||
+||Part||	Quantity||	Manufacture||	Part Number||
+||Logic Board||1||	GoldPheonix||	Board||
+||RGB LCD dicplay || 1 || || ||
+||4 pin cable || 1 || Pololu || ||
+||Nylon Spacer || 4|| || ||
+||.1" Header pins || 18 || || ||
+||.1" Right angle pins ||7|| || ||
 
 
 
