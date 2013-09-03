@@ -62,9 +62,9 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8204_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8209_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8209_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8210_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8210_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8212_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8212_medium.jpg]
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8213_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8213_medium.jpg]
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8215_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8215_medium.jpg]
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8216_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8216_medium.jpg]
+
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8259_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8259_medium.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8260_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8260_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8217_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8217_medium.jpg]
 =Cover / LCD=
 
