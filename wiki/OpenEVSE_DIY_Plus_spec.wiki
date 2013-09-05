@@ -94,12 +94,25 @@ Resistors can be installed in either direction. To save time a few resistors can
 
  
 ==Diodes==
-<b><font color=red>Note: </font></b> All the Diodes in this kit except the TVS diode are directional, note the markings on the board and ensure the dark band on the diode matches the marking.
+<b><font color=red>Note: </font></b> All the diodes in this kit except the TVS diode are directional, note the markings on the board and ensure the dark band on the diode matches the marking.
 
+<b><font color=red>Caution: </font></b> Handle diodes with care, take precautions to prevent Electrostatic Discharge.
+
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ESD_%28Susceptible%29.svg/200px-ESD_%28Susceptible%29.svg.png
   * Place the 1N4148 diodes in positions D1, D2, D3, D4. Note markings and install in the correct direction. Solder then trim the excess lead.
   * Place the 1N5231 diodes in positions D5 and D6. Note markings and install in the correct direction. Solder then trim the excess lead.
   * Place the TVS diode, this part is bi-directional. Solder then trim the excess lead.
  
+==Capacitors==
+
+==Transistors - Crystal==
+
+==Integrated Circuits==
+
+==Headers - Screw Terminals==
+
+==Power==
+
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7945_label_1024x1024.jpg?192
 
 
