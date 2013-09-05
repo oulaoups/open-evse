@@ -96,7 +96,10 @@ Resistors can be installed in either direction. To save time a few resistors can
 ==Diodes==
 <b><font color=red>Note: </font></b> All the Diodes in this kit except the TVS diode are directional, note the markings on the board and ensure the dark band on the diode matches the marking.
 
-
+  * Place the 1N4148 diodes in positions D1, D2, D3, D4. Note markings and install in the correct direction. Solder then trim the excess lead.
+  * Place the 1N5231 diodes in positions D5 and D6. Note markings and install in the correct direction. Solder then trim the excess lead.
+  * Place the TVS diode, this part is bi-directional. Solder then trim the excess lead.
+ 
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7945_label_1024x1024.jpg?192
 
 
