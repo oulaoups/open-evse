@@ -42,7 +42,7 @@ http://open-evse.googlecode.com/files/DIY_OpenEVSE_PLUS.zip
 ||R6, R8, R9, R14, R16||	100k||	Resistor||	5||	Panasonic||	CF14JT100K0CT-ND|| Brown - Black - Yellow - Gold ||
 ||R7||	200k||	Resistor||	1||	Panasonic||	CF14JT200K0CT-ND|| Red - Black - Yellow - Gold ||
 ||R10, R19||	10k||	Resistor||	2||	Panasonic||	CF14JT10K0CT-ND|| Brown - Black - Orange - Gold ||
-||R15||	20k||	Resistor||	1||	Panasonic||	CF14JT20K0CT-ND|| Brown- Black - Orange - Gold ||
+||R15||	20k||	Resistor||	1||	Panasonic||	CF14JT20K0CT-ND|| Red - Black - Orange - Gold ||
 ||R18||	150||	Resistor||	1||	Panasonic||	CF14JT150RCT-ND|| Brown - Green - Brown - Gold||
 ||R20	||1k||	Resistor||	1||	Panasonic||	CF14JT1K00CT-ND|| Brown - Black - Red - Gold||
 ||R21, R22||	47k 1w flame||	resistor||	2||	Panasonic||	P47KW-1BK-ND|| 473J ||
@@ -88,6 +88,8 @@ Resistors can be installed in either direction. To save time a few resistors can
   * Place the 330 ohm resistors (Orange - Orange - Brown - Gold) in positions R4, R11, R12, R17. Solder then trim the excess lead.
   * Place the 2.4k ohm resistors (Red - Yellow - Red - Gold) in position R2 and R3 and the 10k ohm resistors (Brown - Black - Orange - Gold) in position R10 and R19. Solder then trim the excess lead.
   * Place the 47k ohm 1 watt flame proof resistors (Grey in color - marked 473J) in position R21 and R22 and the 649 ohm resistor (Blue - Yellow - White - Black) in position R1. Solder then trim the excess lead.
+  * Place the remaining resistors 56k (Green - Blue - Orange - Gold) - R5, 200k ohm (Red - Black - Yellow - Gold) - R7, 20k (Red - Black - Orange - Gold) - R15, 150ohm (Brown - Green - Brown - Gold) - R18, and 1k (Brown - Black - Red - Gold) - R20. Solder then trim the excess lead.
+
 
 
  
