@@ -45,7 +45,7 @@ http://open-evse.googlecode.com/files/DIY_OpenEVSE_PLUS.zip
 ||R15||	20k||	Resistor||	1||	Panasonic||	CF14JT20K0CT-ND|| Brown- Black - Orange - Gold ||
 ||R18||	150||	Resistor||	1||	Panasonic||	CF14JT150RCT-ND|| Brown - Green - Brown - Gold||
 ||R20	||1k||	Resistor||	1||	Panasonic||	CF14JT1K00CT-ND|| Brown - Black - Red - Gold||
-||R21, R22||	47k 1w flame||	resistor||	2||	Panasonic||	P47KW-1BK-ND|| ||
+||R21, R22||	47k 1w flame||	resistor||	2||	Panasonic||	P47KW-1BK-ND|| 473J ||
 ||AC_line, AC_test||	2 Pos||	Term Block||	2||	TE Connectivity	||1776275-2|| ||
 ||PILOT ||2Pos||	Term Block||	1||	TE Connectivity||	1776244-2|| ||
 ||Relay	||3Pos||	Term Block||	1||	TE Connectivity	||1776275-3|| ||
