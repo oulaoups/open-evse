@@ -22,7 +22,7 @@ http://open-evse.googlecode.com/files/DIY_OpenEVSE_PLUS.zip
 ||DCDC||	D117E||	DC/DC converter||	1||	MicroPowerDirect||	D117E|| ||
 ||Fuse||	1A||	Fuse||	2||	Bel||	RST 1|| ||
 ||IC1||	328p||	Processor||	1||	Atmel||	ATMEGA328P-PU-ND|| ATMEGA328P-PU ||
-||IC3, IC5||	MID400||	AC detect||	2 ||	Fairchild Semi	Mid400|| || MID400 ||
+||IC3, IC5||	MID400||	AC detect||	2 ||	Fairchild Semi	|| MID400|| MID400 ||
 ||IC2||	LF353||	Opamp||	1||	Fairchild Semi||	LF353NFS-ND|| LF353 ||
 ||IC4||	Lm358||	Opamp||	1||	TI||	296-1395-5-ND|| LM368 ||
 ||y1||	16000||	xtal||	1||	||887-1019-ND|| ||
