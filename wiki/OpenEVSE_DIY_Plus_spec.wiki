@@ -82,6 +82,11 @@ Brown = 1 - Red = 2 - Yellow = x 10,000
 Coming soon...
 
 ==Resistors==
+Resistors can be installed in either direction. To save time a few resistors can be placed, soldered then leads trimmed.
+
+Place the 100k resistors (Brown - Black - Yellow - Gold) in positions R6, R8, R9, R14, and R16. Solder leads then trim the excess lead.
+
+ 
 ==Diodes==
 <b><font color=red>Note: </font></b> All the Diodes in this kit except the TVS diode are directional, note the markings on the board and ensure the dark band on the diode matches the marking.
 
