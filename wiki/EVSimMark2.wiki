@@ -1,0 +1,57 @@
+#summary EV Simulator for testing EVSEs that includes pilot analysis
+
+= Introduction =
+
+In creating your own EVSE, it is often helpful to be able not only to send the pilot signal into the various states (including missing diode), but to analyze the frequency and duty cycle of the pilot being presented. Measuring frequency can be done by some higher-end VOMs, but duty cycle typically requires an oscilloscope.
+
+In lieu of that, I've taken some of the circuitry from the Hydra and an ATTiny85 microcontroller and created a small(ish) extension to the EV Simulator which uses the controller to analyze the pilot and report its frequency, duty cycle and the resulting J1772 amperage allowance either via the 2 line LCD "backpack" from the OpenEVSE store (or the AdaFruit shield) or via asynchronous serial via an FTDI connector.
+
+= Details =
+
+You can download an Eagle board and schematic file from the project downloads. You have some no-stuff options if you like:
+
+# If you want to use the internal 8 MHz oscillator instead of a crystal, you can leave out the crystal and C5 and C6. If you do so, then you can expect the frequency readout to be off by as much as 10%. Also, you may have some difficulty with the async serial option, as the baud rate should, in principle, be within 5% in order to be reliable.
+# If you do not want to use the i2c LCD display option, you can leave out the i2c connector, the power jack, LM7805 and C1 and C2. You will be relying on the FTDI cable to power the circuit from your computer.
+# If you do not want to use FTDI, then you can leave that connector off.
+# If you have some alternate means to program your ATTiny chip, you can leave out the ISP connector. If you do so, then you can replace R9, R10 and R11 with jumpers.
+
+For the sketch, you first need to configure the Arduino IDE to understand the ATTiny controllers. To do that, visit http://hlt.media.mit.edu/?p=1695 and download and install their ATTiny "master.zip" files. I also found that I needed to correct a bug in the AVR 'ld' command that came with Arduino. You need to fetch the patch at https://github.com/TCWORLD/ATTinyCore/tree/master/PCREL%20Patch%20for%20GCC and install it.
+
+If you don't need to use i2c LCD, then that's all that's required. If you set the SERIAL_BAUD_RATE #define to a non-zero value, set the Arduino up for either an ATTiny85 20 MHz (if using the crystal) or 8 MHz (if using the internal clock), you should be able to upload the sketch and go.
+
+To use the i2c LCD, you must fetch the TinyWireM library from https://github.com/adafruit/TinyWireM and add it. Next, you must patch LiquidTWI2 to use it on ATTiny platforms in place of Wire.h.
+
+Here's the patch I used. Edit LiquidTWI2.cpp and find the include of Wire.h near the top and replace it and the extern "C" section with:
+
+{{{
+#if defined(__AVR_ATtiny84__) || defined(__AVR_ATtiny85__) || (__AVR_ATtiny2313__)
+#undef DETECT_DEVICE
+#include "TinyWireM.h"
+#define Wire TinyWireM
+#else
+#include <Wire.h>
+extern "C" { 
+#include "utility/twi.h"  // from Wire library, so we can do bus scanning
+}
+#endif
+}}}
+
+Note that DETECT_DEVICE is not supported with this patch. Perhaps Lincomatic can do better. :)
+
+With this patch, your LiquidTWI2 library still works on non-ATTiny controllers. It knows which target by the board you select with the Arduino IDE's board menu.
+
+Set SERIAL_BAUD_RATE to 0 and compile and upload the sketch as above.
+
+Note that you cannot connect both the FTDI and i2c connectors at the same time. Both output mechanisms use the same controller pins. You have to decide at upload time which you want to use.
+
+To use, connect either a power source (6 volts minimum) and LCD or an FTDI connector to the board. Flip all four DIP switches off. Connect the ground and pilot pins of the pilot connector up to the EVSE under test. Your EVSE should show no vehicle connected. The display should show 0 Hz and 0% duty cycle.
+
+Flip switch 4 (the one closest to the edge of the board) to "on". That should cause a transition to state "B". The EVSE should indicate a vehicle is connected. If it is prepared to supply energy, then you will see the display show 1000 Hz and a duty cycle and amp rating that's appropriate for the EVSE in question.
+
+Flip switch 3 on to enter state "C". The EVSE will indicate that the vehicle has requested charging and should switch on the AC power. It goes without saying that at this point you must be extremely cautious as the two AC pins on the charge handle will be energized.
+
+Flip switch 2 on to enter state "D". The EVSE will respond as appropriate for a ventilation request. Some EVSEs will error out, some will proceed without complaint. It depends.
+
+Note that switches 4 through 2 act cumulatively. For example, you should not turn off switch 4 as you turn on switch 3. It is invalid to have a lower numbered switch (except switch 1) turned on without all of the higher numbered switches also on.
+
+If you flip switch 1 on at any point, the EVSE should respond with a diode check failure and enter an error state.
