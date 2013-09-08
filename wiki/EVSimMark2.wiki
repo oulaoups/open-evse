@@ -17,7 +17,7 @@ You can download an Eagle board and schematic file from the project downloads. Y
 
 For the sketch, you first need to configure the Arduino IDE to understand the ATTiny controllers. To do that, visit http://hlt.media.mit.edu/?p=1695 and download and install their ATTiny "master.zip" files. I also found that I needed to correct a bug in the AVR 'ld' command that came with Arduino. You need to fetch the patch at https://github.com/TCWORLD/ATTinyCore/tree/master/PCREL%20Patch%20for%20GCC and install it.
 
-If you don't need to use i2c LCD, then that's all that's required. If you set the SERIAL_BAUD_RATE #define to a non-zero value, set the Arduino up for either an ATTiny85 20 MHz (if using the crystal) or 8 MHz (if using the internal clock), you should be able to upload the sketch and go.
+If you don't need to use i2c LCD, then that's all that's required. If you set the SERIAL_BAUD_RATE #define to a non-zero value, set the Arduino up for either an ATTiny85 20 MHz (if using the crystal) or 8 MHz (if using the internal clock), you should be able to burn the bootloader (this step doesn't actually upload a bootloader, but is required at least once to set the fuses), upload the sketch and go.
 
 To use the i2c LCD, you must fetch the TinyWireM library from https://github.com/adafruit/TinyWireM and add it. Next, you must patch LiquidTWI2 to use it on ATTiny platforms in place of Wire.h.
 
