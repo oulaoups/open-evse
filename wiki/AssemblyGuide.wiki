@@ -117,10 +117,10 @@ http://imageshack.us/a/img534/2841/photo8openevse.jpg
   # Remove the end 15 inches of the J1772 line jacket (outside insulation). Be careful not to nick the underlying insulation. 
   # Cut the blue wire short, bend 180º and insulate by covering with electric tape. It is not used. 
   # Cut the remaining wires, measured from the stripped jacket insulation. This project used-
-   # Orange- 6mm 
-   # Black- 10mm
-   # Red- 13mm (different than pictured)
-   # Green- 15mm. Must be the longest. 
+   # Orange- 6cm 
+   # Black- 10cm
+   # Red- 13cm (different than pictured)
+   # Green- 15cm. Must be the longest. 
     * The length is staggered to disconnect the wires in the safest order if the J1772 cable is pulled out of the box.
   # Strip the ends of the 4 wires from the J1772 plug and one end of each of the four short wires just cut.
   # Crimp a metal Anderson connector to each of these stripped ends. Eight in total.
