@@ -10,10 +10,10 @@ In lieu of that, I've taken some of the circuitry from the Hydra and an ATTiny85
 
 You can download an Eagle board and schematic file from the project downloads. You have some no-stuff options if you like:
 
-# If you want to use the internal 8 MHz oscillator instead of a crystal, you can leave out the crystal and C5 and C6. If you do so, then you can expect the frequency readout to be off by as much as 10%. Also, you may have some difficulty with the async serial option, as the baud rate should, in principle, be within 5% in order to be reliable.
-# If you do not want to use the i2c LCD display option, you can leave out the i2c connector, the power jack, LM7805 and C1 and C2. You will be relying on the FTDI cable to power the circuit from your computer.
-# If you do not want to use FTDI, then you can leave that connector off.
-# If you have some alternate means to program your ATTiny chip, you can leave out the ISP connector. If you do so, then you can replace R9, R10 and R11 with jumpers.
+  * If you want to use the internal 8 MHz oscillator instead of a crystal, you can leave out the crystal and C5 and C6. If you do so, then you can expect the frequency readout to be off by as much as 10%. Also, you may have some difficulty with the async serial option, as the baud rate should, in principle, be within 5% in order to be reliable.
+  * If you do not want to use the i2c LCD display option, you can leave out the i2c connector, the power jack, LM7805 and C1 and C2. You will be relying on the FTDI cable to power the circuit from your computer.
+  * If you do not want to use FTDI, then you can leave that connector off.
+  * If you have some alternate means to program your ATTiny chip, you can leave out the ISP connector. If you do so, then you can replace R9, R10 and R11 with jumpers.
 
 For the sketch, you first need to configure the Arduino IDE to understand the ATTiny controllers. To do that, visit http://hlt.media.mit.edu/?p=1695 and download and install their ATTiny "master.zip" files. I also found that I needed to correct a bug in the AVR 'ld' command that came with Arduino. You need to fetch the patch at https://github.com/TCWORLD/ATTinyCore/tree/master/PCREL%20Patch%20for%20GCC and install it.
 
