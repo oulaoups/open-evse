@@ -98,13 +98,11 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8228_1024x1024.jpg
 =AC Wiring=
 The final step in to connect the AC wiring and the J1772 cord.
 
-<b><font color=red>Note</font></b> - For clarity the images were taken without the enclosure. This stage should be built within the enclosure.
+<b><font color=red> Note </font></b> - For clarity the images were taken without the enclosure. This stage should be built within the enclosure.
 
 
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8367_1024x1024.jpg
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8359_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8359_medium.jpg]
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8360_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8360_medium.jpg]
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8361_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8361_medium.jpg]
+
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8362_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8362_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8363_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8363_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8364_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8364_medium.jpg]
