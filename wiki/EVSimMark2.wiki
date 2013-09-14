@@ -55,3 +55,12 @@ Flip switch 2 on to enter state "D". The EVSE will respond as appropriate for a 
 Note that switches 4 through 2 act cumulatively. For example, you should not turn off switch 4 as you turn on switch 3. It is invalid to have a lower numbered switch (except switch 1) turned on without all of the higher numbered switches also on.
 
 If you flip switch 1 on at any point, the EVSE should respond with a diode check failure and enter an error state.
+
+=Links=
+
+  * [http://oshpark.com/shared_projects/uhFbx38M OSHPark project for boards]
+  * [http://hlt.media.mit.edu/?p=1695 Arduino support for ATTiny]
+  * [https://github.com/TCWORLD/ATTinyCore/tree/master/PCREL%20Patch%20for%20GCC ATTiny Arduino patch]
+  * [https://github.com/adafruit/TinyWireM TinyWireM]
+  * [https://github.com/lincomatic/LiquidTWI2 LiquidTWI2]
+  * [https://github.com/nsayer/hydra/blob/master/EV_Sim.ino The EV Simulator sketch]
