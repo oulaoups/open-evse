@@ -151,3 +151,4 @@ The 0.9 board fully assembled.
   * [http://code.google.com/p/arduino-pwm-frequency-library PWM library]
   * [http://github.com/lincomatic/LiquidTWI2 LiquidTWI2 library]
   * [http://oshpark.com/profiles/nsayer OSHPark store for Hydra boards]
+  * [http://oshpark.com/shared_projects/q2unbCiP The Hydra OSHPark project, version 1.3]
