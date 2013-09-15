@@ -56,6 +56,18 @@ Note that switches 4 through 2 act cumulatively. For example, you should not tur
 
 If you flip switch 1 on at any point, the EVSE should respond with a diode check failure and enter an error state.
 
+=Theory of Operation=
+
+The pilot from the EVSE is connected first to the DIP switches, which switch R2-4 in and out of place. The unswitched side of each resistor then goes to D1 and then to ground. Switch 1 on the DIP switch block shorts out the diode, simulating a "missing diode" for the diode check.
+
+The sampling circuit also comes from the incoming pilot pin and is rectified by D2. This is necessary to prevent the negative portion of the pilot signal from arriving at IC1, which cannot tolerate negative voltages. Since the cathode side of D2 will float whenever the pilot is negative, R8 will pull the comparator input down to ground. To insure the comparator sees a definitive transition between the two states, a voltage divider provides approximately one volt to the inverting input. This means that the comparator output will be high when the pilot is higher than 1v. This should be sufficient to see the pilot oscillating even in state D. R5 is a pull-up for the LM393's open collector output.
+
+The ATTiny85 controller is intended to be fused for an active /RESET pin (without this, high voltage programming would be necessary), and external crystal clocking. That occupies three of the I/O pins, leaving just 3 left (along with two power pins). Those 3 pins are first and foremost the SPI programming interface. During programming, the programmer must have priority over any other potential signals on those pins, so R9-R11 protect those pins from any stray signals that could be present.
+
+When not in programming mode, two of the three available pins are slated as universal serial pins. They can be used to create a variety of different serial bus signals. We use the TInyWireM library to use them as an i2c bus. When the sketch is compiled to use async serial, we use SoftwareSerial to create a serial port on them instead.
+
+The display will normally show the pilot frequency and duty cycle, along with a J1772 decoding of the amp rating for the given duty cycle. If the frequency is 0 (that is, no oscillations were detected at all), then the duty cycle will be replaced with either a "+" or "-", which indicate that the pilot is pinned either high or low (respectively).
+
 =Links=
 
   * [http://oshpark.com/shared_projects/uhFbx38M OSHPark project for boards]
