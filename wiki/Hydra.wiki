@@ -140,6 +140,42 @@ Divide Rb by Te to get volts per amp. Divide that value by (5/1024) to get units
 
 The firmware depends on the LiquidTWI2 library to drive the LCD, and the PWM library to support altering the PWM frequency on the digital pins so that they can be used to drive the pilot outputs.
 
+= Theory of Operation =
+
+== Host EVSE signals ==
+
+The incoming pilot wire from the host EVSE goes through D3 (as required by the spec) and R5. Those two components are sufficient to transition the host EVSE to state B, but unfortunately no power is supplied by the EVSE until and unless a transition to state C occurs. R6 and the power switch accomplish this. In most cases, merely jumping the power switch permanently is acceptable. If your EVSE does not tolerate jumping directly to state C, then you must manually engage state C with a switch.
+
+The pilot, fresh from D3, also arrives at the non-inverting input to IC1A. The inverting input is set with a voltage divider to 1 volt. Thus, when the incoming pilot is more than 1 volt, the output of the comparator will be high (thanks to pull-up resistor R30). The pilot must be compared to a non-zero voltage because D3 prevents us from seeing the negative portion of the pilot signal (which we wouldn't want to present to the comparator anyway).
+
+The proximity line is scaled (as per the spec) with R7 and R8 (which is either on the board or installed on the inlet itself). The conditioned proximity signal is fed to the inverting input. The voltage divider on the non-inverting input is set for 2 volts. The specification says that when the handle is fully connected it should be 1.5 volts and 3 volts when the button is pressed. The comparator output (pulled up by R31) will be low whenever the proximity pin is less than 2 volts. This means that the proximity circuit is in the 'ready' state.
+
+== Outgoing EV signal handling ==
+
+Pilot generation requires a bipolar 12 vdc power supply. This is created with DC1. R18 and R19 provide a minimal load for the converter, as the pilot generation circuitry alone is not a large enough load. The two voltages are fed into IC3.
+
+The two non-inverting inputs of IC3 are fed with a single voltage divider for 2.5 volts (really it just needs to distinguish between high and low logic levels from the controller). The output of each is fed through a 1K resistor (per spec) and sent to the car.
+
+The output pilot signal is also fed into a scaling and voltage divider network to convert the -12 to +12 volt signal into an approximate 0 to 5 volt range. This is in turn fed into one of the analog read pins on the controller. This allows the firmware to detect transition changes on the pilot pins.
+
+When the host EVSE inlet has a proximity transition, that must be passed along to the vehicles, as the specification calls only calls for a rapid response to proximity transitions, not pilot changes. It's desirable to insure that all load is removed before the host EVSE plug is pulled.
+
+To accomplish this, the controller has a single outlet proximity signal. R34 and Q3 form an open collector for this signal. R35's value is such that the proximity value seen by the EV is just under 4 volts, which should be sufficient for the vehicle to see a transition. D8 and D9 are used to prevent the proximity signal from one car from affecting the other car under normal conditions.
+
+== Ammeters ==
+
+Each current transformer acts as an AC current source. R14 and R17 are burden resistors that convert the current into a voltage, which the ADCs can interpret. One of the legs of the CT is anchored to 2.5 volts (with the voltage dividers R12 & R13, and R15 & R16). The burden resistors are intended to provide a peak-to-peak maximum voltage of 5 volts. R33 and D4 & D5 (and R32, D6 & D7) form a clamp to protect the controller from excessive excursions.
+
+== Relays ==
+
+The relay outputs are fed from fairly standard open collector circuits (R2 & Q1; R1 & Q2). D1 and D2 protect the transistors from coil collapse voltages.
+
+== Controller ==
+
+The controller is fused for external crystal timing, and a 16 MHz crystal is chosen to be compatible with the Arduino IDE. The ISP programming pins (including /RESET) are connected to an ISP header. Those pins are not shared with other functions. The i2c bus is brought out to a 4 pin header for an LCD and the async serial pins are brought out to an FTDI connector. DTR on the FTDI connector is connected to /RESET through a capacitor so that DTR transitions can reset the CPU. If you load an Arduino style bootloader, then programming can be done with an FTDI cable instead of an ISP cable. Alternatively, since 5 volts is supplied to the FTDI cable, it can power external serially connected devices.
+
+The inlet's AC power is connected to an off-board AC-to-DC converter module which outputs 12 volts. DC-DC converter DC2 converts this into 5 volts for the controller and the rest of the logo system.
+
 = Images =
 
 [http://www.kfu.com/~nsayer/evse/photo%2012.JPG]
