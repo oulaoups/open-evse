@@ -57,26 +57,8 @@ http://open-evse.googlecode.com/files/DIY_OpenEVSE_PLUS.zip
 [http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf http://mightyohm.com/blog/wp-content/uploads/2011/04/FullSolderComic_EN_Page_1_resized.png]
 
 ==Resistor Code==
-http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/4-Band_Resistor.svg/200px-4-Band_Resistor.svg.png
 
-||<b>Color</b>||<b>Digit</b>||<b>Multiplier</b>||
-||<b><font color=black>Black </font></b>|| 0 || 1 ||
-||<b><font color=brown>Brown </font></b>|| 1 || 10 ||
-||<b><font color=red>Red </font></b>|| 2 || 100 ||
-||<b><font color=orange>Orange </font></b>|| 3 || 1k ||
-||<b><font color=yellow>Yellow </font></b>|| 4 || 10k ||
-||<b><font color=green>Green </font></b>|| 5 || 100k ||
-||<b><font color=blue>Blue </font></b>|| 6 || 1M ||
-||<b><font color=violet>Violet </font></b>|| 7 || 10M ||
-||<b><font color=gray>Gray </font></b>|| 8 ||  ||
-||<b><font color=black>White </font></b>|| 9 ||  ||
-
-Example: Brown - Red - Yellow - Gold
-
-Brown = 1 - Red = 2 - Yellow = x 10,000
-
-12 x 10,000 = 120,000 or 120K
-
+http://www.adafruit.com/adablog/wp-content/uploads/2013/09/resistordecoder.png 
 
 =Assembly Guide=
 
