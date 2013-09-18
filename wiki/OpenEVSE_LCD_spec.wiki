@@ -51,7 +51,9 @@ http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Shield
 
 Solder the 18 pin .1" header to the OpenEVSE logic board.  
 
-Once the headers are soldered to the logic board, place the LCD board on top of the LCD module. Be sure to place the 4 plastic spacers at each corner to ensure proper spacing.
+Place the LCD board on the 18 pins from the logic board. 
+
+Place the 4 plastic spacers at each corner to ensure proper spacing.
 
 Solder the pins the the LCD Module.
 
