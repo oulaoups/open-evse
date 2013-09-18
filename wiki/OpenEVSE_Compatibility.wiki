@@ -17,6 +17,7 @@ OpenEVSE Plus has been tested with:
 || All || Mitsubishi || i-MiEV || || 3.3kW - 16A @ 240V || None ||
 || All || Ford || Focus EV || || 6.6kw - 30A @ 240V || None ||
 || 2013 || Ford || C-Max Energi || Timers - Supported || 3.3kW - 16A @ 240V || None ||
+|| 2012 || Fisker || Karma || || 3.3kW - 16A @ 240V || None ||
 || 2011 || TH!NK || City EV || || 3.3kW - 16A @ 240V || None ||
 || 2013 || Honda || Fit || || 6.6kw - 30A @ 240V || None ||
 || 2013 || Renault || Zoe || || || None ||
