@@ -51,11 +51,15 @@ http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Shield
 
 Solder the 18 pin .1" header to the OpenEVSE logic board.  
 
-Once the headers are soldered to the logic board, place the LCD board on top of the LCD module. Be sure to place the 4 plastic spacers at each corner prior to soldering the pins to ensure proper spacing.
+Once the headers are soldered to the logic board, place the LCD board on top of the LCD module. Be sure to place the 4 plastic spacers at each corner to ensure proper spacing.
+
+Solder the pins the the LCD Module.
 
 http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Shield3.jpg
 
-Finally - Power up your board connected to an OpenEVSE J1772 Controller and adjust the contrast with a small screw driver until the lettering is bright but the background is still dark.
+Finally - Power up your board connected to an OpenEVSE J1772 Controller.
+
+Adjust the contrast with a small screw driver until the lettering is bright but the background is still dark.
 
 =Adafruit Lit Button=
 If using the Lit Water resistant push button, connect the 5v to the + terminal, GND to - and C1 and the Select button to NO1.
