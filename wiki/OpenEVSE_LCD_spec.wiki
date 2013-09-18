@@ -59,10 +59,10 @@ http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Shield
 
 Power up your board connected to an OpenEVSE J1772 Controller.
 
-Adjust the contrast with a small screw driver until the lettering is bright but the background is still dark.
+<b><font color=red>Important </font></b>  - Adjust the contrast with a small screw driver until the lettering is bright but the background is still dark.
 
-=Adafruit Lit Button=
-If using the Lit Water resistant push button, connect the 5v to the + terminal, GND to - and C1 and the Select button to NO1.
+=Push Button=
+If using the Water resistant push button, connect the 5v to the + terminal, GND to - and C1 and the Select button to NO1.
 
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8220_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8221_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8221_medium.jpg]
