@@ -61,7 +61,7 @@ http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Shield
 
 Power up your board connected to an OpenEVSE J1772 Controller.
 
-<b><font color=red>Important </font></b>  - Adjust the contrast with a small screw driver until the lettering is bright but the background is still dark.
+<b><font color=red>Important </font></b>  - Adjust the contrast Labeled *VR-1* with a small screw driver until the lettering is bright but the background is still dark.
 
 =Push Button=
 If using the Water resistant push button, connect the 5v to the + terminal, GND to - and C1 and the Select button to NO1.
