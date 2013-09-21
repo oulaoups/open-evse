@@ -12,6 +12,7 @@
     * [OpenEVSE_LCD_spec Quick Kit - OpenEVSE LCD]
     * [OpenEVSE_DIY_Plus_spec DIY Kit - OpenEVSE PLUS]
     * [OpenEVSE_DIY_LCD_spec DIY Kit - OpenEVSE LCD]
+    * [OpenEVSE_shield_guide DIY Kit - OpenEVSE Arduino Shield]
     * [EVSimulator DIY Kit - OpenEVSE EV Simulator]
     * [30A_OpenEVSE Combo - 30A OpenEVSE]
   * *Firmware*
