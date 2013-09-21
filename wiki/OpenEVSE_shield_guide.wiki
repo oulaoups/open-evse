@@ -59,9 +59,9 @@ Under construction...
 Resistors can be installed in either direction. To save time a few resistors can be placed, soldered then leads trimmed.
 
   * Place the 100k ohm resistors (Brown - Black - Yellow - Gold) in positions R6, R8, R9, R14, and R16. Solder then trim the excess lead.
-  * Place the 330 ohm resistors (Orange - Orange - Brown - Gold) in positions R4, R11, R12, R17. Solder then trim the excess lead.
-  * Place the 2.4k ohm resistors (Red - Yellow - Red - Gold) in position R2 and R3 and the 10k ohm resistors (Brown - Black - Orange - Gold) in position R10 and R19. Solder then trim the excess lead.
-  * Place the 47k ohm 1 watt flame proof resistors (Grey in color - marked 473J) in position R21 and R22 and the 649 ohm resistor (Blue - Yellow - White - Black) in position R1. Solder then trim the excess lead.
+  * Place the 330 ohm resistors (Orange - Orange - Brown - Gold) in positions R11, R17. Solder then trim the excess lead.
+  * Place the 2.4k ohm resistors (Red - Yellow - Red - Gold) in position R12 and R13 and the 10k ohm resistors (Brown - Black - Orange - Gold) in position R19. Solder then trim the excess lead.
+  * Place the 649 ohm resistor (Blue - Yellow - White - Black) in position R1. Solder then trim the excess lead.
   * Place the remaining resistors 56k (Green - Blue - Orange - Gold) - R5, 200k ohm (Red - Black - Yellow - Gold) - R7, 20k (Red - Black - Orange - Gold) - R15, 150ohm (Brown - Green - Brown - Gold) - R18, and 1k (Brown - Black - Red - Gold) - R20. Solder then trim the excess lead.
 
 
@@ -73,13 +73,13 @@ Resistors can be installed in either direction. To save time a few resistors can
 <b><font color=red>Caution: </font></b> Handle diodes with care, take precautions to prevent Electrostatic Discharge.
 
 http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ESD_%28Susceptible%29.svg/200px-ESD_%28Susceptible%29.svg.png
-  * Place the 1N4148 diodes in positions D1, D2, D3, D4. Note markings and install in the correct direction. Solder then trim the excess lead.
+  * Place the 1N4148 diodes in positions D1, D3, D4. Note markings and install in the correct direction. Solder then trim the excess lead.
   * Place the 1N5231 diodes in positions D5 and D6. Note markings and install in the correct direction. Solder then trim the excess lead.
   * Place the TVS diode, this part is bi-directional. Solder then trim the excess lead.
  
 ==Capacitors==
 
-==Transistors - Crystal==
+==Transistors==
 
 ==Integrated Circuits==
 
