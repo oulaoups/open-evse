@@ -100,7 +100,7 @@ The final step in to connect the AC wiring and the J1772 cord.
 
 <b><font color=red> Note </font></b> - For clarity the images were taken without the enclosure. This stage should be built within the enclosure.
 
-
+==Single Relay 12vDC coil DPST==
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8367_1024x1024.jpg
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8362_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8362_medium.jpg]
@@ -109,6 +109,7 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8367_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8365_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8365_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8366_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8366_medium.jpg]
 
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8622_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8622_medium.jpg]
+==2 - 12vDC Relays SPST==
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8622_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8622_1024x1024.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8623_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8623_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8633_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8633_medium.jpg]
