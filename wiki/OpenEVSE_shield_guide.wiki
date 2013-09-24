@@ -30,7 +30,6 @@ http://open-evse.googlecode.com/files/DIY_OpenEVSE_shield.zip
 ||D5,D6	||1N5231 ||Diode||	2||	||	1N5231BVSCT-ND|| ||
 ||Q2	||2n2222||	NPN Transistor||	2||	STMicroelectronics||	497-2598-ND|| ||
 ||R1||	649||	Resistor||	1||	vishay||	PPC649YCT-ND|| Blue - Yellow - White - Black||
-
 ||R11, R17||	330||	Resistor||	4||	Panasonic||	CF14JT330RCT-ND|| Orange - Orange - Brown - Gold||
 ||R5||	56k||	Resistor	||1	||Panasonic||	CF14JT56K0CT-ND|| Green - Blue - Orange - Gold ||
 ||R6, R8, R9, R14, R16||	100k||	Resistor||	5||	Panasonic||	CF14JT100K0CT-ND|| Brown - Black - Yellow - Gold ||
