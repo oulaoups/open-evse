@@ -87,7 +87,7 @@ http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ESD_%28Susceptible%29.s
 
 ==Power==
 
-http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7945_label_1024x1024.jpg?192
+
 
 Follow the Test procedure here: http://code.google.com/p/open-evse/wiki/EVSE_TESTING
 
