@@ -45,7 +45,7 @@ The sampling circuit also comes from the incoming pilot pin and is rectified by 
 
 The ATTiny85 controller is intended to be fused for an active /RESET pin (without this, high voltage programming would be necessary), and external crystal clocking. That occupies three of the I/O pins, leaving just 3 left (along with two power pins). Those 3 pins are first and foremost the SPI programming interface. During programming, the programmer must have priority over any other potential signals on those pins, so R9-R11 protect those pins from any stray signals that could be present.
 
-When not in programming mode, two of the three available pins are slated as universal serial pins. They can be used to create a variety of different serial bus signals. We use the TInyWireM library to use them as an i2c bus. When the sketch is compiled to use async serial, we use SoftwareSerial to create a serial port on them instead.
+When not in programming mode, two of the three available pins are slated as universal serial pins. They can be used to create a variety of different serial bus signals. We use the TInyWireM library to use them as an i2c bus. When the i2c bus is not being used (that is, when autodetection of the LCD fails) we use SoftwareSerial to create a serial port on those pins instead.
 
 The display will normally show the pilot frequency and duty cycle, along with a J1772 decoding of the amp rating for the given duty cycle. If the frequency is 0 (that is, no oscillations were detected at all), then the duty cycle will be replaced with either a "+" or "-", which indicate that the pilot is pinned either high or low (respectively).
 
