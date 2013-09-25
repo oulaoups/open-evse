@@ -16,10 +16,34 @@ You will also need software compatible with your ISP such as Avrdude or the Ardu
 If you wish to modify the source code than the Arduino IDE is a good choice. It includes an code editor, serial monitor, and will compile and upload your code to the Open EVSE.
 http://arduino.cc/en/Main/Software
 
-To set up the Arduino IDE for use with an ISP check out lincomatic's blog. http://blog.lincomatic.com/?p=10
+In your Arduino installation, you'll find a file somewhere called "boards.txt". You need to add this section to the end:
+
+{{{
+##############################################################
+
+raw_isp_328_16m.name=Raw ISP ATMega328 w/16 MHz crystal
+
+raw_isp_328_16m.bootloader.low_fuses=0xFF
+raw_isp_328_16m.bootloader.high_fuses=0xDA
+raw_isp_328_16m.bootloader.extended_fuses=0x05
+
+raw_isp_328_16m.upload.using=usbtinyisp
+raw_isp_328_16m.upload.maximum_size=32768
+
+raw_isp_328_16m.build.mcu=atmega328p
+raw_isp_328_16m.build.f_cpu=16000000L
+raw_isp_328_16m.build.core=arduino
+raw_isp_328_16m.build.variant=standard
+}}}
+
+After you do that (and restart Arduino), you'll find a new entry in your Boards menu called "Raw ISP ATMega328 w/16 MHz crystal". Select that when preparing to upload sketches to your OpenEVSE.
+
+See also: http://blog.lincomatic.com/?p=10
 
 === Setting Fuse Bits ===
-If you are burning virgin chips, you must set the fuse bits prior to programming. Fuses only need to be set once and will retain the settings unless reset. Refer to https://code.google.com/p/open-evse/wiki/AVRDUDE for how to accomplish this.
+If you are burning virgin chips, you must set the fuse bits prior to programming. Fuses only need to be set once and will retain the settings unless reset. If you've modified boards.txt as shown above, then select "burn bootloader" from the tools menu to set the fuses as appropriate. This step won't actually load a bootloader. It will simply set the fuses.
+
+See also: https://code.google.com/p/open-evse/wiki/AVRDUDE for how to accomplish this.
 
 === Enabling features ===
 To enable a feature delete the "//" in front of the #define tag. To disable a feature add "//"...
