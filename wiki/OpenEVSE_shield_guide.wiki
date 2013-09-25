@@ -48,7 +48,10 @@ http://open-evse.googlecode.com/files/DIY_OpenEVSE_shield.zip
 
 ==Resistor Code==
 
-http://www.adafruit.com/adablog/wp-content/uploads/2013/09/resistordecoder.png 
+Here is a handy Resistor chart created by Bret Victor. 
+http://worrydream.com/ResistorDecoder/resistors.png
+Here is a Printable PDF:
+http://worrydream.com/ResistorDecoder/resistors.pdf 
 
 =Assembly Guide=
 
