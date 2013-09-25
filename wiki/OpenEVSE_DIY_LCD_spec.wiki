@@ -31,7 +31,7 @@ RTC Option
 ||C2|| .1uf || capacitor || 1 ||Kemet||	399-9872-1-ND ||
 ||Y1|| 32768 || crystal || 1 || || X1123-ND ||
 ||IC2|| DS1307 || IC || 1 || Maxim || DS1307+-ND ||
-12mm		3000K-ND	12mm Battery holder		1
+|| Battery holder || 12mm || 1 || || 3000K-ND ||
 
 ==Resistor Code==
 http://www.adafruit.com/adablog/wp-content/uploads/2013/09/resistordecoder.png
