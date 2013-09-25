@@ -31,6 +31,7 @@ http://open-evse.googlecode.com/files/RGB_i2c_v1plusRTC_TH.zip
 ||Y1|| 32768 || crystal || 1 || || X1123-ND ||
 ||IC2|| DS1307 || IC || 1 || Maxim || DS1307+-ND ||
 || Battery holder || 12mm || || 1 || || 3000K-ND ||
+|| Battery || CR1220 || Battery || 1 || Misc || ||
 
 ==Resistor Code==
 http://www.adafruit.com/adablog/wp-content/uploads/2013/09/resistordecoder.png
