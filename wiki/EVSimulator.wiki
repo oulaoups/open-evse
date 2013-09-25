@@ -15,7 +15,10 @@ http://farm8.staticflickr.com/7060/6936255065_b6754ae80f_z.jpg
 ||Board||	||	Board||	1||	GoldPheonix||	Board||
 
 ==Resistor Code==
-http://www.adafruit.com/adablog/wp-content/uploads/2013/09/resistordecoder.png
+Here is a handy Resistor chart created by Bret Victor. 
+http://worrydream.com/ResistorDecoder/resistors.png
+Here is a Printable PDF:
+http://worrydream.com/ResistorDecoder/resistors.pdf
 
 == Soldering ==
 
