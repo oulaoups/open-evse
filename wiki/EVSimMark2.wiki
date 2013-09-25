@@ -17,32 +17,13 @@ You can download an Eagle board and schematic file from the project downloads. Y
 
 For the sketch, you first need to configure the Arduino IDE to understand the ATTiny controllers. To do that, visit http://hlt.media.mit.edu/?p=1695 and download and install their ATTiny "master.zip" files. I also found that I needed to correct a bug in the AVR 'ld' command that came with Arduino. You need to fetch the patch at https://github.com/TCWORLD/ATTinyCore/tree/master/PCREL%20Patch%20for%20GCC and install it.
 
-If you don't need to use i2c LCD, then that's all that's required. If you set the SERIAL_BAUD_RATE #define to a non-zero value, set the Arduino up for either an ATTiny85 20 MHz (if using the crystal) or 8 MHz (if using the internal clock), you should be able to burn the bootloader (this step doesn't actually upload a bootloader, but is required at least once to set the fuses), upload the sketch and go.
+You need to fetch the TinyWireM library from https://github.com/adafruit/TinyWireM and install it. As of this writing, you need to also add a patched version of the LiquidTWI2 library. You can fetch that from https://github.com/nsayer/LiquidTWI2 and install it.
 
-To use the i2c LCD, you must fetch the TinyWireM library from https://github.com/adafruit/TinyWireM and add it. Next, you must patch LiquidTWI2 to use it on ATTiny platforms in place of Wire.h.
+Next, fetch the sketch from https://github.com/nsayer/hydra/blob/master/EV_Sim.ino
 
-Here's the patch I used. Edit LiquidTWI2.cpp and find the include of Wire.h near the top and replace it and the extern "C" section with:
+Set the Arduino IDE up for either an ATTiny85 20 MHz (if using the crystal) or 8 MHz (if using the internal clock), burn the bootloader (this step doesn't actually upload a bootloader, but is required at least once to set the fuses), and upload the sketch.
 
-{{{
-#if defined(__AVR_ATtiny84__) || defined(__AVR_ATtiny85__) || (__AVR_ATtiny2313__)
-#undef DETECT_DEVICE
-#include "TinyWireM.h"
-#define Wire TinyWireM
-#else
-#include <Wire.h>
-extern "C" { 
-#include "utility/twi.h"  // from Wire library, so we can do bus scanning
-}
-#endif
-}}}
-
-Note that DETECT_DEVICE is not supported with this patch. Perhaps Lincomatic can do better. :)
-
-With this patch, your LiquidTWI2 library still works on non-ATTiny controllers. It knows which target by the board you select with the Arduino IDE's board menu.
-
-Set SERIAL_BAUD_RATE to 0 and compile and upload the sketch as above.
-
-Note that you cannot connect both the FTDI and i2c connectors at the same time. Both output mechanisms use the same controller pins. You have to decide at upload time which you want to use.
+Note that you cannot connect both the FTDI and i2c connectors at the same time. Both output mechanisms use the same controller pins. If the display is connected to the i2c connector, then it should be automatically detected and used at boot time. If you connect to the FTDI connector instead, you'll see a burst of line noise as the sketch starts, then you'll see the serial output take over after the i2c autodetection fails. Do not connect both at the same time. Also, although the sketch currently does not use the RD pin, you should connect it. The received data pin will serve to drag the SDA pin during the i2c autodetect phase and encourage it to fail.
 
 To use, connect either a power source (6 volts minimum) and LCD or an FTDI connector to the board. Flip all four DIP switches off. Connect the ground and pilot pins of the pilot connector up to the EVSE under test. Your EVSE should show no vehicle connected. The display should show 0 Hz and 0% duty cycle.
 
@@ -74,5 +55,5 @@ The display will normally show the pilot frequency and duty cycle, along with a 
   * [http://hlt.media.mit.edu/?p=1695 Arduino support for ATTiny]
   * [https://github.com/TCWORLD/ATTinyCore/tree/master/PCREL%20Patch%20for%20GCC ATTiny Arduino patch]
   * [https://github.com/adafruit/TinyWireM TinyWireM]
-  * [https://github.com/lincomatic/LiquidTWI2 LiquidTWI2]
+  * [https://github.com/nsayer/LiquidTWI2 LiquidTWI2]
   * [https://github.com/nsayer/hydra/blob/master/EV_Sim.ino The EV Simulator sketch]
