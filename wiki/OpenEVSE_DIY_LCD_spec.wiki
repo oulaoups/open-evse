@@ -28,9 +28,9 @@ http://open-evse.googlecode.com/files/RGB_i2c_v1plusRTC_TH.zip
 || LCD || RGB Common Anaode || Display || 1 ||	Nooelec || ||				
 || *RTC Option* || || || || || ||					
 ||C2|| .1uf || capacitor || 1 ||Kemet||	399-9872-1-ND ||
-||Y1|| 32768 || crystal || 1 || || X1123-ND ||
+||Y1|| 32768 || crystal || 1 || ECS Inc. || X1123-ND ||
 ||IC2|| DS1307 || IC || 1 || Maxim || DS1307+-ND ||
-|| Battery holder || 12mm || || 1 || || 3000K-ND ||
+|| Battery holder || 12mm || Keystone Electronics || 1 || || 3000K-ND ||
 || Battery || CR1220 || Battery || 1 || Misc || ||
 
 ==Resistor Code==
