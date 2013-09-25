@@ -34,9 +34,10 @@ http://open-evse.googlecode.com/files/RGB_i2c_v1plusRTC_TH.zip
 || Battery || CR1220 || Battery || 1 || Misc || ||
 
 ==Resistor Code==
-Here is a handy Resistor chart created by Bret Victor. Click on the chart for a printable PDF.
-[http://worrydream.com/ResistorDecoder/resistors.png
-http://worrydream.com/ResistorDecoder/resistors.pdf]
+Here is a handy Resistor chart created by Bret Victor. 
+http://worrydream.com/ResistorDecoder/resistors.png
+Here is a Printable PDF:
+http://worrydream.com/ResistorDecoder/resistors.pdf
  
 == Soldering ==
 
