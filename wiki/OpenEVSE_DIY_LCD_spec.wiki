@@ -6,7 +6,7 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7664_1024x1024.jpg?187
 =Reference=
 
 == Schematic, Board files, Gerber files =
-It is a good idea to print the schematic for referance.
+It is a good idea to print the schematic for reference.
 The schematic is located here:
 
 http://open-evse.googlecode.com/files/RGB_i2c_v1plusRTC_TH.zip
@@ -15,8 +15,23 @@ http://open-evse.googlecode.com/files/RGB_i2c_v1plusRTC_TH.zip
 
 == BOM ==
 ||Part||Value||	Type||	Quantity||	Manufacture||	Part Number||
-||Board||	||	Board||	1||	GoldPheonix||	Board||
+||Board||	||	Board||	1||	OpenEVSE||	Board||
+|| R1 || 220 ||	Resistor || 1 || Panasonic || || CF14JT2K40CT-ND ||	
+|| R2, R3 || 330 || Resistor || 2 || Panasonic || CF14JT2K40CT-ND ||	
+|| R4, R5 || 4.7k || Resistor || 2 || Panasonic || CF14JT2K40CT-ND ||	
+|| IC1 || MCP23017 || 1 || IO expander || MPC23017-E/SP-ND ||
+|| C1 || .1uf || Capacitor || 1 || Kemet || 399-9872-1-ND ||
+||Contrast|| 10k || Trimpot || 1 || Panasonic || D4AA14-ND ||
+|| Spacers || 0.25" || 4 || Bivar Inc. || 492-1104-ND ||
+|| Cable || 4 pin 0.1" || Cable || 1 || Pololu || ||
+||header || 0.1" || PC pins || 25 ||  	Nooelec	|| ||
+|| LCD || RGB Common Anaode || Display || 1 ||	Nooelec || ||				
 
+RTC Option					
+||C2|| .1uf || capacitor || 1 ||Kemet||	399-9872-1-ND ||
+||Y1|| 32768 || crystal || 1 || || X1123-ND ||
+||IC2|| DS1307 || IC || 1 || Maxim || DS1307+-ND ||
+12mm		3000K-ND	12mm Battery holder		1
 
 ==Resistor Code==
 http://www.adafruit.com/adablog/wp-content/uploads/2013/09/resistordecoder.png
