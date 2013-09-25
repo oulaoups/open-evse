@@ -57,8 +57,10 @@ http://open-evse.googlecode.com/files/DIY_OpenEVSE_PLUS.zip
 [http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf http://mightyohm.com/blog/wp-content/uploads/2011/04/FullSolderComic_EN_Page_1_resized.png]
 
 ==Resistor Code==
-
-http://www.adafruit.com/adablog/wp-content/uploads/2013/09/resistordecoder.png 
+Here is a handy Resistor chart created by Bret Victor. 
+http://worrydream.com/ResistorDecoder/resistors.png
+Here is a Printable PDF:
+http://worrydream.com/ResistorDecoder/resistors.pdf
 
 =Assembly Guide=
 
