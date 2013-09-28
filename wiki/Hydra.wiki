@@ -60,11 +60,13 @@ Alternatively, if you do not have an AVR ISP programmer, but do have an FTDI sty
 
 Of course, your ATMega chip must already have a bootloader and be fused as appropriate for an Uno. If you buy a "raw" ATMega chip, you'll still need to fuse it and load a bootloader with an ISP programmer.
 
-= Future additions =
+= Safety =
 
-Chris has said that he believes the proximity wires from the car plugs should be used to signal an inlet proximity transition in order to obtain a faster response. The mechanism to do so would be to wire another 2N2222 transistor as an open collector with the collector connected to a 180 ohm resistor to +5v. The emitter would be connected to the anodes of two 1N4148 diodes, and the cathodes of each would go to the outlet proximity lines. The base of the transistor would go through a 330 ohm resistor to either an unused digital pin of the controller (if you wanted software control) or directly to the INLET_PROXIMITY line (for direct hardware linkage).
+There are no hazardous voltages on the Hydra controller board itself under normal circumstances. However, the Hydra is designed to work with 240 volt AC power, which can easily injure or kill.
 
-I am strongly considering taking his advice, but I am concerned that it may not be sufficiently reliable - I'm not 100% sure that all cars will implement the proximity check circuit the same way, and a 180 ohm resistor to +5 may not work correctly in all cases. And then there's the possibility that not all J1772 plug/cable combinations will bring the proximity signal back to the EVSE end. Further experimentation and deliberation is called for.
+I strongly recommend that you never connect a J1772 plug into the inlet when the chassis is open. You cannot take for granted that the host EVSE will not apply power to the hot lines at any time - be it a malfunction or otherwise.
+
+You can program the controller without AC power applied (that is, without anything plugged into the inlet. Both the FTDI and ISP connectors pass programming power to the +5 supply rail from the programmer. If you intend to connect anything to the FTDI port for use while the system is running, you should not operate the Hydra with the chassis open in order to do so.
 
 = Wiring =
 
