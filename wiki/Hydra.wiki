@@ -45,15 +45,20 @@ The board has the following interface points:
   * 1 two pin terminal that connects to an external power switch. This switch switches the inlet pilot resistance from state B to state C when closed. Optionally, you can simply jumper the terminal if you would rather.
   * 1 4 pin I2C header for the LCD
   * 1 2x3 pin ISP socket for programming
-  * 1 6 pin FTDI header for serial I/O (for debugging or future expansion)
+  * 1 6 pin FTDI header for serial I/O (for debugging, programming or future expansion)
 
-There are 2 things on the board that require some attention:
+There are 3 things on the board that require some attention:
   * R8 is a 2.7k resistor that runs between proximity and ground. Some (most? all?) J1772 inlets come with a 2.7k resistor installed between proximity and ground. If yours does, then do not install R8.
   * R14 and R17 are burden resistors for the CT coils. These need to be chosen based on the CT you're going to use and the maximum outlet current rating for your Hydra. For my prototype, the CTs I've selected have a Te of 1018 and the design current for the Hydra will be 30A. For that configuration, a 56 ohm resistor is appropriate. You'll also find a #define in the source code for the Hydra that you will need to adjust in concert with this. Customizing the burden resistor allows you to maximize the accuracy of the ammeter readings for each car.
+  * If you do not plan on using serial programming and a bootloader, you may wish to leave out C11. Placing C11 will allow DTR on the serial port to reset the controller as a prelude to serial programming. If you plan on using serial programming exclusively, then you can leave out the ISP connector.
 
 The software is hosted on GitHub at https://github.com/nsayer/hydra
 
-You program the controller the same way as OpenEVSE boards. You'll need an ISP programmer. Be sure to set the fuses first as described [AVRDUDE here]
+You have two choices on programming the Hydra. First, you can program using an AVR ISP programmer connected to the 6 pin ISP socket. This is exactly the same way OpenEVSE is programmed.
+
+Alternatively, if you do not have an AVR ISP programmer, but do have an FTDI style serial cable, you can use an ATMega chip with a standard Arduino Uno bootloader installed. Connect the cable up to the FTDI port on the board, select the Arduino Uno in the 'boards' menu, select the correct serial port in the serial menu and upload the sketch as usual.
+
+Of course, your ATMega chip must already have a bootloader and be fused as appropriate for an Uno. If you buy a "raw" ATMega chip, you'll still need to fuse it and load a bootloader with an ISP programmer.
 
 = Future additions =
 
