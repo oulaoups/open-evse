@@ -51,8 +51,8 @@
     * [EVSE_by_rbeebe OpenEVSE 30A by Rick Beebe]
     * [YetAnotherOpenEVSE Portable EVSE by nsayer]
   * *Other related projects*
-    * [Hydra The J1772 Hydra by nsayer]
-    * [EVSimMark2 EV Simulator, Mark II by nsayer]
+    * [Hydra The J1772 Hydra]
+    * [EVSimMark2 EV Simulator, Mark II]
    
 
 
