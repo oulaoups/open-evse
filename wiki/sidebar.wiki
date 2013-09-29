@@ -52,7 +52,7 @@
     * [YetAnotherOpenEVSE Portable EVSE by nsayer]
   * *Other related projects
     * [Hydra The J1772 Hydra by nsayer]
-    * [EvSimMark2 EV Simulator, Mark II by nsayer]
+    * [EVSimMark2 EV Simulator, Mark II by nsayer]
    
 
 
