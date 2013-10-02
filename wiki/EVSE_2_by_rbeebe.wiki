@@ -1,7 +1,7 @@
 #summary Outdoor OpenEVSE using Hammond Enclosure and OpenEVSE Plus v2 with LCD and RTC.
 
 = Introduction =
-I have another page describing [EVSE_by_rbeebe/building an OpenEVSE] for my Ford C-MAX Energi. I also own a 1998 Ford Ranger which was converted to a pure EV. I'm upgrading the charger to 240 volts and J1772 so I need another EVSE. The truck lives outside so I needed an external enclosure. I was going to use the Diversified Stage outdoor enclosure but they seem to have dropped out of that business. I hunted around an decided on a Hammond NEMA 4 box. I'll have to cut my own holes in it but it's made for outdoor use and wall mounting. It's also less expensive than the Diversified Stage box (not counting my labor of course)
+I have another page describing [EVSE_by_rbeebe building an OpenEVSE] for my Ford C-MAX Energi. I also own a 1998 Ford Ranger which was converted to a pure EV. I'm upgrading the charger to 240 volts and J1772 so I need another EVSE. The truck lives outside so I needed an external enclosure. I was going to use the Diversified Stage outdoor enclosure but they seem to have dropped out of that business. I hunted around an decided on a Hammond NEMA 4 box. I'll have to cut my own holes in it but it's made for outdoor use and wall mounting. It's also less expensive than the Diversified Stage box (not counting my labor of course)
 
 Since this is my second build I felt more comfortable with the process so I opted for an OpenEVSE kit. I'm glad that Chris is now selling the kit with all the ancillary parts to save hunting for them. And I ordered the same 25 foot Leviton cable and J1772 plug.
 
