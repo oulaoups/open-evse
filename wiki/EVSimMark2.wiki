@@ -56,6 +56,9 @@ When not in programming mode, two of the three available pins are slated as univ
 
 The display will normally show the pilot frequency and duty cycle, along with a J1772 decoding of the amp rating for the given duty cycle. If the frequency is 0 (that is, no oscillations were detected at all), then the duty cycle will be replaced with either a "+" or "-", which indicate that the pilot is pinned either high or low (respectively).
 
+http://www.kfu.com/~nsayer/evse/IMG_3236.jpg
+My portable EV tester setup in the car.
+
 =Links=
 
   * [http://oshpark.com/shared_projects/VxJ1Qa7z OSHPark project for boards]
