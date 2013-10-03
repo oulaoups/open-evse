@@ -58,7 +58,7 @@ The display will normally show the pilot frequency and duty cycle, along with a 
 
 =Links=
 
-  * [http://oshpark.com/shared_projects/uhFbx38M OSHPark project for boards]
+  * [http://oshpark.com/shared_projects/VxJ1Qa7z OSHPark project for boards]
   * [http://hlt.media.mit.edu/?p=1695 Arduino support for ATTiny]
   * [https://github.com/TCWORLD/ATTinyCore/tree/master/PCREL%20Patch%20for%20GCC ATTiny Arduino patch]
   * [https://github.com/adafruit/TinyWireM TinyWireM]
