@@ -59,9 +59,6 @@ The display will normally show the pilot frequency and duty cycle, along with a 
 http://www.kfu.com/~nsayer/evse/IMG_3236.jpg
 My portable EV tester setup in the car.
 
-http://www.kfu.com/~nsayer/hydra/EV_Sim.pdf
-Schematic
-
 =Links=
 
   * [http://oshpark.com/shared_projects/VxJ1Qa7z OSHPark project for boards]
@@ -71,3 +68,4 @@ Schematic
   * [https://github.com/lincomatic/LiquidTWI2 LiquidTWI2]
   * [https://github.com/nsayer/hydra/blob/master/EV_Sim.ino EV Sim Mark II sketch]
   * [https://code.google.com/p/open-evse/downloads/detail?name=EV_Sim.hex&can=2&q=#makechanges EV Sim Mark II firmware]
+  * [http://www.kfu.com/~nsayer/hydra/EV_Sim.pdf Schematic (PDF)]
