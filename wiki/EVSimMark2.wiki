@@ -66,4 +66,5 @@ My portable EV tester setup in the car.
   * [https://github.com/TCWORLD/ATTinyCore/tree/master/PCREL%20Patch%20for%20GCC ATTiny Arduino patch]
   * [https://github.com/adafruit/TinyWireM TinyWireM]
   * [https://github.com/lincomatic/LiquidTWI2 LiquidTWI2]
-  * [https://github.com/nsayer/hydra/blob/master/EV_Sim.ino The EV Simulator sketch]
+  * [https://github.com/nsayer/hydra/blob/master/EV_Sim.ino EV Sim Mark II sketch]
+  * [https://code.google.com/p/open-evse/downloads/detail?name=EV_Sim.hex&can=2&q=#makechanges EV Sim Mark II firmware]
