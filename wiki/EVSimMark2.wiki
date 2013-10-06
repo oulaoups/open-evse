@@ -59,6 +59,9 @@ The display will normally show the pilot frequency and duty cycle, along with a 
 http://www.kfu.com/~nsayer/evse/IMG_3236.jpg
 My portable EV tester setup in the car.
 
+http://www.kfu.com/~nsayer/hydra/EV_Sim.pdf
+Schematic
+
 =Links=
 
   * [http://oshpark.com/shared_projects/VxJ1Qa7z OSHPark project for boards]
