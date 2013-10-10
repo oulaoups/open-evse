@@ -56,6 +56,27 @@ When not in programming mode, two of the three available pins are slated as univ
 
 The display will normally show the pilot frequency and duty cycle, along with a J1772 decoding of the amp rating for the given duty cycle. If the frequency is 0 (that is, no oscillations were detected at all), then the duty cycle will be replaced with either a "+" or "-", which indicate that the pilot is pinned either high or low (respectively).
 
+=Assembly Instructions=
+
+Install the ISP socket first. It is the largest and least forgiving component on the board. After that, install the power connector. Because of the oversize holes, it has a bit more "play" in its placement.
+
+Note that there are three capacitor values on the board, and there are different numbers of capacitors for each value (1 x 0.33 uF, 2 x 22 pF and 3 0.1 uF). This should make it easier to tell them apart.
+
+Be sure to install the diodes with the banded end (the cathode) as marked on the board. The LM7805 heat sink side should be towards the edge of the board (rather than towards the center).
+
+The two ICs both point such that pin 1 is near the edge of the board. The ATTiny is nearest the voltage regulator, and the comparator is nearest the pilot input block.
+
+The black FTDI pin is traditionally the grounded one. The BLK marking on the board indicates which end of the FTDI connector is for that pin. The square pad on the i2c connector is pin 1. It is, paradoxically, opposite the FTDI connector (pin 1 is closer to the edge of the board). The i2c connector pinout is the same as OpenEVSE:
+
+  # ground
+  # +5 volts
+  # SCL
+  # SDA
+
+There are no i2c pull-up resistors on the board, as the SCL and SDA pins are also used for the FTDI connector. It is assumed that the i2c peripheral will supply them.
+
+You should not need to use a heat sink on the voltage regulator if you keep the input voltage at or lower than 12 volts (higher input voltages do little more than waste power). 7-9 volts is ideal. The circuit will likely function at lower voltages, but the LCD will start losing readability and eventually stop functioning.
+
 http://www.kfu.com/~nsayer/evse/IMG_3236.jpg
 My portable EV tester setup in the car.
 
