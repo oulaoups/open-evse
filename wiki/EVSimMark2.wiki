@@ -78,7 +78,7 @@ There are no i2c pull-up resistors on the board, as the SCL and SDA pins are als
 You should not need to use a heat sink on the voltage regulator if you keep the input voltage at or lower than 12 volts (higher input voltages do little more than waste power). 7-9 volts is ideal. The circuit will likely function at lower voltages, but the LCD will start losing readability and eventually stop functioning.
 
 http://www.kfu.com/~nsayer/evse/IMG_3236.jpg
-My portable EV tester setup in the car.
+My portable EVSE tester setup in the car.
 
 =Links=
 
