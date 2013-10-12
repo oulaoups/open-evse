@@ -39,7 +39,7 @@ The board has the following interface points:
 
   * 2 two pin terminals for the coils for two power relays for car A & B
   * 2 two pin terminals for the current transformers for car A & B
-  * 1 three pin terminal that has the two outgoing pilot signals, plus a ground connection
+  * 2 three pin terminals - one for each car that has the outgoing pilot and proximity signals, plus a ground connection
   * 1 three pin terminal that comes from the inlet, with ground, pilot and proximity
   * 1 two pin terminal that brings 12 VDC from an external power supply
   * 1 two pin terminal that connects to an external power switch. This switch switches the inlet pilot resistance from state B to state C when closed. Optionally, you can simply jumper the terminal if you would rather.
@@ -76,56 +76,23 @@ In some (most?) cases, the J1772 inlet you get will be higher rated than your pl
 
 For each relay, designate a "line" side and a "load" side. On the line side, run a wire (for 30A, use 10 gauge) from each terminal of the relay to one of the two inlet hot cables. I used (large) wire nuts to connect the three wires for each phase together.
 
-You also need to get "line" power into the power supply. It can use 22 gauge wire. You can either add those wires into the wire nut forest or you can piggyback one of the quick connects on one of the relays.
+You also need to get "line" power into the power supply. It can use 22 gauge wire. You can add those wires into the wire nut forest.
 
 On the load side of each relay, connect up the hot wires of one of the J1772 cables. Run one of the hot lines through a CT coil before connecting it to the relay. Unlike OpenEVSE, you run only one of the lines through the coil, not both. It doesn't matter which one you pick.
 
-Be sure that you pair up the relay coil wires with the CT coil wires. It doesn't matter which pair is A or B (other than car "A" being on the left side of the LCD display), but be sure that the lines for each relay coil match the corresponding CT! You don't want to measure the wrong car's current draw. Be sure also to connect the pilot leads up to the correct pilot outputs (A or B). Again, don't want to mix up the two cars.
-
-The proximity wires, if present, from the car plug/cable sets is not used.
+Be sure that you pair up the relay coil wires with the CT coil wires. It doesn't matter which pair is A or B (other than car "A" being on the left side of the LCD display), but be sure that the lines for each relay coil and CT correspond to the correct pilot and proximity lines.! You don't want to measure the wrong car's current draw or even worse - power up the wrong plug. 
 
 Don't forget to connect all of the grounds to a ground bus:
 
   * The inlet ground
   * Each plug/cable ground
   * The inlet ground connection from the board
-  * the output pilot ground connection from the board
+  * the output pilot ground connections from the board
   * (if applicable) any ground from the power supply
 
 If desired, connect a SPST switch up to the POWER_SW terminals on the board. If you don't want to do this, then you must place a jumper across them instead. 22 gauge wire is sufficient in either case. The power switch doesn't actually carry any appreciable current on it.
 
-Lastly, connect the LCD up via the I2C cable. Unlike OpenEVSE, there is no support for the buttons.
-
-= Real world reports =
-== First prototype report ==
-
-I got the first boards back from OSH Park over the last weekend (8/3/13) and assembled it. In the process, I made some discoveries that I will need to fix before I can recommend the boards to anyone else:
-
-1. The DC-DC converters are 7 pin SIP devices and the board layout part I used is a 6 pin one. The pinouts are correct, but you must bend the pins awkwardly to get them to go and it's not mechanically very sound.
-
-2. Most of the capacitor layouts are too narrow. You must awkwardly bend the pins to get them to fit.
-
-3. The resistor pads are the correct distance apart, and the layout grid is fine, but the solder pads are far too small.
-
-Apart from that, the prototype proved the basic design on the bench and the software has progressed from alpha to beta. When I have made the proposed changes, I will release the Eagle board and schematic files as hardware version 1.0.
-
-Meanwhile, the prototype design has been used at our office for a week now and has worked flawlessly (after a firmware update or three).
-
-I have made the changes to the Eagle files and added them to the downloads. The hardware is officially v0.9. I am going to build a 0.9 board for the prototype and to validate the 0.9 design. If it has no errors, I'll re-label it as 1.0.
-
-== Second prototype report ==
-
-The second prototype (hardware v0.9) still didn't have the DC-DC converter spacing perfect, so there have been a couple of changes to the v1.0 board. But I am confident now that the 1.0 design is ready for release. You can find a zip file in the project downloads with the 1.0 .BRD and .SCH files for Eagle, along with a PDF schematic and the two DigiKey BOM files for ordering the parts.
-
-== Version 1.4 ==
-
-(note: version 1.3 had a layout error that shorted out the 5 volt power supply to ground. Fortunately, I don't think anyone but me actually has any of those).
-
-Since 1.0, ST Micro has deprecated the 2N2222 transistor. I've decided to replace it with a 2N4401, which despite being in a plastic case still has enough collector current to drive the relays with a large margin.
-
-Also, the Murata DC-DC converters went out-of-stock on DigiKey, so I've gone with CUI modules, which ironically enough require the 6 pin SIP layout of the original prototype.
-
-Version 1.4 is also the version that introduces the outgoing proximity circuitry.
+Lastly, connect the LCD up via the I2C cable. Unlike OpenEVSE, there is no support for the buttons or the RTC (if applicable).
 
 = How to =
 
@@ -138,11 +105,9 @@ You will need:
   # A J1772 inlet
   # 2 J1772 cable/plug assemblies
   # A case and 2 cable glands. I recommend a Polycase WC-40, a WX-42 internal mounting panel and 2 CG-16 cable glands.
-  # If you don't have one, you'll need an AVR ISP programmer of some sort.
+  # Either an FTDI cable or an AVR ISP programmer of some sort. If you go with an FTDI cable, then your controller chip must come pre-programmed with an Arduino bootloader.
 
-The circuit board BOM from DigiKey is around $40 + tax and shipping. The chassis BOM (2 relays, 2 CTs, a pair of M-M-F quick connect adapters and a 12vdc power supply) is around $85 + tax and shipping. A J1772 inlet is $120 from Modular EV Power and J1772 cables are $150 each from Leviton. A box and two cable glands are around $50 from Polycase. So just in parts alone, a Hydra costs close to $700.
-
-Note that the circuit board BOM includes R8. Do not populate R8 if your inlet has a 2.7K resistor installed between proximity and ground. Also, note that R14 and R17 have been chosen with the presumption that your outgoing current limit is 30A and you're using the CTs on the chassis BOM.
+The circuit board BOM from DigiKey is around $40 + tax and shipping. The chassis BOM (2 relays, 2 CTs, and a 12vdc power supply) is around $85 + tax and shipping. A J1772 inlet is $120 from Modular EV Power and J1772 cables are $150 each from Leviton. A box and two cable glands are around $50 from Polycase. So just in parts alone, a Hydra costs close to $700.
 
 = Burden resistor calculations =
 
