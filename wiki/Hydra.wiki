@@ -196,8 +196,23 @@ The inlet's AC power is connected to an off-board AC-to-DC converter module whic
 
 = Images =
 
-[http://www.kfu.com/~nsayer/evse/photo%2012.JPG]
-The 0.9 board fully assembled.
+[http://www.kfu.com/~nsayer/evse/hydra-14.jpg]
+The 1.4 board fully assembled, with connections diagrammed.
+
+Clockwise from upper right:
+  * Relay for car A
+  * Relay for car B
+  * J1772 for car A - top to bottom: proximity, pilot, ground
+  * J1772 for car B - right to left: proximity, pilot, ground
+  * (just above the car B connector) FTDI serial connector
+  * Current transformer for car A
+  * Current transformer for car B
+  * power switch
+  * J1772 inlet - top to bottom: proximity, pilot, ground
+  * 12 VDC power input
+  * i2c bus
+
+And in the middle of the board, the ISP.
 
 = Resources =
 
