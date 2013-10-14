@@ -179,6 +179,16 @@ Clockwise from upper right:
 
 And in the middle of the board, the ISP.
 
+= Board version history =
+
+  * 0.5 - initial version
+  * 0.9 - Attempted correction for DC-DC pad spacing (still wrong), added resistor before zener clamp in ammeters.
+  * 1.0 - Corrected DC-DC pad spacing, added FTDI connector (but with RX and TX backwards).
+  * 1.4 - Corrected FTDI connector, reverted to 6 pin DC-DC pads for CUI modules. Switch from 2N2222 transistors to 2N4401 for relay drivers. Added outgoing proximity circuitry.
+  * 1.5 - Added bypass cap to CT anchor - improves low current ammeter accuracy.
+
+Currently, 1.4 is the recommended version (1.5 has not yet been validated).
+
 = Resources =
 
   * [http://github.com/nsayer/hydra Software repository for the Hydra]
