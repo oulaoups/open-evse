@@ -157,7 +157,7 @@ The relay outputs are fed from fairly standard open collector circuits (R2 & Q1;
 
 The controller is fused for external crystal timing, and a 16 MHz crystal is chosen to be compatible with the Arduino IDE. The ISP programming pins (including /RESET) are connected to an ISP header. Those pins are not shared with other functions. The i2c bus is brought out to a 4 pin header for an LCD and the async serial pins are brought out to an FTDI connector. DTR on the FTDI connector is connected to /RESET through a capacitor so that DTR transitions can reset the CPU. If you load an Arduino style bootloader, then programming can be done with an FTDI cable instead of an ISP cable. Alternatively, since 5 volts is supplied to the FTDI cable, it can power external serially connected devices.
 
-The inlet's AC power is connected to an off-board AC-to-DC converter module which outputs 12 volts. DC-DC converter DC2 converts this into 5 volts for the controller and the rest of the logo system.
+The inlet's AC power is connected to an off-board AC-to-DC converter module which outputs 12 volts. DC-DC converter DC2 converts this into 5 volts for the controller and the rest of the logic system.
 
 = Images =
 
@@ -184,7 +184,8 @@ And in the middle of the board, the ISP.
   * 0.5 - initial version
   * 0.9 - Attempted correction for DC-DC pad spacing (still wrong), added resistor before zener clamp in ammeters.
   * 1.0 - Corrected DC-DC pad spacing, added FTDI connector (but with RX and TX backwards).
-  * 1.4 - Corrected FTDI connector, reverted to 6 pin DC-DC pads for CUI modules. Switch from 2N2222 transistors to 2N4401 for relay drivers. Added outgoing proximity circuitry.
+  * 1.3 - Corrected FTDI connector, reverted to 6 pin DC-DC pads for CUI modules. Switch from 2N2222 transistors to 2N4401 for relay drivers. Added outgoing proximity circuitry. This version contained a major error causing the +5 v supply to be shorted to ground.
+  * 1.4 - Corrected short circuit in v1.3.
   * 1.5 - Added bypass cap to CT anchor - improves low current ammeter accuracy.
 
 Currently, 1.4 is the recommended version (1.5 has not yet been validated).
