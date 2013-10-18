@@ -15,6 +15,7 @@ You can download an Eagle board and schematic file from the project downloads. Y
   * If you do not want to use FTDI, then you can leave that connector off.
   * If you have some alternate means to program your ATTiny chip, you can leave out the ISP connector.
   * If you have a pile of 16 MHz crystals laying around, then you can use one of them in place of the 20 MHz crystal specified in the project BOM. If you do, you'll need to modify the boards.txt fragment added by the "master.zip" file (see below) to specify a 16 MHz CPU clock rather than 20. You must pick a clock frequency compatible with SoftwareSerial - which supports only 8, 16 or 20 Mhz.
+  * If you have no need of the actual duty cycle measurement, you could just use R2-R4, D1 and the dip switch block. That would be equivalent to the original EV Sim. You could even put an oscilloscope sampling pin on the anode side of D2.
 
 For the sketch, you first need to configure the Arduino IDE to understand the ATTiny controllers. To do that, visit http://hlt.media.mit.edu/?p=1695 and download and install their ATTiny "master.zip" files. I also found that I needed to correct a bug in the AVR 'ld' command that came with Arduino. You need to fetch the patch at https://github.com/TCWORLD/ATTinyCore/tree/master/PCREL%20Patch%20for%20GCC and install it.
 
