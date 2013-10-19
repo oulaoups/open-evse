@@ -190,8 +190,9 @@ And in the middle of the board, the ISP.
 
 Currently, 1.4 is the recommended version (1.5 has not yet been validated).
 
-= Resources =
+= Links =
 
+  * [https://squareup.com/market/nick-sayer My online store for boards and kits]
   * [http://github.com/nsayer/hydra Software repository for the Hydra]
   * [http://code.google.com/p/arduino-pwm-frequency-library PWM library]
   * [http://github.com/lincomatic/LiquidTWI2 LiquidTWI2 library]
