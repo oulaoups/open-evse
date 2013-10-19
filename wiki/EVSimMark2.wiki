@@ -82,7 +82,7 @@ http://www.kfu.com/~nsayer/evse/IMG_3236.jpg
 My portable EVSE tester setup in the car.
 
 =Links=
-
+  * [https://squareup.com/market/nick-sayer My online store for boards and kits]
   * [http://oshpark.com/shared_projects/VxJ1Qa7z OSHPark project for boards]
   * [http://hlt.media.mit.edu/?p=1695 Arduino support for ATTiny]
   * [https://github.com/TCWORLD/ATTinyCore/tree/master/PCREL%20Patch%20for%20GCC ATTiny Arduino patch]
