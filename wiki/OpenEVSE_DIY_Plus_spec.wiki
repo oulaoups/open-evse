@@ -2,7 +2,7 @@
 
 
 =OpenEVSE PLUS - DIY Kit=
-The DIY OpenEVSE can but built from a kit avaliable at the OpenEVSE Store or from scratch by sourcing your own board from the source files and components.
+The DIY OpenEVSE Plus can but built from a kit available at the OpenEVSE Store or from scratch by sourcing your own board from the source files and components.
 
 The kit is avaliable here:
 https://openevse-store.myshopify.com/products/diy-openevse-plus-v2
