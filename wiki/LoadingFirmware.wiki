@@ -21,22 +21,22 @@ In your Arduino installation, you'll find a file somewhere called "boards.txt". 
 {{{
 ##############################################################
 
-raw_isp_328_16m.name=Raw ISP ATMega328 w/16 MHz crystal
+open_evse.name=OpenEVSE
 
-raw_isp_328_16m.bootloader.low_fuses=0xFF
-raw_isp_328_16m.bootloader.high_fuses=0xDA
-raw_isp_328_16m.bootloader.extended_fuses=0x05
+open_evse.bootloader.low_fuses=0xFF
+open_evse.bootloader.high_fuses=0xDA
+open_evse.bootloader.extended_fuses=0x05
 
-raw_isp_328_16m.upload.using=usbtinyisp
-raw_isp_328_16m.upload.maximum_size=32768
+open_evse.upload.using=avrispmkii
+open_evse.upload.maximum_size=32768
 
-raw_isp_328_16m.build.mcu=atmega328p
-raw_isp_328_16m.build.f_cpu=16000000L
-raw_isp_328_16m.build.core=arduino
-raw_isp_328_16m.build.variant=standard
+open_evse.build.mcu=atmega328p
+open_evse.build.f_cpu=16000000L
+open_evse.core=arduino
+open_evse.build.variant=standard
 }}}
 
-After you do that (and restart Arduino), you'll find a new entry in your Boards menu called "Raw ISP ATMega328 w/16 MHz crystal". Select that when preparing to upload sketches to your OpenEVSE.
+After you do that (and restart Arduino), you'll find a new entry in your Boards menu called "OpenEVSE". Select that when preparing to upload sketches to your OpenEVSE.
 
 See also: http://blog.lincomatic.com/?p=10
 
