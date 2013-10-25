@@ -1,19 +1,16 @@
-#summary How to load firmware to the Open-EVSE.
+#summary How to load firmware to the OpenEVSE.
 
 = Introduction =
 
-Loading firmware to the Open-EVSE requires an ISP. There are many AVR compatible programmers available. 
+Loading firmware to the OpenEVSE requires an ISP. There are many AVR/Arduino compatible programmers available from Adafruit, sparkfun and the OpenEVSE Store. This wiki is based on the OpenEVSE AVR ISP found here: https://openevse-store.myshopify.com/collections/frontpage/products/openevse-programmer
 
 = Firmware =
 The latest firmware is located on a Github maintained by lincomatic. 
 https://github.com/lincomatic/open_evse 
 
 
-= Software =
-You will also need software compatible with your ISP such as Avrdude or the Arduino IDE. 
-
 == Arduino IDE ==
-If you wish to modify the source code than the Arduino IDE is a good choice. It includes an code editor, serial monitor, and will compile and upload your code to the Open EVSE.
+If you wish to modify the source code than the Arduino IDE is a good choice. It includes an code editor, serial monitor, and will compile and upload your code to the OpenEVSE.
 http://arduino.cc/en/Main/Software
 
 In your Arduino installation, you'll find a file somewhere called "boards.txt". You need to add this section to the end:
