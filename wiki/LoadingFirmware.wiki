@@ -2,7 +2,8 @@
 
 = Introduction =
 
-Loading firmware to the OpenEVSE requires an ISP. There are many AVR/Arduino compatible programmers available from Adafruit, sparkfun and the OpenEVSE Store. This wiki is based on the OpenEVSE AVR ISP found here: https://openevse-store.myshopify.com/collections/frontpage/products/openevse-programmer
+Loading firmware to the OpenEVSE requires an ISP. There are many AVR/Arduino compatible programmers available from Adafruit, Sparkfun and the OpenEVSE Store. This wiki is based on the OpenEVSE AVR ISP found here: 
+https://openevse-store.myshopify.com/collections/frontpage/products/openevse-programmer
 
 = Firmware =
 The latest firmware is located on a Github maintained by lincomatic. 
