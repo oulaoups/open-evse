@@ -1,0 +1,19 @@
+#summary An explanatory page for folks who's cars are plugged into the Hydra
+
+= Introduction =
+
+If you're reading this page, it probably means that you were left a courtesy note by someone while your car was charging. They probably left it because they connected your car to a device called the J1772 Hydra, either after disconnecting your car or noticing that you were waiting for a charge.
+
+= The J1772 Hydra =
+
+The J1772 Hydra is a device intended to allow two Electric Vehicles (EVs) to share a single EVSE (Electric Vehicle Servicing Equipment - the acronym for a car charger). It does this by telling each car that it is allowed to draw 50% of the power available from the charger so long as both of them are charging. When one car finishes, its power will be diverted to the other car.
+
+Rest assured that the Hydra is safe and fully compliant with the J1772 specification. Since each Hydra is built by its owner, the designers of the Hydra cannot guarantee that it is impossible for a Hydra to cause any damage. However, we have taken great pains both in the firmware and hardware design to insure safety and compatibility.
+
+Most public EVSEs are rated for 30 amperes of current - either 6.2 kW or 7.2 kW, depending on the voltage. Many EVs will take full advantage of this power, but many PHEVs (Plug-in Hybrid Electric Vehicles) only charge at 3.3 kW - 15 amperes. Given this state of affairs, a PHEV can share the EVSE without any change. The charge will happen at the same rate, and more importantly will take the same amount of time.
+
+Two high-powered EVs can use the Hydra to share an EVSE, but they will charge at half the speed they would alone. That still provides a benefit, however, since both cars will be making profitable use of the time, rather than one waiting for the other, and there is no need to switch the plug when the first vehicle completes.
+
+If you were charging at a public station that charges a fee, and your charging was interrupted briefly, then you should realize that the Hydra owner will have assumed the cost - you get the remainder of the charging for free.
+
+If your car does have a high-powered charger, and your charge was interrupted to share with someone else, then your charging will have been slowed by 50%. It is not considered acceptable etiquette for a Hydra owner to do this without seeking the permission of the other owner. It is possible that the Hydra owner did not realize that your car was a high powered car (this can happen if your car is a Leaf - most Leafs only charge at 3.3 kW, but some newer ones do not).
