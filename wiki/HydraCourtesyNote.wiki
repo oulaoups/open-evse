@@ -10,7 +10,7 @@ The J1772 Hydra is a device intended to allow two Electric Vehicles (EVs) to sha
 
 Rest assured that the Hydra is safe and fully compliant with the J1772 specification. Since each Hydra is built by its owner, the designers of the Hydra cannot guarantee that it is impossible for a Hydra to cause any damage. However, we have taken great pains both in the firmware and hardware design to insure safety and compatibility.
 
-Most public EVSEs are rated for 30 amperes of current - either 6.2 kW or 7.2 kW, depending on the voltage. Many EVs will take full advantage of this power, but many PHEVs (Plug-in Hybrid Electric Vehicles) only charge at 3.3 kW - 15 amperes. Given this state of affairs, a PHEV can share the EVSE without any change. The charge will happen at the same rate, and more importantly will take the same amount of time.
+Most public EVSEs are rated for 30 amperes of current - either 6.2 kW or 7.2 kW, depending on the voltage. Many EVs will take full advantage of this power, but some EVs (All current plug-in Hybrids and many Leafs) only charge at 3.3 kW - 15 amperes. Given this state of affairs, a low power EV can share the EVSE without any change. The charge will happen at the same rate, and more importantly will take the same amount of time.
 
 Two high-powered EVs can use the Hydra to share an EVSE, but they will charge at half the speed they would alone. That still provides a benefit, however, since both cars will be making profitable use of the time, rather than one waiting for the other, and there is no need to switch the plug when the first vehicle completes.
 
