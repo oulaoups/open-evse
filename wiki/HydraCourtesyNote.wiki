@@ -21,3 +21,9 @@ If your car does have a high-powered charger, and your charge was interrupted to
 If your car is still connected to the Hydra as you're reading this, then you are free to disconnect the plug whenever you like. It should work exactly the same as any other J1772 plug. If there is another car in range waiting to charge, then feel free to connect them up. Otherwise, just leave your plug and cable coiled up near the Hydra - its owner will take care of it when they return.
 
 If you'd like more information about the Hydra, then you can visit [https://code.google.com/p/open-evse/wiki/Hydra its page on this wiki].
+
+Those of you contemplating building a Hydra for use at public charging stations should make some business cards with this graphic on it:
+
+http://chart.apis.google.com/chart?chs=200x200&cht=qr&chld=|1&chl=https%3A%2F%2Fcode.google.com%2Fp%2Fopen-evse%2Fwiki%2FHydraCourtesyNote
+
+That graphic will link back to this page. You should also put contact information on the card.
