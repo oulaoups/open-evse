@@ -17,3 +17,7 @@ Two high-powered EVs can use the Hydra to share an EVSE, but they will charge at
 If you were charging at a public station that charges a fee, and your charging was interrupted briefly, then you should realize that the Hydra owner will have assumed the cost - you get the remainder of the charging for free.
 
 If your car does have a high-powered charger, and your charge was interrupted to share with someone else, then your charging will have been slowed by 50%. It is not considered acceptable etiquette for a Hydra owner to do this without seeking the permission of the other owner. It is possible that the Hydra owner did not realize that your car was a high powered car (this can happen if your car is a Leaf - most Leafs only charge at 3.3 kW, but some newer ones do not).
+
+If your car is still connected to the Hydra as you're reading this, then you are free to disconnect the plug whenever you like. It should work exactly the same as any other J1772 plug. If there is another car in range waiting to charge, then feel free to connect them up. Otherwise, just leave your plug and cable coiled up near the Hydra - its owner will take care of it when they return.
+
+If you'd like more information about the Hydra, then you can visit [https://code.google.com/p/open-evse/wiki/Hydra its page on this wiki].
