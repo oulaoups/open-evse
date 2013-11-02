@@ -84,7 +84,7 @@ My portable EVSE tester setup in the car.
 =Links=
   * [https://squareup.com/market/nick-sayer My online store for boards and kits]
   * [http://oshpark.com/shared_projects/VxJ1Qa7z OSHPark project for boards]
-  * [http://hlt.media.mit.edu/?p=1695 Arduino support for ATTiny]
+  * [https://github.com/damellis/attiny/archive/master.zip Arduino support for ATTiny]
   * [https://github.com/TCWORLD/ATTinyCore/tree/master/PCREL%20Patch%20for%20GCC ATTiny Arduino patch]
   * [https://github.com/adafruit/TinyWireM TinyWireM]
   * [https://github.com/lincomatic/LiquidTWI2 LiquidTWI2]
