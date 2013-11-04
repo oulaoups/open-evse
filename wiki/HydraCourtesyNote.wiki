@@ -30,6 +30,6 @@ If you'd like more information about the Hydra, then you can visit [https://code
 
 Those of you contemplating building a Hydra for use at public charging stations should make some business cards with this graphic on it:
 
-http://chart.apis.google.com/chart?chs=200x200&cht=qr&chld=|1&chl=http%3A%2F%2Fcode.google.com%2Fp%2Fopen-evse%2Fwiki%2FHydraCourtesyNote
+http://chart.apis.google.com/chart?chs=200x200&cht=qr&chld=|1&chl=http%3A%2F%2Fcode.google.com%2Fp%2Fopen-evse%2Fwiki%2FHydraCourtesyNote&ignore=.gif
 
 That graphic will link back to this page. You should also put contact information on the card.
