@@ -19,7 +19,7 @@ The Hydra owes much of its existence to OpenEVSE. Some of its circuitry was crib
   * Each car has a current transformer on one of its hot leads so that the car's current draw can be monitored. If a car exceeds its allocated current, it is shut down.
   * The Hydra has an RGB LCD display to show status information.
 
-The software in the Hydra has the following rules:
+The shared mode in the Hydra has the following rules:
 
   * If no car is charging, both cars get 100% of the incoming pilot.
   * If one car is charging, it gets 100% and the other car gets 50%.
@@ -32,6 +32,8 @@ The software in the Hydra has the following rules:
   * If the incoming pilot drops below the 12A minimum (because that's the smallest that can legally be split in half) or stops being a valid pilot, both cars are errored out.
   * If the proximity is pushed on the inlet, both cars are errored out.
   * If a car is errored out, its plug must return to state A to clear the error (so pull the plug out and reinsert it).
+
+The sequential mode operates by giving a full-power pilot to only one car at a time. The first car to be connected after establishing sequential mode will be given the pilot. It will keep the pilot until it transitions from mode C or D back to B. When it does so, if another car is connected (and in state B), then it will be given the pilot, and the pilot will be taken away from the first car. Both cars will "pass the baton" back and forth. A car entering state C without its pilot being enabled will result in a "T" (illegal transition) error.
 
 The Hydra does not attempt to detect L1 vs L2 - it only cares about amps. It also doesn't attempt to detect ground faults - the source EVSE is assumed to have its own GFCI. Also, my prototype does not include fuses or breakers - again, the source EVSE is assumed to have over-current protection.
 
@@ -197,3 +199,4 @@ Currently, 1.4 is the recommended version (1.5 has not yet been validated).
   * [http://code.google.com/p/arduino-pwm-frequency-library PWM library]
   * [http://github.com/lincomatic/LiquidTWI2 LiquidTWI2 library]
   * [http://oshpark.com/profiles/nsayer OSHPark store for Hydra boards]
+  * HydraCourtesyNote - a page to share when using the Hydra in public
