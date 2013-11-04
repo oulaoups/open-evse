@@ -25,7 +25,7 @@ OpenEVSE Plus has been tested with:
 || Toyota|| PiP || Timers - Supported || 2.8kW - 12A @ 240V || None ||
 || Toyota || Rav4 EV || || 10kw - 40A @240V || None ||
 || Smart || ForTwo ED || || 3.3kw 16A @ 230v || None ||
-|| Volvo || V60 Plig in Hybrid || || None ||
+|| Volvo || V60 Plig in Hybrid || || || None ||
 
 
 
