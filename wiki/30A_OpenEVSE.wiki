@@ -101,8 +101,6 @@ The final step in to connect the AC wiring and the J1772 cord.
 <b><font color=red> Note </font></b> - For clarity the images were taken without the enclosure. This stage should be built within the enclosure.
 
 ==Single Relay 12vDC coil DPST==
-http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8367_1024x1024.jpg
-
 http://open-evse.googlecode.com/files/OpenEVSE_Single_DPST_relay.jpg
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8362_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8362_medium.jpg]
