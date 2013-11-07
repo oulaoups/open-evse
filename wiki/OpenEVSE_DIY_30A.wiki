@@ -1,13 +1,13 @@
-#Build Guide for DIY OpenEVSE PLUS
+#Build Guide for DIY OpenEVSE PLUS with integrated 30A relays
 
 
-=OpenEVSE PLUS - DIY Kit=
+=OpenEVSE PLUS - DIY 30A Kit=
 The DIY OpenEVSE Plus can but built from a kit available at the OpenEVSE Store or from scratch by sourcing your own board from the source files and components.
 
 The kit is avaliable here:
-https://openevse-store.myshopify.com/products/diy-openevse-plus-v2
+http://openevse-store.myshopify.com/products/diy-30a-openevse-plus
  
-http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8024_1024x1024.jpg?187
+http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8956_1024x1024.jpg?187
 
 =Reference=
 
@@ -16,7 +16,7 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8024_1024x1024.jpg?187
 It is a good idea to print the schematic for referance.
 The schematic is located here:
 
-http://open-evse.googlecode.com/files/DIY_OpenEVSE_PLUS.zip
+https://open-evse.googlecode.com/files/DIY_OpenEVSE_PLUS_30A.zip
 
 
 
@@ -54,7 +54,7 @@ http://open-evse.googlecode.com/files/DIY_OpenEVSE_PLUS.zip
 ||R21, R22||	47k 1w flame||	resistor||	2||	Panasonic||	P47KW-1BK-ND|| 473J ||
 ||AC_line, AC_test||	2 Pos||	Term Block||	2||	TE Connectivity	||1776275-2|| ||
 ||PILOT ||2Pos||	Term Block||	1||	TE Connectivity||	1776244-2|| ||
-||Relay	||3Pos||	Term Block||	1||	TE Connectivity	||1776275-3|| ||
+||Relay	||||	Relay||	2||	TE Connectivity	|||| ||
 ||.1" ||Headers	||		1||	Misc||	|| || ||
 
 == Soldering ==
