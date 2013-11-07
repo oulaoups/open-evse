@@ -77,13 +77,18 @@ Resistors can be installed in either direction. To save time a few resistors can
 
   * Place the 100k ohm resistors (Brown - Black - Yellow - Gold) in positions *R6*, *R8*, *R9*, *R14*, and *R16*. Solder then trim the excess lead.
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8961_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8961_small.jpg]
-  * Place the 330 ohm resistors (Orange - Orange - Brown - Gold) in positions R4, R11, R12, R17. Solder then trim the excess lead.
 
+  * Place the 330 ohm resistors (Orange - Orange - Brown - Gold) in positions R4, R11, R12, R17. Solder then trim the excess lead.
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8962_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8962_small.jpg]
 
   * Place the 2.4k ohm resistors (Red - Yellow - Red - Gold) in position R2 and R3 and the 10k ohm resistors (Brown - Black - Orange - Gold) in position R10 and R19. Solder then trim the excess lead.
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8963_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8963_small.jpg]
+
   * Place the 47k ohm 1 watt flame proof resistors (Grey in color - marked 473J) in position R21 and R22 and the 649 ohm resistor (Blue - Yellow - White - Black) in position R1. Solder then trim the excess lead.
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8964_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8964_small.jpg]
+
   * Place the remaining resistors 56k (Green - Blue - Orange - Gold) - R5, 200k ohm (Red - Black - Yellow - Gold) - R7, 20k (Red - Black - Orange - Gold) - R15, 150ohm (Brown - Green - Brown - Gold) - R18, and 1k (Brown - Black - Red - Gold) - R20. Solder then trim the excess lead.
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8965_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8965_small.jpg]
 
 
 
