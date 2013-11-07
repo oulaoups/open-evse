@@ -79,16 +79,16 @@ Resistors can be installed in either direction. To save time a few resistors can
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8961_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8961_medium.jpg]
 
   * Place the 330 ohm resistors (Orange - Orange - Brown - Gold) in positions R4, R11, R12, R17. Solder then trim the excess lead.
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8962_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8962_small.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8962_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8962_medium.jpg]
 
   * Place the 2.4k ohm resistors (Red - Yellow - Red - Gold) in position R2 and R3 and the 10k ohm resistors (Brown - Black - Orange - Gold) in position R10 and R19. Solder then trim the excess lead.
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8963_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8963_small.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8963_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8963_medium.jpg]
 
   * Place the 47k ohm 1 watt flame proof resistors (Grey in color - marked 473J) in position R21 and R22 and the 649 ohm resistor (Blue - Yellow - White - Black) in position R1. Solder then trim the excess lead.
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8964_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8964_small.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8964_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8964_medium.jpg]
 
   * Place the remaining resistors 56k (Green - Blue - Orange - Gold) - R5, 200k ohm (Red - Black - Yellow - Gold) - R7, 20k (Red - Black - Orange - Gold) - R15, 150ohm (Brown - Green - Brown - Gold) - R18, and 1k (Brown - Black - Red - Gold) - R20. Solder then trim the excess lead.
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8965_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8965_small.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8965_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8965_medium.jpg]
 
 
 
@@ -100,13 +100,17 @@ Resistors can be installed in either direction. To save time a few resistors can
 
 http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ESD_%28Susceptible%29.svg/200px-ESD_%28Susceptible%29.svg.png
   * Place the 1N4148 diodes in positions D1, D2, D3, D4. Note markings and install in the correct direction. Solder then trim the excess lead.
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8966_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8966_small.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8966_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8966_medium.jpg]
   * Place the 1N5231 diodes in positions D5 and D6. Note markings and install in the correct direction. Solder then trim the excess lead.
   * Place the TVS diode, this part is bi-directional. Solder then trim the excess lead.
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8968_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8968_small.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8968_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8968_medium.jpg]
  
 ==Capacitors==
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8969_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8969_medium.jpg]
 
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8970_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8970_medium.jpg]
+
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8971_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8971_medium.jpg]
 ==Transistors - Crystal==
 
 ==Integrated Circuits==
