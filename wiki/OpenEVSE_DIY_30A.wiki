@@ -125,14 +125,23 @@ http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ESD_%28Susceptible%29.s
 ==Headers - Screw Terminals==
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8975_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8975_medium.jpg]
 
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8976_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8976_medium.jpg]
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8977_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8977_medium.jpg]
 
 
 ==Power==
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8978_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8978_medium.jpg]
 
-http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7945_label_1024x1024.jpg?192
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8979_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8979_medium.jpg]
+
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8980_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8980_medium.jpg]
+
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8981_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8981_medium.jpg]
+
+
+
+
+
 
 Follow the Test procedure here: http://code.google.com/p/open-evse/wiki/EVSE_TESTING
 
