@@ -69,7 +69,10 @@ http://worrydream.com/ResistorDecoder/resistors.pdf
 
 =Assembly Guide=
 
-Under construction...
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8958_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8960_medium.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8960_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8961_medium.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8962_1024x1024.jpg 
+
 
 ==Resistors==
 Resistors can be installed in either direction. To save time a few resistors can be placed, soldered then leads trimmed.
