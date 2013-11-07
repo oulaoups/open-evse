@@ -100,8 +100,10 @@ Resistors can be installed in either direction. To save time a few resistors can
 
 http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ESD_%28Susceptible%29.svg/200px-ESD_%28Susceptible%29.svg.png
   * Place the 1N4148 diodes in positions D1, D2, D3, D4. Note markings and install in the correct direction. Solder then trim the excess lead.
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8966_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8966_small.jpg]
   * Place the 1N5231 diodes in positions D5 and D6. Note markings and install in the correct direction. Solder then trim the excess lead.
   * Place the TVS diode, this part is bi-directional. Solder then trim the excess lead.
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8968_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8968_small.jpg]
  
 ==Capacitors==
 
