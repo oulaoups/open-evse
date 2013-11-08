@@ -5,7 +5,7 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7679_1024x1024.jpg?187
 
 OpenEVSE i2c LCD Boards are now available designed specifically for OpenEVSE Charging Stations. They are very compact and easy to interface. The OpenEVSE LCD boards support RGB LCDs and are available with or without a RTC(Real Time Clock)to add EVSE Based timer based functionality. Vehicle based timers work with or without RTC.
 
-The OpenEVSE RGB LCD uses the [https://github.com/lincomatic/LiquidTWI2 LiquitTWI2] library written by OpenEVSE firmware guru Lincomatic. 
+The OpenEVSE RGB LCD uses the [https://github.com/lincomatic/LiquidTWI2 LiquidTWI2] library written by OpenEVSE firmware guru Lincomatic. 
 
 The optional RTC utilizes the DS3231 ultra-precice temperature compensated RTC. A CR1220 or CR1225 lithium battery is required but not included due to shipping restrictions.
 
@@ -39,32 +39,53 @@ Note - A CR1220 or CR1225 lithium coin cell is required for boards with the RTC 
 
 
 = Assembly =
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9082_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9082_medium.jpg]
+http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9082_1024x1024.jpg 
  
   * Solder the .1" 4-pin header to the i2c connector (If your board has two use the connector on the left).
   * Optional - Solder a 3 pin header on the S - Row for use with a button switch.
+
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9083_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9083_medium.jpg]
- 
+
+  * Flip the board over and trim the excess leads
+
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9084_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9084_medium.jpg]
+
+  * Solder the 18-pin (for RGB LED) or 16-pin (for Mono LCD) header to logic board Pins extending down.
+
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9085_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9085_medium.jpg]
+
+  * With logic board upside down Place the 4 plastic spacers at each corner to ensure proper spacing.
+
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9086_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9086_medium.jpg]
+
+  * Solder the pins the the LCD Module.
+
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9087_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9087_medium.jpg]
+
+  * Trim excess length from header pins
+
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9088_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9088_medium.jpg]
 
 
 
+  * Power up your board connected to an OpenEVSE J1772 Controller.
+  * <b><font color=red>Important </font></b>  - Adjust the contrast Labeled *VR-1* with a small screw driver until the lettering is bright but the background is still dark.
 
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9090_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9090_medium.jpg]
 
-Solder the 18 pin .1" header to the OpenEVSE logic board.  
+  
 
-Place the LCD board on the 18 pins from the logic board. 
+=Push Button - Optional=
+If using the Water resistant push button and 3-pin connector from the OpenEVSE store...
 
-Place the 4 plastic spacers at each corner to ensure proper spacing.
+  * Place heat shrink tube over each wire 
+  * Solder the Red wire on the connector(5v DC) to the terminal lableled "+" on the pushbutton 
 
-Solder the pins the the LCD Module.
+  * Solder the black wire (GND) to the terminal labeled "-" AND the terminal labeled "C1"
 
-
-Power up your board connected to an OpenEVSE J1772 Controller.
-
-<b><font color=red>Important </font></b>  - Adjust the contrast Labeled *VR-1* with a small screw driver until the lettering is bright but the background is still dark.
-
-=Push Button=
-If using the Water resistant push button, connect the 5v to the + terminal, GND to - and C1 and the Select button to NO1.
+  * Solder the grey wire to the terminal labeled "NO1".
+  * <b><font color=red>Note </font></b>  - The Terminal labeled "NC1" is not connected and can be trimmed off if desired.
+  * Carefully shrink the wrap over each solder connection
 
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8220_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8221_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8221_medium.jpg]
