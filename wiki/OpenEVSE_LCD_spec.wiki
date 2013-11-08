@@ -39,15 +39,16 @@ Note - A CR1220 or CR1225 lithium coin cell is required for boards with the RTC 
 
 
 = Assembly =
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9082_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9082_medium.jpg]
+ 
+  * Solder the .1" 4-pin header to the i2c connector (If your board has two use the connector on the left).
+  * Optional - Solder a 3 pin header on the S - Row for use with a button switch.
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9083_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9083_medium.jpg]
+ 
 
-First start with the OpenEVSE LCD logic board. Solder the .1" 4-pin header to the i2c connector (If your board has two use the connector on the left).
-
-Optional - Solder a 3 pin header on the S - Row for use with a button switch.
-
-If using right angled header pins ensure the pins are pointed down.
 
 
-http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Shield2.jpg
+
 
 Solder the 18 pin .1" header to the OpenEVSE logic board.  
 
@@ -57,7 +58,6 @@ Place the 4 plastic spacers at each corner to ensure proper spacing.
 
 Solder the pins the the LCD Module.
 
-http://i833.photobucket.com/albums/zz256/aeronutt/Open%20EVSE%20Plus%20v2/Shield3.jpg
 
 Power up your board connected to an OpenEVSE J1772 Controller.
 
