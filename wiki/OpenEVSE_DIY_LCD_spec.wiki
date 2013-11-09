@@ -55,6 +55,7 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9091_1024x1024.jpg
  
   * Solder the .1" 4-pin header to the i2c connector (If your board has two use the connector on the left).
   * Optional - Solder a 3 pin header on the S - Row for use with a button switch.
+  * Flip the board over and trim the excess leads
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9092_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9092_medium.jpg]
 
@@ -94,12 +95,43 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9091_1024x1024.jpg
 
 ===Liquid Crystal Display LCD===
 
+* Solder the 18-pin (for RGB LED) or 16-pin (for Mono LCD) header to logic board Pins extending down.
+
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9103_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9103_medium.jpg]
 
+* With logic board upside down place the 4 plastic spacers at each corner to ensure proper spacing.
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9104_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9104_medium.jpg]
-
+  
+  * Solder the pins the the LCD Module.
+  * Trim excess length from header pins
+ 
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9105_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9105_medium.jpg]
+
+  * Power up your board connected to an OpenEVSE J1772 Controller.
+  * <b><font color=red>Important </font></b>  - Adjust the contrast Labeled *CONTRAST* with a small screw driver until the lettering is bright but the background is still dark.
+
+=Push Button - Optional=
+If using the Water resistant push button and 3-pin connector from the OpenEVSE store...
+
+  * Place heat shrink tube over each wire 
+  * Solder the Red wire on the connector(5v DC) to the terminal lableled "+" on the pushbutton 
+
+  * Solder the black wire (GND) to the terminal labeled "-" AND the terminal labeled "C1"
+
+  * Solder the grey wire to the terminal labeled "NO1".
+  * <b><font color=red>Note </font></b>  - The Terminal labeled "NC1" is not connected and can be trimmed off if desired.
+  * Carefully shrink the wrap over each solder connection
+
+http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8220_medium.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8221_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8221_medium.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8222_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8222_medium.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8223_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8223_medium.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8225_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8225_medium.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8226_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8226_medium.jpg]
+
+http://www.adafruit.com/datasheets/metal16mmbuttons.jpg
+
 
 This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
