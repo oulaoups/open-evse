@@ -95,11 +95,11 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9091_1024x1024.jpg
 
 ===Liquid Crystal Display LCD===
 
-* Solder the 18-pin (for RGB LED) or 16-pin (for Mono LCD) header to logic board Pins extending down.
+  * Solder the 18-pin (for RGB LED) or 16-pin (for Mono LCD) header to logic board Pins extending down.
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9103_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9103_medium.jpg]
 
-* With logic board upside down place the 4 plastic spacers at each corner to ensure proper spacing.
+  * With logic board upside down place the 4 plastic spacers at each corner to ensure proper spacing.
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9104_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9104_medium.jpg]
   
