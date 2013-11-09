@@ -10,11 +10,11 @@
   * *Product Information - Build Guides*
     * [OpenEVSE_Plus_spec Quick Kit - OpenEVSE PLUS]
     * [OpenEVSE_LCD_spec Quick Kit - OpenEVSE LCD]
-    * [OpenEVSE_DIY_Plus_spec DIY Kit - OpenEVSE PLUS]
-    * [OpenEVSE_DIY_30A - OpenEVSE PLUS with 30A Relays]
-    * [OpenEVSE_DIY_LCD_spec DIY Kit - OpenEVSE LCD]
-    * [OpenEVSE_shield_guide DIY Kit - OpenEVSE Arduino Shield]
-    * [EVSimulator DIY Kit - OpenEVSE EV Simulator]
+    * [OpenEVSE_DIY_Plus_spec DIY - OpenEVSE PLUS]
+    * [OpenEVSE_DIY_30A DIY - OpenEVSE with 30A Relays]
+    * [OpenEVSE_DIY_LCD_spec DIY - OpenEVSE LCD]
+    * [OpenEVSE_shield_guide DIY - OpenEVSE Arduino Shield]
+    * [EVSimulator OpenEVSE EV Simulator]
     * [30A_OpenEVSE Combo - 30A OpenEVSE]
   * *Firmware*
     * [https://github.com/lincomatic/open_evse Stable Firmware]
