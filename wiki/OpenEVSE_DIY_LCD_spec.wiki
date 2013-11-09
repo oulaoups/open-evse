@@ -3,9 +3,9 @@
 =OpenEVSE LCD - DIY Kit=
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9115_1024x1024.jpg?187
 
-OpenEVSE LCD Boards are designed specifically for OpenEVSE Charging Stations. They are very compact and easy to interface with 4 wires 5v, GND, i2c SCL i2c SDA. The OpenEVSE LCD boards support Monochrome (single color) or RGB LCDs (Red - Green - Blue color mixing) and are available with or without a RTC (Real Time Clock)to add EVSE Based timer based functionality. <b><font color=red>Note </font></b> - Vehicle based timers will work with or without RTC.
+<b><font color=teal> Open</font></b>*EVSE* LCD Boards are designed specifically for <b><font color=teal> Open</font></b>*EVSE* Charging Stations. They are very compact and easy to interface with 4 wires 5v, GND, i2c SCL i2c SDA. The <b><font color=teal> Open</font></b>*EVSE* LCD boards support Monochrome (single color) or RGB LCDs (Red - Green - Blue color mixing) and are available with or without a RTC (Real Time Clock)to add EVSE Based timer based functionality. <b><font color=red>Note </font></b> - Vehicle based timers will work with or without RTC.
 
-The OpenEVSE RGB LCD uses the [https://github.com/lincomatic/LiquidTWI2 LiquidTWI2] library written by OpenEVSE firmware guru Lincomatic. 
+The <b><font color=teal> Open</font></b>*EVSE* RGB LCD uses the [https://github.com/lincomatic/LiquidTWI2 LiquidTWI2] library written by <b><font color=teal> Open</font></b>*EVSE* firmware guru Lincomatic. 
 
 The optional RTC utilizes the DS1307 chip. A CR1220 or CR1225 lithium battery is required but not included due to shipping restrictions.
 
@@ -21,7 +21,7 @@ http://open-evse.googlecode.com/files/RGB_i2c_v1plusRTC_TH.zip
 
 == BOM ==
 || *Part* || *Value* ||	*Type* || *Quantity* ||	*Manufacture* ||	*Part Number* ||
-||Board||	||	Board||	1||	OpenEVSE||	Board||
+||Board||	||	Board||	1||	<b><font color=teal> Open</font></b>*EVSE*||	Board||
 || R1 || 220 ||	Resistor || 1 || Panasonic || CF14JT2K40CT-ND ||	
 || R2, R3 || 330 || Resistor || 2 || Panasonic || CF14JT2K40CT-ND ||	
 || R4, R5 || 4.7k || Resistor || 2 || Panasonic || CF14JT2K40CT-ND ||	
