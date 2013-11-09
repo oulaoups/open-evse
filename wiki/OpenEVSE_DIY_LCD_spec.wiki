@@ -1,7 +1,7 @@
 #Build Guide for OpenEVSE LCD DIY kit
 
 =OpenEVSE LCD - DIY Kit=
-http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7664_1024x1024.jpg?187
+http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9115_1024x1024.jpg?187
 
 OpenEVSE LCD Boards are designed specifically for OpenEVSE Charging Stations. They are very compact and easy to interface with 4 wires 5v, GND, i2c SCL i2c SDA. The OpenEVSE LCD boards support Monochrome (single color) or RGB LCDs (Red - Green - Blue color mixing) and are available with or without a RTC (Real Time Clock)to add EVSE Based timer based functionality. <b><font color=red>Note </font></b> - Vehicle based timers will work with or without RTC.
 
