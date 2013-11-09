@@ -73,6 +73,10 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9091_1024x1024.jpg
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9097_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9097_medium.jpg]
 
+===Real Time Clock RTC (Option)==
+
+  * If you ordered the RTC option perform the steps below, if not skip the section below. 
+
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9098_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9098_medium.jpg]
 
