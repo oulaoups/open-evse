@@ -24,9 +24,9 @@ Specifications:
   * Tiny 2.2 x 1.75 x 1
 
 =Kit Contents=
-The OpenEVSE Quick kit is designed for quick assembly. All the hard work is done for you. All that is left is soldering a few large parts and Header pins.
+The <b><font color=teal> Open</font></b>*EVSE* Quick kit is designed for quick assembly. All the hard work is done for you. All that is left is soldering a few large parts and Header pins.
 
-  * OpenEVSE Plus logic Board
+  * <b><font color=teal> Open</font></b>*EVSE* Plus logic Board
   * 4W Universal Switch-mode Power supply MPM-04D-1205E
   * DC/DC Converter (-12V and +12V Output) MPM D117E
   * 2 x 47k Ohm 1 watt flame proof resistor
@@ -34,7 +34,7 @@ The OpenEVSE Quick kit is designed for quick assembly. All the hard work is done
 
 
 
-*OpenEVSE Plus v2 Board connections*
+*<b><font color=teal> Open</font></b>*EVSE* Plus v2 Board connections*
 
 http://farm9.staticflickr.com/8212/8421959660_9e22cc662f_z.jpg
 
