@@ -3,9 +3,9 @@
 =OpenEVSE LCD - Quick Kit=
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7679_1024x1024.jpg?187
 
-OpenEVSE i2c LCD Boards are now available designed specifically for OpenEVSE Charging Stations. They are very compact and easy to interface. The OpenEVSE LCD boards support RGB LCDs and are available with or without a RTC(Real Time Clock)to add EVSE Based timer based functionality. Vehicle based timers work with or without RTC.
+<b><font color=teal> Open</font></b>*EVSE* i2c LCD Boards are now available designed specifically for <b><font color=teal> Open</font></b>*EVSE* Charging Stations. They are very compact and easy to interface. The <b><font color=teal> Open</font></b>*EVSE* LCD boards support RGB LCDs and are available with or without a RTC(Real Time Clock)to add EVSE Based timer based functionality. Vehicle based timers work with or without RTC.
 
-The OpenEVSE RGB LCD uses the [https://github.com/lincomatic/LiquidTWI2 LiquidTWI2] library written by OpenEVSE firmware guru Lincomatic. 
+The <b><font color=teal> Open</font></b>*EVSE* RGB LCD uses the [https://github.com/lincomatic/LiquidTWI2 LiquidTWI2] library written by OpenEVSE firmware guru Lincomatic. 
 
 The optional RTC utilizes the DS3231 ultra-precice temperature compensated RTC. A CR1220 or CR1225 lithium battery is required but not included due to shipping restrictions.
 
