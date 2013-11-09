@@ -2,9 +2,9 @@
 
 
 =OpenEVSE PLUS - DIY 30A Kit=
-The DIY OpenEVSE Plus can but built from a kit available at the OpenEVSE Store or from scratch by sourcing your own board from the source files and components.
+The DIY <b><font color=teal> Open</font></b>*EVSE* Plus can but built from a kit available at the <b><font color=teal> Open</font></b>*EVSE* Store or from scratch by sourcing your own board from the source files and components.
 
-The kit is avaliable here:
+The kit is available here:
 http://openevse-store.myshopify.com/products/diy-30a-openevse-plus
  
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8956_1024x1024.jpg?187
@@ -13,7 +13,7 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8956_1024x1024.jpg?187
 
 
 == Schematic, Board files, Gerber files =
-It is a good idea to print the schematic for referance.
+It is a good idea to print the schematic for reference.
 The schematic is located here:
 
 https://open-evse.googlecode.com/files/DIY_OpenEVSE_PLUS_30A.zip
