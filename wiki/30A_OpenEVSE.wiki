@@ -1,5 +1,14 @@
 #summary Build guide for example 30A EVSE
 
+
+=Warning=
+http://www.mysafetysign.com/img/lg/S/High-Voltage-Danger-Sign-S-2250.gif
+
+<b><font color=red>Warning </font></b>Assembly of a Electric Vehicle charging station requires wiring Alternating Current (AC) components that will be exposed to voltages from 100 to 250v. If you do not have the experience and knowledge required to safely work with AC voltages please consult with an experienced electrician for assistance and inspection of your work. 
+
+<b><font color=red>Note </font></b> Regularly inspect your charging station (OpenEVSE or Commercial). Pay special attention to excess heat, Components, handles, and wiring will be warm but they should not be HOT...  
+
+<b><font color=red>Important </font></b> Always Disconnect your charging station from power before performing an inspection and/or maintenance. 
  
 =Parts List=
 
