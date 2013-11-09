@@ -71,6 +71,7 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9091_1024x1024.jpg
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9095_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9095_medium.jpg]
 
+  * Solder the trim pot in the position labeled "CONTRAST". 
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9096_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9096_medium.jpg]
 
@@ -79,12 +80,17 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9091_1024x1024.jpg
 
   * If you ordered the RTC option perform the steps below, if not skip the section below. 
 
+  * Solder the 0.1uf capacitor in the rectangular box to the left of the "LED1" label. Trim the excess leads.
+  
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9097_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9097_medium.jpg]
 
+  * Solder the crystal in the position labeled Y1.
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9098_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9098_medium.jpg]
 
-
+  * Place the 1307 Integrated circuit in the position labeled IC2 noting the correct oriantation.
+  * Solder in place and trim excess leads.  
+ 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9099_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9099_medium.jpg]
 
 
