@@ -59,12 +59,15 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9091_1024x1024.jpg
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9092_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9092_medium.jpg]
 
+  * Solder the 2 4.7k resistors in positions R4 and R5. Trim excess leads.
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9093_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9093_medium.jpg]
 
+  * Solder the 0.1uf capacitor in the rectangular box to the right of "CONTRAST" label. Trim Excess leads.
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9094_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9094_medium.jpg]
 
+  * Solder the 220 Ohm resistor in positions R1 and the 330 Ohm resistors in R2 and R3. Trim the excess lead.
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9095_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9095_medium.jpg]
 
@@ -72,11 +75,11 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9091_1024x1024.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9096_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9096_medium.jpg]
 
 
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9097_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9097_medium.jpg]
-
 ===Real Time Clock RTC (Option)==
 
   * If you ordered the RTC option perform the steps below, if not skip the section below. 
+
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9097_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9097_medium.jpg]
 
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9098_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9098_medium.jpg]
