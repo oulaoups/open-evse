@@ -2,7 +2,7 @@
 
 
 =OpenEVSE PLUS - DIY 30A Kit=
-The DIY <b><font color=teal> Open</font></b>*EVSE* Plus can but built from a kit available at the <b><font color=teal> Open</font></b>*EVSE* Store or from scratch by sourcing your own board from the source files and components.
+The DIY <b><font color=teal> Open</font></b>*EVSE* Plus can be built from a kit available at the <b><font color=teal> Open</font></b>*EVSE* Store or from scratch by sourcing your own board from the source files and components.
 
 The kit is available here:
 http://openevse-store.myshopify.com/products/diy-30a-openevse-plus
@@ -133,11 +133,21 @@ http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ESD_%28Susceptible%29.s
  
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8972_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8972_medium.jpg]
 
+  * Place LF353 Integrated Circuit in positions IC2 in the correct orientation. Solder in place and trim excess leads.
+  * Place LF358 Integrated Circuit in positions IC4 in the correct orientation. Solder in place and trim excess leads.
+
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8973_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8973_medium.jpg]
+  * <b><font color=red>Optional: </font></b> Install a socket for the Microprocessor. In the event the chip is "bricked" and unable to be programmed by normal means, a new microprocessor can be installed in the place of the "bricked" one.
+
+  * Place ATMEGA328P Microprocessor in positions IC1 in the correct orientation. Solder in place and trim excess leads.
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8974_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8974_medium.jpg]
 
 ==Headers - Screw Terminals==
+
+  * Solder the .1" header pins into position for FTDI, ISP, I2c and the CT.
+  * Solder the Screw Terminal in the position labeled Pilot.
+ 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8975_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8975_medium.jpg]
 
 
@@ -145,7 +155,12 @@ http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ESD_%28Susceptible%29.s
 
 ==Power==
 
+  * Solder the DC/DC converter labeled D117E into position. Trim excess leads.
+
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8977_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8977_medium.jpg]
+
+  * Solder the AC/DC universal switch-mode power supply into position. Trim excess leads.
+  * Solder Relays into Position.
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8978_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8978_medium.jpg]
 
