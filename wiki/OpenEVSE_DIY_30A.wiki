@@ -129,7 +129,7 @@ http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ESD_%28Susceptible%29.s
 
 http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ESD_%28Susceptible%29.svg/200px-ESD_%28Susceptible%29.svg.png
 
-* Place MID400 Integrated Circuits in positions IC3 and IC5 in the correct orientation. Solder in place and trim excess leads.
+  * Place MID400 Integrated Circuits in positions IC3 and IC5 in the correct orientation. Solder in place and trim excess leads.
  
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8972_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8972_medium.jpg]
 
