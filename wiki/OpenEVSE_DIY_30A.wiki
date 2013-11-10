@@ -106,16 +106,31 @@ http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ESD_%28Susceptible%29.s
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8968_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8968_medium.jpg]
  
 ==Capacitors==
+  * Solder the 0.1uf Capacitors (marked 104) in the positions labled C4 and C8. Trim excess lead.
+
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8969_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8969_medium.jpg]
+
+  * Solder the 2.2uf Capacitor (marked 225) in the position labeled C6. Trim excess lead.
+  * Solder the 1uf capacitor (marked 105) in the positions labeled C3 and C5. Trim excess lead.
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8970_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8970_medium.jpg]
 
 
 ==Transistors - Crystal==
 
+  * Solder the 2 2N2222 Transistors in positions Q1 and Q2 in the orientation indicated on the board. Trim excess leads.
+
+  * Solder the 16.000Mhz Crystal in the position labeled Y1.  
+
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8971_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8971_medium.jpg]
 
 ==Integrated Circuits==
+<b><font color=red>Caution: </font></b> Handle Integrated Circuits with care, take precautions to prevent Electrostatic Discharge.
+
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ESD_%28Susceptible%29.svg/200px-ESD_%28Susceptible%29.svg.png
+
+* Place MID400 Integrated Circuits in positions IC3 and IC5 in the correct orientation. Solder in place and trim excess leads.
+ 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8972_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8972_medium.jpg]
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8973_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8973_medium.jpg]
