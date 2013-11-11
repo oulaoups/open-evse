@@ -80,6 +80,8 @@ You should not need to use a heat sink on the voltage regulator if you keep the 
 
 The current generation of EV Sim kit includes a 1N4004 diode "extra". This diode was added to the circuit to protect against incorrect input power, but the current run of boards doesn't have a space for it. The diode should be mounted across top and bottom two pins of the input power jack, with the banded end (the cathode) pointing towards the tip pin (away from the edge of the board). This diode will short-circuit if the power polarity is reversed.
 
+http://www.kfu.com/~nsayer/evse/diode_hack.jpg
+
 http://www.kfu.com/~nsayer/evse/IMG_3236.jpg
 My portable EVSE tester setup in the car.
 
