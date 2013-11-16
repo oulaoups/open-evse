@@ -29,18 +29,26 @@ avrdude -c USBasp -p m328p -U efuse:w:0x05:m
 Once your board has its fuses set you can load the OpenEVSE firmware.
 
 For windows...
+
 Create a folder on C:\ called OpenEVSE
+
 Copy the HEX file to that folder
+
 run cmd for the command prompt.
+
 type "C:\OpenEVSE"
+
 from the C:\OpenEVSE folder run the following command:
 
-Command assumes you are using the OpenEVSE USBasp programmer, if using another programmer substitute the correct programmer after -c for a list of programmers see:http://www.nongnu.org/avrdude/user-manual/avrdude_4.html
-
-Note: some hex files compiled with special features may have a different file name such as open_evse20B7_RTC.hex. If youf file name is different modify the file name portion after "flash:w:"
 {{{
 avrdude -c USBasp -p m328p -U flash:w:open_evse.hex
 }}}
+
+Command assumes you are using the OpenEVSE "USBasp" programmer, if using another programmer substitute the correct programmer after -c for a list of programmers see:http://www.nongnu.org/avrdude/user-manual/avrdude_4.html
+
+Note: some hex files compiled with special features may have a different file name such as open_evse20B7_RTC.hex. If your file name is different modify the file name portion after "flash:w:"
+
+
 
 Alternate command if using serial FTDI with the Arduino bootloader. (Arduino boards or OpenEVSE with Arduio bootloader)
 {{{
