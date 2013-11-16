@@ -10,6 +10,9 @@ http://www.ladyada.net/learn/avr/setup-win.html
 
 http://www.ladyada.net/learn/avr/avrdude.html
 
+=New Chips no firmware ever loaded=
+==Fusebits==
+
 If you built your own board and your EVSE has never had any version of EVSE firmware or an Arduino boot loader (virgin chip) you will need to set your AVR fuses before loading the OpenEVSE hex file.. Setting fuses only needs to be done once.
 
 Command assumes you are using the OpenEVSE USBasp, if using another programmer substitute the correct programmer after -c
@@ -20,6 +23,8 @@ avrdude -c USBasp -p m328p -U efuse:w:0x05:m
 
 *NOTE:* The extended bits (efuse) setting may get a readback of "FD" rather than "05". This is okay. "FD" is functionally the same as "05" and you can use either value to accomplish the same thing. 
 }}}
+
+=Uploading Firmware=
 
 Once your board has its fuses set you can load the OpenEVSE firmware.
 
