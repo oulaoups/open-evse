@@ -55,9 +55,13 @@ To finish setting up your Arduino IDE you will need to insure any required libra
 
 http://cdn.shopify.com/s/files/1/0249/6207/products/libraries_large.jpg
 
-OpenEVSE has two types of libraries those that will always be required and those that are only required if you enable a certain feature.
+OpenEVSE has two types of libraries those that will always be required by the core source code and those that are only required if you enable a certain feature.
 
-The library below not included in the basic Arduino installation is Time.h. More info on the Time library can be found here: http://arduino.cc/playground/Code/Time 
+The libraries below are not included in the basic Arduino installation. 
+
+The Time library is required by the core OpenEVSE firmware:
+
+More info on the Time library can be found here: http://arduino.cc/playground/Code/Time 
 
 {{{
 #include <EEPROM.h>
@@ -72,7 +76,14 @@ The library below not included in the basic Arduino installation is Time.h. More
 #endif // ARDUINO
 }}}
 
-Some features if enabled will also require a library, a good example is the , RTC, RGB LCD or the Adafruit i2c backpack.
+Some features if enabled will also require a library, a good example are the RTC and LCDs options.
+
+LCDs require LiquidTWI2 library:
+https://github.com/lincomatic/LiquidTWI2/downloads
+
+RTC Requires RTClib and FlexiTimer2:
+https://github.com/adafruit/RTClib
+https://github.com/wimleers/flexitimer2
 
 {{{
 #ifdef RGBLCD //Adafruit RGB LCD
