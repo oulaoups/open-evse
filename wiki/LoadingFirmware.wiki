@@ -15,7 +15,11 @@ The Arduino IDE includes an code editor, serial monitor, and will compile and up
 http://arduino.cc/en/Main/Software
 
 
-In the Arduino Software you can select the Arduino UNO in the Tools - Boards menu or add a custom entry for OpenEVSE. To ass a custom board go to your Arduino installation folder, the "boards.txt" should be in the sub folder hardware\arduino. You can use the Arduino Uno option or add this section to the end for a custom OpenEVSE option:
+In the Arduino Software you can simply select the Arduino UNO in the Tools - Boards menu or add a custom entry for OpenEVSE. 
+
+To add a custom board go to your Arduino installation folder, the "boards.txt" is in the sub folder Arduino\hardware\arduino\. 
+
+http://cdn.shopify.com/s/files/1/0249/6207/products/boards_txt_large.jpg
 
 {{{
 ##############################################################
@@ -95,6 +99,8 @@ Note: Use Extreme caution with WATCHDOG, if delays were added that exceed the ti
 
 === Loading Libraries ===
 To finish setting up your Arduino IDE you will need to insure any required libraries, indicated by #include, are copied to the libraries folder of your Arduino installation.
+
+http://cdn.shopify.com/s/files/1/0249/6207/products/libraries_large.jpg
 
 OpenEVSE has two types of libraries those that will always be required and those that are only required if you enable a certain feature.
 
