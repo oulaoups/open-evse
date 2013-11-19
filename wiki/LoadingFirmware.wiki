@@ -17,7 +17,7 @@ http://arduino.cc/en/Main/Software
 
 In the Arduino Software you can simply select the Arduino UNO in the Tools - Boards menu or add a custom entry for OpenEVSE. 
 
-To add a custom board go to your Arduino installation folder, the "boards.txt" is in the sub folder Arduino\hardware\arduino\. 
+<b><font color=red>Optional </font></b>- To add a custom board go to your Arduino installation folder, the "boards.txt" is in the sub folder Arduino\hardware\arduino\. 
 
 http://cdn.shopify.com/s/files/1/0249/6207/products/boards_txt_large.jpg
 
