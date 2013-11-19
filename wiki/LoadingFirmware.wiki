@@ -48,6 +48,52 @@ If you are burning virgin chips, you must set the fuse bits prior to programming
 
 See also: https://code.google.com/p/open-evse/wiki/AVRDUDE for how to accomplish this.
 
+
+
+=== Loading Libraries ===
+To finish setting up your Arduino IDE you will need to insure any required libraries, indicated by #include, are copied to the libraries folder of your Arduino installation.
+
+http://cdn.shopify.com/s/files/1/0249/6207/products/libraries_large.jpg
+
+OpenEVSE has two types of libraries those that will always be required and those that are only required if you enable a certain feature.
+
+The library below not included in the basic Arduino installation is Time.h. More info on the Time library can be found here: http://arduino.cc/playground/Code/Time 
+
+{{{
+#include <EEPROM.h>
+#include <avr/wdt.h>
+#include <pins_arduino.h>
+#include <Wire.h>
+#include <Time.h>
+#if defined(ARDUINO) && (ARDUINO >= 100)
+#include "Arduino.h"
+#else
+#include "WProgram.h" // shouldn't need this but arduino sometimes messes up and puts inside an #ifdef
+#endif // ARDUINO
+}}}
+
+Some features if enabled will also require a library, a good example is the , RTC, RGB LCD or the Adafruit i2c backpack.
+
+{{{
+#ifdef RGBLCD //Adafruit RGB LCD
+#include <Adafruit_MCP23017.h>
+#include <Adafruit_RGBLCDShield.h>
+#define RED 0x1
+#define YELLOW 0x3
+#define GREEN 0x2
+#define BLUE 0x6
+#endif //Adafruit RGB LCD
+
+#ifdef I2CLCD
+#include <LiquidTWI.h>
+#define LCD_I2C_ADDR 0 // for adafruit LCD backpack
+#endif // I2CLCD
+}}}
+
+The Adafruit RGB or i2c backpack LCD library LiquidTWI2.h can be found here: 
+
+https://github.com/lincomatic/LiquidTWI2/downloads 
+
 === Enabling features ===
 To enable a feature delete the "//" in front of the #define tag. To disable a feature add "//"...
 
@@ -96,47 +142,3 @@ Note: Use Extreme caution with WATCHDOG, if delays were added that exceed the ti
 
 //-- end features
 }}}
-
-=== Loading Libraries ===
-To finish setting up your Arduino IDE you will need to insure any required libraries, indicated by #include, are copied to the libraries folder of your Arduino installation.
-
-http://cdn.shopify.com/s/files/1/0249/6207/products/libraries_large.jpg
-
-OpenEVSE has two types of libraries those that will always be required and those that are only required if you enable a certain feature.
-
-The library below not included in the basic Arduino installation is Time.h. More info on the Time library can be found here: http://arduino.cc/playground/Code/Time 
-
-{{{
-#include <EEPROM.h>
-#include <avr/wdt.h>
-#include <pins_arduino.h>
-#include <Wire.h>
-#include <Time.h>
-#if defined(ARDUINO) && (ARDUINO >= 100)
-#include "Arduino.h"
-#else
-#include "WProgram.h" // shouldn't need this but arduino sometimes messes up and puts inside an #ifdef
-#endif // ARDUINO
-}}}
-
-Some features if enabled will also require a library, a good example is the , RTC, RGB LCD or the Adafruit i2c backpack.
-
-{{{
-#ifdef RGBLCD //Adafruit RGB LCD
-#include <Adafruit_MCP23017.h>
-#include <Adafruit_RGBLCDShield.h>
-#define RED 0x1
-#define YELLOW 0x3
-#define GREEN 0x2
-#define BLUE 0x6
-#endif //Adafruit RGB LCD
-
-#ifdef I2CLCD
-#include <LiquidTWI.h>
-#define LCD_I2C_ADDR 0 // for adafruit LCD backpack
-#endif // I2CLCD
-}}}
-
-The Adafruit RGB or i2c backpack LCD library LiquidTWI2.h can be found here: 
-
-https://github.com/lincomatic/LiquidTWI2/downloads 
