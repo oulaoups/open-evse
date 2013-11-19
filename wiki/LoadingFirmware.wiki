@@ -12,6 +12,8 @@ https://code.google.com/p/open-evse/downloads/list
 
 == Arduino IDE ==
 The Arduino IDE includes an code editor, serial monitor, and will compile and upload your code to the <b><font color=teal> Open</font></b>*EVSE*.
+
+Download and install the Arduino IDE from here:
 http://arduino.cc/en/Main/Software
 
 
