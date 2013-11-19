@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Loading firmware to the OpenEVSE requires an ISP. There are many AVR/Arduino compatible programmers available from Adafruit, Sparkfun and the OpenEVSE Store. This wiki is based on the OpenEVSE AVR ISP found here: 
+Loading firmware to the <b><font color=teal> Open</font></b>*EVSE* requires an ISP. There are many AVR/Arduino compatible programmers available from Adafruit, Sparkfun and the <b><font color=teal> Open</font></b>*EVSE* Store. This wiki is based on the <b><font color=teal> Open</font></b>*EVSE* AVR ISP found here: 
 https://openevse-store.myshopify.com/collections/frontpage/products/openevse-programmer
 
 = Firmware =
@@ -11,11 +11,11 @@ https://code.google.com/p/open-evse/downloads/list
 
 
 == Arduino IDE ==
-The Arduino IDE includes an code editor, serial monitor, and will compile and upload your code to the OpenEVSE.
+The Arduino IDE includes an code editor, serial monitor, and will compile and upload your code to the <b><font color=teal> Open</font></b>*EVSE*.
 http://arduino.cc/en/Main/Software
 
 
-In the Arduino Software you can simply select the Arduino UNO in the Tools - Boards menu or add a custom entry for OpenEVSE. 
+In the Arduino Software you can simply select the Arduino UNO in the Tools - Boards menu or add a custom entry for <b><font color=teal> Open</font></b>*EVSE*. 
 
 <b><font color=red>Optional </font></b>- To add a custom board go to your Arduino installation folder, the "boards.txt" is in the sub folder Arduino\hardware\arduino\. 
 
@@ -39,7 +39,7 @@ open_evse.core=arduino
 open_evse.build.variant=standard
 }}}
 
-After you do that (and restart Arduino), you'll find a new entry in your Boards menu called "OpenEVSE". Select that when preparing to upload sketches to your OpenEVSE.
+After you do that (and restart Arduino), you'll find a new entry in your Boards menu called "OpenEVSE". Select that when preparing to upload firmware.
 
 See also: http://blog.lincomatic.com/?p=10
 
