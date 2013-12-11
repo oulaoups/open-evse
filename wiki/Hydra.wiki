@@ -121,6 +121,26 @@ If you change the values of R14 or R17 and/or the CT, then you must change the C
 
 Divide Rb by Te to get volts per amp. Divide that value by (5/1024) to get units per amp. Divide 1000 by units per amp to get milliamps per unit, which is the value of CURRENT_SCALE_FACTOR.
 
+= Chassis assembly instructions =
+
+You can, of course, build your Hydra however you like, but the formula that works best for me goes something like this:
+
+On the WC-40, pick one of the short sides to be the "top." In the middle of this side, drill a 5/8" hole for the mode button. On the opposite short side, drill a 1 5/8" hole 1 3/8" down from the upper edge of the box (not counting the lid). Insert and center the inlet, then mark the four 1/8" holes in the corners. Once drilled, use 1/2" 6-32 bolts, nuts and lock washers to install the inlet. On the two long sides, drill a 1 1/8" hole centered on the lower "half" of the side (that is, between the short side with the inlet hole and the "rib" that runs up from the back at the center of the long side). Those two holes will be for the CG-16 cable glands. Use a Dremel and knock off the two panel supports nearest the button hole, but NOT the ones with the threaded inserts. Those two panel supports will eventually collide with the standoffs for the LCD panel we are going to install.
+
+On the WX-42 panel, use the LCD and main board as templates to mark the mounting holes. You want the LCD near, but not at, the top of the panel, and the main board 1/4" below it. A half inch below the bottom of the board, center the two relays, and a half inch below the bottom of the relays, the ground bar. Once you've marked the location for the main board, mark the two holes for the power supply module centered in the middle - the power supply will be mounted under the main board.
+
+Use 4 2" 4-40 M-F nylon hex standoffs for the display and 4 1-3/8" metal 4-40 M-F hex standoffs for the main board. Use 2 1-3/4" 4-40 bolts, nuts and lock washers to secure the power supply. Be sure to install the wires for the power supply *before* installing the main board - the power supply will be inaccessible later. Use a 4-40 nut and lock washer to secure each standoff, then use a 1/4" 4-40 bolt to attach the LCD and main board. Don't forget the spacers on each corner between the LCD and its backpack board. Before attaching the LCD, you'll probably want to attach the i2c and button cables.
+
+Use 1/2" 6-32 bolts, nuts and lock washers to secure the relays. Be sure to orient the relays so that the coil tabs are nearest the logic board.
+
+Cut four short (around 4 inches or so) #10 wires - two red, two black. Attach a QD female connector to one end of each. Connect a red and a black to each relay on the "line" side. Gather each red wire, the red wire from the inlet and the red wire coming from the power supply and twist on a large wire nut. Do the same for the blacks. Run the proximity and pilot wire from the inlet to the logic board, Run a small wire from the inlet ground connector on the board to the ground bus. Run the inlet ground wire to the ground bus as well.
+
+Next, install each cable/plug set. Attach QD female connectors on the red and black lines. Pass one of the hot lines of each plug through the respective current transformer, and then connect each hot line to one of the two relays on the "load" side. Connect the ground cable to the ground bus. Connect the pilot line and the proximity line (if available) to the respective connectors on the main board.
+
+Be sure that each car plug's relay coil wires, current transformer wires and pilot and proximity wires all, as a group, go to the same "car" side of the logic board. You do not want to turn the wrong car's power on!
+
+Carefully tuck all of the wires down out of the way and attach the lid. Test and enjoy!
+
 = Firmware details =
 
 The firmware depends on the LiquidTWI2 library to drive the LCD, and the PWM library to support altering the PWM frequency on the digital pins so that they can be used to drive the pilot outputs.
