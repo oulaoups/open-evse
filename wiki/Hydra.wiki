@@ -140,21 +140,25 @@ The version 2.0 Hydra board comes with all the surface mount components installe
   * A 1x3 .1" SIP header
   * A shrouded 2x3 DIP header
   * A 20k trimmer potentiometer
+  * 2 DC-DC converter modules, one +5v, one +/- 12v
   * 3 3 point screw terminals
   * 6 2 point screw terminals
   * 4 2-64 1/2" bolts
   * 4 #4 1/4" standoffs
   * 4 2-64 nuts
 
-Start by installing all of the screw terminals. All of them should be installed on the *opposite* side of the board as the surface mount components.
+Start by installing the two DC-DC converters. The +5 volt one will have one less pin than the +/- 12 volt one. The +5 volt one goes nearest the 4.7 uF tantalum capacitor, and the +/- 12 volt one goes nearest the 8 pin OP amp SOIC. The two converters must be mounted on the *same* side of the board as the SMD components.
 
-Next, install the shrouded DIP header. Pin 1 is the square one - it should be the same side as the key slot on the shrouded header. Again, this should be on the *opposite* side of the board from the SMD components.
+Next, install all of the screw terminals. All of them should be installed on the *opposite* side of the board as the surface mount components.
+
+Install the shrouded DIP header. Pin 1 is the square one - it should be the same side as the key slot on the shrouded header. Again, this should be on the *opposite* side of the board from the SMD components.
 
 Install the 3 pin SIP header for the SELECT switch.
 
 Install the 6 pin FTDI header.
 
 Install the trimmer pot.
+
 
 Install the two CT burden resistors.
 
