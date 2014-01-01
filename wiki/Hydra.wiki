@@ -134,6 +134,7 @@ The version 2.0 Hydra board comes with all the surface mount components installe
 
   * The board
   * An RGB backlit 2x16 character LCD module
+  * 2 56 ohm 1% 1/4 watt axial resistors
   * A 1x18 .1" SIP header
   * A 1x6 .1" SIP header
   * A 1x3 .1" SIP header
@@ -154,6 +155,8 @@ Install the 3 pin SIP header for the SELECT switch.
 Install the 6 pin FTDI header.
 
 Install the trimmer pot.
+
+Install the two CT burden resistors.
 
 Lastly, install the LCD. To do so, first install the 18 pin SIP header, but do not solder it. Lay the LCD module on top with the SIP header mating with the interface on the module. Again, do not solder yet. Thread the 2-64 bolts through the for holes in the corner of the LCD. Place a standoff in each corner between the logic board and the LCD module and push the bolt through and thread a nut on the bottom. Tighten (but do not over tighten) each nut. When the module is physically secured in place, solder the SIP header both on the LCD module and on the logic board.
 
