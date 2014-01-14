@@ -59,7 +59,7 @@ For the v1.6 board:
 For the v2.0 board:
   * The PROX_RES jumper enables a 2.7k resistor between the inlet proximity pin and ground. If your inlet lacks a 2.7k resistor between proximity and ground, then close this jumper.
   * The DTR_RESET jumper will allow the serial port DTR signal to reset the controller. If you're going to use an FTDI cable with an Arduino bootloader to upload sketches, then you should close this jumper. If you're going to use, for example, bluetooth modules on this port, then you probably want to leave it open.
-  * The BL_COM_SEL 2 way jumper selects the polarity of the backlight common pin. If your LCD module is common anode, then pads 2 and 3 should be closed. If your LCD module is common cathode, then pads 1 and 2 should be closed. DO NOT close all three pads - that would short out the 5 volt power supply. Note that if you use a common cathode backlight, you will need to compile the firmware with that set.
+  * The BL_COM_SEL 2 way jumper selects the polarity of the backlight common pin. If your LCD module is common anode, then pads 2 and 3 should be closed. If your LCD module is common cathode, then pads 1 and 2 should be closed. DO NOT close all three pads - that would short out the 5 volt power supply. Note that if you use a common cathode backlight, you will need to compile the firmware with that option set.
 
 The software is hosted on GitHub at https://github.com/nsayer/hydra
 
@@ -102,6 +102,18 @@ Don't forget to connect all of the grounds to a ground bus:
 If desired, connect a SPST switch up to the POWER_SW terminals on the board. If you don't want to do this, then you must place a jumper across them instead. 22 gauge wire is sufficient in either case. The power switch doesn't actually carry any appreciable current on it.
 
 Lastly, connect the LCD up via the I2C cable. Unlike OpenEVSE, there is no support for the buttons or the RTC (if applicable).
+
+= Powering the Hydra (v2.0 only) =
+
+As of version 2.0, there are multiple possible ways to power the Hydra. In the past, the typical installation consisted of a jumper across the "switch" terminal, which would force the host EVSE into state "C" on a permanent basis. This is reasonable for a Hydra intended to be used in a public space on many different EVSEs, but on a semi-permanent installation in a home, leaving the host EVSE's contactor permanently energized may shorten the coil's lifespan.
+
+The problem is, if you're powering the Hydra with the AC-DC converter powered from the J1772 socket, then there's no power to the logic board when the Hydra is not asserting state C.
+
+As an alternative, you can supply the AC-DC converter separately from an external source or - even better - supplying 12 volts from an external supply, and leave the switch terminal open. In this configuration, the Hydra will automatically transition the inlet to state C whenever one or both car relays are energized. With this configuration, the host EVSE's contactor would experience a reduced duty cycle in keeping with the original intent of the design.
+
+The best-of-both-worlds design involves a DC input jack and a DPDT panel-mounted switch. Label the switch "Internal" and "external." Wire the Hydra's DC input jack positive pole to the common "A" pole position, and wire the internal power supply's positive output to the "A" pole "internal" side. Wire the positive pole of the external power jack to the switch "A" "external" side. Wire the switch's "B" common and "internal" contacts up to the Hydra's "switch" terminal.
+
+Configured this way, "internal" will force the inlet permanently into state C and power the hydra from the internal AC-DC converter. Flip the switch to "external," and the hydra's logic board will be powered from an external 12 volt power supply, and the inlet will switch between states B and C on demand.
 
 = How to =
 
