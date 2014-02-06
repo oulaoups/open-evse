@@ -281,8 +281,10 @@ And in the middle of the board, the ISP.
   * 1.4 - Corrected short circuit in v1.3.
   * 1.5 - Added bypass cap to CT anchor - improves low current ammeter accuracy.
   * 1.6 - Rearranged the connectors. Car A is now on the left side, car B on the right, and the inlet is on the bottom.
+  * 2.0 - Surface mount design. Integrated RGB LCD. Inlet state control transistor (alternate power system). 
+  * 2.1 - Slight component rearrangement. Added TVS diode across inlet proximity line. Relabel car A and car B to swap them - the board is intended to be mounted component-side down.
 
-Currently, 1.6 is the recommended version.
+Currently, 2.0 is the recommended version.
 
 = Links =
 
