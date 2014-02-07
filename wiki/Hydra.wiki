@@ -163,20 +163,19 @@ The version 2.0 Hydra board comes with all the surface mount components installe
 
 Start by installing the two DC-DC converters. The +5 volt one will have one less pin than the +/- 12 volt one. The +5 volt one goes nearest the 4.7 uF tantalum capacitor, and the +/- 12 volt one goes nearest the 8 pin OP amp SOIC. The two converters must be mounted on the *same* side of the board as the SMD components.
 
+Install the two CT burden resistors. They go on the *same* side of the board as the SMD components.
+
 Next, install all of the screw terminals. All of them should be installed on the *opposite* side of the board as the surface mount components.
 
-Install the shrouded DIP header. Pin 1 is the square one - it should be the same side as the key slot on the shrouded header. Again, this should be on the *opposite* side of the board from the SMD components.
+Install the shrouded DIP header. Pin 1 is the square one - it should be the same side as the key slot on the shrouded header. Again, this should be on the *opposite* side of the board as the SMD components.
 
-Install the 3 pin SIP header for the SELECT switch.
+Install the 3 pin SIP header for the SELECT switch. It goes on the *opposite* side of the board as the SMD components.
 
-Install the 6 pin FTDI header.
+Install the 6 pin FTDI header. It goes on the *opposite* side of the board as the SMD components.
 
-Install the trimmer pot.
+Install the trimmer pot. It goes on the *opposite* side of the board as the SMD components.
 
-
-Install the two CT burden resistors.
-
-Lastly, install the LCD. To do so, first install the 18 pin SIP header, but do not solder it. Lay the LCD module on top with the SIP header mating with the interface on the module. Again, do not solder yet. Thread the 2-64 bolts through the for holes in the corner of the LCD. Place a standoff in each corner between the logic board and the LCD module and push the bolt through and thread a nut on the bottom. Tighten (but do not over tighten) each nut. When the module is physically secured in place, solder the SIP header both on the LCD module and on the logic board.
+Lastly, install the LCD (this step *must* be last, as the LCD will cover some of the solder pads used to install the other through-hole parts). To do so, set the board on a flat surface, component-side down. Install the 18 pin SIP header, but do not solder it. Lay the LCD module on top with the SIP header mating with the interface on the module. Again, do not solder yet. Thread the 2-64 bolts through the for holes in the corner of the LCD. Place a standoff in each corner between the logic board and the LCD module and push the bolt through and thread a nut on the bottom. Tighten (but do not over tighten) each nut. When the module is physically secured in place, solder the SIP header both on the LCD module and on the logic board.
 
 Temporarily connect a 12 volt power supply to the power terminals and adjust the contrast knob so that the text looks its best.
 
@@ -188,27 +187,39 @@ On the WC-40, pick one of the short sides to be the "top." In the middle of this
 
 On the WX-42 panel, use the LCD and main board as templates to mark the mounting holes. If you're using v1.6, you want the LCD near, but not at, the top of the panel, and the main board 1/4" below it. If you're using v2.0, then you just want to center the board as best as you can. A half inch below the bottom of the board, center the two relays, and in the remaining space, mark the mounting hole for the power distribution bus module and the ground bar. Once you've marked the location for the main board, mark the two holes for the power supply module centered in the middle - the power supply will be mounted under the main board.
 
-For v1.6, Use 4 2" 4-40 M-F nylon hex standoffs for the display and 4 1-3/8" metal 4-40 M-F hex standoffs for the main board. For v2.0, use 4 2" 4-40 M-F next standoffs.
+For v1.6, Use 4 2" 4-40 M-F nylon hex standoffs for the display and 4 1-3/8" metal 4-40 M-F hex standoffs for the main board. For v2.0, use 4 2" 4-40 M-F hex standoffs.
 
-Use 1/2" 6-32 bolts, nuts and lock washers to secure the relays. Be sure to orient the relays so that the coil tabs are nearest the logic board.
+Use 4 1/2" 6-32 bolts, nuts and lock washers to secure the relays. Be sure to orient the relays so that the coil tabs are nearest the logic board.
 
-Use 1/2" 6-32 bolts, nuts and lock washers to secure the power distribution bus module. Use the self-tapping screw supplied with the ground bus to secure it.
+Use 2 3/4" 6-32 bolts, nuts and lock washers to secure the power distribution bus module.
+
+Use the self-tapping screw supplied with the ground bus to secure it.
 
 Cut the inlet hot and ground wires to length and install the two hot wires in each side of the power distribution bus module and the ground wire into the ground bus.
 
 Cut four short (around 4 inches or so) #10 wires - two red, two black. Attach a QD female connector to each end of each wire. Connect a red and a black to each relay on the "line" side. Connect the other end of each red wire to the "red" side of the power distribution bus module. Connect the free end of the black wires to the other side. Cut a 22 gauge red and black wire approximately 8 inches long. Attach a QD terminal to one end of each and twist them together in a loose braid. Connect the QD terminals to the power distribution bus module, matching the colors of the wires already there. Attach the other ends to the AC inputs of the power supply module (make *sure* you are connecting them to the AC side!). Cut two more red and black 22 gauge wires approximately 4 inches long and make another braid. Connect one end of each wire to the DC outputs of the power supply, matching red to positive, black to negative. Connect the other end of each to the power input terminal block on the main board, matching black to ground and red to the positive terminal.
 
-Use 2 1-3/4" 4-40 bolts, nuts and lock washers to secure the power supply. Be sure to install the wires for the power supply *before* installing the main board - the power supply will be inaccessible later. Use a 4-40 nut and lock washer to secure each standoff and use a 1/4" 4-40 bolt to attach the main board.
+Use 2 1-3/4" 4-40 bolts, nuts and lock washers to secure the power supply. Be sure to install the wires for the power supply *before* installing the main board - the power supply will be inaccessible later. Use a 4-40 nut and lock washer to secure each standoff and use a 1/4" 4-40 bolt to attach the main board to the standoffs.
 
 For v1.6, use four 1/2" 4-40 bolts to attach the LCD to its standoffs. Don't forget the spacers on each corner between the LCD and its backpack board. Before attaching the LCD, you'll probably want to attach the i2c and button cables.
 
 Run the proximity and pilot wire from the inlet to the logic board, Run a small wire from the inlet ground connector on the board to the ground bus.
 
-Next, install each cable/plug set. Attach QD female connectors on the red and black lines. Pass one of the hot lines of each plug through the respective current transformer, and then connect each hot line to one of the two relays on the "load" side. Connect the ground cable to the ground bus. Connect the pilot line and the proximity line (if available) to the respective connectors on the main board.
+Next, install each cable/plug set. Attach QD female connectors on the red and black lines. Pass one of the hot lines of each plug through the respective current transformer (it doesn't matter which, but do NOT pass both lines through), and then connect each hot line to one of the two relays on the "load" side. Connect the ground cable to the ground bus. Connect the pilot line and the proximity line (if available) to the respective connectors on the main board.
 
 Be sure that each car plug's relay coil wires, current transformer wires and pilot and proximity wires all, as a group, go to the same "car" side of the logic board. You do not want to turn the wrong car's power on!
 
-Carefully tuck all of the wires down out of the way and attach the lid. Test and enjoy!
+Carefully tuck all of the wires down out of the way and attach the lid.
+
+= Testing =
+
+For your first use of the Hydra, you should attach a single car to each plug and charge at the maximum charge rate you anticipate using for a half hour. Watch very closely during the first few minutes for any evidence of heating on any of the high current wiring. If your connections are improperly crimped, the high resistance will result in heat damage. After a half an hour, disconnect the power and quickly open the case and check all of the wiring for any signs of elevated temperature. You can expect the wiring to be above room temperature, but if it's too hot to touch, then that's a sign of trouble.
+
+You should periodically inspect the Hydra for signs of heating and repeat the above test.
+
+Do not attempt to reuse heat-damaged components.
+
+At 30 amps, a resistance of a mere tenth of an ohm will result in *90 watts* of power loss. Thats three times as much power as the soldering iron you probably used to assemble the kit!
 
 = Firmware details =
 
