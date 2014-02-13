@@ -44,19 +44,12 @@ The board has the following interface points:
   * 2 three pin terminals - one for each car that has the outgoing pilot and proximity signals, plus a ground connection
   * 1 three pin terminal that comes from the inlet, with ground, pilot and proximity
   * 1 two pin terminal that brings 12 VDC from an external power supply
-  * 1 two pin terminal that connects to an external power switch. This switch switches the inlet pilot resistance from state B to state C when closed. Optionally, you can simply jumper the terminal if you would rather. The v2.0 hardware includes a transistor that will hold the inlet in state C whenever at least one car is powered up.
-  * 1 4 pin I2C header for the LCD (not present on the v2.0 board with the on-board display).
+  * 1 two pin terminal that connects to an external power switch. This switch switches the inlet pilot resistance from state B to state C when closed. Optionally, you can simply jumper the terminal if you would rather. The v2.x hardware includes a transistor that will hold the inlet in state C whenever at least one car is powered up.
   * 1 2x3 pin ISP socket for programming
   * 1 6 pin FTDI header for serial I/O (for debugging, programming or future expansion)
 
 There are some things on the board that require some attention:
   * R14 and R17 are burden resistors for the CT coils. These need to be chosen based on the CT you're going to use and the maximum outlet current rating for your Hydra. For my prototype, the CTs I've selected have a Te of 1018 and the design current for the Hydra will be 30A. For that configuration, a 56 ohm resistor is appropriate. You'll also find a #define in the source code for the Hydra that you will need to adjust in concert with this. Customizing the burden resistor allows you to maximize the accuracy of the ammeter readings for each car.
-
-For the v1.6 board:
-  * R8 is a 2.7k resistor that runs between proximity and ground. Some (most? all?) J1772 inlets come with a 2.7k resistor installed between proximity and ground. If yours does, then do not install R8.
-  * If you do not plan on using serial programming and a bootloader, you may wish to leave out C11. Placing C11 will allow DTR on the serial port to reset the controller as a prelude to serial programming. If you plan on using serial programming exclusively, then you can leave out the ISP connector.
-
-For the v2.0 board:
   * The PROX_RES jumper enables a 2.7k resistor between the inlet proximity pin and ground. If your inlet lacks a 2.7k resistor between proximity and ground, then close this jumper.
   * The DTR_RESET jumper will allow the serial port DTR signal to reset the controller. If you're going to use an FTDI cable with an Arduino bootloader to upload sketches, then you should close this jumper. If you're going to use, for example, bluetooth modules on this port, then you probably want to leave it open.
   * The BL_COM_SEL 2 way jumper selects the polarity of the backlight common pin. If your LCD module is common anode, then pads 2 and 3 should be closed. If your LCD module is common cathode, then pads 1 and 2 should be closed. DO NOT close all three pads - that would short out the 5 volt power supply. Note that if you use a common cathode backlight, you will need to compile the firmware with that option set.
@@ -77,7 +70,7 @@ I strongly recommend that you never connect a J1772 plug into the inlet when the
 
 You can program the controller without AC power applied (that is, without anything plugged into the inlet. Both the FTDI and ISP connectors pass programming power to the +5 supply rail from the programmer. If you intend to connect anything to the FTDI port for use while the system is running, you should not operate the Hydra with the chassis open in order to do so.
 
-= Wiring =
+= HV Wiring =
 
 The two car relays are DPST relays with 12vdc coils rated for whatever your outlet current is. They're the same kind as used for OpenEVSE.
 
@@ -85,62 +78,34 @@ In some (most?) cases, the J1772 inlet you get will be higher rated than your pl
 
 The best way to connect the inlet up with the two relays and the DC power supply is with a Cooper Bussman 11725-2 power distribution module. It has two screw terminals that can accommodate 2-14 gauge copper wire for accepting the inlet wiring, and has 8 1/4" QD terminals (four for each hot wire) for connecting to the load. It's rated at 70A, so it's plenty beefy enough.
 
-For each relay, designate a "line" side and a "load" side. On the line side, run a wire (for 30A, use 10 gauge) from each terminal of the relay to one of the two "load" side groups of QD connectors on the power distribution bus module.
+For each relay, designate a "line" side and a "load" side. On the line side, run a wire (for 30A, use 10 gauge) from each terminal of the relay to one of the two "load" side groups of QD connectors on the power distribution bus module. Be sure that each relay gets connected to a different group (corresponding to a different inlet hot line) of QD terminals.
 
-You also need to get "line" power into the power supply. It can use 22 gauge wire. Use crimp-on QD terminals and plug them into the power distribution bus as well.
+If you're using an internal power supply, you will also need to get "line" power into it. You can use 22 gauge wire. Use crimp-on QD terminals and plug them into the power distribution bus as well. Again, use one terminal from each group.
 
 On the load side of each relay, connect up the hot wires of one of the J1772 cables. Run one of the hot lines through a CT coil before connecting it to the relay. Unlike OpenEVSE, you run only one of the lines through the coil, not both. It doesn't matter which one you pick.
 
-Be sure that you pair up the relay coil wires with the CT coil wires. It doesn't matter which pair is A or B (other than car "A" being on the left side of the LCD display), but be sure that the lines for each relay coil and CT correspond to the correct pilot and proximity lines.! You don't want to measure the wrong car's current draw or even worse - power up the wrong plug. 
+Be sure that you pair up the relay coil wires with the CT coil wires along with the correct pilot and proximity lines. It doesn't matter which plug is A or B (other than car "A" being on the left side of the LCD display), but be sure that the lines for each relay coil and CT correspond to the correct pilot and proximity lines! You don't want to measure the wrong car's current draw or even worse - power up the wrong plug. 
 
 Don't forget to connect all of the grounds to a ground bus:
 
   * The inlet ground
   * Each plug/cable ground
   * The inlet ground connection from the board
-  * the output pilot ground connections from the board
-  * (if applicable) any ground from the power supply
-
-If desired, connect a SPST switch up to the POWER_SW terminals on the board. If you don't want to do this, then you must place a jumper across them instead. 22 gauge wire is sufficient in either case. The power switch doesn't actually carry any appreciable current on it.
-
-Lastly, connect the LCD up via the I2C cable. Unlike OpenEVSE, there is no support for the buttons or the RTC (if applicable).
+  * Any ground connection from an internal power supply (if applicable)
 
 = Powering the Hydra (v2.0 only) =
 
-As of version 2.0, there are multiple possible ways to power the Hydra. In the past, the typical installation consisted of a jumper across the "switch" terminal, which would force the host EVSE into state "C" on a permanent basis. This is reasonable for a Hydra intended to be used in a public space on many different EVSEs, but on a semi-permanent installation in a home, leaving the host EVSE's contactor permanently energized may shorten the coil's lifespan.
+As of version 2.0, there are multiple possible ways to power the Hydra. In the past, the typical installation consisted of a jumper across the "switch" terminal, which would force the host EVSE into state "C" on a permanent basis. This is reasonable for a Hydra intended to be used in a public space on many different EVSEs, but on a semi-permanent installation in a home, leaving the host EVSE's contactor permanently energized may shorten the coil's lifespan, and also prevents it from displaying any charging status (it will always show a car is charging even when none is).
 
 The problem is, if you're powering the Hydra with the AC-DC converter powered from the J1772 socket, then there's no power to the logic board when the Hydra is not asserting state C.
 
-As an alternative, you can supply the AC-DC converter separately from an external source or - even better - supplying 12 volts from an external supply, and leave the switch terminal open. In this configuration, the Hydra will automatically transition the inlet to state C whenever one or both car relays are energized. With this configuration, the host EVSE's contactor would experience a reduced duty cycle in keeping with the original intent of the design.
+As an alternative, you can supply the AC-DC converter separately from an external source or - even better - supplying 12 volts from an external supply, and leave the switch terminal open. In this configuration, the Hydra will automatically transition the inlet to state C whenever one or both car relays are energized. With this configuration, the host EVSE's contactor would experience a reduced duty cycle in keeping with the original intent of the design, and you'd be able to tell by looking at it whether a car is charging or not.
 
 The best-of-both-worlds design involves a DC input jack and a DPDT panel-mounted switch. Label the switch "Internal" and "external." Wire the Hydra's DC input jack positive pole to the common "A" pole position, and wire the internal power supply's positive output to the "A" pole "internal" side. Wire the positive pole of the external power jack to the switch "A" "external" side. Wire the switch's "B" common and "internal" contacts up to the Hydra's "switch" terminal.
 
 Configured this way, "internal" will force the inlet permanently into state C and power the hydra from the internal AC-DC converter. Flip the switch to "external," and the hydra's logic board will be powered from an external 12 volt power supply, and the inlet will switch between states B and C on demand.
 
-= How to =
-
-You will need:
-
-  # A circuit board from OSHPark. Currently, the 1.6 version board is recommended.
-  # An OpenEVSE RGB LCD backpack from the OpenEVSE store (not needed for a v2.0 Hydra board)
-  # The contents of the PCB BOM from DigiKey (not needed for a v2.0 Hydra quick kit)
-  # The contents of the chassis BOM from DigiKey
-  # A J1772 inlet
-  # 2 J1772 cable/plug assemblies
-  # A case and 2 cable glands. I recommend a Polycase WC-40, a WX-42 internal mounting panel and 2 CG-16 cable glands.
-  # Either an FTDI cable or an AVR ISP programmer of some sort. If you go with an FTDI cable, then your controller chip must come pre-programmed with an Arduino bootloader.
-
-The circuit board BOM from DigiKey is around $40 + tax and shipping. The chassis BOM (2 relays, 2 CTs, and a 12vdc power supply) is around $85 + tax and shipping. A J1772 inlet is $120 from Modular EV Power and J1772 cables are $150 each from Leviton. A box and two cable glands are around $50 from Polycase. So just in parts alone, a Hydra costs close to $700.
-
-= Burden resistor calculations =
-
-R14 and R17 must be matched to both your CT and your maximum expected outlet current. The reference design has a 30A maximum outlet current and the CT has a Te rating of 1018.
-
-You must select the largest Rb value you can such that the maximum peak-to-peak voltage does not exceed 5 volts. Take the maximum current and divide it by Te. The maximum current is an RMS value, however, so to convert it to peak-to-peak, multiply by 2 `*` sqrt(2). Divide 5 by the result and select the next smaller standard resistor value. That's the value to use for R14 and R17. Be sure to buy precision resistors. The BOM specs 1%.
-
-If you change the values of R14 or R17 and/or the CT, then you must change the CURRENT_SCALE_FACTOR constant in the code to match.
-
-Divide Rb by Te to get volts per amp. Divide that value by (5/1024) to get units per amp. Divide 1000 by units per amp to get milliamps per unit, which is the value of CURRENT_SCALE_FACTOR.
+If you don't want to use a switch, then the general advice is to leave the switch terminals open if you're using external power, and short them with a jumper if you're using a 12 volt power supply powered by the inlet hot lines.
 
 = Assembling the v2.0 "quick kit" =
 
@@ -179,7 +144,33 @@ Lastly, install the LCD (this step *must* be last, as the LCD will cover some of
 
 Temporarily connect a 12 volt power supply to the power terminals and adjust the contrast knob so that the text looks its best.
 
-= Chassis assembly instructions =
+= Burden resistor calculations =
+
+If you use the CT coil specified in the chassis BOM, then you can use the burden resistors included in the quick kit and skip this section.
+
+R14 and R17 must be matched to both your CT and your maximum expected outlet current. The reference design has a 30A maximum outlet current and the CT has a Te rating of 1018.
+
+You must select the largest Rb value you can such that the maximum peak-to-peak voltage does not exceed 5 volts. Take the maximum current and divide it by Te. The maximum current is an RMS value, however, so to convert it to peak-to-peak, multiply by 2 `*` sqrt(2). Divide 5 by the result and select the next smaller standard resistor value. That's the value to use for R14 and R17. Be sure to buy precision resistors. The BOM specs 1%.
+
+If you change the values of R14 or R17 and/or the CT, then you must change the CURRENT_SCALE_FACTOR constant in the code to match.
+
+Divide Rb by Te to get volts per amp. Divide that value by (5/1024) to get units per amp. Divide 1000 by units per amp to get milliamps per unit, which is the value of CURRENT_SCALE_FACTOR.
+
+= Chassis construction =
+
+You will need:
+
+  # A Hydra "Quick kit," on which assembly has been completed
+  # The contents of the chassis BOM from DigiKey (power dist module, 2 DPST relays, 2 CT coils and a 12v 10W AC-DC converter)
+  # A SPST NO push button (not required if you don't need to use sequential mode)
+  # A J1772 inlet
+  # 2 J1772 cable/plug assemblies
+  # A case and 2 cable glands. I recommend a Polycase WC-40, a WX-42 internal mounting panel and 2 CG-16 cable glands.
+  # A 4 terminal ground bus (available from Home Depot)
+  # About 8 inches or so (each) of red and black stranded #10 copper wire (you can obtain this from trimming the J1772 cables if you wish)
+  # About a foot or so (each) of red and black stranded #22 copper wire
+
+The "quick kit" is $90. The chassis BOM  is around $100 + tax and shipping. A J1772 inlet is $85 from Modular EV Power and J1772 cables are $175 each from Leviton. A box and two cable glands are around $50 from Polycase. So just in parts alone, a Hydra costs close to $700.
 
 You can, of course, build your Hydra however you like, but the formula that works best for me goes something like this:
 
@@ -265,23 +256,30 @@ The inlet's AC power is connected to an off-board AC-to-DC converter module whic
 
 = Images =
 
-[http://www.kfu.com/~nsayer/evse/hydra-14.jpg]
-The 1.4 board fully assembled, with connections diagrammed.
+[http://www.kfu.com/~nsayer/hydra-20-back.jpg]
+The 2.0 board fully assembled, back view.
 
-Clockwise from upper right:
-  * Relay for car A
+[http://www.kfu.com/~nsayer/hydra/hydra-20-front.jpg]
+The 2.0 board fully assembled, top view.
+
+The connectors, right side, top to bottom:
   * Relay for car B
-  * J1772 for car A - top to bottom: proximity, pilot, ground
-  * J1772 for car B - right to left: proximity, pilot, ground
-  * (just above the car B connector) FTDI serial connector
-  * Current transformer for car A
+  * J1772 for car B - top to bottom: ground, pilot, proximity
   * Current transformer for car B
-  * power switch
-  * J1772 inlet - top to bottom: proximity, pilot, ground
-  * 12 VDC power input
-  * i2c bus
 
-And in the middle of the board, the ISP.
+The bottom, right to left:
+  * LCD contrast knob
+  * SELECT switch connector
+  * 12 VDC power input (just below the power input)
+  * J1772 inlet - left to right: proximity, pilot, ground
+  * power switch
+  * ISP connector
+  * FTDI serial connector (just below the ISP)
+
+The left, top to bottom:
+  * Relay for car A
+  * J1772 for car A - top to bottom: proximity, pilot, ground
+  * Current transformer for car A
 
 = Board version history =
 
@@ -294,8 +292,9 @@ And in the middle of the board, the ISP.
   * 1.6 - Rearranged the connectors. Car A is now on the left side, car B on the right, and the inlet is on the bottom.
   * 2.0 - Surface mount design. Integrated RGB LCD. Inlet state control transistor (alternate power system). 
   * 2.1 - Slight component rearrangement. Added TVS diode across inlet proximity line. Relabel car A and car B to swap them - the board is intended to be mounted component-side down.
+  * 2.2 - Replaced the op amp based pilot generation circuitry with analog switch based system.
 
-Currently, 2.0 is the recommended version.
+Currently, 2.1 is the recommended version.
 
 = Links =
 
