@@ -270,9 +270,9 @@ The connectors, right side, top to bottom: proximity, pilot, ground
 The bottom, right to left:
   * LCD contrast knob
   * SELECT switch connector
-  * 12 VDC power input (just below the power input)
+  * power switch (just below the SELECT switch)
   * J1772 inlet - left to right: ground, pilot, proximity
-  * power switch
+  * 12 VDC power input
   * ISP connector
   * FTDI serial connector (just below the ISP)
 
