@@ -256,29 +256,29 @@ The inlet's AC power is connected to an off-board AC-to-DC converter module whic
 
 = Images =
 
-[http://www.kfu.com/~nsayer/hydra-20-back.jpg]
+[http://www.kfu.com/~nsayer/hydra/hydra-20-back.jpg]
 The 2.0 board fully assembled, back view.
 
 [http://www.kfu.com/~nsayer/hydra/hydra-20-front.jpg]
 The 2.0 board fully assembled, top view.
 
-The connectors, right side, top to bottom:
+The connectors, right side, top to bottom: proximity, pilot, ground
   * Relay for car B
-  * J1772 for car B - top to bottom: ground, pilot, proximity
+  * J1772 for car B - top to bottom: 
   * Current transformer for car B
 
 The bottom, right to left:
   * LCD contrast knob
   * SELECT switch connector
   * 12 VDC power input (just below the power input)
-  * J1772 inlet - left to right: proximity, pilot, ground
+  * J1772 inlet - left to right: ground, pilot, proximity
   * power switch
   * ISP connector
   * FTDI serial connector (just below the ISP)
 
 The left, top to bottom:
   * Relay for car A
-  * J1772 for car A - top to bottom: proximity, pilot, ground
+  * J1772 for car A - top to bottom: ground, pilot, proximity
   * Current transformer for car A
 
 = Board version history =
