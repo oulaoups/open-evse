@@ -298,6 +298,7 @@ Currently, 2.1 is the recommended version.
 = Links =
 
   * [https://squareup.com/market/nick-sayer My online store for boards and kits]
+  * [http://www.kfu.com/~nsayer/hydra/chassis_bom.csv DigiKey Chassis BOM for the Hydra]
   * [http://github.com/nsayer/hydra Software repository for the Hydra]
   * [http://code.google.com/p/arduino-pwm-frequency-library PWM library]
   * [http://github.com/lincomatic/LiquidTWI2 LiquidTWI2 library]
