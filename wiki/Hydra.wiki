@@ -298,6 +298,9 @@ Currently, 2.1 is the recommended version.
 = Links =
 
   * [https://squareup.com/market/nick-sayer My online store for boards and kits]
+  * [http://www.kfu.com/~nsayer/hydra/hydra_2_1.pdf PDF of v2.1 board schematic]
+  * [http://www.kfu.com/~nsayer/hydra/hydra_2_1.sch Eagle SCH file for v2.1 board]
+  * [http://www.kfu.com/~nsayer/hydra/hydra_2_1.brd Eagle BRD file for v2.1 board]
   * [http://www.kfu.com/~nsayer/hydra/chassis_bom.csv DigiKey Chassis BOM for the Hydra]
   * [http://github.com/nsayer/hydra Software repository for the Hydra]
   * [http://code.google.com/p/arduino-pwm-frequency-library PWM library]
