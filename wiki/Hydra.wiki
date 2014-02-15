@@ -72,6 +72,9 @@ You can program the controller without AC power applied (that is, without anythi
 
 = HV Wiring =
 
+[http://www.kfu.com/~nsayer/hydra/hydra_wiring.png]
+Hydra wiring diagram
+
 The two car relays are DPST relays with 12vdc coils rated for whatever your outlet current is. They're the same kind as used for OpenEVSE.
 
 In some (most?) cases, the J1772 inlet you get will be higher rated than your plugs and cables. The software is capable of limiting the inlet current separately, but in order to take advantage of this, you must insure that your relays are wired in a "star" pattern rather than daisy-chained. In a daisy-chain, the full current of the entire system will flow through the first component's cables, limiting the design current to that capacity. If you connect each relay's supply leads together to the inlet supply at the same point, then the inlet current is allowed to be higher.
@@ -157,9 +160,6 @@ If you change the values of R14 or R17 and/or the CT, then you must change the C
 Divide Rb by Te to get volts per amp. Divide that value by (5/1024) to get units per amp. Divide 1000 by units per amp to get milliamps per unit, which is the value of CURRENT_SCALE_FACTOR.
 
 = Chassis construction =
-
-[http://www.kfu.com/~nsayer/hydra/hydra_wiring.png]
-Hydra wiring diagram
 
 You will need:
 
