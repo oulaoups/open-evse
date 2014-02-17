@@ -211,7 +211,7 @@ You should periodically inspect the Hydra for signs of heating and repeat the ab
 
 Do not attempt to reuse heat-damaged components.
 
-At 30 amps, a resistance of a mere tenth of an ohm will result in *90 watts* of power loss. Thats three times as much power as the soldering iron you probably used to assemble the kit!
+At 30 amps, a resistance of a mere tenth of an ohm will result in *90 watts* of power loss, most of which will be converted to heat. Thats three times as much power as the soldering iron you probably used to assemble the kit!
 
 = Firmware details =
 
