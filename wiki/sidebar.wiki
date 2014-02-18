@@ -41,6 +41,7 @@
   * *Workshops*
     * [OpenEVSE_Workshop Socal OpenEVSE Workshop December 1,2012]
     * [Workshop_NOCAL Northern Ca OpenEVSE Workshop May 18, 2013]
+    * [HackerDojo_workshop_2014 Bay Area Workshop, April 12, 2014]
   * *Builders Project pictures/Logs*
     * [Open_EVSEs EVSE Example Pictures]
     * [AssemblePlusV2 30A EVSE by mrpilotron]
