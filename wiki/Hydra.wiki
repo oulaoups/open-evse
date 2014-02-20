@@ -81,7 +81,7 @@ In some (most?) cases, the J1772 inlet you get will be higher rated than your pl
 
 The best way to connect the inlet up with the two relays and the DC power supply is with a Cooper Bussman 11725-2 power distribution module. It has two screw terminals that can accommodate 2-14 gauge copper wire for accepting the inlet wiring, and has 8 1/4" QD terminals (four for each hot wire) for connecting to the load. It's rated at 70A, so it's plenty beefy enough.
 
-For each relay, designate a "line" side and a "load" side. On the line side, run a wire (for 30A, use 10 gauge) from each terminal of the relay to one of the two "load" side groups of QD connectors on the power distribution bus module. Be sure that each side of the relay gets connected to a different group (corresponding to a different inlet hot line) of QD terminals.
+For each relay, designate a "line" side and a "load" side. On the line side, run a wire (for 30A, use 10 gauge) from each terminal of the relay to one of the two "load" side groups of QD connectors on the power distribution bus module. Be sure that each side of the relay gets connected to a different group (corresponding to a different inlet hot line) of QD terminals. Be *absolutely* sure that you've wired one hot line and one car (load) line to each of the switches in the relay and *not* inadvertently wired one of the switches to connect the two hot lines together!
 
 If you're using an internal power supply, you will also need to get "line" power into it. You can use 22 gauge wire. Use crimp-on QD terminals and plug them into the power distribution bus as well. Again, use one terminal from each group.
 
