@@ -229,9 +229,19 @@ The proximity line is scaled (as per the spec) with R7 and R8 (which is either o
 
 == Outgoing EV signal handling ==
 
+===Versions < 2.2===
+
 Pilot generation requires a bipolar 12 vdc power supply. This is created with DC1. R18 and R19 provide a minimal load for the converter, as the pilot generation circuitry alone is not a large enough load. The two voltages are fed into IC3.
 
-The two non-inverting inputs of IC3 are fed with a single voltage divider for 2.5 volts (really it just needs to distinguish between high and low logic levels from the controller). The output of each is fed through a 1K resistor (per spec) and sent to the car.
+The two non-inverting inputs of IC3 are fed with a single voltage divider for 2.5 volts (really it just needs to distinguish between high and low logic levels from the controller).
+
+===Versions >= 2.2===
+
+Pilot generation starts with a +/- 15 volt DC-DC converter. The output is fed into the V+ and V- of a DG303 2xSPDT analog switch IC. The +15V is also fed into a 7812 12 volt regulator, and -15V is fed into a 7912 -12 volt regulator. The regulated outputs are fed into the actual switch terminals of the IC. Each SPDT switch is actually made of a pair of SPST switches both controlled by a common logic input, but with each switch control inverted from the other. Each switch has a separate input and output pin. To form a SPDT switch, the two output lines are joined together, forming the output.
+
+===Common===
+
+The output of the pilot generator is fed through a 1K resistor (per spec) and sent to the car.
 
 The output pilot signal is also fed into a scaling and voltage divider network to convert the -12 to +12 volt signal into an approximate 0 to 5 volt range. This is in turn fed into one of the analog read pins on the controller. This allows the firmware to detect transition changes on the pilot pins.
 
