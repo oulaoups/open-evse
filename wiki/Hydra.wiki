@@ -191,15 +191,19 @@ Cut four short (around 4 inches or so) #10 wires - two red, two black. Attach a 
 
 Use 2 1-3/4" 4-40 bolts, nuts and lock washers to secure the power supply. Be sure to install the wires for the power supply *before* installing the main board - the power supply will be inaccessible later. Use a 4-40 nut and lock washer to secure each standoff and use a 1/4" 4-40 bolt to attach the main board to the standoffs.
 
+Cut four short (around 4 inches or so) #10 black wires. Twist two into a loose braid and attach QD terminals to one end of each. Repeat for the other pair. Attach one pair's QD terminals to the coil terminals of one of the relays and the connect the other end to the relay terminals on the logic board that corresponds to the relay (that is, for Car "A"'s relay, use the "Car A" relay terminals). Repeat for the other relay.
+
+Connect the two current transformers to the current transformer connectors on the logic board.
+
 Now install the mounting plate in the chassis. You may find it easiest to remove the inlet first.
 
 Cut the inlet hot and ground wires to length and install the two hot wires in the "line" terminals on each side of the power distribution bus module and the ground wire into the ground bus.
 
 Run the proximity and pilot wire from the inlet to the logic board, Run a small wire from the inlet ground connector on the board to the ground bus.
 
-Next, install each cable/plug set. Attach QD female connectors on the red and black lines. Pass one of the hot lines of each plug through the respective current transformer (it doesn't matter which, but do NOT pass both lines through), and then connect each hot line to one of the two relays on the "load" side. Connect the ground cable to the ground bus. Connect the pilot line and the proximity line (if available) to the respective connectors on the main board.
+Next, install each cable/plug set. Attach QD female connectors on the red and black lines. Pass one of the hot lines of each plug through the respective current transformer (it doesn't matter which, but do NOT pass both lines through), and then connect each hot line to one of the two relays on the "load" side. Connect the ground cable to the ground bus. Connect the pilot line and the proximity line (if available) to the respective connectors on the main board. If your plugs do not supply a proximity line, then just leave the proximity terminals empty.
 
-Be sure that each car plug's relay coil wires, current transformer wires and pilot and proximity wires all, as a group, go to the same "car" side of the logic board. You do not want to turn the wrong car's power on!
+Be sure that each car plug's hot lines both go to a single relay's "load" terminals and that the corresponding relay coil wires, current transformer wires and pilot and proximity wires all, as a group, go to the same "car" side of the logic board. You do not want to turn the wrong car's power on!
 
 Carefully tuck all of the wires down out of the way and attach the lid.
 
