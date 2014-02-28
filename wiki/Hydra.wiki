@@ -70,6 +70,8 @@ I strongly recommend that you never connect a J1772 plug into the inlet when the
 
 You can program the controller without AC power applied (that is, without anything plugged into the inlet. Both the FTDI and ISP connectors pass programming power to the +5 supply rail from the programmer. If you intend to connect anything to the FTDI port for use while the system is running, you should not operate the Hydra with the chassis open in order to do so.
 
+If I have learned anything building EVSEs and Hydras over the last year, it is that the high-current path is absolutely unforgiving. You must use good quality crimp connectors to attach the terminals to the wire, and you must use a good (preferably a ratcheting) crimping tool to insure the crimps are done correctly every time. A poorly crimped connection will degrade over time causing increased resistance. The resistance causes heating, which causes resistance to increase in a positive feedback loop that will eventually lead to a fire (assuming the connection doesn't fail-open first).
+
 = HV Wiring =
 
 [http://www.kfu.com/~nsayer/hydra/hydra_wiring.png]
