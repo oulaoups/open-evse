@@ -78,7 +78,7 @@ There are no i2c pull-up resistors on the board, as the SCL and SDA pins are als
 
 You should not need to use a heat sink on the voltage regulator if you keep the input voltage at or lower than 12 volts (higher input voltages do little more than waste power). 7-9 volts is ideal. The circuit will likely function at lower voltages, but the LCD will start losing readability and eventually stop functioning.
 
-The current generation of EV Sim kit includes a 1N4004 diode "extra". This diode was added to the circuit to protect against incorrect input power, but the current run of boards doesn't have a space for it. The diode should be mounted across top and bottom two pins of the input power jack, with the banded end (the cathode) pointing towards the tip pin (away from the edge of the board). This diode will short-circuit if the power polarity is reversed.
+The first generation of EV Sim kit includes a 1N4004 diode "extra". This diode was added to the circuit to protect against incorrect input power, but the current run of boards doesn't have a space for it. The diode should be mounted across top and bottom two pins of the input power jack, with the banded end (the cathode) pointing towards the tip pin (away from the edge of the board). This diode will short-circuit if the power polarity is reversed.
 
 http://www.kfu.com/~nsayer/evse/diode_hack.jpg
 
@@ -87,11 +87,10 @@ My portable EVSE tester setup in the car.
 
 =Links=
   * [https://squareup.com/market/nick-sayer My online store for boards and kits]
-  * [http://oshpark.com/shared_projects/VxJ1Qa7z OSHPark project for boards]
+  * [http://oshpark.com/profiles/nsayer My OSHPark profile - buy your own boards]
   * [https://github.com/damellis/attiny/archive/master.zip Arduino support for ATTiny]
   * [https://github.com/TCWORLD/ATTinyCore/tree/master/PCREL%20Patch%20for%20GCC ATTiny Arduino patch]
   * [https://github.com/adafruit/TinyWireM TinyWireM]
   * [https://github.com/lincomatic/LiquidTWI2 LiquidTWI2]
   * [https://github.com/nsayer/hydra/blob/master/EV_Sim.ino EV Sim Mark II sketch]
-  * [https://code.google.com/p/open-evse/downloads/detail?name=EV_Sim.hex&can=2&q=#makechanges EV Sim Mark II firmware]
   * [http://www.kfu.com/~nsayer/hydra/EV_Sim_schematic.pdf Schematic (PDF)]
