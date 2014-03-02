@@ -14,7 +14,7 @@ The Hydra owes much of its existence to OpenEVSE. Some of its circuitry was crib
 
   * A comparator to convert the incoming pilot signal into a TTL compatible square wave so that the controller can determine the duty cycle, and thus, the ampacity of the host EVSE.
   * A comparator to watch for transitions on the incoming proximity pin. The controller will gracefully shut down both cars if the proximity resistance rises above 300 ohms (or so).
-  * Two pilot signal generators. OP Amps are used to convert digital outputs from the controller into + or - 12 volt outputs. The PWM timer systems of the controller are used to generate the varying duty cycles.
+  * Two pilot signal generators. Analog switches are used to create a +/- 12 volt square wave from +/- 12 volt regulated power supplies. The PWM timer systems of the controller are used to generate the varying duty cycles.
   * Resistor networks feed the outgoing pilots back into the controller on two analog pins so that state changes and diode failures on each car can be detected.
   * Each car has a current transformer on one of its hot leads so that the car's current draw can be monitored. If a car exceeds its allocated current, it is shut down.
   * The Hydra has an RGB LCD display to show status information.
