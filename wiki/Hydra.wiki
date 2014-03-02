@@ -149,7 +149,9 @@ Lastly, install the LCD (this step *must* be last, as the LCD will cover some of
 
 Temporarily connect a 12 volt power supply to the power terminals and adjust the contrast knob so that the text looks its best.
 
-Now is the time to make any alterations to the jumpers on the board. If you're using the LCD supplied with the "quick kit," then do not make any changes to the BL_COM jumper. It will have been set as appropriate for the LCD.
+Now is the time to make any alterations to the jumpers on the board.
+
+If you're using the LCD supplied with the "quick kit," then do not make any changes to the BL_COM jumper. It will have been set as appropriate for the LCD. If you're using a common cathode module, short the center and right pads (when looking at the board with the LCD connector at the top). If you're using a common anode module, short the left two pads. If you're using a common anode module, you will also need to make a small change to the Hydra sketch before updating the firmware (if it's ever necessary). If you're using the module supplied with your Quick Kit and the left jumper pair is shorted, then this change will have been made when the firmware was initially loaded.
 
 If you are going to use FTDI programming, and have arranged for an Arduino bootloader to be programmed in your controller, then you should short the DTR_RESET jumper. Otherwise, you should leave the jumper open.
 
