@@ -112,7 +112,7 @@ Configured this way, "internal" will force the inlet permanently into state C an
 
 If you don't want to use a switch, then the general advice is to leave the switch terminals open if you're using external power, and short them with a jumper if you're using a 12 volt power supply powered by the inlet hot lines.
 
-= Assembling the v2.0 "quick kit" =
+= Assembling the v2.x "quick kit" =
 
 The version 2.0 Hydra board comes with all the surface mount components installed and the latest firmware preloaded. What remains is the installation of all of the through-hole components. You should find:
 
@@ -124,14 +124,14 @@ The version 2.0 Hydra board comes with all the surface mount components installe
   * A 1x3 .1" SIP header
   * A shrouded 2x3 DIP header
   * A 20k trimmer potentiometer
-  * 2 DC-DC converter modules, one +5v, one +/- 12v
+  * 2 DC-DC converter modules, one +5v, one +/- 15v
   * 3 3 point screw terminals
   * 6 2 point screw terminals
   * 4 2-56 1/2" nylon bolts
   * 4 #4 1/4" plastic standoffs
   * 4 2-56 nylon nuts
 
-Start by installing the two DC-DC converters. The +5 volt one will have one less pin than the +/- 12 volt one. The +5 volt one goes nearest the 4.7 uF tantalum capacitor, and the +/- 12 volt one goes nearest the 8 pin OP amp SOIC. The two converters must be mounted on the *same* side of the board as the SMD components.
+Start by installing the two DC-DC converters. The +5 volt one will have one less pin than the +/- 15 volt one. The +5 volt one goes nearest the 4.7 uF tantalum capacitor, and the +/- 15 volt one goes nearest the 8 pin OP amp SOIC. The two converters must be mounted on the *same* side of the board as the SMD components.
 
 Install the two CT burden resistors. They go on the *same* side of the board as the SMD components.
 
@@ -148,6 +148,14 @@ Install the trimmer pot. It goes on the *opposite* side of the board as the SMD 
 Lastly, install the LCD (this step *must* be last, as the LCD will cover some of the solder pads used to install the other through-hole parts). To do so, set the board on a flat surface, component-side down. Install the 18 pin SIP header, but do not solder it. Lay the LCD module on top with the SIP header mating with the interface on the module. Again, do not solder yet. Thread the 2-56 bolts through the for holes in the corner of the LCD. Place a standoff in each corner between the logic board and the LCD module and push the bolt through and thread a nut on the bottom. Tighten (but do not over tighten) each nut. When the module is physically secured in place, solder the SIP header both on the LCD module and on the logic board.
 
 Temporarily connect a 12 volt power supply to the power terminals and adjust the contrast knob so that the text looks its best.
+
+Now is the time to make any alterations to the jumpers on the board. If you're using the LCD supplied with the "quick kit," then do not make any changes to the BL_COM jumper. It will have been set as appropriate for the LCD.
+
+If you are going to use FTDI programming, and have arranged for an Arduino bootloader to be programmed in your controller, then you should short the DTR_RESET jumper. Otherwise, you should leave the jumper open.
+
+If your J1772 inlet has a 2.7k resistor between proximity and ground, then you must leave the PROX_RES jumper open. If your inlet proximity line is an open circuit to the ground wire, then you must short the PROX_RES jumper.
+
+To short a jumper, lay a pencil soldering iron on half of both pads. Apply solder to each pad, making a small "ball" on each. Drag the iron over the two and lift straight up. If there is enough solder, a bridge will form between the two pads. Do this as quickly as possible - do not overheat the pads or you risk permanently damaging the traces. 
 
 = Burden resistor calculations =
 
