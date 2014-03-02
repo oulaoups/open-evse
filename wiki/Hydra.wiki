@@ -131,7 +131,7 @@ The version 2.0 Hydra board comes with all the surface mount components installe
   * 4 #4 1/4" plastic standoffs
   * 4 2-56 nylon nuts
 
-Start by installing the two DC-DC converters. The +5 volt one will have one less pin than the +/- 15 volt one. The +5 volt one goes nearest the 4.7 uF tantalum capacitor, and the +/- 15 volt one goes nearest the 8 pin OP amp SOIC. The two converters must be mounted on the *same* side of the board as the SMD components.
+Start by installing the two DC-DC converters. The +5 volt one will have one less pin than the +/- 15 volt one. The +5 volt one goes nearest the 4.7 uF tantalum capacitor, and the +/- 15 volt one goes nearest the two voltage regulators (IC5 & IC6). The two converters must be mounted on the *same* side of the board as the SMD components.
 
 Install the two CT burden resistors. They go on the *same* side of the board as the SMD components.
 
