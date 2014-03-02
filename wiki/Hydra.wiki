@@ -325,7 +325,7 @@ The left, top to bottom:
   * 2.1 - Slight component rearrangement. Added TVS diode across inlet proximity line. Relabel car A and car B to swap them - the board is intended to be mounted component-side down.
   * 2.2 - Replaced the op amp based pilot generation circuitry with analog switch based system.
 
-Currently, 2.1 is the recommended version.
+Currently, 2.2 is the recommended version.
 
 = Links =
 
