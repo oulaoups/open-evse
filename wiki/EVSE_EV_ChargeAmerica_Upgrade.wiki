@@ -1,45 +1,4 @@
-#summary Upgrade of a non-functional EV Charge America EVSE.
 
-= Warning =
-
-There have been many reports of serious problems dealing with EV Charge America from non-delivery of product to poorly or non-working EVSE.  I received a unit to gut and replace the parts with Open EVSE components for the owner. The owner did not want to continue to deal with EVCA for repair.
-
-
-http://www.bbb.org/southern-nevada/business-reviews/electronic-power-supplies/ev-charge-america-in-las-vegas-nv-90006800
-
-http://www.pluginamerica.org/accessories/ev-charge-america-ev2100
-
-http://www.mynissanleaf.com/viewtopic.php?f=26&t=1177
-
-= Details =
-*The good:*
-
--The case is really nice and well built
-
--Someone spent A LOT of time building the unit and for the most part did an Okay job
-
--There is a CT coil so there may be GFCI (could not test unit was non-functioning and smelled very dead)
-
- 
- 
-
-*The bad:*
-
--No fuses...
-
--Metal shavings and debris everywhere
-
--High voltage wiring scary (see picture below)
-
--Solid state relays not the best choice for an EVSE
-
--way to complex SOOOOO MANY wires (pictures do not do justice there are a lot of wires going everywhere)
-
--looks like a prototype not something you should pay for
-
--custom board built on proto board wrapped in electrical tape and velcroed in place
-
--So much glue, tape and gooey stuff.
 
 = Parts =
 This is a list of parts required to upgrade the EV Charge America EVSE with OpenEVSE components.
@@ -55,34 +14,6 @@ This is a list of parts required to upgrade the EV Charge America EVSE with Open
 || Ground Bar Kit || Home Depot || $4.17 || 1 || http://www.homedepot.com/h_d1/N-5yc1v/R-100207842/h_d2/ProductDisplay?catalogId=10053&langId=-1&keyword=Ground+Bar+Kit ||
 || *Total* || || *$185* || ||  ||
 
-
-= Before =
-Wires everywhere, Arduino Mega board and 2 custom boards
-
-http://farm8.staticflickr.com/7192/6957684170_76588b46ea_z.jpg
-
-Custom Board #1
-
-http://farm8.staticflickr.com/7258/6957681936_c615055f25_z.jpg
-
-Arduino Mega covered in glue
-
-
-http://farm8.staticflickr.com/7215/7103748745_9a98b8da55_z.jpg
-
-Custom Board 2 covered in glue and wrapped with electrical tape then velcroed in place
-
-
-http://farm8.staticflickr.com/7191/6957013916_d495cfdefe_z.jpg
-
-Power Supplies and Solid State Relays
-
-
-http://farm8.staticflickr.com/7129/6957691738_b3899e9b61_z.jpg
-
-AC Line with frayed wires
-
-http://farm8.staticflickr.com/7105/7103758817_816a14917d_z.jpg
 
 = The Rebuild =
 
