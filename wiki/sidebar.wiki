@@ -45,7 +45,6 @@
   * *Builders Project pictures/Logs*
     * [Open_EVSEs EVSE Example Pictures]
     * [AssemblePlusV2 30A EVSE by mrpilotron]
-    * [EVSE_EV_ChargeAmerica_Upgrade Rebuild of broken EVCA EVSE]
     * [75AOpenEVSE 75A EVSE by mwolrich]
     * [EVSE_LORDSn1per EVSE by Phillip Carlson]
     * [EVSE_by_4Dolio 30A portable EVSE by 4Dolio]
