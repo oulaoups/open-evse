@@ -1,5 +1,4 @@
 
-
 = Parts =
 This is a list of parts required to upgrade the EV Charge America EVSE with OpenEVSE components.
 
@@ -70,8 +69,3 @@ http://farm9.staticflickr.com/8157/6978341332_c28cab19ed_z.jpg
 Test the EVSE before returning to service. http://code.google.com/p/open-evse/wiki/EVSE_TESTING
 
  http://farm9.staticflickr.com/8200/8215283202_eaf4a0135a_n.jpg
-
-= Charging =
-
-http://farm9.staticflickr.com/8155/6977362196_ce2d855f4f_z.jpg
-http://www.youtube.com/embed/cZbfMcIaFDQ
