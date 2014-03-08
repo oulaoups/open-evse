@@ -4,7 +4,6 @@
 = Sources =
 
 || Part Number || Description || Manufacturer || Level || Max Current || UL || Length || Price || Link ||
-|| n/a || J1772 || ? || L1/L2 || 32A & 70A || ? || 12' & 25' || From $149 || http://www.emotorwerks.com/products/online-store/product/show/38-j1772-cables-for-our-juicebox-or-dc-charging-systems ||
 || A3435-PEV || J1772 || Leviton || L1/L2 || 30A || Yes || 25' || $173.36 + free shipping || http://store.leviton.com/Compliant-Electric-Vehicle-Connector-A3435-PEV/dp/B00912OT00 <br /> Pictures of: http://pics.256.com/2012/20120908_j1772/ ||
 || A2056-PEV (no longer availble) || J1772 || Leviton || L1/L2 || 75A || Yes || 25' || $218.69 || http://store.leviton.com/Electric-Vehicle-Charge-Connector-A2055-PEV/dp/B009UCEXYI ||
 || A2055-PEV || J1772 || Leviton || L1/L2 || 15A || Yes || 25' || $134.14 || http://store.leviton.com/Electric-Vehicle-Charge-Connector-A2055-PEV/dp/B009UCE7EE#.URHRL333JgE ||*
