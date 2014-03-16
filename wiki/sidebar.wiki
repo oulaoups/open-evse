@@ -54,8 +54,7 @@
   * *Other related projects*
     * [Hydra The J1772 Hydra]
     * [EVSimMark2 EV Simulator, Mark II]
-   
-
+    * [https://code.google.com/p/diy-openevse v4.2 DIY OpenEVSE project]
 
 
 
