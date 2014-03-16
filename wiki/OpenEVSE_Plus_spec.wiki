@@ -98,7 +98,7 @@ For those who would like to build or modify their own SMT version here is the BO
 || PILOT || TE Connectivity || 1776244-2 || A97996-ND ||
 || AC_LINE, AC_TEST ||	TE Connectivity || 1776275-2 ||	A98036-ND ||
 || RELAY || TE Connectivity ||	1776275-3 ||	A98037-ND ||
-|| R21, R22 ||	Panasonic - ECG	ERG-1SJ223 || P47KW-1BK-ND ||
+|| R21, R22 ||	Panasonic - ECG	|| ERG-1SJ223 || P47KW-1BK-ND ||
 || F1, F2 ||	Bel ||	RST 1 ||	507-1176-ND ||
 
 This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
