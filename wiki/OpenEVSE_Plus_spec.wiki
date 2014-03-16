@@ -68,5 +68,37 @@ http://farm9.staticflickr.com/8333/8421725538_1f0b3685fa_n.jpg
 
 Follow the Test procedure here: http://code.google.com/p/open-evse/wiki/EVSE_TESTING
 
+=Bill of Materials=
+For those who would like to build or modify their own SMT version here is the BOM.
+|| Part || Manufacture || Part Number || Digikey ||
+|| IC2 || Atmel || ATMEGA328P-AU || ATMEGA328P-AU-ND ||
+|| IC4 || Texas Instruments || LF353DR || 296-14587-1-ND ||
+|| IC3 || Fairchild Semi || LM358MX || LM358MXFSCT-ND ||
+|| Q1 || CTS-Frequency Controls || 403C35D16M00000 || CTX840CT-ND ||
+|| TVS || Littelfuse Inc. || P6SMB16CA || P6SMB16CALFCT-ND ||
+|| D1 || Diodes Inc. || AZ23C5V6-7-F ||	AZ23C5V6-FDICT-ND ||
+|| D2, D3,D4, D5 || Diodes Inc. || 1N4148W-7-F || 1N4148W-FDICT-ND ||
+|| Q2,Q3 || Diodes Inc. || MMBT2222A-7-F || MMBT2222A-FDICT-ND ||
+|| C4, C14 || AVX Corporation || TPSA106M010R1800 || 478-4086-1-ND ||
+|| C3 C7, C9, C10 ,C12 || AVX Corporation || 08055C104KAT2A || 478-1395-1-ND ||
+|| C13 || TDK Corporation || C2012X5R1E225K/1.25 || 445-7629-1-ND ||
+|| C5,C6 || AVX Corporation || 08053G105ZAT2A || 478-1426-1-ND ||
+|| C1,C2 || AVX Corporation || 08055A220JAT2A || 478-1308-1-ND ||
+|| R18 || Panasonic - ECG || ERJ-P06J101V || P100ADCT-ND ||
+|| R11, R17, R23, R24 || Panasonic - ECG || ERJ-6GEYJ331V || P330ACT-ND ||
+|| R1 || Panasonic - ECG || ERJ-6GEYJ621V || P620ACT-ND ||
+|| R20 || Panasonic - ECG || ERJ-6GEYJ102V || P1.0KACT-ND ||
+|| R12,R13 || Panasonic - ECG || ERJ-6GEYJ242V || P2.4KACT-ND ||
+|| R10, R19 || Panasonic - ECG || ERJ-6GEYJ103V	|| P10KACT-ND ||
+|| R15 || Panasonic - ECG || ERJ-6GEYJ203V || P20KACT-ND ||
+|| R5 || Panasonic - ECG || ERJ-6GEYJ563V || P56KACT-ND ||
+|| R6, R8, R9, R14, R16 || Panasonic - ECG || ERJ-6GEYJ104V || P100KACT-ND ||
+|| R7 || Panasonic - ECG || ERJ-6GEYJ204V || P200KACT-ND ||
+|| IC1, IC5 || Farchild Simi ||	MID400 || MID400-ND ||
+|| PILOT || TE Connectivity || 1776244-2 || A97996-ND ||
+|| AC_LINE, AC_TEST ||	TE Connectivity || 1776275-2 ||	A98036-ND ||
+|| RELAY || TE Connectivity ||	1776275-3 ||	A98037-ND ||
+|| R21, R22 ||	Panasonic - ECG	ERG-1SJ223 || P47KW-1BK-ND ||
+|| F1, F2 ||	Bel ||	RST 1 ||	507-1176-ND ||
 
 This evaluation board/kit is intended for use for ENGINEERING DEVELOPMENT, DEMONSTRATION, OR EVALUATION PURPOSES ONLY and is not considered to be a finished end-product fit for general consumer use.
