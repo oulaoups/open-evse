@@ -173,7 +173,7 @@ Divide Rb by Te to get volts per amp. Divide that value by (5/1024) to get units
 
 = Chassis construction =
 
-You might wish to follow along at [Hydra_illustrated_build the Hydra Illustrated Build] page.
+You might wish to follow along at [Hydra_Illustrated_build the Hydra Illustrated Build] page.
 
 You will need:
 
@@ -341,5 +341,5 @@ Currently, 2.2 is the recommended version.
   * [http://code.google.com/p/arduino-pwm-frequency-library PWM library]
   * [http://github.com/lincomatic/LiquidTWI2 LiquidTWI2 library]
   * [http://oshpark.com/profiles/nsayer OSHPark store for Hydra boards]
-  * [Hydra_illustrated_build the Hydra Illustrated Build]
+  * [Hydra_Illustrated_build the Hydra Illustrated Build]
   * HydraCourtesyNote - a page to share when using the Hydra in public
