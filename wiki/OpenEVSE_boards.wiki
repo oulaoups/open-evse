@@ -8,7 +8,7 @@
 || Current HW version || OpenEVSE Plus v2 || OpenEVSE Plus v2 || DIY OpenEVSE Plus || 
 || Firmware || pre-loaded || pre-loaded || pre-loaded ||
 || Power Supply || Integrated 4W || Integrated 4W || Integrated 4W ||
-|| Input Voltage || 90 - 264AC 50 - 60hz || 90 - 264AC 50 - 60hz || 90 - 264AC 50 - 60hz || 
+|| Input Voltage || 90 - 264AC @ 50 - 60hz ||  
 || Split Phase || Yes || Yes || Yes ||
 || 3 Phase || Yes || Yes || Yes ||
 || GFCI || Yes || Yes || Yes ||
