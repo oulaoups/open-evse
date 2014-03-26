@@ -7,7 +7,10 @@
 || Build time (board) || N/A || 10 - 15 min || 1 - 2 hours ||
 || Current HW version || OpenEVSE Plus v2 || OpenEVSE Plus v2 || DIY OpenEVSE Plus || 
 || Firmware || pre-loaded || pre-loaded || pre-loaded ||
-|| Power Supply || Integrated 4W || Integrated 4W || Integrated 4W || 
+|| Power Supply || Integrated 4W || Integrated 4W || Integrated 4W ||
+|| Input Voltage || 90 - 264AC 50 - 60hz || 90 - 264AC 50 - 60hz || 90 - 264AC 50 - 60hz || 
+|| Split Phase || Yes || Yes || Yes ||
+|| 3 Phase || Yes || Yes || Yes ||
 || GFCI || Yes || Yes || Yes ||
 || Diode Check || Yes || Yes || Yes ||
 || Ground/Stuck Relay Check || Yes || Yes || Yes ||
@@ -17,4 +20,3 @@
 || Serial ||  FTDI || FTDI || FTDI || 
 || Suited for || Most EVSEs || Builders who don't mind light soldering || Hardcore DIYers ||
 || Price || $165 || $125 || $75  ||
-
