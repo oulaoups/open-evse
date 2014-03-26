@@ -19,7 +19,7 @@ OpenEVSE Plus has been tested with:
 || Honda || Fit || || 6.6kw - 30A @ 240V || None ||
 || Mitsubishi || i-MiEV || || 3.3kW - 16A @ 240V || None ||
 || Nissan || LEAF || Timers - Supported || 6.6kW - 32A @ 240V || None ||
-|| Renault || Zoe || || 7.5kw 32A @ 230v || None ||
+|| Renault || Zoe || || 7.5kw 32A @ 230v / 3 Phase 22kw || None ||
 || Tesla || Roadster || with J1772 adapter || 16.8kW - 70A @ 240V || None ||
 || Tesla || Model S || with J1772 adapter || 10kW - 40A @ 240V or 20kw - 80A @ 240V || None ||
 || TH!NK || City EV || || 3.3kW - 16A @ 240V || None ||
