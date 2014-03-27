@@ -28,7 +28,6 @@
     * [MaxCurrent Set Default Current]
     * [OpenEVSE_WiFi Add WiFi to OpenEVSE]
     * [How_to_Solder Solder]   
-    * [AssemblePlusV2 Build EVSE Plus V2 kit]
     * [30A_OpenEVSE 30A OpenEVSE Plus]  
   * *Testing*
     * [EVSE_TESTING Testing your EVSE]
