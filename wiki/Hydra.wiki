@@ -288,6 +288,32 @@ The controller is fused for external crystal timing, and a 16 MHz crystal is cho
 
 DC-DC converter DC2 converts the incoming 12 volt power into 5 volts for the controller and the rest of the logic system.
 
+= Troubleshooting =
+
+Step 1 of troubleshooting the Hydra is removing the board from the chassis and disconnecting all of the wiring. If you have an ISP programmer capable of supplying 5 volt power, connect it up and observe the display. If you see nothing at all, then try adjusting the LCD contrast. If that doesn't work, then your LCD is not getting power.
+
+If you see a row of filled-in boxes on the top line of the LCD and nothing on the bottom, then the LCD is getting power, but either the controller is not running or the path between the controller and the i2c GPIO chip and/or the LCD is not functioning properly.
+
+If you see nothing on the LCD, but you do see the backlight start white, pause for a couple seconds, then turn red, then adjust the LCD contrast. If that doesn't work, then either the LCD contrast voltage is not getting to the LCD or the LCD is not getting power (other than on the backlight pins).
+
+If you see garbage on the LCD, but the backlight is working, then check the data and control logic pins between the i2c GPIO chip and the LCD.
+
+If you see the Hydra boot banner and version with a white backlight, and then a "DISCONNECTING" error in red, then the board is functioning properly. Connect a wire between the first and third screws on the inlet pilot/proximity terminal and you should see the backlight turn yellow and the display indicate that the inlet is "PAUSED." This all means that your board is functioning properly.
+
+If you cannot program your Hydra, check to make sure the crystal and its two loading caps are installed properly. This is particularly true if the fusing (in the Arduino IDE the "burn bootloader" step) succeeded, but subsequent programming fails. Once the ATMega controller is fused for a crystal, the crystal must be connected in order for the chip to work at all.
+
+If the board works out-of-circuit, then the remaining troubleshooting is fairly straightforward. If the board won't power up with 12 volts on the 12 volt input terminals, then check the 5V DC-DC conversion module and its associated components.
+
+If you have access to an EV simulator, then use it on each car plug to check that the different states are discovered properly. If it's an EV Sim Mark II, then you can also check that the outgoing pilot for each car is correct.
+
+If while a car is connected and charging the display consistently shows 0 mA of current draw, then check the current transformer coil(s) to make sure that they're connected properly and that only ONE hot wire (and it must be a hot wire) from each car (and it must be the correct car) passes through each CT. If that's not it, then check the associated ammeter components on the board.
+
+If neither car's pilot is being generated properly, check the +/- 12 volt regulated power supplies. If they're incorrect, check the associated output of the +/- 15 volt DC-DC converter to make sure it's correct. If the +/-12 volt power is correct, check the switch chip and the pilot output impedance resistors.
+
+If the inlet pilot and/or proximity are not recognized properly, check to make sure the ground terminal on the inlet block is connected to the main ground bus. The board, each plug and the inlet *must* share a common ground. For safety, the path between either plug's ground and the inlet ground must be constructed for minimum resistance and appropriate current carrying capacity.
+
+If the Hydra gets hot during use _stop using it immediately_ and check the high current wiring for heat damage. _Do not use or attempt to reuse heat damaged components._ The wiring is expected to be warmer than ambient temperature, but it must never be allowed to heat up higher than the temperature rating of any of the wires, their insulation or any of the component specifications along the high-current paths. If it is too hot to comfortably touch, then it is too hot.
+
 = Images =
 
 [http://www.kfu.com/~nsayer/hydra/hydra-20-back.jpg]
