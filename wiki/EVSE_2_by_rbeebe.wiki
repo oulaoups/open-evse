@@ -18,8 +18,10 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || Illuminated Momentary Button || Adafruit || $4.95 || 1 || http://www.adafruit.com/products/481||
 || Inline power connector (female) || Adafruit || $0.75 || 1 || http://www.adafruit.com/products/318||
 || Inline power connector (male) || Adafruit || $0.75 || 1 || http://www.adafruit.com/products/310||
+|| 30A 250V twist lock plug || Home Depot || $19.97 || 1 || http://www.homedepot.com/p/Pass-Seymour-30-Amp-250-Volt-Locking-Plug-L630PCCV3/100114938 ||
+|| 10-3 SJOOW rubber cord || Home Depot || $1.82 || 3 || http://www.homedepot.com/p/Southwire-10-3-SJOOW-Black-300V-By-the-Foot-55812599/204633009 ||
 
-|| Total || || $484.30 ||
+|| Total || || $509.73 ||
 
 _Notes:_
 
@@ -35,7 +37,7 @@ Because Diversified Stage stopped making their OpenEVSE enclosure, Chris decided
 
 http://rick.beebe.org/photo/EVSE2/enclosure.jpg
 
-This is what comes with it. There's an optional seal kit if you're going to be mounted it outdoors.
+This is what comes with it. There's an optional seal kit if you're going to be mounting it outdoors.
 
 http://rick.beebe.org/photo/EVSE2/enclosure_kit.jpg
 
@@ -49,14 +51,10 @@ All the parts mount nicely on the back panel of the enclosure. It's made of whit
 
 http://rick.beebe.org/photo/EVSE2/enclosure_panel.jpg
 
-The box is considerably smaller than the Diversified Stage one I used before. It makes it nice mounted on the wall but it's a little tight getting all the big fat wires in there. A little patience and they do fit, however.
+The box is considerably smaller than the Diversified Stage one I used before. That makes it nice mounted on the wall but it's a little tight getting all the big fat wires in there. A little patience and they do fit, however.
 
 http://rick.beebe.org/photo/EVSE2/enclosure_full.jpg
 
 Here's the completed unit.
 
 http://rick.beebe.org/photo/EVSE2/completed.jpg
-
-
-
-*not ready for publication*
