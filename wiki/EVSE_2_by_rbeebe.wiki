@@ -25,8 +25,15 @@ _Notes:_
 
 = Collect the parts =
 
-The first step was gathering all the materials. A Leviton 30-amp charge cable is on the left. Next to it is a 10-gauge rubber cable from Home Depot that I had left over from a home generator project. Inside that coil are 2 gland nuts, 2 fuse holders, a current transformer and a 30-amp relay. Upper right is a 30-amp twist lock plug and an illuminated button from Adafruit.
+The first step was gathering all the materials. A Leviton 30-amp charge cable is on the left. Most of the rest of the parts are from the OpenEVSE kit. A fuse holder with fuses, two 30-amp relays, gland nuts, current sensor, the OpenEVSE RGB LCD display and the OpenEVSE kit. On the upper right is a 2 piece power connector from Adafruit. The plans call for soldering the current sensor to the pins on the OpenEVSE but they wires aren't long enough and I wanted to make it removable. Next to the current sensor is an illuminated button from Adafruit.
 
-http://rick.beebe.org/photo/EVSE/IMG_1890.JPG
+http://rick.beebe.org/photo/EVSE2/parts.jpg
+
+= Assemble the kit =
+
+I elected to get the quickbuild kit which did mean some soldering. It's pretty easy, however, and all the difficult parts are already soldered on the board. Here's what the kit looks like.
+
+http://rick.beebe.org/photo/EVSE2/openevse.jpg
+
 
 *not ready for publication*
