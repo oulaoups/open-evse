@@ -14,7 +14,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || OpenEVSE 30A Charge Station Combo || OpenEVSE || $212.50 || 1 || http://openevse-store.myshopify.com/collections/frontpage/products/openevse-30a-charge-station-combo ||
 || J-1772 cable, 30 amps (A3435-PEV) || Leviton ||   $173.36  || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
 || OpenEVSE Custom Enclosure || OpenEVSE || $89.50 || 1 || http://openevse-store.myshopify.com/collections/frontpage/products/custom-enclosure ||
-|| Quick-Disconnect Adapter Set "cheaters" || Radio Shack || 2.49 || 2 || http://www.radioshack.com/product/index.jsp?productId=2103503&filterName=Cable+type&filterValue=Quick+disconnects ||
+|| Quick-Disconnect Adapter Set "cheaters" || Radio Shack || $2.49 || 2 || http://www.radioshack.com/product/index.jsp?productId=2103503&filterName=Cable+type&filterValue=Quick+disconnects ||
 || Illuminated Momentary Button || Adafruit || $4.95 || 1 || http://www.adafruit.com/products/481||
 || Inline power connector (female) || Adafruit || $0.75 || 1 || http://www.adafruit.com/products/318||
 || Inline power connector (male) || Adafruit || $0.75 || 1 || http://www.adafruit.com/products/310||
