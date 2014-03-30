@@ -1,7 +1,7 @@
 #summary Outdoor OpenEVSE using Hammond Enclosure and OpenEVSE Plus v2 with LCD and RTC.
 
 = Introduction =
-I have another page describing [EVSE_by_rbeebe building an OpenEVSE] for my Ford C-MAX Energi. I also own a 1998 Ford Ranger which was converted to a pure EV. I'm upgrading the charger to 240 volts and J1772 so I need another EVSE. The truck lives outside so I needed an external enclosure. I was going to use the Diversified Stage outdoor enclosure but they seem to have dropped out of that business. I hunted around an decided on a Hammond NEMA 4 box. I'll have to cut my own holes in it but it's made for outdoor use and wall mounting. It's also less expensive than the Diversified Stage box (not counting my labor of course)
+I have another page describing [EVSE_by_rbeebe building an OpenEVSE] for my Ford C-MAX Energi. I recently leased a Smart ED (Electric Drive) and needed a place to plug it in. Since the first OpenEVSE was fun to put together and less expensive than the commercial EVSE's I decided to buy and build another one.
 
 Since this is my second build I felt more comfortable with the process so I opted for an OpenEVSE kit. I'm glad that Chris is now selling the kit with all the ancillary parts to save hunting for them. And I ordered the same 25 foot Leviton cable and J1772 plug.
 
@@ -13,7 +13,7 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 || *Part* || *Source* || *Cost* || *Quantity* || *Link* ||
 || OpenEVSE 30A Charge Station Combo || Open EVSE || $212.50 || 1 || http://openevse-store.myshopify.com/collections/frontpage/products/openevse-30a-charge-station-combo ||
 || J-1772 cable, 30 amps (A3435-PEV) || Leviton ||   $$173.36  || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
-|| Hammond EJ863 Outdoor Enclosure || Mouser || $60.31 || 1 || http://www.mouser.com/Search/ProductDetail.aspx?R=EJ863virtualkey54600000virtualkey546-EJ863 ||
+|| OpenEVSE Custom Enclosure || Mouser || $89.50 || 1 || http://openevse-store.myshopify.com/collections/frontpage/products/custom-enclosure ||
 || Quick-Disconnect Adapter Set "cheaters" || Radio Shack || 2.49 || 2 || http://www.radioshack.com/product/index.jsp?productId=2103503&filterName=Cable+type&filterValue=Quick+disconnects ||
 || Illuminated Momentary Button || Adafruit || $4.95 || 1 || http://www.adafruit.com/products/481||
 
