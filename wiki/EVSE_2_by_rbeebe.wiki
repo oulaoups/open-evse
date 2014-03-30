@@ -3,7 +3,7 @@
 = Introduction =
 I have another page describing [EVSE_by_rbeebe building an OpenEVSE] for my Ford C-MAX Energi. I recently leased a Smart ED (Electric Drive) and needed a place to plug it in. Since the first OpenEVSE was fun to put together and less expensive than the commercial EVSE's I decided to buy and build another one.
 
-Since this is my second build I felt more comfortable with the process so I opted for an OpenEVSE kit. I'm glad that Chris is now selling the kit with all the ancillary parts to save hunting for them. And I ordered the same 25 foot Leviton cable and J1772 plug.
+Since this is my second build I felt more comfortable with the process so I opted for an OpenEVSE kit. I'm glad that Chris is now selling the kit with all the ancillary parts to save hunting for them. And I ordered the same 25 foot Leviton cable and J1772 plug. I had a Hammond waterproof box to put it in but before I finished it the OpenEVSE Custom Enclosure became available so I ordered that. I see he now has a complete kit with everything in it. That would have saved me some money.
 
 = High Voltage Schematic =
 http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
