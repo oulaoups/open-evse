@@ -48,7 +48,9 @@
     * [EVSE_LORDSn1per EVSE by Phillip Carlson]
     * [EVSE_by_4Dolio 30A portable EVSE by 4Dolio]
     * [EVSE_by_scutzi128 OpenEVSE 30A by Jacob Scutzlas]
-    * [EVSE_by_rbeebe OpenEVSE 30A by Rick Beebe]
+    * [EVSE_by_rbeebe OpenEVSE 30A DS enclosure by Rick Beebe]
+    * [EVSE_2_by_rbeebe OpenEVSE 30A OpenEVSE enclosure by Rick Beebe]
+
     * [YetAnotherOpenEVSE Portable EVSE by nsayer]
   * *Other related projects*
     * [Hydra The J1772 Hydra]
