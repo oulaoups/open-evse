@@ -11,13 +11,15 @@ http://open-evse.googlecode.com/files/EVSEwAdvanced_Power_supply.pdf
 
 = Parts List =
 || *Part* || *Source* || *Cost* || *Quantity* || *Link* ||
-|| OpenEVSE 30A Charge Station Combo || Open EVSE || $212.50 || 1 || http://openevse-store.myshopify.com/collections/frontpage/products/openevse-30a-charge-station-combo ||
-|| J-1772 cable, 30 amps (A3435-PEV) || Leviton ||   $$173.36  || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
-|| OpenEVSE Custom Enclosure || Mouser || $89.50 || 1 || http://openevse-store.myshopify.com/collections/frontpage/products/custom-enclosure ||
+|| OpenEVSE 30A Charge Station Combo || OpenEVSE || $212.50 || 1 || http://openevse-store.myshopify.com/collections/frontpage/products/openevse-30a-charge-station-combo ||
+|| J-1772 cable, 30 amps (A3435-PEV) || Leviton ||   $173.36  || 1 || http://store.leviton.com/dp/B00912OT00#.UD18QGjEV68 ||
+|| OpenEVSE Custom Enclosure || OpenEVSE || $89.50 || 1 || http://openevse-store.myshopify.com/collections/frontpage/products/custom-enclosure ||
 || Quick-Disconnect Adapter Set "cheaters" || Radio Shack || 2.49 || 2 || http://www.radioshack.com/product/index.jsp?productId=2103503&filterName=Cable+type&filterValue=Quick+disconnects ||
 || Illuminated Momentary Button || Adafruit || $4.95 || 1 || http://www.adafruit.com/products/481||
+|| Inline power connector (female) || Adafruit || $0.75 || 1 || http://www.adafruit.com/products/318||
+|| Inline power connector (male) || Adafruit || $0.75 || 1 || http://www.adafruit.com/products/310||
 
-|| Total || || $453.61 ||
+|| Total || || $484.30 ||
 
 _Notes:_
 
@@ -29,11 +31,32 @@ The first step was gathering all the materials. A Leviton 30-amp charge cable is
 
 http://rick.beebe.org/photo/EVSE2/parts.jpg
 
+Because Diversified Stage stopped making their OpenEVSE enclosure, Chris decided to source one for the OpenEVSE store. Since he did all the hard work I decided to buy one.
+
+http://rick.beebe.org/photo/EVSE2/enclosure.jpg
+
+This is what comes with it. There's an optional seal kit if you're going to be mounted it outdoors.
+
+http://rick.beebe.org/photo/EVSE2/enclosure_kit.jpg
+
 = Assemble the kit =
 
 I elected to get the quickbuild kit which did mean some soldering. It's pretty easy, however, and all the difficult parts are already soldered on the board. Here's what the kit looks like.
 
 http://rick.beebe.org/photo/EVSE2/openevse.jpg
+
+All the parts mount nicely on the back panel of the enclosure. It's made of white plastic and has all the holes pre-drilled. I used different stand-offs to mount the OpenEVSE itself so I had to modify the holes slightly. Otherwise it's plug and play.
+
+http://rick.beebe.org/photo/EVSE2/enclosure_panel.jpg
+
+The box is considerably smaller than the Diversified Stage one I used before. It makes it nice mounted on the wall but it's a little tight getting all the big fat wires in there. A little patience and they do fit, however.
+
+http://rick.beebe.org/photo/EVSE2/enclosure_full.jpg
+
+Here's the completed unit.
+
+http://rick.beebe.org/photo/EVSE2/completed.jpg
+
 
 
 *not ready for publication*
