@@ -19,7 +19,7 @@ The colors are:
 = Button Menu =
 The Menu options require an LCD and a button switch. The menu operates on Long press and short press.
 
-*Long press* - Press and hold down
+*Long Press* - Press and hold down
 
 *Short Press* - Press and release
 
