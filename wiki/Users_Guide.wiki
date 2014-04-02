@@ -9,11 +9,12 @@
 OpenEVSE will display various colors based on state if equipped with a Red - Green - Blue (RGB) Liquid Crystal Display (LCD) or a RGB Light Emitting Diode (LED).
 
 The colors are:
-White - OpenEVSE booting
-Green -  OpenEVSE ready - EV not connected
-Yellow - OpenEVSE ready - EV is connected
-Blue - OpenEVSE ready - EV is charging
-Red - OpenEVSE not ready Error state
+|| Color || OpenEVSE State || EV State || J1772 State ||
+|| White || Booting || N/A || N/A ||
+|| Green || Ready  || Not Connected || State A ||
+|| Yellow || Ready || Connected || State B ||
+|| Blue  || Charging || Charging || State C ||
+|| Red  || Error || N/A || Error ||
 
 = Button Menu =
 The Menu options require an LCD and a button switch. The menu operates on Long press and short press.
@@ -21,14 +22,14 @@ The Menu options require an LCD and a button switch. The menu operates on Long p
 Long press - Press and hold down
 Short Press - Press and release
 
-To access the menu press the button and hold it down until the menu displays.
+  * To access the menu press the button and hold it down until the menu displays.
 
-Scroll through the options with a short press the button.
+  * Scroll through the options with a short press the button.
 
-To change the value of an option Press and hold.
+  * Change the value of an option Press and hold.
 
-To scroll through the available values for that particular option short press.
+  * Scroll through the available values for that particular option short press.
 
-To select the desired value Press and hold.
+  * Select the desired value Press and hold.
 
  
