@@ -1,8 +1,24 @@
 #summary Users Guide for OpenEVSE Charging stations.
 
-= Introduction =
+= Specifications =
 
-
+|| || Built || Quick Kit || DIY Through Hole ||
+|| Picture ||http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7674_medium.jpg?186||http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7705_medium.jpg?186|| http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8024_medium.jpg?186 ||
+|| || Built || Quick Kit  || DIY kit ||
+|| Build time (board) || N/A || 10 - 15 min || 1 - 2 hours ||
+|| Current HW version || OpenEVSE Plus v2 || OpenEVSE Plus v2 || DIY OpenEVSE Plus || 
+|| Firmware || pre-loaded || pre-loaded || pre-loaded ||
+|| Power Supply || Integrated 4W || Integrated 4W || Integrated 4W ||
+|| Input Voltage || 90 - 264AC @ 50 - 60hz ||  90 - 264AC @ 50 - 60hz || 90 - 264AC @ 50 - 60hz || 
+|| Split Phase || Yes || Yes || Yes ||
+|| 3 Phase || Yes || Yes || Yes ||
+|| GFCI || Yes || Yes || Yes ||
+|| Diode Check || Yes || Yes || Yes ||
+|| Ground/Stuck Relay Check || Yes || Yes || Yes ||
+|| Size || 2.2"x 1.75"x 1" || 2.2"x 1.75"x 1" || 3.32" x 2.55" x 1" ||
+|| IO pins || I2C and FTDI || I2C and FTDI || I2C and FTDI ||
+|| Programmer || ISP || ISP || ISP ||
+|| Serial ||  FTDI || FTDI || FTDI || 
 
 = LCD =
 ==Colors==
