@@ -19,8 +19,9 @@ The colors are:
 = Button Menu =
 The Menu options require an LCD and a button switch. The menu operates on Long press and short press.
 
-Long press - Press and hold down
-Short Press - Press and release
+*Long press* - Press and hold down
+
+*Short Press* - Press and release
 
   * To access the menu press the button and hold it down until the menu displays.
 
