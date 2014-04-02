@@ -16,6 +16,8 @@
     * [OpenEVSE_shield_guide DIY - OpenEVSE Arduino Shield]
     * [EVSimulator OpenEVSE EV Simulator]
     * [30A_OpenEVSE Combo - 30A OpenEVSE]
+  * *Users Guide*
+    * [Users_Guide OpenEVSE Users Guide]
   * *Firmware*
     * [https://github.com/lincomatic/open_evse Stable Firmware]
     * [https://github.com/lincomatic/open_evse/tree/development BETA Firmware]
