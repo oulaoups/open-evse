@@ -1,0 +1,34 @@
+#summary Users Guide for OpenEVSE Charging stations.
+
+= Introduction =
+
+
+
+= LCD =
+==Colors==
+OpenEVSE will display various colors based on state if equipped with a Red - Green - Blue (RGB) Liquid Crystal Display (LCD) or a RGB Light Emitting Diode (LED).
+
+The colors are:
+White - OpenEVSE booting
+Green -  OpenEVSE ready - EV not connected
+Yellow - OpenEVSE ready - EV is connected
+Blue - OpenEVSE ready - EV is charging
+Red - OpenEVSE not ready Error state
+
+= Button Menu =
+The Menu options require an LCD and a button switch. The menu operates on Long press and short press.
+
+Long press - Press and hold down
+Short Press - Press and release
+
+To access the menu press the button and hold it down until the menu displays.
+
+Scroll through the options with a short press the button.
+
+To change the value of an option Press and hold.
+
+To scroll through the available values for that particular option short press.
+
+To select the desired value Press and hold.
+
+ 
