@@ -64,10 +64,10 @@ You will need:
 
 
  
-http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8204_1024x1024.jpg
+http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0711_1024x1024.jpg
 
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8208_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8208_medium.jpg]
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8209_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8209_medium.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0711_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0711_medium.jpg]
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0712_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0712_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8210_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8210_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8212_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8212_medium.jpg]
 
