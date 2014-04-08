@@ -60,14 +60,13 @@ You will need:
   * 4 - 1/4" Nylon Spacers
   * 18AWG - 20AWG wire 300V+
 
-<b><font color=red>Time Saver</font></b> - Pre-crimped Quick Connect terminals are avaliable in the [http://openevse-store.myshopify.com/ OpenEVSE Store].
 
 
  
 
 http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0731_1024x1024.JPG
 
-
+<b><font color=blue>Tip </font></b> - Click on Photos in this guide for larger versions.
 
   * Your enclosure can be built with the AC Cord Left J1772 Right or opposite. Determine which works best for your installation and flip the mounting plate appropriately.
 
