@@ -1,0 +1,44 @@
+#summary The EVSE variant of the Hydra
+= Introduction =
+
+The Hydra began its life as an EVSE adjunct - something you plug into a normal EVSE to allow it to be shared between two vehicles. In and of itself, that's a useful thing for some, but others simply have a single 240V dedicated circuit and two cars. For them, the EVSE + Hydra is more expensive than is required simply because it involves buying a J1772 inlet and cable whose entire purpose is to remain connected to each other in perpetuity.
+
+With only a few modifications, the Hydra can serve exactly that purpose.
+
+= Hardware changes =
+
+Hydra v3.0 is the EVSE variant. It's the same as the v2.2 board except that the inlet handling systems have been replaced by a single GFI circuit and an RTC chip and battery. There is only a single GFI to handle the entire system, meaning that a ground fault on either car will fault *both* cars. GFI trips are so rare that in practice there is not a lot to worry about.
+
+Compared to OpenEVSE, the Hydra EVSE differs in the following ways:
+
+  * The biggest, most obvious difference is the presence of two car connections.
+  * The ADVPWR system from OpenEVSE is not present, and there is no L1/L2 detection, nor is there open-ground or stuck relay detection. There is no attempt to discern power or voltage. The Hydra firmware has always been, and remains, current-centric.
+  * The relays are DPST. There is only a single digital output dedicated to the power control for each car.
+  * In the reference design, there are three CT coils - one serves the GFI, and the other two are individual car ammeters. This allows the Hydra to attempt to protect against over-current excursions.
+  * The AC/DC converter is mounted off-board, typically below the logic board. It is +12 VDC @ 0.9A (10 watts). +5 and +/- 15 volts are generated with on-board DC-DC converter modules.
+
+= Wiring =
+
+[http://www.kfu.com/~nsayer/hydra/hydra_wiring_evse.png]
+
+Compared to the original Hydra variant, the EVSE variant obviously lacks inlet handling. Instead, there is a third CT coil through which you pass both of the inlet hot lines. This must be done _before_ they split to go to each car. The two hot lines, but _not_ the ground must pass through the CT, and in the same direction. Also, a small 22 gauge wire must be looped through and around the CT coil three times and connect to the GFI test pin and ground. At startup, the Hydra will pulse this line and attempt to detect a GFI interrupt to insure that the GFI system is operating properly.
+
+There is also an RTC chip on the board. This can be used to set up time-of-use schedules.
+
+There is a single button. Like OpenEVSE, this button enters the menu system where the inlet and outlet currents can be set, along with the date/time and any desired on/off scheduling. You can also change the operating mode (shared or sequential).
+
+The inlet current is the maximum current that the Hydra may use as a whole. Generally, this is limited by the size of the circuit breaker supplying the Hydra and the gauge of wire used to feed it. Remember that in general you must derate your circuit breaker by 20% because EV charging is a continuous duty cycle service. So if you have a 40A circuit breaker, your maximum inlet current is 32A.
+
+The outlet current is the maximum current that the Hydra may supply to any one car. This is limited by the relays, J1772 cables and plugs that you pick.
+
+The reference design is rated for 40A inlet current (that is, a 50A circuit breaker) and 30A outlet current. This means that it can supply 20A to both cars simultaneously or 30A to a single car.
+
+For a 50A circuit, the NEC mandates AWG 8 cable with 75ºC insulation. This should be available as SOOW (that is, rubber insulated, oil, water and weather resistant cable) cable, which can be fed through a cable gland on the Hydra chassis and connected to a NEMA 6-50 or 14-50 plug on the other end. Run the two hot lines through the GFI coil (it may be a tight fit, but it should just fit) and into a Cooper-Bussman 16220-2 bus module, one into each LINE side.
+
+On the load side of each, you'll run a 10 gauge wire from each hot group to each relay, plus a 22 gauge wire from each hot group to the 12 VDC power supply. You'll also use 22 gauge wire from the power supply to the 12 VDC input on the logic board.
+
+From each J1772 cable, run each of the hot lines to the two load sides of one relay, passing _one_ of the hot lines through that same car's ammeter CT. Remember: run _both_ power input hot lines through the GFI coil, but only _one_ outlet hot line through the ammeter coil. It does not matter which hot line you choose for the ammeter. Run the pilot wire for the same car to the pilot terminal for the appropriate car. If your J1772 cable includes a proximity wire, leave it unconnected. If you're in Europe and have IEC 62196 sockets with a Proximity Pilot wire, leave that disconnected as well.
+
+Run the power cable's ground wire, each of the two car ground wires and a wire from one of the ground pins on one of the car connectors on the logic board to a ground bus.
+
+Connect each ammeter CT coil up to the appropriate car's CT connector. Connect each car's relay coil up to the appropriate car's relay terminal. Connect the UI switch to the logic board, and install a CR1220 battery in the RTC backup battery retainer.
