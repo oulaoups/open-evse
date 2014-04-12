@@ -1,0 +1,21 @@
+#summary Using AC powered contactors with OpenEVSE
+
+= Introduction =
+
+The base design for OpenEVSE v2 and Hydra boards calls for 12 volt DC relays to turn the vehicle power on and off. For higher powered EVSE designs, however, high current capacity relays with 12 volt DC coils are rare. More often you find line powered relays, also known as contactors. In order to use contactors with OpenEVSE or Hydra boards, you must use a driver to allow the low voltage DC to switch high voltage AC power on and off.
+
+= Details =
+
+There are two ways to adapt contactors. You can either use a pilot relay or you can use a semiconductor adapter, such as a solid-state relay or a triac.
+
+In the [http://store.geppettoelectronics.com Geppetto Electronics store] there is a contactor driver board that can be used to drive a contactor from a 12 volt DC signal.
+
+The board has a small terminal block and a larger terminal block. The board is also divided (across an optoisolator) between low voltage and high voltage sides. Be aware that line voltage is present throughout the high voltage side of the board. Do not touch the board while line voltage is connected.
+
+The low voltage terminals are polarized, unlike the relays that would normally be used. For OpenEVSE v2 boards, the common terminal of the relay output is positive and the two independent outputs are negative. For Hydra boards, the top terminal (furthest from the pilot block) is positive, and the other terminal is negative.
+
+The high voltage terminals act like a switch. Wire one coil terminal of the contactor directly to one of the power supply terminals. Wire the other to one of the terminals on the adapter board. Wire the other terminal on the adapter board to the other power supply terminal.
+
+Be sure to mount the board securely so that nothing can potentially come in contact with the board.
+
+The board is thermally designed to switch up to 100 mA at 240VAC (24 watts), which should be plenty for a contactor coil.
