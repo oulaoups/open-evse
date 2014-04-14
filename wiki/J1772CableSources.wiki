@@ -3,16 +3,18 @@
 
 = Sources =
 
+*United States*
 || Part Number || Description || Manufacturer || Level || Max Current || UL || Length || Price || Link ||
 || A3435-PEV || J1772 || Leviton || L1/L2 || 30A || Yes || 20' || $173.36 + free shipping || http://store.leviton.com/Compliant-Electric-Vehicle-Connector-A3435-PEV/dp/B00912OT00 <br /> Pictures of: http://pics.256.com/2012/20120908_j1772/ ||
 || A2055-PEV || J1772 || Leviton || L1/L2 || 15A || Yes || 25' || $134.14 || http://store.leviton.com/Electric-Vehicle-Charge-Connector-A2055-PEV/dp/B009UCE7EE#.URHRL333JgE ||*
-|| 75T6614 || Plug only || Multicomp || L1/L2 || 32A || RoHS || none || $156.32 || http://www.newark.com/multicomp/dsi-ev32p-nc/plug-ev-j1772-32a/dp/75T6614 ||
-|| 75T6615 ||  Plug and cable || Multicomp || L1/L2 || 32A || RoHS || 3m || $205.98 || http://www.newark.com/multicomp/dsi-ev32p-3c/plug-ev-j1772-32a-3m-cable/dp/75T6615?Ntt=75T6615 ||
 || || Plug with 8m Cord || Dostar || L1/L2 || 32A || No || 8m (26 feet) || $149 + ~$40 shipping || http://www.emotorwerks.com/products/online-store/product/show/38-j1772-plug-32a-wire-8-meters ||
-|| || Plug alone || Dostar || L1/L2 || 50A || No || none || $155 || http://www.tucsonev.com/index.html ||
-|| || Plug with Cord || Dostar || L1/L2 || 30A || No || 20' || $200 || http://www.tucsonev.com/index.html ||
-|| || Plug with Cord || Dostar || L1/L2 || 50A || No || 26' || $225 || http://www.tucsonev.com/index.html ||
+|| || Plug alone || Dostar || L1/L2 || 50A || No || none || $110 || http://www.tucsonev.com/index.html ||
+|| || Plug with Cord || Dostar || L1/L2 || 30A || No || 20' || $140 || http://www.tucsonev.com/index.html ||
+
+
+*International*
 || || J-1772 with 3m cord || EV Power || L1/L2 || 32A ||  || 3m || $145 || http://ev-power.com.au/webstore/index.php/sae-charging-plugs-sockets/ev-charging-plug-sae-j1772.html ||
+|| 75T6615 ||  Plug and cable || Multicomp || L1/L2 || 32A || RoHS || 3m || $205.98 || http://www.newark.com/multicomp/dsi-ev32p-3c/plug-ev-j1772-32a-3m-cable/dp/75T6615?Ntt=75T6615 ||
 
 == Coupon Codes ==
   *  thankyou - 10% off Leviton Store
