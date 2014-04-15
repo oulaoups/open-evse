@@ -6,7 +6,7 @@
 *United States*
 
 || Part Number || Description || Manufacturer || Level || Max Current || UL || Length || Price || Link ||
-|| A3435-PEV || J1772 || Leviton || L1/L2 || 30A || Yes || 20' || $173.36 + free shipping || http://store.leviton.com/Compliant-Electric-Vehicle-Connector-A3435-PEV/dp/B00912OT00 <br /> Pictures of: http://pics.256.com/2012/20120908_j1772/ ||
+|| A3435-PEV || J1772 || Yakazi || L1/L2 || 30A || Yes || 20' || $173.36 + free shipping || http://store.leviton.com/Compliant-Electric-Vehicle-Connector-A3435-PEV/dp/B00912OT00 <br /> Pictures of: http://pics.256.com/2012/20120908_j1772/ ||
 || A2055-PEV || J1772 || Leviton || L1 || 15A || Yes || 25' || $99.00 || http://www.amazon.com/Leviton-A2055-PEV-120-Volt-Electric-Connector/dp/B00CJWSV0S/ref=sr_1_1?ie=UTF8&qid=1397444500&sr=8-1&keywords=j1772 ||*
 || || Plug with 8m Cord || Dostar || L1/L2 || 32A || No || 8m (25 feet) || $149 + ~$40 shipping || http://www.emotorwerks.com/products/online-store/product/show/38-j1772-plug-32a-wire-8-meters ||
 || || Plug with 8m Cord || Dostar || L1/L2 || 50A (see *note) || No || 8m (25 feet) || $219 + ~$40 shipping || http://www.emotorwerks.com/products/online-store/product/show/38-j1772-plug-32a-wire-8-meters ||
