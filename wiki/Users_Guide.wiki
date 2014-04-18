@@ -114,6 +114,8 @@ OpenEVSE checks ground an power-up and constantly monitors for presence of prope
 ==Ground Fault Interrupt==
 OpenEVSE includes mandatory Ground Fault Interruption with a 20ma trip in all models available for protection against electric shock of personnel. *(NEC 625.22) (SAE J1772) (UL 2231)*
 
+After each GFCI event OpenEVSE will retry charging up to 4 times after a 15 minute delay per event. *(UL 2231)* 
+
 ==Stuck Relay detection==
 OpenEVSE checks relay contacts on Power up to ensure relays are functioning properly and providing proper Power interlock.
 
