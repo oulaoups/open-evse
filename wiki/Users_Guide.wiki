@@ -93,11 +93,15 @@ OpenEVSE includes an interlock that de-energizes the electric vehicle connector 
 OpenEVSE supports the SAE J1772 pilot signal which provides an automatic means to de-energize the cable conductors and electric vehicle connector upon exposure to strain that could result in either cable rupture or separation of the cable from the electric connector and exposure of live parts (NEC 625.19) (SAE J1772)
 
 ==Self Check==
-OpenEVSE performs a Self-Testing sequence during start up to ensures unit is working properly and safely upon power-up OpenEVSE checks for: 
+OpenEVSE performs a Self-Testing sequence during start up to ensures unit is working properly and safely upon power-up OpenEVSE checks for:
+ 
 
   * GFCI--Ability to respond to a 20mA ground fault
+
   * Missing Ground
+
   * Welded Relay Contact Monitor
+
 
 ==Ground Monitoring==
 
