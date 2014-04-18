@@ -107,6 +107,7 @@ http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ESD_%28Susceptible%29.s
  
 ==Capacitors==
   * Solder the 0.1uf Capacitors (marked 104) in the positions labled C4 and C8. Trim excess lead.
+  * Solder the 22pf Capacitors (marked 220) in the position labeled C1 and C2. Trim excess lead.
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8969_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8969_medium.jpg]
 
