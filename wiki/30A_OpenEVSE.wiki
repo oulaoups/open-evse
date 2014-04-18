@@ -78,16 +78,36 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0731_1024x1024.JPG
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0712_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0712_medium.JPG]
 
+  * Mount Relays and Fuse Block to plate with 5/16" 4-40 screws and lock nuts 
+  * Mount Ground block 
+  * Mount OpenEVSE Board elevated with 1/4" spacers, screws on top side locknuts on bottom to avoid interference with components on OpenEVSE board.
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0742_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0742_medium.JPG]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0741_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0741_medium.JPG]
 
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0739_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0739_medium.JPG]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0738_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0738_medium.JPG]
+
+  * Connect Fuse block screw terminal to Relay input with 10 AWG wire for 30A Charge Station 
+  * Use quick connect terminal on the relay side only, screw terminal on fuse block
+
+
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0737_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0737_medium.JPG]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0736_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0736_medium.JPG]
+
+  * Connect AC Input terminals on OpenEVSE board to the fuse block with 1/4" low current QC terminals (salmon color)
+
+
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0735_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0735_medium.JPG]
+
+  * Connect OpenEVSE ground (Protective Earth) to the Ground (Protective Earth) Block 
+
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0734_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0734_medium.JPG]
+
+  * Connect Relay coil terminals with small Quick connect terminals with wire connecting to OpenEVSE board relay output. (middle terminal is common and goes to one coil terminal on each relay)
+
+<b><font color=blue>Tip </font></b> - Click on Photos in this guide for larger versions.
+
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0733_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0733_medium.JPG]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0732_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0732_medium.JPG]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0731_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0731_medium.JPG]
@@ -145,6 +165,15 @@ The final step in to connect the AC wiring and the J1772 cord.
 
 <b><font color=red> Note </font></b> - For clarity the images were taken without the enclosure. This stage should be built within the enclosure.
 
+==Dual Relay 12vDC Relays SPST==
+http://open-evse.googlecode.com/files/OpenEVSE_Dual_SPST_relay.jpg
+
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8622_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8622_medium.jpg]
+
+*Note*- Crimp the wires for both AC-TEST and J1772 out into high-quality QC terminals.
+
+[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8623_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8623_medium.jpg]
+
 ==Single Relay 12vDC coil DPST==
 http://open-evse.googlecode.com/files/OpenEVSE_SingleDPST_relay.jpg
 
@@ -153,10 +182,3 @@ http://open-evse.googlecode.com/files/OpenEVSE_SingleDPST_relay.jpg
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8364_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8364_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8365_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8365_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8366_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8366_medium.jpg]
-
-==Dual Relay 12vDC Relays SPST==
-http://open-evse.googlecode.com/files/OpenEVSE_Dual_SPST_relay.jpg
-
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8622_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8622_medium.jpg]
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8623_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8623_medium.jpg]
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8633_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8633_medium.jpg]
