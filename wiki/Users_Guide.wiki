@@ -127,5 +127,5 @@ OpenEVSE verify the pilot signal integrity by checking the Electric Vehicle Diod
 ==Ventilation Required==
 OpenEVSE checks for the Ventilation required request from Electric Vehicles. OpenEVSE will deny charging if ventilation is not available or allow if charging station is equipped to activate ventilation. *(SAE J1772)*
 
-*Note* - This safety feature is commonly left out of commercial charging stations 
+*Note* - This safety feature is commonly left out of commercial charging stations or implemented with a warning label only
  
