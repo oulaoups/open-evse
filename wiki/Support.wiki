@@ -14,6 +14,16 @@ The OpenEVSE group is a great resource to ask questions. It is monitored by all 
 
 https://groups.google.com/forum/?fromgroups#!forum/openevse
 
+=OpenEVSE hardware bought from OpenEVSE Store=
+If you have a question or problem with your order. Both Email and Phone support are available.
+
+==Email==
+Please send an email to chris1howell83@gmail.com.
+
+==Phone==
+Phone support is available upon request. Please send an E-mail to the address above with a summary of the problem and contact information. 
+
+ 
 = EV specific Forums =
 Most EV Forums have a topic dedicated to DIY EVSE or OpenEVSE. These are a good resource for your particular application.
 
