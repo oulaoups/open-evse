@@ -42,3 +42,5 @@ From each J1772 cable, run each of the hot lines to the two load sides of one re
 Run the power cable's ground wire, each of the two car ground wires and a wire from one of the ground pins on one of the car connectors on the logic board to a ground bus.
 
 Connect each ammeter CT coil up to the appropriate car's CT connector. Connect each car's relay coil up to the appropriate car's relay terminal. Connect the UI switch to the logic board, and install a CR1220 battery in the RTC backup battery retainer.
+
+[http://www.kfu.com/~nsayer/hydra/hydra_3_0.jpg]
