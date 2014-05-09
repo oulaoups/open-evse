@@ -32,7 +32,10 @@ Compared to OpenEVSE, the Hydra EVSE differs in the following ways:
   * 2 J1772 cable/plug assemblies.
   * a 12 volt 10 watt DC power supply - CUI VSK-S10-12UA-T recommended.
   * 4 4-40 2" standoffs to mount the logic board.
+  * a 4 position grounding bus.
   * A CR-1220 battery to preserve the clock during power outages.
+  * A foot each of suitably sized (for your outlet current - 10 AWG for 30 amp) red and black wire. You can scavenge that by trimming the J1772 cables.
+  * A foot each of 22 gauge red, black, yellow and green wire.
   * various 6-32 and 4-40 nuts, bolts and washers.
 
 = Wiring =
@@ -56,6 +59,8 @@ For a 50A circuit, the NEC mandates AWG 8 cable with 75ºC insulation. This shou
 On the load side of each, you'll run a 10 gauge wire from each hot group to each relay, plus a 22 gauge wire from each hot group to the 12 VDC power supply. You'll also use 22 gauge wire from the power supply to the 12 VDC input on the logic board.
 
 From each J1772 cable, run each of the hot lines to the two load sides of one relay, passing _one_ of the hot lines through that same car's ammeter CT. Remember: run _both_ power input hot lines through the GFI coil, but only _one_ outlet hot line through the ammeter coil. It does not matter which hot line you choose for the ammeter. Run the pilot wire for the same car to the pilot terminal for the appropriate car. If your J1772 cable includes a proximity wire, leave it unconnected. If you're in Europe and have IEC 62196 sockets with a Proximity Pilot wire, leave that disconnected as well.
+
+The GFI CT terminal has three positions on it. Two are for the GFI coil itself, and the third is for a test wire. Run a 22 gauge yellow wire from the test position through the GFI CT, looping it through twice, and then return it to the CT terminal opposite the test terminal (that is, not the middle terminal). The Hydra will test the GFI circuit every time it starts up. The Hydra will not operate if the GFI test fails.
 
 Run the power cable's ground wire, each of the two car ground wires and a wire from one of the ground pins on one of the car connectors on the logic board to a ground bus.
 
@@ -95,3 +100,5 @@ If you choose to edit the events, then you will go to a similar event editing sc
 When in shared mode, the Hydra will split the available current in half if both cars wish to charge simultaneously. If only one car wants power, then it will be given 100%.
 
 In sequential mode, only one car at a time is given power. When that car finishes, the pilot is offered to the other car. If neither car wishes power, then the "offer" will switch between the two cars every five minutes (in case one of them changes its mind).
+
+The Hydra will remember (in the ATMega's EEPROM) the menu settings, events and if in sequential mode, the last car that was "it," and restore all of that if there's a power outage. However, the Hydra will always come up "unpaused" after a power outage.
