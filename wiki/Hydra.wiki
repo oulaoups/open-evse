@@ -1,5 +1,7 @@
 #summary The J1772 "Hydra" - Charge 2 EVs from one EVSE.
 
+For the page on the standalone variant of the Hydra, go [Hydra_EVSE here].
+
 = The Hydra =
 
 We have 6 L2 J1772 chargers and a CHAdeMO at work. For various reasons, my colleagues are more politically attuned to EV ownership than the general population, even here in the SF Bay area. So those chargers are oversubscribed. What makes it worse is that most of those cars are Leafs, which only charge from those L2 chargers at 15A. Since the chargers are 30A, half the potential is being wasted. Why they don't just use the CHAdeMO is beyond me.
