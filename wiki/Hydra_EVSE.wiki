@@ -17,6 +17,24 @@ Compared to OpenEVSE, the Hydra EVSE differs in the following ways:
   * In the reference design, there are three CT coils - one serves the GFI, and the other two are individual car ammeters. This allows the Hydra to attempt to protect against over-current excursions.
   * The AC/DC converter is mounted off-board, typically below the logic board. It is +12 VDC @ 0.9A (10 watts). +5 and +/- 15 volts are generated with on-board DC-DC converter modules.
 
+= Parts list =
+
+  * A Hydra EVSE board, assembled.
+  * An AdaFruit waterproof momentary button (from the OpenEVSE store - ask Chris to use longer wires).
+  * A Polycase WC-40 chassis and a WX-42 internal panel.
+  * 2 CG-16 cable glands
+  * A power cable and plug (if necessary) to suit your installation.
+  * 1 CG-17 cable gland if you're using 8 AWG SOOW for your power cable, or another CG-16 for 10 AWG.
+  * A Cooper Bussmann 16220-2 power distribution module.
+  * 2 CT coils - CR Magnetics 8420-1000 recommended.
+  * 1 GFI CT coil - CR magnetics 8420-1000-G recommended (yes, it's different from the other two).
+  * 2 DPST relays with 12 VDC coils rated for your desired outlet power - The reference design uses TE T92P7D22-12 for 30A. If you want to use line powered contactors instead, then you will need to use contactor adapter boards to allow 12 volt DC to control them.
+  * 2 J1772 cable/plug assemblies.
+  * a 12 volt 10 watt DC power supply - CUI VSK-S10-12UA-T recommended.
+  * 4 4-40 2" standoffs to mount the logic board.
+  * A CR-1220 battery to preserve the clock during power outages.
+  * various 6-32 and 4-40 nuts, bolts and washers.
+
 = Wiring =
 
 [http://www.kfu.com/~nsayer/hydra/hydra_wiring_evse.png]
@@ -44,3 +62,36 @@ Run the power cable's ground wire, each of the two car ground wires and a wire f
 Connect each ammeter CT coil up to the appropriate car's CT connector. Connect each car's relay coil up to the appropriate car's relay terminal. Connect the UI switch to the logic board, and install a CR1220 battery in the RTC backup battery retainer.
 
 [http://www.kfu.com/~nsayer/hydra/hydra_3_0.jpg]
+
+= User's guide =
+
+The Hydra is controlled by the single push-button. There are two "gestures" you can use - shorter than a quarter second (a "short push") or longer (a "long push").
+
+Normally the display will show the time and operating mode on the top line, and the state of the two cars on the bottom line. The backlight colors are:
+
+  * Yellow - paused
+  * Green - Neither car is charging
+  * Blue - A single car is charging
+  * Violet - Both cars are charging
+  * Red - One or both cars are in an error state
+
+A short push on the button will toggle the pause mode. If a timer event has paused the Hydra, then you may override that with a short push.
+
+A long push will enter the menu system, but only when no cars are connected to the plugs. The menu system operates with short pushes to select among currently displayed available options, and a long push to accept the currently chosen option and move to the next menu item. The default (or currently selected) item will be marked with a "+" sign when cycling through the choices.
+
+The menu items:
+
+  * Operating mode - either shared or sequential
+  * Total available current
+  * Set clock? Yes or no
+  * Use DST (Daylight Savings Time)? Yes or no
+  * Edit events? Yes or no
+  * Exit menus? Yes or no
+
+If you choose to set the clock, then you will go into a clock-setting screen. The time will show with the hour blinking. Use short pushes to change the blinking digit and long pushes to advance to the next digit. Once you've set the current time and date, perform a long push at 0 seconds and the time will be set and the menu system exited. If you have not yet enabled DST and wish to, then you should set the time to your "winter" time. Enabling DST will advance the time during Summer.
+
+If you choose to edit the events, then you will go to a similar event editing screen. The first thing that will be blinking will be the event (1-4) you wish to edit. As you cycle through the event numbers the settings for each will be displayed. After event 4 there's an "Exit" option to exit the event editor. If you long push to select an event to edit, then the hour of the event time will blink, followed by the minutes and meridian (AM or PM). After that are 7 day-of-week flags. If the flag shows a "-" then the event will not fire on that day. If the letter for the day of the week shows, then the event will fire. Lastly, there's a single letter for the event action. "G" means "Go" - the Hydra will "unpause" at that time if paused. "S" means "Stop" - the hydra will pause at that time if unpaused. "N" means "Nothing." The event will do nothing at all.
+
+When in shared mode, the Hydra will split the available current in half if both cars wish to charge simultaneously. If only one car wants power, then it will be given 100%.
+
+In sequential mode, only one car at a time is given power. When that car finishes, the pilot is offered to the other car. If neither car wishes power, then the "offer" will switch between the two cars every five minutes (in case one of them changes its mind).
