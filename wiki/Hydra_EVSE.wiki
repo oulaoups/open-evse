@@ -102,3 +102,18 @@ When in shared mode, the Hydra will split the available current in half if both 
 In sequential mode, only one car at a time is given power. When that car finishes, the pilot is offered to the other car. If neither car wishes power, then the "offer" will switch between the two cars every five minutes (in case one of them changes its mind).
 
 The Hydra will remember (in the ATMega's EEPROM) the menu settings, events and if in sequential mode, the last car that was "it," and restore all of that if there's a power outage. However, the Hydra will always come up "unpaused" after a power outage.
+
+The possible error codes:
+
+  * G - Ground fault detected.
+  * E - Pilot state error (including missing diode).
+  * O - Overcurrent event detected.
+  * T - Illegal transition (car attempted to request charging when it was not offered a pilot).
+
+If a car enters an error state for whatever reason, the error can be cleared by disconnecting and reconnecting that car.
+
+The inlet current is settable in the menu system, but the maximum outlet current (the maximum current offered each car separately) is compiled into the firmware. This is because it is a consequence of choices made during assembly and not reliant on outside factors, like circuit breakers. The default maximum outlet current is 30A. If you wish to change that, you must edit the firmware source and recompile.
+
+The daylight savings time rules that are compiled into the firmware are the U.S. rules. If you live elsewhere, you'll need to customize those rules for your jurisdiction if you wish to use DST.
+
+If you wish to display the time using 24 hour time instead of AM/PM, then that too is a compile-time option.
