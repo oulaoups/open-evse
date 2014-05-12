@@ -3,7 +3,7 @@
 
 The Hydra began its life as an EVSE adjunct - something you plug into a normal EVSE to allow it to be shared between two vehicles. In and of itself, that's a useful thing for some, but others simply have a single 240V dedicated circuit and two cars. For them, the EVSE + Hydra is more expensive than is required simply because it involves buying a J1772 inlet and cable whose entire purpose is to remain connected to each other in perpetuity.
 
-With only a few modifications, the Hydra can serve exactly that purpose.
+With only a few modifications, the Hydra can serve exactly that purpose by itself.
 
 = Hardware changes =
 
