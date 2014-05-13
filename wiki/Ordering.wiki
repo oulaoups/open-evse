@@ -3,6 +3,3 @@
 
 = OpenEVSE boards =
 OpenEVSE boards, parts and accessories can be ordered from the [http://openevse-store.myshopify.com/ OpenEVSE Store] 
-
-Previous Batch
-May/June/July  [http://code.google.com/p/open-evse/wiki/May_June_July Link]
