@@ -19,3 +19,14 @@ The high voltage terminals act like a switch. Wire one coil terminal of the cont
 Be sure to mount the board securely so that nothing can potentially come in contact with the board.
 
 The board is thermally designed to switch up to 100 mA at 240VAC (24 watts), which should be plenty for a contactor coil.
+
+= Use =
+[http://www.kfu.com/~nsayer/hydra/ContactorAdapter.png]
+
+Before use, you should attempt to insure that the relay coil draws no more than 100 mA of continuous current (brief higher surge currents when the coil is first energized are ok). 100 mA is the maximum the adapter is rated. This equates to 24 watts at 240 VAC (it is unlikely a contactor would be used at 120 VAC), which should be plenty.
+
+22 gauge wire is acceptable for the coil wiring and the input wiring. Be sure that the addition of the coil driving circuit does not in any way compromise the current carrying capacity of the high current path.
+
+If the current limit is observed, additional cooling should not be required. The board should have the same operating temperature range as the OpenEVSE or Hydra controller.
+
+The input side has a resistor sized for 12 volt DC switching. If you use different voltages, you should replace the series resistor. Do not exceed the 50 mA forward current rating of the LED in the optoisolator.
