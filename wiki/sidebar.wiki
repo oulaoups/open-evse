@@ -53,6 +53,7 @@
     * [EVSE_by_rbeebe OpenEVSE 30A DS enclosure by Rick Beebe]
     * [EVSE_2_by_rbeebe OpenEVSE 30A OpenEVSE enclosure by Rick Beebe]
     * [YetAnotherOpenEVSE Portable EVSE by nsayer]
+    * [MegaHydra The Mega-Hydra by nsayer]
   * *Other related projects*
     * [Hydra The J1772 Hydra]
     * [EVSimMark2 EV Simulator, Mark II]
