@@ -74,12 +74,20 @@ You can program the controller without AC power applied (that is, without anythi
 
 If I have learned anything building EVSEs and Hydras over the last year, it is that the high-current path is absolutely unforgiving. You must use good quality crimp connectors to attach the terminals to the wire, and you must use a good (preferably a ratcheting) crimping tool to insure the crimps are done correctly every time. A poorly crimped connection will degrade over time causing increased resistance. The resistance causes heating, which causes resistance to increase in a positive feedback loop that will eventually lead to a fire (assuming the connection doesn't fail-open first).
 
+= Special consideration for J1772 cables =
+
+Unlike most EVSEs, the "splitter" Hydra variant requires access to the plug's proximity pin. It needs this so that it can propagate any proximity transitions on the inlet so that if the inlet plug is pulled while charging, the load will be quickly removed first.
+
+Not all J1772 cables that you can buy have the proximity line hooked up (in fact, most don't).
+
+The cables currently available from eMotorWerks have the extra blue wire available, but it is not connected in the handle, which requires minor surgery to correct. The cables currently sold by Quick Charge Power are suitable, provided you ask for their "timer edition" cable. The Yakiza cables sold by Leviton are only 4 wire, so no proximity connection is possible. The former ITT cables they sold had a proximity line.
+
 = HV Wiring =
 
 [http://www.kfu.com/~nsayer/hydra/hydra_wiring.png]
 Hydra wiring diagram
 
-The two car relays are DPST relays with 12vdc coils rated for whatever your outlet current is. They're the same kind as used for OpenEVSE.
+The two car relays are DPST relays with 12vdc coils rated for whatever your outlet current is. They're the same kind as used for OpenEVSE. Alternatively, you can use line-powered contactors and ContactorAdapter boards, but this limits your Hydra to use on L2 EVSEs only (or, depending on your contactor coil, limits you to L1, but building an L1-only Hydra would be just silly). Fortunately, the vast majority of public charging stations are L2.
 
 In some (most?) cases, the J1772 inlet you get will be higher rated than your plugs and cables. The software is capable of limiting the inlet current separately, but in order to take advantage of this, you must insure that your relays are wired in a "star" pattern rather than daisy-chained. In a daisy-chain, the full current of the entire system will flow through the first component's cables, limiting the design current to that capacity. If you connect each relay's supply leads together to the inlet supply at the same point, then the inlet current is allowed to be higher.
 
@@ -89,7 +97,7 @@ For each relay, designate a "line" side and a "load" side. On the line side, run
 
 If you're using an internal power supply, you will also need to get "line" power into it. The minimum gauge for the bus module is 14 gauge, but for the power supply 22 gauge is sufficient. If you use smaller wire, make sure that you've made a secure mechanical and electrical connection (the concern is less safety - though a loose wire could short something out - than reliability). Do not be tempted to "piggyback" the small wire along with one of the high current wires. That might not make a firm mechanical connection, and you do not want to compromise the high-current wiring!
 
-On the load side of each relay, connect up the hot wires of one of the J1772 cables. Run one of the hot lines through a CT coil before connecting it to the relay. Unlike OpenEVSE, you run only one of the lines through the coil, not both. It doesn't matter which one you pick.
+On the load side of each relay, connect up the hot wires of one of the J1772 cables. Run one of the hot lines through a CT coil before connecting it to the relay. Unlike OpenEVSE, you run only one of the lines through the coil, not both. It doesn't matter which one you pick. Alternatively, you can run one of the wires going from the distribution block to the line side of the relay through the ammeter coil if that's easier than using one of the J1772 cable hot lines.
 
 Be sure that you pair up the relay coil wires with the CT coil wires along with the correct pilot and proximity lines. It doesn't matter which plug is A or B (other than car "A" being on the left side of the LCD display), but be sure that the lines for each relay coil and CT correspond to the correct pilot and proximity lines! You don't want to measure the wrong car's current draw or even worse - power up the wrong plug. 
 
@@ -101,6 +109,8 @@ Don't forget to connect all of the grounds to a ground bus:
   * Any ground connection from an internal power supply (if applicable)
 
 = Powering the Hydra (v2.0 only) =
+
+This section can potentially be considered obsolete. You can still use a "traditional" Hydra to split a single-headed EVSE installed in your home, and if you do, then powering it externally and allowing it to switch the inlet across states on demand is still a good idea. But now that the "EVSE" variant of the Hydra is an option (see Hydra_EVSE), it's probably less trouble to just build one of those to replace your single-head EVSE instead. That saves you buying an inlet, and you get to keep (or sell) your old single-head EVSE.
 
 As of version 2.0, there are multiple possible ways to power the Hydra. In the past, the typical installation consisted of a jumper across the "switch" terminal, which would force the host EVSE into state "C" on a permanent basis. This is reasonable for a Hydra intended to be used in a public space on many different EVSEs, but on a semi-permanent installation in a home, leaving the host EVSE's contactor permanently energized may shorten the coil's lifespan, and also prevents it from displaying any charging status (it will always show a car is charging even when none is).
 
