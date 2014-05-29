@@ -17,6 +17,32 @@ Compared to OpenEVSE, the Hydra EVSE differs in the following ways:
   * In the reference design, there are three CT coils - one serves the GFI, and the other two are individual car ammeters. This allows the Hydra to attempt to protect against over-current excursions.
   * The AC/DC converter is mounted off-board, typically below the logic board. It is +12 VDC @ 0.9A (10 watts). +5 and +/- 15 volts are generated with on-board DC-DC converter modules.
 
+= Assembling the Quick Kit =
+
+The quick kit comes with:
+  * The board
+  * 2 "larger" two-pin screw terminals
+  * 5 "smaller" two-pin screw terminals
+  * 1 3 pin screw terminal
+  * a trimmer pot
+  * a shrouded 2x3 DIP header
+  * an 18 pin SIP header
+  * a 6 pin SIP header
+  * a 3 pin SIP header
+  * 4 nylon 2-56 3/4" bolts
+  * 4 nylon 2-56 nuts
+  * 4 nylon #4 1/4" standoffs
+  * a 2x16 RGB backlit LCD module
+  * a 12 -> 5 volt DC-DC converter module
+  * a 12 -> +/-15 volt DC-DC converter module
+
+Assembly is the same as the "traditional" variant board quick kit with the following differences:
+
+  * The 3 pin screw terminal goes on the GFI connector.
+  * The "larger" 2 pin terminals are for the pilot connections on each car. The footprint on the board is for a 3 pin terminal. You want to use the square and center hole of each. The round hole on the "end" (which has no label on the silkscreen) is not connected.
+
+When you're finished with assembling the quick kit, stick a CR1220 battery in the battery holder. The positive side of the battery goes up.
+
 = Parts list =
 
   * A Hydra EVSE board, assembled.
