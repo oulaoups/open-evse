@@ -1,0 +1,31 @@
+#summary A new version of OpenEVSE
+
+= Introduction =
+
+I decided to try my hand at designing a new version of OpenEVSE.
+
+One of the hallmarks of my work on the Hydra has been the segregation of the HV wiring and control systems from the logic. I decided to make that the centerpiece of the design for OpenEVSE II.
+
+It consists of two boards - an HV + Relay board and a logic / display board.
+
+No voltages higher than 12 volts are present on the logic/display board. The HV + Relay board is designed to be as simple and safe as is possible for such a device. The two boards connect to one another with a "mezzanine" cable - an 8 pin DIP ribbon cable will do.
+
+There is an alternative to the HV + Relay board for high-powered designs - it is an HV + Contactor Adapter board. Instead of the relays, two opto-isolated triacs can be used to drive chassis mounted contactors. Connectors on the board connect to the line and load side of the contactors (one or two can be used) for AC power and relay test purposes, and there are similar connector blocks to connect to each contactor's coil.
+
+The firmware used is the same OpenEVSE firmware - the hardware is completely backwards compatible. There is an additional ammeter terminal for an ammeter CT that can be used to display or track the current draw from the vehicle (firmware support for this is pending). 
+
+= Details =
+
+== Wiring ==
+
+Wiring is almost the same as traditional OpenEVSE. The only changes are the addition of an optional ammeter CT coil and the mezzanine cable connecting the two boards.
+
+[http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Wiring.png]
+
+On the HV + Relay board, there are two SPST relays (not unlike the OpenEVSE DIY 30A board). QD terminals crimped onto the power and J1772 hot leads connect to these two relays. The PCB connections on the relays provide AC power and relay test signals to the rest of the board. _Both_ J1772 hot lines must pass through the GFI coil, and then (optionally) _one_ of the hot lines must pass through the ammeter coil.
+
+The CT coil wiring, J1772 pilot line and ground connect to the logic/display board along with the mezzanine cable. Be sure the mezzanine cable is oriented the correct way - pin 1 must be connected to pin 1 on both ends!
+
+A select button (the pinout of the 3 pin terminal is the same as on the OpenEVSE display board) connects to its terminal on the logic/display board.
+
+A CR1220 battery in the battery clip will preserve the clock when power is disconnected.
