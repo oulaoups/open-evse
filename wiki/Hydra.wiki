@@ -10,6 +10,8 @@ It would be easy to make a box with a square wave generator to dummy up a pilot 
 
 And thus, the Hydra was born.
 
+[http://www.kfu.com/~nsayer/hydra/photo.jpg]
+
 = Details =
 
 The Hydra owes much of its existence to OpenEVSE. Some of its circuitry was cribbed from the OpenEVSE Plus. The Hydra has the same 16 MHz ATMega controller as the OpenEVSE and Arduino Uno. Connected to that are the following subsystems:
