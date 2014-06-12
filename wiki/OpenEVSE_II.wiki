@@ -51,6 +51,10 @@ Attach the HV/Relay board to the mounting plate using the mounting hardware orig
 
 Crimp a spade or ring terminal onto a 12 gauge copper wire. Loosen the screw or nut holding down the HV board nearest the ground bus and secure the ring or spade terminal under it and retighten. Connect the other end of the wire to the ground bus.
 
+Prepare a second 12 gauge wire and attach the loose end to the ground bus. The ring/spade terminal will go under one of the screws holding the panel into the chassis (this will ground the chassis. Do not omit this step! It is hazardous to leave the chassis ungrounded).
+
+Place the mounting plate in the chassis and screw down each corner using the supplied mounting hardware. Be sure to place the grounding ring/spade terminal under its intended screw.
+
 Use #10 QD terminals and short lengths of 10 gauge stranded copper wire to connect one end of each fuse block pole to a "LINE" terminal on the HV relay board. Prepare the AC cable by stripping 6 inches of its outer jacket and installing a cable gland. Trim the individual wires to the correct length and connect one hot line of the AC cable to each fuse block on the input side. Connect the ground wire of the AC cable to the ground bus.
 
 Prepare the J1772 cable by stripping 6 inches off the outer jacket. Locate and identify each wire - the two hots, the ground and the pilot. If your cable includes a proximity wire, trim it short to keep it out of the way. Install the cable into its cable gland and install the gland in its chassis hole. Estimate how long the two hots and ground must be to reach their destination. Be sure to leave room for the GFI over both hit lines and the (optional) ammeter coil over one of them. Cut the hot and ground wires to length. Install QD terminals on the hot wires. Screw the ground wire into the ground bus. Pass both hot lines through the GFI CT coil and one of the hot lines (it doesn't matter which) through the ammeter coil (if you're using one). Attach the QD terminals to the LOAD terminals on the relays.
