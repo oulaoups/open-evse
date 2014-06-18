@@ -6,6 +6,10 @@ In creating your own EVSE, it is often helpful to be able not only to send the p
 
 In lieu of that, I've taken some of the circuitry from the Hydra and an ATTiny85 microcontroller and created a small(ish) extension to the EV Simulator which uses the controller to analyze the pilot and report its frequency, duty cycle and the resulting J1772 amperage allowance either via the 2 line LCD "backpack" from the OpenEVSE store (or the AdaFruit shield) or via asynchronous serial via an FTDI connector.
 
+= Backpack version =
+
+The latest version of the Ev Sim II is in the form of a self-contained LCD + Backpack module. The backpack has an ATTiny84 on it instead of the ATTiny85 previously used. This does away with the i2c + GPIO interface for the LCD. This version lacks the serial I/O option, but at the end of the day it's less expensive.
+
 = Details =
 
 You can download an Eagle board and schematic file from the project downloads. You have some no-stuff options if you like:
@@ -82,8 +86,12 @@ The first generation of EV Sim kit includes a 1N4004 diode "extra". This diode w
 
 http://www.kfu.com/~nsayer/evse/diode_hack.jpg
 
+= Pictures =
+http://www.kfu.com/~nsayer/evse/ev_sim_bp.jpg
+The EV Sim II backpack
+
 http://www.kfu.com/~nsayer/evse/IMG_3236.jpg
-My portable EVSE tester setup in the car.
+My original portable EVSE tester setup in the car.
 
 =Links=
   * [https://squareup.com/market/nick-sayer My online store for boards and kits]
@@ -93,4 +101,5 @@ My portable EVSE tester setup in the car.
   * [https://github.com/adafruit/TinyWireM TinyWireM]
   * [https://github.com/lincomatic/LiquidTWI2 LiquidTWI2]
   * [https://github.com/nsayer/hydra/blob/master/EV_Sim.ino EV Sim Mark II sketch]
-  * [http://www.kfu.com/~nsayer/hydra/EV_Sim_schematic.pdf Schematic (PDF)]
+  * [http://www.kfu.com/~nsayer/evse/ev_sim_bp_sch.pdf Backpack schematic (PDF)]
+  * [http://www.kfu.com/~nsayer/hydra/EV_Sim_schematic.pdf Original Schematic (PDF)]
