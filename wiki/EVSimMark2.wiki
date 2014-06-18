@@ -61,6 +61,16 @@ When not in programming mode, two of the three available pins are slated as univ
 
 The display will normally show the pilot frequency and duty cycle, along with a J1772 decoding of the amp rating for the given duty cycle. If the frequency is 0 (that is, no oscillations were detected at all), then the duty cycle will be replaced with either a "+" or "-", which indicate that the pilot is pinned either high or low (respectively).
 
+=Backpack Quick Kit Assembly Instructions=
+
+The Quick Kit comes with all the surface mount components installed and pre-programmed with the latest firmware.
+
+To complete assembly, simply install the ISP jack, DIP switch block and pilot screw terminal on the board. Make sure to install them on the same side of the board as the surface mount components. Also, make sure that the key for the ISP jack is on the same side as the square hole on the board  (pin 1). Make sure as well that the screw terminal holes face the bottom of the board. The DIP switches can be installed either way, depending on which direction you want to push the switches to turn them on.
+
+After all of the other through-hole parts are installed, you can mount the LCD. Install the 16 pin SIP header in the LCD, but do not solder it yet. Place the board over the pins, forming the backpack, but again - do not solder yet. Place a standoff on each corner between the two boards, then thread a 2-56 bolt from the display side of the sandwich through to the component side of the board. Secure it with a 2-56 nut. Repeat on all four corners. Once the display is physically secure, solder the 16 pin SIP header on both boards.
+
+Your EV Sim II is complete!
+
 =Assembly Instructions=
 
 Install the ISP socket first. It is the largest and least forgiving component on the board. After that, install the power connector. Because of the oversize holes, it has a bit more "play" in its placement.
