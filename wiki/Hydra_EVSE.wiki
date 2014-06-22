@@ -134,6 +134,7 @@ The possible error codes:
   * G - Ground fault detected.
   * E - Pilot state error (including missing diode).
   * O - Overcurrent event detected.
+  * R - Relay test failure.
   * T - Illegal transition (car attempted to request charging when it was not offered a pilot).
 
 If a car enters an error state for whatever reason, the error can be cleared by disconnecting and reconnecting that car.
