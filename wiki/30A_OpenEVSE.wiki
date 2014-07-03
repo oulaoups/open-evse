@@ -112,6 +112,33 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0731_1024x1024.JPG
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0732_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0732_medium.JPG]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0731_1024x1024.JPG http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0731_medium.JPG]
 
+=Preparing Button and GFCI Coil=
+https://lh3.googleusercontent.com/-kv-0f4LCJn4/U7TIXKjw2NI/AAAAAAAAEB4/PnFcxdquOhs/w411-h555-no/IMG_20140702_145131.jpg
+
+  * Tape wires together overlapping at least 1/2 inch. Run wires through heat shrink tubing.
+
+https://lh6.googleusercontent.com/-XrlVzak-rG4/U7TIXPwf_ZI/AAAAAAAAEB4/kLOxBhu5qIU/w751-h556-no/IMG_20140702_145438.jpg
+
+  * Wrap Orange self test wire through CT 5 times then back through heat shrink tubing. Shrink heat shrink tubing.
+
+https://lh6.googleusercontent.com/-g2C2IyPHi-s/U7TIXI2Dv_I/AAAAAAAAEB4/N8awPCLbyIA/w411-h555-no/IMG_20140702_190437.jpg
+
+  * Cut wires to length leaving 1/4" overlap to solder wires. Place heat shrink tubing on each wire.
+
+
+https://lh6.googleusercontent.com/-6TStOHDGsnc/U7TIXA-F9gI/AAAAAAAAEB4/gU_hprp5_iA/w411-h555-no/IMG_20140702_190949.jpg
+
+  * Solder White wire to one of the CT wires...Shrink tubing on white wire.
+
+https://lh3.googleusercontent.com/-BXQ0mNXity8/U7TIXFMKa2I/AAAAAAAAEB4/Q6bQ9MinaZ0/w411-h555-no/IMG_20140702_191154.jpg
+
+  * Solder other CT wire, the Orange self test wire and the black wire together. Shrink tubing.
+
+https://lh6.googleusercontent.com/-2aLIERilQ7o/U7TIXOtN0FI/AAAAAAAAEB4/Xz0EgwzQVDw/w411-h555-no/IMG_20140702_191239.jpg
+
+  * Shrink outer tubing over connection points. Connect to OpenEVSE Black wire closest to board edge.
+
+
 =Cover / LCD=
 
 Next we will mount the LCD and buttonon the Front Plate.
