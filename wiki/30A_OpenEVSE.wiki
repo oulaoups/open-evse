@@ -115,6 +115,7 @@ http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_0731_1024x1024.JPG
 =Preparing Button and GFCI Coil=
 
 *GFCI Coil with self test*
+
 https://lh3.googleusercontent.com/-kv-0f4LCJn4/U7TIXKjw2NI/AAAAAAAAEB4/PnFcxdquOhs/w411-h555-no/IMG_20140702_145131.jpg
 
   * Tape wires together overlapping at least 1/2 inch. Run wires through heat shrink tubing.
@@ -141,8 +142,6 @@ https://lh6.googleusercontent.com/-2aLIERilQ7o/U7TIXOtN0FI/AAAAAAAAEB4/Xz0EgwzQV
   * Shrink outer tubing over connection points. Connect to OpenEVSE Black wire closest to board edge.
 
 *Push Button*
-If using the Water resistant push button and 3-pin connector from the OpenEVSE store...
-
   * Place heat shrink tube over each wire 
   * Solder the Red wire on the connector(5v DC) to the terminal lableled "+" on the pushbutton 
 
@@ -152,12 +151,12 @@ If using the Water resistant push button and 3-pin connector from the OpenEVSE s
   * <b><font color=red>Note </font></b>  - The Terminal labeled "NC1" is not connected and can be trimmed off if desired.
   * Carefully shrink the wrap over each solder connection
 
-http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8220_medium.jpg]
+
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8221_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8221_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8222_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8222_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8223_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8223_medium.jpg]
 [http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8225_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8225_medium.jpg]
-[http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8226_1024x1024.jpg http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_8226_medium.jpg]
+
 
 http://www.adafruit.com/datasheets/metal16mmbuttons.jpg
 =Cover / LCD=
