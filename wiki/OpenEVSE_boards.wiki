@@ -19,7 +19,7 @@
 || Programmer || ISP || ISP || ISP ||
 || Serial ||  FTDI || FTDI || FTDI || 
 || Suited for || Most EVSEs || Builders who don't mind light soldering || Hardcore DIYers ||
-|| Price || $165 || $125 || $75  ||
+|| Price || $99 || $79 || $45  ||
 
 = Safety features =
 
