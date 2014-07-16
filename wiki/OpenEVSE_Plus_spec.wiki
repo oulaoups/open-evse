@@ -40,6 +40,16 @@ http://farm9.staticflickr.com/8212/8421959660_9e22cc662f_z.jpg
 
 =Building the Kit=
 
+<script type="text/javascript"
+          data-dozuki-embed='3'
+          src="http://d1luk0418egahw.cloudfront.net/static/embed/ifixit-embed.3.js#id=2&site=openevse.dozuki.com">
+           </script><p><a href="http://openevse.dozuki.com/Guide/How+to+Build+OpenEVSE+Plus+V2/2">
+
+
+How to Build OpenEVSE Plus V2</a></p>
+
+
+
 All through hole parts are placed on the opposite side from the surface mount components, but soldered on the same side as the surface mounts. The board has markings to identify the parts and correct placement.
 
 Take care not to touch existing components with the soldering iron. Position board so soldering can occur without interference with other parts.
