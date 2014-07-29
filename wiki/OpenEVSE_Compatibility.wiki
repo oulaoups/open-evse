@@ -9,7 +9,8 @@ There are currently no known incompatibilities with any vehicle or vehicle featu
 = Vehicles Tested =
 OpenEVSE Plus has been tested with:
 || Make || Model || Car Specific Features || Onboard Charger || Known Issues ||
-|| BMW ||Active E ||Timers - Supported || || None ||
+|| BMW || Active E ||Timers - Supported || 6.6kw 30A @240v || None ||
+|| BMW || Mini-E || || || None || 12kw 48A @ 240v ||
 || BMW || i3 || || 6.6kw - 30A @ 240v || None ||
 || Brammo || Empulse R || electric motorcycle || 3kw - 16A @ 240v || None ||
 || Chevy || VOLT || Timers - Supported || 3.3kW - 16A @ 240V || None ||
