@@ -32,7 +32,6 @@ http://open-evse.googlecode.com/files/DIY_OpenEVSE_PLUS.zip
 *Required to complete*
 ||Part||Value||	Type||	Quantity||	Manufacture||	Part Number|| Marking ||
 ||Fuse||	1A||	Fuse||	2||	Bel||	RST 1|| ||
-
 ||IC3, IC5||	MID400||	AC detect||	2 ||	Fairchild Semi	|| MID400|| MID400 ||
 ||IC2||	LF353||	Opamp||	1||	Fairchild Semi||	LF353NFS-ND|| LF353 ||
 ||IC4||	Lm358||	Opamp||	1||	TI||	296-1395-5-ND|| LM368 ||
