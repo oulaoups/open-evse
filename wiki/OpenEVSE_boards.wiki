@@ -23,7 +23,7 @@
 
 = Safety features =
 
-OpenEVSE supports all the safety features required (and a few more) by standards documents for Electric Vehicle Charging from SAE J1772, NEC and UL.
+OpenEVSE was designed to support all the safety features required (and a few more) by standards documents for Electric Vehicle Charging from SAE J1772, NEC and UL. Note OpenEVSE has not been independently tested by SAE, NEC or UL.
 
 •UL2251 Standard for Plugs, Receptacles and Couplers for Electric Vehicles
 
