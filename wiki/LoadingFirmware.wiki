@@ -6,8 +6,8 @@ Loading firmware to the <b><font color=teal> Open</font></b>*EVSE* requires an I
 https://openevse-store.myshopify.com/collections/frontpage/products/openevse-programmer
 
 = Firmware =
-The latest firmware is located in the Downloasd Section:
-https://code.google.com/p/open-evse/downloads/list
+The latest firmware source code is located in GIThub:
+https://github.com/lincomatic/open_evse
 
 
 == Arduino IDE ==
