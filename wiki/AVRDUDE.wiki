@@ -1,56 +1,6 @@
 #summary Loading Firmware with AVRDude.
 
 
-== AVRDude ==
-If you want a quick and way to upload unmodified code install AVRDude and download the pre-compiled hex file in the downloads section.
+OpenEVSE Guide.
 
-Adafruit has some really good tutorials for installing and running AVRDude...
-
-http://www.ladyada.net/learn/avr/setup-win.html
-
-http://www.ladyada.net/learn/avr/avrdude.html
-
-=New Chips no firmware ever loaded=
-==Fusebits==
-
-If you built your own board and your EVSE has never had any version of EVSE firmware or an Arduino boot loader (virgin chip) you will need to set your AVR fuses before loading the OpenEVSE hex file.. Setting fuses only needs to be done once.
-
-Command assumes you are using the OpenEVSE USBasp, if using another programmer substitute the correct programmer after -c
-{{{
-avrdude -c USBasp -p m328p -U lfuse:w:0xFF:m
-avrdude -c USBasp -p m328p -U hfuse:w:0xDA:m
-avrdude -c USBasp -p m328p -U efuse:w:0x05:m
-
-*NOTE:* The extended bits (efuse) setting may get a readback of "FD" rather than "05". This is okay. "FD" is functionally the same as "05" and you can use either value to accomplish the same thing. 
-}}}
-
-=Uploading Firmware=
-
-Once your board has its fuses set you can load the OpenEVSE firmware.
-
-For windows...
-
-Create a folder on C:\ called OpenEVSE
-
-Copy the HEX file to that folder
-
-run cmd for the command prompt.
-
-type "C:\OpenEVSE"
-
-from the C:\OpenEVSE folder run the following command:
-
-{{{
-avrdude -c USBasp -p m328p -U flash:w:open_evse.hex
-}}}
-
-Command assumes you are using the OpenEVSE "USBasp" programmer, if using another programmer substitute the correct programmer after -c for a list of programmers see:http://www.nongnu.org/avrdude/user-manual/avrdude_4.html
-
-Note: some hex files compiled with special features may have a different file name such as open_evse20B7_RTC.hex. If your file name is different modify the file name portion after "flash:w:"
-
-
-
-Alternate command if using serial FTDI with the Arduino bootloader. (Arduino boards or OpenEVSE with Arduio bootloader)
-{{{
-avrdude -c arduino -p m328p -P COMxx -b 115200 -D flash:w:open_evse.hex 
-}}} 
+http://openevse.dozuki.com/Guide/How+to+Load+OpenEVSE+Firmware+%28WinAVR%29/7
