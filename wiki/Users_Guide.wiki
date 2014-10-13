@@ -63,6 +63,8 @@ The colors are:
 ==LCD Text==
 The Standard LCD used on OpenEVSE projects has 2 lines and 16 Characters per line.
 
+
+
 *Top Line Left Side*
 || Ready || OpenEVSE is ready || 
 || Charging || OpenEVSE is ready to Charge ||
@@ -74,10 +76,15 @@ The Right side displays information about the Service level and Current setting 
 
 *Bottom Line*
 The Bottom line displays information about the state of the Electric Vehicle and the current charging session.
+
+https://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9110_grande.jpg?v=1383890085
+
 || EV Not Comnnected || OpenEVSE does not detect an EV ||
 || EV Connected || OpenEVSE detected an EV ||
 
 In the Charging state the LCD will display Elapsed time since the Charge session started and the current time reported by the real time clock.
+
+https://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9115_grande.jpg?v=1383890087
 
 ==Real Time Clock==
 Real Time Clock allows you to set the current time and set up Start and Stop times. These timers are independent to to timers on the vehicle.
