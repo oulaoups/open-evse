@@ -60,7 +60,31 @@ The colors are:
 || Blue  || Charging || Charging || State C ||
 || Red  || Error || N/A || Error ||
 
-= Button Menu =
+==LCD Text==
+The Standard LCD used on OpenEVSE projects has 2 lines and 16 Characters per line.
+
+*Top Line Left Side*
+|| Ready || OpenEVSE is ready || 
+|| Charging || OpenEVSE is ready to Charge ||
+|| Error || OpenEVSE has detected an Error ||
+|| Stopped || OpenEVSE has been stopped or is waiting for a timer ||
+
+*Top Line Right Side*
+The Right side displays information about the Service level and Current setting of the Pilot. In the "Ready" States the LCD displays the Service Level L1 - 120V or L2 - 240V and the Maximum current allowed by the Charging Station.
+
+*Bottom Line*
+The Bottom line displays information about the state of the Electric Vehicle and the current charging session.
+|| EV Not Comnnected || OpenEVSE does not detect an EV ||
+|| EV Connected || OpenEVSE detected an EV ||
+
+In the Charging state the LCD will display Elapsed time since the Charge session started and the current time reported by the real time clock.
+
+==Real Time Clock==
+Real Time Clock allows you to set the current time and set up Start and Stop times. These timers are independent to to timers on the vehicle.
+
+Optional Battery - Insert a CR1216 or CR1220 coin cell battery if you wish to keep current time after power failure with the Real Time Clock option.
+
+==Button Menu==
 The Menu options require an LCD and a button switch. The menu operates on Long press and short press.
 
 *Long Press* - Press and hold down
