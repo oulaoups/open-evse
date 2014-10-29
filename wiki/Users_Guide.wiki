@@ -108,6 +108,10 @@ The Menu options require an LCD and a button switch. The menu operates on Long p
 
   * Select the desired value Press and hold.
 
+===Button Menu Options===
+*Note* Menu options will not be displayed if the feature is not enabled when the firmware is compiled.
+
+
 = Safety features =
 
 OpenEVSE supports all the safety features required (and a few more) by standards documents for Electric Vehicle Charging from SAE J1772, NEC and UL.
