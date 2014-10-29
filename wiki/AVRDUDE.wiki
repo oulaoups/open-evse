@@ -2,5 +2,4 @@
 
 
 OpenEVSE Guide.
-
-http://openevse.dozuki.com/Guide/How+to+Load+OpenEVSE+Firmware+%28WinAVR%29/7
+New Guide located at http://guides.openevse.com
