@@ -94,10 +94,10 @@ https://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9115_grande.jpg?v=13838
 || Stuck Relay Test Failed || OpenEVSE read AC voltage before Relays were closed || Check Relay and AC_Test Lines ||
 
 *Errors*
-|| GFCI Fault ||
-|| No Ground ||
-|| Vent Required ||
-|| No Diode ||
+|| GFCI Fault || OpenEVSE detected a ground leakage of > 20ma || OpenEVSE will retry charging after 15 minutes up to 4 times ||  
+|| No Ground || OpenEVSE lost connection to ground || Check Grounds and AC_Test lines ||
+|| Vent Required || OpenEVSE read a pilot signal at 3V || Ventilation required State ||
+|| No Diode || OpenEVSE did not detect the J1772 Vehicle diode || ||
 
 ==Real Time Clock==
 Real Time Clock allows you to set the current time and set up Start and Stop times. These timers are independent to to timers on the vehicle.
