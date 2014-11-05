@@ -69,7 +69,9 @@ The Standard LCD used on OpenEVSE projects has 2 lines and 16 Characters per lin
 || Ready || OpenEVSE is ready || 
 || Charging || OpenEVSE is ready to Charge ||
 || Error || OpenEVSE has detected an Error ||
-|| Stopped || OpenEVSE has been stopped or is waiting for a timer ||
+|| Stopped || OpenEVSE has been stopped ||
+|| Waiting || OpenEVSE is waiting for a timer ||
+|| Sleeping || OpenEVSE is sleeping ||
 
 *Top Line Right Side*
 The Right side displays information about the Service level and Current setting of the Pilot. In the "Ready" States the LCD displays the Service Level L1 - 120V or L2 - 240V and the Maximum current allowed by the Charging Station.
@@ -79,12 +81,23 @@ The Bottom line displays information about the state of the Electric Vehicle and
 
 https://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9110_grande.jpg?v=1383890085
 
-|| EV Not Comnnected || OpenEVSE does not detect an EV ||
+|| EV Not Connected || OpenEVSE does not detect an EV ||
 || EV Connected || OpenEVSE detected an EV ||
 
 In the Charging state the LCD will display Elapsed time since the Charge session started and the current time reported by the real time clock.
 
 https://cdn.shopify.com/s/files/1/0249/6207/products/IMG_9115_grande.jpg?v=1383890087
+
+*Errors Power on Self Test*
+|| GFCI Self Test Failed || OpenEVSE did not detect a GFCI Fault during test || Check GFCI CT and Self test coil||
+|| Earth Ground Test Failed || OpenEVSE could not detect a Ground || Check Ground Connections and AC_Test lines ||
+|| Stuck Relay Test Failed || OpenEVSE read AC voltage before Relays were closed || Check Relay and AC_Test Lines ||
+
+*Errors*
+|| GFCI Fault ||
+|| No Ground ||
+|| Vent Required ||
+|| No Diode ||
 
 ==Real Time Clock==
 Real Time Clock allows you to set the current time and set up Start and Stop times. These timers are independent to to timers on the vehicle.
