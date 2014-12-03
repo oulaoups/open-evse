@@ -140,7 +140,7 @@ The Menu options require an LCD and a button switch. The menu operates on Long p
 
 = Safety features =
 
-OpenEVSE supports all the safety features required (and a few more) by standards documents for Electric Vehicle Charging from SAE J1772, NEC and UL.
+OpenEVSE was designed to comply with safety features required by standards documents for Electric Vehicle Charging from SAE J1772, NEC and UL.
 
 •UL2251 Standard for Plugs, Receptacles and Couplers for Electric Vehicles
 
@@ -150,6 +150,7 @@ OpenEVSE supports all the safety features required (and a few more) by standards
 
 •NEC Article 625 Electric Vehicle Charging System Equipment
 
+Note - OpenEVSE has not been tested or certified by a Nationally Recognized Testing Laboratory.
 
 ==Power interlock==
 OpenEVSE includes an interlock that de-energizes the electric vehicle connector and cable whenever the electrical connector is uncoupled from the electric vehicle *(NEC 625.18)*
