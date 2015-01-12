@@ -6,13 +6,11 @@ I decided to try my hand at designing a new version of OpenEVSE.
 
 One of the hallmarks of my work on the Hydra has been the segregation of the HV wiring and control systems from the logic. I decided to make that the centerpiece of the design for OpenEVSE II.
 
-It consists of two boards - an HV + Relay board and a logic / display board.
+It consists of two boards - an HV board and a logic / display board. There are three choices for the HV board. The first is a board with two DC relays mounted on it. It's similar to the OpenEVSE DIY 30A board. It's usable at L1 or L2, but only rated for 24A charging maximum. The second choice is the Contactor board. It will control an external line voltage powered contactor to turn the car power on and off. It has no limitation on charging current - that limitation is imposed by your  choice of contactor. However, the contactor coil will only work at one voltage, so that means it'll be useful for 208/240 volt charging only (in principle you could use a 120 volt contactor for an L1 contactor EVSE, but in practice, you would be unlikely to want to do so). The third variant is for external relays. It provides a 12vdc switched output for driving a relay, but like the contactor variant, the relay is supplied by the builder and is the limiting factor for current capacity. High current relays (with 12 vdc coils) are much more rare than contactors. However, if you can find one, the resulting design would be usable at both L1 and L2.
 
-No voltages higher than 12 volts are present on the logic/display board. The HV + Relay board is designed to be as simple and safe as is possible for such a device. The two boards connect to one another with a "mezzanine" cable - an 8 pin DIP ribbon cable will do.
+No voltages higher than 12 volts are present on the logic/display board. The HV + Relay board is designed to be as simple and safe as is possible for such a device. The two boards connect to one another with a "mezzanine" cable - a 10 pin FFC.
 
-There is an alternative to the HV + Relay board for high-powered designs - it is an HV + Contactor Adapter board. Instead of the relays, two opto-isolated triacs can be used to drive chassis mounted contactors. Connectors on the board connect to the line and load side of the contactors (one or two can be used) for AC power and relay test purposes, and there are similar connector blocks to connect to each contactor's coil.
-
-The firmware used is the same OpenEVSE firmware - the hardware is completely backwards compatible. There is an additional ammeter terminal for an ammeter CT that can be used to display or track the current draw from the vehicle (firmware support for this is pending). 
+The firmware used is the same OpenEVSE firmware. Be sure to compile the firmware with the OPENEVSE_2 macro defined. That will alter the code for compatibility.
 
 = Details =
 
@@ -24,7 +22,7 @@ Wiring is almost the same as traditional OpenEVSE. The only changes are the addi
 
 On the HV + Relay board, there are two SPST relays (not unlike the OpenEVSE DIY 30A board). QD terminals crimped onto the power and J1772 hot leads connect to these two relays. The PCB connections on the relays provide AC power and relay test signals to the rest of the board. _Both_ J1772 hot lines must pass through the GFI coil, and then (optionally) _one_ of the hot lines must pass through the ammeter coil.
 
-The CT coil wiring, J1772 pilot line and ground connect to the logic/display board along with the mezzanine cable. Be sure the mezzanine cable is oriented the correct way - pin 1 must be connected to pin 1 on both ends!
+The CT coil wiring, J1772 pilot line and ground connect to the logic/display board along with the mezzanine cable. Be sure the mezzanine cable is oriented the correct way - pin 1 must be connected to pin 1 on both ends! This means you must use a 10 pin 1 mm FFC cable with the "top/bottom" orientation. That means that the pins are exposed on opposite sides on each end. This effectively gives the cable a half-twist, which will connect pin 1 to pin 1 on the two boards.
 
 A select button (the pinout of the 3 pin terminal is the same as on the OpenEVSE display board) connects to its terminal on the logic/display board.
 
@@ -35,35 +33,52 @@ A CR1220 battery in the battery clip will preserve the clock when power is disco
 You will need
 
   * A complete logic/display board
-  * A complete relay/HV board
-  * An OpenEVSE chassis (available from the OpenEVSE store)
-  * A mezzanine cable (4x2 .1" DIP on each end of an 8 wire ribbon cable, 12" long)
+  * A complete HV board - either the 30A relay, contactor or external relay board.
+  * For the contactor or external relay HV board, you'll need an appropriate contactor or relay.
+  * An OpenEVSE chassis (available from the OpenEVSE store - either the aluminum or polycarb variant)
+  * A mezzanine cable (10 pin 1 mm FFC top/bottom ended)
   * A ground bus
   * A lit pushbutton (available from the OpenEVSE store)
-  * A GFI current transformer (available from the OpenEVSE store)
-  * An ammeter current transformer (optional - CR Magnetcs 8420-1000 recommended)
+  * A GFI current transformer (available from the OpenEVSE store - CR Magnetics 8420-1000G recommended)
+  * An ammeter current transformer (optional - CR Magnetics 8420-1000 recommended)
   * An AC cable
   * A J1772 cable / plug assembly
 
-Start with the plastic mounting plate that came with the chassis. Do not remove the paper covering yet. Instead, mark the four corners of a square 3 3/16 (3.2") inches by 2 11/32 (2.35"). This will be for the mounting holes for the HV/Relay board. You need to arrange the board so that it is out of the way of the other components that will be mounted on the mounting plate - specifically the fuse block (if you're using one) and the ground block. Drill the holes with a 1/8" drill bit. Now you can peel the protective paper coating off both sides.
+Note the mounting hole dimensions for each of the different HV boards:
+  * For the contactor board, 2.4 x 2.2 inches
+  * For the relay board, 3.2x2.7 inches
+  * For the external relay board, 2.7x1.7 inches
 
-Attach the HV/Relay board to the mounting plate using the mounting hardware originally intended for the OpenEVSE v2 board using the newly drilled holes. Similarly, attach the fuse block and ground bus to the mounting plate using its intended hardware.
+Start with the (plastic or metal) mounting plate that came with the chassis. Mark the four corners of a square for the mounting holes for the HV board. You need to arrange the board so that it is out of the way of the other components that will be mounted on the mounting plate - specifically the fuse block (if you're using one) and the ground block. Drill the holes with a 1/8" drill bit.
 
-Crimp a spade or ring terminal onto a 12 gauge copper wire. Loosen the screw or nut holding down the HV board nearest the ground bus and secure the ring or spade terminal under it and retighten. Connect the other end of the wire to the ground bus.
+If you're going to use an external relay or contactor, then similarly mark and drill the appropriate mounting holes for it. Be sure to leave enough room around the contactor or relay to bend the AC and J1772 cables, including enough room to mount the two current transformers on the J1772 hot lines. Also, insure there's enough space for the QD terminals for the AC power, relay test and relay and/or contactor coil lines.
 
-Prepare a second 12 gauge wire and attach the loose end to the ground bus. The ring/spade terminal will go under one of the screws holding the panel into the chassis (this will ground the chassis. Do not omit this step! It is hazardous to leave the chassis ungrounded).
+Attach the HV/Relay board to the mounting plate using the mounting hardware originally intended for the OpenEVSE v2 board using the newly drilled holes. Similarly, attach the relay or contactor (if applicable), the fuse block and the ground bus to the mounting plate using its intended hardware.
 
-Place the mounting plate in the chassis and screw down each corner using the supplied mounting hardware. Be sure to place the grounding ring/spade terminal under its intended screw.
+If your mounting plate is plastic, crimp a QD terminal onto a 12 gauge copper wire. Connect the QD terminal to the ground terminal on the HV board and the other end of the wire to the ground bus. If your mounting plate is metal, then you can skip this step as the metal mounting hardware should provide a sufficient electrical connection to ground via the mounting plate and ground bus.
 
+Similarly, if your mounting plate is plastic, crimp a spade or ring crimp terminal to a second 12 gauge wire and attach the loose end to the ground bus. The ring/spade terminal will go under one of the screws holding the panel into the chassis (this will ground the chassis. Do not omit this step! It is hazardous to leave the chassis ungrounded). If your chassis is plastic, then this step is not required.
+
+Place the mounting plate in the chassis and screw down each corner using the supplied mounting hardware. Be sure to place the grounding ring/spade terminal under its intended screw, if applicable.
+
+=== Relay HV board steps ===
 Use #10 QD terminals and short lengths of 10 gauge stranded copper wire to connect one end of each fuse block pole to a "LINE" terminal on the HV relay board. Prepare the AC cable by stripping 6 inches of its outer jacket and installing a cable gland. Trim the individual wires to the correct length and connect one hot line of the AC cable to each fuse block on the input side. Connect the ground wire of the AC cable to the ground bus.
 
-Prepare the J1772 cable by stripping 6 inches off the outer jacket. Locate and identify each wire - the two hots, the ground and the pilot. If your cable includes a proximity wire, trim it short to keep it out of the way. Install the cable into its cable gland and install the gland in its chassis hole. Estimate how long the two hots and ground must be to reach their destination. Be sure to leave room for the GFI over both hit lines and the (optional) ammeter coil over one of them. Cut the hot and ground wires to length. Install QD terminals on the hot wires. Screw the ground wire into the ground bus. Pass both hot lines through the GFI CT coil and one of the hot lines (it doesn't matter which) through the ammeter coil (if you're using one). Attach the QD terminals to the LOAD terminals on the relays.
+Prepare the J1772 cable by stripping 6 inches off the outer jacket. Locate and identify each wire - the two hots, the ground and the pilot. If your cable includes a proximity wire, trim it short to keep it out of the way. Install the cable into its cable gland and install the gland in its chassis hole. Estimate how long the two hots and ground must be to reach their destination. Be sure to leave room for the GFI over both hit lines and the ammeter coil over one of them. Cut the hot and ground wires to length. Install QD terminals on the hot wires. Screw the ground wire into the ground bus. Pass both hot lines through the GFI CT coil and one of the hot lines (it doesn't matter which) through the ammeter coil. Attach the QD terminals to the LOAD terminals on the relays.
+
+=== Contactor HV board steps ===
+
+Prepare the AC cable by stripping 6 inches of its outer jacket and installing a cable gland. Trim the individual wires to the correct length and connect one hot line of the AC cable to the contactor on the line side. Connect the ground wire of the AC cable to the ground bus.
+
+Prepare the J1772 cable by stripping 6 inches off the outer jacket. Locate and identify each wire - the two hots, the ground and the pilot. If your cable includes a proximity wire, trim it short to keep it out of the way. Install the cable into its cable gland and install the gland in its chassis hole. Estimate how long the two hots and ground must be to reach their destination. Be sure to leave room for the GFI over both hit lines and the ammeter coil over one of them. Cut the hot and ground wires to length. Screw the ground wire into the ground bus. Pass both hot lines through the GFI CT coil and one of the hot lines (it doesn't matter which) through the ammeter coil. Attach the two hot wires to the LOAD terminals on the contactor.
+
+Prepare three pairs of 22 gauge wires by twisting them together and attaching 22 gauge QD crimp terminals to each on one end. Attach one pair each to the auxiliary QD terminals on the contactor on the line side, load side and the contactor coil. Connect each pair to the screw terminals on the HV board, as appropriate, to the AC in (contactor line side) block, the relay test (contactor load side) block, and the contactor (contactor coil) block.
 
 Attach one end of the mezzanine cable to the HV/relay board, taking careful note of the location of pin 1.
 
 Set the chassis aside for now.
 
-Prepare the lid by attaching the waterproofing gasket (if you bought one) and the LCD waterproofing kit (again, if you bought it). Solder the 3 wire cable onto the select switch as instructed and install the button in the hole in the lid. Install the OpenEVSE II logic/display board onto the 4 mounting posts in the lid. Connect the button cable up to the SELECT 3 pin terminal on the board. Connect the GFI CT coil up to the GFI terminals, noting the orientation - the GFI test pin is the left, the GFI pin is in the center, and ground is on the right. If you have one, connect the ammeter coil up to its terminal block - orientation does not matter. Connect the J1772 pilot wire up to the left terminal of the pilot block. Connect the mezzanine cable up to the mezzanine connector in the upper left corner, carefully noting the position of pin 1.
+Prepare the lid by attaching the waterproofing gasket (if you bought one) and the LCD waterproofing kit (again, if you bought it). Solder the 3 wire cable onto the select switch as instructed and install the button in the hole in the lid. Install the OpenEVSE II logic/display board onto the 4 mounting posts in the lid. Connect the button cable up to the SELECT 3 pin terminal on the board. Connect the GFI CT coil up to the GFI terminals, noting the orientation - the GFI test pin is the left, the GFI pin is in the center, and ground is on the right. Connect the ammeter coil up to its terminal block - orientation does not matter. Connect the J1772 pilot wire up to the left terminal of the pilot block (top screw). Connect the mezzanine cable up to the mezzanine connector in the upper left corner, carefully noting the position of pin 1.
 
 Install a CR1220 battery in the battery clip.
 
