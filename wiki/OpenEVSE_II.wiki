@@ -18,7 +18,8 @@ The firmware used is the same OpenEVSE firmware. Be sure to compile the firmware
 
 Wiring is almost the same as traditional OpenEVSE. The only changes are the addition of an optional ammeter CT coil and the mezzanine cable connecting the two boards.
 
-[http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Wiring.png]
+[http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Wiring_Relay.png]
+[http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Wiring_Contactor.png]
 
 On the HV + Relay board, there are two SPST relays (not unlike the OpenEVSE DIY 30A board). QD terminals crimped onto the power and J1772 hot leads connect to these two relays. The PCB connections on the relays provide AC power and relay test signals to the rest of the board. _Both_ J1772 hot lines must pass through the GFI coil, and then (optionally) _one_ of the hot lines must pass through the ammeter coil.
 
@@ -85,3 +86,9 @@ Install a CR1220 battery in the battery clip.
 Set the lid on top of the box, carefully inspecting the fit to insure that none of the wires place undue pressure on either of the board and that no wires are pinched. Screw the lid onto the box with the 6 chassis screws.
 
 Assembly is now complete.
+
+= Schematics =
+
+  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Logic_0_2.pdf]
+  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Relay_0_3.pdf]
+  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Contactor_0_3.pdf]
