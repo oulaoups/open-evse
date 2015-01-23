@@ -89,6 +89,6 @@ Assembly is now complete.
 
 = Schematics =
 
-  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Logic_0_2.pdf]
-  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Relay_0_3.pdf]
-  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Contactor_0_3.pdf]
+  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Logic_0_4.pdf]
+  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Relay_0_4.pdf]
+  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Contactor_0_4.pdf]
