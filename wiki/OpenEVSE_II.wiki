@@ -87,6 +87,51 @@ Set the lid on top of the box, carefully inspecting the fit to insure that none 
 
 Assembly is now complete.
 
+= Theory of operation =
+
+Feel free to follow along with the schematics (below). Each subsection here corresponds to a page of the schematic.
+
+=== Power / GFI ===
+
+There are two DC/DC converters built around the venerable MC34063 chip, The one on the left is a buck topology to reduce the 12 volts input to 5 volts at up to 250 mA. The one on the right is an inverting topology to turn +12 volts into -12 volts at up to 50 mA. Since the only use for the -12 volts is the pilot generator, there's a 2.4 k-ohm resistor across it to provide a minimal load. This improves the efficiency and stability of the converter.
+
+The GFI is in three basic pieces. The first op-amp stage is a rectifying amplifier with a gain of 100 and a low-pass filter with a roll-off of 120 Hz (or so). It gets its input from the GFI current transformer. A current transformer outputs a current proportional to the current flowing on the conductor(s) passing through it. For a GFI, the two power supply conductors pass through it, and in a correct environment, all of the current flowing out through one of them should be balanced by the same amount of current flowing back through the other, for a net result of 0. If the current can find some other path to ground, the resulting imbalance will result in a current output from the CT. Immediately across the CT is a burden resistor. The burden resistor's job is ton convert the current into a voltage that can be measured. There is a zener diode clamp to protect the amplifier from excessive voltage swings in the case of massive imbalances. The output of the amplifier goes into a peak-hold capacitor and is then fed into a comparator. Whenever the held-peak exceeds the comparison voltage (calibrated for somewhat less than 20 mA, but not so much less to be a nuisance), it interrupts the controller.
+
+In addition, there's a GFI test circuit. This is merely a current limiting resistor. It's intended to be connected to a wire that takes 3 or 4 loops around and through the GFI coil and then connects to ground. The controller can test the GFI by pulsing this line with a 60 Hz square wave The multiple loops will serve to amplify the impact of the current flowing through the wire (each loop through represents another wire with the same current flowing through it), assuring that the GFI will trigger.
+
+=== Car signalling ===
+
+The ammeter consists of another current transformer. In this case, only a single hot line passes through so rather than sensing any current imbalance, we will sense the total current flow. As before, there is a burden resistor and a zener clamp to protect the micro controller's A/D converter from excessive voltage, this time caused potentially by too much current. To keep the (expected) voltages positive, one leg of the CT is anchored to 2.5 volts with a voltage divider. The capacitor to ground from this leg is intended to reduce noise, by providing it a direct path to ground.
+
+The pilot generator is a set of four transistors in a modified half-H bridge configuration. The output is a pair of PNP and NPN transistors in a push-pull arrangement from +/- 12 volts. Each transistor has a pull-up or down resistor on its base intended - in the default case - to keep the transistor switched off.
+
+From each base there is a second complimentary transistor wired up to switch the final transistor on when the appropriate logic level is present on its input. On the high side, an NPN transistor will bring the PNP transistor's base to ground, causing it to turn on, but only when the first transistor's base is high. On the low side, a PNP transistor will bring the NPN transistor's base towards +5 volts, causing it to turn on, but only when the primary transistor's base is low. Finally, there is a pull-up resistor on the input to insure that there is always an unambiguous state present. When programming the controller, the pilot pin will be in a high impedance state. Without the pull-up, both transistors would wind up being on, shorting -12 to +12.
+
+=== Controller / display ===
+
+The micro controller is the ATMega328p with a 16 MHz crystal. A crystal is called for in particular because the 1 kHz pilot has a frequency tolerance specification that requires that level of accuracy. 16 MHz is an otherwise arbitrary choice, but it is compatible with the Arduino Uno, from which the legacy of OpenEVSE is derived.
+
+The i2c bus of the controller goes to an MC23017 i2c-to-GPIO expander chip, which is in turn connected to the RGB LCD and to the select button. This portion is exactly the same as both the AdaFruit i2c RGB LCD Arduino shield and the OpenEVSE display backpack. The i2c bus also goes to a DS1307 RTC chip, also equipped with its own crystal and backup battery.
+
+=== HV board(s) ===
+
+Each HV board has five jobs:
+  # Provide 12 volts DC to power the logic board
+  # Switch the car power on and off
+  # Provide a crude voltmeter for the input AC power
+  # Perform a ground impedance test
+  # Perform a relay output state (aka stuck relay) test.
+
+Each HV board comes with either a 10W isolated power supply or a 3W one. The contactor version uses 3 watts because the contactor control circuit requires much less low-voltage power than the relay versions do.
+
+The relay boards simply use an MMBT4401 power transistor to switch the relay(s) on and off. A flyback diode protects the transistor from coil collapse voltages. The contactor version uses an opto-isolated driver triac to switch a small triac on and off to control an external line powered contactor. Both the driver and power triacs are provisioned with snubbers to similarly protect them from coil collapse voltages when the contactor is switched off.
+
+The voltmeter is simply one out of four opto-isolators in an LTV-844S connected across the AC line input with a 150 k-ohm series resistor. The series resistor is intended to reduce the current down to the 1-2 mA range, which results in a 0.5-1 mA transfer current (or so) from the transistor on the secondary. This winds up providing an output voltage with peaks at up to around 3 volts or so for 240 Vrms. The secondary is fed into a buffering OP amp and then passed to the logic board.
+
+The ground impedance test has a similar series resistor from one of the two AC power input lines (for hot-neutral power - such as North American 120 volts or 220 volt power outside North America, then you must carefully connect the hot line up to the hot terminal or else the ground test will fail) through a rectifying diode through a 1 mA current limit circuit, another opto-isolator and then to ground. The secondary side of the opto-isolator is fed into an OP amp comparator circuit. The output of that is fed into a simple peak-hold circuit made of a blocking diode, a large cap and a bleed resistor. If the ground impedance is too high, then the secondary current won't be high enough and the comparator won't provide any pulses to the peak-hold cap. The 1 mA current limit makes the test more sensitive, while also limiting the amount of leakage current and limiting the potential shock hazard in a situation where the ground is completely open.
+
+The stuck relay test is a cross between the voltmeter and the ground impedance test. Its primary side is the same as the voltmeter, but instead of being connected to the AC line side, it's connected to the load side of the relay or contactor. The secondary side is the same comparator / peak hold circuit as the ground impedance. The net result is that the controller should - after a short delay - see the relay test line always be the same state as the relay control line. This reflects the presence of AC voltage when the relay is closed and the absence of it when the relay is open.
+
 = Schematics =
 
   * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Logic_0_4.pdf]
