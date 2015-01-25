@@ -32,6 +32,38 @@ A select button (the pinout of the 3 pin terminal is the same as on the OpenEVSE
 
 A CR1220 battery in the battery clip will preserve the clock when power is disconnected.
 
+== Assembling the quick kit ==
+
+If you ordered your boards as a "quick kit" then you'll have received the two boards with all of the surface mount components installed, and a collection of through-hole components.
+
+=== Logic/display board ===
+
+To complete the logic/display board, first install all of the remaining through-hole parts except the display. The display must be the last step, as it mounts on the solder side of the board and covers all of the solder positions for the other components. First install the 6 pin (2x3) DIP header in the ISP position on the board. Next, install the 4 pin SIP header in the i2c position. When installing SIP headers, insure that they're straight and flush and solder one pin. Turn the board over and check it once more for alignment, then solder the remaining pins. Install the 6 pin SIP header in the FTDI position. Lastly, the 3 pin SIP header in the SELECT position.
+
+Next, install the "Rb" - the ammeter burden resistor. This resistor should be chosen for the desired ampacity of your charging station and the specifications of your ammeter current transformer. The recommended value for the contactor variant is 27 ohms (up to 50A), and 47 ohms for the relay variant (up to 24A).
+
+Next, install the 3 screw terminals. The larger 2 pin terminal is for the PILOT connector. The smaller 2 pin terminal is for the ammeter connector, and the 3 pin terminal is for the GFI CT. Insure that the openings for the screw terminal face the edge of the board and that the terminal rests flat against the board.
+
+To install the display, set it on your work surface solder-side up and temporarily install the 18 pin SIP header on the solder side of the logic board. DO NOT solder it at this point. Temporarily mount the display on the pins. Again, do not solder yet. Lift each corner of the display and place a 3/8" standoff between the logic board and the display and thread a #4 bolt (from your chassis kit) through both, with the bolt head against the logic board. To make things easier, you might temporarily use 4 #4 nuts to hold the two boards together. Check again that the SIP header is positioned snugly against one of the two boards (it doesn't matter which) and that one pin is passing through each of the 18 positions on both boards. Most importantly, make sure that both boards are snugly resting against each of the four standoffs. Later, the #4 bolts will be used to secure both boards into the chassis, and the if the standoffs are not snug then the boards may bend unduly. Solder the SIP header to both boards.
+
+If you used temporary nuts, then you can remove them at this point and attach the display to the lid of your chassis by screwing the four bolts into the chassis mounted standoffs. If your LCD has a clear plastic protective film, be sure to remove it first.
+
+=== HV boards ===
+
+First, install the FFC connector for the mezzanine cable. Take careful note of the connector to locate the side which has the cable contacts. If you open the cable latch, the latch should swing away from the contacts. The side with the contacts should match the position of the arrowhead on the silkscreen. *Do not* install the FFC connector backwards!
+
+Next, install the board-mounted QD grounding terminal. Use a lot of solder to flood the entire pad and thoroughly heat both the pad and the connector to insure a solid connection. While doing this, use a pair of needle-nose pliers to hold the connector straight.
+
+Next, install the 3 1/2W flameproof resistors. For North American installations, all three will be 150K, but for 220V hot-neutral systems (basically just about everywhere outside of North America), you must use a 300K resistor for the ground impedance test series resistor. DO NOT use 150K on 220V hot-neutral electrical systems or you may burn out the current limiter! Note that 208/240V power in North America is hot-hot, and each hot line is 120V to ground, so 150K *is* the correct value.
+
+Next, install the fuses. If you have the contactor board, then you have three fuses. Two are slow-blow fuses intended for the power supply, and the third is a normal fuse for the contactor. Two of the fuses, therefore, should have similar color and markings and should be easy to distinguish. The oddball fuse should be oriented 90 degrees different from the other two.
+
+Next, depending on which board you have, you will install either one or two electrolytic capacitors. If you have two, take careful note of which is which. The 120 µF cap is installed in the logic section, and the 4.7 µF 400V cap is installed in the HV section. *Be sure to carefully note the polarity of each*.
+
+Lastly, install the power supply. It should only fit one way. Make sure it's flat against the board. Trim the pins after soldering them. They're a bit thick, so it takes some elbow grease.
+
+If you wish to test the assembled boards, then connect the mezzanine cable between the two and temporarily attach a line voltage power cable to the AC input terminals. *USE EXTREME CAUTION* Make sure that the HV board is resting on an insulated surface and there is no possibility that it could contact *anything* else during the test. Apply power briefly and observe both boards. The power LED on the HV board should light and the display on the logic/display board should indicate the firmware version, and then show one ore more self-test failures. These failures are to be expected, as the remaining chassis wiring is not complete. Remove power before attempting to do any necessary troubleshooting.
+
 == Construction ==
 
 You will need
@@ -66,6 +98,9 @@ Similarly, if your mounting plate is plastic, crimp a spade or ring crimp termin
 Place the mounting plate in the chassis and screw down each corner using the supplied mounting hardware. Be sure to place the grounding ring/spade terminal under its intended screw, if applicable.
 
 === Relay HV board steps ===
+
+Note that on the board, one of the relays is marked "HOT" and the other "NEUT." When wiring the AC line side, you should insure that you connect the hot and neutral lines to the correct relay. If you get this wrong, then the ground impedance test will fail. This only matters if you're using hot-neutral (as opposed to hot-ground) wiring, which means using it at L1 in North America or anywhere outside North America.
+
 Use #10 QD terminals and short lengths of 10 gauge stranded copper wire to connect one end of each fuse block pole to a "LINE" terminal on the HV relay board. Prepare the AC cable by stripping 6 inches of its outer jacket and installing a cable gland. Trim the individual wires to the correct length and connect one hot line of the AC cable to each fuse block on the input side. Connect the ground wire of the AC cable to the ground bus.
 
 Prepare the J1772 cable by stripping 6 inches off the outer jacket. Locate and identify each wire - the two hots, the ground and the pilot. If your cable includes a proximity wire, trim it short to keep it out of the way. Install the cable into its cable gland and install the gland in its chassis hole. Estimate how long the two hots and ground must be to reach their destination. Be sure to leave room for the GFI over both hit lines and the ammeter coil over one of them. Cut the hot and ground wires to length. Install QD terminals on the hot wires. Screw the ground wire into the ground bus. Pass both hot lines through the GFI CT coil and one of the hot lines (it doesn't matter which) through the ammeter coil. Attach the QD terminals to the LOAD terminals on the relays.
@@ -76,7 +111,7 @@ Prepare the AC cable by stripping 6 inches of its outer jacket and installing a 
 
 Prepare the J1772 cable by stripping 6 inches off the outer jacket. Locate and identify each wire - the two hots, the ground and the pilot. If your cable includes a proximity wire, trim it short to keep it out of the way. Install the cable into its cable gland and install the gland in its chassis hole. Estimate how long the two hots and ground must be to reach their destination. Be sure to leave room for the GFI over both hit lines and the ammeter coil over one of them. Cut the hot and ground wires to length. Screw the ground wire into the ground bus. Pass both hot lines through the GFI CT coil and one of the hot lines (it doesn't matter which) through the ammeter coil. Attach the two hot wires to the LOAD terminals on the contactor.
 
-Prepare three pairs of 22 gauge wires by twisting them together and attaching 22 gauge QD crimp terminals to each on one end. Attach one pair each to the auxiliary QD terminals on the contactor on the line side, load side and the contactor coil. Connect each pair to the screw terminals on the HV board, as appropriate, to the AC in (contactor line side) block, the relay test (contactor load side) block, and the contactor (contactor coil) block.
+Prepare three pairs of 22 gauge wires by twisting them together and attaching 22 gauge QD crimp terminals to each on one end. Attach one pair each to the auxiliary QD terminals on the contactor on the line side, load side and the contactor coil. Connect each pair to the screw terminals on the HV board, as appropriate, to the AC in (contactor line side) block, the relay test (contactor load side) block, and the contactor (contactor coil) block. When connecting the AC Line terminals, if you are not in North America, then take careful note of the "H" and "N" markings on the AC line terminal. Connect the hot side of the contactor to the "H" terminal and the neutral side to the "N" terminal. If you get this backwards, the ground impedance test will fail.
 
 Attach one end of the mezzanine cable to the HV/relay board, taking careful note of the location of pin 1.
 
