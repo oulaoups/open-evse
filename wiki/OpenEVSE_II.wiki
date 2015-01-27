@@ -117,7 +117,7 @@ Prepare three pairs of 22 gauge wires by twisting them together and attaching 22
 
 === Continue ===
 
-Attach one end of the mezzanine cable to the HV board, taking careful note of the location of pin 1.
+Attach one end of the mezzanine cable to the HV board, taking careful note of the location of pin 1. To insert the cable into the connector, pull the edge of the connector opposite the contacts forward to loosen it. It should pop up and outwards. Insert the cable until it bottoms out in the connector, then carefully push the clip back into place until it snaps. The FFC should be straight and should resist moderate tension without coming out of the connector.
 
 Set the chassis aside for now.
 
