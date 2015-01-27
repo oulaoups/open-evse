@@ -40,6 +40,8 @@ If you ordered your boards as a "quick kit" then you'll have received the two bo
 
 To complete the logic/display board, first install all of the remaining through-hole parts except the display. The display must be the last step, as it mounts on the solder side of the board and covers all of the solder positions for the other components. First install the 6 pin (2x3) DIP header in the ISP position on the board. Next, install the 4 pin SIP header in the i2c position. When installing SIP headers, insure that they're straight and flush and solder one pin. Turn the board over and check it once more for alignment, then solder the remaining pins. Install the 6 pin SIP header in the FTDI position. Lastly, the 3 pin SIP header in the SELECT position.
 
+Next, install the mezzanine cable connector. When doing so, take careful note of the side of the connector that has the contacts. that side should go in the same direction as the arrow marker on the board. Do not install the mezzanine connector backwards!
+
 Next, install the "Rb" - the ammeter burden resistor. This resistor should be chosen for the desired ampacity of your charging station and the specifications of your ammeter current transformer. The recommended value for the contactor variant is 27 ohms (up to 50A), and 47 ohms for the relay variant (up to 24A).
 
 Next, install the 3 screw terminals. The larger 2 pin terminal is for the PILOT connector. The smaller 2 pin terminal is for the ammeter connector, and the 3 pin terminal is for the GFI CT. Insure that the openings for the screw terminal face the edge of the board and that the terminal rests flat against the board.
