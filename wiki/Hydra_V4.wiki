@@ -1,0 +1,28 @@
+#summary Charge two EVs with a single EVSE.
+
+= Introduction =
+
+The Hydra is a special EVSE forked from the original design of OpenEVSE. As of version 4, there are two variants of the Hydra. The first variant is called the "splitter." It is equipped with a J1772 inlet and will allow sharing a EVSE (usually a public one) with two vehicles. The other variant is the "standalone" or "EVSE" variant. Instead of an inlet, it is equipped with a hardwired or plug-in 208/220/240 VAC power circuit. It replaces the inlet handling circuitry with a GFI and a real-time clock with an event system.
+
+Version four makes some fundamental changes in how the Hydra is constructed. Like OpenEVSE II, Hydra v4 consists of two boards. The first is a logic/display board. It is this board that differs depending on whether you have the standalone or splitter variant. It has all of the low-voltage signaling and monitoring systems and the microcontroller and display. It is connected with an FFC to the second board, the HV/Power board. That board has all of the high voltage monitoring circuitry, the AC/DC primary power supply and the necessary isolation and conditioning circuitry to interface with the logic board.
+
+Both boards are the same physical size, and the intention is that you mount the AC board directly underneath the logic/display board, with 1/4" standoffs between the chassis mounting plate and the AC board, and then anywhere from 1 to 2" standoffs between the AC board and the logic/display board.
+
+Because the incoming AC power must be fed to two contactors, an HV distribution block is required to allow the high current wiring to be safely divided. In addition, there are two two-pole 208/240 volt contactors to turn the power on and off to each vehicle. Each vehicle also has an ammeter current transformer. The standalone variant also has a GFI current transformer, while the splitter variant instead has a J1772 inlet (the standalone variant lacks a GFI because the host EVSE will have one already).
+
+The AC board has five two-pin screw terminals. Each is intended to accept 22 gauge wire terminated in .25" QD female terminals, which then get attached to the two contactors. The first screw terminal is connected to one of the contactors on the line side (that is, the side connected to the HV distribution block). It doesn't matter which contactor is used, but the "A" side is closest. This is intended to supply the AC board with power. Each car also has a pair of terminals, one pair for the contactor coil and one pair for the contactor load side terminals. The contactor coil terminals are used to power the contactor to close it, turning the vehicle power on. The load-side terminals, marked "relay test" are used to detect whether or not AC power is being supplied to the vehicle, and to perform the ground impedance test.
+
+The logic/display board has two screw terminals for each vehicle. One is for the ammeter CT, and the other is for the J1772 pilot line and (for the splitter variant only) the J1772 proximity line. Each variant also has one additional screw terminal. For the splitter variant, the screw terminal is for the inlet pilot and proximity lines. For the standalone variant, it's for the GFCI coil and the GFI test line.
+
+The logic/display boards also have a 6 pin SIP header, which is an FTDI compatible serial interface for logging or other expansion use. They also have a 3x2 DIP socket, which is the AVR ISP terminal for reprogramming the controller. There's also a 3 pin terminal for the user interface button, a trimmer resistor for the LCD contrast and for the standalone variant, a battery clip for the real-time clock backup battery.
+
+
+= Details =
+
+[http://www.kfu.com/~nsayer/hydra/Hydra_wiring-EVSE.png]
+
+Chassis wiring for the standalone variant
+
+[http://www.kfu.com/~nsayer/hydra/Hydra_wiring-standalone.png]
+
+Chassis wiring for the splitter variant
