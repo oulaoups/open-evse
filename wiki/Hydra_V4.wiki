@@ -23,6 +23,6 @@ The logic/display boards also have a 6 pin SIP header, which is an FTDI compatib
 
 Chassis wiring for the standalone variant
 
-[http://www.kfu.com/~nsayer/hydra/Hydra_wiring-standalone.png]
+[http://www.kfu.com/~nsayer/hydra/Hydra_wiring-splitter.png]
 
 Chassis wiring for the splitter variant
