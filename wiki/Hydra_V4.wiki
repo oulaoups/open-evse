@@ -26,3 +26,7 @@ Chassis wiring for the standalone variant
 [http://www.kfu.com/~nsayer/hydra/Hydra_wiring-splitter.png]
 
 Chassis wiring for the splitter variant
+
+The recommended HV bus module is the Cooper Bussmann 16220-2. This has a single line-side terminal per pole large enough to accept 2/0 gauge wire, and four load-side terminals that will accept all the way up to 4 gauge wire. It's rated for 175 amps, which is more than enough for any reasonable EVSE.
+
+The recommended contactors are either Dayton 6GNV0 or the Packard C240C.
