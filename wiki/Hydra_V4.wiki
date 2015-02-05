@@ -29,4 +29,84 @@ Chassis wiring for the splitter variant
 
 The recommended HV bus module is the Cooper Bussmann 16220-2. This has a single line-side terminal per pole large enough to accept 2/0 gauge wire, and four load-side terminals that will accept all the way up to 4 gauge wire. It's rated for 175 amps, which is more than enough for any reasonable EVSE.
 
-The recommended contactors are either Dayton 6GNV0 or the Packard C240C.
+The recommended contactors are either Dayton 6GNV0 or the Packard C240C. Both are good for outlet currents up to 40A (their ratings are listed as 40A for inductive and 50A for resistive loads. EVSE service qualifies as resistive, but given that EVSEs are a continuous load, taking the lower number would be conservative engineering).
+
+The recommended current transformers are from CR Magnetics. The ammeter coil is CR8420-1000 and is good for designs up to 50A, and the GFI coil is CR8420-1000G (yes, the two are different).
+
+For J1772 cable/plug sets, your choice is dictated by the maximum design current you wish to support per vehicle (keeping in mind that the lowest current rating in the path will dictate the maximum). Also, if you're building the splitter variant, you must insure your choice of cable/plug sets include a proximity line. The proximity line is often left out, as most EVSEs don't need or use it. But the splitter must be able to communicate an inlet proximity transition to the vehicles should it occur.
+
+If you're building the splitter variant, then your choice of J1772 inlet will constrain the maximum combined current for your Hydra. This is enforced separately by the firmware to insure that the inlet is not pushed beyond its rating.
+
+Lastly, the choice of wire used for the high current paths will also have an impact on the maximum current rating of your Hydra. Be sure that the combination of wire gauge and insulation temperature for all of the wiring carrying charge current to the vehicles is rated for at least as much current as your design rating. For 40A designs, 8 gauge wire with 90 degree insulation is recommended.
+
+== Assembling the 'Quick Kit' boards ==
+
+If you've purchased the 'Quick Kit', then you will have two boards with all of the surface mount components pre-installed and the controller pre-programmed. You will simply need to add all of the through-hole components to complete assembly.
+
+=== AC board ===
+
+For the AC board, all components will mount on the component side of the board. You will find:
+
+   * 3 150K 1/2W flame-proof resistors. Outside of North America, one of these will be replaced by a 300K one.
+   * 2 500 mA slow-blow fuses
+   * 2 1A quick-blow fuses
+   * 5 2 pole large screw terminals
+   * 1 AC/DC power supply module
+   * 1 FFC connector
+   * 1 PC mount QD terminal
+   * 1 120 µF electrolytic capacitor
+   * 1 4.7 µF 400V electrolytic capacitor
+
+When installing the capacitors, pay close attention to the polarization markings on the board and cap. Do not install them backwards!
+
+If you are outside of North America, then the middle 1/2 watt resistor is the one that should be changed to 300K. DO NOT use 150K for that resistor if you are going to power your Hydra from 220V hot-neutral circuits! 150K is ONLY for use when the voltage between hot and ground is 120V, as is the case with North American 208/240V or 120V circuits.
+
+Note that there are two types of fuses. Do not confuse them or they will blow immediately when power is applied. The slow-blow fuses are for the AC/DC power module, and the quick-blow fuses are for the contactor switching triacs. Insure the fuses are flat once they're soldered into place.
+
+When installing the ground terminal, flood the top of the pad with solder and insure that both the pad and the tab are well wetted. Hold the terminal straight with a pair of needle-nose pliers while soldering it. Then turn the board over and solder each pin to the bottom.
+
+When installing the FFC connector, make sure that the opening for the cable faces the edge of the board. Do not install the FFC connector backwards.
+
+When installing the screw terminal blocks, make sure the wire openings face the outside edge of the board.
+
+The power supply module should only fit into the board in one orientation. Insure it is flat against the board before soldering all the pins.
+
+=== logic/display board ===
+
+For the logic/display board, most of the added components attach to the *opposite* side of the board as all of the surface mount components. When mounted in the chassis, the intent is for the component side of the board to face downwards and the opposite side, with the display and connectors, to be visible.
+
+First, mount the two through-hole burden resistors for the ammeter circuits. These resistors are through-hole so that you can easily substitute values suitable for the ammeter coil you select. If you're using the recommended CR Magnetics CR8420-1000 coils, then the recommended values are either 47 ohms for designs up to 50A or 27 ohms for designs of 30A or less (per vehicle). Note that if you alter these values, then you'll need to alter the appropriate macro values in the firmware source code and recompile and upload the firmware. Mount the two resistors on the *same* side of the board as the surface mount components.
+
+Next, mount the FFC cable terminal. Make sure the opening for the FFC faces the edge of the board. Do not install it backwards. The FFC cable terminal mounts on the *same* side of the board as the surface mount components.
+
+Next, mount the SIP and DIP headers for the AVR ISP, FTDI and button connectors. All three of them are mounted on the *opposite* side of the board from the surface mount components. Solder one pin first, then flip the board over and check that the connectors are straight and flush before soldering the remaining pins.
+
+Next, mount the trimmer resistor for the LCD contrast. It mounts on the *opposite* side of the board from the surface mount components.
+
+Next, mount all of the screw terminals. The two smaller two-pin terminals are for the ammeter current transformers. If you have the standalone variant, then the pilot terminals are larger two-pin units. For the splitter variant, they are 3 pins. Lastly, there is a three pin terminal for either the GFI (standalone variant) or the inlet signals (splitter variant). Make sure that all of the terminals are mounted so that the wire inlets face the edge of the board. All of them mount on the *opposite* side of the board from the surface mount components.
+
+Lastly, mount the display. To do so, place the 18 pin SIP header in its place on the *opposite* side of the board from the surface mount components, but do not solder it yet. Set the display on top of the connector, but again - do not solder. Place a 1/8" nylon #4 standoff under each corner of the display and pass a 2-56 nylon bolt through the display, standoff and logic board. Secure with a 2-56 nylon nut. Once the display is physically secured, then solder the SIP header to both the display and the logic board.
+
+If you wish to test the boards at this point, then connect the two boards with the FFC cable. To insert the FFC cable, pull the clip out and upwards. Insert the cable with the pins facing downwards (away from the direction of the swing of the clip). Make sure the cable is fully inserted and straight, then push the clip down and in until it clicks into place. The cable should be snug enough to resist moderate tension.
+
+Make sure that the AC board is resting on a non-conductive surface and cannot touch anything else. Adjust the LCD contrast knob to approximately 85% of its rotation range one direction or the other. Connect a line cord temporarily to the AC in terminals. *USE EXTREME CAUTION* and briefly apply power. You should see the power LED on the AC board light up, and the LCD display briefly show a banner with the firmware version and then an indication of a self test failure (this is to be expected, as the chassis wiring is not complete). If you see the backlight light up white, then red, but no text, then disconnect power and rotate the LCD contrast knob to 85% of its rotational range in the opposite direction and try again.
+
+== Chassis assembly ==
+
+The recommended chassis for the Hydra is the Polycase WC-35, with the WX-34 internal mounting panel accessory. You will also need two CG-16 cable glands for the J1772 cables (possibly CG-17 if your J1772 cables are particularly large). If you're building the standalone variant, you'll need another CG-16 or CG-17 cable gland for the AC input cable as well as either a suitable plug or hard-wiring kit. If you're building the splitter variant, you'll need a J1772 inlet.
+
+If you're building the splitter variant, examine your inlet. If you do not see a resistor mounted between the ground pin and the proximity pin, then you must find the PROX_RES solder jumper on the component side of the logic board and use a bead of solder to short it closed.
+
+If you're building the splitter variant, you have two choices as to how it will be powered:
+
+The first option is for the Hydra to be powered by the host EVSE. In this case, the INT_PWR jumper should be soldered closed (this is the default).
+
+The other option is for the Hydra to be separately powered. In this configuration, the Hydra will switch the host EVSE on and off in response to power demand from either vehicle. If you wish to build your Hydra for this configuration, then you will provide separate AC line power to the AC input jack on the AC board. Whatever voltage you use for this auxiliary power must match the voltage rating of the coils of the two contactors you use. If you pick this option, then remove the solder from the INT_PWR jumper so that it is open. Your Hydra will cycle the inlet between states B and C depending on whether either or both of the vehicles wishes to charge.
+
+If you're building the standalone variant, then you must construct the GFI coil system. The GFI system includes a test wire, which is simply a piece of 22 gauge wire that takes 3 or 4 wraps through the center of the GFI coil. This wire connects between the GFI TEST terminal and ground. The two GFI coil wires connect between the GFI terminal and ground. The recommended procedure is to solder two extension wires - one black, one green - onto the GFI coil wires. Attach the GFI test wire (red) to the green terminal, then wrap it around/through the coil 3 or 4 times and bring it back. Use heat-shrink tubing or electrical tape to insulate the soldered connections. The green wire is ground, the black wire is the GFI wire, and the red wire is the GFI TEST wire.
+
+To begin assembly, lay out all of the chassis mounted components on the mounting plate in the locations where they will be attached. Use a marker to mark the mounting holes on the plate. For the board and the ground bus, drill 1/8" holes. For the contactors and the HV distribution module, use 9/16" holes (for 6-32 nuts and bolts). The PC boards will mount in the top half of the chassis, and the HV module will mount in the bottom middle, flanked on either side by the contactors. Make sure that the contactors are mounted closer to the center of the chassis to allow room below the contactors for the J1772 cables as they pass through their cable glands. Similarly, make sure to leave enough room below the HV distribution module for either the inlet or the AC cable, its cable gland and the GFI coil.
+
+Mount the distribution module first, insuring that the line side faces the bottom edge of the chassis (relative to the logic board). Mount the two contactors next. The contactors may have an indication of which side is line or load. If so, then you should mount the line side at the top end. The high current path will go from the bottom center, where either the J1772 inlet of the AC cable gland is, up through the HV distribution block, then splitting in half to curve around to the top side of each contactor, through the contactor, and then to the J1772 cables near the bottom of each side of the chassis.
+
+Mount the ground block near the bottom of the mounting plate. Make sure it's out of the way of everything else nearby and that you can easily route the ground wires from the inlet or AC cable and each J1772 cable. The AC board will be grounded through its standoffs and the mounting plate, assuming that both are conductive. If your mounting plate is non-conductive, then you'll need to run a ground wire from the ground terminal to the grounding block. 22 gauge wire is sufficient.
