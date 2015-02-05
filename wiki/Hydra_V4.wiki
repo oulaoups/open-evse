@@ -39,6 +39,8 @@ If you're building the splitter variant, then your choice of J1772 inlet will co
 
 Lastly, the choice of wire used for the high current paths will also have an impact on the maximum current rating of your Hydra. Be sure that the combination of wire gauge and insulation temperature for all of the wiring carrying charge current to the vehicles is rated for at least as much current as your design rating. For 40A designs, 8 gauge wire with 90 degree insulation is recommended.
 
+You'll also need a user interface button. The recommended button is available from either AdaFruit or the OpenEVSE store. It's a waterproof 16mm lit metal momentary pushbutton.
+
 == Assembling the 'Quick Kit' boards ==
 
 If you've purchased the 'Quick Kit', then you will have two boards with all of the surface mount components pre-installed and the controller pre-programmed. You will simply need to add all of the through-hole components to complete assembly.
@@ -73,6 +75,20 @@ The power supply module should only fit into the board in one orientation. Insur
 
 === logic/display board ===
 
+  * 2 burden resistors. Values depend on the ammeter CT and design current.
+  * 2 small (2.54mm) 2 pin screw terminals
+  * 2 large (3.0mm) 2 pin (standalone variant) or 3 pin (splitter variant) screw terminals
+  * 1 large (3.0mm) 3 pin screw terminal
+  * 1 PC mount trimmer resistor
+  * 1 6 pin SIP header
+  * 1 2x3 pin shrouded DIP header
+  * 1 3 pin SIP header
+  * 1 18 pin SIP header
+  * 1 RGB backlit 80x36mm LCD display module
+  * 4 2-56 5/8" nylon bolts
+  * 4 1/8" #4 nylon standoffs
+  * 4 2-56 nylon nuts
+
 For the logic/display board, most of the added components attach to the *opposite* side of the board as all of the surface mount components. When mounted in the chassis, the intent is for the component side of the board to face downwards and the opposite side, with the display and connectors, to be visible.
 
 First, mount the two through-hole burden resistors for the ammeter circuits. These resistors are through-hole so that you can easily substitute values suitable for the ammeter coil you select. If you're using the recommended CR Magnetics CR8420-1000 coils, then the recommended values are either 47 ohms for designs up to 50A or 27 ohms for designs of 30A or less (per vehicle). Note that if you alter these values, then you'll need to alter the appropriate macro values in the firmware source code and recompile and upload the firmware. Mount the two resistors on the *same* side of the board as the surface mount components.
@@ -105,7 +121,9 @@ The other option is for the Hydra to be separately powered. In this configuratio
 
 If you're building the standalone variant, then you must construct the GFI coil system. The GFI system includes a test wire, which is simply a piece of 22 gauge wire that takes 3 or 4 wraps through the center of the GFI coil. This wire connects between the GFI TEST terminal and ground. The two GFI coil wires connect between the GFI terminal and ground. The recommended procedure is to solder two extension wires - one black, one green - onto the GFI coil wires. Attach the GFI test wire (red) to the green terminal, then wrap it around/through the coil 3 or 4 times and bring it back. Use heat-shrink tubing or electrical tape to insulate the soldered connections. The green wire is ground, the black wire is the GFI wire, and the red wire is the GFI TEST wire.
 
-To begin assembly, lay out all of the chassis mounted components on the mounting plate in the locations where they will be attached. Use a marker to mark the mounting holes on the plate. For the board and the ground bus, drill 1/8" holes. For the contactors and the HV distribution module, use 9/16" holes (for 6-32 nuts and bolts). The PC boards will mount in the top half of the chassis, and the HV module will mount in the bottom middle, flanked on either side by the contactors. Make sure that the contactors are mounted closer to the center of the chassis to allow room below the contactors for the J1772 cables as they pass through their cable glands. Similarly, make sure to leave enough room below the HV distribution module for either the inlet or the AC cable, its cable gland and the GFI coil.
+To begin assembly, drill the four holes in the chassis for the user interface button, the two J1772 cable glands, and either the J1772 inlet or the AC cable gland. Pick one of the two short sides of the chassis to be the top. That side will be where the user interface button is. The opposite short side will be where either the J1772 inlet or AC cable is. The two long sides will house the J1772 cable glands, near the bottom edge. Drill a 5/8 inch hole in the center of the top side for the button. Measure the outer diameter of the J1772 cable glands, divide that by two and add a quarter inch. Measure that distance up from the bottom "rib" on each long side of the chassis. Draw a line perpendicular to the bottom of the chassis at that distance. Along that line, half way between the top and bottom of the chassis, drill the appropriate sized hole for the cable glands. Lastly, if you're building the standalone variant, drill the appropriate hole for the AC input cable gland centered in the bottom side. If you're building the splitter variant, then position the inlet as close to the top edge of the chassis as you can without going over. Even if you do this correctly, you may find that either the inlet or its mounting hardware impinges on the mounting plate. If it does, you'll need to trim relief notches in the mounting plate.
+
+Next, lay out all of the chassis mounted components on the mounting plate in the locations where they will be attached. Use a marker to mark the mounting holes on the plate. For the board and the ground bus, drill 1/8" holes. For the contactors and the HV distribution module, use 9/16" holes (for 6-32 nuts and bolts). The PC boards will mount in the top half of the chassis, and the HV module will mount in the bottom middle, flanked on either side by the contactors. Make sure that the contactors are mounted closer to the center of the chassis to allow room below the contactors for the J1772 cables as they pass through their cable glands. Similarly, make sure to leave enough room below the HV distribution module for either the inlet or the AC cable, its cable gland and the GFI coil.
 
 Mount the distribution module first, insuring that the line side faces the bottom edge of the chassis (relative to the logic board). Mount the two contactors next. The contactors may have an indication of which side is line or load. If so, then you should mount the line side at the top end. The high current path will go from the bottom center, where either the J1772 inlet of the AC cable gland is, up through the HV distribution block, then splitting in half to curve around to the top side of each contactor, through the contactor, and then to the J1772 cables near the bottom of each side of the chassis.
 
