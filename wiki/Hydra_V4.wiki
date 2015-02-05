@@ -110,3 +110,25 @@ To begin assembly, lay out all of the chassis mounted components on the mounting
 Mount the distribution module first, insuring that the line side faces the bottom edge of the chassis (relative to the logic board). Mount the two contactors next. The contactors may have an indication of which side is line or load. If so, then you should mount the line side at the top end. The high current path will go from the bottom center, where either the J1772 inlet of the AC cable gland is, up through the HV distribution block, then splitting in half to curve around to the top side of each contactor, through the contactor, and then to the J1772 cables near the bottom of each side of the chassis.
 
 Mount the ground block near the bottom of the mounting plate. Make sure it's out of the way of everything else nearby and that you can easily route the ground wires from the inlet or AC cable and each J1772 cable. The AC board will be grounded through its standoffs and the mounting plate, assuming that both are conductive. If your mounting plate is non-conductive, then you'll need to run a ground wire from the ground terminal to the grounding block. 22 gauge wire is sufficient.
+
+Next, mount the 1/4" standoffs for the AC board. Attach the FFC cable to the AC board before mounting it to the standoffs. Lay the AC board on its standoffs and screw the taller standoffs in, securing the AC board in position.
+
+Next, install the mounting plate in the chassis.
+
+Prepare 5 pairs of 22 gauge wires for the AC board wiring by twisting each pair (red and black) into a loose braid. Strip 1/8" off each wire on one end, and 3/8" off each wire on the other end and attach a female QD terminal. Connect one pair to each contactor on the load side, one pair to each contactor on the coil terminals, and the last pair on the car A contactor's line side. Screw the other end of each wire into the appropriate terminals on the AC board. If you're outside of North America or if you plan on powering the Hydra with 120V, then be sure to connect the hot side of each pair to the terminal marked "H" and the neutral side to the terminal marked "N". For those terminals not marked, or if you're using North American split-phase 208/240V power, then it doesn't matter which is which.
+
+Install the user interface button by drilling a hole in the top center of the chassis and installing the button. Route the wires over the AC board. You'll attach the connector to the logic/display board later.
+
+Attach the other end of the FFC cable to the logic/display board. Lay the logic/display board on top of the long standoffs and secure it with 4 4-40 1/4" screws. Plug in the button connector, taking careful note of which direction it goes.
+
+Prepare the ammeter current transformers, if required, by soldering extension wires to each lead and insulating them with heat-shrink tubing or electrical tape. Attach each to the ammeter terminals for each car and place them temporarily near the line side of each contactor.
+
+Cut four pieces of large gauge wire (at least as large as the J1772 cable hot lines), two red and two black. Connect one red and one black wire to each pole of each contactor. Pass one of the wires of each contactor through the appropriate ammeter CT and then connect each wire to the appropriate terminal on the load side of the HV distribution module. The two red wires should connect to the same pole of the distribution block and the two black wires should connect to the opposite pole. Outside North America, the red pole should be the hot, and the black pole the neutral.
+
+For the standalone variant, install the AC input cable in its gland and the gland in the chassis. Run both of the two hot lines through the GFI coil and attach them to the appropriate terminals on the line side of the distribution block. Connect the ground wire to the ground block.
+
+For the splitter variant, install the J1772 inlet in the bottom side of the chassis. Connect the two hot lines to the distribution block and the ground wire to the ground block. Route the pilot and proximity lines up to the inlet block on the logic/display board and connect the wires to the appropriate terminals (there is no connection necessary to the ground pin of the inlet terminal).
+
+For each car, prepare its J1772 cable by installing it in a cable gland and installing the gland in the chassis. Route the two hot lines to the appropriate contactor and the ground to the ground block. Route the pilot wire up to the logic/display board and connect it to the pilot terminal. Do the same for the proximity line if you're building the splitter variant. There is no connection necessary to the ground terminal of the car pilot/proximity terminal.
+
+Attach the lid to the chassis, making sure not to pinch any wires between it and the chassis. Your Hydra is now complete and ready for testing.
