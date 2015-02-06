@@ -180,7 +180,7 @@ The stuck relay test is a cross between the voltmeter and the ground impedance t
 
   * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Logic_0_4.pdf Logic/display board v0.4]
   * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Relay_0_4.pdf HV+Relay board v0.4]
-  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Contactor_0_4.pd HV+Contactor board v0.4f]
+  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Contactor_0_4.pdf HV+Contactor board v0.4]
 
 = Links =
 
