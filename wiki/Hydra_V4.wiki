@@ -135,9 +135,11 @@ Next, install the mounting plate in the chassis.
 
 Prepare 5 pairs of 22 gauge wires for the AC board wiring by twisting each pair (red and black) into a loose braid. Strip 1/8" off each wire on one end, and 3/8" off each wire on the other end and attach a female QD terminal. Connect one pair to each contactor on the load side, one pair to each contactor on the coil terminals, and the last pair on the car A contactor's line side. Screw the other end of each wire into the appropriate terminals on the AC board. If you're outside of North America or if you plan on powering the Hydra with 120V, then be sure to connect the hot side of each pair to the terminal marked "H" and the neutral side to the terminal marked "N". For those terminals not marked, or if you're using North American split-phase 208/240V power, then it doesn't matter which is which.
 
-Install the user interface button by drilling a hole in the top center of the chassis and installing the button. Route the wires over the AC board. You'll attach the connector to the logic/display board later.
+Prepare the user interface button by soldering wires from a 3 pin SIP female connector. The middle wire should be red, the outer two black and green. The button should have 5 terminals. They'll be labeled +, -, C or COM, NO and NC. Solder the red wire to +, the black wire to NO and connect the green wire to both - and C (or COM).
 
-Attach the other end of the FFC cable to the logic/display board. Lay the logic/display board on top of the long standoffs and secure it with 4 4-40 1/4" screws. Plug in the button connector, taking careful note of which direction it goes.
+Install the user interface button in the hole in the top center of the chassis. Route the wires over the AC board. You'll attach the connector to the logic/display board later.
+
+Attach the other end of the FFC cable to the logic/display board. Lay the logic/display board on top of the long standoffs and secure it with 4 4-40 1/4" screws. Plug in the button connector, taking careful note of which direction it goes (the black wire is SW, the green wire is GND).
 
 Prepare the ammeter current transformers, if required, by soldering extension wires to each lead and insulating them with heat-shrink tubing or electrical tape. Attach each to the ammeter terminals for each car and place them temporarily near the line side of each contactor.
 
