@@ -22,7 +22,7 @@ Wiring is almost the same as traditional OpenEVSE. The only changes are the addi
 The wiring for the relay variant
 
 [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Wiring_Contactor.png]
-The wiring for the contactor variant
+The wiring for the contactor or external relay variant
 
 On the HV + Relay board, there are two SPST relays (not unlike the OpenEVSE DIY 30A board). QD terminals crimped onto the power and J1772 hot leads connect to these two relays. The PCB connections on the relays provide AC power and relay test signals to the rest of the board. _Both_ J1772 hot lines must pass through the GFI coil, and then (optionally) _one_ of the hot lines must pass through the ammeter coil.
 
@@ -111,19 +111,11 @@ Prepare the J1772 cable by stripping 6 inches off the outer jacket. Locate and i
 
 The external relay HV board can drive either two SPST relays or a single DPST relay. In either case, the relay coils must be compatible with 12 VDC and draw no more than 400 mA total. This board is designed to be a direct replacement for the OpenEVSE v2 board, and can be used with the recommended fuse block for a maximum charge current of 24A.
 
-Start by preparing the mounting plate. If you're using an OpenEVSE chassis, then it will come with either a plastic or metal mounting plate. Use the supplied hardware to install the fuse block. Prepare two 22 gauge red and black wires. Trim 3/8" insulation off one end of each and 1/8" off the other end. Crimp a .25" QD terminal on the end of each wire trimmed to 3/8". Connect the QD terminals to the QD flanges on the load end of each fuse block. Connect the other end of each to the HV board's AC IN terminal.
+Prepare two 22 gauge red and black wires. Trim 3/8" insulation off one end of each and 1/8" off the other end. Crimp a .25" QD terminal on the end of each wire trimmed to 3/8". Connect the QD terminals to the QD flanges on the load end of each fuse block. Connect the other end of each to the HV board's AC IN terminal.
 
-Use the supplied hardware to install the relay(s). If you're not using the recommended SPST relays, then you will need to drill new holes to place a DPST relay (the recommended model is a TE T92P7D22-12. If you're using the two recommended SPST relays, then prepare two 22 gauge wires by crimping two .187" female QD terminals on each, with enough wire between each to reach between the two relays and enough wire at one end to reach over to where the HV board will be installed. If you're using the DPST relay, then instead crimp a .25" QD terminal on one end of each of two 22 gauge wires. In either case, attach all of the appropriate QD terminals to the relay coils, leaving the free ends near where the HV board will be installed. If you're using two SPST relays, their coils must be wired in parallel.
-
-Mount the ground bar in its intended location on the top half of the mounting plate.
-
-Place the HV board in the top half and measure for drilling four new screw holes to mount it. Make sure the board is mounted as far away as possible from everything surrounding it. Drill four 1/8" holes and install the HV board using the mounting hardware and standoffs supplied for the purpose. The AC and relay test terminals should be mounted on the opposite end of the mounting plate as the ground bar.
+If you're not using the recommended SPST relays, then you will need to drill new holes to place a DPST relay (the recommended model is a TE T92P7D22-12. If you're using the two recommended SPST relays, then prepare two 22 gauge wires by crimping two .187" female QD terminals on each, with enough wire between each to reach between the two relays and enough wire at one end to reach over to where the HV board will be installed. If you're using the DPST relay, then instead crimp a .25" QD terminal on one end of each of two 22 gauge wires. In either case, attach all of the appropriate QD terminals to the relay coils, leaving the free ends near where the HV board will be installed. If you're using two SPST relays, their coils must be wired in parallel.
 
 Attach the relay wires to the relay terminal on the HV board.
-
-If your mounting plate is plastic, then connect a 22 gauge wire to a .25" QD terminal and install that on the ground terminal of the HV board. Connect the other end to the ground bus. If your mounting hardware and mounting plate are metal, you may omit this step. It is also recommended that you prepare a 16 gauge wire with a crimp ring terminal to install under one of the panel mounting screws with the other end also connected to the ground bar. This is intended to ground the metal chassis. If your chassis is plastic, you may omit this step.
-
-Mount the mounting plate inside your chassis using the screws provided. If you've prepared a grounding wire with a ring terminal, be sure to run one of the mounting screws through it.
 
 Prepare the AC cable by stripping 6 inches of its outer jacket and installing a cable gland. Trim the individual wires to the correct length and connect the ground wire to the ground bus and the other two wires to each of the two line side terminals on the fuse block. Take two lengths of wire trimmed from the AC cable sized to reach from the load side of the fuse terminal to the line side of the relay(s). Trim 3/8" of insulation off each end of each wire. Crimp a QD terminal on one end of each wire. Install the QD terminals on the line sides of the relay(s). Screw the other end of the large wires into the load side of the fuse blocks, matching the colors with the AC input wires.
 
