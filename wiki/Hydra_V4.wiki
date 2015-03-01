@@ -109,7 +109,7 @@ Make sure that the AC board is resting on a non-conductive surface and cannot to
 
 == Chassis assembly ==
 
-The recommended chassis for the Hydra is the Polycase WC-35, with the WX-34 internal mounting panel accessory. You will also need two CG-16 cable glands for the J1772 cables (possibly CG-17 if your J1772 cables are particularly large). If you're building the standalone variant, you'll need another CG-16 or CG-17 cable gland for the AC input cable as well as either a suitable plug or hard-wiring kit. If you're building the splitter variant, you'll need a J1772 inlet.
+The recommended chassis for the Hydra is the Polycase WC-35 (aka the Bud Industries PN-1335-C), with the WX-34 internal mounting panel accessory (Bud PNX-91435). You will also need two CG-16 (Bud NG-9516) cable glands for the J1772 cables (possibly CG-17 - Bud NG-9517 - if your J1772 cables are particularly large). If you're building the standalone variant, you'll need another CG-16 or CG-17 cable gland for the AC input cable as well as either a suitable plug or hard-wiring kit. If you're building the splitter variant, you'll need a J1772 inlet.
 
 If you're building the splitter variant, examine your inlet. If you do not see a resistor mounted between the ground pin and the proximity pin, then you must find the PROX_RES solder jumper on the component side of the logic board and use a bead of solder to short it closed.
 
