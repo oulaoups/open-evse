@@ -56,7 +56,7 @@ First, install the FFC connector for the mezzanine cable. Take careful note of t
 
 Next, install the board-mounted QD grounding terminal. Use a lot of solder to flood the entire pad and thoroughly heat both the pad and the connector to insure a solid connection. While doing this, use a pair of needle-nose pliers to hold the connector straight.
 
-Next, install the 3 1/2W flameproof resistors. For North American installations, all three will be 150K, but for 220V hot-neutral systems (basically just about everywhere outside of North America), you must use a 300K resistor for the ground impedance test series resistor. DO NOT use 150K on 220V hot-neutral electrical systems or you may burn out the current limiter! Note that 208/240V power in North America is hot-hot, and each hot line is 120V to ground, so 150K *is* the correct value.
+Next, install the 3 1/2W flameproof resistors. For North American installations, all three will be 150K, but for 220V hot-neutral-ground systems (basically just about everywhere outside of North America), you must use a 300K resistor for the ground impedance test series resistor. DO NOT use 150K on 220V hot-neutral-ground electrical systems or you may burn out the current limiter! Note that 208/240V power in North America is hot-hot, and each hot line is 120V to ground, so 150K *is* the correct value.
 
 Next, install the fuses. If you have the contactor board, then you have three fuses. Two are slow-blow fuses intended for the power supply, and the third is a normal fuse for the contactor. Two of the fuses, therefore, should have similar color and markings and should be easy to distinguish. The oddball fuse should be oriented 90 degrees different from the other two. If you have the contactor board, you will also have a MOV. It will look somewhat like a ceramic capacitor, but will be thicker and likely blue. Install this in the two holes immediately adjacent to the contactor terminal.
 
@@ -101,7 +101,7 @@ Place the mounting plate in the chassis and screw down each corner using the sup
 
 === Relay HV board steps ===
 
-Note that on the board, one of the relays is marked "HOT" and the other "NEUT." When wiring the AC line side, you should insure that you connect the hot and neutral lines to the correct relay. If you get this wrong, then the ground impedance test will fail. This only matters if you're using hot-neutral (as opposed to hot-ground) wiring, which means using it at L1 in North America or anywhere outside North America.
+Note that on the board, one of the relays is marked "HOT" and the other "NEUT." When wiring the AC line side, you should insure that you connect the hot and neutral lines to the correct relay. If you get this wrong, then the ground impedance test will fail. This only matters if you're using hot-neutral-ground (as opposed to hot-hot-ground) wiring, which means using it at L1 in North America or anywhere outside North America.
 
 Prepare the AC cable by stripping 6 inches of its outer jacket and installing a cable gland. Trim the individual wires to the correct length and crimp a .25" QD terminal on each hot line. Connect the ground wire of the AC cable to the ground bus. Connect the hot line to the LINE terminal of the HOT relay. Connect the neutral line to the LINE terminal of the NEUT relay. If you're only going to support North American L2 systems, then it doesn't matter which line connects to which relay.
 
