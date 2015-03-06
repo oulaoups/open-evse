@@ -54,6 +54,8 @@ If you used temporary nuts, then you can remove them at this point and attach th
 
 First, install the FFC connector for the mezzanine cable. Take careful note of the connector to locate the side which has the cable contacts. If you open the cable latch, the latch should swing away from the contacts. The side with the contacts should match the position of the arrowhead on the silkscreen. *Do not* install the FFC connector backwards!
 
+Next, for the external relay or contactor variant, you'll find 3 dual screw terminal blocks. Install them in the AC in, relay test and either the relay or contactor blocks. For the contactor variant, there is an MOV that installs in two holes immediately adjacent to the contactor terminal.
+
 Next, install the board-mounted QD grounding terminal. Use a lot of solder to flood the entire pad and thoroughly heat both the pad and the connector to insure a solid connection. While doing this, use a pair of needle-nose pliers to hold the connector straight.
 
 Next, install the 3 1/2W flameproof resistors. For North American installations, all three will be 150K, but for 220V hot-neutral-ground systems (basically just about everywhere outside of North America), you must use a 300K resistor for the ground impedance test series resistor. DO NOT use 150K on 220V hot-neutral-ground electrical systems or you may burn out the current limiter! Note that 208/240V power in North America is hot-hot-ground, and each hot line is 120V to ground, so 150K *is* the correct value.
@@ -61,6 +63,8 @@ Next, install the 3 1/2W flameproof resistors. For North American installations,
 Next, install the fuses. If you have the contactor board, then you have three fuses. Two are slow-blow fuses intended for the power supply, and the third is a normal fuse for the contactor. Two of the fuses, therefore, should have similar color and markings and should be easy to distinguish. The oddball fuse should be oriented 90 degrees different from the other two. If you have the contactor board, you will also have a MOV. It will look somewhat like a ceramic capacitor, but will be thicker and likely blue. Install this in the two holes immediately adjacent to the contactor terminal.
 
 Next, depending on which board you have, you will install either one or two electrolytic capacitors. If you have two, take careful note of which is which. The 120 µF cap is installed in the logic section, and the 4.7 µF 400V cap is installed in the HV section. *Be sure to carefully note the polarity of each*.
+
+For the internal relay variant, install the two relays. They should only fit in one way. Hold each relay flat against the board and solder one of the smaller pins. Check the relays positioning and that it's flat against the board and solder the remaining pins. Note that there will be an unused hole that may not have a corresponding relay pin.
 
 Lastly, install the power supply. It should only fit one way. Make sure it's flat against the board. Trim the pins after soldering them. They're a bit thick, so it takes some elbow grease.
 
