@@ -168,4 +168,4 @@ Connect each J1772 car cable in turn to a vehicle and charge for 15 minutes. *Do
 =Links=
   * [http://www.kfu.com/~nsayer/hydra/Hydra-EVSE-4_1.pdf EVSE logic/display board schematic]
   * [http://www.kfu.com/~nsayer/hydra/Hydra-split-4_1.pdf Splitter logic/display board schematic]
-  * [http://www.kfu.com/~nsyaer/hydra/Hydra-AC-4_2.pdf HV board schematic]
+  * [http://www.kfu.com/~nsayer/hydra/Hydra-AC-4_2.pdf HV board schematic]
