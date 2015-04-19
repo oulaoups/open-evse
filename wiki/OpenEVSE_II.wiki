@@ -91,7 +91,7 @@ Note the mounting hole dimensions for each of the different HV boards:
   * For the relay board, 3.2 x 2.7 inches
   * For the external relay board, 2.7 x 1.7 inches
 
-Start with the (plastic or metal) mounting plate that came with the chassis. Mark the four corners of a square for the mounting holes for the HV board. You need to arrange the board so that it is out of the way of the other components that will be mounted on the mounting plate - specifically the relay or contactor (if applicable), the fuse block (again, if applicable) and the ground bus. Drill the holes with a 1/8" drill bit.
+Start with the (plastic or metal) mounting plate that came with the chassis. Mark the four corners of a square for the mounting holes for the HV board. You need to arrange the board so that it is out of the way of the other components that will be mounted on the mounting plate - specifically the relay or contactor (if applicable), the fuse block (again, if applicable) and the ground bus. Note as well that the UI button extends downwards from its position in the lid a fair distance. Do not place HV components on the mounting plate so that they will wind up too close to the button and it's terminals. Drill the holes with a 1/8" drill bit.
 
 If you're going to use an external relay or contactor, then similarly mark and drill the appropriate mounting holes for it. Be sure to leave enough room around the contactor or relay to bend the AC and J1772 cables, including enough room to mount the two current transformers on the J1772 hot lines. Also, insure there's enough space for the QD terminals for the AC power, relay test and relay and/or contactor coil lines.
 
