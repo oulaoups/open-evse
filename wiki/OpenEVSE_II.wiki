@@ -192,10 +192,10 @@ The ground impedance / stuck relay test starts with the relay test terminals. Ea
 
 = Schematics =
 
-  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Logic_1_0.pdf Logic/display board v0.5]
-  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Ext_Relay_1_0.pdf HV+External Relay board v0.5]
-  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Relay_1_0.pdf HV+Relay board v0.5]
-  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Contactor_1_0.pdf HV+Contactor board v0.5]
+  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Logic_1_0.pdf Logic/display board v1.0]
+  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Ext_Relay_1_0.pdf HV+External Relay board v1.0]
+  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Relay_1_0.pdf HV+Relay board v1.0]
+  * [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_HV_Contactor_1_0.pdf HV+Contactor board v1.0]
 
 = Links =
 
