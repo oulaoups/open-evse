@@ -35,8 +35,8 @@
     * [http://groups.google.com/group/OpenEVSE OpenEVSE Forum]
   * *Support*
     * [http://store.openevse.com/pages/support Support]
-  * *Ordering*
-    * [Ordering Order OpenEVSE and kits]
+  * *Store*
+    * [http://store.openevse.com Store]
   * *Workshops*
     * [OpenEVSE_Workshop Socal OpenEVSE Workshop December 1,2012]
     * [Workshop_NOCAL Northern Ca OpenEVSE Workshop May 18, 2013]
