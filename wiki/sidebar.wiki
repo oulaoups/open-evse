@@ -1,7 +1,6 @@
 #summary Sidebar.
   
   * *OpenEVSE*
-    * [OpenEVSE_boards OpenEVSE boards]
     * [OpenEVSE_Compatibility Compatibility]
     * [theory_of_operation Theory of Operation]
     * [J1772Basics Basics of J1772] 
