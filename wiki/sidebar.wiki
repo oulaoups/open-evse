@@ -6,14 +6,11 @@
     * [theory_of_operation Theory of Operation]
     * [J1772Basics Basics of J1772] 
   * *Product Information - Build Guides*
-    * [OpenEVSE_Plus_spec Quick Kit - OpenEVSE PLUS]
-    * [OpenEVSE_LCD_spec Quick Kit - OpenEVSE LCD]
+    * [http://guides.openevse.com New Guides]
     * [OpenEVSE_DIY_Plus_spec DIY - OpenEVSE PLUS]
     * [OpenEVSE_DIY_30A DIY - OpenEVSE with 30A Relays]
     * [OpenEVSE_DIY_LCD_spec DIY - OpenEVSE LCD]
     * [OpenEVSE_shield_guide DIY - OpenEVSE Arduino Shield]
-    * [EVSimulator OpenEVSE EV Simulator]
-    * [30A_OpenEVSE Combo - 30A OpenEVSE]
   * *Users Guide*
     * [Users_Guide OpenEVSE Users Guide]
   * *Firmware*
@@ -22,8 +19,6 @@
     * [LoadingFirmware Load Firmware with Arduino IDE]
     * [AVRDUDE Load Firmware with AVRDude]
     * [AtmelStudio Load Firmware with Atmel Studio]
-  * *Frequently Asked Questions*
-    * [FAQ FAQ]
   * *How to...*
     * [MaxCurrent Set Default Current]
     * [How_to_Solder Solder]     
