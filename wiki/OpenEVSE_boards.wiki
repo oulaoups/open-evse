@@ -1,25 +1,26 @@
 #summary Comparison OpenEVSE boards.
 #labels Featured
 
-|| || Built || Quick Kit || 
-|| Picture ||http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7674_medium.jpg?186||http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7705_medium.jpg?186||
-|| || Built || Quick Kit  ||
-|| Build time (board) || N/A || 10 - 15 min || 
-|| Current HW version || OpenEVSE Plus v2 || OpenEVSE Plus v2 || 
+|| || Plus v2.5 || Plus v3 || 
+|| Picture ||http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7674_medium.jpg?186||http://cdn.shopify.com/s/files/1/0249/6207/products/IMG_7674_medium.jpg?||
+|| || Built || Built  ||
+|| Build time (board) || N/A || N/A || 
+|| Current HW version || OpenEVSE Plus v2.5 || OpenEVSE Plus v3 || 
 || Firmware || pre-loaded || pre-loaded || 
 || Power Supply || Integrated 4W || Integrated 4W || 
 || Input Voltage || 90 - 264AC @ 50 - 60hz ||  90 - 264AC @ 50 - 60hz || 
-|| Split Phase || Yes || Yes || 
+|| Relay coil|| 12v DC || 12vDC or 208-240vAC ||
+|| Split Phase || Yes || 208-240AC || 
 || 3 Phase || Yes || Yes || 
 || GFCI || Yes || Yes || 
 || Diode Check || Yes || Yes || 
-|| Ground/Stuck Relay Check || Yes || Yes || 
+|| Ground/Stuck Relay Check || 2 Hots || 1 Hot || 
 || Size || 2.2"x 1.75"x 1" || 2.2"x 1.75"x 1" || 
 || IO pins || I2C and FTDI || I2C and FTDI || 
 || Programmer || ISP || ISP || 
 || Serial ||  FTDI || FTDI || 
-|| Suited for || Most EVSEs || Builders who don't mind light soldering ||
-|| Price || $99 || $79 || 
+|| Suited for || L1 or L2 and International|| L2 and International ||
+|| Price || $74 || $74 || 
 
 = Safety features =
 
