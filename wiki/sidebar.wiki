@@ -26,9 +26,7 @@
     * [FAQ FAQ]
   * *How to...*
     * [MaxCurrent Set Default Current]
-    * [OpenEVSE_WiFi Add WiFi to OpenEVSE]
-    * [How_to_Solder Solder]   
-    * [30A_OpenEVSE 30A OpenEVSE Plus]  
+    * [How_to_Solder Solder]     
   * *Testing*
     * [EVSE_TESTING Testing your EVSE]
   * *Discussion - Forum*
