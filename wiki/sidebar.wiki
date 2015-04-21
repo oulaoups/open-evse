@@ -37,25 +37,7 @@
     * [http://store.openevse.com/pages/support Support]
   * *Store*
     * [http://store.openevse.com Store]
-  * *Workshops*
-    * [OpenEVSE_Workshop Socal OpenEVSE Workshop December 1,2012]
-    * [Workshop_NOCAL Northern Ca OpenEVSE Workshop May 18, 2013]
-    * [HackerDojo_workshop_2014 Bay Area Workshop, April 12, 2014]
-  * *Builders Project pictures/Logs*
-    * [Open_EVSEs EVSE Example Pictures]
-    * [AssemblePlusV2 30A EVSE by mrpilotron]
-    * [75AOpenEVSE 75A EVSE by mwolrich]
-    * [EVSE_LORDSn1per EVSE by Phillip Carlson]
-    * [EVSE_by_4Dolio 30A portable EVSE by 4Dolio]
-    * [EVSE_by_scutzi128 OpenEVSE 30A by Jacob Scutzlas]
-    * [EVSE_by_rbeebe OpenEVSE 30A DS enclosure by Rick Beebe]
-    * [EVSE_2_by_rbeebe OpenEVSE 30A OpenEVSE enclosure by Rick Beebe]
-    * [YetAnotherOpenEVSE Portable EVSE by nsayer]
-    * [MegaHydra The Mega-Hydra by nsayer]
-  * *Other related projects*
-    * [Hydra The J1772 Hydra]
-    * [EVSimMark2 EV Simulator, Mark II]
-    * [https://code.google.com/p/diy-openevse v4.2 DIY OpenEVSE project]
+
 
 
 
