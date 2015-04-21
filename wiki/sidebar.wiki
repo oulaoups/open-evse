@@ -34,7 +34,7 @@
   * *Discussion - Forum*
     * [http://groups.google.com/group/OpenEVSE OpenEVSE Forum]
   * *Support*
-    * [Support Need Help?]
+    * [http://store.openevse.com/pages/support Support]
   * *Ordering*
     * [Ordering Order OpenEVSE and kits]
   * *Workshops*
