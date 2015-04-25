@@ -19,7 +19,10 @@ The firmware used is the same OpenEVSE firmware. Be sure to compile the firmware
 Wiring is almost the same as traditional OpenEVSE. The only changes are the addition of an optional ammeter CT coil and the mezzanine cable connecting the two boards.
 
 [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Wiring_Relay.png]
-The wiring for the relay variant
+The wiring for the internal relay variant
+
+[http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Wiring_Ext_Relay.png]
+The wiring for the external relay variant
 
 [http://www.kfu.com/~nsayer/hydra/OpenEVSE_II_Wiring_Contactor.png]
 The wiring for the contactor or external relay variant
