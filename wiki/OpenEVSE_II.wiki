@@ -102,7 +102,7 @@ Attach the HV/Relay board to the mounting plate using the mounting hardware orig
 
 If your mounting plate is plastic, crimp a QD terminal onto a 12 gauge copper wire. Connect the QD terminal to the ground terminal on the HV board and the other end of the wire to the ground bus. If your mounting plate is metal, then you can skip this step as the metal mounting hardware should provide a sufficient electrical connection to ground via the mounting plate and ground bus.
 
-Similarly, if your mounting plate is plastic, crimp a spade or ring crimp terminal to a second 12 gauge wire and attach the loose end to the ground bus. The ring/spade terminal will go under one of the screws holding the panel into the chassis (this will ground the chassis. Do not omit this step! It is hazardous to leave the chassis ungrounded). If your chassis is plastic, then this step is not required.
+Similarly, if your mounting plate is plastic and chassis is metal, crimp a spade or ring crimp terminal to a second 12 gauge wire and attach the loose end to the ground bus. The ring/spade terminal will go under one of the screws holding the panel into the chassis (this will ground the chassis. Do not omit this step if your chassis is metal! It is hazardous to leave a metal chassis ungrounded). If your chassis is plastic, then this step is not required.
 
 Place the mounting plate in the chassis and screw down each corner using the supplied mounting hardware. Be sure to place the grounding ring/spade terminal under its intended screw, if applicable.
 
